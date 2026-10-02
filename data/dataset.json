@@ -1,0 +1,4576 @@
+[
+  {
+    "id": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "aliases": [],
+    "vendor": "Adobe",
+    "type": "图像与视频生成",
+    "website": "https://www.adobe.com/products/firefly.html",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/adobe-firefly.svg",
+    "vendor_id": "adobe",
+    "product_id": "adobe-firefly",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "aider",
+    "name": "Aider",
+    "aliases": [],
+    "vendor": "Aider-AI / Paul Gauthier",
+    "type": "AI 编程",
+    "website": "https://aider.chat",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/aider.svg",
+    "vendor_id": "aider-ai",
+    "product_id": "aider",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "jetbrains-air-ide",
+    "name": "Air in IDEs",
+    "aliases": [],
+    "vendor": "JetBrains",
+    "type": "AI 编程",
+    "website": "https://www.jetbrains.com/air/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/jetbrains-air.svg",
+    "vendor_id": "jetbrains",
+    "product_id": "jetbrains-air",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "jetbrains-air-web",
+    "name": "Air Teams",
+    "aliases": [],
+    "vendor": "JetBrains",
+    "type": "AI 编程",
+    "website": "https://www.jetbrains.com/air/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/jetbrains-air.svg",
+    "vendor_id": "jetbrains",
+    "product_id": "jetbrains-air",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "amp-cli",
+    "name": "Amp CLI",
+    "aliases": [],
+    "vendor": "Amp Frontier Corporation",
+    "type": "AI 编程",
+    "website": "https://ampcode.com",
+    "platforms": [
+      "macOS",
+      "Linux",
+      "Windows（WSL）"
+    ],
+    "icon": "icons/amp.svg",
+    "vendor_id": "amp-frontier",
+    "product_id": "amp",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "amp-web",
+    "name": "Amp Web",
+    "aliases": [],
+    "vendor": "Amp Frontier Corporation",
+    "type": "AI 编程",
+    "website": "https://ampcode.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/amp.svg",
+    "vendor_id": "amp-frontier",
+    "product_id": "amp",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "amp-mobile",
+    "name": "Amp（iOS / iPadOS）",
+    "aliases": [],
+    "vendor": "Amp Frontier Corporation",
+    "type": "AI 编程",
+    "website": "https://ampcode.com",
+    "platforms": [
+      "iOS",
+      "iPadOS"
+    ],
+    "icon": "icons/amp.svg",
+    "vendor_id": "amp-frontier",
+    "product_id": "amp",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "amp-desktop",
+    "name": "Amp（macOS）",
+    "aliases": [],
+    "vendor": "Amp Frontier Corporation",
+    "type": "AI 编程",
+    "website": "https://ampcode.com",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/amp.svg",
+    "vendor_id": "amp-frontier",
+    "product_id": "amp",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "antigravity-desktop",
+    "name": "Antigravity 2.0",
+    "aliases": [
+      "Antigravity"
+    ],
+    "vendor": "Google",
+    "type": "AI 编程",
+    "website": "https://antigravity.google",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/antigravity.svg",
+    "vendor_id": "google",
+    "product_id": "antigravity",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "antigravity-cli",
+    "name": "Antigravity CLI",
+    "aliases": [
+      "Antigravity"
+    ],
+    "vendor": "Google",
+    "type": "AI 编程",
+    "website": "https://antigravity.google",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/antigravity.svg",
+    "vendor_id": "google",
+    "product_id": "antigravity",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "antigravity-ide",
+    "name": "Antigravity IDE",
+    "aliases": [
+      "Antigravity"
+    ],
+    "vendor": "Google",
+    "type": "AI 编程",
+    "website": "https://antigravity.google",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/antigravity.svg",
+    "vendor_id": "google",
+    "product_id": "antigravity",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "anythingllm-web",
+    "name": "AnythingLLM Cloud / 自托管",
+    "aliases": [],
+    "vendor": "Mintplex Labs",
+    "type": "本地模型工具",
+    "website": "https://anythingllm.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/anythingllm.svg",
+    "vendor_id": "mintplex-labs",
+    "product_id": "anythingllm",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "anythingllm-desktop",
+    "name": "AnythingLLM Desktop",
+    "aliases": [],
+    "vendor": "Mintplex Labs",
+    "type": "本地模型工具",
+    "website": "https://anythingllm.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/anythingllm.svg",
+    "vendor_id": "mintplex-labs",
+    "product_id": "anythingllm",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "anythingllm-android",
+    "name": "AnythingLLM Mobile",
+    "aliases": [],
+    "vendor": "Mintplex Labs",
+    "type": "本地模型工具",
+    "website": "https://anythingllm.com",
+    "platforms": [
+      "Android"
+    ],
+    "icon": "icons/anythingllm.svg",
+    "vendor_id": "mintplex-labs",
+    "product_id": "anythingllm",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "augment-code-cli",
+    "name": "Auggie CLI",
+    "aliases": [
+      "Auggie"
+    ],
+    "vendor": "Augment Code",
+    "type": "AI 编程",
+    "website": "https://www.augmentcode.com",
+    "platforms": [
+      "macOS",
+      "Linux",
+      "Windows（WSL）"
+    ],
+    "icon": "icons/augment-code.svg",
+    "vendor_id": "augment-code",
+    "product_id": "augment-code",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "augment-code-web",
+    "name": "Augment Code Cloud Agents",
+    "aliases": [],
+    "vendor": "Augment Code",
+    "type": "AI 编程",
+    "website": "https://www.augmentcode.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/augment-code.svg",
+    "vendor_id": "augment-code",
+    "product_id": "augment-code",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "autoclaw",
+    "name": "AutoClaw",
+    "aliases": [
+      "澳龙",
+      "AutoClaw by AutoGLM"
+    ],
+    "vendor": "智谱 Z.ai",
+    "type": "通用任务 Agent",
+    "website": "https://autoclaw.z.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "zhipu",
+    "product_id": "autoclaw",
+    "interfaces": [
+      "GUI",
+      "IM"
+    ],
+    "edition": "国际版",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "autoclaw-cn",
+    "name": "AutoClaw 中国版",
+    "aliases": [
+      "澳龙",
+      "AutoClaw by AutoGLM"
+    ],
+    "vendor": "智谱 Z.ai",
+    "type": "通用任务 Agent",
+    "website": "https://autoclaw.zhipuai.cn/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "iOS",
+      "Android"
+    ],
+    "icon": "",
+    "vendor_id": "zhipu",
+    "product_id": "autoclaw",
+    "interfaces": [
+      "GUI",
+      "IM"
+    ],
+    "edition": "中国版",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "blackbox-ai",
+    "name": "Blackbox CLI",
+    "aliases": [
+      "BLACKBOX AI"
+    ],
+    "vendor": "BLACKBOX AI TECHNOLOGIES INC.",
+    "type": "AI 编程",
+    "website": "https://www.blackbox.ai/cli",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/blackbox-ai.svg",
+    "vendor_id": "blackbox",
+    "product_id": "blackbox-ai",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt",
+    "aliases": [
+      "Bolt.new"
+    ],
+    "vendor": "StackBlitz",
+    "type": "AI 应用构建",
+    "website": "https://bolt.new",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/bolt.svg",
+    "vendor_id": "stackblitz",
+    "product_id": "bolt",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "brave-leo",
+    "name": "Brave Leo",
+    "aliases": [],
+    "vendor": "Brave Software",
+    "type": "通用助手",
+    "website": "https://brave.com/leo/",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "iOS",
+      "Android"
+    ],
+    "icon": "icons/brave-leo.svg",
+    "vendor_id": "brave",
+    "product_id": "brave-leo",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "canva-ai",
+    "name": "Canva AI",
+    "aliases": [
+      "Canva Magic Studio",
+      "Magic Studio"
+    ],
+    "vendor": "Canva",
+    "type": "设计创作",
+    "website": "https://www.canva.com/canva-ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/canva-ai.svg",
+    "vendor_id": "canva",
+    "product_id": "canva-ai",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "aliases": [
+      "Chat GPT"
+    ],
+    "vendor": "OpenAI",
+    "type": "通用助手",
+    "website": "https://chatgpt.com/",
+    "platforms": [
+      "Web",
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android"
+    ],
+    "icon": "icons/chatgpt.svg",
+    "vendor_id": "openai",
+    "product_id": "chatgpt",
+    "interfaces": [
+      "Web",
+      "GUI",
+      "浏览器扩展"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "cherry-studio",
+    "name": "Cherry Studio",
+    "aliases": [
+      "CherryStudio"
+    ],
+    "vendor": "CherryHQ",
+    "type": "桌面AI客户端",
+    "website": "https://cherry-ai.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/cherry-studio.svg",
+    "vendor_id": "cherryhq",
+    "product_id": "cherry-studio",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "aliases": [],
+    "vendor": "Anthropic",
+    "type": "通用助手",
+    "website": "https://claude.ai/",
+    "platforms": [
+      "Web",
+      "Windows",
+      "macOS",
+      "Linux",
+      "iOS",
+      "Android",
+      "ChromeOS"
+    ],
+    "icon": "icons/claude.svg",
+    "vendor_id": "anthropic",
+    "product_id": "claude",
+    "interfaces": [
+      "Web",
+      "GUI",
+      "浏览器扩展"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "aliases": [],
+    "vendor": "Anthropic",
+    "type": "AI 编程",
+    "website": "https://code.claude.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/claude-code.svg",
+    "vendor_id": "anthropic",
+    "product_id": "claude-code",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "claude-code-ide",
+    "name": "Claude Code IDE 扩展",
+    "aliases": [],
+    "vendor": "Anthropic",
+    "type": "AI 编程",
+    "website": "https://code.claude.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/claude-code.svg",
+    "vendor_id": "anthropic",
+    "product_id": "claude-code",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "claude-code-web",
+    "name": "Claude Code Web",
+    "aliases": [],
+    "vendor": "Anthropic",
+    "type": "AI 编程",
+    "website": "https://code.claude.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/claude-code.svg",
+    "vendor_id": "anthropic",
+    "product_id": "claude-code",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "claude-code-desktop",
+    "name": "Claude Code（桌面）",
+    "aliases": [],
+    "vendor": "Anthropic",
+    "type": "AI 编程",
+    "website": "https://code.claude.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/claude-code.svg",
+    "vendor_id": "anthropic",
+    "product_id": "claude-code",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "cline-cli",
+    "name": "Cline CLI",
+    "aliases": [],
+    "vendor": "Cline Bot Inc.",
+    "type": "AI 编程",
+    "website": "https://cline.bot",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/cline.svg",
+    "vendor_id": "cline",
+    "product_id": "cline",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "cline-desktop",
+    "name": "Cline Desktop",
+    "aliases": [],
+    "vendor": "Cline Bot Inc.",
+    "type": "AI 编程",
+    "website": "https://cline.bot",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/cline.svg",
+    "vendor_id": "cline",
+    "product_id": "cline",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "cline",
+    "name": "Cline（IDE 扩展）",
+    "aliases": [],
+    "vendor": "Cline Bot Inc.",
+    "type": "AI 编程",
+    "website": "https://cline.bot",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/cline.svg",
+    "vendor_id": "cline",
+    "product_id": "cline",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "codebuddy-cli",
+    "name": "CodeBuddy Code CLI",
+    "aliases": [
+      "CodeBuddy Code"
+    ],
+    "vendor": "腾讯 Tencent",
+    "type": "AI 编程",
+    "website": "https://www.codebuddy.ai/docs/cli/quickstart",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/codebuddy.svg",
+    "vendor_id": "tencent",
+    "product_id": "codebuddy",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "codebuddy",
+    "name": "CodeBuddy IDE",
+    "aliases": [
+      "CodeBuddy",
+      "腾讯云代码助手"
+    ],
+    "vendor": "腾讯 Tencent",
+    "type": "AI 编程",
+    "website": "https://www.codebuddy.cn/ide/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/codebuddy.svg",
+    "vendor_id": "tencent",
+    "product_id": "codebuddy",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "codebuddy-ide-extension",
+    "name": "CodeBuddy（IDE 扩展）",
+    "aliases": [],
+    "vendor": "腾讯 Tencent",
+    "type": "AI 编程",
+    "website": "https://www.codebuddy.cn/setup/",
+    "platforms": [
+      "VS Code",
+      "JetBrains",
+      "Visual Studio",
+      "Xcode",
+      "Vim/Neovim",
+      "微信开发者工具"
+    ],
+    "icon": "icons/codebuddy.svg",
+    "vendor_id": "tencent",
+    "product_id": "codebuddy",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "中国版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "codeflicker",
+    "name": "CodeFlicker",
+    "aliases": [],
+    "vendor": "快手 Kuaishou",
+    "type": "AI IDE",
+    "website": "https://www.codeflicker.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/codeflicker.svg",
+    "vendor_id": "kuaishou",
+    "product_id": "codeflicker",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "codegeex",
+    "name": "CodeGeeX",
+    "aliases": [],
+    "vendor": "智谱 Z.ai",
+    "type": "AI 编程",
+    "website": "https://codegeex.cn/",
+    "platforms": [
+      "VS Code",
+      "JetBrains"
+    ],
+    "icon": "icons/codegeex.svg",
+    "vendor_id": "zhipu",
+    "product_id": "codegeex",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "coderabbit-web",
+    "name": "CodeRabbit",
+    "aliases": [],
+    "vendor": "CodeRabbit",
+    "type": "AI 代码审查",
+    "website": "https://www.coderabbit.ai",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/coderabbit.svg",
+    "vendor_id": "coderabbit",
+    "product_id": "coderabbit",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "coderabbit-cli",
+    "name": "CodeRabbit CLI",
+    "aliases": [],
+    "vendor": "CodeRabbit",
+    "type": "AI 代码审查",
+    "website": "https://www.coderabbit.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/coderabbit.svg",
+    "vendor_id": "coderabbit",
+    "product_id": "coderabbit",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "codex-cli",
+    "name": "Codex CLI",
+    "aliases": [],
+    "vendor": "OpenAI",
+    "type": "AI 编程",
+    "website": "https://openai.com/codex/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/codex.svg",
+    "vendor_id": "openai",
+    "product_id": "codex",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "codex-web",
+    "name": "Codex Cloud",
+    "aliases": [],
+    "vendor": "OpenAI",
+    "type": "AI 编程",
+    "website": "https://openai.com/codex/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/codex.svg",
+    "vendor_id": "openai",
+    "product_id": "codex",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "codex-ide",
+    "name": "Codex IDE 扩展",
+    "aliases": [],
+    "vendor": "OpenAI",
+    "type": "AI 编程",
+    "website": "https://openai.com/codex/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/codex.svg",
+    "vendor_id": "openai",
+    "product_id": "codex",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "codex-desktop",
+    "name": "Codex（ChatGPT 桌面内）",
+    "aliases": [],
+    "vendor": "OpenAI",
+    "type": "AI 编程",
+    "website": "https://openai.com/codex/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/codex.svg",
+    "vendor_id": "openai",
+    "product_id": "codex",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "copy-ai",
+    "name": "Copy.ai",
+    "aliases": [],
+    "vendor": "Copy.ai",
+    "type": "营销创作",
+    "website": "https://www.copy.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/copy-ai.svg",
+    "vendor_id": "copy-ai",
+    "product_id": "copy-ai",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "coze",
+    "name": "Coze",
+    "aliases": [
+      "扣子国际版"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "智能体与工作流",
+    "website": "https://www.coze.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/coze.svg",
+    "vendor_id": "bytedance",
+    "product_id": "coze",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "aliases": [],
+    "vendor": "Anysphere",
+    "type": "AI 编程",
+    "website": "https://cursor.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/cursor.svg",
+    "vendor_id": "anysphere",
+    "product_id": "cursor",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "cursor-cli",
+    "name": "Cursor CLI",
+    "aliases": [
+      "Cursor Agent"
+    ],
+    "vendor": "Anysphere",
+    "type": "AI 编程",
+    "website": "https://cursor.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/cursor.svg",
+    "vendor_id": "anysphere",
+    "product_id": "cursor",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "cursor-web",
+    "name": "Cursor Web",
+    "aliases": [],
+    "vendor": "Anysphere",
+    "type": "AI 编程",
+    "website": "https://cursor.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/cursor.svg",
+    "vendor_id": "anysphere",
+    "product_id": "cursor",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "aliases": [
+      "深度求索"
+    ],
+    "vendor": "DeepSeek",
+    "type": "通用助手",
+    "website": "https://chat.deepseek.com/",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "icon": "icons/deepseek.svg",
+    "vendor_id": "deepseek",
+    "product_id": "deepseek",
+    "interfaces": [
+      "Web",
+      "GUI"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "aliases": [],
+    "vendor": "Descript",
+    "type": "音视频编辑",
+    "website": "https://www.descript.com/",
+    "platforms": [
+      "Web",
+      "Windows",
+      "macOS"
+    ],
+    "icon": "icons/descript.svg",
+    "vendor_id": "descript",
+    "product_id": "descript",
+    "interfaces": [
+      "Web",
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "devin-web",
+    "name": "Devin Cloud",
+    "aliases": [
+      "Windsurf",
+      "Codeium"
+    ],
+    "vendor": "Cognition",
+    "type": "AI 编程",
+    "website": "https://devin.ai",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/devin.svg",
+    "vendor_id": "cognition",
+    "product_id": "devin",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "devin-desktop",
+    "name": "Devin Desktop",
+    "aliases": [
+      "Windsurf",
+      "Codeium"
+    ],
+    "vendor": "Cognition",
+    "type": "AI 编程",
+    "website": "https://devin.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/devin.svg",
+    "vendor_id": "cognition",
+    "product_id": "devin",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "dify",
+    "name": "Dify",
+    "aliases": [],
+    "vendor": "LangGenius",
+    "type": "智能体与工作流",
+    "website": "https://dify.ai/",
+    "platforms": [
+      "Web",
+      "Self-hosted"
+    ],
+    "icon": "icons/dify.svg",
+    "vendor_id": "langgenius",
+    "product_id": "dify",
+    "interfaces": [
+      "Web",
+      "GUI"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "dola",
+    "name": "Dola",
+    "aliases": [
+      "Cici"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "通用助手",
+    "website": "https://www.dola.com/chat/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "bytedance",
+    "product_id": "doubao",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "dreamina",
+    "name": "Dreamina",
+    "aliases": [
+      "即梦国际版"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "图像与视频生成",
+    "website": "https://dreamina.capcut.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "bytedance",
+    "product_id": "jimeng",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "duck-ai",
+    "name": "Duck.ai",
+    "aliases": [
+      "DuckDuckGo AI Chat"
+    ],
+    "vendor": "DuckDuckGo",
+    "type": "通用助手",
+    "website": "https://duck.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/duck-ai.svg",
+    "vendor_id": "duckduckgo",
+    "product_id": "duck-ai",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "aliases": [],
+    "vendor": "ElevenLabs",
+    "type": "语音音频",
+    "website": "https://elevenlabs.io/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/elevenlabs.svg",
+    "vendor_id": "elevenlabs",
+    "product_id": "elevenlabs",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "factory-droid-desktop",
+    "name": "Factory Desktop",
+    "aliases": [
+      "Droid"
+    ],
+    "vendor": "Factory",
+    "type": "AI 编程",
+    "website": "https://factory.com",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/factory-droid.svg",
+    "vendor_id": "factory",
+    "product_id": "factory-droid",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "factory-droid-cli",
+    "name": "Factory Droid CLI",
+    "aliases": [
+      "Droid"
+    ],
+    "vendor": "Factory",
+    "type": "AI 编程",
+    "website": "https://factory.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/factory-droid.svg",
+    "vendor_id": "factory",
+    "product_id": "factory-droid",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "factory-droid-web",
+    "name": "Factory Web",
+    "aliases": [
+      "Droid"
+    ],
+    "vendor": "Factory",
+    "type": "AI 编程",
+    "website": "https://factory.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/factory-droid.svg",
+    "vendor_id": "factory",
+    "product_id": "factory-droid",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "fastgpt",
+    "name": "FastGPT",
+    "aliases": [],
+    "vendor": "FastGPT",
+    "type": "知识库与工作流",
+    "website": "https://fastgpt.cn/",
+    "platforms": [
+      "Web",
+      "Self-hosted"
+    ],
+    "icon": "icons/fastgpt.svg",
+    "vendor_id": "fastgpt",
+    "product_id": "fastgpt",
+    "interfaces": [
+      "Web",
+      "GUI"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "fathom",
+    "name": "Fathom",
+    "aliases": [
+      "Fathom Video",
+      "Fathom AI Notetaker"
+    ],
+    "vendor": "Fathom",
+    "type": "会议转写",
+    "website": "https://www.fathom.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/fathom.svg",
+    "vendor_id": "fathom",
+    "product_id": "fathom",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "fireflies-ai",
+    "name": "Fireflies.ai",
+    "aliases": [
+      "Fireflies"
+    ],
+    "vendor": "Fireflies.ai",
+    "type": "会议转写",
+    "website": "https://fireflies.ai/",
+    "platforms": [
+      "Web",
+      "Desktop",
+      "iOS",
+      "Android",
+      "Chrome"
+    ],
+    "icon": "icons/fireflies-ai.svg",
+    "vendor_id": "fireflies-ai",
+    "product_id": "fireflies-ai",
+    "interfaces": [
+      "Web",
+      "GUI",
+      "浏览器扩展"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "aliases": [],
+    "vendor": "Gamma",
+    "type": "演示文稿",
+    "website": "https://gamma.app/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "gamma",
+    "product_id": "gamma",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "unavailable"
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "aliases": [
+      "Google Gemini",
+      "Bard"
+    ],
+    "vendor": "Google",
+    "type": "通用助手",
+    "website": "https://gemini.google.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/gemini.svg",
+    "vendor_id": "google",
+    "product_id": "gemini",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "gemini-cli",
+    "name": "Gemini CLI",
+    "aliases": [],
+    "vendor": "Google",
+    "type": "AI 编程",
+    "website": "https://geminicli.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/gemini-cli.svg",
+    "vendor_id": "google",
+    "product_id": "gemini-cli",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "gemini-code-assist",
+    "name": "Gemini Code Assist",
+    "aliases": [],
+    "vendor": "Google",
+    "type": "AI 编程",
+    "website": "https://codeassist.google",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/gemini-code-assist.svg",
+    "vendor_id": "google",
+    "product_id": "gemini-code-assist",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "gemini-notebook",
+    "name": "Gemini Notebook",
+    "aliases": [
+      "NotebookLM",
+      "Google NotebookLM"
+    ],
+    "vendor": "Google",
+    "type": "知识与笔记",
+    "website": "https://notebook.google/?hl=en-GB",
+    "platforms": [
+      "Web",
+      "Mobile"
+    ],
+    "icon": "icons/gemini-notebook.svg",
+    "vendor_id": "google",
+    "product_id": "gemini-notebook",
+    "interfaces": [
+      "Web",
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "github-copilot-desktop",
+    "name": "GitHub Copilot app",
+    "aliases": [],
+    "vendor": "Microsoft",
+    "type": "AI 编程",
+    "website": "https://github.com/features/copilot",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/github-copilot.svg",
+    "vendor_id": "microsoft",
+    "product_id": "github-copilot",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "github-copilot-cli",
+    "name": "GitHub Copilot CLI",
+    "aliases": [],
+    "vendor": "Microsoft",
+    "type": "AI 编程",
+    "website": "https://github.com/features/copilot",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/github-copilot.svg",
+    "vendor_id": "microsoft",
+    "product_id": "github-copilot",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot（IDE）",
+    "aliases": [],
+    "vendor": "Microsoft",
+    "type": "AI 编程",
+    "website": "https://github.com/features/copilot",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/github-copilot.svg",
+    "vendor_id": "microsoft",
+    "product_id": "github-copilot",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "github-copilot-web",
+    "name": "GitHub Copilot（Web）",
+    "aliases": [],
+    "vendor": "Microsoft",
+    "type": "AI 编程",
+    "website": "https://github.com/features/copilot",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/github-copilot.svg",
+    "vendor_id": "microsoft",
+    "product_id": "github-copilot",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "gitlab-duo",
+    "name": "GitLab Duo Agent Platform",
+    "aliases": [
+      "GitLab Duo"
+    ],
+    "vendor": "GitLab",
+    "type": "AI 编程",
+    "website": "https://about.gitlab.com/gitlab-duo-agent-platform/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/gitlab-duo.svg",
+    "vendor_id": "gitlab",
+    "product_id": "gitlab-duo",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "goose-cli",
+    "name": "goose CLI",
+    "aliases": [],
+    "vendor": "AAIF / Linux Foundation（源自 Block）",
+    "type": "AI 智能体",
+    "website": "https://goose-docs.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/goose.svg",
+    "vendor_id": "aaif",
+    "product_id": "goose",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "goose-desktop",
+    "name": "goose Desktop",
+    "aliases": [],
+    "vendor": "AAIF / Linux Foundation（源自 Block）",
+    "type": "AI 智能体",
+    "website": "https://goose-docs.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/goose.svg",
+    "vendor_id": "aaif",
+    "product_id": "goose",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "gpt4all",
+    "name": "GPT4All",
+    "aliases": [],
+    "vendor": "Nomic",
+    "type": "本地模型工具",
+    "website": "https://www.nomic.ai/gpt4all",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/gpt4all.svg",
+    "vendor_id": "nomic",
+    "product_id": "gpt4all",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "aliases": [],
+    "vendor": "Superhuman",
+    "type": "写作助手",
+    "website": "https://www.grammarly.com/",
+    "platforms": [
+      "Web",
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android"
+    ],
+    "icon": "icons/grammarly.svg",
+    "vendor_id": "superhuman",
+    "product_id": "grammarly",
+    "interfaces": [
+      "Web",
+      "GUI",
+      "浏览器扩展"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "greptile-web",
+    "name": "Greptile",
+    "aliases": [],
+    "vendor": "Tabnam, Inc. / Greptile",
+    "type": "AI 代码审查",
+    "website": "https://www.greptile.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/greptile.svg",
+    "vendor_id": "greptile",
+    "product_id": "greptile",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "greptile-cli",
+    "name": "Greptile CLI",
+    "aliases": [],
+    "vendor": "Tabnam, Inc. / Greptile",
+    "type": "AI 代码审查",
+    "website": "https://www.greptile.com",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "icon": "icons/greptile.svg",
+    "vendor_id": "greptile",
+    "product_id": "greptile",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "grok",
+    "name": "Grok",
+    "aliases": [],
+    "vendor": "xAI",
+    "type": "通用助手",
+    "website": "https://grok.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/grok.svg",
+    "vendor_id": "xai",
+    "product_id": "grok",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "heygen",
+    "name": "HeyGen",
+    "aliases": [],
+    "vendor": "HeyGen",
+    "type": "数字人视频",
+    "website": "https://www.heygen.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "heygen",
+    "product_id": "heygen",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "unavailable"
+  },
+  {
+    "id": "ideogram",
+    "name": "Ideogram",
+    "aliases": [],
+    "vendor": "Ideogram AI",
+    "type": "图像生成",
+    "website": "https://ideogram.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/ideogram.svg",
+    "vendor_id": "ideogram",
+    "product_id": "ideogram",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "ima",
+    "name": "ima",
+    "aliases": [
+      "ima.copilot",
+      "腾讯ima"
+    ],
+    "vendor": "腾讯 Tencent",
+    "type": "知识与笔记",
+    "website": "https://ima.qq.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/ima.svg",
+    "vendor_id": "tencent",
+    "product_id": "ima",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "jan-cli",
+    "name": "Jan Agent",
+    "aliases": [],
+    "vendor": "Menlo Research",
+    "type": "本地模型工具",
+    "website": "https://www.jan.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "menlo-research",
+    "product_id": "jan",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG"
+  },
+  {
+    "id": "jan-desktop",
+    "name": "Jan Desktop",
+    "aliases": [],
+    "vendor": "Menlo Research",
+    "type": "本地模型工具",
+    "website": "https://www.jan.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "menlo-research",
+    "product_id": "jan",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG"
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "aliases": [],
+    "vendor": "Jasper AI",
+    "type": "营销创作",
+    "website": "https://www.jasper.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/jasper.svg",
+    "vendor_id": "jasper",
+    "product_id": "jasper",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "jetbrains-ai",
+    "name": "JetBrains AI Assistant",
+    "aliases": [
+      "JetBrains AI"
+    ],
+    "vendor": "JetBrains",
+    "type": "AI 编程",
+    "website": "https://www.jetbrains.com/ai-ides/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "jetbrains",
+    "product_id": "jetbrains-ai",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG"
+  },
+  {
+    "id": "jules",
+    "name": "Jules",
+    "aliases": [],
+    "vendor": "Google",
+    "type": "AI 编程",
+    "website": "https://jules.google",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/jules.svg",
+    "vendor_id": "google",
+    "product_id": "jules",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "junie-cli",
+    "name": "Junie CLI",
+    "aliases": [],
+    "vendor": "JetBrains",
+    "type": "AI 编程",
+    "website": "https://junie.jetbrains.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/junie.svg",
+    "vendor_id": "jetbrains",
+    "product_id": "junie",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "junie-ide",
+    "name": "Junie（IDE）",
+    "aliases": [],
+    "vendor": "JetBrains",
+    "type": "AI 编程",
+    "website": "https://junie.jetbrains.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/junie.svg",
+    "vendor_id": "jetbrains",
+    "product_id": "junie",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "kagi-assistant",
+    "name": "Kagi Assistant",
+    "aliases": [],
+    "vendor": "Kagi",
+    "type": "AI 搜索",
+    "website": "https://help.kagi.com/kagi/ai/assistant.html",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/kagi-assistant.svg",
+    "vendor_id": "kagi",
+    "product_id": "kagi-assistant",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "kimi",
+    "name": "Kimi",
+    "aliases": [
+      "Kimi智能助手"
+    ],
+    "vendor": "月之暗面 Moonshot AI",
+    "type": "通用助手",
+    "website": "https://www.kimi.com/",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android",
+      "HarmonyOS",
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/kimi.svg",
+    "vendor_id": "moonshot",
+    "product_id": "kimi",
+    "interfaces": [
+      "Web",
+      "GUI"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "kimi-code-cli",
+    "name": "Kimi Code CLI",
+    "aliases": [
+      "Kimi CLI",
+      "Kimi Code"
+    ],
+    "vendor": "月之暗面 Moonshot AI",
+    "type": "AI 编程",
+    "website": "https://github.com/MoonshotAI/kimi-code",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/kimi-code.svg",
+    "vendor_id": "moonshot",
+    "product_id": "kimi-code",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "kimi-code-desktop",
+    "name": "Kimi Code Desktop",
+    "aliases": [],
+    "vendor": "月之暗面 Moonshot AI",
+    "type": "AI 编程",
+    "website": "https://www.kimi.com/code/docs/en/kimi-code-desktop/getting-started.html",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/kimi-code.svg",
+    "vendor_id": "moonshot",
+    "product_id": "kimi-code",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "kimi-code-ide",
+    "name": "Kimi Code for VS Code",
+    "aliases": [],
+    "vendor": "月之暗面 Moonshot AI",
+    "type": "AI 编程",
+    "website": "https://www.kimi.com/code/docs/en/kimi-code-for-vscode/core-operations.html",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/kimi-code.svg",
+    "vendor_id": "moonshot",
+    "product_id": "kimi-code",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "kimi-code-web",
+    "name": "Kimi Code Web（本地）",
+    "aliases": [],
+    "vendor": "月之暗面 Moonshot AI",
+    "type": "AI 编程",
+    "website": "https://www.kimi.com/code/docs/en/kimi-code-cli/guides/web.html",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/kimi-code.svg",
+    "vendor_id": "moonshot",
+    "product_id": "kimi-code",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "kiro-cli",
+    "name": "Kiro CLI",
+    "aliases": [
+      "Amazon Q Developer",
+      "Amazon Q Developer CLI"
+    ],
+    "vendor": "Amazon Web Services",
+    "type": "AI 编程",
+    "website": "https://kiro.dev",
+    "platforms": [
+      "macOS",
+      "Linux",
+      "Windows（WSL）"
+    ],
+    "icon": "icons/kiro.svg",
+    "vendor_id": "amazon",
+    "product_id": "kiro",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "kiro-ide",
+    "name": "Kiro IDE",
+    "aliases": [
+      "Amazon Q Developer",
+      "Amazon Q Developer CLI"
+    ],
+    "vendor": "Amazon Web Services",
+    "type": "AI 编程",
+    "website": "https://kiro.dev",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/kiro.svg",
+    "vendor_id": "amazon",
+    "product_id": "kiro",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "kiro-web",
+    "name": "Kiro Web",
+    "aliases": [
+      "Amazon Q Developer",
+      "Amazon Q Developer CLI"
+    ],
+    "vendor": "Amazon Web Services",
+    "type": "AI 编程",
+    "website": "https://kiro.dev",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/kiro.svg",
+    "vendor_id": "amazon",
+    "product_id": "kiro",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "leonardo-ai",
+    "name": "Leonardo.Ai",
+    "aliases": [
+      "Leonardo AI"
+    ],
+    "vendor": "Canva",
+    "type": "图像生成",
+    "website": "https://leonardo.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "canva",
+    "product_id": "leonardo-ai",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "unavailable"
+  },
+  {
+    "id": "liblib",
+    "name": "LiblibAI",
+    "aliases": [
+      "哩布哩布AI"
+    ],
+    "vendor": "LiblibAI",
+    "type": "图像生成",
+    "website": "https://www.liblib.art/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "liblib",
+    "product_id": "liblib",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "lm-studio",
+    "name": "LM Studio",
+    "aliases": [
+      "LMStudio"
+    ],
+    "vendor": "Element Labs, Inc.",
+    "type": "本地模型工具",
+    "website": "https://lmstudio.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/lm-studio.svg",
+    "vendor_id": "element-labs",
+    "product_id": "lm-studio",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "lm-studio-bionic",
+    "name": "LM Studio Bionic",
+    "aliases": [
+      "LMStudio",
+      "Bionic"
+    ],
+    "vendor": "Element Labs, Inc.",
+    "type": "本地模型工具",
+    "website": "https://lmstudio.ai",
+    "platforms": [
+      "Windows"
+    ],
+    "icon": "icons/lm-studio.svg",
+    "vendor_id": "element-labs",
+    "product_id": "lm-studio",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "lm-studio-cli",
+    "name": "LM Studio CLI（lms）",
+    "aliases": [
+      "LMStudio",
+      "lms"
+    ],
+    "vendor": "Element Labs, Inc.",
+    "type": "本地模型工具",
+    "website": "https://lmstudio.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/lm-studio.svg",
+    "vendor_id": "element-labs",
+    "product_id": "lm-studio",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "lovable-web",
+    "name": "Lovable",
+    "aliases": [],
+    "vendor": "Lovable",
+    "type": "AI 应用构建",
+    "website": "https://lovable.dev",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/lovable.svg",
+    "vendor_id": "lovable",
+    "product_id": "lovable",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "lovable-desktop",
+    "name": "Lovable Desktop",
+    "aliases": [],
+    "vendor": "Lovable",
+    "type": "AI 应用构建",
+    "website": "https://lovable.dev",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/lovable.svg",
+    "vendor_id": "lovable",
+    "product_id": "lovable",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "luma-dream-machine",
+    "name": "Luma Dream Machine",
+    "aliases": [
+      "Dream Machine",
+      "Luma AI Dream Machine"
+    ],
+    "vendor": "Luma AI",
+    "type": "视频生成",
+    "website": "https://lumalabs.ai/dream-machine",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/luma-dream-machine.svg",
+    "vendor_id": "luma-ai",
+    "product_id": "luma-dream-machine",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "maxclaw",
+    "name": "MaxClaw",
+    "aliases": [],
+    "vendor": "MiniMax",
+    "type": "通用任务 Agent",
+    "website": "https://agent.minimax.io/max-claw",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "minimax",
+    "product_id": "maxclaw",
+    "interfaces": [
+      "Web",
+      "IM"
+    ],
+    "edition": "国际版",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "maxclaw-cn",
+    "name": "MaxClaw 中国版",
+    "aliases": [],
+    "vendor": "MiniMax",
+    "type": "通用任务 Agent",
+    "website": "https://agent.minimaxi.com/max-claw",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "minimax",
+    "product_id": "maxclaw",
+    "interfaces": [
+      "Web",
+      "IM"
+    ],
+    "edition": "中国版",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "meta-ai",
+    "name": "Meta AI",
+    "aliases": [],
+    "vendor": "Meta",
+    "type": "通用助手",
+    "website": "https://www.meta.ai/",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "icon": "icons/meta-ai.svg",
+    "vendor_id": "meta",
+    "product_id": "meta-ai",
+    "interfaces": [
+      "Web",
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "microsoft-copilot",
+    "name": "Microsoft Copilot",
+    "aliases": [
+      "Bing Chat",
+      "Copilot"
+    ],
+    "vendor": "Microsoft",
+    "type": "通用助手",
+    "website": "https://copilot.microsoft.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/microsoft-copilot.svg",
+    "vendor_id": "microsoft",
+    "product_id": "microsoft-copilot",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "aliases": [],
+    "vendor": "Midjourney",
+    "type": "图像生成",
+    "website": "https://www.midjourney.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/midjourney.svg",
+    "vendor_id": "midjourney",
+    "product_id": "midjourney",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "minimax-agent",
+    "name": "MiniMax Agent",
+    "aliases": [],
+    "vendor": "MiniMax",
+    "type": "通用任务 Agent",
+    "website": "https://agent.minimax.io/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/minimax.svg",
+    "vendor_id": "minimax",
+    "product_id": "minimax-agent",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "已核验SVG · Lobe Icons（MiniMax 品牌）"
+  },
+  {
+    "id": "minimax-agent-cn",
+    "name": "MiniMax Agent 中国版",
+    "aliases": [],
+    "vendor": "MiniMax",
+    "type": "通用任务 Agent",
+    "website": "https://agent.minimaxi.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/minimax.svg",
+    "vendor_id": "minimax",
+    "product_id": "minimax-agent",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · Lobe Icons（MiniMax 品牌）"
+  },
+  {
+    "id": "minimax-code-cli",
+    "name": "MiniMax Code CLI",
+    "aliases": [
+      "mcode",
+      "MiniMax Code"
+    ],
+    "vendor": "MiniMax",
+    "type": "AI 编程",
+    "website": "https://github.com/MiniMax-AI/minimax-code",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/minimax-code.svg",
+    "vendor_id": "minimax",
+    "product_id": "minimax-code",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "minimax-code-desktop",
+    "name": "MiniMax Code Desktop",
+    "aliases": [
+      "MiniMax Code"
+    ],
+    "vendor": "MiniMax",
+    "type": "编程与通用 Agent",
+    "website": "https://agent.minimax.io/download",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/minimax-code.svg",
+    "vendor_id": "minimax",
+    "product_id": "minimax-code",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "mistral-vibe",
+    "name": "Mistral Vibe",
+    "aliases": [
+      "Le Chat",
+      "Mistral Le Chat",
+      "Vibe for work",
+      "Vibe for code"
+    ],
+    "vendor": "Mistral AI",
+    "type": "通用助手",
+    "website": "https://mistral.ai/products/vibe/",
+    "platforms": [
+      "Web",
+      "Terminal",
+      "VS Code",
+      "JetBrains",
+      "Zed"
+    ],
+    "icon": "icons/mistral-vibe.svg",
+    "vendor_id": "mistral-ai",
+    "product_id": "mistral-vibe",
+    "interfaces": [
+      "Web",
+      "CLI",
+      "IDE 扩展"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "msty",
+    "name": "Msty Studio",
+    "aliases": [
+      "Msty"
+    ],
+    "vendor": "CloudStack, LLC",
+    "type": "本地模型工具",
+    "website": "https://msty.ai/products/studio/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/msty.svg",
+    "vendor_id": "cloudstack",
+    "product_id": "msty",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "napkin-ai",
+    "name": "Napkin AI",
+    "aliases": [
+      "Napkin"
+    ],
+    "vendor": "Napkin AI",
+    "type": "图示创作",
+    "website": "https://www.napkin.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/napkin-ai.svg",
+    "vendor_id": "napkin-ai",
+    "product_id": "napkin-ai",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "aliases": [
+      "Notion AI Assistant"
+    ],
+    "vendor": "Notion",
+    "type": "办公助手",
+    "website": "https://www.notion.com/product/ai",
+    "platforms": [
+      "Web",
+      "Desktop",
+      "Mobile"
+    ],
+    "icon": "icons/notion-ai.svg",
+    "vendor_id": "notion",
+    "product_id": "notion-ai",
+    "interfaces": [
+      "Web",
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama CLI",
+    "aliases": [],
+    "vendor": "Ollama Inc.",
+    "type": "本地模型工具",
+    "website": "https://ollama.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/ollama.svg",
+    "vendor_id": "ollama",
+    "product_id": "ollama",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "ollama-desktop",
+    "name": "Ollama（桌面）",
+    "aliases": [],
+    "vendor": "Ollama Inc.",
+    "type": "本地模型工具",
+    "website": "https://ollama.com",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/ollama.svg",
+    "vendor_id": "ollama",
+    "product_id": "ollama",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "open-webui",
+    "name": "Open WebUI",
+    "aliases": [
+      "OpenWebUI",
+      "Ollama WebUI"
+    ],
+    "vendor": "Open WebUI",
+    "type": "本地模型工具",
+    "website": "https://openwebui.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/open-webui.svg",
+    "vendor_id": "open-webui",
+    "product_id": "open-webui",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "opencode",
+    "name": "OpenCode CLI",
+    "aliases": [],
+    "vendor": "Anomaly",
+    "type": "AI 编程",
+    "website": "https://opencode.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/opencode.svg",
+    "vendor_id": "anomaly",
+    "product_id": "opencode",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "opencode-desktop",
+    "name": "OpenCode Desktop",
+    "aliases": [],
+    "vendor": "Anomaly",
+    "type": "AI 编程",
+    "website": "https://opencode.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/opencode.svg",
+    "vendor_id": "anomaly",
+    "product_id": "opencode",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "opencode-ide",
+    "name": "OpenCode（IDE）",
+    "aliases": [],
+    "vendor": "Anomaly",
+    "type": "AI 编程",
+    "website": "https://opencode.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/opencode.svg",
+    "vendor_id": "anomaly",
+    "product_id": "opencode",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "openhands",
+    "name": "OpenHands",
+    "aliases": [
+      "OpenDevin"
+    ],
+    "vendor": "OpenHands",
+    "type": "AI 编程",
+    "website": "https://www.openhands.dev",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openhands.svg",
+    "vendor_id": "openhands",
+    "product_id": "openhands",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "otter-ai",
+    "name": "Otter.ai",
+    "aliases": [
+      "Otter",
+      "Otter Meeting Agent"
+    ],
+    "vendor": "Otter.ai",
+    "type": "会议转写",
+    "website": "https://otter.ai/",
+    "platforms": [
+      "Web",
+      "Desktop",
+      "iOS",
+      "Android",
+      "Chrome"
+    ],
+    "icon": "icons/otter-ai.svg",
+    "vendor_id": "otter-ai",
+    "product_id": "otter-ai",
+    "interfaces": [
+      "Web",
+      "GUI",
+      "浏览器扩展"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "aliases": [],
+    "vendor": "Perplexity AI",
+    "type": "AI 搜索",
+    "website": "https://www.perplexity.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/perplexity.svg",
+    "vendor_id": "perplexity-ai",
+    "product_id": "perplexity",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "pieces",
+    "name": "Pieces",
+    "aliases": [],
+    "vendor": "Mesh Intelligent Technologies, Inc.",
+    "type": "AI 智能体",
+    "website": "https://pieces.app",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/pieces.svg",
+    "vendor_id": "pieces",
+    "product_id": "pieces",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "pika",
+    "name": "Pika",
+    "aliases": [],
+    "vendor": "Pika",
+    "type": "视频生成",
+    "website": "https://pika.art/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/pika.svg",
+    "vendor_id": "pika",
+    "product_id": "pika",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "pinokio",
+    "name": "Pinokio",
+    "aliases": [],
+    "vendor": "Pinokio / pinokiocomputer",
+    "type": "本地模型工具",
+    "website": "https://desktop.pinokio.co",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "pinokio",
+    "product_id": "pinokio",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG"
+  },
+  {
+    "id": "pixverse",
+    "name": "PixVerse",
+    "aliases": [],
+    "vendor": "爱诗科技 AIsphere",
+    "type": "视频生成",
+    "website": "https://pixverse.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/pixverse.svg",
+    "vendor_id": "aisphere",
+    "product_id": "pixverse",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "poe",
+    "name": "Poe",
+    "aliases": [],
+    "vendor": "Quora",
+    "type": "通用助手",
+    "website": "https://poe.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/poe.svg",
+    "vendor_id": "quora",
+    "product_id": "poe",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "qclaw",
+    "name": "QClaw",
+    "aliases": [
+      "Tencent QClaw"
+    ],
+    "vendor": "腾讯 Tencent",
+    "type": "通用任务 Agent",
+    "website": "https://qclawsg.qq.com/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "tencent",
+    "product_id": "qclaw",
+    "interfaces": [
+      "GUI",
+      "IM"
+    ],
+    "edition": "国际版",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "qclaw-cn",
+    "name": "QClaw 中国版",
+    "aliases": [
+      "腾讯 QClaw"
+    ],
+    "vendor": "腾讯 Tencent",
+    "type": "通用任务 Agent",
+    "website": "https://qclaw.qq.com/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "tencent",
+    "product_id": "qclaw",
+    "interfaces": [
+      "GUI",
+      "IM"
+    ],
+    "edition": "中国版",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "qoder-cli",
+    "name": "Qoder CLI",
+    "aliases": [],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "AI 编程",
+    "website": "https://qoder.com/cli",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/qoder.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qoder",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "国际版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "qoder-cn-cli",
+    "name": "Qoder CN CLI",
+    "aliases": [
+      "Qoder CLI CN"
+    ],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "AI 编程",
+    "website": "https://docs.qoder.cn/cli/installation",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/qoder.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qoder",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "中国版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "lingma",
+    "name": "Qoder CN IDE",
+    "aliases": [
+      "通义灵码",
+      "Lingma",
+      "Lingma IDE",
+      "Qoder CN Desktop"
+    ],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "AI 编程",
+    "website": "https://qoder.cn/download",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/qoder.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qoder",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "中国版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "qoder-desktop-cn",
+    "name": "Qoder CN 桌面版",
+    "aliases": [],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "通用任务 Agent",
+    "website": "https://qoder.cn/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux",
+      "HarmonyOS"
+    ],
+    "icon": "icons/qoder.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qoder-desktop",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "qoder-cn-jetbrains",
+    "name": "Qoder CN（JetBrains 插件）",
+    "aliases": [],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "AI 编程",
+    "website": "https://qoder.cn/download",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/qoder.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qoder",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "中国版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "qoder-desktop",
+    "name": "Qoder Desktop",
+    "aliases": [],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "通用任务 Agent",
+    "website": "https://qoder.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux",
+      "HarmonyOS"
+    ],
+    "icon": "icons/qoder.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qoder-desktop",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "qoder",
+    "name": "Qoder IDE",
+    "aliases": [
+      "Qoder"
+    ],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "AI 编程",
+    "website": "https://qoder.com/download?product=ide",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/qoder.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qoder",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "qoder-work",
+    "name": "QoderWork",
+    "aliases": [],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "通用任务 Agent",
+    "website": "https://qoderwork.com/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/qoder.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qoder-work",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "qoder-work-cn",
+    "name": "QoderWork CN",
+    "aliases": [],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "通用任务 Agent",
+    "website": "https://qoder.cn/download",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/qoder.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qoder-work",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "qoder-jetbrains",
+    "name": "Qoder（JetBrains 插件）",
+    "aliases": [],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "AI 编程",
+    "website": "https://docs.qoder.com/plugins/quick-start",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/qoder.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qoder",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "国际版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "qodo",
+    "name": "Qodo",
+    "aliases": [
+      "CodiumAI",
+      "Qodo Merge"
+    ],
+    "vendor": "Qodo（原 CodiumAI）",
+    "type": "AI 代码审查",
+    "website": "https://www.qodo.ai",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/qodo.svg",
+    "vendor_id": "qodo",
+    "product_id": "qodo",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "quillbot",
+    "name": "QuillBot",
+    "aliases": [],
+    "vendor": "QuillBot / Learneo",
+    "type": "写作助手",
+    "website": "https://quillbot.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "learneo",
+    "product_id": "quillbot",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "unavailable"
+  },
+  {
+    "id": "qwen-chat",
+    "name": "Qwen Chat",
+    "aliases": [
+      "Qwen"
+    ],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "通用助手",
+    "website": "https://chat.qwen.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/qwen-chat.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qwen-chat",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "qwen-code-cli",
+    "name": "Qwen Code CLI",
+    "aliases": [
+      "Qwen Code"
+    ],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "AI 编程",
+    "website": "https://qwen.ai/qwencode",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/qwen-code.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qwen-code",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "qwen-code-desktop",
+    "name": "Qwen Code Desktop",
+    "aliases": [],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "AI 编程",
+    "website": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-latest",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/qwen-code.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qwen-code",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "qwen-code-web",
+    "name": "Qwen Code Web UI（本地）",
+    "aliases": [],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "AI 编程",
+    "website": "https://github.com/QwenLM/qwen-code",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/qwen-code.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qwen-code",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "qwen-code-ide",
+    "name": "Qwen Code（IDE 扩展）",
+    "aliases": [],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "AI 编程",
+    "website": "https://qwen.ai/qwencode",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/qwen-code.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qwen-code",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "recraft",
+    "name": "Recraft",
+    "aliases": [],
+    "vendor": "Recraft",
+    "type": "设计创作",
+    "website": "https://www.recraft.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/recraft.svg",
+    "vendor_id": "recraft",
+    "product_id": "recraft",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "replit-web",
+    "name": "Replit",
+    "aliases": [
+      "Replit Agent"
+    ],
+    "vendor": "Replit, Inc.",
+    "type": "AI 应用构建",
+    "website": "https://replit.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/replit.svg",
+    "vendor_id": "replit",
+    "product_id": "replit",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "replit-desktop",
+    "name": "Replit Desktop",
+    "aliases": [
+      "Replit Agent"
+    ],
+    "vendor": "Replit, Inc.",
+    "type": "AI 应用构建",
+    "website": "https://replit.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/replit.svg",
+    "vendor_id": "replit",
+    "product_id": "replit",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "replit-mobile",
+    "name": "Replit（移动端）",
+    "aliases": [
+      "Replit Agent"
+    ],
+    "vendor": "Replit, Inc.",
+    "type": "AI 应用构建",
+    "website": "https://replit.com",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "icon": "icons/replit.svg",
+    "vendor_id": "replit",
+    "product_id": "replit",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "aliases": [
+      "RunwayML"
+    ],
+    "vendor": "Runway",
+    "type": "视频生成",
+    "website": "https://runway.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/runway.svg",
+    "vendor_id": "runway",
+    "product_id": "runway",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "skywork",
+    "name": "Skywork",
+    "aliases": [
+      "Skywork AI"
+    ],
+    "vendor": "昆仑万维",
+    "type": "办公智能体",
+    "website": "https://skywork.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/skywork.svg",
+    "vendor_id": "kunlun",
+    "product_id": "skywork",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "aliases": [],
+    "vendor": "Suno",
+    "type": "音乐生成",
+    "website": "https://suno.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/suno.svg",
+    "vendor_id": "suno",
+    "product_id": "suno",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "aliases": [],
+    "vendor": "Synthesia",
+    "type": "数字人视频",
+    "website": "https://www.synthesia.io/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/synthesia.svg",
+    "vendor_id": "synthesia",
+    "product_id": "synthesia",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "tabby",
+    "name": "Tabby",
+    "aliases": [],
+    "vendor": "TabbyML",
+    "type": "AI 编程",
+    "website": "https://www.tabbyml.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/tabby.svg",
+    "vendor_id": "tabbyml",
+    "product_id": "tabby",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "trae",
+    "name": "TraeCode",
+    "aliases": [
+      "TRAE",
+      "TRAE SOLO 模式",
+      "TRAE国际版"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "AI 编程",
+    "website": "https://www.trae.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/trae.svg",
+    "vendor_id": "bytedance",
+    "product_id": "trae",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "trae-cn",
+    "name": "TraeCode 中国版",
+    "aliases": [
+      "TRAE",
+      "TRAE SOLO 模式",
+      "TRAE中国版"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "AI 编程",
+    "website": "https://www.trae.cn/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/trae-cn.svg",
+    "vendor_id": "bytedance",
+    "product_id": "trae",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "trae-work",
+    "name": "TraeWork",
+    "aliases": [
+      "TRAE Work",
+      "TRAE SOLO 独立版"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "通用任务 Agent",
+    "website": "https://www.trae.ai/work",
+    "platforms": [
+      "Web",
+      "macOS",
+      "Windows",
+      "iOS"
+    ],
+    "icon": "icons/trae.svg",
+    "vendor_id": "bytedance",
+    "product_id": "trae-work",
+    "interfaces": [
+      "Web",
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）"
+  },
+  {
+    "id": "trae-work-cn",
+    "name": "TraeWork 中国版",
+    "aliases": [
+      "TRAE Work",
+      "TRAE SOLO 独立版"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "通用任务 Agent",
+    "website": "https://work.trae.cn/",
+    "platforms": [
+      "Web",
+      "macOS",
+      "Windows",
+      "iOS",
+      "Android"
+    ],
+    "icon": "icons/trae.svg",
+    "vendor_id": "bytedance",
+    "product_id": "trae-work",
+    "interfaces": [
+      "Web",
+      "GUI"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）"
+  },
+  {
+    "id": "udio",
+    "name": "Udio",
+    "aliases": [],
+    "vendor": "Uncharted Labs",
+    "type": "音乐生成",
+    "website": "https://www.udio.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/udio.svg",
+    "vendor_id": "uncharted-labs",
+    "product_id": "udio",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "v0-web",
+    "name": "v0",
+    "aliases": [
+      "v0.dev"
+    ],
+    "vendor": "Vercel",
+    "type": "AI 应用构建",
+    "website": "https://v0.app",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/v0.svg",
+    "vendor_id": "vercel",
+    "product_id": "v0",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "v0-ios",
+    "name": "v0（iOS）",
+    "aliases": [
+      "v0.dev"
+    ],
+    "vendor": "Vercel",
+    "type": "AI 应用构建",
+    "website": "https://v0.app",
+    "platforms": [
+      "iOS"
+    ],
+    "icon": "icons/v0.svg",
+    "vendor_id": "vercel",
+    "product_id": "v0",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 图标库"
+  },
+  {
+    "id": "vidu",
+    "name": "Vidu",
+    "aliases": [
+      "生数科技Vidu"
+    ],
+    "vendor": "生数科技 ShengShu",
+    "type": "视频生成",
+    "website": "https://www.vidu.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/vidu.svg",
+    "vendor_id": "shengshu",
+    "product_id": "vidu",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "warp-cli",
+    "name": "Warp Agent CLI",
+    "aliases": [],
+    "vendor": "Warp",
+    "type": "AI 编程",
+    "website": "https://www.warp.dev",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "icon": "icons/warp.svg",
+    "vendor_id": "warp",
+    "product_id": "warp",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "warp-terminal",
+    "name": "Warp Terminal",
+    "aliases": [],
+    "vendor": "Warp",
+    "type": "AI 编程",
+    "website": "https://www.warp.dev",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/warp.svg",
+    "vendor_id": "warp",
+    "product_id": "warp",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "wordtune",
+    "name": "Wordtune",
+    "aliases": [],
+    "vendor": "AI21 Labs",
+    "type": "写作助手",
+    "website": "https://www.wordtune.com/",
+    "platforms": [
+      "Web",
+      "Chrome",
+      "Edge",
+      "Firefox"
+    ],
+    "icon": "icons/wordtune.svg",
+    "vendor_id": "ai21",
+    "product_id": "wordtune",
+    "interfaces": [
+      "Web",
+      "浏览器扩展"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "workbuddy",
+    "name": "WorkBuddy",
+    "aliases": [
+      "Tencent WorkBuddy"
+    ],
+    "vendor": "腾讯 Tencent",
+    "type": "通用任务 Agent",
+    "website": "https://www.workbuddy.ai/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/workbuddy.svg",
+    "vendor_id": "tencent",
+    "product_id": "workbuddy",
+    "interfaces": [
+      "GUI",
+      "IM"
+    ],
+    "edition": "国际版",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "workbuddy-cn",
+    "name": "WorkBuddy 中国版",
+    "aliases": [
+      "腾讯龙虾",
+      "Tencent WorkBuddy"
+    ],
+    "vendor": "腾讯 Tencent",
+    "type": "通用任务 Agent",
+    "website": "https://www.workbuddy.cn/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/workbuddy.svg",
+    "vendor_id": "tencent",
+    "product_id": "workbuddy",
+    "interfaces": [
+      "GUI",
+      "IM",
+      "小程序"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "wps-ai",
+    "name": "WPS AI",
+    "aliases": [],
+    "vendor": "金山办公 Kingsoft Office",
+    "type": "办公助手",
+    "website": "https://ai.wps.cn/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "kingsoft",
+    "product_id": "wps-ai",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "writesonic",
+    "name": "Writesonic",
+    "aliases": [],
+    "vendor": "Writesonic",
+    "type": "营销创作",
+    "website": "https://writesonic.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/writesonic.svg",
+    "vendor_id": "writesonic",
+    "product_id": "writesonic",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "zai-chat",
+    "name": "Z.ai Chat",
+    "aliases": [
+      "Z.ai"
+    ],
+    "vendor": "智谱 Z.ai",
+    "type": "通用助手",
+    "website": "https://chat.z.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/zai-chat.svg",
+    "vendor_id": "zhipu",
+    "product_id": "qingyan",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "zcode-desktop",
+    "name": "ZCode",
+    "aliases": [
+      "ZCode Agent"
+    ],
+    "vendor": "智谱 Z.ai",
+    "type": "AI 编程",
+    "website": "https://zcode.z.ai/en",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/zcode.svg",
+    "vendor_id": "zhipu",
+    "product_id": "zcode",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "zed",
+    "name": "Zed",
+    "aliases": [],
+    "vendor": "Zed Industries",
+    "type": "AI 编程",
+    "website": "https://zed.dev",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/zed.svg",
+    "vendor_id": "zed-industries",
+    "product_id": "zed",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "已验证 SVG · 官方素材"
+  },
+  {
+    "id": "wan",
+    "name": "万相",
+    "aliases": [
+      "通义万相",
+      "Wan"
+    ],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "图像与视频生成",
+    "website": "https://wan.video/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "alibaba",
+    "product_id": "wan",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "qianwen",
+    "name": "千问",
+    "aliases": [
+      "通义千问",
+      "通义",
+      "Qwen"
+    ],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "通用助手",
+    "website": "https://www.qianwen.com/",
+    "platforms": [
+      "Web",
+      "macOS",
+      "Windows",
+      "iOS",
+      "Android"
+    ],
+    "icon": "icons/qianwen.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qwen-chat",
+    "interfaces": [
+      "Web",
+      "GUI",
+      "浏览器扩展"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "qwenwork-desktop-cn",
+    "name": "千问办公桌面端",
+    "aliases": [
+      "QwenWork",
+      "千问办公客户端",
+      "千问办公"
+    ],
+    "vendor": "钉钉 DingTalk（阿里巴巴体系）",
+    "type": "通用任务 Agent",
+    "website": "https://qwenwork.cn/download",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux",
+      "HarmonyOS"
+    ],
+    "icon": "icons/qwenwork.svg",
+    "vendor_id": "dingtalk",
+    "product_id": "qwenwork",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "qwenwork-web-cn",
+    "name": "千问办公网页版",
+    "aliases": [
+      "QwenWork Web",
+      "千问办公 Web"
+    ],
+    "vendor": "钉钉 DingTalk（阿里巴巴体系）",
+    "type": "通用任务 Agent",
+    "website": "https://qwenwork.cn/signin",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/qwenwork.svg",
+    "vendor_id": "dingtalk",
+    "product_id": "qwenwork",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "codearts-agent-cli",
+    "name": "华为云码道 CodeArts Agent CLI",
+    "aliases": [
+      "码道CLI"
+    ],
+    "vendor": "华为 Huawei Cloud",
+    "type": "AI 编程",
+    "website": "https://codearts.huaweicloud.com/download.html",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "huawei",
+    "product_id": "codearts-agent",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "中国版",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "codearts-agent-ide",
+    "name": "华为云码道 CodeArts Agent IDE",
+    "aliases": [
+      "CodeArts Agent",
+      "华为云码道",
+      "码道IDE"
+    ],
+    "vendor": "华为 Huawei Cloud",
+    "type": "AI 编程",
+    "website": "https://codearts.huaweicloud.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux",
+      "HarmonyOS PC"
+    ],
+    "icon": "",
+    "vendor_id": "huawei",
+    "product_id": "codearts-agent",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "中国版",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "codearts-agent-ide-extension",
+    "name": "华为云码道（IDE 扩展）",
+    "aliases": [],
+    "vendor": "华为 Huawei Cloud",
+    "type": "AI 编程",
+    "website": "https://codearts.huaweicloud.com/download.html",
+    "platforms": [
+      "VS Code",
+      "JetBrains"
+    ],
+    "icon": "",
+    "vendor_id": "huawei",
+    "product_id": "codearts-agent",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "中国版",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "jimeng",
+    "name": "即梦AI",
+    "aliases": [
+      "Jimeng"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "图像与视频生成",
+    "website": "https://jimeng.jianying.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/jimeng.svg",
+    "vendor_id": "bytedance",
+    "product_id": "jimeng",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "kling",
+    "name": "可灵AI",
+    "aliases": [
+      "Kling AI"
+    ],
+    "vendor": "快手 Kuaishou",
+    "type": "图像与视频生成",
+    "website": "https://app.klingai.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/kling.svg",
+    "vendor_id": "kuaishou",
+    "product_id": "kling",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "miaohua",
+    "name": "商汤秒画",
+    "aliases": [
+      "SenseMirage",
+      "秒画"
+    ],
+    "vendor": "商汤科技 SenseTime",
+    "type": "图像生成",
+    "website": "https://miaohua.sensetime.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "sensetime",
+    "product_id": "miaohua",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "tiangong",
+    "name": "天工",
+    "aliases": [
+      "天工AI"
+    ],
+    "vendor": "昆仑万维",
+    "type": "办公智能体",
+    "website": "https://www.tiangong.cn/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/tiangong.svg",
+    "vendor_id": "kunlun",
+    "product_id": "skywork",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "get-biji",
+    "name": "得到大脑",
+    "aliases": [
+      "Get笔记",
+      "Get Notes"
+    ],
+    "vendor": "得到",
+    "type": "知识与笔记",
+    "website": "https://www.biji.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "dedao",
+    "product_id": "get-biji",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "coze-cn",
+    "name": "扣子",
+    "aliases": [
+      "Coze中国版"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "智能体与工作流",
+    "website": "https://www.coze.cn/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/coze-cn.svg",
+    "vendor_id": "bytedance",
+    "product_id": "coze",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "wenxin",
+    "name": "文心",
+    "aliases": [
+      "文心一言",
+      "ERNIE Bot"
+    ],
+    "vendor": "百度 Baidu",
+    "type": "通用助手",
+    "website": "https://wenxin.baidu.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/wenxin.svg",
+    "vendor_id": "baidu",
+    "product_id": "wenxin",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "comate",
+    "name": "文心快码",
+    "aliases": [
+      "Baidu Comate"
+    ],
+    "vendor": "百度 Baidu",
+    "type": "AI 编程",
+    "website": "https://comate.baidu.com/",
+    "platforms": [
+      "IDE"
+    ],
+    "icon": "",
+    "vendor_id": "baidu",
+    "product_id": "comate",
+    "interfaces": [
+      "GUI",
+      "IDE 扩展"
+    ],
+    "edition": "未确认",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "qingyan",
+    "name": "智谱清言",
+    "aliases": [
+      "ChatGLM",
+      "清言"
+    ],
+    "vendor": "智谱 Z.ai",
+    "type": "通用助手",
+    "website": "https://chatglm.cn/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/qingyan.svg",
+    "vendor_id": "zhipu",
+    "product_id": "qingyan",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "hailuo",
+    "name": "海螺AI",
+    "aliases": [
+      "Hailuo AI"
+    ],
+    "vendor": "MiniMax",
+    "type": "视频生成",
+    "website": "https://hailuoai.video/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/hailuo.svg",
+    "vendor_id": "minimax",
+    "product_id": "hailuo",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "baixiaoyi",
+    "name": "百小医",
+    "aliases": [
+      "百小应"
+    ],
+    "vendor": "百川智能 Baichuan",
+    "type": "健康信息助手",
+    "website": "https://yi.baichuan-ai.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "baichuan",
+    "product_id": "baixiaoyi",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "baidu-wenku",
+    "name": "百度文库",
+    "aliases": [
+      "Wenku"
+    ],
+    "vendor": "百度 Baidu",
+    "type": "办公助手",
+    "website": "https://wenku.baidu.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/baidu-wenku.svg",
+    "vendor_id": "baidu",
+    "product_id": "baidu-wenku",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "metaso",
+    "name": "秘塔AI搜索",
+    "aliases": [
+      "Metaso"
+    ],
+    "vendor": "秘塔科技",
+    "type": "AI 搜索",
+    "website": "https://metaso.cn/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/metaso.svg",
+    "vendor_id": "metaso",
+    "product_id": "metaso",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "gaoding",
+    "name": "稿定AI",
+    "aliases": [
+      "稿定设计"
+    ],
+    "vendor": "稿定科技 Gaoding",
+    "type": "设计创作",
+    "website": "https://www.gaoding.com/ai",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/gaoding.svg",
+    "vendor_id": "gaoding",
+    "product_id": "gaoding",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "nami",
+    "name": "纳米AI",
+    "aliases": [
+      "纳米AI搜索"
+    ],
+    "vendor": "三六零 360",
+    "type": "AI 搜索",
+    "website": "https://www.n.cn/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/nami.svg",
+    "vendor_id": "360",
+    "product_id": "nami",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "meitu-design",
+    "name": "美图设计室",
+    "aliases": [
+      "美图AI设计",
+      "DesignKit"
+    ],
+    "vendor": "美图 Meitu",
+    "type": "设计创作",
+    "website": "https://www.designkit.cn/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/meitu-design.svg",
+    "vendor_id": "meitu",
+    "product_id": "meitu-design",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "yuanbao",
+    "name": "腾讯元宝",
+    "aliases": [
+      "Yuanbao"
+    ],
+    "vendor": "腾讯 Tencent",
+    "type": "通用助手",
+    "website": "https://yuanbao.tencent.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/yuanbao.svg",
+    "vendor_id": "tencent",
+    "product_id": "yuanbao",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "iflywrite",
+    "name": "讯飞写作",
+    "aliases": [
+      "讯飞绘写"
+    ],
+    "vendor": "科大讯飞 iFLYTEK",
+    "type": "写作助手",
+    "website": "https://huixie.iflyrec.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "iflytek",
+    "product_id": "iflywrite",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "iflyrec",
+    "name": "讯飞听见",
+    "aliases": [
+      "iFLYREC"
+    ],
+    "vendor": "科大讯飞 iFLYTEK",
+    "type": "会议转写",
+    "website": "https://www.iflyrec.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "iflytek",
+    "product_id": "iflyrec",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "spark",
+    "name": "讯飞星火",
+    "aliases": [
+      "iFLYTEK Spark"
+    ],
+    "vendor": "科大讯飞 iFLYTEK",
+    "type": "通用助手",
+    "website": "https://xinghuo.xfyun.cn/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/spark.svg",
+    "vendor_id": "iflytek",
+    "product_id": "spark",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "doubao",
+    "name": "豆包",
+    "aliases": [
+      "Doubao"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "通用助手",
+    "website": "https://www.doubao.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/doubao.svg",
+    "vendor_id": "bytedance",
+    "product_id": "doubao",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "doubao-desktop",
+    "name": "豆包桌面端",
+    "aliases": [
+      "Doubao Desktop",
+      "豆包客户端",
+      "豆包电脑版",
+      "豆包工作"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "通用任务 Agent",
+    "website": "https://www.doubao.com/download/desktop",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/doubao.svg",
+    "vendor_id": "bytedance",
+    "product_id": "doubao",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "tingwu",
+    "name": "通义听悟",
+    "aliases": [
+      "Tongyi Tingwu"
+    ],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "会议转写",
+    "website": "https://tingwu.aliyun.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/tingwu.svg",
+    "vendor_id": "alibaba",
+    "product_id": "tingwu",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "dingtalk-wukong",
+    "name": "钉钉悟空",
+    "aliases": [
+      "阿里悟空",
+      "Wukong"
+    ],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "通用任务 Agent",
+    "website": "https://wukong.dingtalk.com/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "alibaba",
+    "product_id": "dingtalk-wukong",
+    "interfaces": [
+      "GUI",
+      "钉钉内嵌"
+    ],
+    "edition": "中国版",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "stepfun",
+    "name": "阶跃AI",
+    "aliases": [
+      "跃问",
+      "StepFun"
+    ],
+    "vendor": "阶跃星辰 StepFun",
+    "type": "通用助手",
+    "website": "https://chat.stepfun.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/stepfun.svg",
+    "vendor_id": "stepfun",
+    "product_id": "stepfun-chat",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · Lobe Icons"
+  }
+]

@@ -1,0 +1,3598 @@
+{
+  "chatgpt": {
+    "notes": "General assistant with search, writing, images and voice. Desktop and mobile distributions are interfaces of the same product; subscription tiers are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://chatgpt.com/",
+        "title": "ChatGPT: Chat, Work, Create & Code with AI"
+      },
+      {
+        "url": "https://chatgpt.com/download/",
+        "title": "Official ChatGPT desktop and mobile downloads"
+      },
+      {
+        "url": "https://chatgpt.com/cdn/assets/favicon-l4nq08hd.svg",
+        "title": "Official website asset — original SVG asset"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "claude": {
+    "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://claude.ai/",
+        "title": "Claude official product website"
+      },
+      {
+        "url": "https://claude.com/download",
+        "title": "Official Claude apps and extensions"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/claude-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "gemini": {
+    "notes": "Google consumer AI assistant, distinct from the Gemini model family and Gemini CLI. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://gemini.google.com/",
+        "title": "‎Google Gemini"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/gemini-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "microsoft-copilot": {
+    "notes": "Microsoft consumer Copilot assistant. Distinct from GitHub Copilot; Microsoft 365 subscription tiers are not separate entries here. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://copilot.microsoft.com/",
+        "title": "Microsoft Copilot"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/copilot-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "perplexity": {
+    "notes": "Answer and research application with web sources. Model choices and plan tiers are not counted as separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.perplexity.ai/",
+        "title": "Perplexity official product website"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/perplexity-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "grok": {
+    "notes": "xAI assistant at grok.com, distinct from xAI model versions. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://grok.com/",
+        "title": "Grok"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/grok.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "meta-ai": {
+    "notes": "Meta assistant. Official Meta newsroom documents standalone iOS/Android app and meta.ai; rollout availability varies by country and feature. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.meta.ai/",
+        "title": "Meta AI official product website"
+      },
+      {
+        "url": "https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/",
+        "title": "Meta introduces its iOS and Android app"
+      },
+      {
+        "url": "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/",
+        "title": "Meta AI app and web product update"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/metaai-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "mistral-vibe": {
+    "notes": "Official product page explicitly says Le Chat is now Vibe and describes work/chat and coding as one product. Le Chat and Vibe for code are not counted again. Uses the Mistral brand mark. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://mistral.ai/products/vibe/",
+        "title": "Mistral Vibe (formerly Le Chat) - AI chat and coding agent"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mistral-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "poe": {
+    "notes": "Multi-model AI chat application from Quora; individual hosted bots are not extra catalog products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://poe.com/",
+        "title": "Poe official product website"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/poe-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "gemini-notebook": {
+    "notes": "Official FAQ states NotebookLM became Gemini Notebook in July 2026; it remains the same standalone source-grounded research product across web and mobile. Uses current official favicon. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://notebook.google/?hl=en-GB",
+        "title": "Gemini Notebook | AI research tool and thinking partner"
+      },
+      {
+        "url": "https://workspaceupdates.googleblog.com/2026/07/notebooklm-now-gemini-notebook.html",
+        "title": "Official NotebookLM to Gemini Notebook announcement"
+      },
+      {
+        "url": "https://notebook.google/_/static/branding/v6/light_mode/favicon/favicon.svg",
+        "title": "Official website asset — original SVG asset"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "brave-leo": {
+    "notes": "Assistant built into the Brave browser. GUI means browser-integrated desktop/mobile UI, not a standalone Leo web service. Official Leo mark used, not Brave browser lion. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://brave.com/leo/",
+        "title": "Brave Leo AI | Brave"
+      },
+      {
+        "url": "https://brave.com/leo-icons/product-brave-leo.svg",
+        "title": "Official website asset — original SVG asset"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "duck-ai": {
+    "notes": "DuckDuckGo private AI chat product. Uses its official Duck.ai SVG favicon, not a generic generated placeholder. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://duck.ai/",
+        "title": "Duck.ai by DuckDuckGo. Private AI chat. Free."
+      },
+      {
+        "url": "https://duck.ai/favicon.svg",
+        "title": "Official website asset — original SVG asset"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "kagi-assistant": {
+    "notes": "Kagi conversational research assistant, accessed in the browser. Uses the Kagi brand mark. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://help.kagi.com/kagi/ai/assistant.html",
+        "title": "Kagi Assistant | Kagi's Docs"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/kagi.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "notion-ai": {
+    "notes": "AI workspace capabilities within Notion, including agents, enterprise search and meeting notes. Counted once; uses the Notion brand mark. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.notion.com/product/ai",
+        "title": "Meet your AI team | Notion"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/notion.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "grammarly": {
+    "notes": "AI writing application. Official company page says Grammarly remains the product name while the company is now Superhuman. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.grammarly.com/",
+        "title": "Grammarly: Free AI Writing Assistance"
+      },
+      {
+        "url": "https://www.grammarly.com/about",
+        "title": "Grammarly product and Superhuman company identity"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/grammarly.svg",
+        "title": "Simple Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+        "title": "Simple Icons CC0 license; brand trademarks retained"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "quillbot": {
+    "notes": "Writing, paraphrasing and creative AI toolkit. No trustworthy current SVG asset was obtained in this pass; no raster-to-SVG wrapper is supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://quillbot.com/",
+        "title": "QuillBot official product website"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "jasper": {
+    "notes": "AI marketing application and agent workspace. Logo is the downloadable/copyable inline SVG explicitly supplied by the official homepage. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.jasper.ai/",
+        "title": "Put AI agents to work for marketing | Jasper"
+      },
+      {
+        "url": "https://www.jasper.ai/",
+        "title": "Official homepage inline SVG logo — original SVG asset"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "copy-ai": {
+    "notes": "GTM AI workflow and marketing application. Official SVG wordmark supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.copy.ai/",
+        "title": "Future proof your business with GTM AI"
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/628288c5cd3e8411b90a36a4/6797ee68ae7908e605a9a4d0_copy_logo-all-dark.svg",
+        "title": "Official website asset — original SVG asset"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "writesonic": {
+    "notes": "Current site positions Writesonic as an AI-search growth platform with content agents and article writing; not only a text generator. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://writesonic.com/",
+        "title": "Writesonic | The AI Search Growth Engine. Win Customers."
+      },
+      {
+        "url": "https://writesonic.com/icon.svg?icon.0hdydehcy1ouj.svg",
+        "title": "Official website asset — original SVG asset"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "wordtune": {
+    "notes": "AI21 Labs writing and rewriting assistant. Official SVG wordmark supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.wordtune.com/",
+        "title": "Wordtune — Express yourself with confidence"
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/5f7e0f9d75fee6f6f546df46/6559d4e795abd345862d30ff_Group%201000007998.svg",
+        "title": "Official website asset — original SVG asset"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "canva-ai": {
+    "notes": "Canva international AI design product. Older /magic/ URL redirects to /canva-ai/. Counted once within the Canva product, not per Magic Studio feature. Uses Canva brand SVG from SVGL; no assertion about access in China. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.canva.com/canva-ai/",
+        "title": "Canva AI official product website"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/canva.svg",
+        "title": "SVGL brand library — original SVG asset"
+      },
+      {
+        "url": "https://github.com/pheralb/svgl/blob/main/LICENSE",
+        "title": "SVGL library MIT license; brand trademarks retained"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "adobe-firefly": {
+    "notes": "Adobe generative creative application for images and video; model versions are not separate apps. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.adobe.com/products/firefly.html",
+        "title": "Adobe Firefly - Free Generative AI for Creatives"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/adobefirefly-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "midjourney": {
+    "notes": "Image-generation application. Individual model releases and plan tiers are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.midjourney.com/",
+        "title": "Midjourney official product website"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/midjourney.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "leonardo-ai": {
+    "notes": "Canva-owned generative image and video application. No trustworthy current SVG logo was obtained in this pass; no raster conversion supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 原来源主体名称：Leonardo.Ai / Canva；目录按供应商主体归组。",
+    "sources": [
+      {
+        "url": "https://leonardo.ai/",
+        "title": "Leonardo.Ai official product website"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "ideogram": {
+    "notes": "Visual generative AI application; model releases are not separate product entries. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://ideogram.ai/",
+        "title": "Ideogram official product website"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/ideogram.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "recraft": {
+    "notes": "Generative design workspace including image and vector creation. Native SVG generation is a product feature, separate from its actual brand logo. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.recraft.ai/",
+        "title": "Recraft | AI for designers, creatives, sellers, and teams"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/recraft.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "runway": {
+    "notes": "Generative video and creative application. Official runwayml.com redirects to runway.com; both names are searchable aliases. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://runway.com/",
+        "title": "Runway | Building Real-World Intelligence"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/runway.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "pika": {
+    "notes": "AI video-generation application. Effect names and model versions are not counted as standalone apps. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://pika.art/",
+        "title": "Pika"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/pika.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "luma-dream-machine": {
+    "notes": "Luma AI image/video creative application. Official web quick-start confirms browser use. Distinct from underlying Ray model versions. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://lumalabs.ai/dream-machine",
+        "title": "Creative agents for creative professionals | Luma"
+      },
+      {
+        "url": "https://lumalabs.ai/learning-hub/web-quick-start",
+        "title": "Official Dream Machine web quick-start"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/dreammachine.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "synthesia": {
+    "notes": "AI business video and avatar platform. Uses official SVG wordmark. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.synthesia.io/",
+        "title": "Synthesia: #1 AI Video Platform for Business"
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d710/65eae689ace95f5017dc17a0_Logo-main.svg",
+        "title": "Official website asset — original SVG asset"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "heygen": {
+    "notes": "AI avatar video creation and translation application. Official site currently exposes PNG brand images; no verified genuine SVG acquired, so icon is intentionally empty. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.heygen.com/",
+        "title": "HeyGen: Create Realistic AI Videos of Yourself in Minutes"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "descript": {
+    "notes": "AI-assisted text-based audio/video editing application. Official download page lists macOS and Windows; web editor is also linked. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.descript.com/",
+        "title": "Descript: AI Video & Audio Text-based Editor — Try Free"
+      },
+      {
+        "url": "https://www.descript.com/download",
+        "title": "Official Descript macOS and Windows downloads"
+      },
+      {
+        "url": "https://static-cdn.descript.com/descript-website/images/descript-nav-logo-dark.svg",
+        "title": "Official website asset — original SVG asset"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "elevenlabs": {
+    "notes": "AI audio and voice creation platform. Voice models and individual voices are not cataloged as separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://elevenlabs.io/",
+        "title": "Free AI Voice Generator & Voice Agents Platform | ElevenLabs"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/elevenlabs.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "suno": {
+    "notes": "AI music-generation application. Subscription tiers and model versions are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://suno.com/",
+        "title": "Suno | AI Music Generator"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/suno.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "udio": {
+    "notes": "AI music-generation application from Uncharted Labs. Model versions are not separate apps. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.udio.com/",
+        "title": "Udio | AI Music Generator - Official Website"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/udio-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "otter-ai": {
+    "notes": "AI meeting recording, transcription and insights application. Homepage links desktop, iOS, Android and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://otter.ai/",
+        "title": "Otter Meeting Agent - AI Notetaker, Transcription, Insights"
+      },
+      {
+        "url": "https://otter.ai/",
+        "title": "Official homepage inline SVG logo — original SVG asset"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "fireflies-ai": {
+    "notes": "AI meeting and work assistant. Homepage explicitly documents web dashboard, desktop/mobile apps and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://fireflies.ai/",
+        "title": "Fireflies.ai | #1 AI Teammate for Meetings, Email, Chat & CRM"
+      },
+      {
+        "url": "https://fireflies.ai/_next/static/media/logo.4ae482a6.svg",
+        "title": "Official website asset — original SVG asset"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "fathom": {
+    "notes": "Fathom AI meeting notetaker. fathom.video redirects to fathom.ai. Uses actual official Fathom mark, not the unrelated Fathom analytics brand. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.fathom.ai/",
+        "title": "Fathom AI Notetaker - Never Take Notes Again"
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899da9beccbdbe92be49b5d/68e7961ff28d093095bdf392_logotype-new.svg",
+        "title": "Official website asset — original SVG asset"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "gamma": {
+    "notes": "AI presentation and website application at gamma.app. No verified genuine SVG obtained; unrelated Gamma hardware-store/telecom/crypto marks were rejected. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://gamma.app/",
+        "title": "Gamma official product website"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "napkin-ai": {
+    "notes": "Text-to-visual diagram and presentation application. Official SVG wordmark supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "sources": [
+      {
+        "url": "https://www.napkin.ai/",
+        "title": "Napkin AI - Turn Text into AI Diagrams and Visuals"
+      },
+      {
+        "url": "https://www.napkin.ai/assets/napkin-logo-2024.svg",
+        "title": "Official website asset — original SVG asset"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "deepseek": {
+    "notes": "仅统计 DeepSeek 聊天应用。官方另列 DeepSeek Harness 桌面产品，未混入本条。",
+    "sources": [
+      {
+        "url": "https://chat.deepseek.com/",
+        "title": "DeepSeek 官方网站"
+      },
+      {
+        "url": "https://www.deepseek.com/en/download/",
+        "title": "官方下载与平台支持"
+      },
+      {
+        "url": "https://fe-static.deepseek.com/chat/favicon.svg",
+        "title": "官方网站 SVG 标识"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "kimi": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://www.kimi.com/",
+        "title": "Kimi 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/kimi-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      },
+      {
+        "url": "https://www.kimi.com/en/products/download",
+        "title": "官方下载与平台支持"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "doubao": {
+    "sources": [
+      {
+        "url": "https://www.doubao.com/",
+        "title": "豆包 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/doubao-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      },
+      {
+        "url": "https://www.doubao.com/download/desktop",
+        "title": "豆包官方桌面下载页：工作模式、电脑与浏览器操作、AI 编辑和飞书联动"
+      }
+    ],
+    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。 本记录保留豆包网页版及原始 ID；官方桌面客户端单列 doubao-desktop，二者共用 product_id=doubao。桌面端新增工作模式有官方 Agent 能力证据，但不将其本地电脑操作能力默认赋给网页版。",
+    "verified_at": "2026-10-02"
+  },
+  "dola": {
+    "notes": "与豆包保守合并为同一产品家族计数；独立品牌入口，不主张账号或功能相同。官网及前端脚本中标识为PNG，未用其他产品图标或伪SVG代替。 原来源主体名称：字节跳动 / SPRING (SG) PTE. LTD.；目录按供应商主体归组。",
+    "sources": [
+      {
+        "url": "https://www.dola.com/chat/",
+        "title": "Dola 官方网站"
+      },
+      {
+        "url": "https://www.dola.com/legal/privacy/en",
+        "title": "Dola 官方隐私政策与运营主体"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "qianwen": {
+    "sources": [
+      {
+        "url": "https://www.qianwen.com/",
+        "title": "千问 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/qwen-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      },
+      {
+        "url": "https://www.qianwen.com/download",
+        "title": "千问官方客户端下载（官网配置列有 Windows、Mac 与移动端）"
+      },
+      {
+        "url": "https://qwenwork.cn/",
+        "title": "千问办公（QwenWork）官网：任务规划、交付与网页入口"
+      },
+      {
+        "url": "https://help.aliyun.com/zh/qwenwork/",
+        "title": "阿里云官方文档：千问办公定位与 qwenwork.cn 官方入口"
+      }
+    ],
+    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。 千问聊天仍为 qwen-chat 产品；独立的千问办公（QwenWork）使用 product_id=qwenwork，Qwen Code 使用 product_id=qwen-code，不因共用品牌或集团归并成同一产品。",
+    "verified_at": "2026-10-02"
+  },
+  "qwen-chat": {
+    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。",
+    "sources": [
+      {
+        "url": "https://chat.qwen.ai/",
+        "title": "Qwen Chat 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/qwen-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "yuanbao": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://yuanbao.tencent.com/",
+        "title": "腾讯元宝 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/yuanbao-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "qingyan": {
+    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。",
+    "sources": [
+      {
+        "url": "https://chatglm.cn/",
+        "title": "智谱清言 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/qingyan-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "zai-chat": {
+    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。",
+    "sources": [
+      {
+        "url": "https://chat.z.ai/",
+        "title": "Z.ai Chat 官方网站"
+      },
+      {
+        "url": "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+        "title": "官方网站 SVG 标识"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "wenxin": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://wenxin.baidu.com/",
+        "title": "文心 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/wenxin-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "spark": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://xinghuo.xfyun.cn/",
+        "title": "讯飞星火 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/spark-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "metaso": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://metaso.cn/",
+        "title": "官方网站 SVG 标识"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "nami": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://www.n.cn/",
+        "title": "纳米AI 官方网站"
+      },
+      {
+        "url": "https://s5.ssl.qhres2.com/static/1d036ee171d75707.svg",
+        "title": "官方网站 SVG 标识"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "tiangong": {
+    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。",
+    "sources": [
+      {
+        "url": "https://www.tiangong.cn/",
+        "title": "天工 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/tiangong-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "skywork": {
+    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。 原来源主体名称：昆仑万维 / SKYWORK AI PTE. LTD.；目录按供应商主体归组。",
+    "sources": [
+      {
+        "url": "https://skywork.ai/",
+        "title": "Skywork 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/skywork-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "stepfun": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://chat.stepfun.com/",
+        "title": "阶跃AI 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/stepfun-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "baixiaoyi": {
+    "notes": "未明确区分地区版本；不推断地域可用性。 原百小应网址现跳转百小医；仅收录产品，不提供医疗建议。",
+    "sources": [
+      {
+        "url": "https://yi.baichuan-ai.com/",
+        "title": "百小医 官方网站"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "jimeng": {
+    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。",
+    "sources": [
+      {
+        "url": "https://jimeng.jianying.com/",
+        "title": "即梦AI 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/jimeng-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "dreamina": {
+    "notes": "即梦的国际品牌入口；不主张账号互通。官网页首品牌标识为内嵌PNG，未用其他产品图标或伪SVG代替。",
+    "sources": [
+      {
+        "url": "https://dreamina.capcut.com/",
+        "title": "Dreamina 官方网站"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "kling": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://app.klingai.com/",
+        "title": "可灵AI 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/kling-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "hailuo": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://hailuoai.video/",
+        "title": "海螺AI 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/hailuo-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "vidu": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://www.vidu.com/",
+        "title": "Vidu 官方网站"
+      },
+      {
+        "url": "https://www.vidu.com/logo.svg",
+        "title": "官方网站 SVG 标识"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "pixverse": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://pixverse.ai/",
+        "title": "PixVerse 官方网站"
+      },
+      {
+        "url": "https://cdn.pixverse.ai/media/pixverse/favicon.svg",
+        "title": "官方网站 SVG 标识"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "wan": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://wan.video/",
+        "title": "万相 官方网站"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "liblib": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://www.liblib.art/",
+        "title": "LiblibAI 官方网站"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "tingwu": {
+    "notes": "未明确区分地区版本；不推断地域可用性。 原来源主体名称：阿里云 Alibaba Cloud；目录按供应商主体归组。",
+    "sources": [
+      {
+        "url": "https://tingwu.aliyun.com/",
+        "title": "官方网站 SVG 标识"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "wps-ai": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://ai.wps.cn/",
+        "title": "WPS AI 官方网站"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "iflyrec": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://www.iflyrec.com/",
+        "title": "讯飞听见 官方网站"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "gaoding": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://www.gaoding.com/ai",
+        "title": "稿定AI 官方网站"
+      },
+      {
+        "url": "https://www.gaoding.com/footer-logo.svg",
+        "title": "稿定官网页尾品牌SVG"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "meitu-design": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://www.designkit.cn/",
+        "title": "美图设计室 官方网站"
+      },
+      {
+        "url": "https://xiuxiu-pro-new.meitudata.com/poster/03757bbfe467e293e71e74d6e07c6a42.svg",
+        "title": "官方网站 SVG 标识"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "miaohua": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://miaohua.sensetime.com/",
+        "title": "商汤秒画 官方网站"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "ima": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://ima.qq.com/",
+        "title": "ima 官方网站"
+      },
+      {
+        "url": "https://fe-static.ima.myqcloud.com/ima/assets/chat/favicon.svg",
+        "title": "官方网站 SVG 标识"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "get-biji": {
+    "notes": "未明确区分地区版本；不推断地域可用性。 官网现使用“得到大脑”，旧品牌 Get笔记保留为别名。",
+    "sources": [
+      {
+        "url": "https://www.biji.com/",
+        "title": "得到大脑（原Get笔记）官方网站"
+      },
+      {
+        "url": "https://www.biji.com/docs/getnote/developer/index",
+        "title": "Get笔记官方使用指南"
+      },
+      {
+        "url": "https://doc.biji.com/docs/PydawiziAiDqxokurl4cSlyGnAu/",
+        "title": "得到大脑官方使用文档"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "coze-cn": {
+    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。",
+    "sources": [
+      {
+        "url": "https://www.coze.cn/",
+        "title": "扣子 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/coze.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "coze": {
+    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。",
+    "sources": [
+      {
+        "url": "https://www.coze.com/",
+        "title": "Coze 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/coze.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "dify": {
+    "notes": "未明确区分地区版本；不推断地域可用性。 中国创始团队、国际化产品；运营主体 LangGenius，不断言仅在中国运营。",
+    "sources": [
+      {
+        "url": "https://dify.ai/",
+        "title": "Dify 官方网站"
+      },
+      {
+        "url": "https://dify.ai/favicon.svg",
+        "title": "官方网站 SVG 标识"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "fastgpt": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://fastgpt.cn/",
+        "title": "FastGPT 官方网站"
+      },
+      {
+        "url": "https://fastgpt.cn/logo.svg",
+        "title": "官方网站 SVG 标识"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "trae-cn": {
+    "sources": [
+      {
+        "url": "https://www.trae.cn/",
+        "title": "TRAE 中国版 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/trae-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      },
+      {
+        "url": "https://www.trae.cn/download",
+        "title": "TRAE中国站官方产品与下载中心"
+      },
+      {
+        "url": "https://www.trae.cn/download",
+        "title": "TRAE官方下载中心明确区分TraeCode与TraeWork"
+      },
+      {
+        "url": "https://docs.trae.cn/ide_solo-mode",
+        "title": "TraeCode SOLO模式官方说明"
+      },
+      {
+        "url": "https://www.trae.ai/blog/trae_2025_yearly_review",
+        "title": "TRAE官方2025回顾：600万注册用户（历史厂商报告口径）"
+      }
+    ],
+    "notes": "保留既有id与product_id trae，采用当前产品名TraeCode。SOLO是编程产品内的Agent模式，不额外当成独立编程软件。旧SOLO独立工作端已演变为TraeWork，另行建档。官方2025回顾报告600万注册用户（历史口径，并非2026活跃用户）。",
+    "verified_at": "2026-10-02"
+  },
+  "trae": {
+    "sources": [
+      {
+        "url": "https://www.trae.ai/",
+        "title": "TRAE 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/trae-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      },
+      {
+        "url": "https://www.trae.ai/download",
+        "title": "官方下载中心（TraeCode）"
+      },
+      {
+        "url": "https://www.trae.ai/download",
+        "title": "TRAE官方下载中心明确区分TraeCode与TraeWork"
+      },
+      {
+        "url": "https://docs.trae.cn/ide_solo-mode",
+        "title": "TraeCode SOLO模式官方说明"
+      },
+      {
+        "url": "https://www.trae.ai/blog/trae_2025_yearly_review",
+        "title": "TRAE官方2025回顾：600万注册用户（历史厂商报告口径）"
+      }
+    ],
+    "notes": "保留既有id与product_id trae，采用当前产品名TraeCode。SOLO是编程产品内的Agent模式，不额外当成独立编程软件。旧SOLO独立工作端已演变为TraeWork，另行建档。官方2025回顾报告600万注册用户（历史口径，并非2026活跃用户）。",
+    "verified_at": "2026-10-02"
+  },
+  "qoder": {
+    "sources": [
+      {
+        "url": "https://qoder.com/",
+        "title": "Qoder 官方网站"
+      },
+      {
+        "url": "https://qoder.com/favIcon.svg",
+        "title": "官方网站 SVG 标识"
+      },
+      {
+        "url": "https://qoder.com/download",
+        "title": "Qoder官方下载中心与中国站入口"
+      },
+      {
+        "url": "https://qoder.com/download",
+        "title": "Qoder官方独立列出IDE、Desktop、CLI和JetBrains插件"
+      }
+    ],
+    "notes": "保留既有id；将原先混合IDE/CLI/插件的记录规范为IDE，CLI及JetBrains作为同product_id的形态记录。Qoder Desktop/原QoderWork通用工作台另行建档。",
+    "verified_at": "2026-10-02"
+  },
+  "codebuddy": {
+    "sources": [
+      {
+        "url": "https://www.codebuddy.cn/",
+        "title": "CodeBuddy 官方网站"
+      },
+      {
+        "url": "https://download.codebuddy.cn/web/website/a156fee78f35e874d407848198e5f96a4cf383ef/assets/logo.svg",
+        "title": "官方网站 SVG 标识"
+      },
+      {
+        "url": "https://www.codebuddy.cn/docs/cli/installation",
+        "title": "CodeBuddy Code 官方CLI安装与平台支持"
+      },
+      {
+        "url": "https://www.codebuddy.cn/docs/cli/quickstart",
+        "title": "CodeBuddy 国内与国际站认证"
+      },
+      {
+        "url": "https://www.codebuddy.cn/ide/",
+        "title": "CodeBuddy IDE官方原生Agent开发工作流"
+      }
+    ],
+    "notes": "保留既有id，将原先混合GUI/CLI/插件的记录拆为明确形态；共用codebuddy product_id，不将形态计作新产品。IDE官网说明可由需求自动生成PRD、原型及前后端代码并部署。",
+    "verified_at": "2026-10-02"
+  },
+  "lingma": {
+    "sources": [
+      {
+        "url": "https://lingma.aliyun.com/",
+        "title": "通义灵码 官方网站"
+      },
+      {
+        "url": "https://lingma.aliyun.com/download",
+        "title": "官方IDE下载：macOS、Windows、Linux；JetBrains插件"
+      },
+      {
+        "url": "https://docs.qoder.cn/user-guide/what-is-qoder-cn",
+        "title": "官方改名说明：通义灵码于2026-05-20更名Qoder CN"
+      },
+      {
+        "url": "https://qoder.cn/download",
+        "title": "Qoder CN官方下载中心与各平台"
+      },
+      {
+        "url": "https://qoder.com/favIcon.svg",
+        "title": "Qoder 官方SVG标识"
+      }
+    ],
+    "notes": "保留既有id lingma。官方说明通义灵码于2026-05-20更名Qoder CN，Lingma IDE与Qoder CN Desktop是同一IDE的旧称。中国站和国际站均按Qoder product_id归组，避免更名重复计数。IDE平台按当前下载页，含Linux；较旧兼容说明与下载页不一致。VS Code插件已停止维护，故新形态仅列当前JetBrains插件。",
+    "verified_at": "2026-10-02"
+  },
+  "codegeex": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://codegeex.cn/",
+        "title": "CodeGeeX 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/codegeex-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      },
+      {
+        "url": "https://github.com/zai-org/CodeGeeX",
+        "title": "智谱官方仓库：VS Code与JetBrains扩展"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "comate": {
+    "sources": [
+      {
+        "url": "https://comate.baidu.com/",
+        "title": "文心快码 官方网站"
+      },
+      {
+        "url": "https://comate.baidu.com/zh/download",
+        "title": "百度文心快码官方下载"
+      },
+      {
+        "url": "https://comate.baidu.com/docs/IDE功能/智能体/概览/",
+        "title": "文心快码官方Agent概览：自动规划执行、端到端代码任务"
+      }
+    ],
+    "notes": "文心快码提供Zulu等编程智能体，官方文档明确支持代码库检索、端到端生成、技术规划、测试、评审和问题修复；适合中国厂商Agent筛选。既有插件/IDE聚合记录暂不额外拆分，避免未证实平台与重复计数。",
+    "verified_at": "2026-10-02"
+  },
+  "codeflicker": {
+    "sources": [
+      {
+        "url": "https://www.codeflicker.ai/",
+        "title": "CodeFlicker 官方网站"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/codeflicker-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      },
+      {
+        "url": "https://www.codeflicker.ai/download",
+        "title": "CodeFlicker官方下载与应用平台元数据"
+      },
+      {
+        "url": "https://www.codeflicker.ai/",
+        "title": "官网HTML SoftwareApplication结构化元数据：Autonomous Coding Agent"
+      },
+      {
+        "url": "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-technology-announces-fourth-quarter-and-full-year-2025",
+        "title": "快手官方2025业绩：CodeFlicker是研发日常核心工具"
+      }
+    ],
+    "notes": "官方页面结构化元数据明确说明Autonomous Coding Agent，可完成工程级代码修改，适合中国厂商Agent筛选。快手2025业绩公告报告该工具已成为内部研发日常核心工具；此为内部采用证据，不代表公开MAU。MyFlicker是后续内部通用Agent，未混作同一公开软件。",
+    "verified_at": "2026-10-02"
+  },
+  "iflywrite": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://huixie.iflyrec.com/",
+        "title": "讯飞写作 官方网站"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "baidu-wenku": {
+    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "sources": [
+      {
+        "url": "https://wenku.baidu.com/",
+        "title": "百度文库 官方网站"
+      },
+      {
+        "url": "https://edu-wenku.bdimg.com/v1/pc/2026PC/favicon.svg",
+        "title": "官方网站 SVG 标识"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "cherry-studio": {
+    "notes": "开源多模型桌面AI客户端；供应方为CherryHQ，所接入模型的厂商不是本应用供应方。未明确区分地区版本。",
+    "sources": [
+      {
+        "url": "https://cherry-ai.com/",
+        "title": "Cherry Studio 官方网站"
+      },
+      {
+        "url": "https://github.com/CherryHQ/cherry-studio",
+        "title": "CherryHQ 官方开源仓库与支持平台"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/cherrystudio-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "cursor-cli": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://cursor.com/download",
+        "title": "Cursor · Download Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple"
+      },
+      {
+        "url": "https://cursor.com/terms-of-service",
+        "title": "Cursor Terms · Anysphere vendor"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/cursor.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://cursor.com/docs/cli/installation",
+        "title": "CLI Installation | Cursor Docs Cursor Logo Cursor Logo"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "cursor-web": {
+    "notes": "浏览器中的云端智能体",
+    "sources": [
+      {
+        "url": "https://cursor.com/download",
+        "title": "Cursor · Download Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple"
+      },
+      {
+        "url": "https://cursor.com/terms-of-service",
+        "title": "Cursor Terms · Anysphere vendor"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/cursor.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "claude-code-desktop": {
+    "notes": "Claude 桌面应用内的 Code 工作区；Linux 为 Ubuntu/Debian beta，不是独立于 Claude 的新产品",
+    "sources": [
+      {
+        "url": "https://code.claude.com/docs/en/overview",
+        "title": "Overview - Claude Code Docs"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/claudecode-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "claude-code-ide": {
+    "notes": "VS Code 与 JetBrains；后者依赖单独安装 CLI",
+    "sources": [
+      {
+        "url": "https://code.claude.com/docs/en/overview",
+        "title": "Overview - Claude Code Docs"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/claudecode-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "claude-code-web": {
+    "notes": "claude.ai/code；移动端也能访问云端会话",
+    "sources": [
+      {
+        "url": "https://code.claude.com/docs/en/overview",
+        "title": "Overview - Claude Code Docs"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/claudecode-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "gemini-cli": {
+    "notes": "2026-06-18 起免费及 Google AI Pro/Ultra 消费者服务迁至 Antigravity；Standard/Enterprise 和付费 API key 仍受支持",
+    "sources": [
+      {
+        "url": "https://geminicli.com",
+        "title": "Build, debug & deploy with AI | Gemini CLI"
+      },
+      {
+        "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
+        "title": "\n            \n            An important update: Transitioning Gemini CLI to Antigravity CLI\n            \n            \n            - Google Developers Blog\n            \n        "
+      },
+      {
+        "url": "https://geminicli.com/docs/get-started/installation/",
+        "title": "Gemini CLI installation, execution, and releases | Gemini CLI"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/geminicli-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "github-copilot-cli": {
+    "notes": " 原来源主体名称：GitHub / Microsoft；目录按供应商主体归组。",
+    "sources": [
+      {
+        "url": "https://github.com/features/copilot",
+        "title": "GitHub Copilot · Your AI coding agent · GitHub Duolingo FedEx American Airlines Shopify Stripe CocaCola Coyote Logistics Mercado Libre General Motors Duolingo FedEx American Airlines Shopify Stripe CocaCola Coyote Logistics Mercado Libre General Motors GitHub Visual Studio VS Code Xcode JetBrains Neovim Eclipse IDE Raycast"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/githubcopilot.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://github.com/features/copilot/cli",
+        "title": "GitHub Copilot CLI · GitHub"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "github-copilot-desktop": {
+    "notes": " 原来源主体名称：GitHub / Microsoft；目录按供应商主体归组。",
+    "sources": [
+      {
+        "url": "https://github.com/features/copilot",
+        "title": "GitHub Copilot · Your AI coding agent · GitHub Duolingo FedEx American Airlines Shopify Stripe CocaCola Coyote Logistics Mercado Libre General Motors Duolingo FedEx American Airlines Shopify Stripe CocaCola Coyote Logistics Mercado Libre General Motors GitHub Visual Studio VS Code Xcode JetBrains Neovim Eclipse IDE Raycast"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/githubcopilot.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://github.com/features/ai/github-app",
+        "title": "GitHub Copilot app · GitHub"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "github-copilot-web": {
+    "notes": "GitHub 网页聊天、智能体与代码审查入口 原来源主体名称：GitHub / Microsoft；目录按供应商主体归组。",
+    "sources": [
+      {
+        "url": "https://github.com/features/copilot",
+        "title": "GitHub Copilot · Your AI coding agent · GitHub Duolingo FedEx American Airlines Shopify Stripe CocaCola Coyote Logistics Mercado Libre General Motors Duolingo FedEx American Airlines Shopify Stripe CocaCola Coyote Logistics Mercado Libre General Motors GitHub Visual Studio VS Code Xcode JetBrains Neovim Eclipse IDE Raycast"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/githubcopilot.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "cline-cli": {
+    "notes": "含可选本地浏览器 Kanban 视图",
+    "sources": [
+      {
+        "url": "https://cline.bot",
+        "title": "Cline - AI Coding, Open Source and Open Choice"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/cline.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://cline.bot/cli",
+        "title": "Cline CLI - Coding Agents in Your Terminal and on a Kanban Board"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "cline-desktop": {
+    "notes": "官网已提供 macOS、Windows、Linux 桌面版",
+    "sources": [
+      {
+        "url": "https://cline.bot",
+        "title": "Cline - AI Coding, Open Source and Open Choice"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/cline.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "zed": {
+    "notes": "原生编辑器，内置智能体、行内辅助与编辑预测；CLI 仅启动入口，不另计产品",
+    "sources": [
+      {
+        "url": "https://zed.dev",
+        "title": "Official website header logo · extracted unchanged inline SVG"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "ollama-desktop": {
+    "notes": "官方聊天 GUI；Linux 不据 CLI 支持推断为拥有该 GUI",
+    "sources": [
+      {
+        "url": "https://ollama.com",
+        "title": "Ollama"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/ollama.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://ollama.com/blog/new-app",
+        "title": "Ollama's new app · Ollama Blog"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "lm-studio-cli": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://lmstudio.ai",
+        "title": "LM Studio Bionic - Agent for Work and Code"
+      },
+      {
+        "url": "https://lmstudio.ai/download",
+        "title": "Download LM Studio - Mac, Linux, Windows"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/lmstudio.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://lmstudio.ai/docs/cli",
+        "title": "lms — LM Studio's CLI | LM Studio"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "lm-studio-bionic": {
+    "notes": "官网首页主推的新本地智能体；当前下载页仅明确提供 Windows Bionic 下载，其余平台不作推断",
+    "sources": [
+      {
+        "url": "https://lmstudio.ai",
+        "title": "LM Studio Bionic - Agent for Work and Code"
+      },
+      {
+        "url": "https://lmstudio.ai/download",
+        "title": "Download LM Studio - Mac, Linux, Windows"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/lmstudio.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "opencode-desktop": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://opencode.ai",
+        "title": "OpenCode | The open source AI coding agent"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/opencode.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://opencode.ai/download",
+        "title": "OpenCode | Download"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "opencode-ide": {
+    "notes": "官网列为 terminal、IDE 与 desktop 三种工作入口",
+    "sources": [
+      {
+        "url": "https://opencode.ai",
+        "title": "OpenCode | The open source AI coding agent"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/opencode.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "codex-cli": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://openai.com/codex/",
+        "title": "Codex | AI Coding Partner from OpenAI | OpenAI"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/codex.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://learn.chatgpt.com/docs/codex/cli",
+        "title": "Codex CLI official documentation"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "codex-desktop": {
+    "notes": "当前官方文档为统一 ChatGPT 桌面安装包内的 Codex 工作区，与 ChatGPT 不重复计作独立安装应用",
+    "sources": [
+      {
+        "url": "https://openai.com/codex/",
+        "title": "Codex | AI Coding Partner from OpenAI | OpenAI"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/codex.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://learn.chatgpt.com/docs/app",
+        "title": "Unified ChatGPT desktop app · Codex mode"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "codex-ide": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://openai.com/codex/",
+        "title": "Codex | AI Coding Partner from OpenAI | OpenAI"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/codex.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://openai.com/index/introducing-the-codex-app/",
+        "title": "Codex app introduction · supported surfaces"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "codex-web": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://openai.com/codex/",
+        "title": "Codex | AI Coding Partner from OpenAI | OpenAI"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/codex.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://openai.com/index/introducing-the-codex-app/",
+        "title": "Codex app introduction · CLI, web, IDE and app"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "kiro-ide": {
+    "notes": "Amazon Q Developer 的 CLI、IDE 扩展与控制台已转向 Kiro；旧名作为别名，不额外计数",
+    "sources": [
+      {
+        "url": "https://kiro.dev",
+        "title": "Kiro: Move beyond AI coding to agentic engineering"
+      },
+      {
+        "url": "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/upgrade-to-kiro.html",
+        "title": "AWS · Upgrade to Kiro"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/kiro-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://kiro.dev/downloads/",
+        "title": "Downloads - Kiro"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "kiro-cli": {
+    "notes": "Amazon Q Developer 的 CLI、IDE 扩展与控制台已转向 Kiro；旧名作为别名，不额外计数",
+    "sources": [
+      {
+        "url": "https://kiro.dev",
+        "title": "Kiro: Move beyond AI coding to agentic engineering"
+      },
+      {
+        "url": "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/upgrade-to-kiro.html",
+        "title": "AWS · Upgrade to Kiro"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/kiro-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://kiro.dev/cli/",
+        "title": "Kiro CLI"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "kiro-web": {
+    "notes": "Amazon Q Developer 的 CLI、IDE 扩展与控制台已转向 Kiro；旧名作为别名，不额外计数；使用付费账户的浏览器入口",
+    "sources": [
+      {
+        "url": "https://kiro.dev",
+        "title": "Kiro: Move beyond AI coding to agentic engineering"
+      },
+      {
+        "url": "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/upgrade-to-kiro.html",
+        "title": "AWS · Upgrade to Kiro"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/kiro-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://kiro.dev/faq/",
+        "title": "Kiro FAQ · app.kiro.dev"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "jetbrains-ai": {
+    "notes": "JetBrains IDE 内的聊天、补全、解释与重构辅助",
+    "sources": [
+      {
+        "url": "https://www.jetbrains.com/ai-ides/",
+        "title": "AI in JetBrains IDEs"
+      },
+      {
+        "url": "https://www.jetbrains.com/help/ai-assistant/about-ai-assistant.html",
+        "title": "About AI Assistant"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "junie-cli": {
+    "notes": "支持模型自选；包含 Junie Lite 免费层",
+    "sources": [
+      {
+        "url": "https://junie.jetbrains.com/",
+        "title": "Junie Junie by JetBrains"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/junie-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "junie-ide": {
+    "notes": "通过 JetBrains IDE/Air/ACP 使用 Junie 智能体",
+    "sources": [
+      {
+        "url": "https://junie.jetbrains.com/",
+        "title": "Junie Junie by JetBrains"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/junie-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "augment-code-cli": {
+    "notes": "Windows 需通过 WSL 使用；官方当前系统要求为 macOS、Windows WSL、Linux",
+    "sources": [
+      {
+        "url": "https://www.augmentcode.com",
+        "title": "Augment Code: Agentic software development at organizational scale"
+      },
+      {
+        "url": "https://www.augmentcode.com/favicon.svg",
+        "title": "Official website favicon"
+      },
+      {
+        "url": "https://www.augmentcode.com/product/cli",
+        "title": "Auggie CLI - AI Coding Agent for Your Terminal | Augment Code"
+      },
+      {
+        "url": "https://docs.augmentcode.com/cli/setup-auggie/install-auggie-cli",
+        "title": "Install Auggie CLI · official system requirements"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "augment-code-web": {
+    "notes": "组织级云端智能体与软件开发自动化",
+    "sources": [
+      {
+        "url": "https://www.augmentcode.com",
+        "title": "Augment Code: Agentic software development at organizational scale"
+      },
+      {
+        "url": "https://www.augmentcode.com/favicon.svg",
+        "title": "Official website favicon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "devin-web": {
+    "notes": "Windsurf 编辑器现名 Devin Desktop；同产品家族统一计数",
+    "sources": [
+      {
+        "url": "https://devin.ai/desktop",
+        "title": "Devin Desktop · official rebrand FAQ"
+      },
+      {
+        "url": "https://devin.ai/download",
+        "title": "Devin downloads"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/devin-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://devin.ai",
+        "title": "Devin · official product site"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "devin-desktop": {
+    "notes": "Windsurf 编辑器现名 Devin Desktop；同产品家族统一计数；原 Windsurf IDE；原方案、扩展和设置通过更新迁移",
+    "sources": [
+      {
+        "url": "https://devin.ai/desktop",
+        "title": "Devin Desktop · official rebrand FAQ"
+      },
+      {
+        "url": "https://devin.ai/download",
+        "title": "Devin downloads"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/devin-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "replit-web": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://replit.com",
+        "title": "Replit · AI app and website builder"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/replit-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "replit-desktop": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://replit.com",
+        "title": "Replit · AI app and website builder"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/replit-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://replit.com/desktop",
+        "title": "Replit Desktop App"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "replit-mobile": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://replit.com",
+        "title": "Replit · AI app and website builder"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/replit-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://replit.com/mobile",
+        "title": "Replit mobile app"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "bolt": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://bolt.new",
+        "title": "Bolt AI builder: Websites, apps & prototypes"
+      },
+      {
+        "url": "https://bolt.new/static/favicon.svg",
+        "title": "Official website favicon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "lovable-web": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://lovable.dev",
+        "title": "Lovable · official app and website builder"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/lovable-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "lovable-desktop": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://lovable.dev",
+        "title": "Lovable · official app and website builder"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/lovable-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://lovable.dev/download",
+        "title": "Lovable official desktop and mobile downloads"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "v0-web": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://v0.app",
+        "title": "v0 by Vercel - Build Full-Stack Web Apps with AI OpenAI icon"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/v0.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "v0-ios": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://v0.app",
+        "title": "v0 by Vercel - Build Full-Stack Web Apps with AI OpenAI icon"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/v0.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://v0.app/ios",
+        "title": "Download the v0 iOS app - v0.app"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "aider": {
+    "notes": "开源终端结对编程工具；未发现停服/归档声明",
+    "sources": [
+      {
+        "url": "https://aider.chat",
+        "title": "Aider - AI Pair Programming in Your Terminal"
+      },
+      {
+        "url": "https://aider.chat/docs/install.html",
+        "title": "Installation | aider Link Menu Expand (external link) Document Search Copy Copied"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/assets/logo.svg",
+        "title": "Official Aider repository logo"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "goose-desktop": {
+    "notes": "当前官方文档已从 block.github.io/goose 迁至 goose-docs.ai；由 Linux Foundation 的 AAIF 托管",
+    "sources": [
+      {
+        "url": "https://block.github.io/goose/",
+        "title": "goose has moved — Redirecting…"
+      },
+      {
+        "url": "https://goose-docs.ai",
+        "title": "goose | Your open source AI agent"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/goose.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "goose-cli": {
+    "notes": "当前官方文档已从 block.github.io/goose 迁至 goose-docs.ai；由 Linux Foundation 的 AAIF 托管",
+    "sources": [
+      {
+        "url": "https://block.github.io/goose/",
+        "title": "goose has moved — Redirecting…"
+      },
+      {
+        "url": "https://goose-docs.ai",
+        "title": "goose | Your open source AI agent"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/goose.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "openhands": {
+    "notes": "浏览器 Agent Canvas，提供云托管与自托管部署；SDK 不另计应用",
+    "sources": [
+      {
+        "url": "https://www.openhands.dev/",
+        "title": "OpenHands | The Open Platform for Cloud Coding Agents"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openhands-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "warp-terminal": {
+    "notes": "带智能体的桌面终端应用；图形终端窗口归 GUI",
+    "sources": [
+      {
+        "url": "https://www.warp.dev",
+        "title": "Warp — The Open Platform for Automating Development"
+      },
+      {
+        "url": "https://www.warp.dev/download",
+        "title": "Downloads | Warp"
+      },
+      {
+        "url": "https://www.warp.dev/img/logos/warp-pixel-icon.svg",
+        "title": "Official Warp brand mark"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "warp-cli": {
+    "notes": "可在现有终端运行的独立 agent CLI；仅记录当前官方安装脚本明确支持的平台",
+    "sources": [
+      {
+        "url": "https://www.warp.dev",
+        "title": "Warp — The Open Platform for Automating Development"
+      },
+      {
+        "url": "https://www.warp.dev/download",
+        "title": "Downloads | Warp"
+      },
+      {
+        "url": "https://www.warp.dev/img/logos/warp-pixel-icon.svg",
+        "title": "Official Warp brand mark"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "tabby": {
+    "notes": "开源自托管 AI 编程辅助；VS Code/JetBrains 等客户端，服务端自部署",
+    "sources": [
+      {
+        "url": "https://www.tabbyml.com/",
+        "title": "Tabby - Opensource, self-hosted AI coding assistant"
+      },
+      {
+        "url": "https://github.com/TabbyML/tabby",
+        "title": "Official Tabby repository"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/TabbyML/tabby/main/clients/intellij/src/main/resources/META-INF/pluginIcon.svg",
+        "title": "Official Tabby IDE plugin icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "coderabbit-web": {
+    "notes": "GitHub/GitLab 拉取请求上的审查应用",
+    "sources": [
+      {
+        "url": "https://www.coderabbit.ai",
+        "title": "AI Code Reviews | CodeRabbit | Try for Free. Severity Distribution"
+      },
+      {
+        "url": "https://www.coderabbit.ai/press-kit/coderabbit-mark-orange.svg",
+        "title": "Official CodeRabbit press kit"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "coderabbit-cli": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://www.coderabbit.ai",
+        "title": "AI Code Reviews | CodeRabbit | Try for Free. Severity Distribution"
+      },
+      {
+        "url": "https://www.coderabbit.ai/press-kit/coderabbit-mark-orange.svg",
+        "title": "Official CodeRabbit press kit"
+      },
+      {
+        "url": "https://www.coderabbit.ai/cli",
+        "title": "CodeRabbit CLI | AI Code Reviews in CLI "
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "qodo": {
+    "notes": "当前官网为代码审查和质量治理平台；不据旧 Qodo Gen 产品页推断当前 IDE 客户端",
+    "sources": [
+      {
+        "url": "https://www.qodo.ai",
+        "title": "AI Code Review – Qodo: Deploy with confidence"
+      },
+      {
+        "url": "https://www.qodo.ai/wp-content/uploads/2025/03/qodo-logo.svg",
+        "title": "Official Qodo website logo"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "greptile-web": {
+    "notes": "GitHub/GitLab 代码审查服务",
+    "sources": [
+      {
+        "url": "https://www.greptile.com",
+        "title": "AI Code Review | Greptile | Merge 4X Faster, Catch 3X More Bugs"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/greptile-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "greptile-cli": {
+    "notes": "官网提供 Unix shell 与 npm 安装；未明确验证 Windows，暂不列入",
+    "sources": [
+      {
+        "url": "https://www.greptile.com",
+        "title": "AI Code Review | Greptile | Merge 4X Faster, Catch 3X More Bugs"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/greptile-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://www.greptile.com/cli",
+        "title": "Greptile CLI: Code Reviews in Your Terminal | Greptile"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "blackbox-ai": {
+    "notes": "现官网主推推理平台；此条仅收录仍在供应的开源编程 CLI",
+    "sources": [
+      {
+        "url": "https://www.blackbox.ai",
+        "title": "Official website header logo · extracted unchanged inline SVG"
+      },
+      {
+        "url": "https://www.blackbox.ai/cli",
+        "title": "Blackbox CLI: AI Coding Agent for the Terminal"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "pieces": {
+    "notes": "桌面工作记忆与检索助手；通过 MCP 与开发工具连接",
+    "sources": [
+      {
+        "url": "https://pieces.app",
+        "title": "Pieces — The AI memory layer for modern work"
+      },
+      {
+        "url": "https://pieces.app/favicon.svg",
+        "title": "Official website favicon"
+      },
+      {
+        "url": "https://docs.pieces.app/products/desktop/download",
+        "title": "Pieces desktop downloads"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "factory-droid-cli": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://factory.com/",
+        "title": "Factory | Agent-Native Software Development Factory Arrow Right Icon RBC T-Mobile Blackstone Adyen HP Wipro DoorDash Medline Under Armour Groq Chainguard Arrow Right Icon"
+      },
+      {
+        "url": "https://docs.factory.com/",
+        "title": "Factory official documentation"
+      },
+      {
+        "url": "https://factory.com/favicon.svg",
+        "title": "Official website favicon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "factory-droid-desktop": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://factory.com/",
+        "title": "Factory | Agent-Native Software Development Factory Arrow Right Icon RBC T-Mobile Blackstone Adyen HP Wipro DoorDash Medline Under Armour Groq Chainguard Arrow Right Icon"
+      },
+      {
+        "url": "https://docs.factory.com/",
+        "title": "Factory official documentation"
+      },
+      {
+        "url": "https://factory.com/favicon.svg",
+        "title": "Official website favicon"
+      },
+      {
+        "url": "https://factory.com/product/desktop",
+        "title": "Factory Desktop"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "factory-droid-web": {
+    "notes": "app.factory.ai 中使用 Droids 与云端计算机",
+    "sources": [
+      {
+        "url": "https://factory.com/",
+        "title": "Factory | Agent-Native Software Development Factory Arrow Right Icon RBC T-Mobile Blackstone Adyen HP Wipro DoorDash Medline Under Armour Groq Chainguard Arrow Right Icon"
+      },
+      {
+        "url": "https://docs.factory.com/",
+        "title": "Factory official documentation"
+      },
+      {
+        "url": "https://factory.com/favicon.svg",
+        "title": "Official website favicon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "amp-cli": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://ampcode.com",
+        "title": "Amp: Coding agent and dev environment built for the frontier"
+      },
+      {
+        "url": "https://ampcode.com/terms",
+        "title": "Amp license terms · operator"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/amp-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://ampcode.com/docs/cli",
+        "title": "Getting Started With the CLI | Amp Docs"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "amp-desktop": {
+    "notes": "要求 macOS 26 或更高",
+    "sources": [
+      {
+        "url": "https://ampcode.com",
+        "title": "Amp: Coding agent and dev environment built for the frontier"
+      },
+      {
+        "url": "https://ampcode.com/terms",
+        "title": "Amp license terms · operator"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/amp-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://ampcode.com/app",
+        "title": "Download Amp"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "amp-web": {
+    "notes": "可运行及协作管理 Orbs 云端智能体",
+    "sources": [
+      {
+        "url": "https://ampcode.com",
+        "title": "Amp: Coding agent and dev environment built for the frontier"
+      },
+      {
+        "url": "https://ampcode.com/terms",
+        "title": "Amp license terms · operator"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/amp-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "amp-mobile": {
+    "notes": "TestFlight beta；要求 iOS/iPadOS 26 或更高",
+    "sources": [
+      {
+        "url": "https://ampcode.com",
+        "title": "Amp: Coding agent and dev environment built for the frontier"
+      },
+      {
+        "url": "https://ampcode.com/terms",
+        "title": "Amp license terms · operator"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/amp-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://ampcode.com/app",
+        "title": "Download Amp"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "gemini-code-assist": {
+    "notes": "免费与 Google AI Pro/Ultra 消费者服务已于 2026-06-18 转向 Antigravity；Standard/Enterprise 企业服务保持支持；VS Code 与 JetBrains 等 IDE 扩展",
+    "sources": [
+      {
+        "url": "https://codeassist.google",
+        "title": "Gemini Code Assist | AI coding assistant"
+      },
+      {
+        "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
+        "title": "\n            \n            An important update: Transitioning Gemini CLI to Antigravity CLI\n            \n            \n            - Google Developers Blog\n            \n        "
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/gemini-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "antigravity-desktop": {
+    "notes": "智能体优先的桌面工作区",
+    "sources": [
+      {
+        "url": "https://antigravity.google",
+        "title": "Google Antigravity"
+      },
+      {
+        "url": "https://www.antigravity.google/download",
+        "title": "Google Antigravity official downloads"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/antigravity-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "antigravity-ide": {
+    "notes": "独立 IDE 安装形态，与 2.0 共用产品家族，未重复计数",
+    "sources": [
+      {
+        "url": "https://antigravity.google",
+        "title": "Google Antigravity"
+      },
+      {
+        "url": "https://www.antigravity.google/download",
+        "title": "Google Antigravity official downloads"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/antigravity-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "antigravity-cli": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://antigravity.google",
+        "title": "Google Antigravity"
+      },
+      {
+        "url": "https://www.antigravity.google/download",
+        "title": "Google Antigravity official downloads"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/antigravity-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://antigravity.google/product/antigravity-cli",
+        "title": "Google Antigravity - Antigravity CLI"
+      },
+      {
+        "url": "https://antigravity.google/docs/getting-started?tab=cli",
+        "title": "Antigravity CLI setup"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "jan-desktop": {
+    "notes": "官网和官方仓库所见 Jan logo SVG 内嵌 raster image，未将其伪装为纯矢量图标；开源本地模型桌面聊天，也可连接在线模型",
+    "sources": [
+      {
+        "url": "https://www.jan.ai/",
+        "title": "Jan - Open-Source ChatGPT Replacement"
+      },
+      {
+        "url": "https://www.jan.ai/docs/desktop/quickstart",
+        "title": "QuickStart"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "jan-cli": {
+    "notes": "官网和官方仓库所见 Jan logo SVG 内嵌 raster image，未将其伪装为纯矢量图标；Nightly preview；该 CLI 调用远程模型提供商，不自带本地推理引擎",
+    "sources": [
+      {
+        "url": "https://www.jan.ai/",
+        "title": "Jan - Open-Source ChatGPT Replacement"
+      },
+      {
+        "url": "https://www.jan.ai/docs/desktop/quickstart",
+        "title": "QuickStart"
+      },
+      {
+        "url": "https://www.jan.ai/docs/agent/quickstart",
+        "title": "QuickStart"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "gpt4all": {
+    "notes": "Windows 包含 x64 与 ARM；Linux 官方安装包面向 Ubuntu",
+    "sources": [
+      {
+        "url": "https://www.nomic.ai/gpt4all",
+        "title": "GPT4All - Private & Local AI Chatbot | Nomic"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/gpt4all-chat/icons/gpt4all.svg",
+        "title": "Official GPT4All application repository"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "anythingllm-desktop": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://anythingllm.com",
+        "title": "AnythingLLM — On-device AI for productivity | Local & Private"
+      },
+      {
+        "url": "https://anythingllm.com/images/brand/mark.svg",
+        "title": "Official AnythingLLM brand mark"
+      },
+      {
+        "url": "https://anythingllm.com/download",
+        "title": "Download | AnythingLLM"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "anythingllm-web": {
+    "notes": "团队云端与自托管浏览器部署",
+    "sources": [
+      {
+        "url": "https://anythingllm.com",
+        "title": "AnythingLLM — On-device AI for productivity | Local & Private"
+      },
+      {
+        "url": "https://anythingllm.com/images/brand/mark.svg",
+        "title": "Official AnythingLLM brand mark"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "anythingllm-android": {
+    "notes": "官方当前明确为 Android 的本地优先智能体",
+    "sources": [
+      {
+        "url": "https://anythingllm.com",
+        "title": "AnythingLLM — On-device AI for productivity | Local & Private"
+      },
+      {
+        "url": "https://anythingllm.com/images/brand/mark.svg",
+        "title": "Official AnythingLLM brand mark"
+      },
+      {
+        "url": "https://anythingllm.com/mobile",
+        "title": "AnythingLLM Mobile — A local-first AI agent for Android"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "open-webui": {
+    "notes": "自托管浏览器界面，连接本地或云端模型；部署端可使用 Docker/Python，不作为 CLI 应用另计",
+    "sources": [
+      {
+        "url": "https://openwebui.com",
+        "title": "Open WebUI: Self-Hosted AI Platform"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openwebui.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "msty": {
+    "notes": "本地与在线模型工作区；未把同厂商 Go/Nexus/Stack 计作 Studio 平台变体",
+    "sources": [
+      {
+        "url": "https://msty.ai",
+        "title": "Msty — Private AI for real work"
+      },
+      {
+        "url": "https://msty.ai/products/studio/",
+        "title": "Msty Studio"
+      },
+      {
+        "url": "https://msty.ai/brands/studio.svg",
+        "title": "Official Msty Studio product mark"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "pinokio": {
+    "notes": "一键安装和管理本地 AI 应用；未找到经验证的官方纯矢量 logo，留空",
+    "sources": [
+      {
+        "url": "https://pinokio.co/",
+        "title": "Pinokio"
+      },
+      {
+        "url": "https://desktop.pinokio.co",
+        "title": "Pinokio: Universal One-Click Launcher"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "jetbrains-air-ide": {
+    "notes": "连接 Claude Agent、Codex、Junie、Copilot、OpenCode 等 ACP agents",
+    "sources": [
+      {
+        "url": "https://www.jetbrains.com/air/",
+        "title": "JetBrains Air: One system for building software with agents"
+      },
+      {
+        "url": "https://www.jetbrains.com/_assets/rr/air-logo-DS7oe4qO.svg",
+        "title": "Official JetBrains Air product logo"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "jetbrains-air-web": {
+    "notes": "团队云端工作区当前标为 Early Access；移动端为 coming soon，不列为已发布平台",
+    "sources": [
+      {
+        "url": "https://www.jetbrains.com/air/",
+        "title": "JetBrains Air: One system for building software with agents"
+      },
+      {
+        "url": "https://www.jetbrains.com/_assets/rr/air-logo-DS7oe4qO.svg",
+        "title": "Official JetBrains Air product logo"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "gitlab-duo": {
+    "notes": "图标采用 GitLab 品牌共享标识；GitLab 中的 agent、flow 与软件开发生命周期自动化",
+    "sources": [
+      {
+        "url": "https://about.gitlab.com/gitlab-duo-agent-platform/",
+        "title": "GitLab Duo Agent Platform"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/gitlab.svg",
+        "title": "Simple Icons · GitLab product family mark"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "jules": {
+    "notes": "连接 GitHub 仓库的异步编程 agent",
+    "sources": [
+      {
+        "url": "https://jules.google",
+        "title": "Jules - An Autonomous Coding Agent Jules - An Autonomous Coding Agent"
+      },
+      {
+        "url": "https://jules.google/favicon.svg",
+        "title": "Official jules logo SVG"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "cursor": {
+    "notes": "独立桌面编辑器与智能体工作区",
+    "sources": [
+      {
+        "url": "https://cursor.com/download",
+        "title": "Cursor · Download Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple"
+      },
+      {
+        "url": "https://cursor.com/terms-of-service",
+        "title": "Cursor Terms · Anysphere vendor"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/cursor.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "claude-code": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://code.claude.com/docs/en/overview",
+        "title": "Overview - Claude Code Docs"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/claudecode-color.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://code.claude.com/docs/en/setup",
+        "title": "Advanced setup - Claude Code Docs"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "github-copilot": {
+    "notes": "VS Code、Visual Studio、JetBrains、Xcode、Neovim、Eclipse 等 原来源主体名称：GitHub / Microsoft；目录按供应商主体归组。",
+    "sources": [
+      {
+        "url": "https://github.com/features/copilot",
+        "title": "GitHub Copilot · Your AI coding agent · GitHub Duolingo FedEx American Airlines Shopify Stripe CocaCola Coyote Logistics Mercado Libre General Motors Duolingo FedEx American Airlines Shopify Stripe CocaCola Coyote Logistics Mercado Libre General Motors GitHub Visual Studio VS Code Xcode JetBrains Neovim Eclipse IDE Raycast"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/githubcopilot.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "cline": {
+    "notes": "VS Code、Cursor、Windsurf；JetBrains 为 Early Access",
+    "sources": [
+      {
+        "url": "https://cline.bot",
+        "title": "Cline - AI Coding, Open Source and Open Choice"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/cline.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://cline.bot/ide",
+        "title": "Cline IDE - The Coding Agent for VS Code, JetBrains, Cursor, and Windsurf"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "ollama": {
+    "notes": "运行本地模型，也可接入 Ollama 云模型",
+    "sources": [
+      {
+        "url": "https://ollama.com",
+        "title": "Ollama"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/ollama.svg",
+        "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://ollama.com/download",
+        "title": "Ollama downloads"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "lm-studio": {
+    "notes": "经典本地模型下载、聊天与模型服务桌面应用",
+    "sources": [
+      {
+        "url": "https://lmstudio.ai",
+        "title": "LM Studio Bionic - Agent for Work and Code"
+      },
+      {
+        "url": "https://lmstudio.ai/download",
+        "title": "Download LM Studio - Mac, Linux, Windows"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/lmstudio.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "opencode": {
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://opencode.ai",
+        "title": "OpenCode | The open source AI coding agent"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/opencode.svg",
+        "title": "Lobe Icons · matching product icon"
+      }
+    ],
+    "verified_at": "2026-10-02"
+  },
+  "qwen-code-cli": {
+    "sources": [
+      {
+        "url": "https://github.com/QwenLM/qwen-code",
+        "title": "Qwen Code 官方仓库：Agent能力与CLI、IDE、桌面、Web入口"
+      },
+      {
+        "url": "https://qwen.ai/qwencode",
+        "title": "Qwen Code 官方产品页"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/QwenLM/qwen-code/main/packages/desktop/bootstrap/qwen-code-logo.svg",
+        "title": "Qwen Code 官方仓库原始SVG（Apache-2.0 项目，商标归权利人）"
+      }
+    ],
+    "notes": "Qwen Code 是能读写代码、调用工具、运行命令的开源编程 Agent；不同入口共用 product_id，不作为独立产品计数。与 Qwen Chat、Qwen 模型API和SDK区分。官方GitHub于核验日显示约28.3k stars，属于社区关注信号而非活跃用户量。 本条为终端CLI/TUI，Windows原生安装器可用。",
+    "verified_at": "2026-10-02"
+  },
+  "qwen-code-desktop": {
+    "sources": [
+      {
+        "url": "https://github.com/QwenLM/qwen-code",
+        "title": "Qwen Code 官方仓库：Agent能力与CLI、IDE、桌面、Web入口"
+      },
+      {
+        "url": "https://qwen.ai/qwencode",
+        "title": "Qwen Code 官方产品页"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/QwenLM/qwen-code/main/packages/desktop/bootstrap/qwen-code-logo.svg",
+        "title": "Qwen Code 官方仓库原始SVG（Apache-2.0 项目，商标归权利人）"
+      },
+      {
+        "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-latest",
+        "title": "官方Qwen Code Desktop发布页"
+      }
+    ],
+    "notes": "Qwen Code 是能读写代码、调用工具、运行命令的开源编程 Agent；不同入口共用 product_id，不作为独立产品计数。与 Qwen Chat、Qwen 模型API和SDK区分。官方GitHub于核验日显示约28.3k stars，属于社区关注信号而非活跃用户量。 本条为官方桌面应用，非第三方GUI封装。",
+    "verified_at": "2026-10-02"
+  },
+  "qwen-code-ide": {
+    "sources": [
+      {
+        "url": "https://github.com/QwenLM/qwen-code",
+        "title": "Qwen Code 官方仓库：Agent能力与CLI、IDE、桌面、Web入口"
+      },
+      {
+        "url": "https://qwen.ai/qwencode",
+        "title": "Qwen Code 官方产品页"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/QwenLM/qwen-code/main/packages/desktop/bootstrap/qwen-code-logo.svg",
+        "title": "Qwen Code 官方仓库原始SVG（Apache-2.0 项目，商标归权利人）"
+      }
+    ],
+    "notes": "Qwen Code 是能读写代码、调用工具、运行命令的开源编程 Agent；不同入口共用 product_id，不作为独立产品计数。与 Qwen Chat、Qwen 模型API和SDK区分。官方GitHub于核验日显示约28.3k stars，属于社区关注信号而非活跃用户量。 官方提供VS Code插件，并支持JetBrains、Zed集成。",
+    "verified_at": "2026-10-02"
+  },
+  "qwen-code-web": {
+    "sources": [
+      {
+        "url": "https://github.com/QwenLM/qwen-code",
+        "title": "Qwen Code 官方仓库：Agent能力与CLI、IDE、桌面、Web入口"
+      },
+      {
+        "url": "https://qwen.ai/qwencode",
+        "title": "Qwen Code 官方产品页"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/QwenLM/qwen-code/main/packages/desktop/bootstrap/qwen-code-logo.svg",
+        "title": "Qwen Code 官方仓库原始SVG（Apache-2.0 项目，商标归权利人）"
+      }
+    ],
+    "notes": "Qwen Code 是能读写代码、调用工具、运行命令的开源编程 Agent；不同入口共用 product_id，不作为独立产品计数。与 Qwen Chat、Qwen 模型API和SDK区分。官方GitHub于核验日显示约28.3k stars，属于社区关注信号而非活跃用户量。 本条为 qwen serve --open 启动的实验性本地Web UI，并非独立云端SaaS。",
+    "verified_at": "2026-10-02"
+  },
+  "kimi-code-cli": {
+    "sources": [
+      {
+        "url": "https://www.kimi.com/code/docs/en/",
+        "title": "Kimi Code 官方总览：CLI、Desktop、VS Code产品形态"
+      },
+      {
+        "url": "https://github.com/MoonshotAI/kimi-code",
+        "title": "Moonshot AI 官方Kimi Code CLI仓库"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/MoonshotAI/kimi-code/main/apps/vscode/resources/kimi-icon.svg",
+        "title": "Kimi Code 官方VS Code客户端原始SVG（MIT项目，商标归权利人）"
+      }
+    ],
+    "notes": "Kimi Code 是月之暗面的编程 Agent 产品，与Kimi通用聊天和模型API区分；多种客户端共用 product_id。官方CLI仓库核验日约7.8k stars，非活跃用户数。 当前CLI已由Python/uv旧实现升级；Kimi CLI作为旧称保留，不额外列为产品。",
+    "verified_at": "2026-10-02"
+  },
+  "kimi-code-desktop": {
+    "sources": [
+      {
+        "url": "https://www.kimi.com/code/docs/en/",
+        "title": "Kimi Code 官方总览：CLI、Desktop、VS Code产品形态"
+      },
+      {
+        "url": "https://github.com/MoonshotAI/kimi-code",
+        "title": "Moonshot AI 官方Kimi Code CLI仓库"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/MoonshotAI/kimi-code/main/apps/vscode/resources/kimi-icon.svg",
+        "title": "Kimi Code 官方VS Code客户端原始SVG（MIT项目，商标归权利人）"
+      },
+      {
+        "url": "https://www.kimi.com/code/docs/en/kimi-code-desktop/getting-started.html",
+        "title": "Kimi Code Desktop官方快速开始"
+      }
+    ],
+    "notes": "Kimi Code 是月之暗面的编程 Agent 产品，与Kimi通用聊天和模型API区分；多种客户端共用 product_id。官方CLI仓库核验日约7.8k stars，非活跃用户数。 官方独立桌面客户端可打开本地工程、编辑文件、执行命令与验证结果。仅确认macOS/Windows。",
+    "verified_at": "2026-10-02"
+  },
+  "kimi-code-ide": {
+    "sources": [
+      {
+        "url": "https://www.kimi.com/code/docs/en/",
+        "title": "Kimi Code 官方总览：CLI、Desktop、VS Code产品形态"
+      },
+      {
+        "url": "https://github.com/MoonshotAI/kimi-code",
+        "title": "Moonshot AI 官方Kimi Code CLI仓库"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/MoonshotAI/kimi-code/main/apps/vscode/resources/kimi-icon.svg",
+        "title": "Kimi Code 官方VS Code客户端原始SVG（MIT项目，商标归权利人）"
+      },
+      {
+        "url": "https://www.kimi.com/code/docs/en/kimi-code-for-vscode/core-operations.html",
+        "title": "Kimi Code for VS Code核心操作"
+      }
+    ],
+    "notes": "Kimi Code 是月之暗面的编程 Agent 产品，与Kimi通用聊天和模型API区分；多种客户端共用 product_id。官方CLI仓库核验日约7.8k stars，非活跃用户数。 本条为官方VS Code扩展；JetBrains/Zed通过CLI ACP连接不额外计作新产品。",
+    "verified_at": "2026-10-02"
+  },
+  "kimi-code-web": {
+    "sources": [
+      {
+        "url": "https://www.kimi.com/code/docs/en/kimi-code-cli/guides/web.html",
+        "title": "Kimi Code Web官方文档：内置本地浏览器图形界面"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/MoonshotAI/kimi-code/main/apps/vscode/resources/kimi-icon.svg",
+        "title": "Kimi Code 官方VS Code客户端原始SVG（MIT项目，商标归权利人）"
+      }
+    ],
+    "notes": "Kimi Code 是月之暗面的编程 Agent 产品，与Kimi通用聊天和模型API区分；多种客户端共用 product_id。官方CLI仓库核验日约7.8k stars，非活跃用户数。 通过 kimi web 启动，依赖已安装的CLI，数据及会话保留在本机；不是独立云端SaaS。",
+    "verified_at": "2026-10-02"
+  },
+  "zcode-desktop": {
+    "sources": [
+      {
+        "url": "https://zcode.z.ai/en",
+        "title": "ZCode官方产品页、下载与内联SVG标识"
+      },
+      {
+        "url": "https://zcode.z.ai/cn/docs/agents",
+        "title": "ZCode Agent官方说明：GLM官方Harness"
+      }
+    ],
+    "notes": "智谱官方多智能体编程桌面应用，内置ZCode Agent；不是GLM模型、Coding Plan套餐或CodeGeeX插件的别名。支持本地工程、规划执行与代码修改，macOS/Windows和Linux Beta有官方安装包。未查到可比活跃用户数据，不声称用户排名。SVG从官网ZCode homepage链接内的官方标识提取，保留原始path，无位图封装。",
+    "verified_at": "2026-10-02"
+  },
+  "codearts-agent-ide": {
+    "sources": [
+      {
+        "url": "https://codearts.huaweicloud.com/",
+        "title": "华为云码道代码智能体官方产品页"
+      },
+      {
+        "url": "https://codearts.huaweicloud.com/download.html",
+        "title": "官方IDE、CLI、VS Code/JetBrains和桌面端下载"
+      },
+      {
+        "url": "https://support.huaweicloud.com/productdesc-codeartsagent/codeartsagent_pd_0001.html",
+        "title": "官方产品介绍及形态划分（2026-09-29更新）"
+      }
+    ],
+    "notes": "华为云CodeArts代码智能体（码道）可自主规划执行研发任务，不等同于通用CodeArts DevOps平台。IDE/CLI/插件属于同一产品的不同入口，不重复计数。当前官方公开下载存在，未查到可比活跃用户数。未发现可核验产品SVG，留空而不用厂商品牌图冒充。 官方下载页确认macOS Apple Silicon、Windows x64、Linux ARM64与鸿蒙PC。",
+    "verified_at": "2026-10-02"
+  },
+  "codearts-agent-cli": {
+    "sources": [
+      {
+        "url": "https://codearts.huaweicloud.com/",
+        "title": "华为云码道代码智能体官方产品页"
+      },
+      {
+        "url": "https://codearts.huaweicloud.com/download.html",
+        "title": "官方IDE、CLI、VS Code/JetBrains和桌面端下载"
+      },
+      {
+        "url": "https://support.huaweicloud.com/productdesc-codeartsagent/codeartsagent_pd_0001.html",
+        "title": "官方产品介绍及形态划分（2026-09-29更新）"
+      },
+      {
+        "url": "https://codearts.huaweicloud.com/changelog.html",
+        "title": "码道官方更新日志：CLI/TUI平台及能力"
+      }
+    ],
+    "notes": "华为云CodeArts代码智能体（码道）可自主规划执行研发任务，不等同于通用CodeArts DevOps平台。IDE/CLI/插件属于同一产品的不同入口，不重复计数。当前官方公开下载存在，未查到可比活跃用户数。未发现可核验产品SVG，留空而不用厂商品牌图冒充。 CLI/TUI可完成代码生成、文件搜索修改、Git操作与测试任务。",
+    "verified_at": "2026-10-02"
+  },
+  "codearts-agent-ide-extension": {
+    "sources": [
+      {
+        "url": "https://codearts.huaweicloud.com/",
+        "title": "华为云码道代码智能体官方产品页"
+      },
+      {
+        "url": "https://codearts.huaweicloud.com/download.html",
+        "title": "官方IDE、CLI、VS Code/JetBrains和桌面端下载"
+      },
+      {
+        "url": "https://support.huaweicloud.com/productdesc-codeartsagent/codeartsagent_pd_0001.html",
+        "title": "官方产品介绍及形态划分（2026-09-29更新）"
+      }
+    ],
+    "notes": "华为云CodeArts代码智能体（码道）可自主规划执行研发任务，不等同于通用CodeArts DevOps平台。IDE/CLI/插件属于同一产品的不同入口，不重复计数。当前官方公开下载存在，未查到可比活跃用户数。未发现可核验产品SVG，留空而不用厂商品牌图冒充。 本条是官方VS Code/JetBrains插件，使用宿主IDE；不将插件名称列为操作系统。",
+    "verified_at": "2026-10-02"
+  },
+  "minimax-code-desktop": {
+    "sources": [
+      {
+        "url": "https://agent.minimax.io/download",
+        "title": "MiniMax Code官方下载与Coding/Work模式"
+      },
+      {
+        "url": "https://agent.minimaxi.com/download",
+        "title": "MiniMax Code中国站官方下载"
+      },
+      {
+        "url": "https://cdn.hailuo.ai/mavis-chat/prod-web-va-0.1.196/_next/static/media/header-symbol.0fc5ea9d.svg",
+        "title": "MiniMax Code 官方下载页原始SVG标识"
+      }
+    ],
+    "notes": "MiniMax官方本地桌面Agent，含Coding与Work模式，可访问授权的本地文件、工具和浏览器并交付成果。与MiniMax Agent云端Web入口分别建档；此处不按模式或套餐拆分产品。两个地区下载站均已确认，不推断账号互通或地区可用性。",
+    "verified_at": "2026-10-02"
+  },
+  "minimax-code-cli": {
+    "sources": [
+      {
+        "url": "https://github.com/MiniMax-AI/minimax-code",
+        "title": "MiniMax官方开源CLI仓库、平台、账户地区说明"
+      },
+      {
+        "url": "https://agent.minimaxi.com/docs/cli/quick-start",
+        "title": "MiniMax Code CLI官方快速开始"
+      },
+      {
+        "url": "https://cdn.hailuo.ai/mavis-chat/prod-web-va-0.1.196/_next/static/media/header-symbol.0fc5ea9d.svg",
+        "title": "MiniMax Code 官方下载页原始SVG标识"
+      }
+    ],
+    "notes": "MiniMax官方终端编程Agent，命令mcode，提供TUI、headless和ACP入口。与桌面版共用product_id；不将第三方同名MiniMax-CLI、SDK或API套餐加入目录。macOS/Linux/WSL/Windows有官方安装器，Alpine/musl不在一键安装器支持范围。",
+    "verified_at": "2026-10-02"
+  },
+  "qoder-cli": {
+    "sources": [
+      {
+        "url": "https://docs.qoder.com/cli/overview",
+        "title": "Qoder CLI官方Agent能力"
+      },
+      {
+        "url": "https://docs.qoder.com/cli/installation",
+        "title": "Qoder CLI官方安装与平台要求"
+      },
+      {
+        "url": "https://qoder.com/favIcon.svg",
+        "title": "Qoder 官方SVG标识"
+      }
+    ],
+    "notes": "终端原生Qoder编程Agent，可自主读写代码与执行命令。与Qoder IDE/插件共用product_id，非新增独立产品。Windows ARM64尚不支持。",
+    "verified_at": "2026-10-02"
+  },
+  "qoder-jetbrains": {
+    "sources": [
+      {
+        "url": "https://docs.qoder.com/plugins/quick-start",
+        "title": "Qoder官方JetBrains插件Agent Mode及平台要求"
+      },
+      {
+        "url": "https://qoder.com/favIcon.svg",
+        "title": "Qoder 官方SVG标识"
+      }
+    ],
+    "notes": "官方JetBrains插件，支持Agent Mode生成代码和运行测试。与Qoder IDE/CLI共用product_id，非新增独立产品。",
+    "verified_at": "2026-10-02"
+  },
+  "qoder-cn-cli": {
+    "sources": [
+      {
+        "url": "https://docs.qoder.cn/user-guide/what-is-qoder-cn",
+        "title": "官方改名说明：通义灵码于2026-05-20更名Qoder CN"
+      },
+      {
+        "url": "https://qoder.cn/download",
+        "title": "Qoder CN官方下载中心与各平台"
+      },
+      {
+        "url": "https://qoder.com/favIcon.svg",
+        "title": "Qoder 官方SVG标识"
+      },
+      {
+        "url": "https://docs.qoder.cn/cli/installation",
+        "title": "Qoder CN CLI官方安装与命令qodercn"
+      }
+    ],
+    "notes": "Qoder中国站终端Agent，命令qodercn；与国际版不同安装包与登录配置。沿用Qoder产品归组，不作为独立产品计数。Windows ARM64尚不支持。",
+    "verified_at": "2026-10-02"
+  },
+  "qoder-cn-jetbrains": {
+    "sources": [
+      {
+        "url": "https://docs.qoder.cn/user-guide/what-is-qoder-cn",
+        "title": "官方改名说明：通义灵码于2026-05-20更名Qoder CN"
+      },
+      {
+        "url": "https://qoder.cn/download",
+        "title": "Qoder CN官方下载中心与各平台"
+      },
+      {
+        "url": "https://qoder.com/favIcon.svg",
+        "title": "Qoder 官方SVG标识"
+      },
+      {
+        "url": "https://docs.qoder.cn/user-guide/compatible-ide-and-system",
+        "title": "Qoder CN JetBrains平台兼容性"
+      }
+    ],
+    "notes": "原通义灵码体系的当前JetBrains插件形态，与Qoder CN IDE、CLI共用产品归组。官网提供独立插件下载。",
+    "verified_at": "2026-10-02"
+  },
+  "codebuddy-cli": {
+    "sources": [
+      {
+        "url": "https://www.codebuddy.ai/docs/cli/quickstart",
+        "title": "CodeBuddy Code官方CLI安装与国内/国际登录方式"
+      },
+      {
+        "url": "https://download.codebuddy.cn/web/website/a156fee78f35e874d407848198e5f96a4cf383ef/assets/logo.svg",
+        "title": "CodeBuddy 官方SVG标识"
+      }
+    ],
+    "notes": "腾讯官方CodeBuddy终端Agent。相同CLI可选择中国站、国际站或企业域认证，所以不为每种登录选项重复创建产品；各地区模型、账户服务可不同。与IDE/插件同product_id。",
+    "verified_at": "2026-10-02"
+  },
+  "codebuddy-ide-extension": {
+    "sources": [
+      {
+        "url": "https://www.codebuddy.cn/setup/",
+        "title": "腾讯官方插件安装与支持宿主"
+      },
+      {
+        "url": "https://download.codebuddy.cn/web/website/a156fee78f35e874d407848198e5f96a4cf383ef/assets/logo.svg",
+        "title": "CodeBuddy 官方SVG标识"
+      }
+    ],
+    "notes": "腾讯官方CodeBuddy插件形态，主流宿主支持依官方安装页记录，各宿主具体能力不保证完全相同。与IDE和CLI共用product_id。",
+    "verified_at": "2026-10-02"
+  },
+  "workbuddy-cn": {
+    "sources": [
+      {
+        "url": "https://cloud.tencent.com/product/workbuddy",
+        "title": "腾讯云 WorkBuddy：自主规划、调用工具、读写本地文件"
+      },
+      {
+        "url": "https://www.codebuddy.cn/docs/workbuddy/Download-History",
+        "title": "WorkBuddy 官方历史版本：macOS / Windows"
+      },
+      {
+        "url": "https://static.www.tencent.com/uploads/2026/05/13/59cf8219adbb046153f69387479350ac.pdf",
+        "title": "腾讯 2026 年一季度财报：WorkBuddy 使用增长与活跃度"
+      },
+      {
+        "url": "https://www.workbuddy.cn/docs/workbuddymini/features/Multidevice",
+        "title": "WorkBuddy 官方多端协同说明"
+      }
+    ],
+    "notes": "腾讯正式办公智能体产品，可执行本地文件、办公和开发任务；微信小程序/IM 是远程入口。腾讯财报以活跃账户衡量称其为中国最受欢迎的效率 AI 智能体；该口径为厂商披露。",
+    "verified_at": "2026-10-02"
+  },
+  "workbuddy": {
+    "sources": [
+      {
+        "url": "https://www.workbuddy.ai/docs/workbuddy/Quickstart",
+        "title": "WorkBuddy 官方快速开始"
+      },
+      {
+        "url": "https://www.workbuddy.ai/document/term",
+        "title": "Tencent WorkBuddy Service Agreement（2026-08）"
+      },
+      {
+        "url": "https://www.codebuddy.cn/docs/workbuddy/Download-History",
+        "title": "WorkBuddy 官方历史版本：macOS / Windows"
+      }
+    ],
+    "notes": "国际站及服务协议确认腾讯海外运营主体；可自主规划任务并处理授权本地文件。与中国版分站记录，不把办公工作台与 CodeBuddy IDE 混为同一个应用。",
+    "verified_at": "2026-10-02"
+  },
+  "qclaw-cn": {
+    "sources": [
+      {
+        "url": "https://qclaw.qq.com/",
+        "title": "QClaw 官方主页与停止运营公告"
+      },
+      {
+        "url": "https://qclaw.qq.com/_next/static/chunks/781-0a75ac89a90bdd27.js",
+        "title": "QClaw 官方网站公告组件：2026-09-24 停运安排"
+      },
+      {
+        "url": "https://static.www.tencent.com/uploads/2026/03/23/3bf86ccec6c79fe625b93ad20bbfc31a.pdf",
+        "title": "腾讯官方投资者材料：QClaw 本地 AI Agent"
+      }
+    ],
+    "notes": "生命周期警示：官方 2026-09-24 公告已停止新用户注册及订阅购买/续费；既有注册及付费用户仍可正常使用至 2026-12-24 00:00，之后仅保留备份迁移。官方提供迁移至 WorkBuddy。保留用于存量资产识别，不表示推荐新部署。官网品牌素材为 PNG；发现的国际站社交 SVG 仅含文字/emoji，不作为产品图标。",
+    "verified_at": "2026-10-02"
+  },
+  "qclaw": {
+    "sources": [
+      {
+        "url": "https://www.tencent.com/tencent-launches-qclaw-globally-lowering-barriers-to-ai-agent-deployment/",
+        "title": "腾讯官方：QClaw 国际内测发布（2026-04-21）"
+      },
+      {
+        "url": "https://qclawsg.qq.com/",
+        "title": "QClaw 国际官网：本地任务、消息应用控制与邀请内测"
+      }
+    ],
+    "notes": "国际官网核验时仍显示 20,000 名额邀请内测，可由 IM 远程执行电脑任务。中国版另有 2026-12-24 停运公告；现有官方材料未明确该停运安排是否适用于国际版，不能推断其全球停运。仅核验产品与页面状态，未登录验证账号可用性。",
+    "verified_at": "2026-10-02"
+  },
+  "minimax-agent": {
+    "sources": [
+      {
+        "url": "https://www.minimax.io/news/minimax-agent",
+        "title": "MiniMax 官方：通用智能体发布"
+      },
+      {
+        "url": "https://agent.minimax.io/download",
+        "title": "官方产品区分：MiniMax Code 本地桌面 / MiniMax Agent 云端网页"
+      },
+      {
+        "url": "https://agent.minimax.io/home",
+        "title": "MiniMax Agent 国际 Web 工作台"
+      }
+    ],
+    "notes": "可规划和执行长程多步骤任务、生成可交付成果的云端 Web 应用。当前本地桌面产品单列为 MiniMax Code，不把模型 MiniMax M 系列当应用。采用 Lobe Icons 的 MiniMax 品牌 SVG；未宣称独立 Agent 用户规模。",
+    "verified_at": "2026-10-02"
+  },
+  "minimax-agent-cn": {
+    "sources": [
+      {
+        "url": "https://agent.minimaxi.com/",
+        "title": "MiniMax Agent 中国站"
+      },
+      {
+        "url": "https://agent.minimaxi.com/doc/zh/terms-of-service.html",
+        "title": "MiniMax 官方中国站用户协议：Agent 服务"
+      },
+      {
+        "url": "https://agent.minimaxi.com/skills",
+        "title": "MiniMax 官方技能市场：可执行办公/分析任务"
+      }
+    ],
+    "notes": "中国站云端 Agent；服务协议明确根据用户指令完成任务并交付成果。与国际站并列，同属 minimax-agent 产品族；桌面 MiniMax Code 另列。采用 MiniMax 品牌 SVG。",
+    "verified_at": "2026-10-02"
+  },
+  "maxclaw-cn": {
+    "sources": [
+      {
+        "url": "https://agent.minimaxi.com/activity/max-claw",
+        "title": "MiniMax 官方 MaxClaw：云端托管 OpenClaw、浏览器/代码/文件工具"
+      },
+      {
+        "url": "https://agent.minimaxi.com/max-claw",
+        "title": "MiniMax 中国站 MaxClaw 入口"
+      }
+    ],
+    "notes": "MiniMax 官方一键部署云端个人智能体，基于 OpenClaw，支持定时任务、浏览器、代码执行及文件处理。作为可直接使用的托管应用收录，不把 OpenClaw 框架本身复制为该应用。独立产品 SVG 未找到，不用厂商标志冒充。",
+    "verified_at": "2026-10-02"
+  },
+  "maxclaw": {
+    "sources": [
+      {
+        "url": "https://agent.minimax.io/max-claw",
+        "title": "MiniMax 官方国际站 MaxClaw 入口"
+      },
+      {
+        "url": "https://agent.minimaxi.com/activity/max-claw",
+        "title": "MiniMax 官方 MaxClaw 能力说明"
+      }
+    ],
+    "notes": "国际入口为云端常驻个人智能体，官方页面列出 Telegram 等 IM 入口。与中国入口并列；未声称已验证每一种聊天平台在各地区可用。独立产品 SVG 未找到。",
+    "verified_at": "2026-10-02"
+  },
+  "autoclaw-cn": {
+    "sources": [
+      {
+        "url": "https://autoclaw.zhipuai.cn/",
+        "title": "AutoClaw 官方网站：平台、工具执行及自动化"
+      },
+      {
+        "url": "https://autoclaw.zhipuai.cn/blog/product/",
+        "title": "AutoClaw 官方产品动态"
+      }
+    ],
+    "notes": "智谱正式桌面智能体，直接调用浏览器、本地文件及工具完成多步骤办公任务。中国站列出 iOS/Android 任务查看与触发入口；国际站当前提供 Linux 下载入口，平台按各站证据分别记录。官方 logo 为内嵌 PNG；未找到独立可核验产品 SVG，不用 AutoGLM 标志代替。",
+    "verified_at": "2026-10-02"
+  },
+  "autoclaw": {
+    "sources": [
+      {
+        "url": "https://autoclaw.z.ai/",
+        "title": "AutoClaw 官方网站：平台、工具执行及自动化"
+      },
+      {
+        "url": "https://autoclaw.zhipuai.cn/blog/product/",
+        "title": "AutoClaw 官方产品动态"
+      }
+    ],
+    "notes": "智谱正式桌面智能体，直接调用浏览器、本地文件及工具完成多步骤办公任务。中国站列出 iOS/Android 任务查看与触发入口；国际站当前提供 Linux 下载入口，平台按各站证据分别记录。官方 logo 为内嵌 PNG；未找到独立可核验产品 SVG，不用 AutoGLM 标志代替。",
+    "verified_at": "2026-10-02"
+  },
+  "dingtalk-wukong": {
+    "sources": [
+      {
+        "url": "https://www.alibabagroup.com/zh-HK/document-1971078136456019968",
+        "title": "阿里巴巴官方：悟空企业级 AI 原生智能体平台发布"
+      },
+      {
+        "url": "https://wukong.dingtalk.com/download",
+        "title": "悟空官方下载页"
+      },
+      {
+        "url": "https://wukong.dingtalk.com/docs/faq/",
+        "title": "悟空官方 FAQ：独立应用与钉钉设备调度"
+      }
+    ],
+    "notes": "企业级 AI 工作平台，可自主规划任务并调用工具；独立桌面 App 操作本机，钉钉入口用于统一调度。阿里旗舰级正式发布产品，未用钉钉总用户数冒充悟空用户数。下载页仍有 Beta 标识，官网当前图标为 PNG。",
+    "verified_at": "2026-10-02"
+  },
+  "qoder-desktop": {
+    "sources": [
+      {
+        "url": "https://qoder.com/download",
+        "title": "Qoder 官方下载：桌面端、IDE 与 QoderWork 独立下载及运营调整"
+      },
+      {
+        "url": "https://qoder.com/",
+        "title": "Qoder 官方产品家族：独立桌面工作台"
+      }
+    ],
+    "notes": "全新 Qoder 桌面工作台，与 Qoder IDE、CLI 和旧 QoderWork 分列；支持通用任务及编程，官网列出 macOS、Windows、Linux、HarmonyOS。旧 QoderWork 有独立迁移安排。 使用 Qoder 官方品牌 SVG。官网的 600 万开发者为整个 Qoder 家族口径，不宣称为此独立形态用户数。",
+    "verified_at": "2026-10-02"
+  },
+  "qoder-desktop-cn": {
+    "sources": [
+      {
+        "url": "https://qoder.cn/download",
+        "title": "Qoder 官方下载：桌面端、IDE 与 QoderWork 独立下载及运营调整"
+      },
+      {
+        "url": "https://qoder.cn/",
+        "title": "Qoder 官方产品家族：独立桌面工作台"
+      }
+    ],
+    "notes": "全新 Qoder 桌面工作台，与 Qoder IDE、CLI 和旧 QoderWork 分列；支持通用任务及编程，官网列出 macOS、Windows、Linux、HarmonyOS。旧 QoderWork 有独立迁移安排。 使用 Qoder 官方品牌 SVG。官网的 600 万开发者为整个 Qoder 家族口径，不宣称为此独立形态用户数。",
+    "verified_at": "2026-10-02"
+  },
+  "qoder-work": {
+    "sources": [
+      {
+        "url": "https://qoder.com/download",
+        "title": "Qoder 官方下载：桌面端、IDE 与 QoderWork 独立下载及运营调整"
+      },
+      {
+        "url": "https://qoder.com/",
+        "title": "Qoder 官方产品家族：独立桌面工作台"
+      },
+      {
+        "url": "https://docs.qoder.com/qoderwork/quick-start",
+        "title": "QoderWork 官方任务执行快速开始"
+      }
+    ],
+    "notes": "生命周期警示：旧 QoderWork 仍可正常下载和使用，但官方已宣布将于 2027-09-05 停止运营；建议迁移至 Qoder 桌面版，后者支持导入任务、技能与记忆。两款可并存的应用分别记录，不能简单改名合并。 使用 Qoder 官方品牌 SVG。官网的 600 万开发者为整个 Qoder 家族口径，不宣称为此独立形态用户数。",
+    "verified_at": "2026-10-02"
+  },
+  "qoder-work-cn": {
+    "sources": [
+      {
+        "url": "https://qoder.cn/download",
+        "title": "Qoder 官方下载：桌面端、IDE 与 QoderWork 独立下载及运营调整"
+      },
+      {
+        "url": "https://qoder.cn/",
+        "title": "Qoder 官方产品家族：独立桌面工作台"
+      },
+      {
+        "url": "https://docs.qoder.com/qoderwork/quick-start",
+        "title": "QoderWork 官方任务执行快速开始"
+      }
+    ],
+    "notes": "生命周期警示：旧 QoderWork 仍可正常下载和使用，但官方已宣布将于 2027-09-05 停止运营；建议迁移至 Qoder 桌面版，后者支持导入任务、技能与记忆。两款可并存的应用分别记录，不能简单改名合并。 使用 Qoder 官方品牌 SVG。官网的 600 万开发者为整个 Qoder 家族口径，不宣称为此独立形态用户数。",
+    "verified_at": "2026-10-02"
+  },
+  "trae-work": {
+    "sources": [
+      {
+        "url": "https://www.trae.ai/work",
+        "title": "TRAE 官方：TraeWork 独立工作应用"
+      },
+      {
+        "url": "https://www.trae.ai/download",
+        "title": "TRAE 官方下载中心：TraeWork 与 TraeCode 区分"
+      },
+      {
+        "url": "https://docs.trae.cn/work_what-is-trae-work",
+        "title": "TraeWork 官方概述：三端与 Work/Code/Design 模式"
+      },
+      {
+        "url": "https://docs.trae.cn/work_trae-work-web-and-desktop-quickstart",
+        "title": "TraeWork 官方快速开始：Web / macOS / Windows"
+      }
+    ],
+    "notes": "独立的通用任务工作台，可自行拆解任务、调用工具并交付文档/数据/研究成果；与 TraeCode IDE 内的 SOLO 模式分列。官方文档说明能力由原 TraeCode SOLO 模式扩展而来；旧称保留用于识别，当前名称采用 TraeWork。移动端是任务调度/同步入口。SVG 使用 Lobe Icons 的 TRAE 品牌标志。",
+    "verified_at": "2026-10-02"
+  },
+  "trae-work-cn": {
+    "sources": [
+      {
+        "url": "https://www.trae.ai/work",
+        "title": "TRAE 官方：TraeWork 独立工作应用"
+      },
+      {
+        "url": "https://www.trae.ai/download",
+        "title": "TRAE 官方下载中心：TraeWork 与 TraeCode 区分"
+      },
+      {
+        "url": "https://docs.trae.cn/work_what-is-trae-work",
+        "title": "TraeWork 官方概述：三端与 Work/Code/Design 模式"
+      },
+      {
+        "url": "https://docs.trae.cn/work_trae-work-web-and-desktop-quickstart",
+        "title": "TraeWork 官方快速开始：Web / macOS / Windows"
+      }
+    ],
+    "notes": "独立的通用任务工作台，可自行拆解任务、调用工具并交付文档/数据/研究成果；与 TraeCode IDE 内的 SOLO 模式分列。官方文档说明能力由原 TraeCode SOLO 模式扩展而来；旧称保留用于识别，当前名称采用 TraeWork。移动端是任务调度/同步入口。SVG 使用 Lobe Icons 的 TRAE 品牌标志。",
+    "verified_at": "2026-10-02"
+  },
+  "qwenwork-desktop-cn": {
+    "sources": [
+      {
+        "url": "https://qwenwork.cn/",
+        "title": "千问办公（QwenWork）官网：任务规划、交付与网页入口"
+      },
+      {
+        "url": "https://help.aliyun.com/zh/qwenwork/",
+        "title": "阿里云官方文档：千问办公定位与 qwenwork.cn 官方入口"
+      },
+      {
+        "url": "https://qwenwork.cn/download",
+        "title": "千问办公官方客户端下载：macOS、Windows、Linux 与 HarmonyOS"
+      },
+      {
+        "url": "https://qwenwork.cn/docs/install/linux",
+        "title": "官方 Linux 安装指南：DEB，x64 与 ARM64"
+      },
+      {
+        "url": "https://qwenwork.cn/docs/install/harmonyos",
+        "title": "官方 HarmonyOS 安装指南：鸿蒙电脑，HarmonyOS 6.1+"
+      },
+      {
+        "url": "https://terms.alicdn.com/legal-agreement/terms/b_end_product_protocol/20260708175856831/20260708175856831.html",
+        "title": "千问办公服务协议：运营主体为钉钉科技有限公司、钉钉（中国）信息技术有限公司及关联公司"
+      },
+      {
+        "url": "https://img.alicdn.com/imgextra/i1/O1CN01fS6hoy1LDsZq2CXqf_!!6000000001266-55-tps-1024-1024.svg",
+        "title": "千问办公官方下载页所用原始 SVG 应用图标"
+      }
+    ],
+    "notes": "千问办公（QwenWork）是独立办公任务 Agent 产品，与千问聊天（qianwen / qwen-chat）、Qwen Code（qwen-code）分开计数。中国版服务协议运营主体为钉钉科技有限公司、钉钉（中国）信息技术有限公司及关联公司；属阿里巴巴体系，vendor_id 使用 dingtalk 以保留运营主体区别。官方描述可规划执行任务、处理本地文件、生成及编辑 Office 产物、进行网页及电脑操作。平台为官方公布和下载入口核验，未安装运行测试；不把官网宣传等同于实测能力。 桌面下载页列出 macOS 14+ Apple Silicon / Intel DMG、Windows 10+ 64 位 EXE、Linux Debian 系 x64/ARM64 DEB。HarmonyOS 条目适用于鸿蒙电脑 6.1+，不是手机端支持声明；官方仅经 AppGallery 分发。",
+    "verified_at": "2026-10-02"
+  },
+  "qwenwork-web-cn": {
+    "sources": [
+      {
+        "url": "https://qwenwork.cn/",
+        "title": "千问办公（QwenWork）官网：任务规划、交付与网页入口"
+      },
+      {
+        "url": "https://help.aliyun.com/zh/qwenwork/",
+        "title": "阿里云官方文档：千问办公定位与 qwenwork.cn 官方入口"
+      },
+      {
+        "url": "https://docs.qwenwork.cn/getting-started/usage-entry",
+        "title": "千问办公官方快速开始：钉钉、网页、独立桌面入口"
+      },
+      {
+        "url": "https://terms.alicdn.com/legal-agreement/terms/b_end_product_protocol/20260708175856831/20260708175856831.html",
+        "title": "千问办公服务协议：运营主体为钉钉科技有限公司、钉钉（中国）信息技术有限公司及关联公司"
+      },
+      {
+        "url": "https://img.alicdn.com/imgextra/i1/O1CN01fS6hoy1LDsZq2CXqf_!!6000000001266-55-tps-1024-1024.svg",
+        "title": "千问办公官方下载页所用原始 SVG 应用图标"
+      }
+    ],
+    "notes": "千问办公（QwenWork）是独立办公任务 Agent 产品，与千问聊天（qianwen / qwen-chat）、Qwen Code（qwen-code）分开计数。中国版服务协议运营主体为钉钉科技有限公司、钉钉（中国）信息技术有限公司及关联公司；属阿里巴巴体系，vendor_id 使用 dingtalk 以保留运营主体区别。官方描述可规划执行任务、处理本地文件、生成及编辑 Office 产物、进行网页及电脑操作。平台为官方公布和下载入口核验，未安装运行测试；不把官网宣传等同于实测能力。 本条为浏览器入口，与桌面端共用 product_id=qwenwork；未据此承诺网页端具备桌面端所有本地权限和能力。",
+    "verified_at": "2026-10-02"
+  },
+  "doubao-desktop": {
+    "sources": [
+      {
+        "url": "https://www.doubao.com/download/desktop",
+        "title": "豆包官方桌面下载页：工作模式、电脑与浏览器操作、AI 编辑和飞书联动"
+      },
+      {
+        "url": "https://www.doubao.com/download/mobile",
+        "title": "豆包官方移动端入口，与电脑端区分"
+      },
+      {
+        "url": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/desktop_online_web/static/js/async/download_desktop/page.9fad6ec8.js",
+        "title": "豆包官方桌面下载页公开前端：Mac 与 Windows 下载流程及架构选择"
+      },
+      {
+        "url": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/desktop_online_web/static/js/5515.da5effbd.js",
+        "title": "豆包官方客户端下载逻辑：mac_universal / mac_x64 / mac_arm64 与 win_x64 / win_arm"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/doubao-color.svg",
+        "title": "Lobe Icons 品牌矢量图标（复用现有 doubao.svg）"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "Lobe Icons MIT 许可，品牌商标归原权利人"
+      }
+    ],
+    "notes": "豆包官方桌面客户端，与原 doubao 网页记录共用 product_id=doubao，不重复计为独立产品。2026-10-02 实际读取官方网页，可见工作模式、自动规划执行任务、操作虚拟桌面和浏览器、AI 编辑及飞书联动；因此纳入任务 Agent 集合。下载页公开前端包含 macOS（Universal、Intel x64、Apple Silicon）及 Windows（x64、ARM）下载选择；已核验官方发布/下载入口与页面能力声明，未实际安装或验证所有架构。未找到 Linux 官方安装支持证据，不添加 Linux。网页/移动端能力不据此推断。官网页脚列运营主体北京春田知韵科技有限公司；沿用现有字节跳动厂商分组。",
+    "verified_at": "2026-10-02"
+  }
+}

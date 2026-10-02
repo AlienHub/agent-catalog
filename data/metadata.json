@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "0.4",
+  "snapshotDate": "2026-10-02",
+  "source": "AI Data Lib verified application catalog",
+  "verificationScope": "Official website/source review; not an installation or availability test",
+  "editionCaveat": "Edition identifies the linked product/service positioning, not guaranteed geographic availability",
+  "sourceCommit": "8c857b172c1fe66da2069a372133e842cb85c032"
+}

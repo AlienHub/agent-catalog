@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Data Lib application catalog",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "aliases",
+      "vendor",
+      "type",
+      "website",
+      "platforms",
+      "icon",
+      "vendor_id",
+      "product_id",
+      "edition",
+      "svg_status",
+      "interfaces"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "aliases": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "uniqueItems": true
+      },
+      "vendor": {
+        "type": "string",
+        "minLength": 1
+      },
+      "type": {
+        "type": "string"
+      },
+      "website": {
+        "type": "string",
+        "format": "uri"
+      },
+      "platforms": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 0,
+        "uniqueItems": true
+      },
+      "icon": {
+        "type": "string",
+        "description": "Relative path to a real SVG; empty when unavailable"
+      },
+      "vendor_id": {
+        "type": "string"
+      },
+      "product_id": {
+        "type": "string"
+      },
+      "edition": {
+        "type": "string"
+      },
+      "svg_status": {
+        "type": "string"
+      },
+      "interfaces": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      }
+    }
+  }
+}

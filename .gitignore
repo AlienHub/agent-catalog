@@ -1,0 +1,9 @@
+node_modules/
+dist/
+website-dist/
+.generated/
+*.tgz
+.verification/
+.DS_Store
+
+src/generated-icons.ts
