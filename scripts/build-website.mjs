@@ -1,6 +1,7 @@
 import { cp, mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { buildWebsiteClient } from '../website/build.mjs';
 import { createZip } from './zip.mjs';
 import { validateData } from './validate-data.mjs';
 await validateData();
@@ -51,12 +52,16 @@ await mkdir(path.join(output, 'icons'), { recursive: true });
 await mkdir(path.join(output, 'licenses'), { recursive: true });
 await Promise.all([
   writeFile(path.join(output, 'index.html'), index),
-  ...sourceFiles.filter((filename) => filename !== 'index.html').map((filename) => cp(path.join(root, 'website', filename), path.join(output, filename))),
+  ...sourceFiles.filter((filename) => filename !== 'index.html' && filename !== 'app.js').map((filename) => cp(path.join(root, 'website', filename), path.join(output, filename))),
   ...dataFiles.map((filename) => cp(path.join(root, 'data', filename), path.join(output, filename))),
   ...iconFiles.map((filename) => cp(path.join(root, 'assets', 'icons', filename), path.join(output, 'icons', filename))),
   ...licenseFiles.map((filename) => cp(path.join(licenses, filename), path.join(output, 'licenses', filename))),
   writeFile(path.join(output, 'THIRD_PARTY_NOTICES.md'), notices.replaceAll('](./data/evidence.json)', '](./evidence.json)')),
 ]);
+
+await buildWebsiteClient(path.join(output, 'app.js'));
+const uiNotice = await readFile(path.join(root, 'website', 'website-notices.txt'), 'utf8');
+await writeFile(path.join(output, 'website-notices.txt'), uiNotice);
 
 // Preserve the original complete dataset download, now generated from canonical files.
 const csvKeys = Object.keys(data['schema.json'].items.properties);

@@ -215,3 +215,19 @@ website-dist/          可重新生成的静态站点输出
 ```
 
 更新流程与贡献要求见 [CONTRIBUTING.md](./CONTRIBUTING.md)。代码为私有 `UNLICENSED`；第三方素材保留原有声明和权利边界。
+
+
+### 网站交互依赖与构建
+
+网站使用独立的 `website/package.json` 与锁文件：React 19、Motion，以及有完整来源说明的 Animate UI Button/Slot。它们不进入核心 SDK 的运行时依赖或 npm 包导出；`prepare` 仍只构建 SDK。
+
+```sh
+npm ci
+npm ci --prefix website
+npm run verify
+npm run build:website
+```
+
+Animate UI 当前实际许可为 MIT + Commons Clause，详见 `website/vendor/animate-ui/LICENSE.txt` 和 `NOTICE.md`；不可将其描述为无附加限制的 MIT。网站发布产物包含 `website-notices.txt`。卡片/集合/结果与原生 dialog 的动画直接使用 Motion，按钮复用 Animate UI。系统“减弱动态效果”会关闭位移与缩放；原生 dialog 保留焦点约束、Escape 和关闭后的焦点恢复。
+
+`tests/website.test.mjs` 执行编译后 React 应用的 JSDOM 交互与计算样式回归，以及动画控制器竞态测试。JSDOM 不等于浏览器视觉验收；真实移动端布局、原生焦点与动画视觉仍需浏览器测试。

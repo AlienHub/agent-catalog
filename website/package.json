@@ -1,0 +1,1 @@
+{"name":"agent-catalog-website","private":true,"type":"module","scripts":{"test":"node --test ../tests/website.test.mjs"},"dependencies":{"react":"19.2.0","react-dom":"19.2.0","motion":"14.0.0"},"devDependencies":{"esbuild":"0.25.10","jsdom":"30.1.1"}}

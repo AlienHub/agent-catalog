@@ -9,7 +9,7 @@ for (const name of await readdir(resolve(root,'assets/icons'))) assert.deepEqual
 for (const name of await readdir(resolve(root,'licenses'))) assert.deepEqual(await file(`website-dist/licenses/${name}`), await file(`licenses/${name}`), `${name} notice parity`);
 const html = (await file('website-dist/index.html')).toString();
 const metadata = JSON.parse(await file('data/metadata.json'));
-assert(html.includes(`<strong>v${metadata.dataVersion}</strong>`));
+assert(html.includes(`data-version="${metadata.dataVersion}"`));
 assert(!/__DATA_VERSION__|__SNAPSHOT_DATE__/.test(html));
 assert(html.includes(`href="ai-data-lib-v${metadata.dataVersion}.zip" download`));
 assert(!html.includes('https://github.com/AlienHub/agent-catalog'));
