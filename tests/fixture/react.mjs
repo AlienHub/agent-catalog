@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
-import { AppIcon } from '@alienhub/agent-catalog/react';
+import { AppIcon } from '@alienhub/agent-atlas/react';
 const html = renderToStaticMarkup(createElement(AppIcon,{ appId:'chatgpt', size:32, loading:'lazy' }));
 assert(html.includes('src="data:image/svg+xml;'));
 assert(html.includes('alt="ChatGPT 图标"'));

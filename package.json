@@ -1,5 +1,5 @@
 {
-  "name": "@alienhub/agent-catalog",
+  "name": "@alienhub/agent-atlas",
   "version": "0.1.0",
   "description": "Private, versioned AI application catalog with framework-free queries and optional React icons",
   "private": true,
@@ -67,7 +67,11 @@
     "test": "npm run build && node --test tests/*.test.mjs",
     "verify": "npm test && node scripts/verify-package.mjs && npm run build:website && node scripts/verify-website.mjs",
     "prepare": "npm run build",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "test:trends": "npm --prefix services/trends test",
+    "verify:all": "npm run verify && npm run test:trends && npm run test:cloudflare && npm run build:cloudflare",
+    "build:cloudflare": "node scripts/build-cloudflare.mjs",
+    "test:cloudflare": "node --test cloudflare/*.test.mjs"
   },
   "engines": {
     "node": ">=20.19.0"

@@ -37,8 +37,8 @@ try {
   run('npm',['install','--no-audit','--no-fund',`git+file://${gitSource}`],gitFixture);
   run(process.execPath,['core.mjs'],gitFixture);
   run(process.execPath,['core.cjs'],gitFixture);
-  const installed = JSON.parse(await readFile(join(gitFixture,'node_modules/@alienhub/agent-catalog/package.json'),'utf8'));
-  assert.equal(installed.name,'@alienhub/agent-catalog');
+  const installed = JSON.parse(await readFile(join(gitFixture,'node_modules/@alienhub/agent-atlas/package.json'),'utf8'));
+  assert.equal(installed.name,'@alienhub/agent-atlas');
   console.log(`Package verified: ${pack[0].files.length} files, ${pack[0].size} bytes compressed`);
   console.log('PASS: clean core-only tarball install without React, ESM + CJS, TS + React fixture, SVG SSR, raw asset exports, fresh Git prepare install');
 } finally {

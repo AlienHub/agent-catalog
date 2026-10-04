@@ -11,7 +11,7 @@ await validateData();
 // under website/ or fetch the previous site's ZIP during a build.
 const root = fileURLToPath(new URL('../', import.meta.url));
 const output = path.join(root, 'website-dist');
-const sourceFiles = ['index.html', 'app.js', 'style.css', 'favicon.svg'];
+const sourceFiles = ['index.html', 'app.js', 'style.css', 'favicon.svg', 'trends-config.json'];
 const dataFiles = ['dataset.json', 'evidence.json', 'collections.json', 'schema.json', 'metadata.json', 'open-source.json', 'open-source-schema.json'];
 const licenses = path.join(root, 'licenses');
 
@@ -79,6 +79,6 @@ const sourceRows = Object.entries(data['open-source.json']).map(([id, info]) => 
 await writeFile(path.join(output, 'open-source.csv'), '\uFEFF' + [sourceKeys.map(quote).join(','), ...sourceRows.map(row => sourceKeys.map(key => quote(row[key])).join(','))].join('\r\n') + '\r\n');
 const zipNames = [...dataFiles, 'dataset.csv', 'open-source.csv', 'THIRD_PARTY_NOTICES.md', ...iconFiles.map(name => `icons/${name}`), ...licenseFiles.map(name => `licenses/${name}`)];
 const zipEntries = await Promise.all(zipNames.map(async name => ({ name, bytes: await readFile(path.join(output, name)) })));
-const zipName = `ai-data-lib-v${metadata.dataVersion}.zip`;
+const zipName = `agent-atlas-v${metadata.dataVersion}.zip`;
 await writeFile(path.join(output, zipName), createZip(zipEntries, metadata.snapshotDate));
 console.log(`Built website-dist: ${data['dataset.json'].length} records, ${iconFiles.length} SVGs, ${licenseFiles.length} license texts, ${zipName}`);

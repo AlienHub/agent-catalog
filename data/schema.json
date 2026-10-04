@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "AI Data Lib application catalog",
+  "title": "Agent Atlas application catalog",
   "type": "array",
   "items": {
     "type": "object",

@@ -11,12 +11,13 @@ const apps=JSON.parse(await read('data/dataset.json'));
 const files=Object.fromEntries(await Promise.all(['dataset','evidence','collections','open-source'].map(async k=>[k+'.json',JSON.parse(await read('data/'+k+'.json'))])));
 const dir=await mkdtemp(path.join(tmpdir(),'catalog-ui-'));await buildWebsiteClient(path.join(dir,'app.js'));const bundle=await readFile(path.join(dir,'app.js'),'utf8');await rm(dir,{recursive:true});
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
-async function setup(failure=false){
+async function setup(failure=false, trendResponses={}){
  const errors=[];const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));
  const dom=new JSDOM((await read('website/index.html')).replace('<link rel="stylesheet" href="style.css">','<style>'+(await read('website/style.css'))+'</style>'),{runScripts:'outside-only',pretendToBeVisual:true,url:'https://catalog.test/',virtualConsole:vc});
+ const responses={...files,'trends-config.json':{apiBaseUrl:null},...trendResponses};
  const w=dom.window;const downloads=[],blobs=new Map();let blobId=0;const BlobBase=w.Blob;w.Blob=class extends BlobBase{constructor(parts,options){super(parts,options);this.parts=parts}};w.URL.createObjectURL=blob=>{const key='blob:catalog-'+(++blobId);blobs.set(key,blob);return key};w.URL.revokeObjectURL=()=>{};w.HTMLAnchorElement.prototype.click=function(){downloads.push({href:this.href,name:this.download,blob:blobs.get(this.href)})};
  w.matchMedia=query=>({matches:query.includes('prefers-reduced-motion'),addEventListener(){},removeEventListener(){},addListener(){},removeListener(){}});
- w.fetch=async name=>({ok:!failure,json:async()=>files[name]});
+ w.fetch=async name=>({ok:!failure&&responses[name]!==undefined,status:responses[name]!==undefined?200:503,json:async()=>responses[name]});
  w.HTMLDialogElement.prototype.showModal=function(){this._returnFocus=w.document.activeElement;this.open=true;this.querySelector('button')?.focus()};
  w.HTMLDialogElement.prototype.close=function(){this.open=false;this._returnFocus?.focus()};
  w.eval(bundle);for(let i=0;i<50&&!w.document.querySelector(failure?'#error':'article');i++)await wait(10);
@@ -73,8 +74,8 @@ test('reduced-motion controller is immediate and error state disables exports',a
 test('filtered JSON/CSV and original SVG/ZIP downloads keep exact records and filenames',async()=>{
  const t=await setup();try{
  const value=t.$('vendor').options[1].value;await t.change('vendor',value);const expected=apps.filter(a=>a.vendor_id===value);
- await t.click('jsonExport');assert.deepEqual(JSON.parse(t.downloads.at(-1).blob.parts[0]),expected);assert.equal(t.downloads.at(-1).name,'ai-applications.json');
- await t.click('csvExport');const csv=t.downloads.at(-1).blob.parts[0];assert(csv.startsWith('\uFEFF'));assert.equal(csv.split('\r\n').length,expected.length+1);assert.equal(t.downloads.at(-1).name,'ai-applications.csv');
+ await t.click('jsonExport');assert.deepEqual(JSON.parse(t.downloads.at(-1).blob.parts[0]),expected);assert.equal(t.downloads.at(-1).name,'agent-atlas.json');
+ await t.click('csvExport');const csv=t.downloads.at(-1).blob.parts[0];assert(csv.startsWith('\uFEFF'));assert.equal(csv.split('\r\n').length,expected.length+1);assert.equal(t.downloads.at(-1).name,'agent-atlas.csv');
  await t.click('reset');const svg=t.w.document.querySelector('.assetlink');assert(svg.getAttribute('href').endsWith('.svg'));assert(svg.download.endsWith('.svg'));assert(t.w.document.querySelector('.exports a[download]').getAttribute('href').endsWith('.zip'));assert(t.w.document.querySelector('footer a[href="dataset.csv"][download]'));
  }finally{t.dom.window.close()}
 });
@@ -89,4 +90,30 @@ test('verified open-source filtering is variant-specific and excludes source-ava
  await t.change('search','dify');await t.click(t.w.document.querySelector('.appname'));assert(t.$('detailContent').textContent.includes('源码可见（非 OSI 开源）'));await t.click('closeDetails');await t.click('reset');
  await t.change('search','chatgpt');await t.click(t.w.document.querySelector('.appname'));assert(t.$('detailContent').textContent.includes('未标注不代表闭源'));
  }finally{t.dom.window.close()}
+});
+
+test('Agent Atlas branding and project-owned action buttons retain native semantics',async()=>{
+ const t=await setup();try{assert(t.w.document.querySelector('header .brand').textContent.includes('Agent Atlas'));assert(t.w.document.title.includes('Agent Atlas'));assert.equal(t.$('jsonExport').tagName,'BUTTON');assert.equal(t.$('jsonExport').type,'button');assert(!t.$('jsonExport').disabled);const source=await read('website/catalog.jsx');assert(!source.includes('animate-ui'));const notice=await read('website/website-notices.txt');assert(!notice.includes('Commons Clause'));assert(notice.includes('react 19.2.0'));assert(notice.includes('motion 14.0.0'));}finally{t.dom.window.close()}
+});
+
+test('disconnected trend service is explicit and never renders invented measurements',async()=>{
+ const t=await setup();try{await t.change('search','openclaw-cli');await t.click(t.w.document.querySelector('.appname'));await new Promise(r=>setTimeout(r,30));const section=t.w.document.querySelector('.repository-trends');assert(section.textContent.includes('尚未连接采集服务'));assert.equal(section.querySelectorAll('.trend-chart,.trend-stats').length,0);}finally{t.dom.window.close()}
+});
+
+test('connected trends show observed samples, null growth and gaps without inventing history',async()=>{
+ const prefix='https://metrics.example.test/v1/repos/openclaw/openclaw';const t=await setup(false,{'trends-config.json':{apiBaseUrl:'https://metrics.example.test'},[prefix+'/metrics']:{stars:120,forks:5,observed_at:'2026-10-04T00:00:00Z',stale:true,growth:{'7d':null,'30d':null},activity:{status:'pending'},last_release:null,last_commit_at:null},[prefix+'/history?days=30']:{source:'daily_snapshots',points:[{date:'2026-10-01',stars:110,forks:4},{date:'2026-10-02',stars:115,forks:4},{date:'2026-10-04',stars:120,forks:5}],missing_data:true}});try{await t.change('search','openclaw-cli');await t.click(t.w.document.querySelector('.appname'));await new Promise(r=>setTimeout(r,30));const section=t.w.document.querySelector('.repository-trends');assert(section.textContent.includes('120'));assert(section.textContent.includes('数据积累中'));assert(section.textContent.includes('GitHub正在生成'));assert.equal(section.querySelectorAll('circle').length,3);assert.equal(section.querySelectorAll('polyline').length,1);assert.equal(section.querySelectorAll('tbody tr').length,3);assert(!section.textContent.includes('2026-10-03'));}finally{t.dom.window.close()}
+});
+test('service failures are unavailable states rather than zero-valued charts',async()=>{
+ const t=await setup(false,{'trends-config.json':{apiBaseUrl:'https://metrics.example.test'}});try{await t.change('search','openclaw-cli');await t.click(t.w.document.querySelector('.appname'));await new Promise(r=>setTimeout(r,30));const section=t.w.document.querySelector('.repository-trends');assert(section.textContent.includes('采集服务暂不可用'));assert.equal(section.querySelectorAll('.trend-chart,.trend-stats').length,0);}finally{t.dom.window.close()}
+});
+
+test('switching repositories ignores late metrics from the previous selection',async()=>{
+ let releaseMetrics,releaseHistory;const oldMetrics=new Promise(r=>releaseMetrics=r),oldHistory=new Promise(r=>releaseHistory=r);const base='https://metrics.example.test/v1/repos';const metric=stars=>({stars,forks:1,observed_at:'2026-10-04T00:00:00Z',growth:{'7d':null,'30d':null},activity:{status:'pending'}});const emptyHistory={source:'daily_snapshots',points:[]};
+ const t=await setup(false,{'trends-config.json':{apiBaseUrl:'https://metrics.example.test'},[base+'/openclaw/openclaw/metrics']:oldMetrics,[base+'/openclaw/openclaw/history?days=30']:oldHistory,[base+'/aaif-goose/goose/metrics']:metric(5),[base+'/aaif-goose/goose/history?days=30']:emptyHistory});try{await t.change('search','openclaw-cli');await t.click(t.w.document.querySelector('.appname'));await t.click('closeDetails');await t.change('search','goose-cli');await t.click(t.w.document.querySelector('.appname'));await new Promise(r=>setTimeout(r,25));releaseMetrics(metric(999));releaseHistory(emptyHistory);await new Promise(r=>setTimeout(r,25));const section=t.w.document.querySelector('.repository-trends');assert(!section.textContent.includes('999'));assert.equal(section.querySelector('.trend-stats strong').textContent,'5');}finally{t.dom.window.close()}
+});
+
+test('unified Cloudflare config requests metrics on the authenticated website origin',async()=>{
+ const prefix='https://catalog.test/v1/repos/openclaw/openclaw';
+ const t=await setup(false,{'trends-config.json':{apiBaseUrl:'same-origin'},[prefix+'/metrics']:{stars:8,forks:2,growth:{'7d':null,'30d':null},activity:{status:'pending'}},[prefix+'/history?days=30']:{source:'daily_snapshots',points:[]}});
+ try{await t.change('search','openclaw-cli');await t.click(t.w.document.querySelector('.appname'));await new Promise(r=>setTimeout(r,30));const section=t.w.document.querySelector('.repository-trends');assert.equal(section.querySelector('.trend-stats strong').textContent,'8');assert(section.textContent.includes('历史数据积累中'));}finally{t.dom.window.close()}
 });

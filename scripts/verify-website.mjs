@@ -17,7 +17,7 @@ assert.deepEqual(await file('website-dist/favicon.svg'), brand, 'Brand SVG is co
 const brandHash = createHash('sha256').update(brand).digest('hex').slice(0,12);
 assert(html.includes(`href="favicon.svg?v=${brandHash}"`));
 assert(html.includes(`data-brand-hash="${brandHash}"`));
-assert(html.includes(`href="ai-data-lib-v${metadata.dataVersion}.zip" download`));
+assert(html.includes(`href="agent-atlas-v${metadata.dataVersion}.zip" download`));
 assert(!html.includes('https://github.com/AlienHub/agent-catalog'));
 for (const match of html.matchAll(/(?:src|href)=["']([^"']+)["']/g)) {
   if (/^(?:https?:|#|\.\/)/.test(match[1])) continue;
@@ -25,7 +25,7 @@ for (const match of html.matchAll(/(?:src|href)=["']([^"']+)["']/g)) {
 }
 const appJs = (await file('website-dist/app.js')).toString();
 for (const match of appJs.matchAll(/\$\(['"]([^'"]+)['"]\)/g)) assert(html.includes(`id="${match[1]}"`), `Missing DOM target ${match[1]}`);
-const zip = await file(`website-dist/ai-data-lib-v${metadata.dataVersion}.zip`);
+const zip = await file(`website-dist/agent-atlas-v${metadata.dataVersion}.zip`);
 assert.equal(zip.readUInt32LE(0), 0x04034b50);
 assert.equal(zip.readUInt32LE(zip.length - 22), 0x06054b50);
 assert.equal(zip.readUInt16LE(zip.length - 12), 7 + 2 + 1 + (await readdir(resolve(root,'assets/icons'))).length + (await readdir(resolve(root,'licenses'))).length);
@@ -33,3 +33,9 @@ assert((await file('website-dist/dataset.csv')).toString().startsWith('\uFEFF'))
 console.log('PASS: website data, SVG and license source parity; CSV/ZIP exports, version, local links and DOM targets');
 
 assert((await file('website-dist/open-source.csv')).toString().startsWith('\uFEFF'));
+
+const trendConfig = JSON.parse((await file('website-dist/trends-config.json')).toString());
+assert.deepEqual(trendConfig, JSON.parse((await file('website/trends-config.json')).toString()), 'Trend config source parity');
+assert(trendConfig.apiBaseUrl === null || (typeof trendConfig.apiBaseUrl === 'string' && new URL(trendConfig.apiBaseUrl).protocol === 'https:'));
+assert(html.includes('Agent Atlas'));
+assert(!appJs.includes('Commons Clause') && !appJs.includes('animate-ui'), 'Removed component code must not ship');

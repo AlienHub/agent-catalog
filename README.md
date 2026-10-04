@@ -1,6 +1,6 @@
-# Agent Catalog
+# Agent Atlas
 
-供项目复用的私有 AI 应用目录：一份规范数据源，一个 `@alienhub/agent-catalog` 包，按需使用核心查询、React 图标组件和 SVG 资源。
+供项目复用的私有 AI 应用目录：一份规范数据源，一个 `@alienhub/agent-atlas` 包，按需使用核心查询、React 图标组件和 SVG 资源。
 
 - **核心入口**：结构化元数据、筛选、搜索、来源与集合查询；零运行时依赖，不依赖 React
 - **`/icons`**：按应用 ID 获取真实 SVG、Data URI 和原始资源路径
@@ -43,7 +43,7 @@ import {
   getAppsByProduct,
   getEvidence,
   getCollection,
-} from '@alienhub/agent-catalog';
+} from '@alienhub/agent-atlas';
 
 const chatgpt = getApp('chatgpt');
 const sources = getEvidence('chatgpt');
@@ -109,7 +109,7 @@ import {
   getIconSvg,
   getIconDataUri,
   iconPaths,
-} from '@alienhub/agent-catalog/icons';
+} from '@alienhub/agent-atlas/icons';
 
 const icon = getAppIcon('chatgpt');
 if (icon) {
@@ -133,7 +133,7 @@ if (firstPath) {
 ### React
 
 ```tsx
-import { AppIcon } from '@alienhub/agent-catalog/react';
+import { AppIcon } from '@alienhub/agent-atlas/react';
 
 export function Example() {
   return (
@@ -154,21 +154,21 @@ export function Example() {
 公开包入口包含：
 
 ```text
-@alienhub/agent-catalog
-@alienhub/agent-catalog/react
-@alienhub/agent-catalog/icons
-@alienhub/agent-catalog/dataset.json
-@alienhub/agent-catalog/evidence.json
-@alienhub/agent-catalog/schema.json
-@alienhub/agent-catalog/collections.json
-@alienhub/agent-catalog/metadata.json
-@alienhub/agent-catalog/icons/<filename>.svg
+@alienhub/agent-atlas
+@alienhub/agent-atlas/react
+@alienhub/agent-atlas/icons
+@alienhub/agent-atlas/dataset.json
+@alienhub/agent-atlas/evidence.json
+@alienhub/agent-atlas/schema.json
+@alienhub/agent-atlas/collections.json
+@alienhub/agent-atlas/metadata.json
+@alienhub/agent-atlas/icons/<filename>.svg
 ```
 
 支持 JSON import attributes 的运行时可直接加载 JSON：
 
 ```js
-import dataset from '@alienhub/agent-catalog/dataset.json' with { type: 'json' };
+import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 ```
 
 其他环境请按其 JSON/SVG 加载规则配置；原始 SVG 导出不是 React 组件。原始 JSON 是文件资源，不经过核心模块的运行时冻结。如果只需要查询，请优先使用核心入口。
@@ -219,7 +219,7 @@ website-dist/          可重新生成的静态站点输出
 
 ### 网站交互依赖与构建
 
-网站使用独立的 `website/package.json` 与锁文件：React 19、Motion，以及有完整来源说明的 Animate UI Button/Slot。它们不进入核心 SDK 的运行时依赖或 npm 包导出；`prepare` 仍只构建 SDK。
+网站使用独立的 `website/package.json` 与锁文件：React 19、Motion，以及自主实现的原生语义动作按钮。它们不进入核心 SDK 的运行时依赖或 npm 包导出；`prepare` 仍只构建 SDK。
 
 ```sh
 npm ci
@@ -228,7 +228,7 @@ npm run verify
 npm run build:website
 ```
 
-Animate UI 当前实际许可为 MIT + Commons Clause，详见 `website/vendor/animate-ui/LICENSE.txt` 和 `NOTICE.md`；不可将其描述为无附加限制的 MIT。网站发布产物包含 `website-notices.txt`。卡片/集合/结果与原生 dialog 的动画直接使用 Motion，按钮复用 Animate UI。系统“减弱动态效果”会关闭位移与缩放；原生 dialog 保留焦点约束、Escape 和关闭后的焦点恢复。
+界面按钮由项目自主实现，基于 Motion 提供轻微悬停/按压反馈。React、Motion 等保留各自许可，发布产物包含 `website-notices.txt`。系统“减弱动态效果”会关闭位移与缩放；原生 dialog 保留焦点约束、Escape 和关闭后的焦点恢复。
 
 `tests/website.test.mjs` 执行编译后 React 应用的 JSDOM 交互与计算样式回归，以及动画控制器竞态测试。JSDOM 不等于浏览器视觉验收；真实移动端布局、原生焦点与动画视觉仍需浏览器测试。
 
@@ -245,7 +245,31 @@ Animate UI 当前实际许可为 MIT + Commons Clause，详见 `website/vendor/a
 SDK原函数与 `CatalogApp` 结构不变，新增原始JSON子路径：
 
 ```js
-import sourceMetadata from '@alienhub/agent-catalog/open-source.json' with { type: 'json' };
+import sourceMetadata from '@alienhub/agent-atlas/open-source.json' with { type: 'json' };
 ```
 
 网站详情呈现仓库、许可证、类别和核验说明。完整ZIP包含两份新JSON及独立 `open-source.csv`；原 `dataset.csv` 的字段不变。当前47条元信息中44条开源、3条源码可见，未宣称穷尽全部开源软件。未将仍需复核的历史停维条目、开发框架、混合云/自托管版直接标为开源。
+
+
+### Agent Atlas 命名迁移
+
+项目展示名为 Agent Atlas，私有包名为 `@alienhub/agent-atlas`。从旧包名迁移时需更新 import/require 路径；核心API、数据结构与各子路径内容保持兼容。仓库地址仍为 `AlienHub/agent-catalog`，没有重命名仓库或发布npm包。现有private/UNLICENSED设置不变，公开分发与最终代码许可需另行决定。
+
+
+### 可自托管趋势服务（尚未连接）
+
+趋势服务位于 `services/trends`，使用 Cloudflare Workers + D1，统一网站、API、定时采集的部署说明见 `cloudflare/README.md`。代码与模板不代表已创建资源或已开始采集；当前网站 `website/trends-config.json` 的 `apiBaseUrl` 为 `null`，详情会明确显示“尚未连接采集服务”。没有模拟数据作为生产历史。
+
+Cloudflare 构建使用同源 API，并在所有页面、资源与 API 前校验 owner-only Access 身份；未配置默认拒绝访问。原 Site 构建保持未连接状态。服务器端保存GitHub凭据；网站不包含token或直接调用GitHub认证接口。每日采样与页面访问分离，缺失日期留空；7/30天净变化缺少对应基准时显示“数据积累中”。Star曲线代表从首次采集起的每日实测总数，不把新增star事件累加成伪造的历史总量。提交统计与活动状态单独展示，202表示生成中而非零提交。
+
+仓库仍为私有，npm仍禁止发布。本次没有创建Cloudflare资源、登录账号或启用采集Cron。
+
+完整集成校验（开发环境使用Node 24；核心SDK运行时最低版本不变）：
+
+```sh
+npm run verify:all
+```
+
+其中趋势模块测试使用Node内置SQLite与模拟HTTP，验证迁移/采样/重试语义，不代表已连接Cloudflare或执行生产采集。
+
+Unified private Cloudflare website + API deployment now lives in [cloudflare/README.md](cloudflare/README.md). Standalone trends deployment is retired; the current Site is unchanged.

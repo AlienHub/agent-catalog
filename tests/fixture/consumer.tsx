@@ -1,6 +1,6 @@
-import { apps, getApp, findApps, catalogMeta, type CatalogApp, type CatalogFilters } from '@alienhub/agent-catalog';
-import { AppIcon } from '@alienhub/agent-catalog/react';
-import { getAppIcon, type AppIconAsset } from '@alienhub/agent-catalog/icons';
+import { apps, getApp, findApps, catalogMeta, type CatalogApp, type CatalogFilters } from '@alienhub/agent-atlas';
+import { AppIcon } from '@alienhub/agent-atlas/react';
+import { getAppIcon, type AppIconAsset } from '@alienhub/agent-atlas/icons';
 const filters: CatalogFilters = { vendorId: ['openai', 'anthropic'], interface: 'CLI', hasSvg: true };
 const results: readonly CatalogApp[] = findApps(filters);
 const optionalApp: CatalogApp | undefined = getApp('unknown');

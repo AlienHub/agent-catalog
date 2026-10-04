@@ -1,0 +1,19 @@
+{
+  "name": "@alienhub/agent-atlas-trends",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "dev": "wrangler dev --test-scheduled",
+    "deploy": "wrangler deploy",
+    "migrate:local": "wrangler d1 migrations apply agent-atlas-trends --local",
+    "migrate:remote": "wrangler d1 migrations apply agent-atlas-trends --remote"
+  },
+  "devDependencies": {
+    "wrangler": "4.147.0"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}

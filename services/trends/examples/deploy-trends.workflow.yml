@@ -1,0 +1,3 @@
+# Retired standalone template. Do not copy into .github/workflows.
+# Agent Atlas is one private Worker: static assets + API + scheduled + D1.
+# See cloudflare/README.md. No automated deployment is enabled.
