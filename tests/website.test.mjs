@@ -78,3 +78,7 @@ test('filtered JSON/CSV and original SVG/ZIP downloads keep exact records and fi
  await t.click('reset');const svg=t.w.document.querySelector('.assetlink');assert(svg.getAttribute('href').endsWith('.svg'));assert(svg.download.endsWith('.svg'));assert(t.w.document.querySelector('.exports a[download]').getAttribute('href').endsWith('.zip'));assert(t.w.document.querySelector('footer a[href="dataset.csv"][download]'));
  }finally{t.dom.window.close()}
 });
+
+test('header uses the unchanged brand asset with versioned favicon reference and contained size',async()=>{
+ const t=await setup();try{const brand=t.w.document.querySelector('header img.brandmark');assert(brand);assert.equal(brand.getAttribute('src'),'favicon.svg?v=__BRAND_HASH__');assert.equal(brand.getAttribute('aria-hidden'),'true');const style=t.w.getComputedStyle(brand);assert.equal(style.width,'34px');assert.equal(style.height,'34px');assert.equal(style.objectFit,'contain');assert.equal(t.w.document.querySelector('link[rel="icon"]').getAttribute('type'),'image/svg+xml');assert(!brand.getAttribute('src').includes('icons/'));}finally{t.dom.window.close()}
+});

@@ -2,6 +2,7 @@ import { readFile, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const file = path => readFile(resolve(root,path));
 for (const name of ['dataset','evidence','schema','collections','metadata']) assert.deepEqual(await file(`website-dist/${name}.json`), await file(`data/${name}.json`), `${name} source parity`);
@@ -10,12 +11,17 @@ for (const name of await readdir(resolve(root,'licenses'))) assert.deepEqual(awa
 const html = (await file('website-dist/index.html')).toString();
 const metadata = JSON.parse(await file('data/metadata.json'));
 assert(html.includes(`data-version="${metadata.dataVersion}"`));
-assert(!/__DATA_VERSION__|__SNAPSHOT_DATE__/.test(html));
+assert(!/__DATA_VERSION__|__SNAPSHOT_DATE__|__BRAND_HASH__/.test(html));
+const brand = await file('website/favicon.svg');
+assert.deepEqual(await file('website-dist/favicon.svg'), brand, 'Brand SVG is copied byte-for-byte');
+const brandHash = createHash('sha256').update(brand).digest('hex').slice(0,12);
+assert(html.includes(`href="favicon.svg?v=${brandHash}"`));
+assert(html.includes(`data-brand-hash="${brandHash}"`));
 assert(html.includes(`href="ai-data-lib-v${metadata.dataVersion}.zip" download`));
 assert(!html.includes('https://github.com/AlienHub/agent-catalog'));
 for (const match of html.matchAll(/(?:src|href)=["']([^"']+)["']/g)) {
   if (/^(?:https?:|#|\.\/)/.test(match[1])) continue;
-  await file(`website-dist/${match[1]}`);
+  await file(`website-dist/${match[1].split('?')[0]}`);
 }
 const appJs = (await file('website-dist/app.js')).toString();
 for (const match of appJs.matchAll(/\$\(['"]([^'"]+)['"]\)/g)) assert(html.includes(`id="${match[1]}"`), `Missing DOM target ${match[1]}`);

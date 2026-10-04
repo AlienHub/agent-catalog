@@ -1,5 +1,6 @@
 import { cp, mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { buildWebsiteClient } from '../website/build.mjs';
 import { createZip } from './zip.mjs';
@@ -24,11 +25,16 @@ if (!Array.isArray(data['dataset.json'])) {
 
 const indexSource = await readFile(path.join(root, 'website', 'index.html'), 'utf8');
 
+const brandSvg = await readFile(path.join(root, 'website', 'favicon.svg'));
+const brandText = brandSvg.toString();
+if (/<(?:script|foreignObject|iframe|image|use|style)\b|\bon[a-z]+\s*=|\b(?:href|src)\s*=|<!DOCTYPE|<!ENTITY/i.test(brandText) || [...brandText.matchAll(/url\(([^)]+)\)/g)].some(([, value]) => !value.trim().startsWith('#'))) throw new Error('Brand SVG must be passive and self-contained');
+const brandHash = createHash('sha256').update(brandSvg).digest('hex').slice(0, 12);
 const metadata = data['metadata.json'];
 if (!/^\d+(?:\.\d+)*$/.test(metadata.dataVersion) || !/^\d{4}-\d{2}-\d{2}$/.test(metadata.snapshotDate)) {
   throw new Error('Invalid metadata version or snapshot date');
 }
 const index = indexSource
+  .replaceAll('__BRAND_HASH__', brandHash)
   .replaceAll('__DATA_VERSION__', metadata.dataVersion)
   .replaceAll('__SNAPSHOT_DATE__', metadata.snapshotDate.replaceAll('-', '.'));
 
