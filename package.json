@@ -47,7 +47,9 @@
     "./metadata.json": "./data/metadata.json",
     "./icons/*.svg": "./assets/icons/*.svg",
     "./licenses/*": "./licenses/*",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./open-source.json": "./data/open-source.json",
+    "./open-source-schema.json": "./data/open-source-schema.json"
   },
   "files": [
     "dist",

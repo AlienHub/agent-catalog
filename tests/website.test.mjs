@@ -8,7 +8,7 @@ import { buildWebsiteClient } from '../website/build.mjs';
 import { createDialogController } from '../website/dialog-controller.js';
 const root=new URL('../',import.meta.url),read=name=>readFile(new URL(name,root),'utf8');
 const apps=JSON.parse(await read('data/dataset.json'));
-const files=Object.fromEntries(await Promise.all(['dataset','evidence','collections'].map(async k=>[k+'.json',JSON.parse(await read('data/'+k+'.json'))])));
+const files=Object.fromEntries(await Promise.all(['dataset','evidence','collections','open-source'].map(async k=>[k+'.json',JSON.parse(await read('data/'+k+'.json'))])));
 const dir=await mkdtemp(path.join(tmpdir(),'catalog-ui-'));await buildWebsiteClient(path.join(dir,'app.js'));const bundle=await readFile(path.join(dir,'app.js'),'utf8');await rm(dir,{recursive:true});
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 async function setup(failure=false){
@@ -27,10 +27,10 @@ async function setup(failure=false){
 }
 test('React catalog preserves records, all filters, searches, collection and empty/reset',async()=>{
  const t=await setup();try{
- assert.equal(t.count(),212);
- for(const[id,key,array]of [['type','type',false],['platform','platforms',true],['vendor','vendor_id',false],['interface','interfaces',true],['edition','edition',false]]){const value=t.$(id).options[1].value;await t.change(id,value);assert.equal(t.count(),apps.filter(a=>array?a[key].includes(value):a[key]===value).length);await t.click('reset');assert.equal(t.count(),212)}
+ assert.equal(t.count(),241);
+ for(const[id,key,array]of [['type','type',false],['platform','platforms',true],['vendor','vendor_id',false],['interface','interfaces',true],['edition','edition',false]]){const value=t.$(id).options[1].value;await t.change(id,value);assert.equal(t.count(),apps.filter(a=>array?a[key].includes(value):a[key]===value).length);await t.click('reset');assert.equal(t.count(),241)}
  for(const field of ['name','vendor','aliases']){const app=apps.find(a=>field!=='aliases'||a.aliases.length);await t.change('search',field==='aliases'?app.aliases[0]:app[field]);assert(t.count()>0);await t.click('reset')}
- await t.change('search','zzzz-nonexistent-87234');assert.equal(t.count(),0);assert(!t.$('empty').hidden);await t.click('emptyReset');assert.equal(t.count(),212);
+ await t.change('search','zzzz-nonexistent-87234');assert.equal(t.count(),0);assert(!t.$('empty').hidden);await t.click('emptyReset');assert.equal(t.count(),241);
  // React checkbox change is driven by a click, just as a user toggles it.
  await t.click('svgOnly');assert.equal(t.count(),apps.filter(a=>a.icon.endsWith('.svg')).length);assert.equal(t.w.document.querySelectorAll('.missing').length,0);await t.click('reset');
  await t.click('agentCollection');assert.equal(t.count(),files['collections.json'].chinese_agents.length);assert.equal(t.$('agentCollection').getAttribute('aria-pressed'),'true');await t.click('reset');
@@ -81,4 +81,12 @@ test('filtered JSON/CSV and original SVG/ZIP downloads keep exact records and fi
 
 test('header uses the unchanged brand asset with versioned favicon reference and contained size',async()=>{
  const t=await setup();try{const brand=t.w.document.querySelector('header img.brandmark');assert(brand);assert.equal(brand.getAttribute('src'),'favicon.svg?v=__BRAND_HASH__');assert.equal(brand.getAttribute('aria-hidden'),'true');const style=t.w.getComputedStyle(brand);assert.equal(style.width,'34px');assert.equal(style.height,'34px');assert.equal(style.objectFit,'contain');assert.equal(t.w.document.querySelector('link[rel="icon"]').getAttribute('type'),'image/svg+xml');assert(!brand.getAttribute('src').includes('icons/'));}finally{t.dom.window.close()}
+});
+
+test('verified open-source filtering is variant-specific and excludes source-available',async()=>{
+ const t=await setup();try{await t.click('openSourceOnly');const eligible=Object.entries(files['open-source.json']).filter(([,v])=>v.source_model==='open-source').map(([id])=>id);assert.equal(t.count(),eligible.length);assert(!t.w.document.querySelector('.catalog-grid').textContent.includes('源码可见'));await t.change('interface','CLI');assert.equal(t.count(),apps.filter(a=>eligible.includes(a.id)&&a.interfaces.includes('CLI')).length);await t.click('reset');assert.equal(t.count(),apps.length);assert(!t.$('openSourceOnly').checked);
+ await t.change('search','openclaw-cli');assert.equal(t.count(),1);await t.click(t.w.document.querySelector('.appname'));const text=t.$('detailContent').textContent;assert(text.includes('MIT'));assert(text.includes('维护状态待确认'));assert(t.$('detailContent').querySelector('a[href="https://github.com/openclaw/openclaw"]'));await t.click('closeDetails');await t.click('reset');
+ await t.change('search','dify');await t.click(t.w.document.querySelector('.appname'));assert(t.$('detailContent').textContent.includes('源码可见（非 OSI 开源）'));await t.click('closeDetails');await t.click('reset');
+ await t.change('search','chatgpt');await t.click(t.w.document.querySelector('.appname'));assert(t.$('detailContent').textContent.includes('未标注不代表闭源'));
+ }finally{t.dom.window.close()}
 });

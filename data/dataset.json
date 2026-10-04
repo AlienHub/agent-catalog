@@ -4572,5 +4572,622 @@
     ],
     "edition": "未确认",
     "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "openclaw-cli",
+    "name": "OpenClaw CLI",
+    "aliases": [
+      "Clawdbot",
+      "Moltbot"
+    ],
+    "vendor": "OpenClaw Foundation",
+    "type": "通用任务 Agent",
+    "website": "https://openclaw.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "openclaw",
+    "product_id": "openclaw",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "openclaw-web",
+    "name": "OpenClaw Web（自托管）",
+    "aliases": [
+      "Clawdbot",
+      "Moltbot"
+    ],
+    "vendor": "OpenClaw Foundation",
+    "type": "通用任务 Agent",
+    "website": "https://openclaw.ai",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "openclaw",
+    "product_id": "openclaw",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "id": "openclaw-desktop",
+    "name": "OpenClaw Desktop",
+    "aliases": [
+      "Clawdbot",
+      "Moltbot"
+    ],
+    "vendor": "OpenClaw Foundation",
+    "type": "通用任务 Agent",
+    "website": "https://openclaw.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "openclaw",
+    "product_id": "openclaw",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "GUI"
+    ]
+  },
+  {
+    "id": "hermes-agent-cli",
+    "name": "Hermes Agent",
+    "aliases": [],
+    "vendor": "Nous Research",
+    "type": "通用任务 Agent",
+    "website": "https://hermes-agent.nousresearch.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "nous-research",
+    "product_id": "hermes-agent",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "qwenpaw-cli",
+    "name": "QwenPaw CLI",
+    "aliases": [
+      "CoPaw"
+    ],
+    "vendor": "AgentScope team",
+    "type": "通用任务 Agent",
+    "website": "http://qwenpaw.agentscope.io/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "agentscope",
+    "product_id": "qwenpaw",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "qwenpaw-web",
+    "name": "QwenPaw Web（自托管）",
+    "aliases": [
+      "CoPaw"
+    ],
+    "vendor": "AgentScope team",
+    "type": "通用任务 Agent",
+    "website": "http://qwenpaw.agentscope.io/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "agentscope",
+    "product_id": "qwenpaw",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "id": "nanobot-cli",
+    "name": "nanobot CLI",
+    "aliases": [],
+    "vendor": "HKUDS / Xubin Ren",
+    "type": "通用任务 Agent",
+    "website": "https://nanobot.wiki",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "hkuds",
+    "product_id": "nanobot",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "nanobot-web",
+    "name": "nanobot Web（自托管）",
+    "aliases": [],
+    "vendor": "HKUDS / Xubin Ren",
+    "type": "通用任务 Agent",
+    "website": "https://nanobot.wiki",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "hkuds",
+    "product_id": "nanobot",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "id": "agent-zero-web",
+    "name": "Agent Zero",
+    "aliases": [
+      "Agent0"
+    ],
+    "vendor": "Agent Zero, s.r.o.",
+    "type": "通用任务 Agent",
+    "website": "https://agent-zero.ai",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "agent-zero",
+    "product_id": "agent-zero",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "id": "kilo-code-cli",
+    "name": "Kilo Code CLI",
+    "aliases": [
+      "Kilo"
+    ],
+    "vendor": "Kilo Code",
+    "type": "AI 编程",
+    "website": "https://kilo.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "kilo-code",
+    "product_id": "kilo-code",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "kilo-code-ide",
+    "name": "Kilo Code （IDE 扩展）",
+    "aliases": [
+      "Kilo"
+    ],
+    "vendor": "Kilo Code",
+    "type": "AI 编程",
+    "website": "https://kilo.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "kilo-code",
+    "product_id": "kilo-code",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "IDE"
+    ]
+  },
+  {
+    "id": "pi-cli",
+    "name": "Pi",
+    "aliases": [
+      "pi-mono",
+      "Pi coding agent"
+    ],
+    "vendor": "Earendil Works / Mario Zechner",
+    "type": "AI 编程",
+    "website": "https://github.com/earendil-works/pi",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "earendil-works",
+    "product_id": "pi",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "eigent-desktop",
+    "name": "Eigent",
+    "aliases": [],
+    "vendor": "Eigent / CAMEL-AI",
+    "type": "通用任务 Agent",
+    "website": "https://www.eigent.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "eigent",
+    "product_id": "eigent",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "GUI"
+    ]
+  },
+  {
+    "id": "aionui-desktop",
+    "name": "AionUi Desktop",
+    "aliases": [
+      "Aion UI"
+    ],
+    "vendor": "iOfficeAI",
+    "type": "桌面AI客户端",
+    "website": "https://www.aionui.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "iofficeai",
+    "product_id": "aionui",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "GUI"
+    ]
+  },
+  {
+    "id": "aionui-web",
+    "name": "AionUi Web（自托管）",
+    "aliases": [
+      "Aion UI"
+    ],
+    "vendor": "iOfficeAI",
+    "type": "桌面AI客户端",
+    "website": "https://www.aionui.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "iofficeai",
+    "product_id": "aionui",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "id": "openwork-desktop",
+    "name": "OpenWork",
+    "aliases": [],
+    "vendor": "Different AI, Inc.",
+    "type": "通用任务 Agent",
+    "website": "https://openworklabs.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "different-ai",
+    "product_id": "openwork",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "GUI"
+    ]
+  },
+  {
+    "id": "librechat-web",
+    "name": "LibreChat",
+    "aliases": [],
+    "vendor": "LibreChat / Danny Avila",
+    "type": "通用助手",
+    "website": "https://librechat.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "librechat",
+    "product_id": "librechat",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "id": "open-interpreter-cli",
+    "name": "Open Interpreter",
+    "aliases": [
+      "interpreter"
+    ],
+    "vendor": "Open Interpreter",
+    "type": "AI 编程",
+    "website": "http://openinterpreter.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "open-interpreter",
+    "product_id": "open-interpreter",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "agent-tars-cli",
+    "name": "Agent TARS CLI",
+    "aliases": [],
+    "vendor": "字节跳动 ByteDance",
+    "type": "通用任务 Agent",
+    "website": "https://agent-tars.com",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "bytedance",
+    "product_id": "agent-tars",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "agent-tars-web",
+    "name": "Agent TARS Web（自托管）",
+    "aliases": [],
+    "vendor": "字节跳动 ByteDance",
+    "type": "通用任务 Agent",
+    "website": "https://agent-tars.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "bytedance",
+    "product_id": "agent-tars",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "id": "ui-tars-desktop",
+    "name": "UI-TARS Desktop",
+    "aliases": [
+      "UI TARS"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "通用任务 Agent",
+    "website": "https://agent-tars.com",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "bytedance",
+    "product_id": "ui-tars-desktop",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "GUI"
+    ]
+  },
+  {
+    "id": "deerflow-web",
+    "name": "DeerFlow Web（自托管）",
+    "aliases": [
+      "DeerFlow 2.0",
+      "deer-flow"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "通用任务 Agent",
+    "website": "https://deerflow.tech",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "bytedance",
+    "product_id": "deerflow",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "id": "deerflow-cli",
+    "name": "DeerFlow CLI",
+    "aliases": [
+      "DeerFlow 2.0",
+      "deer-flow"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "通用任务 Agent",
+    "website": "https://deerflow.tech",
+    "platforms": [
+      "Linux",
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "bytedance",
+    "product_id": "deerflow",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "astrbot-web",
+    "name": "AstrBot",
+    "aliases": [],
+    "vendor": "AstrBotDevs",
+    "type": "AI 智能体",
+    "website": "https://astrbot.app",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "astrbot",
+    "product_id": "astrbot",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "id": "langbot-web",
+    "name": "LangBot",
+    "aliases": [],
+    "vendor": "LangBot team",
+    "type": "AI 智能体",
+    "website": "https://space.langbot.app/cloud",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "langbot",
+    "product_id": "langbot",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "id": "openmanus-cli",
+    "name": "OpenManus",
+    "aliases": [],
+    "vendor": "FoundationAgents / OpenManus community",
+    "type": "通用任务 Agent",
+    "website": "https://openmanus.github.io/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "foundationagents",
+    "product_id": "openmanus",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "plandex-cli",
+    "name": "Plandex",
+    "aliases": [],
+    "vendor": "PlandexAI Inc.",
+    "type": "AI 编程",
+    "website": "https://plandex.ai",
+    "platforms": [
+      "macOS",
+      "Linux",
+      "Windows（WSL）"
+    ],
+    "icon": "",
+    "vendor_id": "plandex",
+    "product_id": "plandex",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "bolt-diy-web",
+    "name": "bolt.diy Web（自托管）",
+    "aliases": [],
+    "vendor": "StackBlitz",
+    "type": "AI 应用构建",
+    "website": "https://stackblitz-labs.github.io/bolt.diy/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "stackblitz",
+    "product_id": "bolt-diy",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "id": "bolt-diy-desktop",
+    "name": "bolt.diy Desktop",
+    "aliases": [],
+    "vendor": "StackBlitz",
+    "type": "AI 应用构建",
+    "website": "https://stackblitz-labs.github.io/bolt.diy/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "stackblitz",
+    "product_id": "bolt-diy",
+    "edition": "社区 / 自托管版",
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "interfaces": [
+      "GUI"
+    ]
   }
 ]

@@ -3594,5 +3594,431 @@
     ],
     "notes": "豆包官方桌面客户端，与原 doubao 网页记录共用 product_id=doubao，不重复计为独立产品。2026-10-02 实际读取官方网页，可见工作模式、自动规划执行任务、操作虚拟桌面和浏览器、AI 编辑及飞书联动；因此纳入任务 Agent 集合。下载页公开前端包含 macOS（Universal、Intel x64、Apple Silicon）及 Windows（x64、ARM）下载选择；已核验官方发布/下载入口与页面能力声明，未实际安装或验证所有架构。未找到 Linux 官方安装支持证据，不添加 Linux。网页/移动端能力不据此推断。官网页脚列运营主体北京春田知韵科技有限公司；沿用现有字节跳动厂商分组。",
     "verified_at": "2026-10-02"
+  },
+  "openclaw-cli": {
+    "notes": "Gateway、TUI/CLI、Control UI及原生应用；不是腾讯QClaw、智谱AutoClaw、MiniMax MaxClaw。移动端另核后补。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/openclaw/openclaw/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/openclaw/openclaw/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "openclaw-web": {
+    "notes": "Gateway、TUI/CLI、Control UI及原生应用；不是腾讯QClaw、智谱AutoClaw、MiniMax MaxClaw。移动端另核后补。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/openclaw/openclaw/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/openclaw/openclaw/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "openclaw-desktop": {
+    "notes": "Gateway、TUI/CLI、Control UI及原生应用；不是腾讯QClaw、智谱AutoClaw、MiniMax MaxClaw。移动端另核后补。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 三平台以实际桌面发行资产核对：macOS原生DMG/ZIP、Linux Tauri shell AppImage/deb、Windows独立原生WinUI Companion/Hub；Windows仓库另为MIT。各平台组件分别发布，不由Gateway支持系统推导；未做安装测试。",
+    "sources": [
+      {
+        "url": "https://github.com/openclaw/openclaw/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/openclaw/openclaw/blob/main/LICENSE",
+        "title": "Official license"
+      },
+      {
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.8",
+        "title": "Official desktop release assets"
+      },
+      {
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.5",
+        "title": "Official Linux desktop release assets"
+      },
+      {
+        "url": "https://github.com/openclaw/openclaw-windows-node/releases/tag/v2026.9.4",
+        "title": "Official Windows desktop release assets"
+      },
+      {
+        "url": "https://github.com/openclaw/openclaw-windows-node/blob/main/LICENSE",
+        "title": "Official Windows companion MIT license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "hermes-agent-cli": {
+    "notes": "官方有Hermes Desktop入口，但本轮只确证该仓库CLI/TUI与消息网关的许可；桌面发行单独核验再加。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/NousResearch/hermes-agent/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/NousResearch/hermes-agent/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "qwenpaw-cli": {
+    "notes": "CoPaw官方仓库现重定向QwenPaw；Console/TUI可运行应用，非仅AgentScope框架。桌面版提及但独立发行细节待核。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/agentscope-ai/QwenPaw/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/agentscope-ai/QwenPaw/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "qwenpaw-web": {
+    "notes": "CoPaw官方仓库现重定向QwenPaw；Console/TUI可运行应用，非仅AgentScope框架。桌面版提及但独立发行细节待核。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/agentscope-ai/QwenPaw/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/agentscope-ai/QwenPaw/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "nanobot-cli": {
+    "notes": "有可安装CLI/TUI/WebUI、工具/记忆/IM网关；虽然自称framework，但可直接使用，不等于纯SDK。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/HKUDS/nanobot/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/HKUDS/nanobot/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "nanobot-web": {
+    "notes": "有可安装CLI/TUI/WebUI、工具/记忆/IM网关；虽然自称framework，但可直接使用，不等于纯SDK。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/HKUDS/nanobot/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/HKUDS/nanobot/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "agent-zero-web": {
+    "notes": "浏览器工作台+Docker Linux桌面；宿主macOS/Windows/Linux，不能误标为原生Linux桌面客户端。A0 Launcher另repo不自动继承许可。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/agent0ai/agent-zero/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/agent0ai/agent-zero/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "kilo-code-cli": {
+    "notes": "当前主仓库MIT，CLI与VS Code/JetBrains在README列明；CLI源于OpenCode fork但属独立产品。云服务不自动标开源。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/Kilo-Org/kilocode/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/Kilo-Org/kilocode/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "kilo-code-ide": {
+    "notes": "当前主仓库MIT，CLI与VS Code/JetBrains在README列明；CLI源于OpenCode fork但属独立产品。云服务不自动标开源。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/Kilo-Org/kilocode/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/Kilo-Org/kilocode/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "pi-cli": {
+    "notes": "原badlogic/pi-mono已迁移；收录终端coding-agent应用，不把pi-ai/pi-agent-core等库分别计应用。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/earendil-works/pi/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/earendil-works/pi/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "eigent-desktop": {
+    "notes": "有实际macOS/Windows/Linux release安装包；本地部署应用与需注册的云连接模式区分。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/eigent-ai/eigent/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/eigent-ai/eigent/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "aionui-desktop": {
+    "notes": "多Agent桌面工作台+可独立运行HTTP WebUI；依赖/集成其他CLI，不应把其上游CLI重复算为自有Agent引擎。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/iOfficeAI/AionUi/blob/main/readme.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/iOfficeAI/AionUi/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "aionui-web": {
+    "notes": "多Agent桌面工作台+可独立运行HTTP WebUI；依赖/集成其他CLI，不应把其上游CLI重复算为自有Agent引擎。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/iOfficeAI/AionUi/blob/main/readme.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/iOfficeAI/AionUi/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "openwork-desktop": {
+    "notes": "仅桌面/core目录为MIT；ee/是OpenWork EE source-available，不能把整个仓库或托管服务归为MIT。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/different-ai/openwork/blob/dev/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/different-ai/openwork/blob/dev/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "librechat-web": {
+    "notes": "自托管Web应用，含Agents/Subagents/MCP；非官方Mac wrapper不算本产品桌面版。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/LibreChat-AI/LibreChat/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/LibreChat-AI/LibreChat/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "open-interpreter-cli": {
+    "notes": "当前Rust重写coding agent，原Python项目已转endolith/open-interpreter社区fork；不能复用旧AGPL或旧GUI产品描述。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/openinterpreter/openinterpreter/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/openinterpreter/openinterpreter/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "agent-tars-cli": {
+    "notes": "与UI-TARS Desktop同一monorepo但不同应用；CLI+Web UI有明确文档。CLI宿主OS未本轮逐一证实，platforms留空。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "agent-tars-web": {
+    "notes": "与UI-TARS Desktop同一monorepo但不同应用；CLI+Web UI有明确文档。CLI宿主OS未本轮逐一证实，platforms留空。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "ui-tars-desktop": {
+    "notes": "本轮quick-start确证macOS/Windows；不无证据加Linux。远程Operator免费服务于2025-08-20停止，不能宣称仍免费托管。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "deerflow-web": {
+    "notes": "2.0是long-horizon agent工作台/harness，有WebUI及TUI，不是仅旧版研究框架。长期服务推荐Linux+Docker；Windows为Git Bash开发评估场景，不保证WSL。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/bytedance/deer-flow/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/bytedance/deer-flow/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "deerflow-cli": {
+    "notes": "2.0是long-horizon agent工作台/harness，有WebUI及TUI，不是仅旧版研究框架。长期服务推荐Linux+Docker；Windows为Git Bash开发评估场景，不保证WSL。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/bytedance/deer-flow/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/bytedance/deer-flow/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "astrbot-web": {
+    "notes": "可部署IM个人助手+ChatUI/管理面板；AstrBot-desktop为独立repo，本轮不继承其许可或OS。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "langbot-web": {
+    "notes": "可部署IM Agent应用平台，有可视化配置；lbctl仅管理CLI，不应当独立终端对话Agent录入。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/langbot-app/LangBot/blob/master/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/langbot-app/LangBot/blob/master/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "openmanus-cli": {
+    "notes": "有main.py可运行终端Agent，但仍偏开发者部署/实验工作台，成熟度低于前列；不将其RL训练仓库当应用。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/FoundationAgents/OpenManus/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/FoundationAgents/OpenManus/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "plandex-cli": {
+    "notes": "终端coding agent+可自托管server；Windows只支持WSL，不是原生CMD/PowerShell。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/plandex-ai/plandex/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/plandex-ai/plandex/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "bolt-diy-web": {
+    "notes": "和现有商业Bolt有关但不是同产品发行；保留独立product_id，README明确Web及Electron三平台应用。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "verified_at": "2026-10-04"
+  },
+  "bolt-diy-desktop": {
+    "notes": "和现有商业Bolt有关但不是同产品发行；保留独立product_id，README明确Web及Electron三平台应用。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 桌面发行资产确认macOS DMG、Windows setup.exe及Linux AppImage/deb；不代表本轮已安装测试。",
+    "sources": [
+      {
+        "url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/LICENSE",
+        "title": "Official license"
+      },
+      {
+        "url": "https://github.com/stackblitz-labs/bolt.diy/releases/tag/v1.0.0",
+        "title": "Official desktop release assets"
+      }
+    ],
+    "verified_at": "2026-10-04"
   }
 }

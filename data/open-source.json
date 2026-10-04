@@ -1,0 +1,1078 @@
+{
+  "openclaw-cli": {
+    "repository_url": "https://github.com/openclaw/openclaw",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/openclaw/openclaw/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T10:04:06Z"
+    },
+    "notes": "Gateway、TUI/CLI、Control UI及原生应用；不是腾讯QClaw、智谱AutoClaw、MiniMax MaxClaw。移动端另核后补。",
+    "sources": [
+      {
+        "url": "https://github.com/openclaw/openclaw/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/openclaw/openclaw/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "openclaw-web": {
+    "repository_url": "https://github.com/openclaw/openclaw",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/openclaw/openclaw/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T10:04:06Z"
+    },
+    "notes": "Gateway、TUI/CLI、Control UI及原生应用；不是腾讯QClaw、智谱AutoClaw、MiniMax MaxClaw。移动端另核后补。",
+    "sources": [
+      {
+        "url": "https://github.com/openclaw/openclaw/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/openclaw/openclaw/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "openclaw-desktop": {
+    "repository_url": "https://github.com/openclaw/openclaw",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/openclaw/openclaw/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T10:04:06Z"
+    },
+    "notes": "Gateway、TUI/CLI、Control UI及原生应用；不是腾讯QClaw、智谱AutoClaw、MiniMax MaxClaw。移动端另核后补。 三平台以实际桌面发行资产核对：macOS原生DMG/ZIP、Linux Tauri shell AppImage/deb、Windows独立原生WinUI Companion/Hub；Windows仓库另为MIT。各平台组件分别发布，不由Gateway支持系统推导；未做安装测试。",
+    "sources": [
+      {
+        "url": "https://github.com/openclaw/openclaw/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/openclaw/openclaw/blob/main/LICENSE",
+        "title": "Official license"
+      },
+      {
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.8",
+        "title": "Official desktop release assets"
+      },
+      {
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.5",
+        "title": "Official Linux desktop release assets"
+      },
+      {
+        "url": "https://github.com/openclaw/openclaw-windows-node/releases/tag/v2026.9.4",
+        "title": "Official Windows desktop release assets"
+      },
+      {
+        "url": "https://github.com/openclaw/openclaw-windows-node/blob/main/LICENSE",
+        "title": "Official Windows companion MIT license"
+      }
+    ],
+    "classification": "application"
+  },
+  "hermes-agent-cli": {
+    "repository_url": "https://github.com/NousResearch/hermes-agent",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/NousResearch/hermes-agent/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T10:01:11Z"
+    },
+    "notes": "官方有Hermes Desktop入口，但本轮只确证该仓库CLI/TUI与消息网关的许可；桌面发行单独核验再加。",
+    "sources": [
+      {
+        "url": "https://github.com/NousResearch/hermes-agent/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/NousResearch/hermes-agent/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "qwenpaw-cli": {
+    "repository_url": "https://github.com/agentscope-ai/QwenPaw",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/agentscope-ai/QwenPaw/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-09-30T08:35:50Z"
+    },
+    "notes": "CoPaw官方仓库现重定向QwenPaw；Console/TUI可运行应用，非仅AgentScope框架。桌面版提及但独立发行细节待核。",
+    "sources": [
+      {
+        "url": "https://github.com/agentscope-ai/QwenPaw/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/agentscope-ai/QwenPaw/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "qwenpaw-web": {
+    "repository_url": "https://github.com/agentscope-ai/QwenPaw",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/agentscope-ai/QwenPaw/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-09-30T08:35:50Z"
+    },
+    "notes": "CoPaw官方仓库现重定向QwenPaw；Console/TUI可运行应用，非仅AgentScope框架。桌面版提及但独立发行细节待核。",
+    "sources": [
+      {
+        "url": "https://github.com/agentscope-ai/QwenPaw/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/agentscope-ai/QwenPaw/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "nanobot-cli": {
+    "repository_url": "https://github.com/HKUDS/nanobot",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/HKUDS/nanobot/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T08:55:48Z"
+    },
+    "notes": "有可安装CLI/TUI/WebUI、工具/记忆/IM网关；虽然自称framework，但可直接使用，不等于纯SDK。",
+    "sources": [
+      {
+        "url": "https://github.com/HKUDS/nanobot/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/HKUDS/nanobot/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "runnable-application-and-harness"
+  },
+  "nanobot-web": {
+    "repository_url": "https://github.com/HKUDS/nanobot",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/HKUDS/nanobot/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T08:55:48Z"
+    },
+    "notes": "有可安装CLI/TUI/WebUI、工具/记忆/IM网关；虽然自称framework，但可直接使用，不等于纯SDK。",
+    "sources": [
+      {
+        "url": "https://github.com/HKUDS/nanobot/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/HKUDS/nanobot/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "runnable-application-and-harness"
+  },
+  "agent-zero-web": {
+    "repository_url": "https://github.com/agent0ai/agent-zero",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/agent0ai/agent-zero/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-02T16:07:50Z"
+    },
+    "notes": "浏览器工作台+Docker Linux桌面；宿主macOS/Windows/Linux，不能误标为原生Linux桌面客户端。A0 Launcher另repo不自动继承许可。",
+    "sources": [
+      {
+        "url": "https://github.com/agent0ai/agent-zero/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/agent0ai/agent-zero/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "runnable-application-and-harness"
+  },
+  "kilo-code-cli": {
+    "repository_url": "https://github.com/Kilo-Org/kilocode",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/Kilo-Org/kilocode/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T09:00:13Z"
+    },
+    "notes": "当前主仓库MIT，CLI与VS Code/JetBrains在README列明；CLI源于OpenCode fork但属独立产品。云服务不自动标开源。",
+    "sources": [
+      {
+        "url": "https://github.com/Kilo-Org/kilocode/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/Kilo-Org/kilocode/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "kilo-code-ide": {
+    "repository_url": "https://github.com/Kilo-Org/kilocode",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/Kilo-Org/kilocode/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T09:00:13Z"
+    },
+    "notes": "当前主仓库MIT，CLI与VS Code/JetBrains在README列明；CLI源于OpenCode fork但属独立产品。云服务不自动标开源。",
+    "sources": [
+      {
+        "url": "https://github.com/Kilo-Org/kilocode/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/Kilo-Org/kilocode/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "pi-cli": {
+    "repository_url": "https://github.com/earendil-works/pi",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/earendil-works/pi/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T00:44:54Z"
+    },
+    "notes": "原badlogic/pi-mono已迁移；收录终端coding-agent应用，不把pi-ai/pi-agent-core等库分别计应用。",
+    "sources": [
+      {
+        "url": "https://github.com/earendil-works/pi/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/earendil-works/pi/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "eigent-desktop": {
+    "repository_url": "https://github.com/eigent-ai/eigent",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/eigent-ai/eigent/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-02T16:16:46Z"
+    },
+    "notes": "有实际macOS/Windows/Linux release安装包；本地部署应用与需注册的云连接模式区分。",
+    "sources": [
+      {
+        "url": "https://github.com/eigent-ai/eigent/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/eigent-ai/eigent/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "aionui-desktop": {
+    "repository_url": "https://github.com/iOfficeAI/AionUi",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/iOfficeAI/AionUi/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-09-09T07:57:01Z"
+    },
+    "notes": "多Agent桌面工作台+可独立运行HTTP WebUI；依赖/集成其他CLI，不应把其上游CLI重复算为自有Agent引擎。",
+    "sources": [
+      {
+        "url": "https://github.com/iOfficeAI/AionUi/blob/main/readme.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/iOfficeAI/AionUi/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "agent-client-application"
+  },
+  "aionui-web": {
+    "repository_url": "https://github.com/iOfficeAI/AionUi",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/iOfficeAI/AionUi/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-09-09T07:57:01Z"
+    },
+    "notes": "多Agent桌面工作台+可独立运行HTTP WebUI；依赖/集成其他CLI，不应把其上游CLI重复算为自有Agent引擎。",
+    "sources": [
+      {
+        "url": "https://github.com/iOfficeAI/AionUi/blob/main/readme.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/iOfficeAI/AionUi/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "agent-client-application"
+  },
+  "openwork-desktop": {
+    "repository_url": "https://github.com/different-ai/openwork",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/different-ai/openwork/blob/dev/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T06:36:02Z"
+    },
+    "notes": "仅桌面/core目录为MIT；ee/是OpenWork EE source-available，不能把整个仓库或托管服务归为MIT。",
+    "sources": [
+      {
+        "url": "https://github.com/different-ai/openwork/blob/dev/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/different-ai/openwork/blob/dev/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "librechat-web": {
+    "repository_url": "https://github.com/LibreChat-AI/LibreChat",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/LibreChat-AI/LibreChat/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T04:42:05Z"
+    },
+    "notes": "自托管Web应用，含Agents/Subagents/MCP；非官方Mac wrapper不算本产品桌面版。",
+    "sources": [
+      {
+        "url": "https://github.com/LibreChat-AI/LibreChat/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/LibreChat-AI/LibreChat/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "open-interpreter-cli": {
+    "repository_url": "https://github.com/openinterpreter/openinterpreter",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/openinterpreter/openinterpreter/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-02T07:44:16Z"
+    },
+    "notes": "当前Rust重写coding agent，原Python项目已转endolith/open-interpreter社区fork；不能复用旧AGPL或旧GUI产品描述。",
+    "sources": [
+      {
+        "url": "https://github.com/openinterpreter/openinterpreter/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/openinterpreter/openinterpreter/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "agent-tars-cli": {
+    "repository_url": "https://github.com/bytedance/UI-TARS-desktop",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-09-24T06:48:56Z"
+    },
+    "notes": "与UI-TARS Desktop同一monorepo但不同应用；CLI+Web UI有明确文档。CLI宿主OS未本轮逐一证实，platforms留空。",
+    "sources": [
+      {
+        "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "agent-tars-web": {
+    "repository_url": "https://github.com/bytedance/UI-TARS-desktop",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-09-24T06:48:56Z"
+    },
+    "notes": "与UI-TARS Desktop同一monorepo但不同应用；CLI+Web UI有明确文档。CLI宿主OS未本轮逐一证实，platforms留空。",
+    "sources": [
+      {
+        "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "ui-tars-desktop": {
+    "repository_url": "https://github.com/bytedance/UI-TARS-desktop",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-09-24T06:48:56Z"
+    },
+    "notes": "本轮quick-start确证macOS/Windows；不无证据加Linux。远程Operator免费服务于2025-08-20停止，不能宣称仍免费托管。",
+    "sources": [
+      {
+        "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "deerflow-web": {
+    "repository_url": "https://github.com/bytedance/deer-flow",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/bytedance/deer-flow/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T09:04:58Z"
+    },
+    "notes": "2.0是long-horizon agent工作台/harness，有WebUI及TUI，不是仅旧版研究框架。长期服务推荐Linux+Docker；Windows为Git Bash开发评估场景，不保证WSL。",
+    "sources": [
+      {
+        "url": "https://github.com/bytedance/deer-flow/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/bytedance/deer-flow/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "runnable-application-and-harness"
+  },
+  "deerflow-cli": {
+    "repository_url": "https://github.com/bytedance/deer-flow",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/bytedance/deer-flow/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T09:04:58Z"
+    },
+    "notes": "2.0是long-horizon agent工作台/harness，有WebUI及TUI，不是仅旧版研究框架。长期服务推荐Linux+Docker；Windows为Git Bash开发评估场景，不保证WSL。",
+    "sources": [
+      {
+        "url": "https://github.com/bytedance/deer-flow/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/bytedance/deer-flow/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "runnable-application-and-harness"
+  },
+  "astrbot-web": {
+    "repository_url": "https://github.com/AstrBotDevs/AstrBot",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/AstrBotDevs/AstrBot/blob/master/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T05:09:17Z"
+    },
+    "notes": "可部署IM个人助手+ChatUI/管理面板；AstrBot-desktop为独立repo，本轮不继承其许可或OS。",
+    "sources": [
+      {
+        "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "langbot-web": {
+    "repository_url": "https://github.com/langbot-app/LangBot",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/langbot-app/LangBot/blob/master/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-03T05:03:06Z"
+    },
+    "notes": "可部署IM Agent应用平台，有可视化配置；lbctl仅管理CLI，不应当独立终端对话Agent录入。",
+    "sources": [
+      {
+        "url": "https://github.com/langbot-app/LangBot/blob/master/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/langbot-app/LangBot/blob/master/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "openmanus-cli": {
+    "repository_url": "https://github.com/FoundationAgents/OpenManus",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/FoundationAgents/OpenManus/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-09-30T08:37:25Z"
+    },
+    "notes": "有main.py可运行终端Agent，但仍偏开发者部署/实验工作台，成熟度低于前列；不将其RL训练仓库当应用。",
+    "sources": [
+      {
+        "url": "https://github.com/FoundationAgents/OpenManus/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/FoundationAgents/OpenManus/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "runnable-application-and-harness"
+  },
+  "plandex-cli": {
+    "repository_url": "https://github.com/plandex-ai/plandex",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/plandex-ai/plandex/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2025-10-03T21:49:58Z"
+    },
+    "notes": "终端coding agent+可自托管server；Windows只支持WSL，不是原生CMD/PowerShell。",
+    "sources": [
+      {
+        "url": "https://github.com/plandex-ai/plandex/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/plandex-ai/plandex/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "bolt-diy-web": {
+    "repository_url": "https://github.com/stackblitz-labs/bolt.diy",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-02-07T14:36:22Z"
+    },
+    "notes": "和现有商业Bolt有关但不是同产品发行；保留独立product_id，README明确Web及Electron三平台应用。",
+    "sources": [
+      {
+        "url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "bolt-diy-desktop": {
+    "repository_url": "https://github.com/stackblitz-labs/bolt.diy",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-02-07T14:36:22Z"
+    },
+    "notes": "和现有商业Bolt有关但不是同产品发行；保留独立product_id，README明确Web及Electron三平台应用。 桌面发行资产确认macOS DMG、Windows setup.exe及Linux AppImage/deb；不代表本轮已安装测试。",
+    "sources": [
+      {
+        "url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/README.md",
+        "title": "Official README; interfaces and deployment"
+      },
+      {
+        "url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/LICENSE",
+        "title": "Official license"
+      },
+      {
+        "url": "https://github.com/stackblitz-labs/bolt.diy/releases/tag/v1.0.0",
+        "title": "Official desktop release assets"
+      }
+    ],
+    "classification": "application"
+  },
+  "aider": {
+    "repository_url": "https://github.com/Aider-AI/aider",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/Aider-AI/aider/blob/main/LICENSE.txt",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-05-22T14:02:20Z"
+    },
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://github.com/Aider-AI/aider/blob/main/LICENSE.txt",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "cline": {
+    "repository_url": "https://github.com/cline/cline",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/cline/cline/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-03T03:04:24Z"
+    },
+    "notes": "仅本轮核验IDE扩展；其他Cline发行版单独核验",
+    "sources": [
+      {
+        "url": "https://github.com/cline/cline/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "codex-cli": {
+    "repository_url": "https://github.com/openai/codex",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/openai/codex/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T07:12:21Z"
+    },
+    "notes": "不自动覆盖Codex Cloud、IDE扩展或ChatGPT桌面产品",
+    "sources": [
+      {
+        "url": "https://github.com/openai/codex/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "gemini-cli": {
+    "repository_url": "https://github.com/google-gemini/gemini-cli",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/google-gemini/gemini-cli/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-03T01:29:14Z"
+    },
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://github.com/google-gemini/gemini-cli/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "goose-cli": {
+    "repository_url": "https://github.com/aaif-goose/goose",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/aaif-goose/goose/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-02T17:36:13Z"
+    },
+    "notes": "当前官方仓库已从block/goose迁至aaif-goose/goose；README明确CLI及三平台桌面应用",
+    "sources": [
+      {
+        "url": "https://github.com/aaif-goose/goose/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "goose-desktop": {
+    "repository_url": "https://github.com/aaif-goose/goose",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/aaif-goose/goose/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-02T17:36:13Z"
+    },
+    "notes": "当前官方仓库已从block/goose迁至aaif-goose/goose；README明确CLI及三平台桌面应用",
+    "sources": [
+      {
+        "url": "https://github.com/aaif-goose/goose/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "opencode": {
+    "repository_url": "https://github.com/anomalyco/opencode",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/anomalyco/opencode/blob/dev/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T08:21:25Z"
+    },
+    "notes": "本地CLI/桌面应用；商业托管服务另行区分",
+    "sources": [
+      {
+        "url": "https://github.com/anomalyco/opencode/blob/dev/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "opencode-desktop": {
+    "repository_url": "https://github.com/anomalyco/opencode",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/anomalyco/opencode/blob/dev/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T08:21:25Z"
+    },
+    "notes": "本地CLI/桌面应用；商业托管服务另行区分",
+    "sources": [
+      {
+        "url": "https://github.com/anomalyco/opencode/blob/dev/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "qwen-code-cli": {
+    "repository_url": "https://github.com/QwenLM/qwen-code",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/QwenLM/qwen-code/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T10:03:17Z"
+    },
+    "notes": "其他Qwen Code GUI/Web/IDE记录需分别核验代码归属后再继承",
+    "sources": [
+      {
+        "url": "https://github.com/QwenLM/qwen-code/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "kimi-code-cli": {
+    "repository_url": "https://github.com/MoonshotAI/kimi-code",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/MoonshotAI/kimi-code/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-02T12:24:22Z"
+    },
+    "notes": "现有id已正确指向新repo；旧MoonshotAI/kimi-cli是已归档Apache-2.0 Python实现，不用其旧许可证标注现产品",
+    "sources": [
+      {
+        "url": "https://github.com/MoonshotAI/kimi-code/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "mistral-vibe": {
+    "repository_url": "https://github.com/mistralai/mistral-vibe",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/mistralai/mistral-vibe/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-03T20:35:58Z"
+    },
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://github.com/mistralai/mistral-vibe/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "anythingllm-desktop": {
+    "repository_url": "https://github.com/Mintplex-Labs/anything-llm",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/Mintplex-Labs/anything-llm/blob/master/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T01:30:10Z"
+    },
+    "notes": "现有anythingllm-web混合Cloud/自托管，建议拆分后只给自托管版标MIT",
+    "sources": [
+      {
+        "url": "https://github.com/Mintplex-Labs/anything-llm/blob/master/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "cherry-studio": {
+    "repository_url": "https://github.com/CherryHQ/cherry-studio",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/CherryHQ/cherry-studio/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-04T09:50:01Z"
+    },
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://github.com/CherryHQ/cherry-studio/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "jan-desktop": {
+    "repository_url": "https://github.com/janhq/jan",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/janhq/jan/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-02T06:37:34Z"
+    },
+    "notes": "当前repo迁至janhq/jan；Jan Agent CLI的发行归属需另核",
+    "sources": [
+      {
+        "url": "https://github.com/janhq/jan/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "zed": {
+    "repository_url": "https://github.com/zed-industries/zed",
+    "source_model": "open-source",
+    "license": "GPL-3.0-or-later",
+    "license_url": "https://github.com/zed-industries/zed/blob/main/LICENSE-GPL",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-03T18:58:19Z"
+    },
+    "notes": "README明确主要GPL-3.0-or-later，标记的组件Apache-2.0；不是整个repo任选双许可证",
+    "sources": [
+      {
+        "url": "https://github.com/zed-industries/zed/blob/main/LICENSE-GPL",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "dify": {
+    "repository_url": "https://github.com/langgenius/dify",
+    "source_model": "source-available",
+    "license": "LicenseRef-Dify",
+    "license_url": "https://github.com/langgenius/dify/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-03T15:55:10Z"
+    },
+    "notes": "修改版Apache-2.0，额外多租户及前端品牌限制；不纳入OSI开源筛选",
+    "sources": [
+      {
+        "url": "https://github.com/langgenius/dify/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "fastgpt": {
+    "repository_url": "https://github.com/labring/FastGPT",
+    "source_model": "source-available",
+    "license": "LicenseRef-FastGPT",
+    "license_url": "https://github.com/labring/FastGPT/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-01T01:35:56Z"
+    },
+    "notes": "修改版Apache-2.0，额外多租户SaaS等限制；不纳入OSI开源筛选",
+    "sources": [
+      {
+        "url": "https://github.com/labring/FastGPT/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  },
+  "open-webui": {
+    "repository_url": "https://github.com/open-webui/open-webui",
+    "source_model": "source-available",
+    "license": "LicenseRef-Open-WebUI",
+    "license_url": "https://github.com/open-webui/open-webui/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-03T13:06:04Z"
+    },
+    "notes": "当前定制许可证带50用户以上品牌保留约束；历史版本遵循原许可证，不可直接称BSD-3-Clause",
+    "sources": [
+      {
+        "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verified source and license metadata by application record ID",
+  "description": "Absent keys mean not yet verified, not closed-source. Metadata is variant-specific; public repositories and model licenses do not imply that a product is open-source.",
+  "type": "object",
+  "propertyNames": {
+    "pattern": "^[a-z][a-z0-9-]*$"
+  },
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "repository_url",
+      "source_model",
+      "license",
+      "license_url",
+      "maintenance",
+      "classification",
+      "notes",
+      "sources"
+    ],
+    "properties": {
+      "repository_url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "source_model": {
+        "enum": [
+          "open-source",
+          "source-available",
+          "unknown"
+        ]
+      },
+      "license": {
+        "type": "string",
+        "minLength": 1
+      },
+      "license_url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "classification": {
+        "enum": [
+          "application",
+          "agent-client-application",
+          "runnable-application-and-harness"
+        ]
+      },
+      "maintenance": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "status",
+          "checked_at"
+        ],
+        "properties": {
+          "status": {
+            "enum": [
+              "maintained",
+              "discontinued",
+              "archived",
+              "unknown"
+            ]
+          },
+          "checked_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "github_archived": {
+            "type": "boolean"
+          },
+          "last_push_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Repository push timestamp; not last commit time or proof of active maintenance"
+          }
+        }
+      },
+      "notes": {
+        "type": "string"
+      },
+      "sources": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "url",
+            "title"
+          ],
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

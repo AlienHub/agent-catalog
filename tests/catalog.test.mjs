@@ -9,9 +9,9 @@ const raw = JSON.parse(await readFile(new URL('../data/dataset.json', import.met
 
 test('canonical snapshot preserved, including all record fields and IDs', () => {
   assert.deepEqual(catalog.apps, raw);
-  assert.equal(catalog.catalogMeta.recordCount, 212);
-  assert.equal(catalog.catalogMeta.productCount, 137);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.4');
+  assert.equal(catalog.catalogMeta.recordCount, 241);
+  assert.equal(catalog.catalogMeta.productCount, 157);
+  assert.equal(catalog.catalogMeta.dataVersion, '0.5');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });

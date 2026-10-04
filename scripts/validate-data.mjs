@@ -1,3 +1,4 @@
+import { validateOpenSource } from './validate-open-source.mjs';
 import { readFile, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { resolve, relative } from 'node:path';
@@ -54,6 +55,7 @@ export async function validateData() {
   assert.deepEqual((await readdir(resolve(root, 'assets/icons'))).filter(name => name.endsWith('.svg')).sort(), [...iconPaths].map(path => path.slice(6)).sort(), 'Unreferenced or missing SVG assets');
   assert(Number.isInteger(metadata.schemaVersion) && typeof metadata.dataVersion === 'string');
   assert(/^\d{4}-\d{2}-\d{2}$/.test(metadata.snapshotDate));
+  await validateOpenSource(apps);
   return { apps, evidence, collections, metadata, svgs };
 }
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

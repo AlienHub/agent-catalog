@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-catalog/dataset.json' with { type: 'json' }
 
 ## 数据含义与限制
 
-当前导入快照为 v0.4（2026-10-02），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.5（2026-10-04），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -231,3 +231,21 @@ npm run build:website
 Animate UI 当前实际许可为 MIT + Commons Clause，详见 `website/vendor/animate-ui/LICENSE.txt` 和 `NOTICE.md`；不可将其描述为无附加限制的 MIT。网站发布产物包含 `website-notices.txt`。卡片/集合/结果与原生 dialog 的动画直接使用 Motion，按钮复用 Animate UI。系统“减弱动态效果”会关闭位移与缩放；原生 dialog 保留焦点约束、Escape 和关闭后的焦点恢复。
 
 `tests/website.test.mjs` 执行编译后 React 应用的 JSDOM 交互与计算样式回归，以及动画控制器竞态测试。JSDOM 不等于浏览器视觉验收；真实移动端布局、原生焦点与动画视觉仍需浏览器测试。
+
+
+### 开源应用与版本级授权元信息
+
+本次补录20个产品、29条CLI/Web/GUI/IDE形态，当前241条记录、157个产品。`data/dataset.json` 与13字段主schema不变；新增 `data/open-source.json` 以具体记录ID关联仓库、许可证、应用类别、维护状态及来源，`data/open-source-schema.json` 描述该独立结构。
+
+- `open-source`：本轮核验了该发行形态的开源许可；不自动延伸到同品牌云服务或其他客户端
+- `source-available`：源码可见但有附加用途/商标等限制，不进入“仅已核验开源”筛选
+- 没有元信息：尚未核验，不等于闭源。维护状态unknown也不代表停止维护；仓库push时间不等于代码commit时间或仍受维护的证明
+- 桌面/命令行平台是官方资料声明，未做安装、运行或区域可用性测试；缺SVG的新增项保持明确缺失
+
+SDK原函数与 `CatalogApp` 结构不变，新增原始JSON子路径：
+
+```js
+import sourceMetadata from '@alienhub/agent-catalog/open-source.json' with { type: 'json' };
+```
+
+网站详情呈现仓库、许可证、类别和核验说明。完整ZIP包含两份新JSON及独立 `open-source.csv`；原 `dataset.csv` 的字段不变。当前47条元信息中44条开源、3条源码可见，未宣称穷尽全部开源软件。未将仍需复核的历史停维条目、开发框架、混合云/自托管版直接标为开源。
