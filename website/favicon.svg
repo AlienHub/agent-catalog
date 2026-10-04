@@ -1,17 +1,8 @@
-<svg width="124" height="124" viewBox="0 0 124 124" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_f_527_27)">
-<path d="M12 28C12 19.1634 19.1634 12 28 12H96C104.837 12 112 19.1634 112 28V100C112 106.627 106.627 112 100 112H24C17.3726 112 12 106.627 12 100V28Z" fill="url(#paint0_linear_527_27)"/>
-</g>
-<path opacity="0.8" d="M28 12.5H96C104.56 12.5 111.5 19.4396 111.5 28V100C111.5 106.351 106.351 111.5 100 111.5H24C17.6487 111.5 12.5 106.351 12.5 100V28C12.5 19.4396 19.4396 12.5 28 12.5Z" stroke="white"/>
-<defs>
-<filter id="filter0_f_527_27" x="0" y="0" width="124" height="124" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="6" result="effect1_foregroundBlur_527_27"/>
-</filter>
-<linearGradient id="paint0_linear_527_27" x1="62" y1="12" x2="62" y2="112" gradientUnits="userSpaceOnUse">
-<stop stop-color="#373737"/>
-<stop offset="1" stop-color="#202124"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 624 640" fill="none">
+  <g fill="#3A3B3D">
+    <rect x="22" y="19" width="253" height="606" rx="57"/>
+    <circle cx="469" cy="140" r="124"/>
+    <rect x="315" y="303" width="288" height="145" rx="44"/>
+    <rect x="315" y="481" width="288" height="144" rx="44"/>
+  </g>
 </svg>
