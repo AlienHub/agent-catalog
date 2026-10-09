@@ -28,10 +28,10 @@ async function setup(failure=false, trendResponses={}){
 }
 test('React catalog preserves records, all filters, searches, collection and empty/reset',async()=>{
  const t=await setup();try{
- assert.equal(t.count(),241);
- for(const[id,key,array]of [['type','type',false],['platform','platforms',true],['vendor','vendor_id',false],['interface','interfaces',true],['edition','edition',false]]){const value=t.$(id).options[1].value;await t.change(id,value);assert.equal(t.count(),apps.filter(a=>array?a[key].includes(value):a[key]===value).length);await t.click('reset');assert.equal(t.count(),241)}
+ assert.equal(t.count(),295);
+ for(const[id,key,array]of [['type','type',false],['platform','platforms',true],['vendor','vendor_id',false],['interface','interfaces',true],['edition','edition',false]]){const value=t.$(id).options[1].value;await t.change(id,value);assert.equal(t.count(),apps.filter(a=>array?a[key].includes(value):a[key]===value).length);await t.click('reset');assert.equal(t.count(),295)}
  for(const field of ['name','vendor','aliases']){const app=apps.find(a=>field!=='aliases'||a.aliases.length);await t.change('search',field==='aliases'?app.aliases[0]:app[field]);assert(t.count()>0);await t.click('reset')}
- await t.change('search','zzzz-nonexistent-87234');assert.equal(t.count(),0);assert(!t.$('empty').hidden);await t.click('emptyReset');assert.equal(t.count(),241);
+ await t.change('search','zzzz-nonexistent-87234');assert.equal(t.count(),0);assert(!t.$('empty').hidden);await t.click('emptyReset');assert.equal(t.count(),295);
  // React checkbox change is driven by a click, just as a user toggles it.
  await t.click('svgOnly');assert.equal(t.count(),apps.filter(a=>a.icon.endsWith('.svg')).length);assert.equal(t.w.document.querySelectorAll('.missing').length,0);await t.click('reset');
  await t.click('agentCollection');assert.equal(t.count(),files['collections.json'].chinese_agents.length);assert.equal(t.$('agentCollection').getAttribute('aria-pressed'),'true');await t.click('reset');

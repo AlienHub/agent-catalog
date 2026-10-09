@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.5",
-  "snapshotDate": "2026-10-04",
+  "dataVersion": "0.6",
+  "snapshotDate": "2026-10-09",
   "source": "Agent Atlas verified application catalog",
-  "verificationScope": "Official website/source review; not an installation or availability test",
+  "verificationScope": "Official website/source review; 2026-10-09 candidate updates only, other records retain their own verified_at; not an installation or availability test",
   "editionCaveat": "Edition identifies the linked product/service positioning, not guaranteed geographic availability",
-  "sourceCommit": "dcfd10ddf6794e5bb3d2d75ee040b62a80456f66",
+  "sourceCommit": "5f1548d9f13e575b0245af99fe53b88faae2bcfc",
   "openSourceMetadataScope": "Verified per record ID; missing metadata means unverified, not closed-source. Repository pushes do not prove maintenance."
 }

@@ -1,0 +1,616 @@
+[
+  {
+    "candidate": "Command Code",
+    "canonical_name": "Command Code",
+    "vendor": "Command Code",
+    "official_url": "https://commandcode.ai/",
+    "aliases": [
+      "CommandCode",
+      "Command Code AI",
+      "command-code"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "Command Code CLI",
+        "interfaces": [
+          "CLI",
+          "terminal TUI",
+          "headless CLI"
+        ],
+        "platforms": [
+          "macOS",
+          "Linux",
+          "Windows (native PowerShell / Windows Terminal / Git Bash)",
+          "Windows WSL"
+        ],
+        "edition": "CLI; Go / GOAT / Pro / Max / Teams / Enterprise",
+        "repository_url": "https://github.com/CommandCodeAI/command-code",
+        "license": "Command Code Terms & Conditions（专有服务使用许可；公开仓库并非产品源码）",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://commandcode.ai/pricing",
+        "svg_url": "https://raw.githubusercontent.com/CommandCodeAI/command-code/refs/heads/main/.github/commandcode/symbols/symbol.svg",
+        "sources": [
+          {
+            "url": "https://commandcode.ai/docs/quickstart",
+            "supports": "终端编码 Agent，npm 包 command-code；macOS/Linux/WSL 命令为 cmd，Windows 原生命令为 cmdc。"
+          },
+          {
+            "url": "https://commandcode.ai/docs/windows",
+            "supports": "明确支持 Windows 原生和 WSL，并同时列 macOS/Linux 使用方式。"
+          },
+          {
+            "url": "https://github.com/CommandCodeAI/command-code",
+            "supports": "官方反馈/文档仓库只展示 .github 与 readme，未核实产品源码或开源许可，不能仅因 Public 就标开源。"
+          },
+          {
+            "url": "https://commandcode.ai/terms",
+            "supports": "服务授予有限、不可转让、不可再许可的使用许可；不据此假定任何开源源码许可证。"
+          },
+          {
+            "url": "https://commandcode.ai/pricing",
+            "supports": "官方当前价目 Go $1/月、GOAT $10/月、Pro $20/月、Max $100/$200/月，另有处理费；免费模型额度不是整个商业产品免费的证据。"
+          },
+          {
+            "url": "https://commandcode.ai/brand",
+            "supports": "官方品牌页直接链接本记录 symbol.svg；网页工具访问资产回报 image/svg+xml，但不支持渲染。"
+          }
+        ]
+      },
+      {
+        "name": "Command Code Desktop",
+        "interfaces": [
+          "desktop GUI",
+          "integrated terminal",
+          "local browser preview"
+        ],
+        "platforms": [
+          "macOS",
+          "Linux (Debian / Ubuntu .deb)",
+          "Windows"
+        ],
+        "edition": "Desktop beta; Windows preview",
+        "repository_url": "https://github.com/CommandCodeAI/desktop",
+        "license": "Command Code Terms & Conditions（专有服务许可；应用开发仓库为 private）",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://commandcode.ai/pricing",
+        "svg_url": "https://raw.githubusercontent.com/CommandCodeAI/command-code/refs/heads/main/.github/commandcode/symbols/symbol.svg",
+        "sources": [
+          {
+            "url": "https://commandcode.ai/docs/desktop",
+            "supports": "官方当前桌面 beta，macOS/Linux/Windows；包含自带 Agent runtime、聊天、文件、Git 变更、终端和浏览器预览，无需另装 CLI。"
+          },
+          {
+            "url": "https://github.com/CommandCodeAI/desktop/blob/main/README.md",
+            "supports": "明确此公开仓库仅承载下载、安装脚本、文档、问题跟踪，应用开发发生在私有仓库；不能将安装脚本开源等同于桌面客户端开源。"
+          },
+          {
+            "url": "https://commandcode.ai/pricing",
+            "supports": "同一 Command Code 账户付费计划；未核实另有独立桌面定价。"
+          },
+          {
+            "url": "https://commandcode.ai/terms",
+            "supports": "应用与服务的有限使用许可。"
+          },
+          {
+            "url": "https://commandcode.ai/brand",
+            "supports": "同品牌官方 SVG；未发现需要按地区拆分为不同产品的证据。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "建议以 Command Code 一条产品记录收录 CLI 和 Desktop beta 两种形态。taste-1 是官方模型/学习能力，不另建同名终端产品；cmd/cmdc 是平台命令别名。公开 issues/installer 仓库不是源码开放证明。未把官网 FAQ 的 free-tier 宣传替代当前详细价格页。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "Cortex",
+    "canonical_name": null,
+    "vendor": null,
+    "official_url": null,
+    "aliases": [],
+    "relationship_to_existing": "待判定",
+    "category": "其他",
+    "variants": [
+      {
+        "name": "Cortex（候选身份未定）",
+        "interfaces": [],
+        "platforms": [],
+        "edition": null,
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/owainlewis/cortex",
+            "supports": "同名 macOS 终端代码编辑器；README 明确尚无 AI integration，若候选指向它，属于基础编辑器而非本批 Agent 范围。"
+          },
+          {
+            "url": "https://github.com/Cortex-AI-IDE/Cortex-Desktop",
+            "supports": "另一个同名桌面代码编辑器拥有自主 Agent 工具循环，可读写文件和运行命令；不能与 owainlewis/cortex 合并。"
+          },
+          {
+            "url": "https://www.cortex.foundation/",
+            "supports": "另一个官方同名套件包含 Chat、Code、Bot 等用户产品，Code 是独立环境编码 Agent。"
+          },
+          {
+            "url": "https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code",
+            "supports": "Snowflake 官方 cortex-code 路径现展示 Snowflake CoCo，存在 CLI/桌面/Snowsight；不能据 Cortex 裸名自动判为 Snowflake 产品。"
+          }
+        ]
+      }
+    ],
+    "status": "unknown",
+    "recommendation": "needs-review",
+    "reason": "仅有 Cortex 裸名不足以在多家互不相关产品中选定身份。保留 canonical_name/vendor/official_url/license/pricing/svg 为 null；要求补充候选官方 URL 或发布者后再处理，不把多个同名项目当作一个产品的 variants。这里唯一 variant 是消歧证据占位，不能发布为实际产品。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "Crush",
+    "canonical_name": "Crush",
+    "vendor": "Charmbracelet, Inc.",
+    "official_url": "https://charm.land/crush/",
+    "aliases": [
+      "@charmland/crush"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "Crush（自选模型提供商）",
+        "interfaces": [
+          "CLI",
+          "terminal TUI",
+          "headless CLI"
+        ],
+        "platforms": [
+          "macOS",
+          "Linux",
+          "Windows (PowerShell / WSL)",
+          "Android terminal",
+          "FreeBSD",
+          "OpenBSD",
+          "NetBSD"
+        ],
+        "edition": "Local terminal agent; BYOK / local-model capable",
+        "repository_url": "https://github.com/charmbracelet/crush",
+        "license": "FSL-1.1-MIT；每版发布两周年后转 MIT；保留早期 Kujtim Hoxha 代码的 MIT notice",
+        "source_classification": "source-available",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/charmbracelet/crush",
+            "supports": "官方 README 核实本地终端编码 Agent、平台清单、自选提供商/API key 和本地模型；未据公开下载推断无模型费用。"
+          },
+          {
+            "url": "https://github.com/charmbracelet/crush/blob/main/LICENSE.md",
+            "supports": "当前 LICENSE 为 FSL-1.1-MIT，限制 Competing Use，每版发布两周年后 MIT；不能标当前全部源码为普通 MIT/OSI 开源。"
+          },
+          {
+            "url": "https://github.com/charmbracelet/crush/blob/main/AGENTS.md",
+            "supports": "官方架构说明有 CLI run 等命令，读写和执行代码；是最终用户工具而非仅 Go SDK。"
+          }
+        ]
+      },
+      {
+        "name": "Crush + Charm Hyper（可选官方模型服务）",
+        "interfaces": [
+          "CLI",
+          "terminal TUI"
+        ],
+        "platforms": [
+          "与 Crush 客户端相同"
+        ],
+        "edition": "Optional hosted model provider; Free / subscription / prepaid credits",
+        "repository_url": "https://github.com/charmbracelet/crush",
+        "license": "Crush 客户端 FSL-1.1-MIT；Hyper 托管服务不继承客户端源码许可",
+        "source_classification": "source-available",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://hyper.charm.land/",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/charmbracelet/crush",
+            "supports": "README 明确 Hyper 是可选的官方订阅模型提供商，有免费层；仍可选其他提供商。"
+          },
+          {
+            "url": "https://hyper.charm.land/",
+            "supports": "官方 Hyper 价目：Free $0/月含100 Hypercredits/月，订阅 $20/月、预付充值另列；这些是模型服务费用，不是 Crush 客户端强制订阅。"
+          },
+          {
+            "url": "https://github.com/charmbracelet/crush/blob/main/LICENSE.md",
+            "supports": "仅证明 Crush 客户端源码许可，不证明 Hyper 服务开源。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "收录终端编码 Agent，但当前源码归 source-available，而非普通 MIT。客户端自选模型模式的商业状态留 unknown；可选官方 Hyper 服务确有免费及付费层，单列以免把推理费用混成产品许可。官方 logo SVG 未取得，保持 null。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "DeepAgents",
+    "canonical_name": "Deep Agents Code",
+    "vendor": "LangChain, Inc.",
+    "official_url": "https://docs.langchain.com/oss/deepagents/code/overview",
+    "aliases": [
+      "deepagents-code",
+      "dcode"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "Deep Agents Code（dcode）",
+        "interfaces": [
+          "CLI",
+          "terminal TUI",
+          "headless CLI",
+          "ACP editor integration"
+        ],
+        "platforms": [
+          "macOS / Linux terminal workflow documented",
+          "Windows: not officially supported; WSL can be tried"
+        ],
+        "edition": "Prebuilt end-user coding agent; distinct from Deep Agents SDK",
+        "repository_url": "https://github.com/langchain-ai/deepagents/tree/main/libs/code",
+        "license": "MIT（libs/code/LICENSE）",
+        "source_classification": "open-source",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/langchain-ai/deepagents/blob/main/libs/README.md",
+            "supports": "官方 monorepo 明确区分 deepagents 核心 SDK 与 deepagents-code 预构建终端 Agent，后者无需编写自己的 Agent 代码即可使用。"
+          },
+          {
+            "url": "https://docs.langchain.com/oss/deepagents/code/overview",
+            "supports": "当前官方应用名 Deep Agents Code，命令 dcode；有记忆、Skills、审批、远程沙箱及子 Agent。"
+          },
+          {
+            "url": "https://docs.langchain.com/oss/deepagents/code/quickstart",
+            "supports": "终端交互/非交互用法；明确 Windows 非官方支持，可尝试 WSL；macOS/Linux 编辑器和 shell 环境在同页说明。"
+          },
+          {
+            "url": "https://github.com/langchain-ai/deepagents/blob/main/libs/code/LICENSE",
+            "supports": "这个应用分发自身 MIT 许可，版权 LangChain, Inc.；未借用其它框架的许可证。"
+          },
+          {
+            "url": "https://github.com/langchain-ai/deepagents/blob/main/libs/code/CHANGELOG.md",
+            "supports": "官方 changelog 明确 deepagents-code 在2026-05-12 v0.1.0从 deepagents-cli fork；2026-10-07仍有发布记录，支持 active。不是把整个 SDK 简单改名。"
+          },
+          {
+            "url": "https://docs.langchain.com/oss/python/deepagents/cli/overview",
+            "supports": "历史 CLI 文档入口现在重定向到 Deep Agents Code 页面；保留历史来源关系，但不把 SDK 名等同于应用名。"
+          },
+          {
+            "url": "https://github.com/langchain-ai/deepagents/tree/main/libs/acp",
+            "supports": "官方说明 dcode --acp 可把预构建 coding agent 接入 Zed 等 ACP 编辑器；需配套 deepagents-acp，区别于开发者自己拼装的 bare/general Deep Agent。"
+          },
+          {
+            "url": "https://github.com/langchain-ai/deepagents/blob/main/libs/code/PRICING.md",
+            "supports": "此文件是第三方模型 cost estimate 配置说明，不是 LangChain 应用订阅价格表；未覆盖模型价格不等于请求免费，所以 commercial_status 留 unknown。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "建议只新增明确可直接使用的 Deep Agents Code / dcode。候选 DeepAgents 常指同名 SDK/harness；SDK本体不作为最终用户应用新增。旧 Deep Agents CLI 是官方 fork 来源，不作为严格同义别名。无独立应用现价声明，保留未知，不从 MIT 推断运行零成本。官方应用专属 SVG 未核实。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "Firebender",
+    "canonical_name": "Firebender",
+    "vendor": "Firebender Corp.",
+    "official_url": "https://firebender.com/",
+    "aliases": [],
+    "relationship_to_existing": "独立产品",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "Firebender JetBrains / Android Studio plugin",
+        "interfaces": [
+          "IDE extension",
+          "agent chat",
+          "inline editing",
+          "code completion"
+        ],
+        "platforms": [
+          "Android Studio",
+          "JetBrains IDEs (IntelliJ IDEA, PyCharm, WebStorm, CLion, Rider and others)"
+        ],
+        "edition": "Plugin coding agent; existing customer access scheduled to end 2026-10-31",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://docs.firebender.com/get-started/pricing",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://docs.firebender.com/get-started/quickstart",
+            "supports": "官方快速开始证实插件内编码 Agent、inline editing 与自定义 agent 工作流。"
+          },
+          {
+            "url": "https://docs.firebender.com/about/ides",
+            "supports": "官方列 Android Studio 及所有 JetBrains IDEs；按 IDE 形态登记，没有据 Android 开发定位推断有 Android 手机 App。"
+          },
+          {
+            "url": "https://docs.firebender.com/get-started/pricing",
+            "supports": "官方文档列 Flex $9/月、Developer $30/月、Developer+ $75/月、Ultra $150/月、Business $60/用户/月和Enterprise定制。Flex BYOK/按量另收token费用；不能标成完全免费。"
+          },
+          {
+            "url": "https://firebender.com/pricing",
+            "supports": "官网价格页与文档相符；页面存在 download for free 宣传及旧 Free/Max FAQ，但不推定当前有效永久免费服务层。"
+          },
+          {
+            "url": "https://firebender.com/privacy/privacy-policy",
+            "supports": "官方隐私政策直接列运营主体 Firebender Corp. 和coding产品范围。"
+          },
+          {
+            "url": "https://firebender.com/",
+            "supports": "2026-10-09 网页搜索取得官方首页文本：plugin coding agent product ends October 31, 2026；现有客户可用至该日。直接 open 的页面解析为空，因此保留该检索限制。"
+          },
+          {
+            "url": "https://firebender.com/blog",
+            "supports": "同日官方博客列表搜索文本将相同 2026-10-31 终止声明置顶为 service announcement，核实生命周期警告；未取得单篇 transition 文章URL。"
+          },
+          {
+            "url": "https://firebender.com/legal",
+            "supports": "官方法律入口存在，但本轮未取得可核验的插件 EULA/产品源码许可正文；license和repo留null，不移用其它Firebender同名项目许可。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "needs-review",
+    "reason": "产品身份及付费插件形态已核实，但官方首页/博客目前均显示2026-10-31结束服务的公告，建议先 needs-review 或历史/即将停服区，并在发布时显著显示日期，不能无警告新增为长期活跃推荐。当前核验日2026-10-09尚未到终止日，因此标准状态记为 active，并在本说明保留计划终止日期。未核实独立地区版、应用源码仓库或官方SVG。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。 证据限制：停服日期仅由官方页面搜索索引/摘要交叉印证；本轮没有完整读取终止公告，不能把它表述为已通读公告全文。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "ForgeCode",
+    "canonical_name": "ForgeCode",
+    "vendor": "Tailcall, Inc.",
+    "official_url": "https://forgecode.dev/",
+    "aliases": [
+      "Forge",
+      "Forge Code"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "ForgeCode CLI / Zsh integration",
+        "interfaces": [
+          "CLI",
+          "terminal TUI",
+          "headless CLI",
+          "Zsh shell integration"
+        ],
+        "platforms": [
+          "macOS",
+          "Linux",
+          "Android terminal",
+          "Windows via WSL or Git Bash"
+        ],
+        "edition": "Open-source client with user-selected model providers",
+        "repository_url": "https://github.com/tailcallhq/forgecode",
+        "license": "Apache-2.0",
+        "source_classification": "open-source",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://forgecode.dev/docs/",
+            "supports": "当前官方快速开始明确 CLI-based coding harness、平台及Zsh模式；提供商账户/模型费用与客户端本体区分。"
+          },
+          {
+            "url": "https://github.com/tailcallhq/forgecode",
+            "supports": "当前官方仓库描述 TUI、one-shot CLI、Zsh 三种模式，README项目标题也使用 Forge。"
+          },
+          {
+            "url": "https://github.com/tailcallhq/forgecode/blob/main/LICENSE",
+            "supports": "客户端仓库当前 Apache License 2.0。"
+          },
+          {
+            "url": "https://github.com/antinomyhq/forge",
+            "supports": "已核实旧 antinomyhq/forge 地址重定向到 tailcallhq/forgecode，不能重复建两个产品。"
+          },
+          {
+            "url": "https://forgecode.dev/",
+            "supports": "官网页脚版权主体 Tailcall, Inc.，当前官网/文档均导向相同ForgeCode。"
+          },
+          {
+            "url": "https://forgecode.dev/blog/graduating-from-early-access-new-pricing-tiers-available/",
+            "supports": "2025-07-27历史官方文章曾列Free/Pro $20/Max $100；本轮当前文档采用自选提供商模式，旧促销/订阅文章不足以断言2026-10当前客户端收费或现价。"
+          }
+        ]
+      },
+      {
+        "name": "ForgeCode VS Code companion extension",
+        "interfaces": [
+          "VS Code extension",
+          "integrated terminal launcher",
+          "code-reference helper"
+        ],
+        "platforms": [
+          "VS Code 1.102.0+"
+        ],
+        "edition": "Companion integration; requires ForgeCode CLI",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://forgecode.dev/docs/vscode-extension/",
+            "supports": "官方文档核实 ForgeCode.forge-vscode，可生成代码引用及启动集成终端中的ForgeCode，明确依赖CLI；不是独立替代Agent引擎。未核实此扩展独立源码许可，故不从CLI自动继承Apache-2.0。"
+          }
+        ]
+      },
+      {
+        "name": "ForgeCode Services（可选托管运行层）",
+        "interfaces": [
+          "cloud service used by CLI"
+        ],
+        "platforms": [
+          "ForgeCode CLI"
+        ],
+        "edition": "Optional proprietary context / tool-correction / skill service",
+        "repository_url": null,
+        "license": "Proprietary（官方声明）；未取得完整专有服务许可正文",
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://forgecode.dev/docs/forge-services/",
+            "supports": "当前官方服务文档提供登入/退出、代码索引/语义搜索；用户自选LLM直连，不经ForgeCode基础设施。"
+          },
+          {
+            "url": "https://forgecode.dev/blog/benchmarks-dont-matter/",
+            "supports": "2026-03-03官方文章明确Services为专有运行层，当时免费；不能把CLI Apache许可证套给此服务。由于是历史免费声明，当前价格仍留unknown。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "可新增ForgeCode主记录，区分Apache-2.0 CLI、依赖CLI的VS Code辅助扩展、专有的可选ForgeCode Services。旧 antinomyhq/forge 已重定向为 tailcallhq/forgecode，避免重复。价格证据跨2025旧套餐和2026服务免费声明，当前统一价格页未核实，所以所有当前commercial_status保持unknown；不把开源等同于免费。无独立地区发行证据；官方SVG未取得。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。 Services 的官方专有声明保存在 license 与来源解释；受标准字段枚举限制，其 source_classification 记为 unknown，而非声称其开源。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "iFlow CLI",
+    "canonical_name": "iFlow CLI",
+    "vendor": "iFlow / 心流团队",
+    "official_url": "https://github.com/iflow-ai/iflow-cli",
+    "aliases": [
+      "心流 CLI",
+      "@iflow-ai/iflow-cli"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "iFlow CLI（已停止维护的遗留终端客户端）",
+        "interfaces": [
+          "CLI",
+          "terminal TUI",
+          "IDE integration"
+        ],
+        "platforms": [
+          "macOS 10.15+",
+          "Ubuntu 20.04+ / Debian 10+",
+          "Windows 10+ (WSL / Git for Windows; Windows Terminal documented)"
+        ],
+        "edition": "Legacy; official maintenance ended 2026-03-20; hosted service closed 2026-04-17 UTC+8",
+        "repository_url": "https://github.com/iflow-ai/iflow-cli",
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/iflow-ai/iflow-cli",
+            "supports": "官方仓库顶端宣布2026-04-17关闭；README 提供形态、平台、VS Code/JetBrains 集成；仓库以文档/安装脚本为主，未核实产品源码许可。"
+          },
+          {
+            "url": "https://vibex.iflow.cn/t/topic/4819",
+            "supports": "官网仓库直接链接的官方告别公告：3月20日停止维护、4月17日CLI服务/API/模型库关闭；旧客户端可通过自定义API继续使用；心流AI助手是另一产品，不受此关闭影响；Qoder是迁移目标而非改名证明。"
+          },
+          {
+            "url": "https://platform.iflow.cn/en/cli/quickstart",
+            "supports": "历史官方快速开始核实 CLI、Windows/macOS/Linux，文档仍可读不表示服务继续运行。"
+          }
+        ]
+      }
+    ],
+    "status": "discontinued",
+    "recommendation": "needs-review",
+    "reason": "不能作为仍活跃的免费 Agent 新增。建议进入 discontinued/历史目录或暂列 needs-review；若目录仅收活跃产品应排除。官方公告证明历史个人服务完全免费，但关闭后的当前总使用成本取决于自定义模型提供商，所以 commercial_status 仍留 unknown；不把心流AI助手会员或 Qoder 定价套给 CLI。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "Jazz",
+    "canonical_name": "Jazz",
+    "vendor": "lvndry / Jazz maintainers",
+    "official_url": "https://jazz-cli.vercel.app/",
+    "aliases": [
+      "Jazz CLI",
+      "jazz-ai"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "通用Agent",
+    "variants": [
+      {
+        "name": "Jazz（本地 Agent CLI）",
+        "interfaces": [
+          "CLI",
+          "terminal REPL",
+          "headless CLI",
+          "scheduled workflows",
+          "self-hosted chat integrations"
+        ],
+        "platforms": [
+          "macOS",
+          "Linux",
+          "Windows via WSL2 (no native Windows support)"
+        ],
+        "edition": "Local CLI; optional self-hosted Telegram/Discord/WhatsApp and other chat surfaces",
+        "repository_url": "https://github.com/lvndry/jazz",
+        "license": "MIT",
+        "source_classification": "open-source",
+        "commercial_status": "verified-free",
+        "pricing_url": "https://jazz-cli.vercel.app/",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/lvndry/jazz",
+            "supports": "官方 README 描述开箱可运行的 Agent CLI、文件/git/web任务、headless/计划/GitHub Actions/聊天集成；并非只能编程使用的SDK。"
+          },
+          {
+            "url": "https://jazz-cli.vercel.app/docs/getting-started/quick-start",
+            "supports": "官方快速开始列 macOS/Linux 二进制；Windows 原生不支持，需 WSL2。"
+          },
+          {
+            "url": "https://github.com/lvndry/jazz/blob/main/LICENSE",
+            "supports": "产品仓库自身 MIT 许可。"
+          },
+          {
+            "url": "https://jazz-cli.vercel.app/",
+            "supports": "官网 FAQ 明说 Jazz 本体 costs nothing，LLM token 按所选提供商另付，或用本地模型；这是独立价格声明而非从 MIT 推断免费。"
+          },
+          {
+            "url": "https://jazz-cli.vercel.app/docs/concepts/computer-use",
+            "supports": "计算机操作是实验功能，只限 Apple Silicon macOS 的受监督终端会话，不可泛化到所有平台。"
+          },
+          {
+            "url": "https://jazz.tools/",
+            "supports": "同名 Jazz 是同步数据库/开发工具，与 lvndry 的通用 Agent 无官方关联；不可混用 logo、厂商或许可。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "按本批最终用户 Agent 范围，可新增 lvndry 的 Jazz CLI，并明确官网/仓库避免与 jazz.tools 数据库框架同名误合并。保留模型费用说明；聊天机器人是自托管入口，不推定存在原生手机或桌面 GUI 应用。官方 SVG 未核实，保持 null。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。",
+    "verified_at": "2026-10-09"
+  }
+]

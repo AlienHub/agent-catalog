@@ -1,0 +1,859 @@
+[
+  {
+    "candidate": "DeepSeek Harness",
+    "canonical_name": "DeepSeek Harness",
+    "vendor": "DeepSeek AI / 杭州深度求索人工智能基础技术研究有限公司",
+    "official_url": "https://www.deepseek.com/harness/",
+    "aliases": [
+      "dsh"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "通用Agent",
+    "variants": [
+      {
+        "name": "DeepSeek Harness 官方桌面预览版",
+        "interfaces": [
+          "desktop GUI"
+        ],
+        "platforms": [
+          "macOS (Apple Silicon)",
+          "Windows x64"
+        ],
+        "edition": "Global public preview",
+        "repository_url": "https://github.com/deepseek-ai/deepseek-harness",
+        "license": "MIT（公开软件源代码）；官方模型服务另受 DeepSeek Harness 用户协议约束",
+        "source_classification": "open-source",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": "https://www.deepseek.com/harness/favicon.svg",
+        "sources": [
+          {
+            "url": "https://www.deepseek.com/harness/",
+            "supports": "官网实时 HTML 提供 DeepSeek Harness 桌面下载：Apple 芯片 macOS 与 Windows 64 位；定位涵盖办公、代码、资料查证与自动化；页脚声明开源 MIT。"
+          },
+          {
+            "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/LICENSE",
+            "supports": "实际许可证正文为 MIT，版权主体 DeepSeek；许可证只描述软件许可，不证明模型服务免费。"
+          },
+          {
+            "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/development.md",
+            "supports": "官方仓库含 apps/desktop 与 desktop-host，开发文档明确桌面产物构建，证明是第一方桌面实现。"
+          },
+          {
+            "url": "https://www.deepseek.com/harness/terms-of-use/",
+            "supports": "官方运营主体；区分官方模型与自定义模型。默认模型要在 DeepSeek 开放平台预充值，自定义模型由相应服务商提供；知识产权条款保留开源协议授权。未核实 Harness 独立订阅定价。"
+          },
+          {
+            "url": "https://www.deepseek.com/harness/favicon.svg",
+            "supports": "官网直接引用的 favicon；本次首次 GET 为 HTTP 200、Content-Type image/svg+xml。最后一次重复内容检查被取消，未将其记为成功。"
+          },
+          {
+            "url": "https://dsh-desktop.xiu.ai/",
+            "supports": "该发布者明确自称非 DeepSeek 关联的第三方包装器，不得把其平台/签名/版本信息当作 DeepSeek 官方桌面版。"
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek Harness npm / 源码运行版",
+        "interfaces": [
+          "local Web UI",
+          "CLI",
+          "headless / ACP integration"
+        ],
+        "platforms": [
+          "Node.js runtime",
+          "Windows native or WSL 2 (documented)",
+          "Linux runtime (documented)"
+        ],
+        "edition": "Developer preview; self-hosted",
+        "repository_url": "https://github.com/deepseek-ai/deepseek-harness",
+        "license": "MIT",
+        "source_classification": "open-source",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": "https://www.deepseek.com/harness/favicon.svg",
+        "sources": [
+          {
+            "url": "https://github.com/deepseek-ai/deepseek-harness",
+            "supports": "官方 README 提供 @deepseek-ai/dsh npm 启动本地 Web UI，并明确 developer preview；不是只提供 SDK 的项目。"
+          },
+          {
+            "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/index.md",
+            "supports": "最终用户可以选择工作区、发起任务、读写文件、运行命令、委派工作和维护计划。"
+          },
+          {
+            "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/apps/cli/README.md",
+            "supports": "官方 CLI 使用参考；命令行与无界面集成为同一 Harness 的入口。"
+          },
+          {
+            "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/development.md",
+            "supports": "Node.js 运行要求、原生 Windows 与 WSL 2/Linux 开发环境说明；未据此声称存在 Linux 官方桌面安装包。"
+          },
+          {
+            "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/LICENSE",
+            "supports": "MIT 软件许可；模型/API 服务成本不属于该许可证的免费授权结论。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "当前为开发者/公开预览阶段，非稳定正式版。同厂商独立产品；不是 DeepSeek Chat 的别名。应作为有最终用户桌面和本地网页界面的 Agent 单独收录；可同时标记通用办公与编程用途，不能仅因 harness 一词降为纯框架，也不能并入 DeepSeek 聊天。官方桌面目前只核实 macOS Apple Silicon 和 Windows x64，未安装测试。源码 MIT 与官方模型付费服务分开；没有取得可可靠核实的 Harness 独立价格，商业状态保留 unknown，避免把开源误写为全程免费。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "Loomy",
+    "canonical_name": "Loomy",
+    "vendor": "科大讯飞 / 合肥科讯创想软件开发有限公司",
+    "official_url": "https://loomy.xunfei.cn/",
+    "aliases": [],
+    "relationship_to_existing": "独立产品",
+    "category": "通用Agent",
+    "variants": [
+      {
+        "name": "Loomy 桌面版",
+        "interfaces": [
+          "desktop GUI",
+          "IM remote control integrations"
+        ],
+        "platforms": [
+          "macOS 14+ (Apple Silicon only)",
+          "Windows 10+ x64"
+        ],
+        "edition": "China desktop",
+        "repository_url": null,
+        "license": "Loomy 用户协议（未核实产品源代码开放许可）",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://loomy.xunfei.cn/docs/user-guide/credits",
+        "svg_url": "https://loomy.xunfei.cn/assets/images/bottom_loomy.svg",
+        "sources": [
+          {
+            "url": "https://loomy.xunfei.cn/",
+            "supports": "官网明确 Windows x64、macOS Apple Silicon 最低版本；桌面、Web、手机 App 分列；官网页脚署名合肥科讯创想软件开发有限公司并链接科大讯飞。"
+          },
+          {
+            "url": "https://loomy.xunfei.cn/docs/introduction",
+            "supports": "办公 Agent：拆解任务、跨工具执行、本地目录授权、IM/远程协作；可配置自有模型 API。文档澄清相关文本会交给模型 API，并非所有处理都完全离线。"
+          },
+          {
+            "url": "https://loomy.xunfei.cn/docs/Safe/Loomy-user",
+            "supports": "正式用户协议确认产品开发运营主体；没有取得 Loomy 产品本体的开源仓库或许可证。"
+          },
+          {
+            "url": "https://loomy.xunfei.cn/docs/user-guide/credits",
+            "supports": "官方收费机制：默认模型和部分能力消耗积分；可购买积分包，也有活动赠送；自备 API 的模型调用不扣 Loomy 积分，其他能力以当期规则为准。未公开确认具体人民币价格。"
+          },
+          {
+            "url": "https://loomy.xunfei.cn/docs/Safe/Loomy-credit",
+            "supports": "官方积分充值协议明确付费积分与赠送积分，支持 verified-paid，而非仅据免费下载按钮宣称完全免费。"
+          },
+          {
+            "url": "https://loomy.xunfei.cn/assets/images/bottom_loomy.svg",
+            "supports": "官方首页以 Loomy 品牌图引用该 SVG；本次首次 GET 为 200、image/svg+xml。重复内容检查未完成，未声称安装或图形渲染测试成功。"
+          }
+        ]
+      },
+      {
+        "name": "Loomy Web",
+        "interfaces": [
+          "web app"
+        ],
+        "platforms": [
+          "Web browser"
+        ],
+        "edition": "Beta",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": "https://loomy.xunfei.cn/assets/images/bottom_loomy.svg",
+        "sources": [
+          {
+            "url": "https://loomy.xunfei.cn/",
+            "supports": "官网列有已可打开的 Web Beta 入口，说明免下载登录后可发起云端任务。不能将桌面 API Key/local-storage 特性自动套用到 Web。"
+          }
+        ]
+      },
+      {
+        "name": "Loomy Android App",
+        "interfaces": [
+          "mobile app",
+          "remote desktop-agent control"
+        ],
+        "platforms": [
+          "Android"
+        ],
+        "edition": "China mobile",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://loomy.xunfei.cn/app-download",
+            "supports": "手机官方下载页提供安卓下载，同时明确 iOS 即将上线；核实移动任务、进度同步和电脑控制入口。"
+          },
+          {
+            "url": "https://loomy.xunfei.cn/docs/Safe/Loomy-mobile-privacy",
+            "supports": "移动端隐私政策对应独立移动形态，并明确当前不提供用户自行配置模型 API Key、MCP 或第三方工具。未确认移动端专属定价。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "独立通用办公 Agent；不能由基座或模型供应商关系推定为 AstronClaw、OpenClaw 或讯飞星火聊天的别名。收录讯飞 Loomy，分别记录桌面、Web Beta 和已公布 Android 入口。iOS 和微信小程序在本次官网仍标为即将上线，不应当成已发布平台。官方资料有早期邀请码/Waiting List 说明，不能从旧教程推断全部当前入口仍受同样门槛限制。未核实产品源码；基座开源不等于 Loomy 开源。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "QoderWake CN",
+    "canonical_name": "QoderWake CN",
+    "vendor": "通义云启（杭州）信息技术有限公司 / 阿里云",
+    "official_url": "https://qoder.com.cn/qoderwake",
+    "aliases": [
+      "Qoder CN Wake"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "通用Agent",
+    "variants": [
+      {
+        "name": "QoderWake CN 本地数字员工",
+        "interfaces": [
+          "desktop installer / launcher",
+          "CLI / daemon",
+          "local Web Console",
+          "IM integrations"
+        ],
+        "platforms": [
+          "macOS 13+ (Apple Silicon, Intel)",
+          "Windows 10+",
+          "Linux"
+        ],
+        "edition": "China local deployment",
+        "repository_url": null,
+        "license": "Qoder CN 用户协议（专有服务授权；未核实产品源码开放许可）",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://docs.qoder.cn/product-overview/billing-description",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://qoder.com.cn/qoderwake",
+            "supports": "官方产品页将 QoderWake CN 单列为自主工作的数字员工，可由 IM、定时、Hooks 与 API 触发。"
+          },
+          {
+            "url": "https://docs.qoder.cn/qoderwake/overview",
+            "supports": "官方区分 Qoder CN、IDE、CLI、Agent SDK、Cloud Agents、移动端和 QoderWake；Wake 有 Waker、Group、任务看板和持续工作流。"
+          },
+          {
+            "url": "https://docs.qoder.cn/qoderwake/installation",
+            "supports": "明确 macOS 13+、Windows 10+、Linux；macOS ARM64/X64 安装包、Windows 安装器及 CLI 安装，启动本地 Web Console。"
+          },
+          {
+            "url": "https://docs.qoder.cn/qoderwake/cli-reference",
+            "supports": "qoderwake 是本地 CLI 和常驻 daemon，不等于 Qoder 编程 CLI；CLI 管理 Waker、IM、项目和定时任务。"
+          },
+          {
+            "url": "https://docs.qoder.cn/product-overview/billing-description",
+            "supports": "官方计费说明将 Qoder CN Wake 纳入共享 Credits；列免费体验与个人/团队付费订阅，Pro 月费 59 元。页面部分旧覆盖范围表述未同步，具体账号权益以购买页为准。"
+          },
+          {
+            "url": "https://terms.alicdn.com/legal-agreement/terms/c_platform_service_agreement/20231023213402278/20231023213402278.html",
+            "supports": "官方签约主体为通义云启及关联公司，并可同阿里云共同供给；条款限制修改、反编译和源码提取，不能按开源分类。未取得 Wake 产品源代码仓库。"
+          }
+        ]
+      },
+      {
+        "name": "QoderWake CN 云电脑",
+        "interfaces": [
+          "Web Console",
+          "remote desktop",
+          "cloud task execution"
+        ],
+        "platforms": [
+          "Hosted cloud environment accessed through browser"
+        ],
+        "edition": "Standard cloud computer",
+        "repository_url": null,
+        "license": "Qoder CN 用户协议；云电脑服务条款以购买页为准",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://docs.qoder.cn/qoderwake/cloud-computer",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://docs.qoder.cn/qoderwake/cloud-computer",
+            "supports": "官方云电脑为 Waker 提供持久化浏览器、终端、文件和桌面环境，本机可离线；标准版目录价 ¥99/月/台、活动价 ¥59/月/台。它是 Wake 的运行环境形态，不是新品牌。"
+          },
+          {
+            "url": "https://docs.qoder.cn/qoderwake/ecs-deployment",
+            "supports": "同时支持用户自行在云电脑/ECS 部署；不能将自部署 ECS 与官方托管云电脑的费用混为一谈。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "Qoder CN 家族独立产品；与 Qoder、QoderWork 共享订阅/积分不能据此合并。按 QoderWake CN 独立产品收录，保留中国区登录和计费范围；不并入 QoderWork 或 Qoder IDE，不将其 qoderwake 命令误认成 Qoder 编程 CLI。仅给已验证 CN 信息，未臆造国际版地域等价关系。官方页面使用 Qoder 家族 favicon，尚未验证 Wake 专属 SVG，留 null。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "VS Code",
+    "canonical_name": "Visual Studio Code",
+    "vendor": "Microsoft",
+    "official_url": "https://code.visualstudio.com/",
+    "aliases": [
+      "VS Code"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "编辑器",
+    "variants": [
+      {
+        "name": "Visual Studio Code Desktop（微软官方发行版）",
+        "interfaces": [
+          "desktop IDE",
+          "built-in AI chat / agent interface"
+        ],
+        "platforms": [
+          "Windows",
+          "macOS",
+          "Linux"
+        ],
+        "edition": "Stable / Insiders",
+        "repository_url": null,
+        "license": "Microsoft Software License Terms（官方二进制）；内含开源组件",
+        "source_classification": "unknown",
+        "commercial_status": "verified-free",
+        "pricing_url": "https://code.visualstudio.com/docs/supporting/faq",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://code.visualstudio.com/",
+            "supports": "当前官网定位包含 AI code editor 与 multi-agent development，提供 Windows、macOS、Linux 官方下载。"
+          },
+          {
+            "url": "https://code.visualstudio.com/docs/agents/overview",
+            "supports": "当前官方文档明确内置 Chat/Agents 工作流，支持跨文件查找、编辑、运行测试及选择 Agent harness。不能仅按历史印象归为无 AI 的基础编辑器。"
+          },
+          {
+            "url": "https://code.visualstudio.com/docs/supporting/faq",
+            "supports": "官方确认编辑器个人及商业使用免费；Microsoft 分发版遵循产品许可证，Code-OSS 仓库另为 MIT；AI 模型与 Copilot 后端费用独立。"
+          },
+          {
+            "url": "https://code.visualstudio.com/license",
+            "supports": "官方二进制的实际 Microsoft Software License Terms，不能移植 Code-OSS 的 MIT 到全部微软发行物。"
+          },
+          {
+            "url": "https://code.visualstudio.com/brand",
+            "supports": "品牌页允许用于指向官网/介绍文章；提供 SVG/PNG 图标压缩包，但本次没有验证到独立直链 SVG，故 svg_url 为 null。"
+          }
+        ]
+      },
+      {
+        "name": "Code - OSS 源码发行",
+        "interfaces": [
+          "source-built editor"
+        ],
+        "platforms": [
+          "Windows",
+          "macOS",
+          "Linux"
+        ],
+        "edition": "MIT upstream source distribution",
+        "repository_url": "https://github.com/microsoft/vscode",
+        "license": "MIT",
+        "source_classification": "open-source",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://code.visualstudio.com/docs/supporting/faq",
+            "supports": "官方明确 Code-OSS 是 vscode 仓库名称，源码采用 MIT；微软专有资源、Marketplace 集成等不是完全相同发行物。"
+          },
+          {
+            "url": "https://github.com/microsoft/vscode/blob/main/LICENSE.txt",
+            "supports": "微软公开仓库的 MIT 许可证；此字段仅归于源码发行。"
+          }
+        ]
+      },
+      {
+        "name": "VS Code 中的 GitHub Copilot AI 集成",
+        "interfaces": [
+          "IDE AI chat",
+          "agent mode",
+          "inline completion"
+        ],
+        "platforms": [
+          "Visual Studio Code Desktop"
+        ],
+        "edition": "Copilot Free and paid plans; service integration",
+        "repository_url": "https://github.com/microsoft/vscode-copilot-chat",
+        "license": "Copilot Chat 客户端源码 MIT；Copilot 服务仍闭源，受服务条款约束",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://github.com/features/copilot/plans",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://code.visualstudio.com/docs/supporting/faq",
+            "supports": "官方区分 MIT Copilot Chat 扩展源码和闭源后端服务；源码开放不改变 Copilot 订阅要求，亦支持自带模型密钥。"
+          },
+          {
+            "url": "https://github.com/features/copilot/plans",
+            "supports": "官方定价当前列 Free、Pro $10/月、Pro+ $39/月、Max $100/月，明确 VS Code agent mode 是服务入口之一；此价格是 Copilot 服务而非 VS Code 编辑器售价。"
+          }
+        ]
+      },
+      {
+        "name": "VS Code for the Web",
+        "interfaces": [
+          "web editor"
+        ],
+        "platforms": [
+          "Web browser"
+        ],
+        "edition": "vscode.dev",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-free",
+        "pricing_url": "https://code.visualstudio.com/docs/remote/vscode-web",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://code.visualstudio.com/docs/remote/vscode-web",
+            "supports": "官方免费的浏览器版本；纯 Web 在终端、构建运行和扩展方面有限制，可转桌面/Codespaces/Remote Tunnels；不可把完整本地 Agent 执行能力自动套用给裸 vscode.dev。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "独立编辑器/Agent 工作台；与 GitHub Copilot 集成但不是 Copilot、Visual Studio 或 Code-OSS 的同一发行物。当前官方已提供最终用户 AI/Agent 工作流，建议作为 Agent-capable IDE 收录并注明宿主与服务的边界；若目录仅接纳独立模型服务，基本编辑器形态可置 needs-review。必须分别展示微软二进制专有许可、Code-OSS MIT 和 Copilot 服务，不可一律标开源或付费。不要重复创建 GitHub Copilot 产品，只把本记录的集成形态关联既有 Copilot。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "Aider Desk",
+    "canonical_name": "AiderDesk",
+    "vendor": "Hotovo / AiderDesk contributors",
+    "official_url": "https://aiderdesk.hotovo.com/",
+    "aliases": [
+      "Aider Desk",
+      "aider-desk"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "AiderDesk 桌面版",
+        "interfaces": [
+          "desktop GUI",
+          "agent orchestration"
+        ],
+        "platforms": [
+          "Windows",
+          "macOS",
+          "Linux"
+        ],
+        "edition": "Self-hosted desktop",
+        "repository_url": "https://github.com/hotovo/aider-desk",
+        "license": "Apache-2.0",
+        "source_classification": "open-source",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/hotovo/aider-desk",
+            "supports": "官方 README 说明产品从 Aider GUI 演进为完整 agent orchestration platform，支持工具审批、多项目、模型供应商、上下文和扩展；身份独立。"
+          },
+          {
+            "url": "https://github.com/hotovo/aider-desk/blob/main/package.json",
+            "supports": "官方包声明 author Hotovo，homepage 指向 aiderdesk.hotovo.com。"
+          },
+          {
+            "url": "https://aiderdesk.hotovo.com/",
+            "supports": "官方主页列 Windows、macOS、Linux 桌面下载入口。"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/hotovo/aider-desk/main/LICENSE",
+            "supports": "实际 Apache License 2.0 正文；软件许可证可核实，不代表第三方模型推理免费。"
+          },
+          {
+            "url": "https://github.com/hotovo/aider-desk/releases",
+            "supports": "官方持续发布渠道，供下载和核实版本；本次未下载安装。"
+          },
+          {
+            "url": "https://aiderdesk.hotovo.com/docs/agent-mode/agent-profiles",
+            "supports": "官方 Agent 配置中 Aider 只是可选工具/配置类型之一；有自主工具、MCP 和子智能体。"
+          }
+        ]
+      },
+      {
+        "name": "AiderDesk CLI / ACP",
+        "interfaces": [
+          "CLI",
+          "Agent Client Protocol integration"
+        ],
+        "platforms": [
+          "Running AiderDesk server; client platform matrix not independently verified"
+        ],
+        "edition": "CLI access to AiderDesk",
+        "repository_url": "https://github.com/hotovo/aider-desk",
+        "license": "Apache-2.0",
+        "source_classification": "open-source",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/hotovo/aider-desk/discussions/834",
+            "supports": "官方发布说明引入 aiderdesk run 命令，对运行中的 AiderDesk server 提交非交互任务及流式输出。"
+          },
+          {
+            "url": "https://github.com/hotovo/aider-desk/discussions/856",
+            "supports": "官方发布说明支持 ACP，供支持该协议的编辑器/IDE 连接；这不是 Aider 上游 CLI 改名。"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/hotovo/aider-desk/main/LICENSE",
+            "supports": "该项目采用 Apache-2.0。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "基于/集成 Aider 的独立 Hotovo 产品；不是既有 Aider CLI 的别名。单列 AiderDesk 并关联 Aider，不合并。许可证确认 Apache-2.0；没有核实官方独立定价说明，commercial_status 保留 unknown，而非由开源或可直接下载推定模型/服务完全免费。已看到官方品牌图为非 SVG；未找到可靠第一方品牌 SVG 直链，留 null。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "Bob",
+    "canonical_name": null,
+    "vendor": null,
+    "official_url": null,
+    "aliases": [],
+    "relationship_to_existing": "待判定",
+    "category": "unknown",
+    "variants": [
+      {
+        "name": "身份候选 A：IBM Bob（不能直接导入为 Bob 的已确认形态）",
+        "interfaces": [
+          "desktop IDE",
+          "Bob Shell CLI"
+        ],
+        "platforms": [
+          "macOS (Apple Silicon, Intel)",
+          "Windows",
+          "Linux"
+        ],
+        "edition": "IBM SaaS plans; Enterprise self-hosted option",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://bob.ibm.com/pricing",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://www.ibm.com/products/ai-coding-agent",
+            "supports": "IBM 官方产品页明确 IBM Bob 为企业编码 Agent/开发伙伴，支持规划、开发、测试和现代化。"
+          },
+          {
+            "url": "https://bob.ibm.com/docs/ide/getting-started/install",
+            "supports": "官方安装文档列 macOS、Windows、Linux，并区分 Intel/Apple Silicon。"
+          },
+          {
+            "url": "https://bob.ibm.com/pricing",
+            "supports": "官方收费含 30 天免费试用，Pro $20/月、Pro+ $60/月、Ultra $200/月，IDE 和 Bob Shell；企业支持自有基础设施部署。此为 IBM 候选信息，不是未知 Bob 的定论。"
+          },
+          {
+            "url": "https://newsroom.ibm.com/2026-04-28-introducing-ibm-bob-ai-development-partner-that-takes-enterprises-from-ai-assisted-coding-to-production-ready-software",
+            "supports": "官方历史公告确认正式名称 IBM Bob；是 IBM code assistant 能力的演进，不能未经证据把既有 watsonx Code Assistant 一律当作 Bob 别名。"
+          },
+          {
+            "url": "https://bob.ibm.com/docs/shell/getting-started/start-bobshell-interactive",
+            "supports": "官方 Bob Shell 使用文档提供 --show-license 显示 IBM 许可；本次未取得该具体许可全文，故 license/source 保留未知，不借用 VS Code 或相关样例仓库许可。"
+          }
+        ]
+      },
+      {
+        "name": "身份候选 B：Bob 翻译与 OCR（何宗苡 / ripperhe）",
+        "interfaces": [
+          "macOS menu-bar app",
+          "translation and OCR"
+        ],
+        "platforms": [
+          "macOS 12+ for current App Store release"
+        ],
+        "edition": "Mac App Store app",
+        "repository_url": null,
+        "license": "专有；官方仓库明确声明 Bob 不是开源软件",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://apps.apple.com/us/app/bob-%E7%BF%BB%E8%AF%91%E5%92%8C-ocr-%E5%B7%A5%E5%85%B7/id1630034110?mt=12",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://bobtranslate.com/",
+            "supports": "同名官网将 Bob 定义为 macOS 翻译/OCR 工具，署名 Zongyi He，与 IBM 无关。"
+          },
+          {
+            "url": "https://github.com/ripperhe/Bob",
+            "supports": "官方仓库明确 Bob 非开源，仓库曾用于反馈；列 AI 模型翻译及 OCR。此公开仓库不是产品源码仓库，repository_url 留 null。"
+          },
+          {
+            "url": "https://apps.apple.com/us/app/bob-%E7%BF%BB%E8%AF%91%E5%92%8C-ocr-%E5%B7%A5%E5%85%B7/id1630034110?mt=12",
+            "supports": "官方开发者商店页显示宗苡 何、仅 Mac、免费下载并含 App 内购买；更新说明有 OpenAI/Claude/DeepSeek 等 AI 翻译服务，当前系统最低 macOS 12。"
+          }
+        ]
+      }
+    ],
+    "status": "unknown",
+    "recommendation": "needs-review",
+    "reason": "身份未决；至少 IBM Bob 与 Bob 翻译/OCR 两个独立且相关的最终用户 AI 产品。只有 Bob 名字不足以锁定厂商。保留 canonical_name/vendor/official_url 为 null，等待原始候选 URL、厂商或截图。variants 此处是清楚标注的互斥身份候选，不是同一产品形态，工程导入时不得自动建产品或合并别名。两个候选均有第一方活动与功能证据，不应用搜索排名选择其一。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "CodeMaker",
+    "canonical_name": "CodeMaker AI",
+    "vendor": "CodeMaker AI Inc.",
+    "official_url": "https://codemaker.ai/",
+    "aliases": [
+      "CodeMaker"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "CodeMaker AI VS Code extension",
+        "interfaces": [
+          "IDE extension",
+          "coding assistant"
+        ],
+        "platforms": [
+          "Visual Studio Code"
+        ],
+        "edition": "API-backed client",
+        "repository_url": "https://github.com/codemakerai/codemaker-vscode",
+        "license": "MIT（客户端）；不代表托管模型/API 服务开源",
+        "source_classification": "open-source",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/codemakerai/codemaker-vscode",
+            "supports": "CodeMaker AI 官方组织下的最终用户客户端，README 描述代码生成/文档/助手及 API Key 配置。CLI 仓库明确列 macOS、Windows、Linux 安装方式；IDE 插件只按已证实宿主登记。"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/codemakerai/codemaker-vscode/dev/LICENSE",
+            "supports": "本次读取实际 MIT License，版权主体 CodeMaker AI Inc.；不是从相邻 SDK 推导。"
+          },
+          {
+            "url": "https://github.com/codemakerai",
+            "supports": "GitHub 验证该组织控制 codemaker.ai；列对应官方仓库，不能将 SDK 开源等同于托管平台开源。"
+          }
+        ]
+      },
+      {
+        "name": "CodeMaker AI JetBrains plugin",
+        "interfaces": [
+          "IDE plugin",
+          "coding assistant"
+        ],
+        "platforms": [
+          "JetBrains IntelliJ-based IDEs"
+        ],
+        "edition": "API-backed client",
+        "repository_url": "https://github.com/codemakerai/codemaker-jetbrains",
+        "license": "MIT（客户端）；不代表托管模型/API 服务开源",
+        "source_classification": "open-source",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/codemakerai/codemaker-jetbrains",
+            "supports": "CodeMaker AI 官方组织下的最终用户客户端，README 描述代码生成/文档/助手及 API Key 配置。CLI 仓库明确列 macOS、Windows、Linux 安装方式；IDE 插件只按已证实宿主登记。"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/codemakerai/codemaker-jetbrains/dev/LICENSE",
+            "supports": "本次读取实际 MIT License，版权主体 CodeMaker AI Inc.；不是从相邻 SDK 推导。"
+          },
+          {
+            "url": "https://github.com/codemakerai",
+            "supports": "GitHub 验证该组织控制 codemaker.ai；列对应官方仓库，不能将 SDK 开源等同于托管平台开源。"
+          }
+        ]
+      },
+      {
+        "name": "CodeMaker CLI",
+        "interfaces": [
+          "CLI"
+        ],
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux"
+        ],
+        "edition": "API-backed client",
+        "repository_url": "https://github.com/codemakerai/codemaker-cli",
+        "license": "MIT（客户端）；不代表托管模型/API 服务开源",
+        "source_classification": "open-source",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/codemakerai/codemaker-cli",
+            "supports": "CodeMaker AI 官方组织下的最终用户客户端，README 描述代码生成/文档/助手及 API Key 配置。CLI 仓库明确列 macOS、Windows、Linux 安装方式；IDE 插件只按已证实宿主登记。"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/codemakerai/codemaker-cli/dev/LICENSE",
+            "supports": "本次读取实际 MIT License，版权主体 CodeMaker AI Inc.；不是从相邻 SDK 推导。"
+          },
+          {
+            "url": "https://github.com/codemakerai",
+            "supports": "GitHub 验证该组织控制 codemaker.ai；列对应官方仓库，不能将 SDK 开源等同于托管平台开源。"
+          }
+        ]
+      },
+      {
+        "name": "CodeMaker AI 托管服务",
+        "interfaces": [
+          "API-backed coding service",
+          "GitHub integration"
+        ],
+        "platforms": [
+          "Web service / GitHub"
+        ],
+        "edition": "Hosted backend",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://docs.codemaker.ai/",
+            "supports": "第一方文档确认 Coding Assistant、代码生成/测试/文档及 VS Code、JetBrains、GitHub 集成；服务与其开源客户端区分。"
+          },
+          {
+            "url": "https://github.com/codemakerai/codemaker-vscode",
+            "supports": "官方客户端 README 链接 codemaker.ai 与 portal.codemaker.ai，需服务 API Key。不能仅因客户端 MIT 就认定平台免费。"
+          }
+        ]
+      }
+    ],
+    "status": "unknown",
+    "recommendation": "needs-review",
+    "reason": "独立编码辅助产品；不是 Tabby 或其他编辑器的别名。身份和客户端许可证已确认，适合目录范围，但当前服务运营/定价未确认：codemaker.ai 与 beta.codemaker.ai 的本次直接请求均返回 502，第一方文档与源码仍可检索。502 或旧提交本身不证明停止运营，也不应据第三方报价标付费/免费。暂标 needs-review/unknown，保留已证实的三个 MIT 客户端和独立托管服务；没有证据认定整个平台开源。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "CodeStudio",
+    "canonical_name": null,
+    "vendor": null,
+    "official_url": null,
+    "aliases": [],
+    "relationship_to_existing": "待判定",
+    "category": "unknown",
+    "variants": [
+      {
+        "name": "身份候选 A：Syncfusion Code Studio",
+        "interfaces": [
+          "desktop AI IDE",
+          "enterprise Web administration"
+        ],
+        "platforms": [
+          "Windows 10+",
+          "macOS 11+ (Apple Silicon, Intel)"
+        ],
+        "edition": "Individual / Teams / Enterprise Server",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://www.syncfusion.com/code-studio/",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://www.syncfusion.com/code-studio/",
+            "supports": "Syncfusion 官方 AI IDE，含 Ask/Edit/Agent/Plan/Autocomplete、并行 Agent 与企业管理；官方定价有个人免费和付费团队，5 席月付 $49 或年付折算 $39/月。"
+          },
+          {
+            "url": "https://help.syncfusion.com/code-studio/getting-started/install-and-configuration",
+            "supports": "安装文档明确 Windows 10+、macOS 11+ 和 Intel/Apple Silicon。虽其他教程出现 Linux 快捷键，未用快捷键文字推定 Linux 安装包已正式提供。"
+          },
+          {
+            "url": "https://help.syncfusion.com/code-studio/getting-started/quick-start",
+            "supports": "官方现行入门确认独立 IDE 与五类 AI/Agent 入口。"
+          },
+          {
+            "url": "https://www.syncfusion.com/code-studio/whatsnew/",
+            "supports": "官方发布历史/安装包与持续更新，官网也在正文使用 CodeStudio 连写。"
+          },
+          {
+            "url": "https://help.syncfusion.com/code-studio/get-started/windows",
+            "supports": "官方说明安装需要接受 License Agreement，但本次未取得具体产品许可全文或产品源代码仓库，不能借用 VS Code MIT 或 Syncfusion UI 组件许可。"
+          }
+        ]
+      },
+      {
+        "name": "身份候选 B：Zoho Analytics Code Studio",
+        "interfaces": [
+          "embedded web Python editor",
+          "AI code suggestions"
+        ],
+        "platforms": [
+          "Zoho Analytics Web"
+        ],
+        "edition": "Analytics Enterprise feature",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://www.zoho.com/analytics/help/code-environment/code-studio.html",
+            "supports": "Zoho 官方同名 Code Studio：Analytics 中的数据转换/机器学习代码环境，内置 Zia Code Suggester，仅企业版；不是 Syncfusion IDE。未核实其当前正式价目，商业状态不由 Enterprise 名称推定。"
+          }
+        ]
+      },
+      {
+        "name": "其他同名需排除：腾讯云 WeData CodeStudio",
+        "interfaces": [
+          "data-development feature"
+        ],
+        "platforms": [
+          "Tencent Cloud WeData"
+        ],
+        "edition": "Identity disambiguation only",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://cloud.tencent.com/document/product/1267/123593",
+            "supports": "腾讯云官方 API 文档出现 CodeStudio 实体和文件夹权限，证明另有同名数据开发功能；这不能用来确认候选是腾讯产品，也不能据此当作独立最终用户 Agent 收录。"
+          }
+        ]
+      }
+    ],
+    "status": "unknown",
+    "recommendation": "needs-review",
+    "reason": "身份未决；Syncfusion Code Studio、Zoho Analytics Code Studio 等同名形态不能自动合并。Syncfusion 是已确认存在且符合 AI IDE 范围的候选，但仅 CodeStudio 一个名字无法排除 Zoho 等同名产品。canonical_name/vendor/official_url 留 null；需要原始 URL 或厂商后再决定收录。variants 为消歧资料而非同一产品的多个版本，不能一次全部导入。若确认 Syncfusion，可用候选 A 单独建产品，产品许可证/源码状态仍保留未知。",
+    "verified_at": "2026-10-09"
+  }
+]

@@ -1,0 +1,1071 @@
+[
+  {
+    "candidate": "Coder / code-server — Coder",
+    "canonical_name": "Coder",
+    "vendor": "Coder Technologies Inc.",
+    "official_url": "https://coder.com/",
+    "aliases": [],
+    "relationship_to_existing": "独立产品",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "Coder Community（含 Coder Agents）",
+        "interfaces": [
+          "Web UI",
+          "REST API",
+          "CLI（平台管理）",
+          "IDE integrations（workspace连接）"
+        ],
+        "platforms": [
+          "Self-hosted",
+          "Linux workspaces",
+          "macOS workspaces",
+          "Windows workspaces"
+        ],
+        "edition": "Community; free; up to 5 active Coder Agents",
+        "repository_url": "https://github.com/coder/coder",
+        "license": "GNU Affero General Public License v3.0 (AGPL-3.0), including native Coder Agents community implementation in coderd/x/chatd; enterprise extensions separately custom-licensed (current main source verified, not binary audit)",
+        "source_classification": "open-source",
+        "commercial_status": "verified-free",
+        "pricing_url": "https://coder.com/pricing",
+        "svg_url": "https://coder.com/brand/images/logo/sections/0/content/1/value/images/0/image.svg",
+        "sources": [
+          {
+            "url": "https://coder.com/docs/about",
+            "supports": "官方身份：自托管开发环境及原生 AI coding agents；Coder Agents 使用 Web UI/REST API；workspace 支持 Linux/macOS/Windows。"
+          },
+          {
+            "url": "https://coder.com/pricing",
+            "supports": "Community 免费；5 个 active Coder Agents；平台 Web UI、CLI、REST API 和 IDE integrations。"
+          },
+          {
+            "url": "https://github.com/coder/coder",
+            "supports": "官方源码仓库，README 描述原生 Coder Agents。"
+          },
+          {
+            "url": "https://github.com/coder/coder/blob/main/LICENSE",
+            "supports": "社区代码 LICENSE 为 GNU AGPL version 3。"
+          },
+          {
+            "url": "https://github.com/coder/coder/blob/main/LICENSE.enterprise",
+            "supports": "企业目录由 Coder Technologies Inc. 单独的自定义许可证约束。"
+          },
+          {
+            "url": "https://coder.com/brand",
+            "supports": "官方品牌页 Primary logo 图链为所列 SVG；抓取返回 image/svg+xml。"
+          },
+          {
+            "url": "https://github.com/coder/coder/releases",
+            "supports": "仍活跃：v2.38.0 发布于 2026-10-06；旧 Tasks 已弃用移除。"
+          },
+          {
+            "url": "https://github.com/coder/coder/blob/main/coderd/coderd.go",
+            "supports": "具体社区实现证据：文件 API 注释标 AGPL-3.0 并链接根 LICENSE；Chats 注释明确为用户端 Coder Agents 产品而非 workspace daemon；导入 coderd/x/chatd，调用 chatd.New 并启动 chatDaemon；未设置 ChatAgentCapacityUnlock 时保留默认 Agent 配额。"
+          },
+          {
+            "url": "https://github.com/coder/coder/blob/main/coderd/x/chatd/chatd.go",
+            "supports": "原生 chatd 实现文件在 coderd/x/chatd，位于 enterprise 目录之外。"
+          },
+          {
+            "url": "https://github.com/coder/coder/blob/main/coderd/x/chatd/ARCHITECTURE.md",
+            "supports": "架构说明 chat worker 在 coderd 中调用 LLM 和执行工具，确认此目录包含实际 Agent loop。"
+          },
+          {
+            "url": "https://github.com/coder/coder/blob/main/enterprise/cli/server.go",
+            "supports": "企业层源码注释明确 chatd 使用的 bridge 由 AGPL cli/server.go 无条件启动，不依赖 license；仅 proxy daemon enterprise-gated。"
+          },
+          {
+            "url": "https://github.com/coder/coder/blob/main/enterprise/coderd/coderd.go",
+            "supports": "企业层另行注入 ChatStreamPartsDialer（跨副本）与 entchatd.NewAgentCapacityUnlock，然后调用基础 coderd.New；不等于完整 Agent loop 只在企业目录。"
+          }
+        ]
+      },
+      {
+        "name": "Coder Premium（含 Coder Agents）",
+        "interfaces": [
+          "Web UI",
+          "REST API",
+          "CLI（平台管理）",
+          "IDE integrations"
+        ],
+        "platforms": [
+          "Self-hosted",
+          "Linux workspaces",
+          "macOS workspaces",
+          "Windows workspaces"
+        ],
+        "edition": "Premium; annual per-user paid plan; up to 5 active Coder Agents",
+        "repository_url": "https://github.com/coder/coder",
+        "license": "AGPL-3.0 base + custom Coder Enterprise License for enterprise directory",
+        "source_classification": "source-available",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://coder.com/pricing",
+        "svg_url": "https://coder.com/brand/images/logo/sections/0/content/1/value/images/0/image.svg",
+        "sources": [
+          {
+            "url": "https://coder.com/pricing",
+            "supports": "Premium 为按用户年度付费方案；最多5个active agents；平台接口/OS支持。"
+          },
+          {
+            "url": "https://github.com/coder/coder/blob/main/LICENSE.enterprise",
+            "supports": "企业源码可读，但禁止绕开 license-key 功能且生产使用需遵守商业条款；因此企业部分归 source-available，不将其标为纯开源。"
+          },
+          {
+            "url": "https://coder.com/docs/about",
+            "supports": "原生 AI agent 归属 Coder 平台。"
+          },
+          {
+            "url": "https://coder.com/brand",
+            "supports": "官方 SVG 品牌资产。"
+          }
+        ]
+      },
+      {
+        "name": "Coder AI Premium / Coder Agents",
+        "interfaces": [
+          "Web UI",
+          "REST API（headless coding agents）"
+        ],
+        "platforms": [
+          "Self-hosted",
+          "Linux workspaces",
+          "macOS workspaces",
+          "Windows workspaces"
+        ],
+        "edition": "AI Premium; custom paid plan; unlimited active Coder Agents",
+        "repository_url": "https://github.com/coder/coder",
+        "license": "AGPL-3.0 base + custom Coder Enterprise License for enterprise directory",
+        "source_classification": "source-available",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://coder.com/pricing",
+        "svg_url": "https://coder.com/brand/images/logo/sections/0/content/1/value/images/0/image.svg",
+        "sources": [
+          {
+            "url": "https://coder.com/pricing",
+            "supports": "AI Premium 自定义报价，含 Premium 功能及不限并发 agents、headless API；操作系统见比较表。"
+          },
+          {
+            "url": "https://coder.com/explore/how-coder-works/coder-agents",
+            "supports": "原生 coding agent 在 control plane 规划、配置 workspace 并执行长任务；支持会话和API两种交互。"
+          },
+          {
+            "url": "https://github.com/coder/coder/blob/main/LICENSE.enterprise",
+            "supports": "企业目录使用限制性自定义许可证，source-available 判断依据。"
+          },
+          {
+            "url": "https://coder.com/brand",
+            "supports": "官方 SVG 品牌资产。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "Coder 与 code-server 是独立产品，不能合并成别名。Coder 平台当前内置可直接委派工作的 Coder Agents，足以作为编码 Agent 收录，但应清楚标为自托管平台中的 Agent 形态，而非把 workspace 基础设施本身当 Agent。Community 开源与企业 source-available 分开；v2.38 已移除旧 Tasks。未读取现有项目目录，若已存在 Coder 应改为 update-existing。 已追加具体源码交叉核验：AGPL coderd 初始化 coderd/x/chatd 原生 loop，企业层单独注入容量解锁/跨副本扩展。结论限于当前 main 的源码许可；v2.38.0 固定tag页面抓取失败，未审计发布二进制组成。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "Coder / code-server — code-server",
+    "canonical_name": "code-server",
+    "vendor": "Coder Technologies Inc.",
+    "official_url": "https://coder.com/docs/code-server",
+    "aliases": [],
+    "relationship_to_existing": "独立产品",
+    "category": "编辑器",
+    "variants": [
+      {
+        "name": "code-server",
+        "interfaces": [
+          "Browser IDE",
+          "CLI（启动与管理服务；非 AI agent CLI）"
+        ],
+        "platforms": [
+          "Browser client",
+          "Linux host",
+          "macOS host",
+          "FreeBSD host（npm）",
+          "Docker (amd64/arm64)"
+        ],
+        "edition": "Self-hosted free edition",
+        "repository_url": "https://github.com/coder/code-server",
+        "license": "MIT",
+        "source_classification": "open-source",
+        "commercial_status": "verified-free",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://coder.com/docs/code-server",
+            "supports": "code-server 官方文档和产品身份。"
+          },
+          {
+            "url": "https://github.com/coder/code-server",
+            "supports": "官方仓库定义其为浏览器中的 VS Code。"
+          },
+          {
+            "url": "https://github.com/coder/code-server/blob/main/LICENSE",
+            "supports": "准确许可证 MIT；版权主体 Coder Technologies Inc.。"
+          },
+          {
+            "url": "https://coder.com/docs/code-server/FAQ",
+            "supports": "官方明确 code-server 与 Coder 为两种产品；code-server 是个人浏览器编辑器，Coder 创建可运行 code-server 的 team workspaces；说明其免费和开源；独立管理 CLI。"
+          },
+          {
+            "url": "https://coder.com/docs/code-server/install",
+            "supports": "Linux/macOS/FreeBSD、Docker amd64/arm64；官方目前不发布 Windows 原生版本。"
+          },
+          {
+            "url": "https://github.com/coder/code-server/releases",
+            "supports": "v4.141.0 在 2026-10-08 发布，项目 active。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "needs-review",
+    "reason": "基础浏览器代码编辑器，不是已核实的内置端到端 AI Agent。按 Agent Atlas 边界应留待审查；可安装扩展不等于产品自带 Agent。与 Coder 不合并，不标为 Coder 的 alias。免费由官方 FAQ 直接说明；无独立 pricing 页面所以 pricing_url=null。未找到专属且可确认的官方 SVG，不沿用 Coder logo 伪装成 code-server 专属标识。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "LingCode",
+    "canonical_name": "LingCode",
+    "vendor": "Aurelian Labs Inc.（网站运营商）；iOS App Store seller: HainanMandi Tech Inc.",
+    "official_url": "https://lingcode.dev/",
+    "aliases": [],
+    "relationship_to_existing": "独立产品",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "LingCode Mac IDE — Free",
+        "interfaces": [
+          "Native desktop IDE",
+          "Agent chat",
+          "Embedded third-party agent CLI tabs"
+        ],
+        "platforms": [
+          "macOS 14+",
+          "Apple Silicon",
+          "Intel Mac"
+        ],
+        "edition": "Free; BYOK available; limited managed LingModel allowance",
+        "repository_url": "https://github.com/Xavierhuang/LingCode",
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-free",
+        "pricing_url": "https://lingcode.dev/pricing.html",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://lingcode.dev/developers.html",
+            "supports": "原生 Mac IDE，Agent 文件编辑/构建/开发工作流，macOS 14+ Apple Silicon/Intel；第三方 agents 是内嵌 tabs，不是 LingCode 别名。"
+          },
+          {
+            "url": "https://lingcode.dev/pricing.html",
+            "supports": "Free $0，Mac IDE/CLI/iPad/web included，BYOK。"
+          },
+          {
+            "url": "https://lingcode.dev/support.html",
+            "supports": "官方支持页链接 Xavierhuang/LingCode repo；本次 repo/README/LICENSE 均无法读取，不能核实开源或许可。"
+          },
+          {
+            "url": "https://lingcode.dev/terms.html",
+            "supports": "服务由 Aurelian Labs Inc. 运营；知识产权声明不足以核实具体源码许可。"
+          },
+          {
+            "url": "https://lingcode.dev/changelog.html",
+            "supports": "active；Mac v2.7.66 于 2026-10-07 发布。"
+          }
+        ]
+      },
+      {
+        "name": "lingcode CLI — Free",
+        "interfaces": [
+          "CLI",
+          "Interactive REPL",
+          "One-shot commands",
+          "HTTP server mode",
+          "ACP server mode"
+        ],
+        "platforms": [
+          "macOS",
+          "Linux x86_64/ARM64",
+          "Windows x64/ARM64"
+        ],
+        "edition": "Free; BYOK; managed inference limits apply",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-free",
+        "pricing_url": "https://lingcode.dev/pricing.html",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://lingcode.dev/cli.html",
+            "supports": "官方 CLI 名称及全部三类 OS、REPL/one-shot、agent 文件工具及 HTTP/acp-serve；未核实单独源码仓库/许可证。"
+          },
+          {
+            "url": "https://lingcode.dev/pricing.html",
+            "supports": "CLI 属 Free 方案。"
+          }
+        ]
+      },
+      {
+        "name": "LingCode Web /try — Free",
+        "interfaces": [
+          "Browser app",
+          "Agent chat",
+          "Multi-provider comparison"
+        ],
+        "platforms": [
+          "Web browser"
+        ],
+        "edition": "Free browser playground",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-free",
+        "pricing_url": "https://lingcode.dev/pricing.html",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://lingcode.dev/try.html",
+            "supports": "官方浏览器 app-building playground，prompt、预览、文件读写、Zip导出；主页链接该形态。"
+          },
+          {
+            "url": "https://lingcode.dev/pricing.html",
+            "supports": "Web playground 在 Free 方案；浏览器 Deep Agent 为付费功能，不能算 Free 自带。"
+          }
+        ]
+      },
+      {
+        "name": "LingCode iPhone/iPad — Free",
+        "interfaces": [
+          "Mobile app",
+          "Read-only code chat",
+          "Remote agent control / companion"
+        ],
+        "platforms": [
+          "iOS 17+",
+          "iPadOS 17+",
+          "macOS 15.6+（App Store listing）",
+          "visionOS 1+（App Store listing）"
+        ],
+        "edition": "Free download; optional in-app Pro/Max Pro",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-free",
+        "pricing_url": "https://apps.apple.com/us/app/lingcode/id6757243830",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://lingcode.dev/",
+            "supports": "官网直接链接此 App Store ID，确认其产品关联；独立 Mac IDE 要求不能和此 listing 混淆。"
+          },
+          {
+            "url": "https://apps.apple.com/us/app/lingcode/id6757243830",
+            "supports": "seller HainanMandi Tech Inc.; 免费带IAP；所列OS兼容；描述明确 iOS 不编辑文件、不执行终端；版本历史含 remote control。"
+          }
+        ]
+      },
+      {
+        "name": "LingCode Pro / Deep Agent",
+        "interfaces": [
+          "Native desktop IDE",
+          "CLI",
+          "Browser app",
+          "Mobile app"
+        ],
+        "platforms": [
+          "macOS",
+          "Linux（CLI）",
+          "Windows（CLI）",
+          "Web browser",
+          "iOS/iPadOS"
+        ],
+        "edition": "Pro; $20/month on official website; includes browser Deep Agent",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://lingcode.dev/pricing.html",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://lingcode.dev/pricing.html",
+            "supports": "Pro $20/月；继承 Free surfaces，含 managed inference 和浏览器 server-side Deep Agent。"
+          },
+          {
+            "url": "https://lingcode.dev/cli.html",
+            "supports": "Linux/Windows 仅指 CLI，不宣称完整 Mac IDE 在这些系统可用。"
+          },
+          {
+            "url": "https://apps.apple.com/us/app/lingcode/id6757243830",
+            "supports": "移动端功能/兼容系统；美国App Store IAP Pro $19.99 与官网 $20 分开记录。"
+          }
+        ]
+      },
+      {
+        "name": "LingCode Max Pro",
+        "interfaces": [
+          "Native desktop IDE",
+          "CLI",
+          "Browser app",
+          "Mobile app"
+        ],
+        "platforms": [
+          "macOS",
+          "Linux（CLI）",
+          "Windows（CLI）",
+          "Web browser",
+          "iOS/iPadOS"
+        ],
+        "edition": "Max Pro; $200/month on official website; higher throughput and Deep Agent budget",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://lingcode.dev/pricing.html",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://lingcode.dev/pricing.html",
+            "supports": "Max Pro $200/月，继承Pro，提升token throughput及Deep Agent额度。"
+          },
+          {
+            "url": "https://lingcode.dev/cli.html",
+            "supports": "CLI 跨 macOS/Linux/Windows。"
+          },
+          {
+            "url": "https://apps.apple.com/us/app/lingcode/id6757243830",
+            "supports": "移动端兼容；美国App Store Max Pro $199.99，与官网价格分开。"
+          }
+        ]
+      },
+      {
+        "name": "LingCode Enterprise",
+        "interfaces": [
+          "Native desktop IDE",
+          "CLI",
+          "Browser app",
+          "Mobile app"
+        ],
+        "platforms": [
+          "macOS",
+          "Linux（CLI）",
+          "Windows（CLI）",
+          "Web browser",
+          "iOS/iPadOS"
+        ],
+        "edition": "Enterprise; custom pricing; includes Max Pro",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://lingcode.dev/pricing.html",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://lingcode.dev/pricing.html",
+            "supports": "Enterprise custom方案，含Max Pro；合同/配额/开票按安排。"
+          },
+          {
+            "url": "https://lingcode.dev/cli.html",
+            "supports": "CLI平台支持。"
+          },
+          {
+            "url": "https://apps.apple.com/us/app/lingcode/id6757243830",
+            "supports": "iOS/iPadOS兼容，不能据订阅提升推断移动端拥有本地文件编辑。"
+          }
+        ]
+      },
+      {
+        "name": "LingCode Baby / LingCodeBaby",
+        "interfaces": [
+          "Desktop editor",
+          "Claude Code chat",
+          "Web deploy UI"
+        ],
+        "platforms": [
+          "macOS 11+ Apple Silicon",
+          "Windows 10/11 x64/ARM64",
+          "Linux x86-64"
+        ],
+        "edition": "Lightweight cross-platform sibling; free trial then $20/month",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://lingcode.dev/baby.html",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://lingcode.dev/baby.html",
+            "supports": "官方轻量产品页，两种拼写；支持平台；Claude 可读/写/创建文件并执行命令；试用后$20/月；vendor Aurelian Labs Inc.。"
+          },
+          {
+            "url": "https://lingcode.dev/",
+            "supports": "主官网将 Windows/Linux 用户引导至 LingCodeBaby，完整Mac IDE并非跨平台。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "已核实官方身份、真实 end-user coding agent 功能和多种形态，可收录。源码/准确许可证未知：官网链接仓库但本次未能读取，不能因能免费下载而标开源。iOS 为只读/远程伴随形态；Linux/Windows 支持 CLI 或 Baby，不是完整 Mac IDE。Baby 的收费页和主产品 Free 方案应分开。运营商与 App Store seller 名称不同，保留原始证据，不推断法人关系。未读取现有项目目录，若已有 LingCode 应更新已有记录。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "Marvis / MarvisX",
+    "canonical_name": "Marvis",
+    "vendor": "Emilio Martucci",
+    "official_url": "https://justaskmarvis.com/",
+    "aliases": [
+      "MarvisX OSS",
+      "marvisx-cli"
+    ],
+    "relationship_to_existing": "待判定",
+    "category": "其他",
+    "variants": [
+      {
+        "name": "Marvis 本地/自托管核心",
+        "interfaces": [
+          "CLI",
+          "MCP server",
+          "Claude Code plugin",
+          "本地 Web GUI"
+        ],
+        "platforms": [
+          "Linux",
+          "macOS",
+          "Windows"
+        ],
+        "edition": "单用户核心；Python 3.10–3.13；marvis console 打开本地 GUI",
+        "repository_url": "https://github.com/emiliomartucci/marvis",
+        "license": "BUSL-1.1",
+        "source_classification": "source-available",
+        "commercial_status": "verified-free",
+        "pricing_url": "https://justaskmarvis.com/",
+        "svg_url": "https://raw.githubusercontent.com/emiliomartucci/marvis/main/apps/desktop-ui/public/app-icon.svg",
+        "sources": [
+          {
+            "url": "https://github.com/emiliomartucci/marvis",
+            "supports": "产品身份、CLI 包名 marvisx-cli、MCP/Claude Code 插件、免费自托管核心，以及 MarvisX 为同一核心上的商业层。"
+          },
+          {
+            "url": "https://github.com/emiliomartucci/marvis/blob/main/LICENSE",
+            "supports": "Licensor 为 Emilio Martucci；BSL 1.1 不是开源许可证。允许自身内部生产/商业使用；限制面向第三方的商业托管；该文件指定 2030-01-01 转 Apache-2.0。"
+          },
+          {
+            "url": "https://github.com/emiliomartucci/marvis/releases/tag/v0.4.8",
+            "supports": "2026-08-31 发布记录，列明 Linux/macOS/Windows 和 Python 3.10–3.13 覆盖；CLI/MCP/本地 GUI 持续维护。"
+          },
+          {
+            "url": "https://pypi.org/project/marvisx-cli/",
+            "supports": "官方包已发布 0.4.8；并非只存在未发布的 GitHub 候选说明。"
+          },
+          {
+            "url": "https://github.com/emiliomartucci/marvis/blob/main/apps/desktop-ui/README.md",
+            "supports": "本地 GUI 由 wheel 附带、由本地 API 提供、marvis console 打开；桌面壳技术尚未选型。不得把营销文案 desktop app 当作已核实原生安装包。"
+          },
+          {
+            "url": "https://justaskmarvis.com/how-it-works/",
+            "supports": "官方明确它是既有 agent 安装后直接使用的产品，不是供开发者嵌入自己应用的库；因此不按纯 SDK/框架排除，也不当作独立编码 agent。"
+          },
+          {
+            "url": "https://github.com/emiliomartucci/marvisx-oss",
+            "supports": "旧仓库 URL 实际重定向到 emiliomartucci/marvis；这是仓库迁移/命名变化证据，不是停服证据。"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/emiliomartucci/marvis/main/apps/desktop-ui/public/app-icon.svg",
+            "supports": "官方仓库内独立可渲染 SVG 图标；已读取 SVG，未生成或替换品牌图形。"
+          },
+          {
+            "url": "https://marvis.qq.com/",
+            "supports": "同名异物：腾讯 Marvis/马维斯是终端用户 AI 管家，有 Windows/macOS/Android/iOS 下载入口；不能与 Emilio Martucci 的 Marvis/MarvisX 合并。"
+          }
+        ]
+      },
+      {
+        "name": "Marvis Cloud Free",
+        "interfaces": [
+          "Web Console",
+          "MCP endpoint"
+        ],
+        "platforms": [
+          "Web"
+        ],
+        "edition": "单用户云端免费层；€0；3 projects",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-free",
+        "pricing_url": "https://justaskmarvis.com/",
+        "svg_url": "https://raw.githubusercontent.com/emiliomartucci/marvis/main/apps/desktop-ui/public/app-icon.svg",
+        "sources": [
+          {
+            "url": "https://justaskmarvis.com/",
+            "supports": "官方定价区列出 Free €0、3 projects、MCP endpoint 与 Console；托管服务许可未据核心仓库许可推定。"
+          }
+        ]
+      },
+      {
+        "name": "Marvis Cloud Starter / Pro",
+        "interfaces": [
+          "Web Console",
+          "MCP endpoint"
+        ],
+        "platforms": [
+          "Web"
+        ],
+        "edition": "Starter €3.99/月、Pro €19/月；均为 waitlist，页面明确当前不收费",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": "https://justaskmarvis.com/",
+        "svg_url": "https://raw.githubusercontent.com/emiliomartucci/marvis/main/apps/desktop-ui/public/app-icon.svg",
+        "sources": [
+          {
+            "url": "https://justaskmarvis.com/",
+            "supports": "官方公开预告价格，但同时标注 waitlist / No charge today；当前不能确认可购买，商业状态留 unknown。"
+          }
+        ]
+      },
+      {
+        "name": "MarvisX Enterprise",
+        "interfaces": [
+          "Web Console",
+          "MCP",
+          "server-side agent workspaces"
+        ],
+        "platforms": [
+          "自托管服务器",
+          "私有云"
+        ],
+        "edition": "企业层；多用户治理、SSO；联系厂商，无公开数额",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": "https://justaskmarvis.com/",
+        "svg_url": "https://raw.githubusercontent.com/emiliomartucci/marvis/main/apps/desktop-ui/public/app-icon.svg",
+        "sources": [
+          {
+            "url": "https://justaskmarvis.com/",
+            "supports": "官方 FAQ 表明 MarvisX 与 Marvis 共享核心，增加企业治理和合同；不应新增为无关产品。企业报价与完整分发许可未核实。"
+          },
+          {
+            "url": "https://github.com/emiliomartucci/marvis",
+            "supports": "README 将 MarvisX 称为 commercial tier；不是腾讯 Marvis 的升级版，也不是新的 SDK。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "needs-review",
+    "reason": "MarvisX 联称高度指向 justaskmarvis 产品族，以上字段仅描述该身份；但原检测规则标识未提供，不能把仅名为 Marvis 的候选静默归入此产品。腾讯 marvis.qq.com 为独立同名通用 Agent，须先以包名、域名、进程或仓库来源匹配。若命中 marvisx-cli/emiliomartucci，再按一个产品族收录核心、Cloud 和 MarvisX Enterprise；MarvisX 作为企业形态而非独立新增。当前是现成的 agent 记忆/治理/工作管理配套产品，有 CLI/MCP/GUI，并非基础编辑器或纯 SDK；是否纳入 Atlas 的其他类需目录范围决策。旧仓库重定向与当前 release 支持持续维护，未发现官方停服公告。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "MonkeyCode",
+    "canonical_name": "MonkeyCode",
+    "vendor": "北京长亭科技有限公司（Chaitin）",
+    "official_url": "https://monkeycode-ai.net/",
+    "aliases": [
+      "MonkeyCode-AI",
+      "MonkeyCode AI"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "MonkeyCode SaaS 基础会员",
+        "interfaces": [
+          "Web app",
+          "云端开发任务",
+          "在线终端",
+          "Git 平台集成"
+        ],
+        "platforms": [
+          "Web"
+        ],
+        "edition": "基础会员；免费；官方定价页列基础模型每日 1000 万 tokens",
+        "repository_url": "https://github.com/chaitin/MonkeyCode",
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-free",
+        "pricing_url": "https://monkeycode.docs.baizhi.cloud/node/019e43d0-9ddf-7dac-8b7f-a49e0233e286",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/chaitin/MonkeyCode",
+            "supports": "官方当前入口 monkeycode-ai.net；具备云端环境、任务和模型管理的终端用户 AI 开发平台；并非普通代码编辑器或仅 SDK。当前主 README 对本地 IDE、CLI、代码补全标为不支持，不能照搬旧插件描述。"
+          },
+          {
+            "url": "https://monkeycode.docs.baizhi.cloud/node/019e43d0-9ddf-7dac-8b7f-a49e0233e286",
+            "supports": "会员套餐正文：基础版免费，专业/旗舰收费；同页链接 Work、私有化和移动 App。页面正文在公开 HTML 的 React 服务端数据中，web 摘要只显示导航，已单独提取原文。"
+          },
+          {
+            "url": "https://monkeycode.docs.baizhi.cloud/",
+            "supports": "官方文档与页脚确认北京长亭科技有限公司；文档在线入口仍使用 monkeycode-ai.com。两个官方域名并存，未找到正式迁移日期。"
+          },
+          {
+            "url": "https://github.com/MonkeyCode-AI",
+            "supports": "官方机器人账号列北京长亭科技有限公司、官网，并置顶 chaitin/MonkeyCode；支持 MonkeyCode-AI 名称关联。"
+          }
+        ]
+      },
+      {
+        "name": "MonkeyCode SaaS 专业 / 旗舰会员",
+        "interfaces": [
+          "Web app",
+          "云端开发任务",
+          "在线终端",
+          "Git 平台集成"
+        ],
+        "platforms": [
+          "Web"
+        ],
+        "edition": "专业 ¥99/月或 ¥999/年；旗舰 ¥499/月或 ¥4999/年；年费为限时优惠",
+        "repository_url": "https://github.com/chaitin/MonkeyCode",
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://monkeycode.docs.baizhi.cloud/node/019e43d0-9ddf-7dac-8b7f-a49e0233e286",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://monkeycode.docs.baizhi.cloud/node/019e43d0-9ddf-7dac-8b7f-a49e0233e286",
+            "supports": "官方明确公开收费档位；不以“企业级”文案或 AGPL 许可证推断收费。基础免费与付费档位分别列出；未将 SaaS 服务整体标 AGPL。"
+          }
+        ]
+      },
+      {
+        "name": "MonkeyCode 自托管源码版",
+        "interfaces": [
+          "Web console",
+          "私有化/离线部署",
+          "云端开发任务"
+        ],
+        "platforms": [
+          "自托管服务器"
+        ],
+        "edition": "自托管源码；部署/模型/商业支持成本未核实",
+        "repository_url": "https://github.com/chaitin/MonkeyCode",
+        "license": "AGPL-3.0",
+        "source_classification": "open-source",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/chaitin/MonkeyCode",
+            "supports": "官方支持私有化与离线部署，并提供安装入口。自托管费用未找到明确官方价格，不能由开源等同免费。"
+          },
+          {
+            "url": "https://github.com/chaitin/MonkeyCode/blob/main/LICENSE",
+            "supports": "根 LICENSE 为 GNU AGPL v3；只用于该仓库源码分发，不能外推托管服务或第三方组件许可。"
+          }
+        ]
+      },
+      {
+        "name": "MonkeyCode Work",
+        "interfaces": [
+          "桌面 GUI",
+          "本地任务",
+          "云端任务同步",
+          "独立对话",
+          "浏览器扩展桥"
+        ],
+        "platforms": [
+          "Windows",
+          "macOS",
+          "Linux（官方支持源码构建；已发布 Linux 安装包未核实）"
+        ],
+        "edition": "同产品的本地桌面形态；云端任务沿用 SaaS 权益/额度；本地任务模型费用按服务商",
+        "repository_url": "https://github.com/chaitin/MonkeyCode/tree/main/desktop",
+        "license": "AGPL-3.0",
+        "source_classification": "open-source",
+        "commercial_status": "unknown",
+        "pricing_url": "https://monkeycode.docs.baizhi.cloud/node/019e43d0-9ddf-7dac-8b7f-a49e0233e286",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://monkeycode.docs.baizhi.cloud/node/019fa346-8636-7ee6-9a35-1e014d087297",
+            "supports": "官方终端用户 Work 指南：本地代码/文件任务、云端任务、独立对话及浏览器操作；明确云端计费沿用 MonkeyCode SaaS，不另立会员体系。"
+          },
+          {
+            "url": "https://github.com/chaitin/MonkeyCode/blob/main/desktop/README.md",
+            "supports": "Tauri 桌面客户端源码；macOS、Windows、Linux 构建/打包目标。Linux 在此仅为源码支持证据。"
+          },
+          {
+            "url": "https://github.com/chaitin/MonkeyCode/releases/tag/v26072801",
+            "supports": "2026-07-28 官方发布包含 MonkeyCode-macos-arm64.dmg、macos-x86.dmg、windows.exe；未安装测试。"
+          },
+          {
+            "url": "https://api.github.com/repos/chaitin/MonkeyCode/releases/tags/v26072801",
+            "supports": "官方发布 API 可直接核对上述附件清单；页面折叠附件可能未被 web 文本展开。"
+          },
+          {
+            "url": "https://github.com/chaitin/MonkeyCode/blob/main/LICENSE",
+            "supports": "desktop 目录未见独立 LICENSE，项目根 AGPL-3.0 用于所核查桌面客户端源码；打包引擎/依赖仍各自遵守其许可，不代表 SaaS 合同。"
+          }
+        ]
+      },
+      {
+        "name": "MonkeyCode 移动客户端",
+        "interfaces": [
+          "Mobile app",
+          "云端任务管理"
+        ],
+        "platforms": [
+          "Android",
+          "iOS"
+        ],
+        "edition": "同产品移动形态；会员体系对应 SaaS，应用内具体商业条款未核实",
+        "repository_url": "https://github.com/chaitin/MonkeyCode/tree/main/mobile",
+        "license": "AGPL-3.0",
+        "source_classification": "open-source",
+        "commercial_status": "unknown",
+        "pricing_url": "https://monkeycode.docs.baizhi.cloud/node/019e43d0-9ddf-7dac-8b7f-a49e0233e286",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://monkeycode.docs.baizhi.cloud/node/019e43d0-9ddf-7dac-8b7f-a49e0233e286",
+            "supports": "官方定价文档明确移动 App 支持安卓和 iOS，并提供手机下载入口。"
+          },
+          {
+            "url": "https://github.com/chaitin/MonkeyCode/releases/tag/v26072801",
+            "supports": "官方发布含 MonkeyCode-android.apk、MonkeyCode-ios.ipa；证明已有分发物，不只是路线图。"
+          },
+          {
+            "url": "https://api.github.com/repos/chaitin/MonkeyCode/releases/tags/v26072801",
+            "supports": "官方资产清单可直接核对 Android/iOS 文件。"
+          },
+          {
+            "url": "https://github.com/chaitin/MonkeyCode/blob/main/LICENSE",
+            "supports": "AGPL-3.0 结论限于公开仓库 mobile 源码；不从公司名称推导其他分发物或服务的许可。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "建议按长亭 MonkeyCode 独立产品收录，SaaS、自托管、Work、移动端为同品牌形态；若库内已有该品牌则应合并更新而非重复新增。官方现状是面向用户的 AI 开发平台，Work 又扩展通用办公任务，不是基础编辑器或单纯 SDK。当前主 README 不再以本地 IDE 插件为定位；未找到正式停服/旧插件下线公告，不能把历史插件状态擅自标 discontinued。官方组织另有 chaitin/monkeycode-cli，但仓库仍是 openai/codex 的 fork，README 继续安装 @openai/codex；不足以作为已发布独立 MonkeyCode CLI 形态（https://github.com/chaitin/monkeycode-cli）。不要与拼写不同的 MonkeysCode（https://monkeyscode.com/）混合。本次未找到适合品牌标识的官方独立 SVG，故置 null。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "WorkBuddy AI",
+    "canonical_name": "WorkBuddy",
+    "vendor": "Tencent / 腾讯",
+    "official_url": "https://www.workbuddy.ai/",
+    "aliases": [
+      "Tencent WorkBuddy",
+      "WorkBuddy AI",
+      "腾讯 WorkBuddy"
+    ],
+    "relationship_to_existing": "已有产品别名",
+    "category": "通用Agent",
+    "variants": [
+      {
+        "name": "WorkBuddy 国际版（桌面）",
+        "interfaces": [
+          "desktop GUI"
+        ],
+        "platforms": [
+          "macOS (Apple Silicon, Intel)",
+          "Windows (x64; ARM64 compatibility documented)"
+        ],
+        "edition": "International; Free / Pro / Team",
+        "repository_url": null,
+        "license": "Tencent WorkBuddy Service Agreement（专有服务协议；未核实产品本体开放源码许可证）",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://www.workbuddy.ai/pricing/",
+        "svg_url": "https://download.codebuddy.ai/web/workbuddy/913b2390aae396c66b937bd9143ae5259306d7d7/assets/logo.svg",
+        "sources": [
+          {
+            "url": "https://intl.cloud.tencent.com/document/product/1316/84487",
+            "supports": "腾讯云官方 Introduction 将同一腾讯全场景桌面智能体称为 WorkBuddy AI，支持候选别名判断。"
+          },
+          {
+            "url": "https://www.workbuddy.ai/docs/workbuddy/Quickstart",
+            "supports": "产品名 Tencent WorkBuddy；自主规划、执行任务、读写授权本地文件；默认 Work Mode，并提供 Coding Mode，定位是通用办公 Agent。"
+          },
+          {
+            "url": "https://www.workbuddy.ai/docs/workbuddy/From-Beginner-to-Expert-Guide/FQA",
+            "supports": "官方平台清单：macOS Apple Silicon / Intel、Windows x64 / ARM64。"
+          },
+          {
+            "url": "https://www.workbuddy.ai/pricing/",
+            "supports": "官方定价包含 Free $0/月、Pro $10/月或 $96/年；有免费层，不是全付费产品。促销与税费以购买页为准。"
+          },
+          {
+            "url": "https://www.workbuddy.ai/docs/workbuddy/pricing",
+            "supports": "官方定价文档另列 Team $40/seat/month；不能把付费订阅等同于源码许可。"
+          },
+          {
+            "url": "https://www.workbuddy.ai/document/term",
+            "supports": "腾讯服务协议，授权使用服务且限制复制、修改、反编译和提取服务源码；第三方开源组件归属不代表产品本体开源。"
+          },
+          {
+            "url": "https://www.workbuddy.ai/",
+            "supports": "2026-10-09 实时取得官方 HTML；link 引用本记录 svg_url 作为网站 logo/favicon。"
+          },
+          {
+            "url": "https://download.codebuddy.ai/web/workbuddy/913b2390aae396c66b937bd9143ae5259306d7d7/assets/logo.svg",
+            "supports": "2026-10-09 直接请求 HTTP 200、Content-Type image/svg+xml，正文为含矢量图形的 SVG；官方站点直接引用，不是 PNG 改名。"
+          },
+          {
+            "url": "https://www.tencent.com/tencent-cloud-debuts-productivity-agent-suite-creating-a-new-gateway-to-ai-for-users-and-enterprises/",
+            "supports": "腾讯官方新闻将 WorkBuddy 定义为个人 AI Agent workspace，将 CodeBuddy 单独定义为支持插件、IDE、CLI 的 coding agent，两者是同一 Buddy 家族的不同产品。"
+          },
+          {
+            "url": "https://github.com/Tencent/workbuddy-bench",
+            "supports": "腾讯官方仓库 README 定义 WorkBuddy Bench 为 coding-agent benchmark / evaluation framework，不是 WorkBuddy 桌面产品源代码，不能转移其许可到产品。"
+          },
+          {
+            "url": "https://getworkbuddy.com/",
+            "supports": "同名官网描述洗衣店/干洗店 AI 电话接待，需与腾讯桌面智能体消歧。"
+          },
+          {
+            "url": "https://theworkbuddy.app/",
+            "supports": "同名官网描述印度销售助手，页脚明确所有者 Konzult Technologies / Ashish Mathpal，不能当作腾讯别名。"
+          },
+          {
+            "url": "https://useworkbuddy.com/",
+            "supports": "同名官网描述职业日记与每周 AI 总结，不能仅凭名称归并到腾讯。"
+          },
+          {
+            "url": "https://workbuddy-ai.com/",
+            "supports": "同名创意图片/视频宣传页链接指向 PixPix，未证明与腾讯有关。"
+          }
+        ]
+      },
+      {
+        "name": "WorkBuddy 中国版（桌面）",
+        "interfaces": [
+          "desktop GUI",
+          "IM remote control integrations"
+        ],
+        "platforms": [
+          "macOS 12+ (Apple Silicon, Intel)",
+          "Windows 10+ x64",
+          "Linux (统信 UOS / 银河麒麟，官方指向系统应用商店)",
+          "HarmonyOS PC (官方定价页下载菜单列出)"
+        ],
+        "edition": "China; 体验版 / 标准版 / 高级版 / 旗舰版; 企业套餐另列",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://www.workbuddy.cn/docs/workbuddy/Pricing",
+        "svg_url": "https://download.codebuddy.cn/web/workbuddy/788eb1c5ba3681efa98cf7b58ae688e293c1bb34/assets/logo.svg",
+        "sources": [
+          {
+            "url": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Product-Guide",
+            "supports": "中国官网将 WorkBuddy 定位为腾讯全场景职场 AI 智能体桌面工作台，不是独立名为 WorkBuddy AI 的另一个产品。"
+          },
+          {
+            "url": "https://www.workbuddy.cn/work/",
+            "supports": "官网标注中国站、桌面/主流 IM/小程序；列出 macOS、Windows、Linux UOS/银河麒麟下载方式。"
+          },
+          {
+            "url": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Installation-Mac-Guide",
+            "supports": "macOS 12+，分别提供 Mac ARM64 和 X64；登录入口为 workbuddy.cn。"
+          },
+          {
+            "url": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Installation-Win-Guide",
+            "supports": "Windows 10+ x64；文档对 ARM64 保留以当前版本说明为准的限制，不能推断所有 ARM64 设备原生支持。"
+          },
+          {
+            "url": "https://www.workbuddy.cn/pricing/?fromSource=gwzcw.14801221.14801221.14801221",
+            "supports": "中国官网定价页下载菜单列出鸿蒙电脑版；平台仅据官方菜单登记，未安装测试。"
+          },
+          {
+            "url": "https://www.workbuddy.cn/docs/workbuddy/Pricing",
+            "supports": "官方国内定价：体验版免费；标准/高级/旗舰单月 99/199/999 元，连续包月另有折扣；说明 WorkBuddy 和 CodeBuddy 同账号共享积分、无需分别订阅，Buddy AI 是系列统称。"
+          },
+          {
+            "url": "https://www.workbuddy.cn/docs/workbuddy/Changelog",
+            "supports": "持续发布更新，并明确出现海外版修复，支持国内/国际是地区形态而非异厂同名产品。"
+          },
+          {
+            "url": "https://www.workbuddy.cn/",
+            "supports": "2026-10-09 实时取得官方 HTML，直接引用本记录 svg_url。未因 .cn/document/term 返回国际英文协议而断言该协议适用于中国客户端。"
+          },
+          {
+            "url": "https://download.codebuddy.cn/web/workbuddy/788eb1c5ba3681efa98cf7b58ae688e293c1bb34/assets/logo.svg",
+            "supports": "2026-10-09 直接请求 HTTP 200、Content-Type image/svg+xml，内容为真实 SVG，来自官方首页引用。"
+          }
+        ]
+      },
+      {
+        "name": "WorkBuddy 移动端 App（中国站）",
+        "interfaces": [
+          "mobile app",
+          "cloud task execution",
+          "remote desktop-agent control"
+        ],
+        "platforms": [
+          "iOS",
+          "Android"
+        ],
+        "edition": "China mobile companion",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://apps.apple.com/cn/app/workbuddy-ai-%E5%8A%9E%E5%85%AC%E6%88%91%E5%B8%AE%E4%BD%A0/id6761374913?platform=vision",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://www.workbuddy.cn/docs/workbuddyapp/Overview",
+            "supports": "实时读取官方正文：明确称桌面端 WorkBuddy 的移动配套产品；支持云端工作/连接电脑双模式；iOS App Store、Android 主流应用市场。"
+          },
+          {
+            "url": "https://www.workbuddy.cn/docs/workbuddyapp/Quickstart",
+            "supports": "官方移动版操作说明与桌面同账号协作，是既有产品新增入口而非独立品牌。"
+          },
+          {
+            "url": "https://apps.apple.com/cn/app/workbuddy-ai-%E5%8A%9E%E5%85%AC%E6%88%91%E5%B8%AE%E4%BD%A0/id6761374913?platform=vision",
+            "supports": "腾讯开发者 Tencent Technology (Shanghai) Company Limited 的官方 App Store 发布页；免费下载并含应用内订阅购买。这里证明 iOS 商业模式，不推定 Android 商店价格完全相同。"
+          }
+        ]
+      },
+      {
+        "name": "WorkBuddy 微信小程序",
+        "interfaces": [
+          "WeChat Mini Program",
+          "cloud task execution",
+          "remote desktop-agent control"
+        ],
+        "platforms": [
+          "WeChat"
+        ],
+        "edition": "China Mini Program",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://www.workbuddy.cn/docs/workbuddymini/quick-start/Overview",
+            "supports": "官方称 WorkBuddy 微信小程序是 WorkBuddy 移动端入口；提供云上模式与远程本机模式；不是独立产品。"
+          },
+          {
+            "url": "https://www.workbuddy.cn/docs/workbuddymini/features/Multidevice",
+            "supports": "须与桌面同账号协作，任务在桌面端执行；仅核实形态，未取得小程序专属定价或源码许可，因此相应字段未知。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "update-existing",
+    "reason": "腾讯官方英文说明直接使用 WorkBuddy AI；官网和教程将产品称为 Tencent WorkBuddy / WorkBuddy，因此在候选指向腾讯的前提下，应把 WorkBuddy AI 加为已有 WorkBuddy 的别名，保留现有中国版的地区/登录/定价差异，并补充已验证移动端与小程序形态。腾讯官方新闻同时区分 WorkBuddy（通用个人 Agent 工作台）和 CodeBuddy（编码 Agent）：共享订阅、旧 .codebuddy 配置及共享文档域名不足以将两者合并。未核实 WorkBuddy 产品本体官方源代码仓库，不能借用 Tencent/workbuddy-bench（基准评测框架）或第三方仿制/代理仓库的许可证。仅凭无 URL 的名字仍存在同名消歧限制：getworkbuddy.com 为洗衣店 AI 电话接待，theworkbuddy.app 为 Konzult Technologies 的印度销售助手，useworkbuddy.com 为职业日记，workbuddy-ai.com 是指向 PixPix 的创意落地页，均不能自动当作腾讯别名。若原候选 URL 指向其中之一，应另行判定，而不是直接合并。",
+    "verified_at": "2026-10-09"
+  }
+]

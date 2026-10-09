@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.5（2026-10-04），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.6（2026-10-09），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -235,7 +235,7 @@ npm run build:website
 
 ### 开源应用与版本级授权元信息
 
-本次补录20个产品、29条CLI/Web/GUI/IDE形态，当前241条记录、157个产品。`data/dataset.json` 与13字段主schema不变；新增 `data/open-source.json` 以具体记录ID关联仓库、许可证、应用类别、维护状态及来源，`data/open-source-schema.json` 描述该独立结构。
+v0.5 批次补录20个产品、29条CLI/Web/GUI/IDE形态，当时共有241条记录、157个产品。`data/dataset.json` 与13字段主schema不变；新增 `data/open-source.json` 以具体记录ID关联仓库、许可证、应用类别、维护状态及来源，`data/open-source-schema.json` 描述该独立结构。
 
 - `open-source`：本轮核验了该发行形态的开源许可；不自动延伸到同品牌云服务或其他客户端
 - `source-available`：源码可见但有附加用途/商标等限制，不进入“仅已核验开源”筛选
@@ -248,7 +248,7 @@ SDK原函数与 `CatalogApp` 结构不变，新增原始JSON子路径：
 import sourceMetadata from '@alienhub/agent-atlas/open-source.json' with { type: 'json' };
 ```
 
-网站详情呈现仓库、许可证、类别和核验说明。完整ZIP包含两份新JSON及独立 `open-source.csv`；原 `dataset.csv` 的字段不变。当前47条元信息中44条开源、3条源码可见，未宣称穷尽全部开源软件。未将仍需复核的历史停维条目、开发框架、混合云/自托管版直接标为开源。
+网站详情呈现仓库、许可证、类别和核验说明。完整ZIP包含两份新JSON及独立 `open-source.csv`；原 `dataset.csv` 的字段不变。v0.5 批次的47条元信息中44条开源、3条源码可见，未宣称穷尽全部开源软件。未将仍需复核的历史停维条目、开发框架、混合云/自托管版直接标为开源。
 
 
 ### Agent Atlas 命名迁移
@@ -273,3 +273,19 @@ npm run verify:all
 其中趋势模块测试使用Node内置SQLite与模拟HTTP，验证迁移/采样/重试语义，不代表已连接Cloudflare或执行生产采集。
 
 Unified private Cloudflare website + API deployment now lives in [cloudflare/README.md](cloudflare/README.md). Standalone trends deployment is retired; the current Site is unchanged.
+
+
+### v0.6 候选资料核验（2026-10-09）
+
+本批新增54条形态记录、24个独立产品，更新3条既有记录（Kimi、WorkBuddy 国际/中国版）；目前295条记录、181个产品、125份真实SVG，96条记录明确缺少SVG。13字段主 Schema、开源元信息 Schema、全部241个已有 ID 和 SDK API 均保持不变。
+
+完整交付：[研究 Markdown](./docs/research/2026-10-09-full-research.md)、[原始研究 JSON](./docs/research/2026-10-09-full-research.json)、[候选→条目映射](./docs/research/2026-10-09-catalog-mapping.json)、[入库审查说明](./docs/research/2026-10-09-candidate-review.md)。研究含41条记录、99个研究变体；其中会员层、消歧身份、开发框架和历史分发不是正式条目数量，不能混用两个计数。
+
+- 只新增有直接官方来源的应用分发；13条候选继续待审，包括身份未明、基础工具/框架、已停运或临近停服证据尚待补全的情况
+- Coder Community、Crush FSL、Pochi IDE 包/CLI 许可分开；未核验许可保持未知，不用公开仓库等同开源。现在73条来源元信息中68条开源、5条源码可见
+- 同一订阅层不重复建产品；Zenflow Code/Work 只建一个桌面记录；WorkBuddy AI 和 Kimi Work 分别更新已有产品别名/模式，TRAE 插件保留 MarsCode 发行标识
+- Rovo Dev 仍在运行，界面展示迁移/退役计划，终止日未知；12月3日 Code Reviewer 计费变化不是停服日。Firebender、Roo、iFlow 留在可审查研究中
+- MonkeyCode Linux 仅源码构建证据，不写入已发布桌面系统。Neovate 与 Reasonix 则核对实际官方发布资产；Reasonix 2.x 开发线与1.x维护稳定线有明确标签
+- 新SVG均取自可追溯的官方资产或官方仓库，原样保存，检查脚本/外部资源/位图；缺失项不生成品牌图案
+
+本次仅核对官方公开资料、源码和发布清单；未安装这些产品，未发布 npm、推送 main、部署或开启采集。其他既有记录保留各自核验日期，不能把本次快照日期当作全目录重新核验。
