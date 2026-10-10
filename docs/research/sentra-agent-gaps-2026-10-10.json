@@ -1,0 +1,630 @@
+{
+  "verified_at": "2026-10-10",
+  "reference": {
+    "sentra_core_commit": "88a8132c698f09ee5c2ccab8d814c4e0ecf87429",
+    "sentra_lib_revision": "2cdefd26c0f5f1cebec0aeab33d0a9c84ae9558f",
+    "catalog_entries": 241,
+    "catalog_products": 157,
+    "catalog_dataset_sha256": "ec5a57cabd5d7107ddca062de12f3c750d18db174c11e3716d214b2d82cf5c59"
+  },
+  "scope": "38 unmatched registry IDs; public primary-source identity research, not runtime or installation testing",
+  "counts": {
+    "exclude": 3,
+    "review": 5,
+    "add": 26,
+    "variant": 2,
+    "historical": 2
+  },
+  "items": [
+    {
+      "sentra_id": "sentra",
+      "name": "Sentra",
+      "vendor": "长亭科技",
+      "interfaces": "本地安全扫描工具",
+      "recommendation": "exclude",
+      "identity_confidence": "高",
+      "sentra_adapter": "dedicated",
+      "sentra_home_marker": null,
+      "finding": "这是 Sentra 自身的注册项，不是新发现的第三方 AI Agent。",
+      "next_step": "如目录要包含 Agent 安全工具，另设类别；不计入第三方 Agent 缺口。",
+      "sources": [
+        "https://git.in.chaitin.net/endpoint-team/mvp/sentra-lib"
+      ]
+    },
+    {
+      "sentra_id": "coder",
+      "name": "Coder / code-server；待区分 Coder Agents",
+      "vendor": "Coder Technologies",
+      "interfaces": "CLI、Web 开发环境；Coder Agents 为另一功能",
+      "recommendation": "review",
+      "identity_confidence": "低",
+      "sentra_adapter": "dedicated",
+      "sentra_home_marker": null,
+      "finding": "Sentra 的 meta 同时探测 coder 和 code-server，说明为 Coder/code-server 配置；.config/coderv2 不能证明部署了 Coder Agents。官方明确区分开发环境、code-server 与 Coder Agents。",
+      "next_step": "确认样本来自哪个产品；普通 code-server 不应新增为独立 AI Agent。",
+      "sources": [
+        "https://coder.com/beta-docs/reference/glossary/",
+        "https://github.com/coder/coder"
+      ]
+    },
+    {
+      "sentra_id": "deepseek-harness",
+      "name": "DeepSeek Harness / dsh",
+      "vendor": "DeepSeek",
+      "interfaces": "桌面端、CLI 启动的 Web 界面",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "dedicated",
+      "sentra_home_marker": null,
+      "finding": "官方 Harness 页面提供产品介绍、下载、Web 启动命令和官方源码链接；与已收录 DeepSeek 聊天产品是不同应用。",
+      "next_step": "优先补独立 Harness 产品及界面；源码许可按所收录版本 LICENSE 核验，不能沿用聊天产品信息。",
+      "sources": [
+        "https://deepseek.com/en/harness/",
+        "https://github.com/deepseek-ai/deepseek-harness"
+      ]
+    },
+    {
+      "sentra_id": "lingcode",
+      "name": "LingCode",
+      "vendor": "LingCode 团队；法律主体待核实",
+      "interfaces": "macOS GUI、CLI；移动端和 Web 待分别建形态",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "dedicated",
+      "sentra_home_marker": null,
+      "finding": "官网有原生 Mac IDE 与 CLI 文档；Windows/Linux 的 LingCodeBaby 与主桌面应用不能混写。CLI 有单独跨平台安装指引。",
+      "next_step": "先收 Mac GUI 和 CLI；分别核验 LingCodeBaby、移动端发行身份与许可，不把所有平台合成一条。",
+      "sources": [
+        "https://lingcode.dev/?lang=en",
+        "https://lingcode.dev/cli.html",
+        "https://lingcode.dev/tutorials/install-and-use-the-lingcode-cli.html"
+      ]
+    },
+    {
+      "sentra_id": "marvis",
+      "name": "Marvis / MarvisX CLI（候选）",
+      "vendor": "Emilio Martucci（公开项目）；Sentra 的腾讯探测信息存疑",
+      "interfaces": "CLI；Sentra 所指桌面端未确认",
+      "recommendation": "review",
+      "identity_confidence": "中",
+      "sentra_adapter": "dedicated",
+      "sentra_home_marker": null,
+      "finding": "公开 marvisx-cli 使用 .marvis，作者和官方仓库可核对；BSL 1.1 属源码可见，不能直接标成开源。Sentra 却探测腾讯发行商及 Marvis.app/MarvisX.app，有身份冲突。",
+      "next_step": "核对一份真实安装样本的签名、包名与 CLI 输出；在此之前暂不绑定腾讯或补桌面形态。",
+      "sources": [
+        "https://github.com/emiliomartucci/marvis",
+        "https://pypi.org/project/marvisx-cli/0.2.2/",
+        "https://justaskmarvis.com/"
+      ]
+    },
+    {
+      "sentra_id": "monkeycode",
+      "name": "MonkeyCode",
+      "vendor": "长亭科技",
+      "interfaces": "Web、自托管、桌面端候选；CLI 另核验",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "dedicated",
+      "sentra_home_marker": null,
+      "finding": "长亭官方仓库明确为团队 AI 开发平台，包含 desktop 目录，发布记录出现桌面客户端下载；平台仓库标注 AGPL-3.0。另有官方 monkeycode-cli 仓库，不能把它的许可自动套到平台。",
+      "next_step": "优先补 Web 平台与有官方发行证据的桌面端；CLI 按独立发行包核验，绑定 Sentra 的桌面包标识。",
+      "sources": [
+        "https://github.com/chaitin/MonkeyCode",
+        "https://github.com/chaitin/MonkeyCode/releases",
+        "https://github.com/chaitin/monkeycode-cli"
+      ]
+    },
+    {
+      "sentra_id": "qoder-wake",
+      "name": "QoderWake",
+      "vendor": "Qoder / 阿里巴巴",
+      "interfaces": "桌面安装服务、Web Console、CLI",
+      "recommendation": "variant",
+      "identity_confidence": "高",
+      "sentra_adapter": "dedicated",
+      "sentra_home_marker": null,
+      "finding": "官方国内文档覆盖 Mac/Windows/Linux，桌面安装包启动本地服务和 Web Console，并提供 qoderwake 命令。与 Qoder IDE、QoderWork 功能不同。",
+      "next_step": "在 Qoder 产品族新增 Wake 形态，避免仅补别名；核验 .qoderwake-cn 与文档 .qoderwake 的版本/区域差异。",
+      "sources": [
+        "https://docs.qoder.cn/en/qoderwake/installation",
+        "https://qoder.com/en/qoderwake"
+      ]
+    },
+    {
+      "sentra_id": "loomy",
+      "name": "Loomy",
+      "vendor": "讯飞；官网主体为合肥科讯创想软件开发有限公司",
+      "interfaces": "macOS GUI、Windows GUI Beta",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "dedicated",
+      "sentra_home_marker": null,
+      "finding": "正确官方入口为 loomy.xunfei.cn，是工作助手而非同名照片应用；下载页列 Apple Silicon macOS 14+ 和 Windows 10+ x64 Beta。",
+      "next_step": "补国内桌面助手；Windows 标记 Beta，不能据此填写 Linux。",
+      "sources": [
+        "https://loomy.xunfei.cn/",
+        "https://loomy.xunfei.cn/download",
+        "https://loomy.xunfei.cn/docs/quick-start"
+      ]
+    },
+    {
+      "sentra_id": "trae-vscode-plugin",
+      "name": "TRAE 插件（原 MarsCode 编程助手）",
+      "vendor": "TRAE；官网主体为北京引力弹弓科技有限公司",
+      "interfaces": "VS Code、JetBrains IDE 扩展",
+      "recommendation": "variant",
+      "identity_confidence": "高",
+      "sentra_adapter": "dedicated",
+      "sentra_home_marker": null,
+      "finding": "TRAE 官方插件页说明原 MarsCode 编程助手，有 VS Code/JetBrains 扩展及 Builder 模式。当前目录只有 TraeCode GUI，没有对应 IDE 扩展形态。",
+      "next_step": "沿用 trae 产品关系，新增扩展条目；MarsCode 作有证据的旧名，不复制成新产品。",
+      "sources": [
+        "https://www.trae.cn/plugin"
+      ]
+    },
+    {
+      "sentra_id": "vscode",
+      "name": "Visual Studio Code Agent 宿主",
+      "vendor": "Microsoft",
+      "interfaces": "编辑器、Agent 界面",
+      "recommendation": "exclude",
+      "identity_confidence": "高",
+      "sentra_adapter": "dedicated",
+      "sentra_home_marker": null,
+      "finding": "VS Code 官方支持 Agent 模式，但它也是多种 AI 扩展的宿主；仅 .vscode 目录或 VS Code 进程不足以识别具体 AI 产品。目录已有 GitHub Copilot 产品形态。",
+      "next_step": "如需编辑器类别可单独收 VS Code；Agent 覆盖应核对 Copilot/具体扩展，不能重复算一个独立 Agent。",
+      "sources": [
+        "https://code.visualstudio.com/docs/agents/overview"
+      ]
+    },
+    {
+      "sentra_id": "workbuddy-ai",
+      "name": "WorkBuddy AI（Sentra 独立检测形态）",
+      "vendor": "Tencent（由 Sentra 探测与 WorkBuddy 官方资料支持；确切发行关系未确认）",
+      "interfaces": "桌面 GUI",
+      "recommendation": "review",
+      "identity_confidence": "中",
+      "sentra_adapter": "dedicated",
+      "sentra_home_marker": null,
+      "finding": "代码区分 WorkBuddyAI.exe、WorkBuddy AI.app 与经典 WorkBuddy，并使用 .workbuddy-ai；公开官网名称为 WorkBuddy，尚无足够官方资料解释两者版本关系。",
+      "next_step": "核实官网安装包签名、Bundle ID、区域和迁移说明；随后在已有 WorkBuddy 产品下补形态或别名，不直接建第二产品。",
+      "sources": [
+        "https://www.workbuddy.ai/",
+        "https://www.workbuddy.cn/work/",
+        "https://cloud.tencent.com/product/workbuddy"
+      ]
+    },
+    {
+      "sentra_id": "aider-desk",
+      "name": "AiderDesk",
+      "vendor": "HOTOVO",
+      "interfaces": "桌面 GUI",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".aider-desk",
+      "finding": "官方上游为 hotovo/aider-desk，有 macOS/Windows/Linux 发布资产；产品已是 AI 软件工程师平台，不是 Aider 的别名。",
+      "next_step": "新增独立产品，保留与 Aider 的关系；发行包许可、真实 SVG 分别核验。",
+      "sources": [
+        "https://github.com/hotovo/aider-desk",
+        "https://github.com/hotovo/aider-desk/releases"
+      ]
+    },
+    {
+      "sentra_id": "bob",
+      "name": "IBM Bob",
+      "vendor": "IBM",
+      "interfaces": "IDE、Bob Shell CLI",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".bob",
+      "finding": "IBM 官方 Bob 页面与文档明确区分 IDE 和 Bob Shell；同名普通 Bob 软件不能作为来源。",
+      "next_step": "分别补 IDE 与 CLI 形态；依据各版授权填写商业属性，不能标开源。",
+      "sources": [
+        "https://bob.ibm.com/",
+        "https://bob.ibm.com/docs/ide",
+        "https://www.ibm.com/products/ai-coding-agent"
+      ]
+    },
+    {
+      "sentra_id": "codemaker",
+      "name": "CodeMaker AI",
+      "vendor": "CodeMaker AI",
+      "interfaces": "VS Code、JetBrains 扩展、CLI",
+      "recommendation": "add",
+      "identity_confidence": "中",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".codemaker",
+      "finding": "官方文档、官方 GitHub 组织和 CLI 仓库可交叉定位；公开资料部分较旧，服务当前维护程度不能仅凭网页存在判定。",
+      "next_step": "可补候选产品；逐一确认插件现行发行、CLI 最近发布与账号服务可用性，维护状态保留未知。",
+      "sources": [
+        "https://docs.codemaker.ai/",
+        "https://github.com/codemakerai",
+        "https://github.com/codemakerai/codemaker-cli"
+      ]
+    },
+    {
+      "sentra_id": "codestudio",
+      "name": "Syncfusion Code Studio",
+      "vendor": "Syncfusion",
+      "interfaces": "AI IDE GUI",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".codestudio",
+      "finding": "Syncfusion 官方 AI IDE 页面可定位；官方集成文档明确使用 .codestudio/mcp.json，与 Sentra 标记对应。",
+      "next_step": "新增 Syncfusion 产品；排除同名设计公司/开发工作室。",
+      "sources": [
+        "https://www.syncfusion.com/code-studio/",
+        "https://ai.syncfusion.com/agent-setup/codestudio/"
+      ]
+    },
+    {
+      "sentra_id": "command-code",
+      "name": "Command Code",
+      "vendor": "CommandCodeAI",
+      "interfaces": "CLI",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".commandcode",
+      "finding": "commandcode.ai 与 CommandCodeAI 官方仓库介绍终端编码 Agent、command-code 包和学习用户偏好的能力。",
+      "next_step": "新增 CLI；核实 npm 包发布者与版本许可，不因为存在仓库就标全部开源。",
+      "sources": [
+        "https://commandcode.ai/",
+        "https://commandcode.ai/docs",
+        "https://github.com/CommandCodeAI/command-code"
+      ]
+    },
+    {
+      "sentra_id": "cortex",
+      "name": "Snowflake Cortex Code / CoCo CLI",
+      "vendor": "Snowflake",
+      "interfaces": "CLI",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".snowflake/cortex",
+      "finding": "官方 CLI 参考文档使用 cortex 命令和 .snowflake/cortex/conversations，匹配 Sentra 注册目录；不是泛指 Cortex 模型 API。",
+      "next_step": "新增 Cortex Code CLI；以后如补 Web 界面，单独核验，不能把整个 Snowflake 平台视为同一形态。",
+      "sources": [
+        "https://docs.snowflake.com/en/user-guide/cortex-code/cli-reference",
+        "https://www.snowflake.com/en/developers/guides/coco-foundations/"
+      ]
+    },
+    {
+      "sentra_id": "crush",
+      "name": "Crush",
+      "vendor": "Charmbracelet",
+      "interfaces": "终端 CLI/TUI",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".config/crush",
+      "finding": "官方仓库与发布页可定位终端编码助手；当前主分支 LICENSE 是 FSL-1.1-MIT，有竞争用途限制与未来 MIT 转换，并非直接 MIT。",
+      "next_step": "优先新增；商业/开源字段按实际收录版本标源码可见，旧 MIT 版本不能代表当前版。",
+      "sources": [
+        "https://github.com/charmbracelet/crush",
+        "https://github.com/charmbracelet/crush/releases",
+        "https://github.com/charmbracelet/crush/blob/main/LICENSE.md"
+      ]
+    },
+    {
+      "sentra_id": "deepagents",
+      "name": "Deep Agents Code / Deep Agents CLI",
+      "vendor": "LangChain",
+      "interfaces": "CLI",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".deepagents/agent",
+      "finding": "官方仓库同时提供 Deep Agents SDK 和预构建的终端编码 Agent；发布名称、命令随版本演进。不能将 SDK 本身登记成桌面应用。",
+      "next_step": "新增面向用户的 CLI 形态；保留 Deep Agents CLI 别名，锁定发行包/命令版本及 .deepagents/agent 对应关系。",
+      "sources": [
+        "https://github.com/langchain-ai/deepagents",
+        "https://www.langchain.com/blog/introducing-deepagents-cli"
+      ]
+    },
+    {
+      "sentra_id": "firebender",
+      "name": "Firebender",
+      "vendor": "Firebender 团队",
+      "interfaces": "JetBrains / Android Studio IDE 扩展",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".firebender",
+      "finding": "JetBrains 插件市场官方条目及 Firebender 文档可定位编码 Agent；不要用非官方代理站绑定厂商。",
+      "next_step": "新增 IDE 扩展；系统按 IDE 与插件实际支持核验，定价与授权看具体版。",
+      "sources": [
+        "https://plugins.jetbrains.com/plugin/25224-firebender",
+        "https://docs.firebender.com/get-started/experimental",
+        "https://firebender.com/pricing"
+      ]
+    },
+    {
+      "sentra_id": "forgecode",
+      "name": "ForgeCode",
+      "vendor": "Tailcall",
+      "interfaces": "CLI/TUI、Shell 集成",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".forge",
+      "finding": "官方上游 tailcallhq/forgecode 与 forgecode.dev 提供终端 Agent，使用 .forge；不是同名 Forge 平台。",
+      "next_step": "新增 CLI；Shell 集成作为同产品能力而非重复产品。",
+      "sources": [
+        "https://github.com/tailcallhq/forgecode",
+        "https://forgecode.dev/"
+      ]
+    },
+    {
+      "sentra_id": "iflow-cli",
+      "name": "iFlow CLI",
+      "vendor": "iFlow AI 团队",
+      "interfaces": "CLI",
+      "recommendation": "historical",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".iflow",
+      "finding": "官方仓库公告写明 2026-04-17（UTC+8）关停。源码/旧包仍可存在，公告不等于所有本地 BYOK 用法必然不能运行。",
+      "next_step": "若追求检测覆盖，作为历史项目收录并附停服说明；不列入当前活跃推荐。",
+      "sources": [
+        "https://github.com/iflow-ai/iflow-cli"
+      ]
+    },
+    {
+      "sentra_id": "jazz",
+      "name": "Jazz",
+      "vendor": "lvndry / Jazz 项目维护者",
+      "interfaces": "CLI、脚本、定时任务、消息平台集成",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".jazz",
+      "finding": "官方仓库与项目文档描述通用自主 Agent；文档使用 .jazz/agents/<id>.json，能对应检测目录。",
+      "next_step": "新增通用 CLI Agent；与同名数据库/音乐项目区分。",
+      "sources": [
+        "https://github.com/lvndry/jazz",
+        "https://jazz-cli.vercel.app/docs/getting-started/create-an-agent"
+      ]
+    },
+    {
+      "sentra_id": "kode",
+      "name": "Kode CLI",
+      "vendor": "ShareAI Lab",
+      "interfaces": "CLI",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".kode",
+      "finding": "上游 shareAI-lab/Kode-CLI 使用 .kode、@shareai-lab/kode；仓库标 Apache-2.0。不是其他 Kode 同名项目或未经辨别的 fork。",
+      "next_step": "新增 CLI；使用上游发布者身份，锁定包版本。",
+      "sources": [
+        "https://github.com/shareAI-lab/Kode-CLI"
+      ]
+    },
+    {
+      "sentra_id": "mcpjam",
+      "name": "MCPJam Inspector",
+      "vendor": "MCPJam",
+      "interfaces": "Web / 本地开发工具",
+      "recommendation": "exclude",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".mcpjam",
+      "finding": "官方 Inspector 用于 MCP server/apps 调试、检查与评估，主要是开发工具，不是通常意义的通用编码 Agent。",
+      "next_step": "如目录扩大到 MCP 开发工具可新增专属类型；此次不作为独立 Agent 缺口补入。",
+      "sources": [
+        "https://github.com/MCPJam/inspector"
+      ]
+    },
+    {
+      "sentra_id": "moxby",
+      "name": "Moxby（候选）",
+      "vendor": "Moxby；法律主体待核实",
+      "interfaces": "浏览器扩展、配套 Desktop Bridge",
+      "recommendation": "review",
+      "identity_confidence": "中",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".moxby",
+      "finding": "moxby.com 的现行产品是浏览器 Mods/Missions/Chat 与付费 Desktop Bridge；尚未查到 .moxby 目录或对应 CLI 的官方绑定证据。",
+      "next_step": "拿到桥接安装包/官方配置文档后确认身份；不要按 generic 注册名猜成终端编码 CLI。",
+      "sources": [
+        "https://moxby.com/",
+        "https://moxby.com/mods"
+      ]
+    },
+    {
+      "sentra_id": "mux",
+      "name": "Xum（原 Mux）",
+      "vendor": "Coder",
+      "interfaces": "桌面 GUI、VS Code 扩展、Web 服务形态待分项核验",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".mux",
+      "finding": "coder/mux 已重定向 coder/xum；官方 README 说明商标争议后改名 Xum，仓库 AGPL-3.0。不同于 usemux.ai 的同名项目。",
+      "next_step": "新记录使用 Xum 名称并保留 Mux 旧名；检测映射保留 .mux，同时研究 .xum 新目录。",
+      "sources": [
+        "https://github.com/coder/xum",
+        "https://github.com/coder/mux"
+      ]
+    },
+    {
+      "sentra_id": "neovate",
+      "name": "Neovate Code",
+      "vendor": "NeovateAI",
+      "interfaces": "CLI；桌面产品另核验",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".neovate",
+      "finding": "官方 neovateai/neovate-code 提供 @neovate/code，标 MIT；组织中旧 code-desktop 归档与后续 desktop 仓库并存，不能据此说整个产品停更。",
+      "next_step": "优先补 CLI；桌面端核实新旧仓库和现行发行包后单独新增形态。",
+      "sources": [
+        "https://github.com/neovateai/neovate-code",
+        "https://github.com/neovateai"
+      ]
+    },
+    {
+      "sentra_id": "ona",
+      "name": "Ona（原 Gitpod）",
+      "vendor": "Ona / Gitpod 团队",
+      "interfaces": "Web、云端工程 Agent、自托管基础设施",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".ona",
+      "finding": "Ona 官方说明 Gitpod 于 2025-09-02 更名，产品定位为工程 Agent 与开发环境。旧 Gitpod 源码公开不能证明当前 Ona 服务全开源。",
+      "next_step": "新增 Ona；Gitpod 作有证据的旧名；云 Agent 与环境管理的边界写清楚。",
+      "sources": [
+        "https://ona.com/stories/gitpod-is-now-ona",
+        "https://github.com/gitpod-io"
+      ]
+    },
+    {
+      "sentra_id": "pochi",
+      "name": "Pochi",
+      "vendor": "TabbyML",
+      "interfaces": "VS Code IDE 扩展、可选云服务",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".pochi",
+      "finding": "TabbyML 官方 Pochi 仓库明确为开发 Agent，提供 VS Code 扩展和可选云/BYOK；与目录已有 Tabby 是不同产品。",
+      "next_step": "新增独立 Pochi 产品；不并入 Tabby 名称或沿用其商业字段。",
+      "sources": [
+        "https://github.com/TabbyML/pochi",
+        "https://github.com/TabbyML/pochi/blob/main/packages/docs/content/docs/index.mdx"
+      ]
+    },
+    {
+      "sentra_id": "reasonix",
+      "name": "DeepSeek-Reasonix / Reasonix",
+      "vendor": "esengine / Huahui Yu",
+      "interfaces": "CLI；Studio GUI/Web 按分支发行分别确认",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".reasonix",
+      "finding": "官方上游 esengine/DeepSeek-Reasonix 使用 .reasonix，标 MIT；2.x Studio 与 1.x 维护分支不同。名称含 DeepSeek 不代表 DeepSeek 官方出品。",
+      "next_step": "先补稳定 CLI；Studio 按实际发行核验，不绑定 DeepSeek 供应商。",
+      "sources": [
+        "https://github.com/esengine/DeepSeek-Reasonix"
+      ]
+    },
+    {
+      "sentra_id": "rovodev",
+      "name": "Rovo Dev CLI",
+      "vendor": "Atlassian",
+      "interfaces": "CLI",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".rovodev",
+      "finding": "官方支持文档说明通过 ACLI 安装和运行 Rovo Dev 功能，命令为 acli rovodev run；需要相应 Rovo Dev 订阅。",
+      "next_step": "新增 Atlassian CLI Agent；以官方命令和订阅版识别，不猜开源。",
+      "sources": [
+        "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/",
+        "https://support.atlassian.com/rovo/docs/install-and-run-rovo-dev-cli-on-your-device/"
+      ]
+    },
+    {
+      "sentra_id": "roo",
+      "name": "Roo Code",
+      "vendor": "Roo Code Inc.",
+      "interfaces": "VS Code IDE 扩展（历史）",
+      "recommendation": "historical",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".roo",
+      "finding": "官方仓库在 2026-05-15 归档，README 声明扩展 5 月 15 日停止服务；仍公开的源码不表示产品继续运营。",
+      "next_step": "历史收录并标停止服务；ZooCode/Cline 为不同后续/来源项目，不能直接替换身份。",
+      "sources": [
+        "https://github.com/RooCodeInc/Roo-Code"
+      ]
+    },
+    {
+      "sentra_id": "tabnine-cli",
+      "name": "Tabnine CLI",
+      "vendor": "Tabnine",
+      "interfaces": "CLI",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".tabnine/agent",
+      "finding": "Tabnine 官方 CLI 文档与平台页明确为独立终端编码入口；不是 Tabby，同名近似也不能合并。",
+      "next_step": "新增 Tabnine 产品及 CLI；核实团队授权与系统安装限制，后续 IDE 扩展再分项补。",
+      "sources": [
+        "https://docs.tabnine.com/main/getting-started/tabnine-cli",
+        "https://www.tabnine.com/platform-cli/"
+      ]
+    },
+    {
+      "sentra_id": "terramind",
+      "name": "Terramind / Atlas / Nucleus（候选映射）",
+      "vendor": "Terramind.com, Inc.",
+      "interfaces": "macOS 应用；具体 Sentra 检测形态待确认",
+      "recommendation": "review",
+      "identity_confidence": "低",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".terramind",
+      "finding": "正确候选是 terramind.com 的 Agent 产品族，不是 IBM/ESA 同名地球观测模型；当前主页称 Nucleus/Spaces 为 Apple Silicon Mac 应用。旧子站仍有跨平台/候补宣传，且 .terramind 映射无公开确认。",
+      "next_step": "先核实 .terramind 的实际创建程序、产品名称及签名；系统以现行发行包为准，不照抄旧子站。",
+      "sources": [
+        "https://terramind.com/",
+        "https://terramind.com/nucleus?from=home",
+        "https://terramind.com/contact"
+      ]
+    },
+    {
+      "sentra_id": "tinycloud",
+      "name": "TinyCloud",
+      "vendor": "Cloudglue",
+      "interfaces": "CLI、视频任务/Skills",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".tinycloud",
+      "finding": "tinycloud.sh 给出 @cloudglue/tinycloud 包与 ~/.tinycloud/versions 路径，是视频工作 Agent；不是 tinycloud.io 同名机构。",
+      "next_step": "新增视频/媒体 Agent 的 CLI，避免一律放入 AI 编程类；标明 Beta/服务依赖。",
+      "sources": [
+        "https://www.tinycloud.sh/"
+      ]
+    },
+    {
+      "sentra_id": "zencoder",
+      "name": "Zencoder",
+      "vendor": "Zencoder",
+      "interfaces": "VS Code、JetBrains IDE 扩展",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".zencoder",
+      "finding": "Zencoder 官方下载页列 VS Code/JetBrains 扩展，文档有自定义 Agent；与传统视频编码服务同名，需要明确 AI 编程产品身份。",
+      "next_step": "新增 IDE 扩展；不能因与 Zenflow 共用 .zencoder 就判重复或同时确认安装。",
+      "sources": [
+        "https://zencoder.ai/download/all",
+        "https://docs.zencoder.ai/features/custom-agents"
+      ]
+    },
+    {
+      "sentra_id": "zenflow",
+      "name": "Zenflow Code（by Zencoder）",
+      "vendor": "Zencoder",
+      "interfaces": "桌面 Agent 编排应用",
+      "recommendation": "add",
+      "identity_confidence": "高",
+      "sentra_adapter": "generic",
+      "sentra_home_marker": ".zencoder",
+      "finding": "Zencoder 官方 Zenflow 页面与下载页定位为规格驱动的 Agent 编排产品；不是 zenflow.sh 框架或其他同名仓库。",
+      "next_step": "新增独立产品并关联同供应商；逐项核验下载包支持系统，共享目录不是双产品安装证据。",
+      "sources": [
+        "https://zencoder.ai/zenflow",
+        "https://zencoder.ai/download/all"
+      ]
+    }
+  ]
+}

@@ -1074,5 +1074,204 @@
       }
     ],
     "classification": "application"
+  },
+  "aider-desk-desktop": {
+    "repository_url": "https://github.com/hotovo/aider-desk",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/hotovo/aider-desk/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-10"
+    },
+    "classification": "application",
+    "notes": "本次核验上游主分支应用源码许可；实际旧发行包可能不同，应以所用版本随附 LICENSE 为准。未运行或安装；不扩展到同品牌云服务或其他客户端。",
+    "sources": [
+      {
+        "url": "https://github.com/hotovo/aider-desk",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/hotovo/aider-desk/blob/main/LICENSE",
+        "title": "上游主分支 LICENSE"
+      }
+    ]
+  },
+  "crush-cli": {
+    "repository_url": "https://github.com/charmbracelet/crush",
+    "source_model": "source-available",
+    "license": "FSL-1.1-MIT",
+    "license_url": "https://github.com/charmbracelet/crush/blob/main/LICENSE.md",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-10"
+    },
+    "classification": "application",
+    "notes": "本次核验上游主分支应用源码许可；实际旧发行包可能不同，应以所用版本随附 LICENSE 为准。未运行或安装；不扩展到同品牌云服务或其他客户端。 当前许可含竞争用途限制，两年后的 MIT 转换不等于当前 OSI 开源。",
+    "sources": [
+      {
+        "url": "https://github.com/charmbracelet/crush",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/charmbracelet/crush/blob/main/LICENSE.md",
+        "title": "上游主分支 LICENSE"
+      }
+    ]
+  },
+  "deepagents-cli": {
+    "repository_url": "https://github.com/langchain-ai/deepagents",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/langchain-ai/deepagents/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-10"
+    },
+    "classification": "runnable-application-and-harness",
+    "notes": "本次核验上游主分支应用源码许可；实际旧发行包可能不同，应以所用版本随附 LICENSE 为准。未运行或安装；不扩展到同品牌云服务或其他客户端。",
+    "sources": [
+      {
+        "url": "https://github.com/langchain-ai/deepagents",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/langchain-ai/deepagents/blob/main/LICENSE",
+        "title": "上游主分支 LICENSE"
+      }
+    ]
+  },
+  "kode-cli": {
+    "repository_url": "https://github.com/shareAI-lab/Kode-CLI",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/shareAI-lab/Kode-CLI/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-10"
+    },
+    "classification": "application",
+    "notes": "本次核验上游主分支应用源码许可；实际旧发行包可能不同，应以所用版本随附 LICENSE 为准。未运行或安装；不扩展到同品牌云服务或其他客户端。",
+    "sources": [
+      {
+        "url": "https://github.com/shareAI-lab/Kode-CLI",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/shareAI-lab/Kode-CLI/blob/main/LICENSE",
+        "title": "上游主分支 LICENSE"
+      }
+    ]
+  },
+  "xum-desktop": {
+    "repository_url": "https://github.com/coder/xum",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/coder/xum/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-10"
+    },
+    "classification": "agent-client-application",
+    "notes": "本次核验上游主分支应用源码许可；实际旧发行包可能不同，应以所用版本随附 LICENSE 为准。未运行或安装；不扩展到同品牌云服务或其他客户端。",
+    "sources": [
+      {
+        "url": "https://github.com/coder/xum",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/coder/xum/blob/main/LICENSE",
+        "title": "上游主分支 LICENSE"
+      }
+    ]
+  },
+  "neovate-cli": {
+    "repository_url": "https://github.com/neovateai/neovate-code",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/neovateai/neovate-code/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-10"
+    },
+    "classification": "application",
+    "notes": "本次核验上游主分支应用源码许可；实际旧发行包可能不同，应以所用版本随附 LICENSE 为准。未运行或安装；不扩展到同品牌云服务或其他客户端。",
+    "sources": [
+      {
+        "url": "https://github.com/neovateai/neovate-code",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/neovateai/neovate-code/blob/main/LICENSE",
+        "title": "上游主分支 LICENSE"
+      }
+    ]
+  },
+  "pochi-vscode": {
+    "repository_url": "https://github.com/TabbyML/pochi",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/TabbyML/pochi/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-10"
+    },
+    "classification": "application",
+    "notes": "本次核验上游主分支应用源码许可；实际旧发行包可能不同，应以所用版本随附 LICENSE 为准。未运行或安装；不扩展到同品牌云服务或其他客户端。",
+    "sources": [
+      {
+        "url": "https://github.com/TabbyML/pochi",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/TabbyML/pochi/blob/main/LICENSE",
+        "title": "上游主分支 LICENSE"
+      }
+    ]
+  },
+  "reasonix-cli": {
+    "repository_url": "https://github.com/esengine/DeepSeek-Reasonix",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/esengine/DeepSeek-Reasonix/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-10"
+    },
+    "classification": "application",
+    "notes": "本次核验上游主分支应用源码许可；实际旧发行包可能不同，应以所用版本随附 LICENSE 为准。未运行或安装；不扩展到同品牌云服务或其他客户端。",
+    "sources": [
+      {
+        "url": "https://github.com/esengine/DeepSeek-Reasonix",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/esengine/DeepSeek-Reasonix/blob/main/LICENSE",
+        "title": "上游主分支 LICENSE"
+      }
+    ]
+  },
+  "roo-code-vscode": {
+    "repository_url": "https://github.com/RooCodeInc/Roo-Code",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/RooCodeInc/Roo-Code/blob/main/LICENSE",
+    "maintenance": {
+      "status": "archived",
+      "checked_at": "2026-10-10",
+      "github_archived": true
+    },
+    "classification": "application",
+    "notes": "本次核验上游主分支应用源码许可；实际旧发行包可能不同，应以所用版本随附 LICENSE 为准。未运行或安装；不扩展到同品牌云服务或其他客户端。 官方于 2026-05-15 归档并停止扩展服务；公开源码不表示仍在维护。",
+    "sources": [
+      {
+        "url": "https://github.com/RooCodeInc/Roo-Code",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/RooCodeInc/Roo-Code/blob/main/LICENSE",
+        "title": "上游主分支 LICENSE"
+      }
+    ]
   }
 }

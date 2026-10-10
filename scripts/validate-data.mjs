@@ -1,3 +1,4 @@
+import { validateCommercial } from './validate-commercial.mjs';
 import { validateOpenSource } from './validate-open-source.mjs';
 import { readFile, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
@@ -56,6 +57,7 @@ export async function validateData() {
   assert(Number.isInteger(metadata.schemaVersion) && typeof metadata.dataVersion === 'string');
   assert(/^\d{4}-\d{2}-\d{2}$/.test(metadata.snapshotDate));
   await validateOpenSource(apps);
+  await validateCommercial(apps);
   return { apps, evidence, collections, metadata, svgs };
 }
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

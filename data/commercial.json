@@ -1,0 +1,959 @@
+{
+  "chatgpt": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供个人订阅及 Business、Enterprise 套餐，也有免费套餐。",
+    "sources": [
+      {
+        "url": "https://chatgpt.com/pricing/",
+        "title": "ChatGPT 官方商业服务依据"
+      }
+    ]
+  },
+  "codex-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方订阅包含 Codex 服务；CLI 的开源许可证独立保留。此标签指官方商业服务，不表示客户端必须付费。",
+    "sources": [
+      {
+        "url": "https://chatgpt.com/pricing/",
+        "title": "Codex CLI 官方商业服务依据"
+      }
+    ]
+  },
+  "codex-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方订阅包含 Codex 服务；CLI 的开源许可证独立保留。此标签指官方商业服务，不表示客户端必须付费。",
+    "sources": [
+      {
+        "url": "https://chatgpt.com/pricing/",
+        "title": "Codex Cloud 官方商业服务依据"
+      }
+    ]
+  },
+  "codex-ide": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方订阅包含 Codex 服务；CLI 的开源许可证独立保留。此标签指官方商业服务，不表示客户端必须付费。",
+    "sources": [
+      {
+        "url": "https://chatgpt.com/pricing/",
+        "title": "Codex IDE 扩展 官方商业服务依据"
+      }
+    ]
+  },
+  "codex-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方订阅包含 Codex 服务；CLI 的开源许可证独立保留。此标签指官方商业服务，不表示客户端必须付费。",
+    "sources": [
+      {
+        "url": "https://chatgpt.com/pricing/",
+        "title": "Codex（ChatGPT 桌面内） 官方商业服务依据"
+      }
+    ]
+  },
+  "claude": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro、Max、Team 和 Enterprise 服务，也有免费方案。",
+    "sources": [
+      {
+        "url": "https://claude.com/pricing",
+        "title": "Claude 官方商业服务依据"
+      }
+    ]
+  },
+  "claude-code": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方价格页列明 Claude Code 纳入付费套餐；按该服务核验，不据此判断代码许可证。",
+    "sources": [
+      {
+        "url": "https://claude.com/pricing",
+        "title": "Claude Code 官方商业服务依据"
+      }
+    ]
+  },
+  "claude-code-ide": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方价格页列明 Claude Code 纳入付费套餐；按该服务核验，不据此判断代码许可证。",
+    "sources": [
+      {
+        "url": "https://claude.com/pricing",
+        "title": "Claude Code IDE 扩展 官方商业服务依据"
+      }
+    ]
+  },
+  "claude-code-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方价格页列明 Claude Code 纳入付费套餐；按该服务核验，不据此判断代码许可证。",
+    "sources": [
+      {
+        "url": "https://claude.com/pricing",
+        "title": "Claude Code Web 官方商业服务依据"
+      }
+    ]
+  },
+  "claude-code-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方价格页列明 Claude Code 纳入付费套餐；按该服务核验，不据此判断代码许可证。",
+    "sources": [
+      {
+        "url": "https://claude.com/pricing",
+        "title": "Claude Code（桌面） 官方商业服务依据"
+      }
+    ]
+  },
+  "cursor": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供个人订阅与团队服务，也有免费套餐。",
+    "sources": [
+      {
+        "url": "https://cursor.com/pricing",
+        "title": "Cursor 官方商业服务依据"
+      }
+    ]
+  },
+  "cursor-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供个人订阅与团队服务，也有免费套餐。",
+    "sources": [
+      {
+        "url": "https://cursor.com/pricing",
+        "title": "Cursor CLI 官方商业服务依据"
+      }
+    ]
+  },
+  "cursor-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供个人订阅与团队服务，也有免费套餐。",
+    "sources": [
+      {
+        "url": "https://cursor.com/pricing",
+        "title": "Cursor Web 官方商业服务依据"
+      }
+    ]
+  },
+  "perplexity": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方明确将 Pro 定义为高级订阅服务。",
+    "sources": [
+      {
+        "url": "https://www.perplexity.ai/help-center/en/articles/10352901-what-is-perplexity-pro",
+        "title": "Perplexity 官方商业服务依据"
+      }
+    ]
+  },
+  "gemini": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "Google AI 订阅包含 Gemini 的增强服务；不外推为 Gemini 模型或 Gemini CLI 的源码许可证。",
+    "sources": [
+      {
+        "url": "https://one.google.com/about/google-ai-plans/",
+        "title": "Gemini 官方商业服务依据"
+      }
+    ]
+  },
+  "github-copilot-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Copilot 个人和组织商业套餐。",
+    "sources": [
+      {
+        "url": "https://github.com/features/copilot/plans",
+        "title": "GitHub Copilot app 官方商业服务依据"
+      }
+    ]
+  },
+  "github-copilot-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Copilot 个人和组织商业套餐。",
+    "sources": [
+      {
+        "url": "https://github.com/features/copilot/plans",
+        "title": "GitHub Copilot CLI 官方商业服务依据"
+      }
+    ]
+  },
+  "github-copilot": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Copilot 个人和组织商业套餐。",
+    "sources": [
+      {
+        "url": "https://github.com/features/copilot/plans",
+        "title": "GitHub Copilot（IDE） 官方商业服务依据"
+      }
+    ]
+  },
+  "github-copilot-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Copilot 个人和组织商业套餐。",
+    "sources": [
+      {
+        "url": "https://github.com/features/copilot/plans",
+        "title": "GitHub Copilot（Web） 官方商业服务依据"
+      }
+    ]
+  },
+  "zed": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "Zed 编辑器保持开源；官方同时提供 Pro 订阅及 Business 服务，两个标签可以同时成立。",
+    "sources": [
+      {
+        "url": "https://zed.dev/pricing",
+        "title": "Zed 官方商业服务依据"
+      }
+    ]
+  },
+  "dify": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供托管套餐及 Enterprise 商业授权；社区版的源码授权另行展示。",
+    "sources": [
+      {
+        "url": "https://dify.ai/pricing",
+        "title": "Dify 官方商业服务依据"
+      }
+    ]
+  },
+  "open-webui": {
+    "offer": "enterprise-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供企业授权、部署和支持服务；自托管版本可用不等于没有商业服务。",
+    "sources": [
+      {
+        "url": "https://docs.openwebui.com/enterprise/",
+        "title": "Open WebUI 官方商业服务依据"
+      }
+    ]
+  },
+  "fastgpt": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供免费与付费套餐；社区版源码许可证与商业服务分别记录。",
+    "sources": [
+      {
+        "url": "https://fastgpt.cn/price",
+        "title": "FastGPT 官方商业服务依据"
+      }
+    ]
+  },
+  "coze-cn": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "扣子中国版官方列明个人、团队、企业订阅；不将此证据套用到国际版。",
+    "sources": [
+      {
+        "url": "https://docs.coze.cn/guides_edition",
+        "title": "扣子 官方商业服务依据"
+      }
+    ]
+  },
+  "codebuddy-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "国际版官方列明 Pro、Team 及 Credits 购买，并说明团队额度适用于 IDE 和 CLI；中国版另待核验。",
+    "sources": [
+      {
+        "url": "https://www.codebuddy.ai/docs/ide/Account/pricing",
+        "title": "CodeBuddy Code CLI 官方商业服务依据"
+      }
+    ]
+  },
+  "workbuddy": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "WorkBuddy 国际版官方列明 Pro 与 Team 订阅；中国版另待核验。",
+    "sources": [
+      {
+        "url": "https://www.codebuddy.ai/docs/workbuddy/Subscription",
+        "title": "WorkBuddy 官方商业服务依据"
+      }
+    ]
+  },
+  "qoder-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "Qoder 国际版官方列明 Pro、Pro+、Ultra 和组织订阅；中国版另待核验。",
+    "sources": [
+      {
+        "url": "https://docs.qoder.com/account/pricing",
+        "title": "Qoder CLI 官方商业服务依据"
+      }
+    ]
+  },
+  "qoder": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "Qoder 国际版官方列明 Pro、Pro+、Ultra 和组织订阅；中国版另待核验。",
+    "sources": [
+      {
+        "url": "https://docs.qoder.com/account/pricing",
+        "title": "Qoder IDE 官方商业服务依据"
+      }
+    ]
+  },
+  "qoder-jetbrains": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "Qoder 国际版官方列明 Pro、Pro+、Ultra 和组织订阅；中国版另待核验。",
+    "sources": [
+      {
+        "url": "https://docs.qoder.com/account/pricing",
+        "title": "Qoder（JetBrains 插件） 官方商业服务依据"
+      }
+    ]
+  },
+  "amp-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供个人订阅及按量付费服务。",
+    "sources": [
+      {
+        "url": "https://ampcode.com/pricing",
+        "title": "Amp CLI 官方商业服务依据"
+      }
+    ]
+  },
+  "amp-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供个人订阅及按量付费服务。",
+    "sources": [
+      {
+        "url": "https://ampcode.com/pricing",
+        "title": "Amp Web 官方商业服务依据"
+      }
+    ]
+  },
+  "amp-mobile": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供个人订阅及按量付费服务。",
+    "sources": [
+      {
+        "url": "https://ampcode.com/pricing",
+        "title": "Amp（iOS / iPadOS） 官方商业服务依据"
+      }
+    ]
+  },
+  "amp-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供个人订阅及按量付费服务。",
+    "sources": [
+      {
+        "url": "https://ampcode.com/pricing",
+        "title": "Amp（macOS） 官方商业服务依据"
+      }
+    ]
+  },
+  "augment-code-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Standard、Business 和 Enterprise 服务。",
+    "sources": [
+      {
+        "url": "https://www.augmentcode.com/pricing",
+        "title": "Auggie CLI 官方商业服务依据"
+      }
+    ]
+  },
+  "augment-code-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Standard、Business 和 Enterprise 服务。",
+    "sources": [
+      {
+        "url": "https://www.augmentcode.com/pricing",
+        "title": "Augment Code Cloud Agents 官方商业服务依据"
+      }
+    ]
+  },
+  "devin-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro、Max、Team 和 Enterprise 套餐。",
+    "sources": [
+      {
+        "url": "https://devin.ai/pricing",
+        "title": "Devin Cloud 官方商业服务依据"
+      }
+    ]
+  },
+  "devin-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro、Max、Team 和 Enterprise 套餐。",
+    "sources": [
+      {
+        "url": "https://devin.ai/pricing",
+        "title": "Devin Desktop 官方商业服务依据"
+      }
+    ]
+  },
+  "bolt": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro、Teams 和 Enterprise 套餐；不等同于 bolt.diy 开源项目。",
+    "sources": [
+      {
+        "url": "https://bolt.new/pricing",
+        "title": "Bolt 官方商业服务依据"
+      }
+    ]
+  },
+  "lovable-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro 和 Business 订阅服务。",
+    "sources": [
+      {
+        "url": "https://lovable.dev/pricing",
+        "title": "Lovable 官方商业服务依据"
+      }
+    ]
+  },
+  "lovable-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro 和 Business 订阅服务。",
+    "sources": [
+      {
+        "url": "https://lovable.dev/pricing",
+        "title": "Lovable Desktop 官方商业服务依据"
+      }
+    ]
+  },
+  "warp-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供付费 AI 服务和团队套餐；免费层及客户端许可证另行判断。",
+    "sources": [
+      {
+        "url": "https://www.warp.dev/pricing",
+        "title": "Warp Agent CLI 官方商业服务依据"
+      }
+    ]
+  },
+  "warp-terminal": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供付费 AI 服务和团队套餐；免费层及客户端许可证另行判断。",
+    "sources": [
+      {
+        "url": "https://www.warp.dev/pricing",
+        "title": "Warp Terminal 官方商业服务依据"
+      }
+    ]
+  },
+  "coderabbit-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供按开发者订阅的付费代码审查服务。",
+    "sources": [
+      {
+        "url": "https://www.coderabbit.ai/pricing",
+        "title": "CodeRabbit 官方商业服务依据"
+      }
+    ]
+  },
+  "coderabbit-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供按开发者订阅的付费代码审查服务。",
+    "sources": [
+      {
+        "url": "https://www.coderabbit.ai/pricing",
+        "title": "CodeRabbit CLI 官方商业服务依据"
+      }
+    ]
+  },
+  "greptile-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供付费及 Enterprise 服务、积分计费。",
+    "sources": [
+      {
+        "url": "https://www.greptile.com/pricing",
+        "title": "Greptile 官方商业服务依据"
+      }
+    ]
+  },
+  "greptile-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供付费及 Enterprise 服务、积分计费。",
+    "sources": [
+      {
+        "url": "https://www.greptile.com/pricing",
+        "title": "Greptile CLI 官方商业服务依据"
+      }
+    ]
+  },
+  "factory-droid-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro、Plus、Max 和 Teams 服务。",
+    "sources": [
+      {
+        "url": "https://factory.com/pricing",
+        "title": "Factory Desktop 官方商业服务依据"
+      }
+    ]
+  },
+  "factory-droid-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro、Plus、Max 和 Teams 服务。",
+    "sources": [
+      {
+        "url": "https://factory.com/pricing",
+        "title": "Factory Droid CLI 官方商业服务依据"
+      }
+    ]
+  },
+  "factory-droid-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro、Plus、Max 和 Teams 服务。",
+    "sources": [
+      {
+        "url": "https://factory.com/pricing",
+        "title": "Factory Web 官方商业服务依据"
+      }
+    ]
+  },
+  "kiro-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方列明付费订阅与 Enterprise 服务。",
+    "sources": [
+      {
+        "url": "https://kiro.dev/pricing/",
+        "title": "Kiro CLI 官方商业服务依据"
+      }
+    ]
+  },
+  "kiro-ide": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方列明付费订阅与 Enterprise 服务。",
+    "sources": [
+      {
+        "url": "https://kiro.dev/pricing/",
+        "title": "Kiro IDE 官方商业服务依据"
+      }
+    ]
+  },
+  "kiro-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方列明付费订阅与 Enterprise 服务。",
+    "sources": [
+      {
+        "url": "https://kiro.dev/pricing/",
+        "title": "Kiro Web 官方商业服务依据"
+      }
+    ]
+  },
+  "replit-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供订阅及按量计费的 Agent 平台服务。",
+    "sources": [
+      {
+        "url": "https://replit.com/pricing",
+        "title": "Replit 官方商业服务依据"
+      }
+    ]
+  },
+  "replit-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供订阅及按量计费的 Agent 平台服务。",
+    "sources": [
+      {
+        "url": "https://replit.com/pricing",
+        "title": "Replit Desktop 官方商业服务依据"
+      }
+    ]
+  },
+  "replit-mobile": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供订阅及按量计费的 Agent 平台服务。",
+    "sources": [
+      {
+        "url": "https://replit.com/pricing",
+        "title": "Replit（移动端） 官方商业服务依据"
+      }
+    ]
+  },
+  "v0-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Plus、Business 与 Enterprise 套餐，也有免费层。",
+    "sources": [
+      {
+        "url": "https://v0.app/pricing",
+        "title": "v0 官方商业服务依据"
+      }
+    ]
+  },
+  "v0-ios": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Plus、Business 与 Enterprise 套餐，也有免费层。",
+    "sources": [
+      {
+        "url": "https://v0.app/pricing",
+        "title": "v0（iOS） 官方商业服务依据"
+      }
+    ]
+  },
+  "notion-ai": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "Notion 官方套餐包含商业 AI 服务。",
+    "sources": [
+      {
+        "url": "https://www.notion.com/pricing",
+        "title": "Notion AI 官方商业服务依据"
+      }
+    ]
+  },
+  "descript": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供按成员付费的 Creator 和 Business 套餐。",
+    "sources": [
+      {
+        "url": "https://www.descript.com/pricing",
+        "title": "Descript 官方商业服务依据"
+      }
+    ]
+  },
+  "elevenlabs": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Starter、Creator 等付费服务和积分套餐。",
+    "sources": [
+      {
+        "url": "https://elevenlabs.io/pricing",
+        "title": "ElevenLabs 官方商业服务依据"
+      }
+    ]
+  },
+  "gamma": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Plus、Pro 和 Ultra 商业套餐，也有免费层。",
+    "sources": [
+      {
+        "url": "https://gamma.app/pricing",
+        "title": "Gamma 官方商业服务依据"
+      }
+    ]
+  },
+  "heygen": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Creator、Pro 和 Business 付费套餐。",
+    "sources": [
+      {
+        "url": "https://www.heygen.com/pricing",
+        "title": "HeyGen 官方商业服务依据"
+      }
+    ]
+  },
+  "jasper": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro 订阅和定制 Business 方案。",
+    "sources": [
+      {
+        "url": "https://www.jasper.ai/pricing",
+        "title": "Jasper 官方商业服务依据"
+      }
+    ]
+  },
+  "synthesia": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供按月订阅的付费视频生成服务。",
+    "sources": [
+      {
+        "url": "https://www.synthesia.io/pricing",
+        "title": "Synthesia 官方商业服务依据"
+      }
+    ]
+  },
+  "runway": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Standard、Pro 和 Max 订阅服务。",
+    "sources": [
+      {
+        "url": "https://runway.com/pricing",
+        "title": "Runway 官方商业服务依据"
+      }
+    ]
+  },
+  "suno": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro 与高级音乐生成订阅；服务收费与生成内容商用权不是同一字段。",
+    "sources": [
+      {
+        "url": "https://suno.com/pricing",
+        "title": "Suno 官方商业服务依据"
+      }
+    ]
+  },
+  "napkin-ai": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Plus 和 Pro 付费套餐。",
+    "sources": [
+      {
+        "url": "https://www.napkin.ai/pricing/",
+        "title": "Napkin AI 官方商业服务依据"
+      }
+    ]
+  },
+  "otter-ai": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro 和组织付费套餐。",
+    "sources": [
+      {
+        "url": "https://otter.ai/pricing",
+        "title": "Otter.ai 官方商业服务依据"
+      }
+    ]
+  },
+  "fireflies-ai": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro、Business 和 Enterprise 付费套餐。",
+    "sources": [
+      {
+        "url": "https://fireflies.ai/pricing",
+        "title": "Fireflies.ai 官方商业服务依据"
+      }
+    ]
+  },
+  "fathom": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Premium、Team 和 Business 付费服务。",
+    "sources": [
+      {
+        "url": "https://www.fathom.ai/pricing",
+        "title": "Fathom 官方商业服务依据"
+      }
+    ]
+  },
+  "copy-ai": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供可升级或降级的付费订阅方案。",
+    "sources": [
+      {
+        "url": "https://www.copy.ai/prices",
+        "title": "Copy.ai 官方商业服务依据"
+      }
+    ]
+  },
+  "writesonic": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供按月或按年计费的商业服务。",
+    "sources": [
+      {
+        "url": "https://writesonic.com/pricing",
+        "title": "Writesonic 官方商业服务依据"
+      }
+    ]
+  },
+  "adobe-firefly": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Firefly Standard、Pro 等商业订阅服务。",
+    "sources": [
+      {
+        "url": "https://www.adobe.com/products/firefly/plans.html",
+        "title": "Adobe Firefly 官方商业服务依据"
+      }
+    ]
+  },
+  "canva-ai": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方付费套餐包含 Canva AI 能力，并提供 AI 增购服务。",
+    "sources": [
+      {
+        "url": "https://www.canva.com/pricing/",
+        "title": "Canva AI 官方商业服务依据"
+      }
+    ]
+  },
+  "grammarly": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro 与 Enterprise 商业服务。",
+    "sources": [
+      {
+        "url": "https://www.grammarly.com/plans",
+        "title": "Grammarly 官方商业服务依据"
+      }
+    ]
+  },
+  "quillbot": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Premium 付费订阅。",
+    "sources": [
+      {
+        "url": "https://quillbot.com/premium",
+        "title": "QuillBot 官方商业服务依据"
+      }
+    ]
+  },
+  "wordtune": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Advanced 与 Unlimited 按月订阅。",
+    "sources": [
+      {
+        "url": "https://www.wordtune.com/plans",
+        "title": "Wordtune 官方商业服务依据"
+      }
+    ]
+  },
+  "midjourney": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方明确 Basic、Standard、Pro、Mega 均为订阅服务。",
+    "sources": [
+      {
+        "url": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
+        "title": "Midjourney 官方商业服务依据"
+      }
+    ]
+  },
+  "ideogram": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Plus、Pro 和 Team 付费订阅。",
+    "sources": [
+      {
+        "url": "https://ideogram.ai/pricing/",
+        "title": "Ideogram 官方商业服务依据"
+      }
+    ]
+  },
+  "leonardo-ai": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Essential、Premium、Ultimate 和团队付费服务。",
+    "sources": [
+      {
+        "url": "https://leonardo.ai/pricing",
+        "title": "Leonardo.Ai 官方商业服务依据"
+      }
+    ]
+  },
+  "recraft": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方文档确认付费订阅与订阅管理。",
+    "sources": [
+      {
+        "url": "https://www.recraft.ai/pricing",
+        "title": "Recraft 官方商业服务依据"
+      }
+    ]
+  },
+  "ibm-bob-ide": {
+    "offer": "enterprise-service",
+    "verified_at": "2026-10-10",
+    "notes": "官方付费或企业服务已核验；不声明固定价格、区域可用性或所有使用方式均收费。源码许可与商业服务是独立事实。",
+    "sources": [
+      {
+        "url": "https://www.ibm.com/products/ai-coding-agent",
+        "title": "官方商业服务与订阅说明"
+      }
+    ]
+  },
+  "ibm-bob-cli": {
+    "offer": "enterprise-service",
+    "verified_at": "2026-10-10",
+    "notes": "官方付费或企业服务已核验；不声明固定价格、区域可用性或所有使用方式均收费。源码许可与商业服务是独立事实。",
+    "sources": [
+      {
+        "url": "https://www.ibm.com/products/ai-coding-agent",
+        "title": "官方商业服务与订阅说明"
+      }
+    ]
+  },
+  "firebender-ide": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-10",
+    "notes": "官方付费或企业服务已核验；不声明固定价格、区域可用性或所有使用方式均收费。源码许可与商业服务是独立事实。",
+    "sources": [
+      {
+        "url": "https://firebender.com/pricing",
+        "title": "官方商业服务与订阅说明"
+      }
+    ]
+  },
+  "rovo-dev-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-10",
+    "notes": "官方付费或企业服务已核验；不声明固定价格、区域可用性或所有使用方式均收费。源码许可与商业服务是独立事实。",
+    "sources": [
+      {
+        "url": "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/",
+        "title": "官方商业服务与订阅说明"
+      }
+    ]
+  },
+  "zencoder-vscode": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-10",
+    "notes": "官方付费或企业服务已核验；不声明固定价格、区域可用性或所有使用方式均收费。源码许可与商业服务是独立事实。",
+    "sources": [
+      {
+        "url": "https://zencoder.ai/pricing",
+        "title": "官方商业服务与订阅说明"
+      }
+    ]
+  },
+  "zencoder-jetbrains": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-10",
+    "notes": "官方付费或企业服务已核验；不声明固定价格、区域可用性或所有使用方式均收费。源码许可与商业服务是独立事实。",
+    "sources": [
+      {
+        "url": "https://zencoder.ai/pricing",
+        "title": "官方商业服务与订阅说明"
+      }
+    ]
+  }
+}

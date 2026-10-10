@@ -9,9 +9,9 @@ const raw = JSON.parse(await readFile(new URL('../data/dataset.json', import.met
 
 test('canonical snapshot preserved, including all record fields and IDs', () => {
   assert.deepEqual(catalog.apps, raw);
-  assert.equal(catalog.catalogMeta.recordCount, 241);
-  assert.equal(catalog.catalogMeta.productCount, 157);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.5');
+  assert.equal(catalog.catalogMeta.recordCount, 279);
+  assert.equal(catalog.catalogMeta.productCount, 185);
+  assert.equal(catalog.catalogMeta.dataVersion, '0.6');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
@@ -20,6 +20,19 @@ test('ESM and CommonJS core exports agree', () => {
   assert.deepEqual(cjs.apps, catalog.apps);
   assert.deepEqual(cjs.catalogMeta, catalog.catalogMeta);
   assert.deepEqual(cjs.searchApps('openai CLI'), catalog.searchApps('openai CLI'));
+});
+test('Sentra additions preserve product families, renamed aliases and license boundaries', async () => {
+  assert.equal(catalog.getApp('qoder-wake-cn-cli').product_id, catalog.getApp('qoder-cn-cli').product_id);
+  assert.equal(catalog.getApp('trae-cn-vscode').product_id, catalog.getApp('trae-cn').product_id);
+  assert.deepEqual(catalog.getApp('trae-cn-vscode').interfaces, ['IDE 扩展']);
+  assert(catalog.searchApps('Mux').some(app => app.id === 'xum-desktop'));
+  assert.notEqual(catalog.getApp('aider-desk-desktop').product_id, catalog.getApp('aider').product_id);
+  assert.notEqual(catalog.getApp('reasonix-cli').vendor_id, 'deepseek');
+  const source = JSON.parse(await readFile(new URL('../data/open-source.json', import.meta.url)));
+  assert.equal(source['crush-cli'].source_model, 'source-available');
+  assert.equal(source['crush-cli'].license, 'FSL-1.1-MIT');
+  assert.equal(source['roo-code-vscode'].maintenance.status, 'archived');
+  assert.match(catalog.getEvidence('iflow-cli').notes, /2026-04-17/);
 });
 test('shared data and result arrays are deeply frozen', () => {
   assert(Object.isFrozen(catalog.apps));
@@ -62,7 +75,7 @@ test('search supports case, aliases, Unicode normalization, Chinese and combined
   assert.deepEqual(catalog.searchApps('never-matching-unicorn-128392'), []);
 });
 test('collections and evidence preserve exact provenance and unknown-key behavior', () => {
-  assert.equal(catalog.getCollection('chinese_agents').length, 47);
+  assert.equal(catalog.getCollection('chinese_agents').length, 57);
   assert.deepEqual(catalog.getCollection('not-a-collection'), []);
   assert.deepEqual(catalog.findApps({ collection: '__proto__' }), []);
   assert.equal(catalog.getEvidence('__proto__'), undefined);

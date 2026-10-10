@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verified official commercial offerings by application record ID",
+  "description": "Independent of source licensing. Presence means an official paid service or enterprise offering was verified for this record; absence means not yet verified, not noncommercial. Prices and regional availability are not asserted.",
+  "type": "object",
+  "propertyNames": {
+    "pattern": "^[a-z][a-z0-9-]*$"
+  },
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "offer",
+      "verified_at",
+      "notes",
+      "sources"
+    ],
+    "properties": {
+      "offer": {
+        "enum": [
+          "paid-service",
+          "enterprise-service"
+        ]
+      },
+      "verified_at": {
+        "type": "string",
+        "format": "date"
+      },
+      "notes": {
+        "type": "string",
+        "minLength": 1
+      },
+      "sources": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "url",
+            "title"
+          ],
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "data_version": "0.6",
+  "verified_at": "2026-10-10",
+  "records_added": 38,
+  "products_added": 28,
+  "record_count": 279,
+  "product_count": 185,
+  "sentra_ids_covered": 30,
+  "mapping": {
+    "deepseek-harness": [
+      "deepseek-harness-desktop",
+      "deepseek-harness-web"
+    ],
+    "lingcode": [
+      "lingcode-desktop",
+      "lingcode-cli"
+    ],
+    "monkeycode": [
+      "monkeycode-web"
+    ],
+    "loomy": [
+      "loomy-desktop"
+    ],
+    "qoder-wake": [
+      "qoder-wake-cn-cli",
+      "qoder-wake-cn-web"
+    ],
+    "trae-vscode-plugin": [
+      "trae-cn-vscode",
+      "trae-cn-jetbrains"
+    ],
+    "aider-desk": [
+      "aider-desk-desktop"
+    ],
+    "bob": [
+      "ibm-bob-ide",
+      "ibm-bob-cli"
+    ],
+    "codemaker": [
+      "codemaker-vscode",
+      "codemaker-jetbrains",
+      "codemaker-cli"
+    ],
+    "codestudio": [
+      "syncfusion-codestudio"
+    ],
+    "command-code": [
+      "command-code-cli"
+    ],
+    "cortex": [
+      "snowflake-cortex-code-cli"
+    ],
+    "crush": [
+      "crush-cli"
+    ],
+    "deepagents": [
+      "deepagents-cli"
+    ],
+    "firebender": [
+      "firebender-ide"
+    ],
+    "forgecode": [
+      "forgecode-cli"
+    ],
+    "iflow-cli": [
+      "iflow-cli"
+    ],
+    "jazz": [
+      "jazz-cli"
+    ],
+    "kode": [
+      "kode-cli"
+    ],
+    "mux": [
+      "xum-desktop"
+    ],
+    "neovate": [
+      "neovate-cli"
+    ],
+    "ona": [
+      "ona-web"
+    ],
+    "pochi": [
+      "pochi-vscode"
+    ],
+    "reasonix": [
+      "reasonix-cli"
+    ],
+    "rovodev": [
+      "rovo-dev-cli"
+    ],
+    "roo": [
+      "roo-code-vscode"
+    ],
+    "tabnine-cli": [
+      "tabnine-cli"
+    ],
+    "tinycloud": [
+      "tinycloud-cli"
+    ],
+    "zencoder": [
+      "zencoder-vscode",
+      "zencoder-jetbrains"
+    ],
+    "zenflow": [
+      "zenflow-desktop"
+    ]
+  },
+  "pending": [
+    "coder",
+    "marvis",
+    "workbuddy-ai",
+    "moxby",
+    "terramind"
+  ],
+  "excluded": [
+    "sentra",
+    "vscode",
+    "mcpjam"
+  ],
+  "deferred_forms": [
+    "MonkeyCode desktop/CLI",
+    "LingCodeBaby/mobile",
+    "Neovate desktop",
+    "Reasonix Studio",
+    "additional international QoderWake variants"
+  ],
+  "chinese_collection_count": 57,
+  "new_license_metadata": [
+    "aider-desk-desktop",
+    "crush-cli",
+    "deepagents-cli",
+    "kode-cli",
+    "xum-desktop",
+    "neovate-cli",
+    "pochi-vscode",
+    "reasonix-cli",
+    "roo-code-vscode"
+  ],
+  "new_commercial_metadata": [
+    "ibm-bob-ide",
+    "ibm-bob-cli",
+    "firebender-ide",
+    "rovo-dev-cli",
+    "zencoder-vscode",
+    "zencoder-jetbrains"
+  ],
+  "mapping_scope": "Product identity and catalog interface records only; does not assert parity with Sentra runtime/resource detection or every registered installation variant.",
+  "new_records_with_unconfirmed_platforms": [
+    "deepseek-harness-desktop",
+    "trae-cn-vscode",
+    "trae-cn-jetbrains",
+    "codemaker-vscode",
+    "codemaker-jetbrains",
+    "codemaker-cli",
+    "syncfusion-codestudio",
+    "snowflake-cortex-code-cli",
+    "deepagents-cli",
+    "firebender-ide",
+    "forgecode-cli",
+    "iflow-cli",
+    "jazz-cli",
+    "kode-cli",
+    "xum-desktop",
+    "neovate-cli",
+    "pochi-vscode",
+    "reasonix-cli",
+    "roo-code-vscode",
+    "tinycloud-cli",
+    "zencoder-vscode",
+    "zencoder-jetbrains"
+  ],
+  "new_records_without_svg": [
+    "deepseek-harness-desktop",
+    "deepseek-harness-web",
+    "lingcode-desktop",
+    "lingcode-cli",
+    "monkeycode-web",
+    "loomy-desktop",
+    "aider-desk-desktop",
+    "ibm-bob-ide",
+    "ibm-bob-cli",
+    "codemaker-vscode",
+    "codemaker-jetbrains",
+    "codemaker-cli",
+    "syncfusion-codestudio",
+    "command-code-cli",
+    "snowflake-cortex-code-cli",
+    "crush-cli",
+    "deepagents-cli",
+    "firebender-ide",
+    "forgecode-cli",
+    "iflow-cli",
+    "jazz-cli",
+    "kode-cli",
+    "xum-desktop",
+    "neovate-cli",
+    "ona-web",
+    "pochi-vscode",
+    "reasonix-cli",
+    "rovo-dev-cli",
+    "roo-code-vscode",
+    "tabnine-cli",
+    "tinycloud-cli",
+    "zencoder-vscode",
+    "zencoder-jetbrains",
+    "zenflow-desktop"
+  ]
+}

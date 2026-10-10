@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.5（2026-10-04），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.6（2026-10-10），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -235,7 +235,7 @@ npm run build:website
 
 ### 开源应用与版本级授权元信息
 
-本次补录20个产品、29条CLI/Web/GUI/IDE形态，当前241条记录、157个产品。`data/dataset.json` 与13字段主schema不变；新增 `data/open-source.json` 以具体记录ID关联仓库、许可证、应用类别、维护状态及来源，`data/open-source-schema.json` 描述该独立结构。
+v0.5 补录20个产品、29条CLI/Web/GUI/IDE形态；v0.6 完成 Sentra 缺口补录后，当前279条记录、185个产品。`data/dataset.json` 与13字段主schema不变；新增 `data/open-source.json` 以具体记录ID关联仓库、许可证、应用类别、维护状态及来源，`data/open-source-schema.json` 描述该独立结构。
 
 - `open-source`：本轮核验了该发行形态的开源许可；不自动延伸到同品牌云服务或其他客户端
 - `source-available`：源码可见但有附加用途/商标等限制，不进入“仅已核验开源”筛选
@@ -248,7 +248,7 @@ SDK原函数与 `CatalogApp` 结构不变，新增原始JSON子路径：
 import sourceMetadata from '@alienhub/agent-atlas/open-source.json' with { type: 'json' };
 ```
 
-网站详情呈现仓库、许可证、类别和核验说明。完整ZIP包含两份新JSON及独立 `open-source.csv`；原 `dataset.csv` 的字段不变。当前47条元信息中44条开源、3条源码可见，未宣称穷尽全部开源软件。未将仍需复核的历史停维条目、开发框架、混合云/自托管版直接标为开源。
+网站详情呈现仓库、许可证、类别和核验说明。完整ZIP包含两份新JSON及独立 `open-source.csv`；原 `dataset.csv` 的字段不变。当前56条元信息中52条开源、4条源码可见，未宣称穷尽全部开源软件。未将仍需复核的历史停维条目、开发框架、混合云/自托管版直接标为开源。
 
 
 ### Agent Atlas 命名迁移
@@ -273,3 +273,21 @@ npm run verify:all
 其中趋势模块测试使用Node内置SQLite与模拟HTTP，验证迁移/采样/重试语义，不代表已连接Cloudflare或执行生产采集。
 
 Unified private Cloudflare website + API deployment now lives in [cloudflare/README.md](cloudflare/README.md). Standalone trends deployment is retired; the current Site is unchanged.
+
+### 网站开源与商业标签
+
+“开源”和“商业”分别核验，允许同时成立。开源依据具体版本的代码仓库和许可证；商业依据该记录对应的官方付费套餐、订阅、按量计费或企业服务，而非公司名称、源码可见或非 OSI 许可证。免费层不排除商业服务。
+
+`data/commercial.json` 为独立商业服务元数据，逐条记录核验日期、范围说明和官方来源。商业标签不推断闭源，也不保证某地区或形态一定可购买。不同地区版本分别核验，不按供应商或产品 ID 自动继承。尚无开源或商业分类依据的记录进入“未知”，不意味着它没有商业服务。2026-10-05 已核验 52 个产品的 81 条记录；尚未完成全目录商业服务核验。
+
+
+### Sentra 缺口补录（v0.6）
+
+2026-10-10 根据 sentra-lib revision `2cdefd26c0f5f1cebec0aeab33d0a9c84ae9558f` 的注册项调查，新增38条形态记录，涉及26个建议新增产品、2个历史产品及QoderWake/TRAE插件两类已有产品的新形态；新增28个product_id，目录总计279条记录、185个产品。38条形态记录来自30个待补录的Sentra注册ID，不代表原先38个缺口已全部解决。
+
+- iFlow CLI与Roo Code按历史项目收录；Tabnine CLI进入维护模式，官方计划2026-12-31后弃用，列表和详情显示对应提示。
+- Mux采用现名Xum并保留旧名；Crush当前主分支为FSL-1.1-MIT源码可见，不标为OSI开源。
+- Coder、Marvis、WorkBuddy AI、Moxby、Terramind仍待身份核验；Sentra自身、VS Code宿主和MCPJam不作为独立Agent新增。
+- 部分产品只补已确认形态，MonkeyCode桌面/CLI等发行包仍待核验。未核实的系统支持清单为空，未取得可靠SVG的记录保留空icon；未做安装、运行或服务可用性测试。
+
+完整调查见[38项调查](docs/research/sentra-agent-gaps-2026-10-10.md)，实际新增ID与Sentra映射见[补录清单](docs/research/sentra-gap-update-2026-10-10.json)。正式主schema和已有稳定ID保持不变。

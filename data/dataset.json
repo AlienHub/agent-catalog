@@ -5189,5 +5189,756 @@
     "interfaces": [
       "GUI"
     ]
+  },
+  {
+    "id": "deepseek-harness-desktop",
+    "name": "DeepSeek Harness",
+    "aliases": [
+      "dsh"
+    ],
+    "vendor": "DeepSeek",
+    "type": "AI 编程",
+    "website": "https://deepseek.com/en/harness/",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "deepseek",
+    "product_id": "deepseek-harness",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "deepseek-harness-web",
+    "name": "DeepSeek Harness Web Console",
+    "aliases": [
+      "dsh web"
+    ],
+    "vendor": "DeepSeek",
+    "type": "AI 编程",
+    "website": "https://deepseek.com/en/harness/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "deepseek",
+    "product_id": "deepseek-harness",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "lingcode-desktop",
+    "name": "LingCode",
+    "aliases": [],
+    "vendor": "LingCode",
+    "type": "AI 编程",
+    "website": "https://lingcode.dev/?lang=en",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "lingcode",
+    "product_id": "lingcode",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "lingcode-cli",
+    "name": "LingCode CLI",
+    "aliases": [],
+    "vendor": "LingCode",
+    "type": "AI 编程",
+    "website": "https://lingcode.dev/?lang=en",
+    "platforms": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "lingcode",
+    "product_id": "lingcode",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "monkeycode-web",
+    "name": "MonkeyCode",
+    "aliases": [],
+    "vendor": "长亭科技 Chaitin",
+    "type": "AI 编程",
+    "website": "https://github.com/chaitin/MonkeyCode",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "chaitin",
+    "product_id": "monkeycode",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "中国版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "loomy-desktop",
+    "name": "Loomy",
+    "aliases": [],
+    "vendor": "科大讯飞 iFLYTEK",
+    "type": "通用智能体",
+    "website": "https://loomy.xunfei.cn/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "iflytek",
+    "product_id": "loomy",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "中国版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "qoder-wake-cn-cli",
+    "name": "QoderWake CN CLI",
+    "aliases": [
+      "qoderwake"
+    ],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "AI 编程",
+    "website": "https://docs.qoder.cn/en/qoderwake/installation",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/qoder.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qoder",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "中国版",
+    "svg_status": "沿用已核验官方品牌 SVG"
+  },
+  {
+    "id": "qoder-wake-cn-web",
+    "name": "QoderWake CN Web Console",
+    "aliases": [
+      "qoderwake"
+    ],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "AI 编程",
+    "website": "https://docs.qoder.cn/en/qoderwake/installation",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/qoder.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qoder",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "中国版",
+    "svg_status": "沿用已核验官方品牌 SVG"
+  },
+  {
+    "id": "trae-cn-vscode",
+    "name": "TRAE（VS Code 插件）",
+    "aliases": [
+      "MarsCode",
+      "TRAE 插件"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "AI 编程",
+    "website": "https://www.trae.cn/plugin",
+    "platforms": [],
+    "icon": "icons/trae-cn.svg",
+    "vendor_id": "bytedance",
+    "product_id": "trae",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "中国版",
+    "svg_status": "沿用已核验官方品牌 SVG"
+  },
+  {
+    "id": "trae-cn-jetbrains",
+    "name": "TRAE（JetBrains 插件）",
+    "aliases": [
+      "MarsCode",
+      "TRAE 插件"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "AI 编程",
+    "website": "https://www.trae.cn/plugin",
+    "platforms": [],
+    "icon": "icons/trae-cn.svg",
+    "vendor_id": "bytedance",
+    "product_id": "trae",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "中国版",
+    "svg_status": "沿用已核验官方品牌 SVG"
+  },
+  {
+    "id": "aider-desk-desktop",
+    "name": "AiderDesk",
+    "aliases": [
+      "Aider Desk"
+    ],
+    "vendor": "HOTOVO",
+    "type": "AI 编程",
+    "website": "https://github.com/hotovo/aider-desk",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "hotovo",
+    "product_id": "aider-desk",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "ibm-bob-ide",
+    "name": "IBM Bob IDE",
+    "aliases": [
+      "Bob"
+    ],
+    "vendor": "IBM",
+    "type": "AI 编程",
+    "website": "https://bob.ibm.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "ibm",
+    "product_id": "ibm-bob",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "ibm-bob-cli",
+    "name": "IBM Bob Shell",
+    "aliases": [
+      "Bob Shell"
+    ],
+    "vendor": "IBM",
+    "type": "AI 编程",
+    "website": "https://bob.ibm.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "ibm",
+    "product_id": "ibm-bob",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "codemaker-vscode",
+    "name": "CodeMaker AI（VS Code 插件）",
+    "aliases": [],
+    "vendor": "CodeMaker AI",
+    "type": "AI 编程",
+    "website": "https://docs.codemaker.ai/",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "codemaker-ai",
+    "product_id": "codemaker",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "codemaker-jetbrains",
+    "name": "CodeMaker AI（JetBrains 插件）",
+    "aliases": [],
+    "vendor": "CodeMaker AI",
+    "type": "AI 编程",
+    "website": "https://docs.codemaker.ai/",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "codemaker-ai",
+    "product_id": "codemaker",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "codemaker-cli",
+    "name": "CodeMaker AI CLI",
+    "aliases": [],
+    "vendor": "CodeMaker AI",
+    "type": "AI 编程",
+    "website": "https://docs.codemaker.ai/",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "codemaker-ai",
+    "product_id": "codemaker",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "syncfusion-codestudio",
+    "name": "Syncfusion Code Studio",
+    "aliases": [
+      "CodeStudio"
+    ],
+    "vendor": "Syncfusion",
+    "type": "AI 编程",
+    "website": "https://www.syncfusion.com/code-studio/",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "syncfusion",
+    "product_id": "syncfusion-codestudio",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "command-code-cli",
+    "name": "Command Code CLI",
+    "aliases": [
+      "command-code"
+    ],
+    "vendor": "CommandCodeAI",
+    "type": "AI 编程",
+    "website": "https://commandcode.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "commandcode-ai",
+    "product_id": "command-code",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "snowflake-cortex-code-cli",
+    "name": "Snowflake Cortex Code CLI",
+    "aliases": [
+      "CoCo CLI",
+      "Cortex Code"
+    ],
+    "vendor": "Snowflake",
+    "type": "AI 编程",
+    "website": "https://docs.snowflake.com/en/user-guide/cortex-code/cli-reference",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "snowflake",
+    "product_id": "snowflake-cortex-code",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "crush-cli",
+    "name": "Crush",
+    "aliases": [],
+    "vendor": "Charmbracelet",
+    "type": "AI 编程",
+    "website": "https://github.com/charmbracelet/crush",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "charmbracelet",
+    "product_id": "crush",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "deepagents-cli",
+    "name": "Deep Agents Code",
+    "aliases": [
+      "Deep Agents CLI",
+      "deepagents"
+    ],
+    "vendor": "LangChain",
+    "type": "AI 编程",
+    "website": "https://github.com/langchain-ai/deepagents",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "langchain",
+    "product_id": "deepagents-code",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "firebender-ide",
+    "name": "Firebender",
+    "aliases": [],
+    "vendor": "Firebender",
+    "type": "AI 编程",
+    "website": "https://plugins.jetbrains.com/plugin/25224-firebender",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "firebender",
+    "product_id": "firebender",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "forgecode-cli",
+    "name": "ForgeCode",
+    "aliases": [
+      "Forge"
+    ],
+    "vendor": "Tailcall",
+    "type": "AI 编程",
+    "website": "https://github.com/tailcallhq/forgecode",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "tailcall",
+    "product_id": "forgecode",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "iflow-cli",
+    "name": "iFlow CLI",
+    "aliases": [
+      "iFlow"
+    ],
+    "vendor": "iFlow AI",
+    "type": "AI 编程",
+    "website": "https://github.com/iflow-ai/iflow-cli",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "iflow-ai",
+    "product_id": "iflow",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "jazz-cli",
+    "name": "Jazz",
+    "aliases": [],
+    "vendor": "lvndry / Jazz 项目",
+    "type": "通用智能体",
+    "website": "https://github.com/lvndry/jazz",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "lvndry",
+    "product_id": "jazz",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "kode-cli",
+    "name": "Kode CLI",
+    "aliases": [
+      "@shareai-lab/kode"
+    ],
+    "vendor": "ShareAI Lab",
+    "type": "AI 编程",
+    "website": "https://github.com/shareAI-lab/Kode-CLI",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "shareai-lab",
+    "product_id": "kode",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "xum-desktop",
+    "name": "Xum",
+    "aliases": [
+      "Mux"
+    ],
+    "vendor": "Coder Technologies",
+    "type": "AI 编程",
+    "website": "https://github.com/coder/xum",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "coder",
+    "product_id": "xum",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "neovate-cli",
+    "name": "Neovate Code",
+    "aliases": [
+      "@neovate/code"
+    ],
+    "vendor": "NeovateAI",
+    "type": "AI 编程",
+    "website": "https://github.com/neovateai/neovate-code",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "neovateai",
+    "product_id": "neovate",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "ona-web",
+    "name": "Ona",
+    "aliases": [
+      "Gitpod"
+    ],
+    "vendor": "Ona / Gitpod",
+    "type": "AI 编程",
+    "website": "https://ona.com/stories/gitpod-is-now-ona",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "ona",
+    "product_id": "ona",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "pochi-vscode",
+    "name": "Pochi",
+    "aliases": [],
+    "vendor": "TabbyML",
+    "type": "AI 编程",
+    "website": "https://github.com/TabbyML/pochi",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "tabbyml",
+    "product_id": "pochi",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "reasonix-cli",
+    "name": "Reasonix CLI",
+    "aliases": [
+      "DeepSeek-Reasonix"
+    ],
+    "vendor": "esengine / Huahui Yu",
+    "type": "AI 编程",
+    "website": "https://github.com/esengine/DeepSeek-Reasonix",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "esengine",
+    "product_id": "reasonix",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "rovo-dev-cli",
+    "name": "Rovo Dev CLI",
+    "aliases": [
+      "acli rovodev"
+    ],
+    "vendor": "Atlassian",
+    "type": "AI 编程",
+    "website": "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "atlassian",
+    "product_id": "rovo-dev",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "roo-code-vscode",
+    "name": "Roo Code",
+    "aliases": [],
+    "vendor": "Roo Code Inc.",
+    "type": "AI 编程",
+    "website": "https://github.com/RooCodeInc/Roo-Code",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "roo-code",
+    "product_id": "roo-code",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "tabnine-cli",
+    "name": "Tabnine CLI",
+    "aliases": [
+      "tabnine-legacy"
+    ],
+    "vendor": "Tabnine",
+    "type": "AI 编程",
+    "website": "https://docs.tabnine.com/main/getting-started/tabnine-cli",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "tabnine",
+    "product_id": "tabnine",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "tinycloud-cli",
+    "name": "TinyCloud",
+    "aliases": [
+      "@cloudglue/tinycloud"
+    ],
+    "vendor": "Cloudglue",
+    "type": "图像与视频生成",
+    "website": "https://www.tinycloud.sh/",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "cloudglue",
+    "product_id": "tinycloud",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "zencoder-vscode",
+    "name": "Zencoder（VS Code 插件）",
+    "aliases": [],
+    "vendor": "Zencoder",
+    "type": "AI 编程",
+    "website": "https://zencoder.ai/download/all",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "zencoder",
+    "product_id": "zencoder",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "zencoder-jetbrains",
+    "name": "Zencoder（JetBrains 插件）",
+    "aliases": [],
+    "vendor": "Zencoder",
+    "type": "AI 编程",
+    "website": "https://zencoder.ai/download/all",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "zencoder",
+    "product_id": "zencoder",
+    "interfaces": [
+      "IDE 扩展"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
+  },
+  {
+    "id": "zenflow-desktop",
+    "name": "Zenflow Code",
+    "aliases": [
+      "Zenflow"
+    ],
+    "vendor": "Zencoder",
+    "type": "AI 编程",
+    "website": "https://zencoder.ai/zenflow",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "zencoder",
+    "product_id": "zenflow",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "全球版",
+    "svg_status": "未找到可靠 SVG，待补充"
   }
 ]

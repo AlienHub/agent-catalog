@@ -19,7 +19,7 @@ try {
   const pack = JSON.parse(packOutput.slice(packOutput.indexOf('[\n')));
   const tarball = join(work, pack[0].filename);
   const paths = pack[0].files.map(file => file.path);
-  for (const file of ['dist/esm/index.js','dist/cjs/index.js','dist/esm/react.d.ts','data/dataset.json','data/open-source.json','data/open-source-schema.json','assets/icons/chatgpt.svg','licenses/lobehub.txt','THIRD_PARTY_NOTICES.md']) assert(paths.includes(file), `Missing packed file ${file}`);
+  for (const file of ['dist/esm/index.js','dist/cjs/index.js','dist/esm/react.d.ts','data/dataset.json','data/open-source.json','data/open-source-schema.json','data/commercial.json','data/commercial-schema.json','assets/icons/chatgpt.svg','licenses/lobehub.txt','THIRD_PARTY_NOTICES.md']) assert(paths.includes(file), `Missing packed file ${file}`);
   assert(!paths.some(path => /^(?:node_modules|website-dist|\.git)\//.test(path)));
   const fixture = join(work,'consumer'); await cp(join(root,'tests/fixture'),fixture,{ recursive:true });
   run('npm',['install','--no-audit','--no-fund',tarball],fixture);

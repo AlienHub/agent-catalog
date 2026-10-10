@@ -12,7 +12,7 @@ await validateData();
 const root = fileURLToPath(new URL('../', import.meta.url));
 const output = path.join(root, 'website-dist');
 const sourceFiles = ['index.html', 'app.js', 'style.css', 'favicon.svg', 'trends-config.json'];
-const dataFiles = ['dataset.json', 'evidence.json', 'collections.json', 'schema.json', 'metadata.json', 'open-source.json', 'open-source-schema.json'];
+const dataFiles = ['dataset.json', 'evidence.json', 'collections.json', 'schema.json', 'metadata.json', 'open-source.json', 'open-source-schema.json', 'commercial.json', 'commercial-schema.json'];
 const licenses = path.join(root, 'licenses');
 
 const data = {};

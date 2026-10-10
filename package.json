@@ -49,7 +49,9 @@
     "./licenses/*": "./licenses/*",
     "./package.json": "./package.json",
     "./open-source.json": "./data/open-source.json",
-    "./open-source-schema.json": "./data/open-source-schema.json"
+    "./open-source-schema.json": "./data/open-source-schema.json",
+    "./commercial.json": "./data/commercial.json",
+    "./commercial-schema.json": "./data/commercial-schema.json"
   },
   "files": [
     "dist",

@@ -8,7 +8,7 @@ import { buildWebsiteClient } from '../website/build.mjs';
 import { createDialogController } from '../website/dialog-controller.js';
 const root=new URL('../',import.meta.url),read=name=>readFile(new URL(name,root),'utf8');
 const apps=JSON.parse(await read('data/dataset.json'));
-const files=Object.fromEntries(await Promise.all(['dataset','evidence','collections','open-source'].map(async k=>[k+'.json',JSON.parse(await read('data/'+k+'.json'))])));
+const files=Object.fromEntries(await Promise.all(['dataset','evidence','collections','open-source','commercial'].map(async k=>[k+'.json',JSON.parse(await read('data/'+k+'.json'))])));
 const dir=await mkdtemp(path.join(tmpdir(),'catalog-ui-'));await buildWebsiteClient(path.join(dir,'app.js'));const bundle=await readFile(path.join(dir,'app.js'),'utf8');await rm(dir,{recursive:true});
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 async function setup(failure=false, trendResponses={}){
@@ -26,16 +26,28 @@ async function setup(failure=false, trendResponses={}){
  const click=async el=>{(typeof el==='string'?$(el):el).click();await wait(25)};
  return {dom,w,$,count,change,click,errors,downloads};
 }
-test('React catalog preserves records, all filters, searches, collection and empty/reset',async()=>{
+test('React catalog preserves records, all filters, searches and empty/reset',async()=>{
  const t=await setup();try{
- assert.equal(t.count(),241);
- for(const[id,key,array]of [['type','type',false],['platform','platforms',true],['vendor','vendor_id',false],['interface','interfaces',true],['edition','edition',false]]){const value=t.$(id).options[1].value;await t.change(id,value);assert.equal(t.count(),apps.filter(a=>array?a[key].includes(value):a[key]===value).length);await t.click('reset');assert.equal(t.count(),241)}
+ assert.equal(t.count(),279);
+ for(const[id,key,array]of [['type','type',false],['platform','platforms',true],['vendor','vendor_id',false],['interface','interfaces',true],['edition','edition',false]]){const value=t.$(id).options[1].value;await t.change(id,value);assert.equal(t.count(),apps.filter(a=>array?a[key].includes(value):a[key]===value).length);await t.click('reset');assert.equal(t.count(),279)}
  for(const field of ['name','vendor','aliases']){const app=apps.find(a=>field!=='aliases'||a.aliases.length);await t.change('search',field==='aliases'?app.aliases[0]:app[field]);assert(t.count()>0);await t.click('reset')}
- await t.change('search','zzzz-nonexistent-87234');assert.equal(t.count(),0);assert(!t.$('empty').hidden);await t.click('emptyReset');assert.equal(t.count(),241);
+ await t.change('search','zzzz-nonexistent-87234');assert.equal(t.count(),0);assert(!t.$('empty').hidden);await t.click('emptyReset');assert.equal(t.count(),279);
  // React checkbox change is driven by a click, just as a user toggles it.
  await t.click('svgOnly');assert.equal(t.count(),apps.filter(a=>a.icon.endsWith('.svg')).length);assert.equal(t.w.document.querySelectorAll('.missing').length,0);await t.click('reset');
- await t.click('agentCollection');assert.equal(t.count(),files['collections.json'].chinese_agents.length);assert.equal(t.$('agentCollection').getAttribute('aria-pressed'),'true');await t.click('reset');
+ assert.equal(t.$('agentCollection'),null);assert(!t.w.document.body.textContent.includes('中国厂商'));assert.equal(t.$('openSourceOnly'),null);
  assert.equal(t.errors.length,0,t.errors.join('\n'));
+ }finally{t.dom.window.close()}
+});
+test('historical and maintenance-mode additions show lifecycle warnings in cards and details',async()=>{
+ const t=await setup();try{
+ for(const[name,notice]of [['iFlow CLI','2026-04-17'],['Roo Code','2026-05-15'],['Tabnine CLI','2026-12-31']]){
+  await t.change('search',name);
+  const card=[...t.w.document.querySelectorAll('.app-card')].find(el=>el.querySelector('.appname').textContent===name);
+  assert(card);assert(card.querySelector('.lifecycle').textContent.includes(notice));
+  await t.click(card.querySelector('.appname'));
+  assert(t.$('detailContent').querySelector('.lifecycle').textContent.includes(notice));
+  t.$('details').dispatchEvent(new t.w.Event('cancel',{cancelable:true}));await wait(25);
+ }
  }finally{t.dom.window.close()}
 });
 test('details preserve selected record during filters, repeated open/close, cancel and schema',async()=>{
@@ -85,11 +97,27 @@ test('header uses the unchanged brand asset with versioned favicon reference and
 });
 
 test('verified open-source filtering is variant-specific and excludes source-available',async()=>{
- const t=await setup();try{await t.click('openSourceOnly');const eligible=Object.entries(files['open-source.json']).filter(([,v])=>v.source_model==='open-source').map(([id])=>id);assert.equal(t.count(),eligible.length);assert(!t.w.document.querySelector('.catalog-grid').textContent.includes('源码可见'));await t.change('interface','CLI');assert.equal(t.count(),apps.filter(a=>eligible.includes(a.id)&&a.interfaces.includes('CLI')).length);await t.click('reset');assert.equal(t.count(),apps.length);assert(!t.$('openSourceOnly').checked);
+ const t=await setup();try{await t.click('openSourceCollection');const eligible=Object.entries(files['open-source.json']).filter(([,v])=>v.source_model==='open-source').map(([id])=>id);assert.equal(t.count(),eligible.length);assert(![...t.w.document.querySelectorAll('.appname')].some(el=>el.textContent==='Dify'));await t.change('interface','CLI');assert.equal(t.count(),apps.filter(a=>eligible.includes(a.id)&&a.interfaces.includes('CLI')).length);await t.click('reset');assert.equal(t.count(),apps.length);assert.equal(t.$('allCollection').getAttribute('aria-pressed'),'true');
  await t.change('search','openclaw-cli');assert.equal(t.count(),1);await t.click(t.w.document.querySelector('.appname'));const text=t.$('detailContent').textContent;assert(text.includes('MIT'));assert(text.includes('维护状态待确认'));assert(t.$('detailContent').querySelector('a[href="https://github.com/openclaw/openclaw"]'));await t.click('closeDetails');await t.click('reset');
  await t.change('search','dify');await t.click(t.w.document.querySelector('.appname'));assert(t.$('detailContent').textContent.includes('源码可见（非 OSI 开源）'));await t.click('closeDetails');await t.click('reset');
  await t.change('search','chatgpt');await t.click(t.w.document.querySelector('.appname'));assert(t.$('detailContent').textContent.includes('未标注不代表闭源'));
  }finally{t.dom.window.close()}
+});
+
+test('open-source and commercial filters are independent, with evidence and record-specific scope',async()=>{
+ const t=await setup();try{
+ await t.click('commercialCollection');assert.equal(t.count(),Object.keys(files['commercial.json']).length);
+ for(const id of ['chatgpt','claude','cursor','codex-cli','zed']){await t.change('search',id);assert(t.count()>0,id);await t.change('search','')}
+ await t.change('search','chatgpt');await t.click(t.w.document.querySelector('.appname'));const commercial=t.w.document.querySelector('.commercial-info');assert(commercial.textContent.includes('2026-10-05'));assert(commercial.querySelector('a[href="https://chatgpt.com/pricing/"]'));await t.click('closeDetails');await t.click('reset');
+ await t.change('search','zed');const tags=t.w.document.querySelector('.card-tags').textContent;assert(tags.includes('开源'));assert(tags.includes('商业'));await t.click('openSourceCollection');assert.equal(t.count(),1);await t.click('commercialCollection');assert.equal(t.count(),1);await t.click('reset');
+ await t.change('search','qoder-cn-cli');await t.click('commercialCollection');assert.equal(t.count(),0);await t.click('unknownCollection');assert.equal(t.count(),1);await t.click('reset');
+ await t.click('unknownCollection');assert.equal(t.count(),apps.filter(a=>files['open-source.json'][a.id]?.source_model!=='open-source'&&!files['commercial.json'][a.id]).length);await t.click('reset');assert.equal(t.count(),apps.length);
+ assert.equal(t.$('commercialCollection').textContent,'商业');assert.equal(t.$('unknownCollection').textContent,'未知');
+ }finally{t.dom.window.close()}
+});
+
+test('source-available licensing alone never infers a commercial service',async()=>{
+ const t=await setup(false,{'commercial.json':{}});try{await t.click('commercialCollection');assert.equal(t.count(),0);await t.click('unknownCollection');await t.change('search','dify');assert.equal(t.count(),1);assert(t.w.document.querySelector('.card-tags').textContent.includes('未知'));}finally{t.dom.window.close()}
 });
 
 test('Agent Atlas branding and project-owned action buttons retain native semantics',async()=>{

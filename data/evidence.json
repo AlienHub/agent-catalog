@@ -4020,5 +4020,597 @@
       }
     ],
     "verified_at": "2026-10-04"
+  },
+  "deepseek-harness-desktop": {
+    "notes": "官方 Harness 页面提供产品介绍、下载、Web 启动命令和官方源码链接；与已收录 DeepSeek 聊天产品是不同应用。 桌面下载形态已确认；本条平台支持清单未充分核实，留空，不代表没有支持系统。 本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：deepseek-harness；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://deepseek.com/en/harness/",
+        "title": "DeepSeek Harness / dsh — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "title": "DeepSeek Harness / dsh — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "deepseek-harness-web": {
+    "notes": "官方 Harness 页面提供产品介绍、下载、Web 启动命令和官方源码链接；与已收录 DeepSeek 聊天产品是不同应用。 本地命令 npx @deepseek-ai/dsh web 启动的 Web Console，不是普通 DeepSeek 云聊天网页。 对应 Sentra 注册 ID：deepseek-harness；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://deepseek.com/en/harness/",
+        "title": "DeepSeek Harness / dsh — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "title": "DeepSeek Harness / dsh — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "lingcode-desktop": {
+    "notes": "官网有原生 Mac IDE 与 CLI 文档；Windows/Linux 的 LingCodeBaby 与主桌面应用不能混写。CLI 有单独跨平台安装指引。  对应 Sentra 注册 ID：lingcode；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://lingcode.dev/?lang=en",
+        "title": "LingCode — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://lingcode.dev/cli.html",
+        "title": "LingCode — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://lingcode.dev/tutorials/install-and-use-the-lingcode-cli.html",
+        "title": "LingCode — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "lingcode-cli": {
+    "notes": "官网有原生 Mac IDE 与 CLI 文档；Windows/Linux 的 LingCodeBaby 与主桌面应用不能混写。CLI 有单独跨平台安装指引。 Windows 采用官方文档的 Bun/ZIP 安装路径；不是 macOS 桌面客户端的 Windows 版。 对应 Sentra 注册 ID：lingcode；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://lingcode.dev/?lang=en",
+        "title": "LingCode — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://lingcode.dev/cli.html",
+        "title": "LingCode — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://lingcode.dev/tutorials/install-and-use-the-lingcode-cli.html",
+        "title": "LingCode — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "monkeycode-web": {
+    "notes": "长亭官方仓库明确为团队 AI 开发平台，包含 desktop 目录，发布记录出现桌面客户端下载；平台仓库标注 AGPL-3.0。另有官方 monkeycode-cli 仓库，不能把它的许可自动套到平台。 本条为 Web 平台（在线/自托管）；长亭官方平台源码 AGPL-3.0 不自动延伸为在线服务许可。桌面安装包与 monkeycode-cli 留待单独核验后补。 对应 Sentra 注册 ID：monkeycode；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/chaitin/MonkeyCode",
+        "title": "MonkeyCode — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/chaitin/MonkeyCode/releases",
+        "title": "MonkeyCode — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/chaitin/monkeycode-cli",
+        "title": "MonkeyCode — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "loomy-desktop": {
+    "notes": "正确官方入口为 loomy.xunfei.cn，是工作助手而非同名照片应用；下载页列 Apple Silicon macOS 14+ 和 Windows 10+ x64 Beta。 macOS：Apple Silicon、14+；Windows：x64、10+、Beta。官网主体为合肥科讯创想软件开发有限公司。 对应 Sentra 注册 ID：loomy；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://loomy.xunfei.cn/",
+        "title": "Loomy — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://loomy.xunfei.cn/download",
+        "title": "Loomy — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://loomy.xunfei.cn/docs/quick-start",
+        "title": "Loomy — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "qoder-wake-cn-cli": {
+    "notes": "官方国内文档覆盖 Mac/Windows/Linux，桌面安装包启动本地服务和 Web Console，并提供 qoderwake 命令。与 Qoder IDE、QoderWork 功能不同。 按国内文档收录，.qoderwake-cn 与官方文档 .qoderwake 的配置目录差异仍需样本确认。不是 QoderWork 的别名。 对应 Sentra 注册 ID：qoder-wake；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://docs.qoder.cn/en/qoderwake/installation",
+        "title": "QoderWake — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://qoder.com/en/qoderwake",
+        "title": "QoderWake — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://qoder.com/favIcon.svg",
+        "title": "Qoder 官方SVG标识"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "qoder-wake-cn-web": {
+    "notes": "官方国内文档覆盖 Mac/Windows/Linux，桌面安装包启动本地服务和 Web Console，并提供 qoderwake 命令。与 Qoder IDE、QoderWork 功能不同。 国内桌面包启动本地服务和 Web Console；不是云端网站，Web 表示界面形态。桌面启动器不额外算一种独立 GUI。 对应 Sentra 注册 ID：qoder-wake；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://docs.qoder.cn/en/qoderwake/installation",
+        "title": "QoderWake — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://qoder.com/en/qoderwake",
+        "title": "QoderWake — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://qoder.com/favIcon.svg",
+        "title": "Qoder 官方SVG标识"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "trae-cn-vscode": {
+    "notes": "TRAE 官方插件页说明原 MarsCode 编程助手，有 VS Code/JetBrains 扩展及 Builder 模式。当前目录只有 TraeCode GUI，没有对应 IDE 扩展形态。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：trae-vscode-plugin；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.trae.cn/plugin",
+        "title": "TRAE 插件（原 MarsCode 编程助手） — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/trae-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "trae-cn-jetbrains": {
+    "notes": "TRAE 官方插件页说明原 MarsCode 编程助手，有 VS Code/JetBrains 扩展及 Builder 模式。当前目录只有 TraeCode GUI，没有对应 IDE 扩展形态。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：trae-vscode-plugin；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.trae.cn/plugin",
+        "title": "TRAE 插件（原 MarsCode 编程助手） — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/trae-color.svg",
+        "title": "Lobe Icons 品牌矢量图标"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "aider-desk-desktop": {
+    "notes": "官方上游为 hotovo/aider-desk，有 macOS/Windows/Linux 发布资产；产品已是 AI 软件工程师平台，不是 Aider 的别名。  对应 Sentra 注册 ID：aider-desk；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/hotovo/aider-desk",
+        "title": "AiderDesk — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/hotovo/aider-desk/releases",
+        "title": "AiderDesk — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "ibm-bob-ide": {
+    "notes": "IBM 官方 Bob 页面与文档明确区分 IDE 和 Bob Shell；同名普通 Bob 软件不能作为来源。  对应 Sentra 注册 ID：bob；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://bob.ibm.com/",
+        "title": "IBM Bob — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://bob.ibm.com/docs/ide",
+        "title": "IBM Bob — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://www.ibm.com/products/ai-coding-agent",
+        "title": "IBM Bob — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://bob.ibm.com/docs/ide/getting-started/install",
+        "title": "IBM Bob — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://bob.ibm.com/docs/shell/getting-started/install-and-setup",
+        "title": "IBM Bob — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "ibm-bob-cli": {
+    "notes": "IBM 官方 Bob 页面与文档明确区分 IDE 和 Bob Shell；同名普通 Bob 软件不能作为来源。  对应 Sentra 注册 ID：bob；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://bob.ibm.com/",
+        "title": "IBM Bob — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://bob.ibm.com/docs/ide",
+        "title": "IBM Bob — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://www.ibm.com/products/ai-coding-agent",
+        "title": "IBM Bob — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://bob.ibm.com/docs/ide/getting-started/install",
+        "title": "IBM Bob — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://bob.ibm.com/docs/shell/getting-started/install-and-setup",
+        "title": "IBM Bob — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "codemaker-vscode": {
+    "notes": "官方文档、官方 GitHub 组织和 CLI 仓库可交叉定位；公开资料部分较旧，服务当前维护程度不能仅凭网页存在判定。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：codemaker；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://docs.codemaker.ai/",
+        "title": "CodeMaker AI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/codemakerai",
+        "title": "CodeMaker AI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/codemakerai/codemaker-cli",
+        "title": "CodeMaker AI — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "codemaker-jetbrains": {
+    "notes": "官方文档、官方 GitHub 组织和 CLI 仓库可交叉定位；公开资料部分较旧，服务当前维护程度不能仅凭网页存在判定。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：codemaker；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://docs.codemaker.ai/",
+        "title": "CodeMaker AI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/codemakerai",
+        "title": "CodeMaker AI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/codemakerai/codemaker-cli",
+        "title": "CodeMaker AI — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "codemaker-cli": {
+    "notes": "官方文档、官方 GitHub 组织和 CLI 仓库可交叉定位；公开资料部分较旧，服务当前维护程度不能仅凭网页存在判定。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：codemaker；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://docs.codemaker.ai/",
+        "title": "CodeMaker AI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/codemakerai",
+        "title": "CodeMaker AI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/codemakerai/codemaker-cli",
+        "title": "CodeMaker AI — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "syncfusion-codestudio": {
+    "notes": "Syncfusion 官方 AI IDE 页面可定位；官方集成文档明确使用 .codestudio/mcp.json，与 Sentra 标记对应。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：codestudio；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.syncfusion.com/code-studio/",
+        "title": "Syncfusion Code Studio — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://ai.syncfusion.com/agent-setup/codestudio/",
+        "title": "Syncfusion Code Studio — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "command-code-cli": {
+    "notes": "commandcode.ai 与 CommandCodeAI 官方仓库介绍终端编码 Agent、command-code 包和学习用户偏好的能力。  对应 Sentra 注册 ID：command-code；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://commandcode.ai/",
+        "title": "Command Code — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://commandcode.ai/docs",
+        "title": "Command Code — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/CommandCodeAI/command-code",
+        "title": "Command Code — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://commandcode.ai/docs/windows",
+        "title": "Command Code — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "snowflake-cortex-code-cli": {
+    "notes": "官方 CLI 参考文档使用 cortex 命令和 .snowflake/cortex/conversations，匹配 Sentra 注册目录；不是泛指 Cortex 模型 API。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：cortex；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/cortex-code/cli-reference",
+        "title": "Snowflake Cortex Code / CoCo CLI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://www.snowflake.com/en/developers/guides/coco-foundations/",
+        "title": "Snowflake Cortex Code / CoCo CLI — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "crush-cli": {
+    "notes": "官方仓库与发布页可定位终端编码助手；当前主分支 LICENSE 是 FSL-1.1-MIT，有竞争用途限制与未来 MIT 转换，并非直接 MIT。  对应 Sentra 注册 ID：crush；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/charmbracelet/crush",
+        "title": "Crush — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/charmbracelet/crush/releases",
+        "title": "Crush — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/charmbracelet/crush/blob/main/LICENSE.md",
+        "title": "Crush — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "deepagents-cli": {
+    "notes": "官方仓库同时提供 Deep Agents SDK 和预构建的终端编码 Agent；发布名称、命令随版本演进。不能将 SDK 本身登记成桌面应用。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：deepagents；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/langchain-ai/deepagents",
+        "title": "Deep Agents Code / Deep Agents CLI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://www.langchain.com/blog/introducing-deepagents-cli",
+        "title": "Deep Agents Code / Deep Agents CLI — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "firebender-ide": {
+    "notes": "JetBrains 插件市场官方条目及 Firebender 文档可定位编码 Agent；不要用非官方代理站绑定厂商。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：firebender；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://plugins.jetbrains.com/plugin/25224-firebender",
+        "title": "Firebender — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://docs.firebender.com/get-started/experimental",
+        "title": "Firebender — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://firebender.com/pricing",
+        "title": "Firebender — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "forgecode-cli": {
+    "notes": "官方上游 tailcallhq/forgecode 与 forgecode.dev 提供终端 Agent，使用 .forge；不是同名 Forge 平台。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：forgecode；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/tailcallhq/forgecode",
+        "title": "ForgeCode — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://forgecode.dev/",
+        "title": "ForgeCode — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "iflow-cli": {
+    "notes": "官方仓库公告写明 2026-04-17（UTC+8）关停。源码/旧包仍可存在，公告不等于所有本地 BYOK 用法必然不能运行。 历史项目：官方公告 2026-04-17（UTC+8）关停；本地源码/BYOK 是否继续可运行未经测试，不能将公告解读为所有本地功能都不可用。 本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：iflow-cli；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/iflow-ai/iflow-cli",
+        "title": "iFlow CLI — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "jazz-cli": {
+    "notes": "官方仓库与项目文档描述通用自主 Agent；文档使用 .jazz/agents/<id>.json，能对应检测目录。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：jazz；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/lvndry/jazz",
+        "title": "Jazz — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://jazz-cli.vercel.app/docs/getting-started/create-an-agent",
+        "title": "Jazz — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "kode-cli": {
+    "notes": "上游 shareAI-lab/Kode-CLI 使用 .kode、@shareai-lab/kode；仓库标 Apache-2.0。不是其他 Kode 同名项目或未经辨别的 fork。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：kode；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/shareAI-lab/Kode-CLI",
+        "title": "Kode CLI — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "xum-desktop": {
+    "notes": "coder/mux 已重定向 coder/xum；官方 README 说明商标争议后改名 Xum，仓库 AGPL-3.0。不同于 usemux.ai 的同名项目。 官方从 Mux 改名为 Xum，保留 Mux 别名；检测标记从 .mux 到 .xum 的迁移须另核。并非 usemux.ai 同名产品。 本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：mux；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/coder/xum",
+        "title": "Xum（原 Mux） — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/coder/mux",
+        "title": "Xum（原 Mux） — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "neovate-cli": {
+    "notes": "官方 neovateai/neovate-code 提供 @neovate/code，标 MIT；组织中旧 code-desktop 归档与后续 desktop 仓库并存，不能据此说整个产品停更。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：neovate；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/neovateai/neovate-code",
+        "title": "Neovate Code — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/neovateai",
+        "title": "Neovate Code — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "ona-web": {
+    "notes": "Ona 官方说明 Gitpod 于 2025-09-02 更名，产品定位为工程 Agent 与开发环境。旧 Gitpod 源码公开不能证明当前 Ona 服务全开源。  对应 Sentra 注册 ID：ona；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://ona.com/stories/gitpod-is-now-ona",
+        "title": "Ona（原 Gitpod） — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/gitpod-io",
+        "title": "Ona（原 Gitpod） — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "pochi-vscode": {
+    "notes": "TabbyML 官方 Pochi 仓库明确为开发 Agent，提供 VS Code 扩展和可选云/BYOK；与目录已有 Tabby 是不同产品。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：pochi；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/TabbyML/pochi",
+        "title": "Pochi — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/TabbyML/pochi/blob/main/packages/docs/content/docs/index.mdx",
+        "title": "Pochi — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "reasonix-cli": {
+    "notes": "官方上游 esengine/DeepSeek-Reasonix 使用 .reasonix，标 MIT；2.x Studio 与 1.x 维护分支不同。名称含 DeepSeek 不代表 DeepSeek 官方出品。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：reasonix；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/esengine/DeepSeek-Reasonix",
+        "title": "DeepSeek-Reasonix / Reasonix — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "rovo-dev-cli": {
+    "notes": "官方支持文档说明通过 ACLI 安装和运行 Rovo Dev 功能，命令为 acli rovodev run；需要相应 Rovo Dev 订阅。  对应 Sentra 注册 ID：rovodev；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/",
+        "title": "Rovo Dev CLI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://support.atlassian.com/rovo/docs/install-and-run-rovo-dev-cli-on-your-device/",
+        "title": "Rovo Dev CLI — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "roo-code-vscode": {
+    "notes": "官方仓库在 2026-05-15 归档，README 声明扩展 5 月 15 日停止服务；仍公开的源码不表示产品继续运营。 历史项目：官方仓库 2026-05-15 归档，README 声明扩展在 5 月 15 日停止服务；ZooCode/Cline 是不同项目，不作为此记录替代身份。 本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：roo；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/RooCodeInc/Roo-Code",
+        "title": "Roo Code — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "tabnine-cli": {
+    "notes": "Tabnine 官方 CLI 文档与平台页明确为独立终端编码入口；不是 Tabby，同名近似也不能合并。 官方安装文档说明自 6.6 起进入维护模式，只接收关键更新至 2026-12-31，随后弃用；迁移目标为 Tabnine Plugin for OpenCode，安装新插件后旧命令改为 tabnine-legacy。尚未到弃用日期。 对应 Sentra 注册 ID：tabnine-cli；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://docs.tabnine.com/main/getting-started/tabnine-cli",
+        "title": "Tabnine CLI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://www.tabnine.com/platform-cli/",
+        "title": "Tabnine CLI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://docs.tabnine.com/main/getting-started/tabnine-cli/getting-started/installation",
+        "title": "Tabnine CLI — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "tinycloud-cli": {
+    "notes": "tinycloud.sh 给出 @cloudglue/tinycloud 包与 ~/.tinycloud/versions 路径，是视频工作 Agent；不是 tinycloud.io 同名机构。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：tinycloud；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.tinycloud.sh/",
+        "title": "TinyCloud — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "zencoder-vscode": {
+    "notes": "Zencoder 官方下载页列 VS Code/JetBrains 扩展，文档有自定义 Agent；与传统视频编码服务同名，需要明确 AI 编程产品身份。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：zencoder；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://zencoder.ai/download/all",
+        "title": "Zencoder — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://docs.zencoder.ai/features/custom-agents",
+        "title": "Zencoder — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "zencoder-jetbrains": {
+    "notes": "Zencoder 官方下载页列 VS Code/JetBrains 扩展，文档有自定义 Agent；与传统视频编码服务同名，需要明确 AI 编程产品身份。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：zencoder；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://zencoder.ai/download/all",
+        "title": "Zencoder — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://docs.zencoder.ai/features/custom-agents",
+        "title": "Zencoder — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
+  },
+  "zenflow-desktop": {
+    "notes": "Zencoder 官方 Zenflow 页面与下载页定位为规格驱动的 Agent 编排产品；不是 zenflow.sh 框架或其他同名仓库。  对应 Sentra 注册 ID：zenflow；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://zencoder.ai/zenflow",
+        "title": "Zenflow Code（by Zencoder） — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://zencoder.ai/download/all",
+        "title": "Zenflow Code（by Zencoder） — 官方产品/文档或上游仓库"
+      }
+    ],
+    "verified_at": "2026-10-10"
   }
 }
