@@ -73,6 +73,7 @@
     "test:trends": "npm --prefix services/trends test",
     "verify:all": "npm run verify && npm run test:trends && npm run test:cloudflare && npm run build:cloudflare",
     "build:cloudflare": "node scripts/build-cloudflare.mjs",
+    "deploy:cloudflare": "npm run build:cloudflare && services/trends/node_modules/.bin/wrangler deploy --config cloudflare/wrangler.jsonc --no-autoconfig",
     "test:cloudflare": "node --test cloudflare/*.test.mjs"
   },
   "engines": {

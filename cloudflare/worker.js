@@ -11,8 +11,8 @@ const privateResponse = response => {
 export function createWorker({authorize=authorized,api=trends}={}) {
   return {
     async fetch(request,env,ctx) {
-      // Every path, including downloads, favicon, HEAD, errors and API, is gated.
-      if(!await authorize(request,env))return privateResponse(new Response('Private Agent Atlas: access required',{status:403}));
+      // Private mode gates every path; public access must be explicitly configured.
+      if(env.PUBLIC_ACCESS!=='true'&&!await authorize(request,env))return privateResponse(new Response('Private Agent Atlas: access required',{status:403}));
       const path=new URL(request.url).pathname;
       if(path==='/health'||path.startsWith('/v1/'))return privateResponse(await api.fetch(request,env,ctx));
       if(!['GET','HEAD'].includes(request.method))return privateResponse(new Response('Method not allowed',{status:405}));
@@ -20,8 +20,8 @@ export function createWorker({authorize=authorized,api=trends}={}) {
       return privateResponse(await env.ASSETS.fetch(request));
     },
     async scheduled(controller,env,ctx) {
-      // Inert until deployment explicitly configures privacy and enables collection.
-      if(env.COLLECTION_ENABLED!=='true'||!accessConfig(env)||!env.DB)return;
+      // Collection requires explicit enablement, D1 and a valid deployment mode.
+      if(env.COLLECTION_ENABLED!=='true'||(env.PUBLIC_ACCESS!=='true'&&!accessConfig(env))||!env.DB)return;
       return api.scheduled(controller,env,ctx);
     }
   };

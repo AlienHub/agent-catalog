@@ -26,3 +26,21 @@ test('scheduled disabled by default and delegates only with explicit valid confi
 test('configuration gates every static asset and disables public routes and cron',async()=>{const c=JSON.parse(await readFile(new URL('./wrangler.example.jsonc',import.meta.url)));assert.equal(c.assets.run_worker_first,true);assert.equal(c.workers_dev,false);assert.equal(c.preview_urls,false);assert.deepEqual(c.triggers.crons,[]);assert.equal(c.vars.COLLECTION_ENABLED,'false');});
 
 test('approved hostname is the sole example route without opening Access',async()=>{const c=JSON.parse(await readFile(new URL('./wrangler.example.jsonc',import.meta.url)));assert.deepEqual(c.routes,[{pattern:'agent-atlas.pindo.page',custom_domain:true}]);assert.equal(c.vars.ACCESS_ISSUER,'');assert.equal(c.vars.ACCESS_AUD,'');assert.equal(c.vars.ACCESS_OWNER_EMAIL,'');});
+
+test('explicit public mode serves anonymous website and API without Access settings',async()=>{
+ const worker=createWorker({authorize:async()=>{throw Error('Public mode must not require Access');},api:{fetch:async()=>Response.json({service:'agent-atlas-trends'})}});
+ const bindings={PUBLIC_ACCESS:'true',ASSETS:{fetch:async()=>new Response('website')}};
+ const asset=await worker.fetch(new Request('https://atlas.example/'),bindings,{});
+ assert.equal(asset.status,200);assert.equal(await asset.text(),'website');
+ const api=await worker.fetch(new Request('https://atlas.example/health'),bindings,{});
+ assert.equal(api.status,200);assert.equal((await api.json()).service,'agent-atlas-trends');
+ assert.equal((await worker.fetch(new Request('https://atlas.example/',{method:'POST'}),bindings,{})).status,405);
+});
+test('public mode collection still requires explicit enablement and D1',async()=>{
+ let hits=0;const worker=createWorker({api:{scheduled:async()=>hits++}});
+ await worker.scheduled({},{PUBLIC_ACCESS:'true',DB:{}},{});
+ await worker.scheduled({},{PUBLIC_ACCESS:'true',COLLECTION_ENABLED:'true'},{});
+ assert.equal(hits,0);
+ await worker.scheduled({},{PUBLIC_ACCESS:'true',COLLECTION_ENABLED:'true',DB:{}},{});
+ assert.equal(hits,1);
+});
