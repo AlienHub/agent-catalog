@@ -58,7 +58,7 @@
       },
       "icon": {
         "type": "string",
-        "description": "Relative path to a real SVG; empty when unavailable"
+        "description": "Relative path to an original SVG or PNG Logo; empty when unavailable"
       },
       "vendor_id": {
         "type": "string"
@@ -67,7 +67,8 @@
         "type": "string"
       },
       "svg_status": {
-        "type": "string"
+        "type": "string",
+        "description": "SVG availability; PNG entries explicitly state PNG raster format and missing SVG"
       },
       "interfaces": {
         "type": "array",

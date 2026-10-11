@@ -1848,7 +1848,7 @@
     "verified_at": "2026-10-02"
   },
   "jetbrains-ai": {
-    "notes": "JetBrains IDE 内的聊天、补全、解释与重构辅助 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：IDE 扩展。",
+    "notes": "JetBrains IDE 内的聊天、补全、解释与重构辅助 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：IDE 扩展。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://www.jetbrains.com/ai-ides/",
@@ -1857,9 +1857,13 @@
       {
         "url": "https://www.jetbrains.com/help/ai-assistant/about-ai-assistant.html",
         "title": "About AI Assistant"
+      },
+      {
+        "url": "https://resources.jetbrains.com/storage/products/company/brand/logos/AI.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "junie-cli": {
     "notes": "支持模型自选；包含 Junie Lite 免费层",
@@ -3742,7 +3746,7 @@
     "verified_at": "2026-10-04"
   },
   "kilo-code-cli": {
-    "notes": "当前主仓库MIT，CLI与VS Code/JetBrains在README列明；CLI源于OpenCode fork但属独立产品。云服务不自动标开源。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "notes": "当前主仓库MIT，CLI与VS Code/JetBrains在README列明；CLI源于OpenCode fork但属独立产品。云服务不自动标开源。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/Kilo-Org/kilocode/blob/main/README.md",
@@ -3751,12 +3755,16 @@
       {
         "url": "https://github.com/Kilo-Org/kilocode/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Kilo-Org/kilocode/fb7e96eda5409517a05948b9efaf01c53997bf6e/packages/kilo-console/public/favicon.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-04"
+    "verified_at": "2026-10-11"
   },
   "kilo-code-ide": {
-    "notes": "当前主仓库MIT，CLI与VS Code/JetBrains在README列明；CLI源于OpenCode fork但属独立产品。云服务不自动标开源。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：IDE。",
+    "notes": "当前主仓库MIT，CLI与VS Code/JetBrains在README列明；CLI源于OpenCode fork但属独立产品。云服务不自动标开源。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：IDE。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/Kilo-Org/kilocode/blob/main/README.md",
@@ -3765,12 +3773,16 @@
       {
         "url": "https://github.com/Kilo-Org/kilocode/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Kilo-Org/kilocode/fb7e96eda5409517a05948b9efaf01c53997bf6e/packages/kilo-console/public/favicon.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-04"
+    "verified_at": "2026-10-11"
   },
   "pi-cli": {
-    "notes": "原badlogic/pi-mono已迁移；收录终端coding-agent应用，不把pi-ai/pi-agent-core等库分别计应用。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "notes": "原badlogic/pi-mono已迁移；收录终端coding-agent应用，不把pi-ai/pi-agent-core等库分别计应用。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/earendil-works/pi/blob/main/README.md",
@@ -3779,9 +3791,13 @@
       {
         "url": "https://github.com/earendil-works/pi/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://pi.dev/logo-auto.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-04"
+    "verified_at": "2026-10-11"
   },
   "eigent-desktop": {
     "notes": "有实际macOS/Windows/Linux release安装包；本地部署应用与需注册的云连接模式区分。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
@@ -3854,7 +3870,7 @@
     "verified_at": "2026-10-04"
   },
   "open-interpreter-cli": {
-    "notes": "当前Rust重写coding agent，原Python项目已转endolith/open-interpreter社区fork；不能复用旧AGPL或旧GUI产品描述。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "notes": "当前Rust重写coding agent，原Python项目已转endolith/open-interpreter社区fork；不能复用旧AGPL或旧GUI产品描述。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/openinterpreter/openinterpreter/blob/main/README.md",
@@ -3863,9 +3879,13 @@
       {
         "url": "https://github.com/openinterpreter/openinterpreter/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/openinterpreter/openinterpreter/ac1fcc8fe57aba51fcc3c79afd57a0883237fe87/logo/light.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-04"
+    "verified_at": "2026-10-11"
   },
   "agent-tars-cli": {
     "notes": "与UI-TARS Desktop同一monorepo但不同应用；CLI+Web UI有明确文档。CLI宿主OS未本轮逐一证实，platforms留空。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
@@ -3980,7 +4000,7 @@
     "verified_at": "2026-10-04"
   },
   "plandex-cli": {
-    "notes": "终端coding agent+可自托管server；Windows只支持WSL，不是原生CMD/PowerShell。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "notes": "终端coding agent+可自托管server；Windows只支持WSL，不是原生CMD/PowerShell。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-11 Logo 核验：保存官方原始 PNG 位图，不转换或冒充 SVG；原始 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/plandex-ai/plandex/blob/main/README.md",
@@ -3989,9 +4009,13 @@
       {
         "url": "https://github.com/plandex-ai/plandex/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/plandex-ai/plandex/e2d772072efadbe41d2946d97d79be55532dbab5/images/plandex-logo-thumb.png",
+        "title": "Official project PNG Logo — original raster asset"
       }
     ],
-    "verified_at": "2026-10-04"
+    "verified_at": "2026-10-11"
   },
   "bolt-diy-web": {
     "notes": "和现有商业Bolt有关但不是同产品发行；保留独立product_id，README明确Web及Electron三平台应用。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
@@ -4098,7 +4122,7 @@
     "verified_at": "2026-10-10"
   },
   "lingcode-desktop": {
-    "notes": "官网有原生 Mac IDE 与 CLI 文档；Windows/Linux 的 LingCodeBaby 与主桌面应用不能混写。CLI 有单独跨平台安装指引。  对应 Sentra 注册 ID：lingcode；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "官网有原生 Mac IDE 与 CLI 文档；Windows/Linux 的 LingCodeBaby 与主桌面应用不能混写。CLI 有单独跨平台安装指引。  对应 Sentra 注册 ID：lingcode；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://lingcode.dev/?lang=en",
@@ -4111,12 +4135,16 @@
       {
         "url": "https://lingcode.dev/tutorials/install-and-use-the-lingcode-cli.html",
         "title": "LingCode — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://lingcode.dev/favicon.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-11"
   },
   "lingcode-cli": {
-    "notes": "官网有原生 Mac IDE 与 CLI 文档；Windows/Linux 的 LingCodeBaby 与主桌面应用不能混写。CLI 有单独跨平台安装指引。 Windows 采用官方文档的 Bun/ZIP 安装路径；不是 macOS 桌面客户端的 Windows 版。 对应 Sentra 注册 ID：lingcode；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "官网有原生 Mac IDE 与 CLI 文档；Windows/Linux 的 LingCodeBaby 与主桌面应用不能混写。CLI 有单独跨平台安装指引。 Windows 采用官方文档的 Bun/ZIP 安装路径；不是 macOS 桌面客户端的 Windows 版。 对应 Sentra 注册 ID：lingcode；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://lingcode.dev/?lang=en",
@@ -4129,12 +4157,16 @@
       {
         "url": "https://lingcode.dev/tutorials/install-and-use-the-lingcode-cli.html",
         "title": "LingCode — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://lingcode.dev/favicon.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-11"
   },
   "monkeycode-web": {
-    "notes": "长亭官方仓库明确为团队 AI 开发平台，包含 desktop 目录，发布记录出现桌面客户端下载；平台仓库标注 AGPL-3.0。另有官方 monkeycode-cli 仓库，不能把它的许可自动套到平台。 本条为 Web 平台（在线/自托管）；长亭官方平台源码 AGPL-3.0 不自动延伸为在线服务许可。桌面安装包与 monkeycode-cli 留待单独核验后补。 对应 Sentra 注册 ID：monkeycode；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 PR #1（2026-10-09）补充核验：长亭 MonkeyCode 是现成 AI 开发平台；当前仓库首页以 monkeycode-ai.net 为入口，文档仍链接 monkeycode-ai.com，两个官方域名并存，迁移日期未核实。MonkeyCode-AI 是已核实关联名称，不与 MonkeysCode 混淆。当前主 README 不支持本地 IDE 插件/CLI/代码补全；chaitin/monkeycode-cli 仍为 Codex fork 且 README 安装 @openai/codex，不足以新增独立已发布 CLI；历史插件未据此擅自判停服。 官方支持私有化与离线部署，公开源码根 LICENSE 为 AGPL-3.0。部署、模型调用和商业支持成本未核实，不从开源推导免费。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。",
+    "notes": "长亭官方仓库明确为团队 AI 开发平台，包含 desktop 目录，发布记录出现桌面客户端下载；平台仓库标注 AGPL-3.0。另有官方 monkeycode-cli 仓库，不能把它的许可自动套到平台。 本条为 Web 平台（在线/自托管）；长亭官方平台源码 AGPL-3.0 不自动延伸为在线服务许可。桌面安装包与 monkeycode-cli 留待单独核验后补。 对应 Sentra 注册 ID：monkeycode；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 PR #1（2026-10-09）补充核验：长亭 MonkeyCode 是现成 AI 开发平台；当前仓库首页以 monkeycode-ai.net 为入口，文档仍链接 monkeycode-ai.com，两个官方域名并存，迁移日期未核实。MonkeyCode-AI 是已核实关联名称，不与 MonkeysCode 混淆。当前主 README 不支持本地 IDE 插件/CLI/代码补全；chaitin/monkeycode-cli 仍为 Codex fork 且 README 安装 @openai/codex，不足以新增独立已发布 CLI；历史插件未据此擅自判停服。 官方支持私有化与离线部署，公开源码根 LICENSE 为 AGPL-3.0。部署、模型调用和商业支持成本未核实，不从开源推导免费。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。 2026-10-11 Logo 核验：保存官方原始 PNG 位图，不转换或冒充 SVG；原始 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/chaitin/MonkeyCode",
@@ -4151,9 +4183,13 @@
       {
         "url": "https://github.com/chaitin/MonkeyCode/blob/main/LICENSE",
         "title": "根 LICENSE 为 GNU AGPL v3；只用于该仓库源码分发，不能外推托管服务或第三方组件许可。"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/chaitin/MonkeyCode/3aab1fdbcca48c8fbc09ae5f38e0eea899ea4a56/frontend/public/logo-colored.png",
+        "title": "Official project PNG Logo — original raster asset"
       }
     ],
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-11"
   },
   "loomy-desktop": {
     "notes": "正确官方入口为 loomy.xunfei.cn，是工作助手而非同名照片应用；下载页列 Apple Silicon macOS 14+ 和 Windows 10+ x64 Beta。 macOS：Apple Silicon、14+；Windows：x64、10+、Beta。官网主体为合肥科讯创想软件开发有限公司。 对应 Sentra 注册 ID：loomy；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
@@ -4306,7 +4342,7 @@
     "verified_at": "2026-10-10"
   },
   "aider-desk-desktop": {
-    "notes": "官方上游为 hotovo/aider-desk，有 macOS/Windows/Linux 发布资产；产品已是 AI 软件工程师平台，不是 Aider 的别名。  对应 Sentra 注册 ID：aider-desk；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 PR #1（2026-10-09）补充核验：基于/集成 Aider 的独立 Hotovo 产品；不是既有 Aider CLI 的别名。单列 AiderDesk 并关联 Aider，不合并。许可证确认 Apache-2.0；没有核实官方独立定价说明，commercial_status 保留 unknown，而非由开源或可直接下载推定模型/服务完全免费。已看到官方品牌图为非 SVG；未找到可靠第一方品牌 SVG 直链，留 null。 Hotovo 的独立桌面产品，关联既有 Aider CLI 但不作为 Aider 别名。 AiderDesk 桌面版：版本/形态定位=Self-hosted desktop；官方平台限制=Windows、macOS、Linux；接口=desktop GUI、agent orchestration；源代码分类=open-source；许可证=Apache-2.0；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。",
+    "notes": "官方上游为 hotovo/aider-desk，有 macOS/Windows/Linux 发布资产；产品已是 AI 软件工程师平台，不是 Aider 的别名。  对应 Sentra 注册 ID：aider-desk；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 PR #1（2026-10-09）补充核验：基于/集成 Aider 的独立 Hotovo 产品；不是既有 Aider CLI 的别名。单列 AiderDesk 并关联 Aider，不合并。许可证确认 Apache-2.0；没有核实官方独立定价说明，commercial_status 保留 unknown，而非由开源或可直接下载推定模型/服务完全免费。已看到官方品牌图为非 SVG；未找到可靠第一方品牌 SVG 直链，留 null。 Hotovo 的独立桌面产品，关联既有 Aider CLI 但不作为 Aider 别名。 AiderDesk 桌面版：版本/形态定位=Self-hosted desktop；官方平台限制=Windows、macOS、Linux；接口=desktop GUI、agent orchestration；源代码分类=open-source；许可证=Apache-2.0；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 Logo 核验：保存官方原始 PNG 位图，不转换或冒充 SVG；原始 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/hotovo/aider-desk",
@@ -4331,9 +4367,13 @@
       {
         "url": "https://aiderdesk.hotovo.com/docs/agent-mode/agent-profiles",
         "title": "官方 Agent 配置中 Aider 只是可选工具/配置类型之一；有自主工具、MCP 和子智能体。"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/hotovo/aider-desk/6f9e48a75a0d0acfbc63c302787a767d2dafca53/build/icon.png",
+        "title": "Official project PNG Logo — original raster asset"
       }
     ],
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-11"
   },
   "ibm-bob-ide": {
     "notes": "IBM 官方 Bob 页面与文档明确区分 IDE 和 Bob Shell；同名普通 Bob 软件不能作为来源。  对应 Sentra 注册 ID：bob；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
@@ -4442,7 +4482,7 @@
     "verified_at": "2026-10-10"
   },
   "syncfusion-codestudio": {
-    "notes": "Syncfusion 官方 AI IDE 页面可定位；官方集成文档明确使用 .codestudio/mcp.json，与 Sentra 标记对应。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：codestudio；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "Syncfusion 官方 AI IDE 页面可定位；官方集成文档明确使用 .codestudio/mcp.json，与 Sentra 标记对应。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：codestudio；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://www.syncfusion.com/code-studio/",
@@ -4451,9 +4491,13 @@
       {
         "url": "https://ai.syncfusion.com/agent-setup/codestudio/",
         "title": "Syncfusion Code Studio — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://www.syncfusion.com/code-studio/wp-content/uploads/2025/06/code-studio-logo-v3.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-11"
   },
   "command-code-cli": {
     "notes": "commandcode.ai 与 CommandCodeAI 官方仓库介绍终端编码 Agent、command-code 包和学习用户偏好的能力。  对应 Sentra 注册 ID：command-code；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
@@ -4496,7 +4540,7 @@
     "verified_at": "2026-10-10"
   },
   "crush-cli": {
-    "notes": "官方仓库与发布页可定位终端编码助手；当前主分支 LICENSE 是 FSL-1.1-MIT，有竞争用途限制与未来 MIT 转换，并非直接 MIT。  对应 Sentra 注册 ID：crush；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "官方仓库与发布页可定位终端编码助手；当前主分支 LICENSE 是 FSL-1.1-MIT，有竞争用途限制与未来 MIT 转换，并非直接 MIT。  对应 Sentra 注册 ID：crush；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-11 Logo 核验：保存官方原始 PNG 位图，不转换或冒充 SVG；原始 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/charmbracelet/crush",
@@ -4509,12 +4553,16 @@
       {
         "url": "https://github.com/charmbracelet/crush/blob/main/LICENSE.md",
         "title": "Crush — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/charmbracelet/crush/df5b024a929d2eb88b308d0288d97130a90e0c15/internal/ui/notification/crush-icon-solo.png",
+        "title": "Official project PNG Logo — original raster asset"
       }
     ],
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-11"
   },
   "deepagents-cli": {
-    "notes": "官方仓库同时提供 Deep Agents SDK 和预构建的终端编码 Agent；发布名称、命令随版本演进。不能将 SDK 本身登记成桌面应用。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：deepagents；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "官方仓库同时提供 Deep Agents SDK 和预构建的终端编码 Agent；发布名称、命令随版本演进。不能将 SDK 本身登记成桌面应用。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：deepagents；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。此标识取自 Deep Agents 官方项目，覆盖 Code 应用。",
     "sources": [
       {
         "url": "https://github.com/langchain-ai/deepagents",
@@ -4523,12 +4571,16 @@
       {
         "url": "https://www.langchain.com/blog/introducing-deepagents-cli",
         "title": "Deep Agents Code / Deep Agents CLI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/langchain-ai/deepagents/4bb4c7fcbf5f2ef65c39ea0134c42555926bd40b/.github/images/logo-light.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-11"
   },
   "firebender-ide": {
-    "notes": "JetBrains 插件市场官方条目及 Firebender 文档可定位编码 Agent；不要用非官方代理站绑定厂商。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：firebender；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：IDE 扩展。",
+    "notes": "JetBrains 插件市场官方条目及 Firebender 文档可定位编码 Agent；不要用非官方代理站绑定厂商。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：firebender；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：IDE 扩展。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://plugins.jetbrains.com/plugin/25224-firebender",
@@ -4541,12 +4593,16 @@
       {
         "url": "https://firebender.com/pricing",
         "title": "Firebender — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://firebender.com/icon.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-11"
   },
   "forgecode-cli": {
-    "notes": "官方上游 tailcallhq/forgecode 与 forgecode.dev 提供终端 Agent，使用 .forge；不是同名 Forge 平台。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：forgecode；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 PR #1（2026-10-09）补充核验：可新增ForgeCode主记录，区分Apache-2.0 CLI、依赖CLI的VS Code辅助扩展、专有的可选ForgeCode Services。旧 antinomyhq/forge 已重定向为 tailcallhq/forgecode，避免重复。价格证据跨2025旧套餐和2026服务免费声明，当前统一价格页未核实，所以所有当前commercial_status保持unknown；不把开源等同于免费。无独立地区发行证据；官方SVG未取得。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。 Services 的官方专有声明保存在 license 与来源解释；受标准字段枚举限制，其 source_classification 记为 unknown，而非声称其开源。 ForgeCode Services 为可选专有运行层，不是 Apache CLI 的另一个免费/开源版本；服务本身不独立新增。Windows 仅 WSL 或 Git Bash，Android 仅终端。 ForgeCode CLI / Zsh integration：版本/形态定位=Open-source client with user-selected model providers；官方平台限制=macOS、Linux、Android terminal、Windows via WSL or Git Bash；接口=CLI、terminal TUI、headless CLI、Zsh shell integration；源代码分类=open-source；许可证=Apache-2.0；商业状态=unknown；价格来源=未核实。 ForgeCode Services（可选托管运行层）：版本/形态定位=Optional proprietary context / tool-correction / skill service；官方平台限制=ForgeCode CLI；接口=cloud service used by CLI；源代码分类=unknown；许可证=Proprietary（官方声明）；未取得完整专有服务许可正文；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。",
+    "notes": "官方上游 tailcallhq/forgecode 与 forgecode.dev 提供终端 Agent，使用 .forge；不是同名 Forge 平台。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：forgecode；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 PR #1（2026-10-09）补充核验：可新增ForgeCode主记录，区分Apache-2.0 CLI、依赖CLI的VS Code辅助扩展、专有的可选ForgeCode Services。旧 antinomyhq/forge 已重定向为 tailcallhq/forgecode，避免重复。价格证据跨2025旧套餐和2026服务免费声明，当前统一价格页未核实，所以所有当前commercial_status保持unknown；不把开源等同于免费。无独立地区发行证据；官方SVG未取得。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。 Services 的官方专有声明保存在 license 与来源解释；受标准字段枚举限制，其 source_classification 记为 unknown，而非声称其开源。 ForgeCode Services 为可选专有运行层，不是 Apache CLI 的另一个免费/开源版本；服务本身不独立新增。Windows 仅 WSL 或 Git Bash，Android 仅终端。 ForgeCode CLI / Zsh integration：版本/形态定位=Open-source client with user-selected model providers；官方平台限制=macOS、Linux、Android terminal、Windows via WSL or Git Bash；接口=CLI、terminal TUI、headless CLI、Zsh shell integration；源代码分类=open-source；许可证=Apache-2.0；商业状态=unknown；价格来源=未核实。 ForgeCode Services（可选托管运行层）：版本/形态定位=Optional proprietary context / tool-correction / skill service；官方平台限制=ForgeCode CLI；接口=cloud service used by CLI；源代码分类=unknown；许可证=Proprietary（官方声明）；未取得完整专有服务许可正文；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/tailcallhq/forgecode",
@@ -4579,9 +4635,13 @@
       {
         "url": "https://forgecode.dev/blog/benchmarks-dont-matter/",
         "title": "2026-03-03官方文章明确Services为专有运行层，当时免费；不能把CLI Apache许可证套给此服务。由于是历史免费声明，当前价格仍留unknown。"
+      },
+      {
+        "url": "https://forgecode.dev/shared/brand/favicon-light.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-11"
   },
   "iflow-cli": {
     "notes": "官方仓库公告写明 2026-04-17（UTC+8）关停。源码/旧包仍可存在，公告不等于所有本地 BYOK 用法必然不能运行。 历史项目：官方公告 2026-04-17（UTC+8）关停；本地源码/BYOK 是否继续可运行未经测试，不能将公告解读为所有本地功能都不可用。 本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：iflow-cli；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
@@ -4638,7 +4698,7 @@
     "verified_at": "2026-10-10"
   },
   "xum-desktop": {
-    "notes": "coder/mux 已重定向 coder/xum；官方 README 说明商标争议后改名 Xum，仓库 AGPL-3.0。不同于 usemux.ai 的同名项目。 官方从 Mux 改名为 Xum，保留 Mux 别名；检测标记从 .mux 到 .xum 的迁移须另核。并非 usemux.ai 同名产品。 本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：mux；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "coder/mux 已重定向 coder/xum；官方 README 说明商标争议后改名 Xum，仓库 AGPL-3.0。不同于 usemux.ai 的同名项目。 官方从 Mux 改名为 Xum，保留 Mux 别名；检测标记从 .mux 到 .xum 的迁移须另核。并非 usemux.ai 同名产品。 本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：mux；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/coder/xum",
@@ -4647,12 +4707,16 @@
       {
         "url": "https://github.com/coder/mux",
         "title": "Xum（原 Mux） — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/coder/mux/529ff4d7d2faac911a78e52f50b36c1e7bf0415f/src/browser/assets/icons/xum.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-11"
   },
   "neovate-cli": {
-    "notes": "官方 neovateai/neovate-code 提供 @neovate/code，标 MIT；组织中旧 code-desktop 归档与后续 desktop 仓库并存，不能据此说整个产品停更。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：neovate；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "官方 neovateai/neovate-code 提供 @neovate/code，标 MIT；组织中旧 code-desktop 归档与后续 desktop 仓库并存，不能据此说整个产品停更。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：neovate；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-11 Logo 核验：保存官方原始 PNG 位图，不转换或冒充 SVG；原始 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/neovateai/neovate-code",
@@ -4661,9 +4725,13 @@
       {
         "url": "https://github.com/neovateai",
         "title": "Neovate Code — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/neovateai/neovate-desktop/2230545bad2890f4d5ab77ec0979956fb20e88fe/packages/desktop/build/icons/prod/icon.png",
+        "title": "Official project PNG Logo — original raster asset"
       }
     ],
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-11"
   },
   "ona-web": {
     "notes": "Ona 官方说明 Gitpod 于 2025-09-02 更名，产品定位为工程 Agent 与开发环境。旧 Gitpod 源码公开不能证明当前 Ona 服务全开源。  对应 Sentra 注册 ID：ona；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
@@ -4684,7 +4752,7 @@
     "verified_at": "2026-10-10"
   },
   "pochi-vscode": {
-    "notes": "TabbyML 官方 Pochi 仓库明确为开发 Agent，提供 VS Code 扩展和可选云/BYOK；与目录已有 Tabby 是不同产品。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：pochi；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：IDE 扩展。 PR #1（2026-10-09）补充核验：独立 AI 编码 Agent；不是 Tabby 代码补全服务器的别名。应收录 AI 编码 Agent，并拆分 IDE 包、CLI/root code 与托管服务许可证及商业模式。重点：IDE 包显式选择保留所有权利的独立 LICENSE.txt，即使官网自称 open-source、repo 根为 Apache，也不能简单将所有发行物标为 Apache。具体托管金额仍待复核。 VS Code package.json 显式指向包内 LICENSE.txt，保留所有权利；不能把根 Apache-2.0 继承到该包。云模型/团队门户为可选服务，不新增独立 Agent 形态。 Pochi VS Code / Open VSX package：版本/形态定位=Research Preview; BYOK or managed cloud models；官方平台限制=VS Code >= 1.82.0、VS Code-compatible clients via Open VSX；接口=IDE extension；源代码分类=source-available；许可证=Package-specific LICENSE.txt: © 2025 TabbyML, Inc. All rights reserved; root repository Apache-2.0 differs；商业状态=unknown；价格来源=未核实。 Pochi managed cloud services：版本/形态定位=optional account-based managed models and collaboration；官方平台限制=Web、connected VS Code / CLI clients；接口=cloud model service、task sharing / team management portal；源代码分类=unknown；许可证=未核实；商业状态=verified-paid；价格来源=https://app.getpochi.com/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 本批未打包官方标识，icon 字段留空；已核实的官方 SVG 来源仅作为资料保留，不提供替代 Logo。",
+    "notes": "TabbyML 官方 Pochi 仓库明确为开发 Agent，提供 VS Code 扩展和可选云/BYOK；与目录已有 Tabby 是不同产品。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：pochi；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：IDE 扩展。 PR #1（2026-10-09）补充核验：独立 AI 编码 Agent；不是 Tabby 代码补全服务器的别名。应收录 AI 编码 Agent，并拆分 IDE 包、CLI/root code 与托管服务许可证及商业模式。重点：IDE 包显式选择保留所有权利的独立 LICENSE.txt，即使官网自称 open-source、repo 根为 Apache，也不能简单将所有发行物标为 Apache。具体托管金额仍待复核。 VS Code package.json 显式指向包内 LICENSE.txt，保留所有权利；不能把根 Apache-2.0 继承到该包。云模型/团队门户为可选服务，不新增独立 Agent 形态。 Pochi VS Code / Open VSX package：版本/形态定位=Research Preview; BYOK or managed cloud models；官方平台限制=VS Code >= 1.82.0、VS Code-compatible clients via Open VSX；接口=IDE extension；源代码分类=source-available；许可证=Package-specific LICENSE.txt: © 2025 TabbyML, Inc. All rights reserved; root repository Apache-2.0 differs；商业状态=unknown；价格来源=未核实。 Pochi managed cloud services：版本/形态定位=optional account-based managed models and collaboration；官方平台限制=Web、connected VS Code / CLI clients；接口=cloud model service、task sharing / team management portal；源代码分类=unknown；许可证=未核实；商业状态=verified-paid；价格来源=https://app.getpochi.com/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 本批未打包官方标识，icon 字段留空；已核实的官方 SVG 来源仅作为资料保留，不提供替代 Logo。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/TabbyML/pochi",
@@ -4725,9 +4793,13 @@
       {
         "url": "https://docs.getpochi.com/vscode/",
         "title": "官方区分 local task history 与登录后 cloud storage/team collaboration。"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/TabbyML/pochi/7db5b136fafa2775db2f9b22c8809a05a64617e2/packages/vscode/assets/icons/pochi-logo.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-11"
   },
   "reasonix-cli": {
     "notes": "官方上游 esengine/DeepSeek-Reasonix 使用 .reasonix，标 MIT；2.x Studio 与 1.x 维护分支不同。名称含 DeepSeek 不代表 DeepSeek 官方出品。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：reasonix；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 PR #1（2026-10-09）补充核验：独立本地编码 Agent；1.x 稳定线与 2.x Studio 开发线并行；不是 DeepSeek 官方产品。可收录，多入口属于一个本地编码 Agent；保留 1.x/2.x 生命周期和平台差异。reasonix.io 官网 GitHub 指向 esengine/DeepSeek-Reasonix；搜索出现的 futureflowtech/reasonix 只是 fork，不能当官方仓库。reasonix.ai / reasonix.net 是另一个咨询/教育产品体系，也不要合并。公开源码 MIT 不证明模型推理免费；未找到产品正式价格表。 发布级补充：1.x desktop-v1.39.8 确有 Mac/Windows/Linux 安装包，现将其与全六目标 CLI 分开；2.x Studio 当前 studio-v2.33.0 release flag 为非 prerelease，仍保留官方 active-development 版本线说明。 studio 发布的 CLI 支持三种 OS amd64/arm64；与 1.x 维护稳定线区分，不自动声称 VS Code 集成支持此分支。 官方发行已发布且标记 non-prerelease，但 README 将 2.x 称为 active-development line，因此保留开发线定位。 Reasonix 2.x CLI / local web / ACP：版本/形态定位=2.x engine; studio releases；官方平台限制=macOS amd64 / arm64、Linux amd64 / arm64、Windows amd64 / arm64；接口=terminal TUI / headless CLI、local web UI、ACP editor integration；源代码分类=open-source；许可证=MIT；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。",
@@ -4756,7 +4828,7 @@
     "verified_at": "2026-10-10"
   },
   "rovo-dev-cli": {
-    "notes": "官方支持文档说明通过 ACLI 安装和运行 Rovo Dev 功能，命令为 acli rovodev run；需要相应 Rovo Dev 订阅。  对应 Sentra 注册 ID：rovodev；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 PR #1（2026-10-09）补充核验：产品关系：Atlassian Rovo 家族的开发者 Agent；不能因同属 Rovo 而与通用 Rovo 功能直接合并；未来 Rovo CLI 是宣布中的迁移目标。 应纳入编程 Agent，但必须展示 sunset-announced / transitioning 提醒。现有 CLI、IDE、Code Reviewer 仍可运行；不得提前写成已停运或把 2026-12-03 当作终止日。未核实官方 Rovo Dev 本体源码仓库或可单独下载的产品 SVG，保留 null；不借用 ACLI 组件或 Rovo 通用图标的许可/身份。未核实地区可购性或执行安装。 核验日仍 active；CLI 将迁移至统一 Rovo CLI，终止日期未公布。2026-12-03 是 Code Reviewer 计费变化，不是 EOL。 Rovo Dev CLI：版本/形态定位=Standard; 迁移到统一 Rovo CLI 的过渡期；官方平台限制=macOS、Linux、Windows；接口=CLI；源代码分类=unknown；许可证=Atlassian Customer Agreement（专有产品/服务条款）；商业状态=verified-paid；价格来源=https://www.atlassian.com/software/rovo-dev/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。",
+    "notes": "官方支持文档说明通过 ACLI 安装和运行 Rovo Dev 功能，命令为 acli rovodev run；需要相应 Rovo Dev 订阅。  对应 Sentra 注册 ID：rovodev；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 PR #1（2026-10-09）补充核验：产品关系：Atlassian Rovo 家族的开发者 Agent；不能因同属 Rovo 而与通用 Rovo 功能直接合并；未来 Rovo CLI 是宣布中的迁移目标。 应纳入编程 Agent，但必须展示 sunset-announced / transitioning 提醒。现有 CLI、IDE、Code Reviewer 仍可运行；不得提前写成已停运或把 2026-12-03 当作终止日。未核实官方 Rovo Dev 本体源码仓库或可单独下载的产品 SVG，保留 null；不借用 ACLI 组件或 Rovo 通用图标的许可/身份。未核实地区可购性或执行安装。 核验日仍 active；CLI 将迁移至统一 Rovo CLI，终止日期未公布。2026-12-03 是 Code Reviewer 计费变化，不是 EOL。 Rovo Dev CLI：版本/形态定位=Standard; 迁移到统一 Rovo CLI 的过渡期；官方平台限制=macOS、Linux、Windows；接口=CLI；源代码分类=unknown；许可证=Atlassian Customer Agreement（专有产品/服务条款）；商业状态=verified-paid；价格来源=https://www.atlassian.com/software/rovo-dev/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/",
@@ -4777,19 +4849,27 @@
       {
         "url": "https://www.atlassian.com/legal/atlassian-customer-agreement",
         "title": "Atlassian 产品适用客户协议及商业授权限制；未核实 Rovo Dev 产品本体的开源许可证。"
+      },
+      {
+        "url": "https://www.atlassian.com/software/rovo-dev",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-11"
   },
   "roo-code-vscode": {
-    "notes": "官方仓库在 2026-05-15 归档，README 声明扩展 5 月 15 日停止服务；仍公开的源码不表示产品继续运营。 历史项目：官方仓库 2026-05-15 归档，README 声明扩展在 5 月 15 日停止服务；ZooCode/Cline 是不同项目，不作为此记录替代身份。 本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：roo；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：IDE 扩展。",
+    "notes": "官方仓库在 2026-05-15 归档，README 声明扩展 5 月 15 日停止服务；仍公开的源码不表示产品继续运营。 历史项目：官方仓库 2026-05-15 归档，README 声明扩展在 5 月 15 日停止服务；ZooCode/Cline 是不同项目，不作为此记录替代身份。 本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：roo；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：IDE 扩展。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/RooCodeInc/Roo-Code",
         "title": "Roo Code — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/RooCodeInc/Roo-Code/b867ec9145750d0ae1ff7f02d35406e9bf2a0b16/src/assets/images/roo-logo.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-11"
   },
   "tabnine-cli": {
     "notes": "Tabnine 官方 CLI 文档与平台页明确为独立终端编码入口；不是 Tabby，同名近似也不能合并。 官方安装文档说明自 6.6 起进入维护模式，只接收关键更新至 2026-12-31，随后弃用；迁移目标为 Tabnine Plugin for OpenCode，安装新插件后旧命令改为 tabnine-legacy。尚未到弃用日期。 对应 Sentra 注册 ID：tabnine-cli；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
@@ -5464,7 +5544,7 @@
     "verified_at": "2026-10-09"
   },
   "lingcode-web": {
-    "notes": "官网运营商为 Aurelian Labs Inc.；官方支持页指向 Xavierhuang/LingCode，但本轮无法读取该仓库与 LICENSE，源码和准确许可保持未核验，不能因免费下载或 BYOK 判为开源。Free/Pro/Max Pro/Enterprise 是同一产品的订阅层；官网 Pro $20/月、Max Pro $200/月，企业方案自定义报价，价格可能变化。 浏览器 /try 为 app-building playground，支持 prompt、预览、文件读写和 ZIP 导出；浏览器 Deep Agent 是付费方案功能，不说成 Free 自带。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "官网运营商为 Aurelian Labs Inc.；官方支持页指向 Xavierhuang/LingCode，但本轮无法读取该仓库与 LICENSE，源码和准确许可保持未核验，不能因免费下载或 BYOK 判为开源。Free/Pro/Max Pro/Enterprise 是同一产品的订阅层；官网 Pro $20/月、Max Pro $200/月，企业方案自定义报价，价格可能变化。 浏览器 /try 为 app-building playground，支持 prompt、预览、文件读写和 ZIP 导出；浏览器 Deep Agent 是付费方案功能，不说成 Free 自带。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://lingcode.dev/try.html",
@@ -5481,9 +5561,13 @@
       {
         "url": "https://apps.apple.com/us/app/lingcode/id6757243830",
         "title": "移动端功能/兼容系统；美国App Store IAP Pro $19.99 与官网 $20 分开记录。"
+      },
+      {
+        "url": "https://lingcode.dev/favicon.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-09"
+    "verified_at": "2026-10-11"
   },
   "lingcode-baby-desktop": {
     "notes": "官方单独的 Baby 下载与收费页描述轻量跨平台桌面编辑器，与完整 Mac IDE 为同厂产品族的独立 sibling app，因此单独 product_id。支持 macOS 11+ Apple Silicon、Windows 10/11 x64/ARM64、Linux x86-64；Claude Code 聊天可读写/创建文件、执行命令，并提供 Web deploy UI。免费试用后 $20/月，不能套用主 LingCode 产品的 Free 方案。未核实此应用独立源码仓库/准确许可证，保持未知。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
@@ -5500,7 +5584,7 @@
     "verified_at": "2026-10-09"
   },
   "monkeycode-work-desktop": {
-    "notes": "长亭 MonkeyCode 是现成 AI 开发平台；当前仓库首页以 monkeycode-ai.net 为入口，文档仍链接 monkeycode-ai.com，两个官方域名并存，迁移日期未核实。MonkeyCode-AI 是已核实关联名称，不与 MonkeysCode 混淆。当前主 README 不支持本地 IDE 插件/CLI/代码补全；chaitin/monkeycode-cli 仍为 Codex fork 且 README 安装 @openai/codex，不足以新增独立已发布 CLI；历史插件未据此擅自判停服。 Work 为同产品桌面 GUI，支持本地代码/文件任务、云端同步、独立对话及浏览器操作。官方 v26072801 发布确认 macOS arm64/x86 DMG 与 Windows EXE；Linux 只核实 desktop/README.md 的源码构建支持，未核实已发布 Linux 安装包。云任务沿用 SaaS 权益，本地模型费用取决于提供商；不虚构独立会员体系。desktop 未见另行许可，根 AGPL 认定限该源码，未做二进制审计。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "长亭 MonkeyCode 是现成 AI 开发平台；当前仓库首页以 monkeycode-ai.net 为入口，文档仍链接 monkeycode-ai.com，两个官方域名并存，迁移日期未核实。MonkeyCode-AI 是已核实关联名称，不与 MonkeysCode 混淆。当前主 README 不支持本地 IDE 插件/CLI/代码补全；chaitin/monkeycode-cli 仍为 Codex fork 且 README 安装 @openai/codex，不足以新增独立已发布 CLI；历史插件未据此擅自判停服。 Work 为同产品桌面 GUI，支持本地代码/文件任务、云端同步、独立对话及浏览器操作。官方 v26072801 发布确认 macOS arm64/x86 DMG 与 Windows EXE；Linux 只核实 desktop/README.md 的源码构建支持，未核实已发布 Linux 安装包。云任务沿用 SaaS 权益，本地模型费用取决于提供商；不虚构独立会员体系。desktop 未见另行许可，根 AGPL 认定限该源码，未做二进制审计。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-11 Logo 核验：保存官方原始 PNG 位图，不转换或冒充 SVG；原始 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://monkeycode.docs.baizhi.cloud/node/019fa346-8636-7ee6-9a35-1e014d087297",
@@ -5521,9 +5605,13 @@
       {
         "url": "https://github.com/chaitin/MonkeyCode/blob/main/LICENSE",
         "title": "desktop 目录未见独立 LICENSE，项目根 AGPL-3.0 用于所核查桌面客户端源码；打包引擎/依赖仍各自遵守其许可，不代表 SaaS 合同。"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/chaitin/MonkeyCode/3aab1fdbcca48c8fbc09ae5f38e0eea899ea4a56/frontend/public/logo-colored.png",
+        "title": "Official project PNG Logo — original raster asset"
       }
     ],
-    "verified_at": "2026-10-09"
+    "verified_at": "2026-10-11"
   },
   "coze-desktop-cn": {
     "notes": "已有扣子CN Web 服务的官方桌面客户端；同账号同步项目、会话、文件和任务。CN核验不得自动外推 coze.com 国际版。 为已有扣子CN补 Desktop GUI，明确 macOS Apple/Intel 与 Windows，保留 Web。不要把 GitHub 上 Coze Studio、SDK、工作流引擎或第三方桌面封装的许可证转移到本客户端。本轮未获得 coze.com 国际版桌面发行证据，国际版平台字段保持原有已核实值；这不构成国际版桌面不存在的结论。 核验的具体形态：扣子桌面端（CN）。系统边界：macOS (Apple Silicon)；macOS (Intel)；Windows（架构与最低版本未核实）。版本定位：China desktop; personal / team / enterprise service plans。源码状态：unknown；许可证说明：扣子用户协议（专有服务条款；未核实桌面客户端本体的开源许可证）；商业状态：verified-paid。价格和下载限制见逐字段研究及下列来源。仅官方公开资料核验，未安装或测试兼容性。官方运营主体：北京春田知韵科技有限公司及关联方；沿用已有产品的稳定供应商分组。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
@@ -5642,7 +5730,7 @@
     "verified_at": "2026-10-09"
   },
   "vscode-desktop": {
-    "notes": "独立编辑器/Agent 工作台；与 GitHub Copilot 集成但不是 Copilot、Visual Studio 或 Code-OSS 的同一发行物。当前官方已提供最终用户 AI/Agent 工作流，建议作为 Agent-capable IDE 收录并注明宿主与服务的边界；若目录仅接纳独立模型服务，基本编辑器形态可置 needs-review。必须分别展示微软二进制专有许可、Code-OSS MIT 和 Copilot 服务，不可一律标开源或付费。不要重复创建 GitHub Copilot 产品，只把本记录的集成形态关联既有 Copilot。 仅新增一个具有官方 Agent 工作流的微软 Desktop 分发。Code-OSS 源码、vscode.dev 基础 Web 编辑器和 Copilot 服务仍为证据，不另造 Agent 产品；已有 GitHub Copilot 各形态不改名、不重复。微软二进制专有许可不继承 Code-OSS MIT；Stable/Insiders 为同产品渠道。 Visual Studio Code Desktop（微软官方发行版）：版本/形态定位=Stable / Insiders；官方平台限制=Windows、macOS、Linux；接口=desktop IDE、built-in AI chat / agent interface；源代码分类=unknown；许可证=Microsoft Software License Terms（官方二进制）；内含开源组件；商业状态=verified-free；价格来源=https://code.visualstudio.com/docs/supporting/faq。 Code - OSS 源码发行：版本/形态定位=MIT upstream source distribution；官方平台限制=Windows、macOS、Linux；接口=source-built editor；源代码分类=open-source；许可证=MIT；商业状态=unknown；价格来源=未核实。 VS Code 中的 GitHub Copilot AI 集成：版本/形态定位=Copilot Free and paid plans; service integration；官方平台限制=Visual Studio Code Desktop；接口=IDE AI chat、agent mode、inline completion；源代码分类=unknown；许可证=Copilot Chat 客户端源码 MIT；Copilot 服务仍闭源，受服务条款约束；商业状态=verified-paid；价格来源=https://github.com/features/copilot/plans。 VS Code for the Web：版本/形态定位=vscode.dev；官方平台限制=Web browser；接口=web editor；源代码分类=unknown；许可证=未核实；商业状态=verified-free；价格来源=https://code.visualstudio.com/docs/remote/vscode-web。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "独立编辑器/Agent 工作台；与 GitHub Copilot 集成但不是 Copilot、Visual Studio 或 Code-OSS 的同一发行物。当前官方已提供最终用户 AI/Agent 工作流，建议作为 Agent-capable IDE 收录并注明宿主与服务的边界；若目录仅接纳独立模型服务，基本编辑器形态可置 needs-review。必须分别展示微软二进制专有许可、Code-OSS MIT 和 Copilot 服务，不可一律标开源或付费。不要重复创建 GitHub Copilot 产品，只把本记录的集成形态关联既有 Copilot。 仅新增一个具有官方 Agent 工作流的微软 Desktop 分发。Code-OSS 源码、vscode.dev 基础 Web 编辑器和 Copilot 服务仍为证据，不另造 Agent 产品；已有 GitHub Copilot 各形态不改名、不重复。微软二进制专有许可不继承 Code-OSS MIT；Stable/Insiders 为同产品渠道。 Visual Studio Code Desktop（微软官方发行版）：版本/形态定位=Stable / Insiders；官方平台限制=Windows、macOS、Linux；接口=desktop IDE、built-in AI chat / agent interface；源代码分类=unknown；许可证=Microsoft Software License Terms（官方二进制）；内含开源组件；商业状态=verified-free；价格来源=https://code.visualstudio.com/docs/supporting/faq。 Code - OSS 源码发行：版本/形态定位=MIT upstream source distribution；官方平台限制=Windows、macOS、Linux；接口=source-built editor；源代码分类=open-source；许可证=MIT；商业状态=unknown；价格来源=未核实。 VS Code 中的 GitHub Copilot AI 集成：版本/形态定位=Copilot Free and paid plans; service integration；官方平台限制=Visual Studio Code Desktop；接口=IDE AI chat、agent mode、inline completion；源代码分类=unknown；许可证=Copilot Chat 客户端源码 MIT；Copilot 服务仍闭源，受服务条款约束；商业状态=verified-paid；价格来源=https://github.com/features/copilot/plans。 VS Code for the Web：版本/形态定位=vscode.dev；官方平台限制=Web browser；接口=web editor；源代码分类=unknown；许可证=未核实；商业状态=verified-free；价格来源=https://code.visualstudio.com/docs/remote/vscode-web。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-11 Logo 核验：补充SVGL 品牌 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://code.visualstudio.com/",
@@ -5675,12 +5763,20 @@
       {
         "url": "https://code.visualstudio.com/docs/remote/vscode-web",
         "title": "官方免费的浏览器版本；纯 Web 在终端、构建运行和扩展方面有限制，可转桌面/Codespaces/Remote Tunnels；不可把完整本地 Agent 执行能力自动套用给裸 vscode.dev。"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/vscode.svg",
+        "title": "SVG Logo — SVGL original asset (MIT)"
+      },
+      {
+        "url": "https://github.com/pheralb/svgl/blob/main/LICENSE",
+        "title": "SVGL MIT license; trademarks retained by owners"
       }
     ],
-    "verified_at": "2026-10-09"
+    "verified_at": "2026-10-11"
   },
   "aiderdesk-cli": {
-    "notes": "基于/集成 Aider 的独立 Hotovo 产品；不是既有 Aider CLI 的别名。单列 AiderDesk 并关联 Aider，不合并。许可证确认 Apache-2.0；没有核实官方独立定价说明，commercial_status 保留 unknown，而非由开源或可直接下载推定模型/服务完全免费。已看到官方品牌图为非 SVG；未找到可靠第一方品牌 SVG 直链，留 null。 必须连接正在运行的 AiderDesk server；客户端 OS 矩阵未独立核实，因此 platforms 留空，不照搬桌面发行矩阵。 AiderDesk CLI / ACP：版本/形态定位=CLI access to AiderDesk；官方平台限制=Running AiderDesk server; client platform matrix not independently verified；接口=CLI、Agent Client Protocol integration；源代码分类=open-source；许可证=Apache-2.0；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "基于/集成 Aider 的独立 Hotovo 产品；不是既有 Aider CLI 的别名。单列 AiderDesk 并关联 Aider，不合并。许可证确认 Apache-2.0；没有核实官方独立定价说明，commercial_status 保留 unknown，而非由开源或可直接下载推定模型/服务完全免费。已看到官方品牌图为非 SVG；未找到可靠第一方品牌 SVG 直链，留 null。 必须连接正在运行的 AiderDesk server；客户端 OS 矩阵未独立核实，因此 platforms 留空，不照搬桌面发行矩阵。 AiderDesk CLI / ACP：版本/形态定位=CLI access to AiderDesk；官方平台限制=Running AiderDesk server; client platform matrix not independently verified；接口=CLI、Agent Client Protocol integration；源代码分类=open-source；许可证=Apache-2.0；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-11 Logo 核验：保存官方原始 PNG 位图，不转换或冒充 SVG；原始 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/hotovo/aider-desk/discussions/834",
@@ -5693,9 +5789,13 @@
       {
         "url": "https://raw.githubusercontent.com/hotovo/aider-desk/main/LICENSE",
         "title": "该项目采用 Apache-2.0。"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/hotovo/aider-desk/6f9e48a75a0d0acfbc63c302787a767d2dafca53/build/icon.png",
+        "title": "Official project PNG Logo — original raster asset"
       }
     ],
-    "verified_at": "2026-10-09"
+    "verified_at": "2026-10-11"
   },
   "command-code-desktop": {
     "notes": "建议以 Command Code 一条产品记录收录 CLI 和 Desktop beta 两种形态。taste-1 是官方模型/学习能力，不另建同名终端产品；cmd/cmdc 是平台命令别名。公开 issues/installer 仓库不是源码开放证明。未把官网 FAQ 的 free-tier 宣传替代当前详细价格页。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。 Linux 下载仅明确 Debian/Ubuntu .deb；Windows 为 preview。 Command Code Desktop：版本/形态定位=Desktop beta; Windows preview；官方平台限制=macOS、Linux (Debian / Ubuntu .deb)、Windows；接口=desktop GUI、integrated terminal、local browser preview；源代码分类=unknown；许可证=Command Code Terms & Conditions（专有服务许可；应用开发仓库为 private）；商业状态=verified-paid；价格来源=https://commandcode.ai/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
@@ -5728,7 +5828,7 @@
     "verified_at": "2026-10-09"
   },
   "deep-agents-code-cli": {
-    "notes": "建议只新增明确可直接使用的 Deep Agents Code / dcode。候选 DeepAgents 常指同名 SDK/harness；SDK本体不作为最终用户应用新增。旧 Deep Agents CLI 是官方 fork 来源，不作为严格同义别名。无独立应用现价声明，保留未知，不从 MIT 推断运行零成本。官方应用专属 SVG 未核实。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。 dcode 为独立最终用户应用；由 deepagents-cli fork，而非整个 DeepAgents SDK 简单改名。Windows 官方不支持，WSL 仅可尝试，不列为已支持。 Deep Agents Code（dcode）：版本/形态定位=Prebuilt end-user coding agent; distinct from Deep Agents SDK；官方平台限制=macOS / Linux terminal workflow documented、Windows: not officially supported; WSL can be tried；接口=CLI、terminal TUI、headless CLI、ACP editor integration；源代码分类=open-source；许可证=MIT（libs/code/LICENSE）；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "建议只新增明确可直接使用的 Deep Agents Code / dcode。候选 DeepAgents 常指同名 SDK/harness；SDK本体不作为最终用户应用新增。旧 Deep Agents CLI 是官方 fork 来源，不作为严格同义别名。无独立应用现价声明，保留未知，不从 MIT 推断运行零成本。官方应用专属 SVG 未核实。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。 dcode 为独立最终用户应用；由 deepagents-cli fork，而非整个 DeepAgents SDK 简单改名。Windows 官方不支持，WSL 仅可尝试，不列为已支持。 Deep Agents Code（dcode）：版本/形态定位=Prebuilt end-user coding agent; distinct from Deep Agents SDK；官方平台限制=macOS / Linux terminal workflow documented、Windows: not officially supported; WSL can be tried；接口=CLI、terminal TUI、headless CLI、ACP editor integration；源代码分类=open-source；许可证=MIT（libs/code/LICENSE）；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。此标识取自 Deep Agents 官方项目，覆盖 Code 应用。",
     "sources": [
       {
         "url": "https://github.com/langchain-ai/deepagents/blob/main/libs/README.md",
@@ -5761,19 +5861,27 @@
       {
         "url": "https://github.com/langchain-ai/deepagents/blob/main/libs/code/PRICING.md",
         "title": "此文件是第三方模型 cost estimate 配置说明，不是 LangChain 应用订阅价格表；未覆盖模型价格不等于请求免费，所以 commercial_status 留 unknown。"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/langchain-ai/deepagents/4bb4c7fcbf5f2ef65c39ea0134c42555926bd40b/.github/images/logo-light.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-09"
+    "verified_at": "2026-10-11"
   },
   "forgecode-ide": {
-    "notes": "可新增ForgeCode主记录，区分Apache-2.0 CLI、依赖CLI的VS Code辅助扩展、专有的可选ForgeCode Services。旧 antinomyhq/forge 已重定向为 tailcallhq/forgecode，避免重复。价格证据跨2025旧套餐和2026服务免费声明，当前统一价格页未核实，所以所有当前commercial_status保持unknown；不把开源等同于免费。无独立地区发行证据；官方SVG未取得。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。 Services 的官方专有声明保存在 license 与来源解释；受标准字段枚举限制，其 source_classification 记为 unknown，而非声称其开源。 需要已安装 ForgeCode CLI，只提供终端启动/代码引用等集成，不宣称独立内置 Agent runtime。 ForgeCode VS Code companion extension：版本/形态定位=Companion integration; requires ForgeCode CLI；官方平台限制=VS Code 1.102.0+；接口=VS Code extension、integrated terminal launcher、code-reference helper；源代码分类=unknown；许可证=未核实；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "可新增ForgeCode主记录，区分Apache-2.0 CLI、依赖CLI的VS Code辅助扩展、专有的可选ForgeCode Services。旧 antinomyhq/forge 已重定向为 tailcallhq/forgecode，避免重复。价格证据跨2025旧套餐和2026服务免费声明，当前统一价格页未核实，所以所有当前commercial_status保持unknown；不把开源等同于免费。无独立地区发行证据；官方SVG未取得。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。 Services 的官方专有声明保存在 license 与来源解释；受标准字段枚举限制，其 source_classification 记为 unknown，而非声称其开源。 需要已安装 ForgeCode CLI，只提供终端启动/代码引用等集成，不宣称独立内置 Agent runtime。 ForgeCode VS Code companion extension：版本/形态定位=Companion integration; requires ForgeCode CLI；官方平台限制=VS Code 1.102.0+；接口=VS Code extension、integrated terminal launcher、code-reference helper；源代码分类=unknown；许可证=未核实；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://forgecode.dev/docs/vscode-extension/",
         "title": "官方文档核实 ForgeCode.forge-vscode，可生成代码引用及启动集成终端中的ForgeCode，明确依赖CLI；不是独立替代Agent引擎。未核实此扩展独立源码许可，故不从CLI自动继承Apache-2.0。"
+      },
+      {
+        "url": "https://forgecode.dev/shared/brand/favicon-light.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-09"
+    "verified_at": "2026-10-11"
   },
   "moxby-browser": {
     "notes": "独立产品；Chat/Mods/Missions/Bridge 是同一产品功能/形态。应作为浏览器/电脑通用 Agent 收录；免费层不能标成免费 AI Agent，因为 Chat 与自主 Missions 不在免费层。桌面是可选 Bridge/companion，不能把历史整合浏览器 UI 宣传直接变成另一个现行产品。官方 SVG 未取得，保留 null。 核实 Chrome Web Store；Chromium 兼容描述不推定每个浏览器商店单独分发。免费 Mods 不包括 AI Chat/自主 Missions。 Moxby browser extension：版本/形态定位=Free Mods / Plus / Pro / Max；官方平台限制=Chrome / Chromium-based browser (official Chrome Web Store verified)；接口=browser extension、AI chat、browser automation；源代码分类=unknown；许可证=Moxby proprietary Terms of Service；商业状态=verified-paid；价格来源=https://moxby.com/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
@@ -5816,7 +5924,7 @@
     "verified_at": "2026-10-09"
   },
   "neovate-ide": {
-    "notes": "同一项目组织的不同 Agent 产品形态；老 Code Desktop 已归档，新的 Desktop 使用 Claude Code 后端。可收录 Neovate 家族，但需按分发区分 CLI、自有 VS Code 集成、新 Desktop、已归档老 Desktop。新 Desktop 使用 Claude Code，不能声称它就是旧 CLI 的新版 GUI。未找到正式定价页；MIT 不代表模型服务免费。官方站点有 SVG favicon 文件，但未确认其图形对应当前品牌，故产品 SVG 保留 null。 补充发行验证：Neovate Desktop v0.1.2 官方 release 确有 macOS ARM/Intel DMG 和 Windows x64 EXE；README 的 macOS quickstart 仍只属于 source-run/development，不能将两个证据混用。Neovate Assistant 仅 repo-verified，Marketplace 发布未核实。 已核验仓库 extension 包，未声称 Marketplace 已上架或完成安装。 Neovate Assistant VS Code extension (repository-verified)：版本/形态定位=CLI editor integration source package; Marketplace publication not verified；官方平台限制=VS Code >= 1.99.0；接口=IDE extension；源代码分类=open-source；许可证=MIT；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "同一项目组织的不同 Agent 产品形态；老 Code Desktop 已归档，新的 Desktop 使用 Claude Code 后端。可收录 Neovate 家族，但需按分发区分 CLI、自有 VS Code 集成、新 Desktop、已归档老 Desktop。新 Desktop 使用 Claude Code，不能声称它就是旧 CLI 的新版 GUI。未找到正式定价页；MIT 不代表模型服务免费。官方站点有 SVG favicon 文件，但未确认其图形对应当前品牌，故产品 SVG 保留 null。 补充发行验证：Neovate Desktop v0.1.2 官方 release 确有 macOS ARM/Intel DMG 和 Windows x64 EXE；README 的 macOS quickstart 仍只属于 source-run/development，不能将两个证据混用。Neovate Assistant 仅 repo-verified，Marketplace 发布未核实。 已核验仓库 extension 包，未声称 Marketplace 已上架或完成安装。 Neovate Assistant VS Code extension (repository-verified)：版本/形态定位=CLI editor integration source package; Marketplace publication not verified；官方平台限制=VS Code >= 1.99.0；接口=IDE extension；源代码分类=open-source；许可证=MIT；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-11 Logo 核验：保存官方原始 PNG 位图，不转换或冒充 SVG；原始 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://raw.githubusercontent.com/neovateai/neovate-code/master/vscode-extension/package.json",
@@ -5825,12 +5933,16 @@
       {
         "url": "https://raw.githubusercontent.com/neovateai/neovate-code/master/vscode-extension/LICENSE",
         "title": "该 extension 目录独立 LICENSE 明确 MIT。"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/neovateai/neovate-desktop/2230545bad2890f4d5ab77ec0979956fb20e88fe/packages/desktop/build/icons/prod/icon.png",
+        "title": "Official project PNG Logo — original raster asset"
       }
     ],
-    "verified_at": "2026-10-09"
+    "verified_at": "2026-10-11"
   },
   "neovate-desktop": {
-    "notes": "同一项目组织的不同 Agent 产品形态；老 Code Desktop 已归档，新的 Desktop 使用 Claude Code 后端。可收录 Neovate 家族，但需按分发区分 CLI、自有 VS Code 集成、新 Desktop、已归档老 Desktop。新 Desktop 使用 Claude Code，不能声称它就是旧 CLI 的新版 GUI。未找到正式定价页；MIT 不代表模型服务免费。官方站点有 SVG favicon 文件，但未确认其图形对应当前品牌，故产品 SVG 保留 null。 补充发行验证：Neovate Desktop v0.1.2 官方 release 确有 macOS ARM/Intel DMG 和 Windows x64 EXE；README 的 macOS quickstart 仍只属于 source-run/development，不能将两个证据混用。Neovate Assistant 仅 repo-verified，Marketplace 发布未核实。 官方 v0.1.2 发布包含 macOS arm64/x64 DMG、Windows x64 EXE；README 的 macOS + Bun 源码开发流程是另一路径，不能当作唯一分发。当前 README 定位 Claude Code 工作台，其他 Agent 后端仍 coming soon；不与已归档 Neovate Code Desktop 混淆。 Neovate Desktop (published v0.1.2 binaries)：版本/形态定位=published v0.1.2 (2026-04-16); README separately documents macOS source-run development；官方平台限制=macOS arm64 / x64 (published DMG assets)、Windows x64 (published EXE asset)；接口=desktop GUI、integrated editor / terminal / git review；源代码分类=open-source；许可证=MIT；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "同一项目组织的不同 Agent 产品形态；老 Code Desktop 已归档，新的 Desktop 使用 Claude Code 后端。可收录 Neovate 家族，但需按分发区分 CLI、自有 VS Code 集成、新 Desktop、已归档老 Desktop。新 Desktop 使用 Claude Code，不能声称它就是旧 CLI 的新版 GUI。未找到正式定价页；MIT 不代表模型服务免费。官方站点有 SVG favicon 文件，但未确认其图形对应当前品牌，故产品 SVG 保留 null。 补充发行验证：Neovate Desktop v0.1.2 官方 release 确有 macOS ARM/Intel DMG 和 Windows x64 EXE；README 的 macOS quickstart 仍只属于 source-run/development，不能将两个证据混用。Neovate Assistant 仅 repo-verified，Marketplace 发布未核实。 官方 v0.1.2 发布包含 macOS arm64/x64 DMG、Windows x64 EXE；README 的 macOS + Bun 源码开发流程是另一路径，不能当作唯一分发。当前 README 定位 Claude Code 工作台，其他 Agent 后端仍 coming soon；不与已归档 Neovate Code Desktop 混淆。 Neovate Desktop (published v0.1.2 binaries)：版本/形态定位=published v0.1.2 (2026-04-16); README separately documents macOS source-run development；官方平台限制=macOS arm64 / x64 (published DMG assets)、Windows x64 (published EXE asset)；接口=desktop GUI、integrated editor / terminal / git review；源代码分类=open-source；许可证=MIT；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-11 Logo 核验：保存官方原始 PNG 位图，不转换或冒充 SVG；原始 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://github.com/neovateai/neovate-desktop",
@@ -5855,12 +5967,16 @@
       {
         "url": "https://raw.githubusercontent.com/neovateai/neovate-desktop/v0.1.2/LICENSE",
         "title": "发布 tag 的许可证另行读取为 MIT、Ant UED 版权，不只依赖 master。"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/neovateai/neovate-desktop/2230545bad2890f4d5ab77ec0979956fb20e88fe/packages/desktop/build/icons/prod/icon.png",
+        "title": "Official project PNG Logo — original raster asset"
       }
     ],
-    "verified_at": "2026-10-09"
+    "verified_at": "2026-10-11"
   },
   "pochi-cli": {
-    "notes": "独立 AI 编码 Agent；不是 Tabby 代码补全服务器的别名。应收录 AI 编码 Agent，并拆分 IDE 包、CLI/root code 与托管服务许可证及商业模式。重点：IDE 包显式选择保留所有权利的独立 LICENSE.txt，即使官网自称 open-source、repo 根为 Apache，也不能简单将所有发行物标为 Apache。具体托管金额仍待复核。 仅把官方 Homebrew 文档明确的 macOS 列为平台，npm/shell 安装器不自动证明全部 OS。根 Apache-2.0 不覆盖 separately licensed VS Code package。Pochi 独立于既有 Tabby。 Pochi CLI / repository core：版本/形态定位=BYOK; root-licensed repository code；官方平台限制=macOS (Homebrew documented)、npm / shell installer; complete OS matrix not verified；接口=terminal CLI、headless automation；源代码分类=open-source；许可证=Apache-2.0 (repository root; excludes separately licensed VS Code package)；商业状态=unknown；价格来源=未核实。 Pochi managed cloud services：版本/形态定位=optional account-based managed models and collaboration；官方平台限制=Web、connected VS Code / CLI clients；接口=cloud model service、task sharing / team management portal；源代码分类=unknown；许可证=未核实；商业状态=verified-paid；价格来源=https://app.getpochi.com/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 本批未打包官方标识，icon 字段留空；已核实的官方 SVG 来源仅作为资料保留，不提供替代 Logo。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "独立 AI 编码 Agent；不是 Tabby 代码补全服务器的别名。应收录 AI 编码 Agent，并拆分 IDE 包、CLI/root code 与托管服务许可证及商业模式。重点：IDE 包显式选择保留所有权利的独立 LICENSE.txt，即使官网自称 open-source、repo 根为 Apache，也不能简单将所有发行物标为 Apache。具体托管金额仍待复核。 仅把官方 Homebrew 文档明确的 macOS 列为平台，npm/shell 安装器不自动证明全部 OS。根 Apache-2.0 不覆盖 separately licensed VS Code package。Pochi 独立于既有 Tabby。 Pochi CLI / repository core：版本/形态定位=BYOK; root-licensed repository code；官方平台限制=macOS (Homebrew documented)、npm / shell installer; complete OS matrix not verified；接口=terminal CLI、headless automation；源代码分类=open-source；许可证=Apache-2.0 (repository root; excludes separately licensed VS Code package)；商业状态=unknown；价格来源=未核实。 Pochi managed cloud services：版本/形态定位=optional account-based managed models and collaboration；官方平台限制=Web、connected VS Code / CLI clients；接口=cloud model service、task sharing / team management portal；源代码分类=unknown；许可证=未核实；商业状态=verified-paid；价格来源=https://app.getpochi.com/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 本批未打包官方标识，icon 字段留空；已核实的官方 SVG 来源仅作为资料保留，不提供替代 Logo。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://docs.getpochi.com/cli/",
@@ -5889,9 +6005,13 @@
       {
         "url": "https://raw.githubusercontent.com/TabbyML/pochi/main/packages/vscode/assets/icons/pochi-logo.svg",
         "title": "Official product/repository SVG asset; downloaded unmodified and checked for active/raster content"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/TabbyML/pochi/7db5b136fafa2775db2f9b22c8809a05a64617e2/packages/vscode/assets/icons/pochi-logo.svg",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-09"
+    "verified_at": "2026-10-11"
   },
   "reasonix-studio-desktop": {
     "notes": "独立本地编码 Agent；1.x 稳定线与 2.x Studio 开发线并行；不是 DeepSeek 官方产品。可收录，多入口属于一个本地编码 Agent；保留 1.x/2.x 生命周期和平台差异。reasonix.io 官网 GitHub 指向 esengine/DeepSeek-Reasonix；搜索出现的 futureflowtech/reasonix 只是 fork，不能当官方仓库。reasonix.ai / reasonix.net 是另一个咨询/教育产品体系，也不要合并。公开源码 MIT 不证明模型推理免费；未找到产品正式价格表。 发布级补充：1.x desktop-v1.39.8 确有 Mac/Windows/Linux 安装包，现将其与全六目标 CLI 分开；2.x Studio 当前 studio-v2.33.0 release flag 为非 prerelease，仍保留官方 active-development 版本线说明。 studio-v2.33.0 实际发布桌面资产：Mac arm64/amd64、Windows amd64/arm64、Linux amd64。官方发行标记 non-prerelease，但 README 将 2.x 称为 active-development line，保留开发线定位；不声称 Linux ARM64 桌面已发布。 Reasonix Studio 2.x desktop：版本/形态定位=2.x active-development line; published studio-v2.33.0 (non-prerelease release flag)；官方平台限制=macOS arm64 / amd64 (published DMG/ZIP)、Windows amd64 / arm64 (published installers/ZIP)、Linux amd64 (published .deb)；接口=desktop GUI；源代码分类=open-source；许可证=MIT；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
@@ -6022,7 +6142,7 @@
     "verified_at": "2026-10-09"
   },
   "rovo-dev-ide": {
-    "notes": "产品关系：Atlassian Rovo 家族的开发者 Agent；不能因同属 Rovo 而与通用 Rovo 功能直接合并；未来 Rovo CLI 是宣布中的迁移目标。 应纳入编程 Agent，但必须展示 sunset-announced / transitioning 提醒。现有 CLI、IDE、Code Reviewer 仍可运行；不得提前写成已停运或把 2026-12-03 当作终止日。未核实官方 Rovo Dev 本体源码仓库或可单独下载的产品 SVG，保留 null；不借用 ACLI 组件或 Rovo 通用图标的许可/身份。未核实地区可购性或执行安装。 独立 IDE 能力将退役，最终日期待定；当前仍支持，不写已停服。 Rovo Dev IDE：版本/形态定位=Standard; 独立 IDE 能力将退役，日期待定；官方平台限制=Visual Studio Code、VS Code-compatible IDEs (including Cursor)；接口=IDE extension；源代码分类=unknown；许可证=Atlassian Customer Agreement（专有产品/服务条款）；商业状态=verified-paid；价格来源=https://www.atlassian.com/software/rovo-dev/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "产品关系：Atlassian Rovo 家族的开发者 Agent；不能因同属 Rovo 而与通用 Rovo 功能直接合并；未来 Rovo CLI 是宣布中的迁移目标。 应纳入编程 Agent，但必须展示 sunset-announced / transitioning 提醒。现有 CLI、IDE、Code Reviewer 仍可运行；不得提前写成已停运或把 2026-12-03 当作终止日。未核实官方 Rovo Dev 本体源码仓库或可单独下载的产品 SVG，保留 null；不借用 ACLI 组件或 Rovo 通用图标的许可/身份。未核实地区可购性或执行安装。 独立 IDE 能力将退役，最终日期待定；当前仍支持，不写已停服。 Rovo Dev IDE：版本/形态定位=Standard; 独立 IDE 能力将退役，日期待定；官方平台限制=Visual Studio Code、VS Code-compatible IDEs (including Cursor)；接口=IDE extension；源代码分类=unknown；许可证=Atlassian Customer Agreement（专有产品/服务条款）；商业状态=verified-paid；价格来源=https://www.atlassian.com/software/rovo-dev/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://support.atlassian.com/rovo/docs/work-with-rovo-dev-in-the-ide/",
@@ -6039,12 +6159,16 @@
       {
         "url": "https://www.atlassian.com/legal/atlassian-customer-agreement",
         "title": "Atlassian 产品适用客户协议及商业授权限制；未核实 Rovo Dev 产品本体的开源许可证。"
+      },
+      {
+        "url": "https://www.atlassian.com/software/rovo-dev",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-09"
+    "verified_at": "2026-10-11"
   },
   "rovo-dev-reviewer": {
-    "notes": "产品关系：Atlassian Rovo 家族的开发者 Agent；不能因同属 Rovo 而与通用 Rovo 功能直接合并；未来 Rovo CLI 是宣布中的迁移目标。 应纳入编程 Agent，但必须展示 sunset-announced / transitioning 提醒。现有 CLI、IDE、Code Reviewer 仍可运行；不得提前写成已停运或把 2026-12-03 当作终止日。未核实官方 Rovo Dev 本体源码仓库或可单独下载的产品 SVG，保留 null；不借用 ACLI 组件或 Rovo 通用图标的许可/身份。未核实地区可购性或执行安装。 托管 PR 审查适用于 GitHub/Bitbucket Cloud；2026-12-03 计划切换 Rovo Credits 计费，不是服务结束日。 Rovo Dev Code Reviewer：版本/形态定位=Rovo Dev Standard / eligible Jira-TWC transition；官方平台限制=Bitbucket Cloud、GitHub；接口=cloud pull-request review；源代码分类=unknown；许可证=Atlassian Customer Agreement（专有产品/服务条款）；商业状态=verified-paid；价格来源=https://www.atlassian.com/software/rovo-dev/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "产品关系：Atlassian Rovo 家族的开发者 Agent；不能因同属 Rovo 而与通用 Rovo 功能直接合并；未来 Rovo CLI 是宣布中的迁移目标。 应纳入编程 Agent，但必须展示 sunset-announced / transitioning 提醒。现有 CLI、IDE、Code Reviewer 仍可运行；不得提前写成已停运或把 2026-12-03 当作终止日。未核实官方 Rovo Dev 本体源码仓库或可单独下载的产品 SVG，保留 null；不借用 ACLI 组件或 Rovo 通用图标的许可/身份。未核实地区可购性或执行安装。 托管 PR 审查适用于 GitHub/Bitbucket Cloud；2026-12-03 计划切换 Rovo Credits 计费，不是服务结束日。 Rovo Dev Code Reviewer：版本/形态定位=Rovo Dev Standard / eligible Jira-TWC transition；官方平台限制=Bitbucket Cloud、GitHub；接口=cloud pull-request review；源代码分类=unknown；许可证=Atlassian Customer Agreement（专有产品/服务条款）；商业状态=verified-paid；价格来源=https://www.atlassian.com/software/rovo-dev/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
     "sources": [
       {
         "url": "https://www.atlassian.com/software/rovo-dev/pricing",
@@ -6061,8 +6185,12 @@
       {
         "url": "https://support.atlassian.com/subscriptions-and-billing/docs/how-billing-works-for-rovo-dev-standard/",
         "title": "Rovo Dev Free 是付费 Jira 套餐附带额度，不是无条件独立免费产品；文档列每用户每月 350 credits，Standard 为 2,000。"
+      },
+      {
+        "url": "https://www.atlassian.com/software/rovo-dev",
+        "title": "SVG Logo — official brand asset"
       }
     ],
-    "verified_at": "2026-10-09"
+    "verified_at": "2026-10-11"
   }
 }

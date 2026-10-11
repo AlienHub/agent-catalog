@@ -11,7 +11,7 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, 321);
   assert.equal(catalog.catalogMeta.productCount, 190);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.13');
+  assert.equal(catalog.catalogMeta.dataVersion, '0.14');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
@@ -52,7 +52,7 @@ test('filters AND across fields, OR within arrays, and handle empty arrays', () 
   assert.deepEqual(catalog.findApps({ vendorId: 'openai', interface: 'CLI' }), expected);
   assert.deepEqual(catalog.findApps({ productId: ['codex','chatgpt'] }), raw.filter(app => ['codex','chatgpt'].includes(app.product_id)));
   assert.equal(catalog.findApps({ productId: [] }).length, 0);
-  assert.deepEqual(catalog.findApps({ hasSvg: false }), raw.filter(app => !app.icon));
+  assert.deepEqual(catalog.findApps({ hasSvg: false }), raw.filter(app => !app.icon.endsWith('.svg')));
   const app = raw[0];
   assert(catalog.findApps({ type: app.type, platform: app.platforms[0] }).some(item => item.id === app.id));
 });
@@ -85,7 +85,7 @@ test('collections and evidence preserve exact provenance and unknown-key behavio
 test('all SVG lookups are bundled and portable, with explicit absence', async () => {
   for (const app of raw) {
     const icon = icons.getAppIcon(app.id);
-    if (!app.icon) { assert.equal(icon, undefined); continue; }
+    if (!app.icon.endsWith('.svg')) { assert.equal(icon, undefined); continue; }
     assert(Object.isFrozen(icon));
     assert.equal(icon.path, app.icon);
     assert.equal(icon.svg, await readFile(new URL(`../assets/${app.icon}`, import.meta.url), 'utf8'));
@@ -153,8 +153,32 @@ test('display names omit form suffixes and China editions use CN', () => {
 });
 
 test('edition field is removed from records and schema', () => {
- assert.equal(catalog.catalogMeta.schemaVersion,4);
+ assert.equal(catalog.catalogMeta.schemaVersion,5);
  assert(catalog.apps.every(a=>!Object.hasOwn(a,'edition')));
  assert(!catalog.schema.items.required.includes('edition'));
  assert(!Object.hasOwn(catalog.schema.items.properties,'edition'));
+});
+
+test('coding logo assets retain verified hashes and provenance across application forms', async () => {
+ const { createHash } = await import('node:crypto');
+ const review = JSON.parse(await readFile(new URL('../docs/research/coding-logo-assets-2026-10-11.json', import.meta.url)));
+ for (const asset of review.assets) {
+  const bytes = await readFile(new URL(`../assets/${asset.path}`, import.meta.url));
+  assert.equal(createHash('sha256').update(bytes).digest('hex'), asset.sha256, asset.path);
+  for (const id of asset.application_ids) {
+   assert.equal(catalog.getApp(id).icon, asset.path, id);
+   assert(catalog.getEvidence(id).sources.some(source => source.url === asset.url), id);
+   const logo = icons.getAppLogo(id);
+   assert.equal(logo.format, asset.format);
+   if (asset.format === 'SVG') assert.equal(icons.getAppIcon(id).svg, bytes.toString(), id);
+   else {
+    assert.equal(icons.getAppIcon(id), undefined);
+    assert.equal(icons.getIconSvg(asset.path), undefined);
+    assert.equal(logo.mimeType, 'image/png');
+    assert(Buffer.from(logo.dataUri.split(',')[1], 'base64').equals(bytes));
+    assert(!catalog.findApps({hasSvg:true}).some(app => app.id === id));
+    assert(catalog.getApp(id).svg_status.includes('PNG 位图'));
+   }
+  }
+ }
 });

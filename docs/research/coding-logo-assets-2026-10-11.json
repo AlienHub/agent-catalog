@@ -1,0 +1,237 @@
+{
+  "verified_at": "2026-10-11",
+  "assets": [
+    {
+      "product_id": "kilo-code",
+      "url": "https://raw.githubusercontent.com/Kilo-Org/kilocode/fb7e96eda5409517a05948b9efaf01c53997bf6e/packages/kilo-console/public/favicon.svg",
+      "sha256": "0e8115fe04e4bb07a2122cb66ddc718a7cdfb18fdcfa020bf5dfb51fd92d75e9",
+      "bytes": 686,
+      "path": "icons/kilo-code.svg",
+      "application_ids": [
+        "kilo-code-cli",
+        "kilo-code-ide"
+      ],
+      "format": "SVG"
+    },
+    {
+      "product_id": "roo-code",
+      "url": "https://raw.githubusercontent.com/RooCodeInc/Roo-Code/b867ec9145750d0ae1ff7f02d35406e9bf2a0b16/src/assets/images/roo-logo.svg",
+      "sha256": "7cc42aa7092860c21944b854aa8e0f495d37f895c973b0b1655f5d3ca41b1f47",
+      "bytes": 1189,
+      "path": "icons/roo-code.svg",
+      "application_ids": [
+        "roo-code-vscode"
+      ],
+      "format": "SVG"
+    },
+    {
+      "product_id": "open-interpreter",
+      "url": "https://raw.githubusercontent.com/openinterpreter/openinterpreter/ac1fcc8fe57aba51fcc3c79afd57a0883237fe87/logo/light.svg",
+      "sha256": "5f56263893987bd512b9a0053a6e0ae9f18b3980e54b75b3e657f26724e860ad",
+      "bytes": 186,
+      "path": "icons/open-interpreter.svg",
+      "application_ids": [
+        "open-interpreter-cli"
+      ],
+      "format": "SVG"
+    },
+    {
+      "product_id": "deepagents-code",
+      "url": "https://raw.githubusercontent.com/langchain-ai/deepagents/4bb4c7fcbf5f2ef65c39ea0134c42555926bd40b/.github/images/logo-light.svg",
+      "sha256": "dd6d676149c64df2af80fa24c6c34d1511d6fab1f6012ff61b6acd7dbd000e7f",
+      "bytes": 5196,
+      "path": "icons/deepagents-code.svg",
+      "application_ids": [
+        "deepagents-cli",
+        "deep-agents-code-cli"
+      ],
+      "format": "SVG"
+    },
+    {
+      "product_id": "xum",
+      "url": "https://raw.githubusercontent.com/coder/mux/529ff4d7d2faac911a78e52f50b36c1e7bf0415f/src/browser/assets/icons/xum.svg",
+      "sha256": "8528d81ab7202639f4e78b8186b6a12964f46be4098a7a5d260f0803b454ef0d",
+      "bytes": 1408,
+      "path": "icons/xum.svg",
+      "application_ids": [
+        "xum-desktop"
+      ],
+      "format": "SVG"
+    },
+    {
+      "product_id": "pochi",
+      "url": "https://raw.githubusercontent.com/TabbyML/pochi/7db5b136fafa2775db2f9b22c8809a05a64617e2/packages/vscode/assets/icons/pochi-logo.svg",
+      "sha256": "c86feb8c1f51854bff1f70df2913d975d5fe7e0435a5baf62f46727400ef1603",
+      "bytes": 23693,
+      "path": "icons/pochi.svg",
+      "application_ids": [
+        "pochi-vscode",
+        "pochi-cli"
+      ],
+      "format": "SVG"
+    },
+    {
+      "product_id": "pi",
+      "url": "https://pi.dev/logo-auto.svg",
+      "sha256": "abd66e7868b2d24f0f0895f9237ee8a6dcb22337583b0dc54aeb595acecb4d6b",
+      "bytes": 334,
+      "path": "icons/pi.svg",
+      "application_ids": [
+        "pi-cli"
+      ],
+      "format": "SVG"
+    },
+    {
+      "product_id": "lingcode",
+      "url": "https://lingcode.dev/favicon.svg",
+      "sha256": "12d193789a63171163cd5f7a8f9c83ce626bde602da71c29629997613ed23754",
+      "bytes": 506,
+      "path": "icons/lingcode.svg",
+      "application_ids": [
+        "lingcode-desktop",
+        "lingcode-cli",
+        "lingcode-web"
+      ],
+      "format": "SVG"
+    },
+    {
+      "product_id": "firebender",
+      "url": "https://firebender.com/icon.svg",
+      "sha256": "1c46ee9e48dcde0fd3aa8c5040bae0dac9f291a4e57ac93d9b8ad0c21da28eca",
+      "bytes": 1313,
+      "path": "icons/firebender.svg",
+      "application_ids": [
+        "firebender-ide"
+      ],
+      "format": "SVG"
+    },
+    {
+      "product_id": "syncfusion-codestudio",
+      "url": "https://www.syncfusion.com/code-studio/wp-content/uploads/2025/06/code-studio-logo-v3.svg",
+      "sha256": "05776be74b4f7e17637645d1d5521024612a2bbf4d6cb9ea03b8fe504044b856",
+      "bytes": 22138,
+      "path": "icons/syncfusion-codestudio.svg",
+      "application_ids": [
+        "syncfusion-codestudio"
+      ],
+      "format": "SVG"
+    },
+    {
+      "product_id": "vscode",
+      "url": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/vscode.svg",
+      "sha256": "0c3dbeed85a5881f0e778a941f6033b8b42022587187f1e23e6f1c31a91ed3a0",
+      "bytes": 3345,
+      "path": "icons/vscode.svg",
+      "application_ids": [
+        "vscode-desktop"
+      ],
+      "format": "SVG"
+    },
+    {
+      "product_id": "rovo-dev",
+      "url": "https://www.atlassian.com/software/rovo-dev",
+      "sha256": "8425d4fc40aee152093368a935080428c8048eb1d9bd655f56649606ca2dfb72",
+      "bytes": 4078,
+      "extraction": "Original inline SVG in navigation link aria-label RovoDev; no path edits.",
+      "path": "icons/rovo-dev.svg",
+      "application_ids": [
+        "rovo-dev-cli",
+        "rovo-dev-ide",
+        "rovo-dev-reviewer"
+      ],
+      "format": "SVG"
+    },
+    {
+      "product_id": "forgecode",
+      "url": "https://forgecode.dev/shared/brand/favicon-light.svg",
+      "sha256": "7ae30708ce18b5ce97164aecd686104058b7c4936743e124682864657a39fca9",
+      "bytes": 1331,
+      "path": "icons/forgecode.svg",
+      "application_ids": [
+        "forgecode-cli",
+        "forgecode-ide"
+      ],
+      "format": "SVG"
+    },
+    {
+      "product_id": "jetbrains-ai",
+      "url": "https://resources.jetbrains.com/storage/products/company/brand/logos/AI.svg",
+      "sha256": "0769c13117c78fbd1897aedb4e5b43c6933a259bfdb295caf05712d05831c951",
+      "bytes": 10040,
+      "path": "icons/jetbrains-ai.svg",
+      "application_ids": [
+        "jetbrains-ai"
+      ],
+      "format": "SVG"
+    },
+    {
+      "product_id": "plandex",
+      "url": "https://raw.githubusercontent.com/plandex-ai/plandex/e2d772072efadbe41d2946d97d79be55532dbab5/images/plandex-logo-thumb.png",
+      "sha256": "c4e34922108f7b18984ecc9939413bf94e5f5ba4185eb7348996f088a7422d5a",
+      "bytes": 138949,
+      "format": "PNG",
+      "width": 600,
+      "height": 600,
+      "path": "icons/plandex.png",
+      "application_ids": [
+        "plandex-cli"
+      ]
+    },
+    {
+      "product_id": "monkeycode",
+      "url": "https://raw.githubusercontent.com/chaitin/MonkeyCode/3aab1fdbcca48c8fbc09ae5f38e0eea899ea4a56/frontend/public/logo-colored.png",
+      "sha256": "7d077296eaa9526fdc9a168c7e1ccd34fc20658c69e166ad03b84026b3b16b4c",
+      "bytes": 83835,
+      "format": "PNG",
+      "width": 750,
+      "height": 750,
+      "path": "icons/monkeycode.png",
+      "application_ids": [
+        "monkeycode-web",
+        "monkeycode-work-desktop"
+      ]
+    },
+    {
+      "product_id": "aider-desk",
+      "url": "https://raw.githubusercontent.com/hotovo/aider-desk/6f9e48a75a0d0acfbc63c302787a767d2dafca53/build/icon.png",
+      "sha256": "5154bb7bfefbe1b93fe94fbc44de529ee59b5b7ceb07dc60b9d748c7857efbc1",
+      "bytes": 382095,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "path": "icons/aider-desk.png",
+      "application_ids": [
+        "aider-desk-desktop",
+        "aiderdesk-cli"
+      ]
+    },
+    {
+      "product_id": "crush",
+      "url": "https://raw.githubusercontent.com/charmbracelet/crush/df5b024a929d2eb88b308d0288d97130a90e0c15/internal/ui/notification/crush-icon-solo.png",
+      "sha256": "a41177d5afbdbc6838526d0a1b62076a686a18d2949e262eb405a2142dd082f2",
+      "bytes": 55448,
+      "format": "PNG",
+      "width": 512,
+      "height": 512,
+      "path": "icons/crush.png",
+      "application_ids": [
+        "crush-cli"
+      ]
+    },
+    {
+      "product_id": "neovate",
+      "url": "https://raw.githubusercontent.com/neovateai/neovate-desktop/2230545bad2890f4d5ab77ec0979956fb20e88fe/packages/desktop/build/icons/prod/icon.png",
+      "sha256": "773c9d526f4b7ef96c96d79c3f106360a5d1c2866845d595500fff5ec29e265f",
+      "bytes": 244297,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "path": "icons/neovate.png",
+      "application_ids": [
+        "neovate-cli",
+        "neovate-ide",
+        "neovate-desktop"
+      ]
+    }
+  ]
+}

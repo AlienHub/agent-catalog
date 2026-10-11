@@ -37,7 +37,8 @@ export async function validateData() {
       }
     }
     if (app.icon) {
-      assert(/^icons\/[a-z0-9-]+\.svg$/.test(app.icon), `Nonportable SVG path: ${app.icon}`);
+      assert(/^icons\/[a-z0-9-]+\.(?:svg|png)$/.test(app.icon), `Nonportable Logo path: ${app.icon}`);
+      if (app.icon.endsWith('.png')) assert(app.svg_status.includes('PNG') && app.svg_status.includes('未收录 SVG'), `PNG format status: ${app.id}`);
       iconPaths.add(app.icon);
     }
     assert(Object.hasOwn(evidence, app.id), `Missing evidence: ${app.id}`);
@@ -56,23 +57,34 @@ export async function validateData() {
     assert.equal(new Set(members).size, members.length, `Duplicate collection IDs: ${name}`);
     for (const id of members) assert(ids.has(id), `Unknown collection ID: ${name}/${id}`);
   }
-  const svgs = {};
+  const svgs = {}; const pngs = {};
   for (const path of [...iconPaths].sort()) {
-    const svg = await readFile(resolve(root, 'assets', path), 'utf8');
+    const bytes = await readFile(resolve(root, 'assets', path));
+    if (path.endsWith('.png')) {
+      assert(bytes.length >= 45 && bytes.length <= 5 * 1024 * 1024, `PNG size: ${path}`);
+      assert(bytes.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10])), `PNG signature: ${path}`);
+      assert.equal(bytes.toString('ascii',12,16), 'IHDR', `PNG header: ${path}`);
+      assert.equal(bytes.readUInt32BE(8), 13, `PNG IHDR length: ${path}`);
+      assert(bytes.readUInt32BE(16) > 0 && bytes.readUInt32BE(16) <= 16384 && bytes.readUInt32BE(20) > 0 && bytes.readUInt32BE(20) <= 16384, `PNG dimensions: ${path}`);
+      assert(bytes.subarray(-12).equals(Buffer.from([0,0,0,0,73,69,78,68,174,66,96,130])), `PNG end: ${path}`);
+      pngs[path] = `data:image/png;base64,${bytes.toString('base64')}`;
+      continue;
+    }
+    const svg = bytes.toString('utf8');
     assert(/<svg\b/i.test(svg) && /<\/svg\s*>/i.test(svg), `Not an SVG: ${path}`);
     assert(!/<(?:script|foreignObject|image|iframe|object|embed)\b|\bon[a-z]+\s*=|<!ENTITY/i.test(svg), `Active or raster content: ${path}`);
     for (const match of svg.matchAll(/\b(?:href|xlink:href)\s*=\s*["']([^"']*)["']/gi)) assert(match[1].startsWith('#'), `External resource: ${path}`);
     for (const match of svg.matchAll(/\burl\(([^)]*)\)/gi)) assert(/^(?:#|data:font\/truetype;charset=utf-8;base64,)/.test(match[1].trim().replace(/^["']|["']$/g, '')), `External CSS resource: ${path}`);
     svgs[path] = svg;
   }
-  assert.deepEqual((await readdir(resolve(root, 'assets/icons'))).filter(name => name.endsWith('.svg')).sort(), [...iconPaths].map(path => path.slice(6)).sort(), 'Unreferenced or missing SVG assets');
+  assert.deepEqual((await readdir(resolve(root, 'assets/icons'))).filter(name => /\.(svg|png)$/.test(name)).sort(), [...iconPaths].map(path => path.slice(6)).sort(), 'Unreferenced or missing Logo assets');
   assert(Number.isInteger(metadata.schemaVersion) && typeof metadata.dataVersion === 'string');
   assert(/^\d{4}-\d{2}-\d{2}$/.test(metadata.snapshotDate));
   await validateOpenSource(apps);
   await validateCommercial(apps);
-  return { apps, evidence, collections, metadata, svgs };
+  return { apps, evidence, collections, metadata, svgs, pngs };
 }
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  const { apps, svgs } = await validateData();
-  console.log(`Validated ${apps.length} records, ${new Set(apps.map(app => app.product_id)).size} products, ${Object.keys(svgs).length} SVG assets`);
+  const { apps, svgs, pngs } = await validateData();
+  console.log(`Validated ${apps.length} records, ${new Set(apps.map(app => app.product_id)).size} products, ${Object.keys(svgs).length} SVG / ${Object.keys(pngs).length} PNG assets`);
 }

@@ -8,7 +8,7 @@ export interface CatalogApp {
   readonly type: string;
   readonly website: string;
   readonly platforms: readonly string[];
-  /** Relative path to a bundled real SVG, or empty when no verified SVG exists. */
+  /** Relative path to a bundled original SVG or PNG, or empty when no verified Logo exists. */
   readonly icon: string;
   readonly vendor_id: string;
   readonly product_id: string;

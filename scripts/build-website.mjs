@@ -44,12 +44,12 @@ const notices = await readFile(path.join(root, 'THIRD_PARTY_NOTICES.md'), 'utf8'
 const licenseFiles = (await readdir(licenses)).filter((filename) => filename.endsWith('.txt')).sort();
 if (licenseFiles.length === 0) throw new Error('Original third-party license texts are missing');
 const iconFiles = (await readdir(path.join(root, 'assets', 'icons')))
-  .filter((filename) => filename.endsWith('.svg'))
+  .filter((filename) => /\.(svg|png)$/.test(filename))
   .sort();
 const availableIcons = new Set(iconFiles.map((filename) => `icons/${filename}`));
 for (const app of data['dataset.json']) {
   if (app.icon && !availableIcons.has(app.icon)) {
-    throw new Error(`Missing SVG for ${app.id}: ${app.icon}`);
+    throw new Error(`Missing Logo for ${app.id}: ${app.icon}`);
   }
 }
 
@@ -81,4 +81,4 @@ const zipNames = [...dataFiles, 'dataset.csv', 'open-source.csv', 'THIRD_PARTY_N
 const zipEntries = await Promise.all(zipNames.map(async name => ({ name, bytes: await readFile(path.join(output, name)) })));
 const zipName = `agent-atlas-v${metadata.dataVersion}.zip`;
 await writeFile(path.join(output, zipName), createZip(zipEntries, metadata.snapshotDate));
-console.log(`Built website-dist: ${data['dataset.json'].length} records, ${iconFiles.length} SVGs, ${licenseFiles.length} license texts, ${zipName}`);
+console.log(`Built website-dist: ${data['dataset.json'].length} records, ${iconFiles.length} Logo assets, ${licenseFiles.length} license texts, ${zipName}`);

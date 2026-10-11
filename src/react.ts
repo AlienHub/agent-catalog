@@ -1,17 +1,17 @@
 import { createElement, type ImgHTMLAttributes, type ReactElement, type ReactNode } from 'react';
 import { getApp } from './index.js';
-import { getAppIcon } from './icons.js';
+import { getAppLogo } from './icons.js';
 export interface AppIconProps extends Omit<ImgHTMLAttributes<HTMLImageElement>, 'src' | 'width' | 'height' | 'children'> {
   readonly appId: string;
   readonly size?: number | string;
   readonly decorative?: boolean;
-  /** Missing/unknown SVG: undefined uses a text initial; null renders nothing. */
+  /** Missing/unknown Logo: undefined uses a text initial; null renders nothing. */
   readonly fallback?: ReactNode;
 }
-/** Renders trusted bundled SVG through <img>, never arbitrary inner HTML. SSR-safe. */
+/** Renders trusted bundled SVG or PNG through <img>, never arbitrary inner HTML. SSR-safe. */
 export function AppIcon({ appId, size = 24, decorative = false, fallback, alt, title, style, ...props }: AppIconProps): ReactElement | null {
   const app = getApp(appId);
-  const asset = getAppIcon(appId);
+  const asset = getAppLogo(appId);
   const label = decorative ? '' : (alt ?? title ?? (app ? `${app.name} 图标` : appId));
   if (asset) return createElement('img', {
     ...props,

@@ -35,3 +35,10 @@ test('CommonJS React entry renders identically', () => {
   const props = { appId: 'chatgpt', loading: 'lazy' };
   assert.equal(renderToStaticMarkup(createElement(cjs.AppIcon, props)), render(props));
 });
+
+test('React renders bundled PNG with its real MIME type rather than a SVG fallback', () => {
+ const html = renderToStaticMarkup(createElement(AppIcon, { appId: 'crush-cli' }));
+ assert(html.includes('src="data:image/png;base64,'));
+ assert(html.includes('alt="Crush 图标"'));
+ assert(!html.includes('data-icon-fallback'));
+});

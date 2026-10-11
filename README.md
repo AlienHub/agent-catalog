@@ -1,11 +1,11 @@
 # Agent Atlas
 
-供项目复用的私有 AI 应用目录：一份规范数据源，一个 `@alienhub/agent-atlas` 包，按需使用核心查询、React 图标组件和 SVG 资源。
+供项目复用的私有 AI 应用目录：一份规范数据源，一个 `@alienhub/agent-atlas` 包，按需使用核心查询、React 图标组件和 SVG/PNG 资源。
 
 - **核心入口**：结构化元数据、筛选、搜索、来源与集合查询；零运行时依赖，不依赖 React
-- **`/icons`**：按应用 ID 获取真实 SVG、Data URI 和原始资源路径
+- **`/icons`**：按应用 ID 获取 SVG/PNG Logo、Data URI 和原始资源路径；SVG 专用查询保持兼容
 - **`/react`**：React 18 / 19 的 `AppIcon`，自带缺失图标回退
-- **原始资源**：JSON 与 SVG 子路径导出，便于其他工具链复用
+- **原始资源**：JSON 与 SVG/PNG 子路径导出，便于其他工具链复用
 - **`website/`**：静态浏览界面源码，构建时读取同一份 `data/` 与 `assets/icons/`
 
 仓库：[AlienHub/agent-catalog](https://github.com/AlienHub/agent-catalog)。私有仓库访问权限不等于第三方品牌素材授权，详见 [第三方声明](./THIRD_PARTY_NOTICES.md)。
@@ -127,7 +127,7 @@ if (firstPath) {
 }
 ```
 
-未知应用或没有可靠 SVG 的应用，`getAppIcon()` 返回 `undefined`。不要将元数据中的相对 `icon` 路径直接当作你的站点已部署 URL；可使用 `dataUri`，或通过构建工具将原始 SVG 发布到自己的资源目录。使用 Data URI 时，站点的内容安全策略需要允许相应的 `img-src data:`。
+未知应用或没有可靠 SVG 的应用，`getAppIcon()` 返回 `undefined`。读取两种格式请使用 `getAppLogo(appId)`，返回 `{ appId, path, format, mimeType, dataUri }`；`format` 明确为 `SVG` 或 `PNG`。不要将元数据中的相对 `icon` 路径直接当作你的站点已部署 URL；可使用 `dataUri`，或通过构建工具将原始 SVG 发布到自己的资源目录。使用 Data URI 时，站点的内容安全策略需要允许相应的 `img-src data:`。
 
 ### React
 
@@ -146,9 +146,9 @@ export function Example() {
 }
 ```
 
-`AppIcon` 接受 `appId`、`size`（默认 `24`）、`alt`、`title`、`decorative`（默认 `false`）及 `fallback`。缺失 SVG 时默认显示文本首字占位，不生成或冒充官方 Logo；可传入自定义 React 节点，或用 `fallback={null}` 隐藏缺失图标。图标仅装饰旁边已有的文字时可使用 `decorative`。
+`AppIcon` 接受 `appId`、`size`（默认 `24`）、`alt`、`title`、`decorative`（默认 `false`）及 `fallback`。缺失 SVG 和 PNG Logo 时默认显示文本首字占位，不生成或冒充官方 Logo；可传入自定义 React 节点，或用 `fallback={null}` 隐藏缺失图标。图标仅装饰旁边已有的文字时可使用 `decorative`。
 
-## 原始数据与 SVG 子路径
+## 原始数据与 SVG/PNG 子路径
 
 公开包入口包含：
 
@@ -162,6 +162,7 @@ export function Example() {
 @alienhub/agent-atlas/collections.json
 @alienhub/agent-atlas/metadata.json
 @alienhub/agent-atlas/icons/<filename>.svg
+@alienhub/agent-atlas/icons/<filename>.png
 ```
 
 支持 JSON import attributes 的运行时可直接加载 JSON：
@@ -174,13 +175,13 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.13（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.14（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
 - `interfaces` 只允许 GUI、CLI、IDE 插件、Web、浏览器插件、小程序，且每条记录只有一个值；每个形态独立定义为应用并拥有独立 `id`。`product_id` 关联产品，`platforms` 描述该应用支持系统。浏览器插件和小程序各自独立分类；钉钉内嵌 AI 能力归 GUI；IM 是接入渠道，不单独计为应用。
 - `evidence.json` 中的 `sources`、`notes` 和 `verified_at` 保留来源、核验日期及例外说明；官网资料核对不代表安装或运行测试
-- 缺失可靠 SVG 的记录保留空 `icon` 与相应 `svg_status`；不能用位图改后缀或猜测的图形补齐
+- 缺失可靠 Logo 的记录保留空 `icon`；PNG 保留 `.png` 后缀并在 `svg_status` 标注位图及 SVG 缺失；不能用位图改后缀或猜测的图形补齐
 - 这是版本化快照，不是实时服务状态；维护时需复核来源，保留停服、迁移或未确认事项的说明
 
 ## 本地开发与网站构建
@@ -192,7 +193,7 @@ npm run verify
 npm run build:website
 ```
 
-`npm run build:website` 从 `website/` 读取界面源码，直接复制规范的 JSON、SVG 和原始许可文本，输出到 `website-dist/`。同时从这些规范源文件生成完整数据 ZIP 与 CSV，保留页面的整包下载功能。它不会从旧站点或旧 ZIP 重新导入数据，也不会自动发布网站。
+`npm run build:website` 从 `website/` 读取界面源码，直接复制规范的 JSON、SVG/PNG 和原始许可文本，输出到 `website-dist/`。同时从这些规范源文件生成完整数据 ZIP 与 CSV，保留页面的整包下载功能。它不会从旧站点或旧 ZIP 重新导入数据，也不会自动发布网站。
 
 预览构建结果：
 
@@ -204,7 +205,7 @@ python3 -m http.server 4173 --directory website-dist
 
 ```text
 data/                  规范 JSON 数据、来源、集合和原始 Schema
-assets/icons/          原始 SVG 文件
+assets/icons/          原始 SVG/PNG 文件
 src/                   核心查询、图标入口和 React 组件源码
 licenses/              随附原始第三方许可文本
 website/               静态站点源码，不含数据副本
@@ -333,3 +334,9 @@ Schema v4 删除 `edition` 字段，SDK 的 `CatalogApp`、`CatalogFilters` 同�
 修正Pochi IDE的包级许可（保留所有权利），不套用仓库根Apache-2.0；补充DeepSeek Harness、MonkeyCode等具体分发的源码证据。已有QoderWake、AiderDesk、TRAE、Zencoder和Pochi记录复用稳定ID；Reasonix CLI/Web不同版本线不重复建记录。移动端和待审候选不进入主目录。
 
 [完整吸收映射](docs/research/pr-1-absorption-2026-10-11.json)与[原始研究归档](docs/research/pr-1-2026-10-09/README.md)保留候选、历史版本线、暂缓原因及素材来源，归档不参与网站/SDK生成。
+
+## v0.14 编程工具品牌素材
+
+补充 14 个 SVG Logo，包含 Kilo Code、Roo Code、JetBrains AI Assistant、Pi、Pochi、ForgeCode、Deep Agents、Rovo Dev、VS Code 等。来源与原始哈希见 [素材清单](docs/research/coding-logo-assets-2026-10-11.json)，剩余缺失项与原因见 [核验报告](docs/research/coding-logo-audit-2026-10-11.md)。
+
+本版本也支持官方原始 PNG，补充 Plandex、MonkeyCode、AiderDesk、Crush、Neovate 5 个 PNG。卡片、下载与数据明确标注 PNG；`hasSvg`、SVG 计数和 `getAppIcon` 仍只针对 SVG，`getAppLogo` 与 React `AppIcon` 支持 SVG/PNG。PNG 原始文件通过 `@alienhub/agent-atlas/icons/*.png` 导出。Schema 版本为 5，数据字段不变。

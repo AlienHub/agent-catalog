@@ -184,3 +184,18 @@ test('edition labels, filter, detail field and CSV column are removed', async ()
   await t.click('schemaButton');assert(!t.$('fields').textContent.includes('edition'));
  }finally{t.dom.window.close()}
 });
+
+test('PNG logos show the original format in cards and details and remain outside SVG-only results', async () => {
+ const t=await setup();try{
+  assert.equal(Number(t.$('svgCount').textContent),new Set(apps.filter(a=>a.icon.endsWith('.svg')).map(a=>a.product_id)).size);
+  await t.change('search','crush-cli');assert.equal(t.count(),1);
+  const link=t.w.document.querySelector('.assetlink');
+  assert.equal(link.textContent,'↓ PNG');assert.equal(link.getAttribute('href'),'icons/crush.png');assert.equal(link.download,'crush-cli.png');
+  assert.equal(t.w.document.querySelector('article img').getAttribute('src'),'icons/crush.png');
+  await t.click(t.w.document.querySelector('.appname'));
+  const download=t.w.document.querySelector('.detailactions a[download]');
+  assert.equal(download.textContent,'下载 PNG Logo');assert.equal(download.download,'crush-cli.png');
+  assert(t.w.document.querySelector('dialog[open]').textContent.includes('PNG 位图'));
+  await t.click('svgOnly');assert.equal(t.count(),0);
+ }finally{t.dom.window.close()}
+});

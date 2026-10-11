@@ -2070,13 +2070,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/jetbrains-ai.svg",
     "vendor_id": "jetbrains",
     "product_id": "jetbrains-ai",
     "interfaces": [
       "IDE 插件"
     ],
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -5380,10 +5380,10 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/kilo-code.svg",
     "vendor_id": "kilo-code",
     "product_id": "kilo-code",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "interfaces": [
       "CLI"
     ],
@@ -5404,10 +5404,10 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/kilo-code.svg",
     "vendor_id": "kilo-code",
     "product_id": "kilo-code",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "interfaces": [
       "IDE 插件"
     ],
@@ -5429,10 +5429,10 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/pi.svg",
     "vendor_id": "earendil-works",
     "product_id": "pi",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "interfaces": [
       "CLI"
     ],
@@ -5563,10 +5563,10 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/open-interpreter.svg",
     "vendor_id": "open-interpreter",
     "product_id": "open-interpreter",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "interfaces": [
       "CLI"
     ],
@@ -5755,10 +5755,10 @@
       "Linux",
       "Windows（WSL）"
     ],
-    "icon": "",
+    "icon": "icons/plandex.png",
     "vendor_id": "plandex",
     "product_id": "plandex",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "interfaces": [
       "CLI"
     ],
@@ -5859,13 +5859,13 @@
     "platforms": [
       "macOS"
     ],
-    "icon": "",
+    "icon": "icons/lingcode.svg",
     "vendor_id": "lingcode",
     "product_id": "lingcode",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -5881,13 +5881,13 @@
       "Linux",
       "Windows"
     ],
-    "icon": "",
+    "icon": "icons/lingcode.svg",
     "vendor_id": "lingcode",
     "product_id": "lingcode",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -5901,13 +5901,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/monkeycode.png",
     "vendor_id": "chaitin",
     "product_id": "monkeycode",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6034,13 +6034,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/aider-desk.png",
     "vendor_id": "hotovo",
     "product_id": "aider-desk",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6156,13 +6156,13 @@
     "type": "AI 编程",
     "website": "https://www.syncfusion.com/code-studio/",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/syncfusion-codestudio.svg",
     "vendor_id": "syncfusion",
     "product_id": "syncfusion-codestudio",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6223,13 +6223,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/crush.png",
     "vendor_id": "charmbracelet",
     "product_id": "crush",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6244,13 +6244,13 @@
     "type": "AI 编程",
     "website": "https://github.com/langchain-ai/deepagents",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/deepagents-code.svg",
     "vendor_id": "langchain",
     "product_id": "deepagents-code",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6262,13 +6262,13 @@
     "type": "AI 编程",
     "website": "https://plugins.jetbrains.com/plugin/25224-firebender",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/firebender.svg",
     "vendor_id": "firebender",
     "product_id": "firebender",
     "interfaces": [
       "IDE 插件"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6282,13 +6282,13 @@
     "type": "AI 编程",
     "website": "https://github.com/tailcallhq/forgecode",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/forgecode.svg",
     "vendor_id": "tailcall",
     "product_id": "forgecode",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6360,13 +6360,13 @@
     "type": "AI 编程",
     "website": "https://github.com/coder/xum",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/xum.svg",
     "vendor_id": "coder",
     "product_id": "xum",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6380,13 +6380,13 @@
     "type": "AI 编程",
     "website": "https://github.com/neovateai/neovate-code",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/neovate.png",
     "vendor_id": "neovateai",
     "product_id": "neovate",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6420,13 +6420,13 @@
     "type": "AI 编程",
     "website": "https://github.com/TabbyML/pochi",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/pochi.svg",
     "vendor_id": "tabbyml",
     "product_id": "pochi",
     "interfaces": [
       "IDE 插件"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6464,13 +6464,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/rovo-dev.svg",
     "vendor_id": "atlassian",
     "product_id": "rovo-dev",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6482,13 +6482,13 @@
     "type": "AI 编程",
     "website": "https://github.com/RooCodeInc/Roo-Code",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/roo-code.svg",
     "vendor_id": "roo-code",
     "product_id": "roo-code",
     "interfaces": [
       "IDE 插件"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6630,13 +6630,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/lingcode.svg",
     "vendor_id": "lingcode",
     "product_id": "lingcode",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6675,13 +6675,13 @@
       "macOS",
       "Windows"
     ],
-    "icon": "",
+    "icon": "icons/monkeycode.png",
     "vendor_id": "chaitin",
     "product_id": "monkeycode",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6792,13 +6792,13 @@
       "macOS",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/vscode.svg",
     "vendor_id": "microsoft",
     "product_id": "vscode",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6813,13 +6813,13 @@
     "type": "AI 编程",
     "website": "https://aiderdesk.hotovo.com/",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/aider-desk.png",
     "vendor_id": "hotovo",
     "product_id": "aider-desk",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6863,13 +6863,13 @@
       "macOS",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/deepagents-code.svg",
     "vendor_id": "langchain",
     "product_id": "deep-agents-code",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6886,13 +6886,13 @@
     "platforms": [
       "VS Code"
     ],
-    "icon": "",
+    "icon": "icons/forgecode.svg",
     "vendor_id": "tailcall",
     "product_id": "forgecode",
     "interfaces": [
       "IDE 插件"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6954,13 +6954,13 @@
     "platforms": [
       "VS Code"
     ],
-    "icon": "",
+    "icon": "icons/neovate.png",
     "vendor_id": "neovateai",
     "product_id": "neovate",
     "interfaces": [
       "IDE 插件"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6975,13 +6975,13 @@
       "macOS",
       "Windows"
     ],
-    "icon": "",
+    "icon": "icons/neovate.png",
     "vendor_id": "neovateai",
     "product_id": "neovate",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6998,13 +6998,13 @@
     "platforms": [
       "macOS"
     ],
-    "icon": "",
+    "icon": "icons/pochi.svg",
     "vendor_id": "tabbyml",
     "product_id": "pochi",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "缺失：已核实官方SVG来源，本批未打包",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -7115,13 +7115,13 @@
       "VS Code",
       "Cursor"
     ],
-    "icon": "",
+    "icon": "icons/rovo-dev.svg",
     "vendor_id": "atlassian",
     "product_id": "rovo-dev",
     "interfaces": [
       "IDE 插件"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -7137,13 +7137,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/rovo-dev.svg",
     "vendor_id": "atlassian",
     "product_id": "rovo-dev",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   }

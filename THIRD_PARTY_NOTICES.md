@@ -1,6 +1,6 @@
 # 第三方素材与权利声明
 
-本仓库含应用元数据、核验记录，以及来自官方站点或注明来源的第三方项目的 SVG 品牌标识。各条记录的具体来源、核验日期与限制说明见 [`data/evidence.json`](./data/evidence.json)；构建后的静态站点使用同内容的 `evidence.json`。
+本仓库含应用元数据、核验记录，以及来自官方站点或注明来源的第三方项目的 SVG 与 PNG 品牌标识。各条记录的具体来源、核验日期与限制说明见 [`data/evidence.json`](./data/evidence.json)；构建后的静态站点使用同内容的 `evidence.json`。
 
 ## 本仓库的授权边界
 
@@ -28,7 +28,7 @@ Logo、产品名称和商标归各自权利人所有。公开可下载、保存�
 - 应用 `id` 标识具体条目或版本；`product_id` 用于关联同一产品，`vendor_id` 用于关联供应商
 - `evidence.json` 记录官网及来源资料的核对，不代表安装、运行、性能或安全测试
 - `verified_at` 是相应记录的资料核对日期，不是未来持续有效或实时状态保证；保留每条记录的 `notes` 与 `sources`
-- 未找到可靠 SVG 的条目保留空 `icon` 和相应 `svg_status`；界面显示的首字或自定义占位元素不是官方 Logo
+- 未找到可靠 Logo 的条目保留空 `icon`；PNG 标注位图格式及 SVG 缺失状态；界面显示的首字或自定义占位元素不是官方 Logo
 - 元数据、服务状态及品牌素材可能变化；请结合每条记录的原始来源核对当前情况
 
 维护数据时应同步维护来源，分发随附素材时应保留适用的原始声明。网站构建会将以上 `licenses/*.txt` 与本文件一并复制到输出目录。
@@ -49,4 +49,10 @@ Logo、产品名称和商标归各自权利人所有。公开可下载、保存�
 - `assets/icons/reasonix.svg`：[官方素材](https://raw.githubusercontent.com/esengine/DeepSeek-Reasonix/studio/docs/favicon.svg)
 - `assets/icons/zencoder.svg`：[官方素材](https://zencoder.ai/hubfs/Logo-dark-1.svg)
 
-Reasonix 仓库素材随附原始 [MIT 文本](./licenses/reasonix-mit.txt)。Pochi 官方 SVG 本批未打包，两个条目的图标字段均留空；官方来源 URL 仍在研究和证据中。Pochi IDE 包的原始 [包级版权声明](./licenses/pochi-vscode.txt)作为许可核验参考随附；未将仓库根 Apache-2.0 推定覆盖该包。其余官网品牌资产不据代码许可推定授权；识别用途不表示获得产品背书或商标许可。
+Reasonix 仓库素材随附原始 [MIT 文本](./licenses/reasonix-mit.txt)。Pochi 官方 SVG 在 PR #1 吸收批次未打包，当时两个条目的图标字段均留空；官方来源 URL 仍在研究和证据中。Pochi IDE 包的原始 [包级版权声明](./licenses/pochi-vscode.txt)作为许可核验参考随附；未将仓库根 Apache-2.0 推定覆盖该包。其余官网品牌资产不据代码许可推定授权；识别用途不表示获得产品背书或商标许可。
+
+## v0.14 编程工具 Logo 补充
+
+来源、原始 SHA-256 与对应应用见 [素材清单](docs/research/coding-logo-assets-2026-10-11.json)。VS Code 图标来自 SVGL，适用随附 MIT 文本。其他素材来自相应官方站点或官方仓库，用于识别产品，商标和品牌权利归各自权利人；仓库代码许可证不自动赋予品牌许可。JetBrains AI Assistant 品牌标识归 JetBrains s.r.o.，品牌规则见 https://www.jetbrains.com/company/brand/ 。Pochi 本次补充官方 Logo，仍保留包级版权声明，不将仓库根 Apache-2.0 推定覆盖该资产。Rovo Dev 保留官网内嵌 SVG 的路径与属性，未重新绘制。
+
+官方 PNG 原样保存为位图，格式、尺寸与哈希在同一素材清单中。Plandex、MonkeyCode、AiderDesk、Crush、Neovate 的品牌权利归各自权利人；未因源码许可证推定额外品牌授权。

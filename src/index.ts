@@ -20,7 +20,7 @@ export const catalogMeta: CatalogMetadata = Object.freeze({
   vendorCount: new Set(apps.map(app => app.vendor_id)).size,
   svgRecordCount: apps.filter(app => app.icon.endsWith('.svg')).length,
   svgFileCount: new Set(apps.filter(app => app.icon.endsWith('.svg')).map(app => app.icon)).size,
-  missingSvgRecordCount: apps.filter(app => !app.icon).length,
+  missingSvgRecordCount: apps.filter(app => !app.icon.endsWith('.svg')).length,
   verifiedAt: sourceMetadata.snapshotDate,
 });
 
