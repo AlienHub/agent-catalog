@@ -18,6 +18,9 @@ export interface CatalogApp {
   readonly edition: string;
   /** Original status text, preserved verbatim rather than normalized to boolean. */
   readonly svg_status: string;
+  /** Official store ID; empty means unverified or not applicable. */
+  readonly chrome_extension_id: string;
+  readonly edge_extension_id: string;
 }
 export interface EvidenceSource { readonly url: string; readonly title: string }
 export interface CatalogEvidence {

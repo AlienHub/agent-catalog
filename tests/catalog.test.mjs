@@ -11,7 +11,7 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, 304);
   assert.equal(catalog.catalogMeta.productCount, 185);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.8');
+  assert.equal(catalog.catalogMeta.dataVersion, '0.9');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
@@ -118,4 +118,17 @@ test('each application has one canonical form and split applications keep produc
   assert.equal(source['mistral-vibe-cli'].source_model, 'open-source');
   assert.equal(source['mistral-vibe-ide-plugin'], undefined);
   assert.equal(catalog.schema.items.properties.interfaces.maxItems, 1);
+});
+
+test('extension identities are independent from application IDs and store IDs are searchable', () => {
+  const app = catalog.getApp('chatgpt-browser-extension');
+  assert.equal(app.name, 'ChatGPT search');
+  assert.equal(app.chrome_extension_id, 'ejcfepkfckglbgocfkanmcdngdijcgld');
+  assert.equal(app.edge_extension_id, '');
+  assert.deepEqual(catalog.searchApps(app.chrome_extension_id), [app]);
+  const word = catalog.getApp('wordtune-browser-extension');
+  assert.notEqual(word.chrome_extension_id, word.edge_extension_id);
+  assert.deepEqual(catalog.searchApps(word.edge_extension_id), [word]);
+  assert(catalog.findApps({interface:'浏览器插件'}).every(a => !a.name.includes('（浏览器插件）')));
+  assert(catalog.apps.filter(a => a.interfaces[0] !== '浏览器插件').every(a => !a.chrome_extension_id && !a.edge_extension_id));
 });

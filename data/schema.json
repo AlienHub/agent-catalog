@@ -18,7 +18,9 @@
       "product_id",
       "edition",
       "svg_status",
-      "interfaces"
+      "interfaces",
+      "chrome_extension_id",
+      "edge_extension_id"
     ],
     "properties": {
       "id": {
@@ -87,6 +89,16 @@
         "minItems": 1,
         "maxItems": 1,
         "description": "Exactly one interaction form per independently identified application; product_id groups related applications."
+      },
+      "chrome_extension_id": {
+        "type": "string",
+        "pattern": "^$|^[a-p]{32}$",
+        "description": "Verified official Chrome Web Store extension ID; empty means unverified or not applicable"
+      },
+      "edge_extension_id": {
+        "type": "string",
+        "pattern": "^$|^[a-p]{32}$",
+        "description": "Verified official Microsoft Edge Add-ons extension ID; empty means unverified or not applicable"
       }
     }
   }

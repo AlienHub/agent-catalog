@@ -4644,7 +4644,7 @@
     "verified_at": "2026-10-02"
   },
   "chatgpt-browser-extension": {
-    "notes": "General assistant with search, writing, images and voice. Desktop and mobile distributions are interfaces of the same product; subscription tiers are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。",
+    "notes": "General assistant with search, writing, images and voice. Desktop and mobile distributions are interfaces of the same product; subscription tiers are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。 此条为OpenAI官方ChatGPT search默认搜索扩展，不等同于具有网页操作能力的Agent。",
     "sources": [
       {
         "url": "https://chatgpt.com/",
@@ -4657,9 +4657,13 @@
       {
         "url": "https://chatgpt.com/cdn/assets/favicon-l4nq08hd.svg",
         "title": "Official website asset — original SVG asset"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/chatgpt-search/ejcfepkfckglbgocfkanmcdngdijcgld",
+        "title": "ChatGPT search — Chrome Web Store"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "claude-gui": {
     "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。",
@@ -4684,7 +4688,7 @@
     "verified_at": "2026-10-02"
   },
   "claude-browser-extension": {
-    "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。",
+    "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
     "sources": [
       {
         "url": "https://claude.ai/",
@@ -4701,9 +4705,13 @@
       {
         "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
         "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn",
+        "title": "Claude — Chrome Web Store"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "deepseek-gui": {
     "notes": "仅统计 DeepSeek 聊天应用。官方另列 DeepSeek Harness 桌面产品，未混入本条。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。",
@@ -4756,7 +4764,7 @@
     "verified_at": "2026-10-02"
   },
   "fireflies-ai-browser-extension": {
-    "notes": "AI meeting and work assistant. Homepage explicitly documents web dashboard, desktop/mobile apps and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。",
+    "notes": "AI meeting and work assistant. Homepage explicitly documents web dashboard, desktop/mobile apps and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
     "sources": [
       {
         "url": "https://fireflies.ai/",
@@ -4765,9 +4773,13 @@
       {
         "url": "https://fireflies.ai/_next/static/media/logo.4ae482a6.svg",
         "title": "Official website asset — original SVG asset"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/fireflies-ai-meeting-note/meimoidfecamngeoanhnpdjjdcefoldn",
+        "title": "Fireflies: AI meeting notes — Chrome Web Store"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "gemini-notebook-gui": {
     "notes": "Official FAQ states NotebookLM became Gemini Notebook in July 2026; it remains the same standalone source-grounded research product across web and mobile. Uses current official favicon. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。",
@@ -4810,7 +4822,7 @@
     "verified_at": "2026-10-02"
   },
   "grammarly-browser-extension": {
-    "notes": "AI writing application. Official company page says Grammarly remains the product name while the company is now Superhuman. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。",
+    "notes": "AI writing application. Official company page says Grammarly remains the product name while the company is now Superhuman. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。 Chrome商店页面本次读取失败，Chrome ID由官方安装链接及部署文档确认；名称以官方Edge商店条目为准。",
     "sources": [
       {
         "url": "https://www.grammarly.com/",
@@ -4827,9 +4839,21 @@
       {
         "url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
         "title": "Simple Icons CC0 license; brand trademarks retained"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/grammarly-spell-checker-g/kbfnbcaeplbcioakkpcpgfkobkghlhen",
+        "title": "Grammarly: AI Writing and Grammar Checker App — Chrome Web Store"
+      },
+      {
+        "url": "https://microsoftedge.microsoft.com/addons/detail/cnlefmmeadmemmdciolhbnfeacpdfbkd",
+        "title": "Grammarly: AI Writing and Grammar Checker App — Microsoft Edge Add-ons"
+      },
+      {
+        "url": "https://support.grammarly.com/hc/en-us/articles/115000091552-How-to-install-the-Grammarly-browser-extension",
+        "title": "Grammarly official Chrome and Edge installation links"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "kimi-gui": {
     "notes": "未明确区分地区版本；不推断地域可用性。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。",
@@ -4960,7 +4984,7 @@
     "verified_at": "2026-10-02"
   },
   "otter-ai-browser-extension": {
-    "notes": "AI meeting recording, transcription and insights application. Homepage links desktop, iOS, Android and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。",
+    "notes": "AI meeting recording, transcription and insights application. Homepage links desktop, iOS, Android and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
     "sources": [
       {
         "url": "https://otter.ai/",
@@ -4969,9 +4993,13 @@
       {
         "url": "https://otter.ai/",
         "title": "Official homepage inline SVG logo — original SVG asset"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/otterai-record-transcribe/bnmojkbbkkonlmlfgejehefjldooiedp",
+        "title": "Otter.ai: Record & Transcribe Meetings - Google Meet & Web Audio — Chrome Web Store"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "trae-work-gui": {
     "sources": [
@@ -5018,7 +5046,7 @@
     "verified_at": "2026-10-02"
   },
   "wordtune-browser-extension": {
-    "notes": "AI21 Labs writing and rewriting assistant. Official SVG wordmark supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。",
+    "notes": "AI21 Labs writing and rewriting assistant. Official SVG wordmark supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
     "sources": [
       {
         "url": "https://www.wordtune.com/",
@@ -5027,9 +5055,21 @@
       {
         "url": "https://cdn.prod.website-files.com/5f7e0f9d75fee6f6f546df46/6559d4e795abd345862d30ff_Group%201000007998.svg",
         "title": "Official website asset — original SVG asset"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/wordtune-ai-paraphrasing/nllcnknpjnininklegdoijpljgdjkijc",
+        "title": "Wordtune: AI Paraphrasing and Grammar Tool — Chrome Web Store"
+      },
+      {
+        "url": "https://microsoftedge.microsoft.com/addons/detail/fgngodlaekdlibajobmkaklibdggemdd",
+        "title": "Wordtune: AI Paraphrasing and Grammar Tool — Microsoft Edge Add-ons"
+      },
+      {
+        "url": "https://support.wordtune.com/en/articles/5775553-what-websites-and-platforms-is-wordtune-available-on",
+        "title": "Wordtune official browser store links"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "qianwen-gui": {
     "sources": [
@@ -5080,8 +5120,8 @@
         "title": "阿里云官方文档：千问办公定位与 qwenwork.cn 官方入口"
       }
     ],
-    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。 千问聊天仍为 qwen-chat 产品；独立的千问办公（QwenWork）使用 product_id=qwenwork，Qwen Code 使用 product_id=qwen-code，不因共用品牌或集团归并成同一产品。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。",
-    "verified_at": "2026-10-02"
+    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。 千问聊天仍为 qwen-chat 产品；独立的千问办公（QwenWork）使用 product_id=qwenwork，Qwen Code 使用 product_id=qwen-code，不因共用品牌或集团归并成同一产品。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。 官方浏览器插件及其正式名称尚未获得可核验发布来源；暂保留千问名称与原记录，两个商店ID留空。",
+    "verified_at": "2026-10-11"
   },
   "comate-ide-plugin": {
     "sources": [

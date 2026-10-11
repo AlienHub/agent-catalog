@@ -156,3 +156,15 @@ test('browser plugins and mini programs remain independent forms with selectable
   await t.click('closeDetails');await t.click('reset');assert.equal(t.count(),apps.length);
  }finally{t.dom.window.close()}
 });
+
+test('extension details link separate store IDs and do not invent unknown IDs', async () => {
+ const t=await setup();try{
+  await t.change('search','fgngodlaekdlibajobmkaklibdggemdd');assert.equal(t.count(),1);
+  await t.click(t.w.document.querySelector('.appname'));
+  assert(t.$('detailContent').querySelector('a[href="https://chromewebstore.google.com/detail/nllcnknpjnininklegdoijpljgdjkijc"]'));
+  assert(t.$('detailContent').querySelector('a[href="https://microsoftedge.microsoft.com/addons/detail/fgngodlaekdlibajobmkaklibdggemdd"]'));
+  await t.click('closeDetails');await t.change('search','qianwen-browser-extension');await t.click(t.w.document.querySelector('.appname'));
+  assert(t.$('detailContent').textContent.includes('未确认官方商店 ID'));
+  assert.equal(t.$('detailTitle').textContent,'千问');
+ }finally{t.dom.window.close()}
+});

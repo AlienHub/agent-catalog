@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.8（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.9（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -235,7 +235,7 @@ npm run build:website
 
 ### 开源应用与版本级授权元信息
 
-v0.5 补录20个产品、29条CLI/Web/GUI/IDE形态；v0.6 完成 Sentra 缺口补录后，v0.6 为279条记录、185个产品；v0.7 拆分交互形态后为303条应用记录、185个产品。`data/dataset.json` 与13字段主schema不变；新增 `data/open-source.json` 以具体记录ID关联仓库、许可证、应用类别、维护状态及来源，`data/open-source-schema.json` 描述该独立结构。
+v0.5 补录20个产品、29条CLI/Web/GUI/IDE形态；v0.6 完成 Sentra 缺口补录后，v0.6 为279条记录、185个产品；v0.7 拆分交互形态后为303条应用记录、185个产品。`data/dataset.json` 与当时13字段主schema不变；新增 `data/open-source.json` 以具体记录ID关联仓库、许可证、应用类别、维护状态及来源，`data/open-source-schema.json` 描述该独立结构。
 
 - `open-source`：本轮核验了该发行形态的开源许可；不自动延伸到同品牌云服务或其他客户端
 - `source-available`：源码可见但有附加用途/商标等限制，不进入“仅已核验开源”筛选
@@ -305,3 +305,9 @@ Unified private Cloudflare website + API deployment now lives in [cloudflare/REA
 按用户明确的定义，浏览器插件从 GUI 移至独立类别（7条应用，ID保持不变），恢复 WorkBuddy 中国版微信小程序的独立应用记录 `workbuddy-cn-mini-program`。当前304条应用记录、185个产品；每条应用仍只有一种形态。钉钉内嵌AI能力属于钉钉GUI应用，保留核验说明，不创建额外插件形态。IM指即时通讯接入渠道，例如通过聊天工具触发Agent，不单独生成应用记录。
 
 [更正明细](interaction-form-correction-2026-10-11.json)。v0.7迁移文档保留历史说明，当前分类以v0.8数据和Schema为准。
+
+## v0.9 浏览器插件名称与商店身份
+
+浏览器插件使用实际插件名称，不追加形态括号；形态仍由 `interfaces` 表示，已有应用 ID 保持稳定。Schema v3 在全部记录增加 `chrome_extension_id`、`edge_extension_id` 两个字符串字段，分别记录官方 Chrome Web Store 与 Microsoft Edge Add-ons 的32位插件ID。非浏览器插件为空；插件字段为空表示尚未确认官方商店条目，不表示确定未发布。兼容 Edge 安装不等于拥有 Edge 商店ID。
+
+目前核验6个Chrome ID、2个Edge ID，来源保留在 `evidence.json`。千问插件的官方发布与正式名称尚未确认，保留原记录且ID留空；Grammarly的Chrome ID由官方安装链接确认，名称由官方Edge商店确认。SDK与网站支持按商店ID搜索，详情提供商店链接；JSON、CSV、ZIP同步包含新字段。

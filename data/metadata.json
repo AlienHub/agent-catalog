@@ -1,11 +1,11 @@
 {
-  "schemaVersion": 2,
-  "dataVersion": "0.8",
+  "schemaVersion": 3,
+  "dataVersion": "0.9",
   "snapshotDate": "2026-10-11",
   "source": "Agent Atlas verified application catalog; Sentra gap review against sentra-lib 2cdefd26c0f5f1cebec0aeab33d0a9c84ae9558f",
   "verificationScope": "Official website/source review; not an installation or availability test",
   "editionCaveat": "Edition identifies the linked product/service positioning, not guaranteed geographic availability",
-  "sourceCommit": "ac430bfa2a0f9a0f2687e6a8e9de79dc9ab5290b",
+  "sourceCommit": "ac08fe11488538385b2c74ac379d5231dd698c4f",
   "openSourceMetadataScope": "Verified per record ID; missing metadata means unverified, not closed-source. Repository pushes do not prove maintenance.",
   "interactionModel": "One independent application record per interaction form and edition: GUI, CLI, IDE 插件, Web, 浏览器插件, 小程序. IM is a channel; DingTalk embedded AI capabilities belong to its GUI application."
 }

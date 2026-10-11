@@ -25,6 +25,14 @@ export async function validateData() {
     }
     assert.equal(app.interfaces.length, 1, `One interaction form per application: ${app.id}`);
     assert(['GUI','CLI','IDE 插件','Web','浏览器插件','小程序'].includes(app.interfaces[0]), `Invalid interaction form: ${app.id}`);
+    for (const key of ['chrome_extension_id','edge_extension_id']) {
+      assert(/^$|^[a-p]{32}$/.test(app[key]), `Invalid store ID: ${app.id}.${key}`);
+      if (app.interfaces[0] !== '浏览器插件') assert.equal(app[key], '', `Store ID only belongs to browser plugins: ${app.id}`);
+      if (app[key]) {
+        const host = key === 'chrome_extension_id' ? 'chromewebstore.google.com' : 'microsoftedge.microsoft.com';
+        assert(evidence[app.id]?.sources.some(s => new URL(s.url).hostname === host && new URL(s.url).pathname.split('/').includes(app[key])), `Missing official store evidence: ${app.id}.${key}`);
+      }
+    }
     if (app.icon) {
       assert(/^icons\/[a-z0-9-]+\.svg$/.test(app.icon), `Nonportable SVG path: ${app.icon}`);
       iconPaths.add(app.icon);

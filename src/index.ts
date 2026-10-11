@@ -28,7 +28,7 @@ const byId = new Map(apps.map(app => [app.id, app]));
 const collectionIds = new Map(Object.entries(collections).map(([name, ids]) => [name, new Set(ids)]));
 const searchTexts = new Map(apps.map(app => [app.id, normalize([
   app.id, app.name, ...app.aliases, app.vendor, app.vendor_id, app.product_id,
-  app.type, app.edition, ...app.interfaces, ...app.platforms,
+  app.type, app.edition, app.chrome_extension_id, app.edge_extension_id, ...app.interfaces, ...app.platforms,
 ].join(' '))]));
 function normalize(value: string): string { return value.normalize('NFKC').toLowerCase(); }
 function matches(actual: string | readonly string[], expected: FilterValue | undefined): boolean {
