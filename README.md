@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.14（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.15（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -340,3 +340,9 @@ Schema v4 删除 `edition` 字段，SDK 的 `CatalogApp`、`CatalogFilters` 同�
 补充 14 个 SVG Logo，包含 Kilo Code、Roo Code、JetBrains AI Assistant、Pi、Pochi、ForgeCode、Deep Agents、Rovo Dev、VS Code 等。来源与原始哈希见 [素材清单](docs/research/coding-logo-assets-2026-10-11.json)，剩余缺失项与原因见 [核验报告](docs/research/coding-logo-audit-2026-10-11.md)。
 
 本版本也支持官方原始 PNG，补充 Plandex、MonkeyCode、AiderDesk、Crush、Neovate 5 个 PNG。卡片、下载与数据明确标注 PNG；`hasSvg`、SVG 计数和 `getAppIcon` 仍只针对 SVG，`getAppLogo` 与 React `AppIcon` 支持 SVG/PNG。PNG 原始文件通过 `@alienhub/agent-atlas/icons/*.png` 导出。Schema 版本为 5，数据字段不变。
+
+## v0.15 浏览器与 Web AI 资产
+
+新增 48 条应用：17 个浏览器插件、6 个浏览器 GUI、25 个 Web 应用。Chrome 与 Edge ID 分别核验，共补充 17 个 Chrome ID、9 个 Edge ID。保留共享产品关联，现有应用 ID 不变。Atlas 按官方已弃用的历史 macOS 应用收录，页面显示生命周期提示。
+
+新增 51 份原始 Logo（12 SVG、39 PNG），并补齐 7 条已有应用的 Logo。PNG 始终明确标为位图，不计入 SVG。未确认商店 ID 或素材的字段留空，候选及暂缓原因见 [浏览器核验报告](docs/research/browser-ai-assets-2026-10-11.md) 和 [Web 核验报告](docs/research/web-ai-assets-2026-10-11.md)。来源及 SHA-256 见对应 JSON 清单。
