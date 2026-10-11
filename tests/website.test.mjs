@@ -152,7 +152,7 @@ test('form segments share the classification row, omit mini-program option and r
   assert.deepEqual([...t.$('interface').querySelectorAll('button')].map(o=>o.dataset.form),['','GUI','CLI','IDE 插件','Web','浏览器插件']);
   assert.equal(t.$('interface').parentElement,t.$('allCollection').parentElement.parentElement);
   assert.equal(t.w.document.querySelector('select#interface'),null);
-  await t.change('interface','浏览器插件');assert.equal(t.count(),8);
+  await t.change('interface','浏览器插件');assert.equal(t.count(),apps.filter(a=>a.interfaces.includes('浏览器插件')).length);
   assert([...t.w.document.querySelectorAll('.card-tags')].every(el=>el.textContent.includes('浏览器插件')&&!el.textContent.includes('GUI')));
   await t.click('reset');await t.change('search','workbuddy-cn-mini-program');assert.equal(t.count(),1);
   await t.click(t.w.document.querySelector('.appname'));assert(t.$('detailContent').textContent.includes('workbuddy-cn-mini-program'));assert(t.$('detailContent').textContent.includes('微信'));

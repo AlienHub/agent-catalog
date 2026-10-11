@@ -3577,13 +3577,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/browser-quillbot.png",
     "vendor_id": "learneo",
     "product_id": "quillbot",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "unavailable",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6908,13 +6908,13 @@
     "platforms": [
       "Chrome"
     ],
-    "icon": "",
+    "icon": "icons/browser-moxby.png",
     "vendor_id": "moxby",
     "product_id": "moxby",
     "interfaces": [
       "浏览器插件"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "kogdciljkfifplhdainlinbppfpeenii",
     "edge_extension_id": ""
   },
@@ -7644,6 +7644,540 @@
       "Web"
     ],
     "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "sider-browser-extension",
+    "name": "Sider: Chat with all AI: GPT-5, Claude, DeepSeek, Gemini, Grok",
+    "aliases": [
+      "sider",
+      "ChatGPT Sidebar"
+    ],
+    "vendor": "Vidline Inc.",
+    "vendor_id": "vidline",
+    "product_id": "sider",
+    "type": "通用助手",
+    "website": "https://sider.ai/extensions",
+    "platforms": [
+      "Chrome",
+      "Edge"
+    ],
+    "icon": "icons/browser-sider.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "difoiogjjojoaoomphldepapgpbgkhkb",
+    "edge_extension_id": "dhoenijjpgpeimemopealfcbiecgceod"
+  },
+  {
+    "id": "monica-browser-extension",
+    "name": "Monica: All-In-One AI Assist & Smartest AI Agent",
+    "aliases": [
+      "monica"
+    ],
+    "vendor": "BUTTERFLY EFFECT PTE. LTD.",
+    "vendor_id": "butterfly-effect",
+    "product_id": "monica",
+    "type": "通用助手",
+    "website": "https://www.monica.im/help/Get-Monica-across-all-your-devices",
+    "platforms": [
+      "Chrome",
+      "Edge"
+    ],
+    "icon": "icons/browser-monica.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "ofpnmcalabcbjgholdjcjblkibolbppb",
+    "edge_extension_id": "fhimbbbmdjiifimnepkibjfjbppnjble"
+  },
+  {
+    "id": "merlin-browser-extension",
+    "name": "Merlin AI",
+    "aliases": [
+      "merlin"
+    ],
+    "vendor": "Foyer Tech",
+    "vendor_id": "foyer-tech",
+    "product_id": "merlin",
+    "type": "通用助手",
+    "website": "https://www.getmerlin.in/",
+    "platforms": [
+      "Chrome"
+    ],
+    "icon": "icons/browser-merlin.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "camppjleccjaphfdbohjdohecfnoikec",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "maxai-browser-extension",
+    "name": "MaxAI: Ask AI anything as you browse (GPT, Gemini, Claude, Grok, etc.)",
+    "aliases": [
+      "maxai",
+      "MaxAI.me"
+    ],
+    "vendor": "MaxAI",
+    "vendor_id": "maxai",
+    "product_id": "maxai",
+    "type": "通用助手",
+    "website": "https://www.maxai.me/",
+    "platforms": [
+      "Chrome",
+      "Edge"
+    ],
+    "icon": "icons/browser-maxai.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "mhnlakgilnojmhinhkckjpncpbhabphi",
+    "edge_extension_id": "ngphehpfehdmjellohmlojkplilekadg"
+  },
+  {
+    "id": "harpa-browser-extension",
+    "name": "HARPA AI: Web Automation with ChatGPT, Claude, Gemini, Grok",
+    "aliases": [
+      "harpa"
+    ],
+    "vendor": "HARPA AI TECHNOLOGIES OY",
+    "vendor_id": "harpa",
+    "product_id": "harpa",
+    "type": "通用任务 Agent",
+    "website": "https://harpa.ai/",
+    "platforms": [
+      "Chrome"
+    ],
+    "icon": "icons/browser-harpa.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "eanggfilgoajaocelnaflolkadkeghjp",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "immersive-translate-browser-extension",
+    "name": "Immersive Translate: AI Web, PDF & Video Translator",
+    "aliases": [
+      "immersive-translate",
+      "沉浸式翻译"
+    ],
+    "vendor": "Immersive Translate",
+    "vendor_id": "immersive-translate",
+    "product_id": "immersive-translate",
+    "type": "翻译助手",
+    "website": "https://immersivetranslate.com/en/",
+    "platforms": [
+      "Chrome",
+      "Edge",
+      "Firefox",
+      "Safari"
+    ],
+    "icon": "icons/browser-immersive-translate.svg",
+    "svg_status": "已核验 SVG · 官方品牌资产",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
+    "edge_extension_id": "amkbmndfnliijdhojkpoglbnaaahippg"
+  },
+  {
+    "id": "compose-ai-browser-extension",
+    "name": "Compose AI: AI-powered Writing Tool",
+    "aliases": [
+      "compose-ai"
+    ],
+    "vendor": "Compose AI, Inc.",
+    "vendor_id": "compose-ai",
+    "product_id": "compose-ai",
+    "type": "写作助手",
+    "website": "https://www.compose.ai/",
+    "platforms": [
+      "Chrome"
+    ],
+    "icon": "icons/browser-compose-ai.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "ddlbpiadoechcolndfeaonajmngmhblj",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "tinamind-browser-extension",
+    "name": "TinaMind - The most powerful AI Assistant!",
+    "aliases": [
+      "tinamind"
+    ],
+    "vendor": "TinaMind",
+    "vendor_id": "tinamind",
+    "product_id": "tinamind",
+    "type": "通用助手",
+    "website": "https://tinamind.com/",
+    "platforms": [
+      "Chrome"
+    ],
+    "icon": "icons/browser-tinamind.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "befflofjcniongenjmbkgkoljhgliihe",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "glasp-youtube-summary-browser-extension",
+    "name": "YouTube Summary with ChatGPT & Claude",
+    "aliases": [
+      "glasp-youtube-summary"
+    ],
+    "vendor": "GLASP INC",
+    "vendor_id": "glasp",
+    "product_id": "glasp",
+    "type": "内容总结",
+    "website": "https://glasp.co/youtube-summary",
+    "platforms": [
+      "Chrome",
+      "Edge",
+      "Firefox"
+    ],
+    "icon": "icons/browser-glasp-youtube-summary.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "nmmicjeknamkfloonkhhcjmomieiodli",
+    "edge_extension_id": "cfmilchfgimokpfjlhabjiaenaldahih"
+  },
+  {
+    "id": "glasp-browser-extension",
+    "name": "Glasp Web Highlighter: PDF & Web Highlight",
+    "aliases": [
+      "glasp"
+    ],
+    "vendor": "GLASP INC",
+    "vendor_id": "glasp",
+    "product_id": "glasp",
+    "type": "知识管理",
+    "website": "https://glasp.co/features",
+    "platforms": [
+      "Chrome",
+      "Edge",
+      "Firefox",
+      "Safari"
+    ],
+    "icon": "icons/browser-glasp.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "blillmbchncajnhkjfdnincfndboieik",
+    "edge_extension_id": "lldbnkidnfhinkmoapddhdkgobcajenb"
+  },
+  {
+    "id": "languagetool-browser-extension",
+    "name": "AI Grammar Checker & Paraphraser – LanguageTool",
+    "aliases": [
+      "languagetool"
+    ],
+    "vendor": "LanguageTooler GmbH",
+    "vendor_id": "languagetool",
+    "product_id": "languagetool",
+    "type": "写作助手",
+    "website": "https://languagetool.org/",
+    "platforms": [
+      "Chrome",
+      "Edge",
+      "Firefox",
+      "Opera",
+      "Safari"
+    ],
+    "icon": "icons/browser-languagetool.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "oldceeleldhonbafppcapldpdifcinji",
+    "edge_extension_id": "hfjadhjooeceemgojogkhlppanjkbobc"
+  },
+  {
+    "id": "quillbot-browser-extension",
+    "name": "Quillbot: AI Writing Assistant with Humanizer, Paraphraser & AI Detector",
+    "aliases": [
+      "QuillBot"
+    ],
+    "vendor": "QuillBot / Learneo",
+    "vendor_id": "learneo",
+    "product_id": "quillbot",
+    "type": "写作助手",
+    "website": "https://help.quillbot.com/hc/en-us/categories/16802670890007-Extensions-Apps",
+    "platforms": [
+      "Chrome",
+      "Edge",
+      "Safari"
+    ],
+    "icon": "icons/browser-quillbot.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "iidnbdjijdkbmajdffnidomddglmieko",
+    "edge_extension_id": "cphpplikchcioccedpjacdanfibnimmh"
+  },
+  {
+    "id": "aiprm-browser-extension",
+    "name": "AIPRM for ChatGPT",
+    "aliases": [
+      "aiprm"
+    ],
+    "vendor": "AIPRM, Corp.",
+    "vendor_id": "aiprm",
+    "product_id": "aiprm",
+    "type": "提示词管理",
+    "website": "https://www.aiprm.com/",
+    "platforms": [
+      "Chrome"
+    ],
+    "icon": "icons/browser-aiprm.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "ojnbohmppadfgpejeebfnmnknjdlckgj",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "jetwriter-browser-extension",
+    "name": "Jetwriter AI: Reply Emails, Ask Page, Summarize, Fix Grammar, and More",
+    "aliases": [
+      "jetwriter",
+      "ChatGPT Writer"
+    ],
+    "vendor": "Jetwriter AI",
+    "vendor_id": "jetwriter",
+    "product_id": "jetwriter",
+    "type": "写作助手",
+    "website": "https://jetwriter.ai/",
+    "platforms": [
+      "Chrome",
+      "Edge",
+      "Brave",
+      "Opera",
+      "Vivaldi"
+    ],
+    "icon": "icons/browser-jetwriter.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "pdnenlnelpdomajfejgapbdpmjkfpjkp",
+    "edge_extension_id": "gocnmcailiollkkaaieichicbfobepae"
+  },
+  {
+    "id": "eightify-browser-extension",
+    "name": "Eightify: AI YouTube Summarizer",
+    "aliases": [
+      "eightify"
+    ],
+    "vendor": "Rational Expressions Inc.",
+    "vendor_id": "eightify",
+    "product_id": "eightify",
+    "type": "内容总结",
+    "website": "https://eightify.app/",
+    "platforms": [
+      "Chrome"
+    ],
+    "icon": "icons/browser-eightify.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "cdcpabkolgalpgeingbdcebojebfelgb",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "textcortex-browser-extension",
+    "name": "TextCortex: AI Knowledge Base for Enterprises",
+    "aliases": [
+      "textcortex"
+    ],
+    "vendor": "Text Cortex AI UG (hb)",
+    "vendor_id": "textcortex",
+    "product_id": "textcortex",
+    "type": "通用助手",
+    "website": "https://help.textcortex.com/hc/en-us/articles/21630404402065-How-to-install-TextCortex-Browser-Extension",
+    "platforms": [
+      "Chrome",
+      "Edge",
+      "Opera",
+      "Vivaldi",
+      "Brave"
+    ],
+    "icon": "icons/browser-textcortex.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "hahkojdegblcccihngmgndhdfheheofe",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "scispace-browser-extension",
+    "name": "SciSpace: Do hours of research in minutes",
+    "aliases": [
+      "scispace"
+    ],
+    "vendor": "PubGenius Inc.",
+    "vendor_id": "pubgenius",
+    "product_id": "scispace",
+    "type": "研究助手",
+    "website": "https://scispace.com/copilot-chrome-plugin",
+    "platforms": [
+      "Chrome"
+    ],
+    "icon": "icons/browser-scispace.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "chrome_extension_id": "cipccbpjpemcnijhjcdjmkjhmhniiick",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "comet-desktop",
+    "name": "Comet",
+    "aliases": [],
+    "vendor": "Perplexity AI",
+    "vendor_id": "perplexity-ai",
+    "product_id": "comet",
+    "type": "AI 浏览器",
+    "website": "https://www.perplexity.ai/comet",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/browser-comet.svg",
+    "svg_status": "已核验 SVG · 官方品牌资产",
+    "interfaces": [
+      "GUI"
+    ],
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "dia-desktop",
+    "name": "Dia",
+    "aliases": [],
+    "vendor": "The Browser Company",
+    "vendor_id": "the-browser-company",
+    "product_id": "dia",
+    "type": "AI 浏览器",
+    "website": "https://www.diabrowser.com/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/browser-dia.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "GUI"
+    ],
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "opera-desktop",
+    "name": "Opera",
+    "aliases": [
+      "Aria",
+      "Opera AI"
+    ],
+    "vendor": "Opera",
+    "vendor_id": "opera",
+    "product_id": "opera",
+    "type": "AI 浏览器",
+    "website": "https://www.opera.com/features/browser-ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/browser-opera.svg",
+    "svg_status": "已核验 SVG · 官方品牌资产",
+    "interfaces": [
+      "GUI"
+    ],
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "opera-neon-desktop",
+    "name": "Opera Neon",
+    "aliases": [],
+    "vendor": "Opera",
+    "vendor_id": "opera",
+    "product_id": "opera-neon",
+    "type": "AI 浏览器",
+    "website": "https://www.operaneon.com/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/browser-opera-neon.png",
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "interfaces": [
+      "GUI"
+    ],
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "microsoft-edge-desktop",
+    "name": "Microsoft Edge",
+    "aliases": [],
+    "vendor": "Microsoft",
+    "vendor_id": "microsoft",
+    "product_id": "microsoft-edge",
+    "type": "AI 浏览器",
+    "website": "https://www.microsoft.com/en-us/edge/copilot-mode",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/browser-microsoft-edge.svg",
+    "svg_status": "已核验 SVG · 官方品牌资产",
+    "interfaces": [
+      "GUI"
+    ],
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "chatgpt-atlas-gui",
+    "name": "ChatGPT Atlas",
+    "aliases": [
+      "Atlas"
+    ],
+    "vendor": "OpenAI",
+    "vendor_id": "openai",
+    "product_id": "chatgpt-atlas",
+    "type": "AI 浏览器",
+    "website": "https://openai.com/index/introducing-chatgpt-atlas/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "svg_status": "未收录 SVG · 专用官方品牌素材待核验",
+    "interfaces": [
+      "GUI"
+    ],
     "chrome_extension_id": "",
     "edge_extension_id": ""
   }

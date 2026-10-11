@@ -1,0 +1,345 @@
+{
+  "verified_at": "2026-10-11",
+  "assets": [
+    {
+      "url": "https://lh3.googleusercontent.com/wTNeFS62yyaqVft_MeRoTbruPhDzswQUidH2fciH0myvLry-aCPcmIuZkEF2WUcyCoHDHxV7Hq0J3DlLgRozkC2IKQ=s120",
+      "path": "icons/browser-sider.png",
+      "source_page": "https://chromewebstore.google.com/detail/difoiogjjojoaoomphldepapgpbgkhkb",
+      "sha256": "37793ab632fdf63559725b7489d232af23d734666468ba71005a866e03224aae",
+      "bytes": 16053,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "sider-browser-extension"
+      ],
+      "product_id": "sider",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/rLhEeo6TgST5H4WmCNWKO4fDJDvZVGfoXJNt035pGtnamBRJenmcXhqiI3RvZbRM71LWlQkTL6B825XzbAwAx52c9Q=s120",
+      "path": "icons/browser-monica.png",
+      "source_page": "https://chromewebstore.google.com/detail/ofpnmcalabcbjgholdjcjblkibolbppb",
+      "sha256": "2b9ba4b2a73e634ff9170b6218173d62b277499f69a6d9322339dbb9adad817d",
+      "bytes": 11075,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "monica-browser-extension"
+      ],
+      "product_id": "monica",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/1IRNacfoscegZdDLag7X13YsvqUKdlviMAFiAxMeldDGx9ppKkx-QA2c3-gELQXVrsJ5iQfPhTF-yHslzYctNHw93g=s120",
+      "path": "icons/browser-merlin.png",
+      "source_page": "https://chromewebstore.google.com/detail/camppjleccjaphfdbohjdohecfnoikec",
+      "sha256": "f421a19a3dfb0f5c6725aeace25c5dba50063f4e379807663131e3874a0387d0",
+      "bytes": 11128,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "merlin-browser-extension"
+      ],
+      "product_id": "merlin",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/df7_QdBlSnqIOVG4i6F_Di2huUvmS1ZOTlS_ZOst-ViBCd6kkVqiXY_7vOQQnOenPvgaiFD29fEFp-VMcmftwJCMMg=s120",
+      "path": "icons/browser-maxai.png",
+      "source_page": "https://chromewebstore.google.com/detail/mhnlakgilnojmhinhkckjpncpbhabphi",
+      "sha256": "a851524722f7385f4dd074f02c84e9aeefe56d79657cb8e9cf7310111a4f3901",
+      "bytes": 5330,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "maxai-browser-extension"
+      ],
+      "product_id": "maxai",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/6aYbtLo2s6tEznsCGN5AJ_o0j7HR05CtD-dbsRDicnWCOc98OkFFdH8ZhLD0lp2HFPzLRydEf7QTG8ZFH5GfHjq7PA=s120",
+      "path": "icons/browser-harpa.png",
+      "source_page": "https://chromewebstore.google.com/detail/eanggfilgoajaocelnaflolkadkeghjp",
+      "sha256": "993bdde17f638e39aab37ecea8de9a3a35c1666337a7d88c599b71a4d205bbdb",
+      "bytes": 4712,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "harpa-browser-extension"
+      ],
+      "product_id": "harpa",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://immersivetranslate.com/img/favicon.svg",
+      "path": "icons/browser-immersive-translate.svg",
+      "source_page": "https://immersivetranslate.com/en/",
+      "sha256": "e026a0faf57dd62e08bd9f8c06c676f79b3d091bc83e8acdeafaac2aea2f339e",
+      "bytes": 1678,
+      "format": "SVG",
+      "application_ids": [
+        "immersive-translate-browser-extension"
+      ],
+      "product_id": "immersive-translate",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/5HmiTnv6h8QmF7rYjg5qe1BYToXRjB8ISCc081oJ6hBGjRPi-sPIOuhUZd_axRZ7dvPFHEeWUPJR5LDgnXnty2jOV6M=s120",
+      "path": "icons/browser-compose-ai.png",
+      "source_page": "https://chromewebstore.google.com/detail/ddlbpiadoechcolndfeaonajmngmhblj",
+      "sha256": "51c198c841372ed920fcbf10b2b543e93ff9d92d33217e4410b4cee324265dea",
+      "bytes": 12590,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "compose-ai-browser-extension"
+      ],
+      "product_id": "compose-ai",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/K9crHkKVk8B11XNYig7w89fC1OC3BFu9k-zolWg8wngt6JfTLS0p0jcHMHrYuARFnkBxvs2CS2DtcRrSGmXEAk2IEa8=s120",
+      "path": "icons/browser-tinamind.png",
+      "source_page": "https://chromewebstore.google.com/detail/befflofjcniongenjmbkgkoljhgliihe",
+      "sha256": "71c26a65a562e774656a11e2ad92c9fa58c59732f9290c3be755e2e8008ff689",
+      "bytes": 913,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "tinamind-browser-extension"
+      ],
+      "product_id": "tinamind",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/v87Ne-944ya_q_QY0aymwZA8VybkOc3eQQhL4942ewOhK3Y7qHQ2Yop7l5mfoNThWNz23O01fFxNM_etxRA5VUAsWg0=s120",
+      "path": "icons/browser-glasp-youtube-summary.png",
+      "source_page": "https://chromewebstore.google.com/detail/nmmicjeknamkfloonkhhcjmomieiodli",
+      "sha256": "506a413bd62a97fcae1409e558dfa940522e7893918186e24c698b96d89da177",
+      "bytes": 8165,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "glasp-youtube-summary-browser-extension"
+      ],
+      "product_id": "glasp",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/tB9DLsVQ5T9FvZYrAV9HZqTOHY0EzWTuzuFaoKhc9mIZo3oinJ04w0-rlpYYmsCEHxD9dfdRQWs4p9aZFXPYH6C64Q=s120",
+      "path": "icons/browser-glasp.png",
+      "source_page": "https://chromewebstore.google.com/detail/blillmbchncajnhkjfdnincfndboieik",
+      "sha256": "95476ea58be4f784346d18c2cf07ff30488b5911a48a700197eb6bab5740c2ab",
+      "bytes": 3549,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "glasp-browser-extension"
+      ],
+      "product_id": "glasp",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/aWtP0rIATRVsZjZHBoicvGMeXImFkM4PV4LVJ3SWyJ6LFYDFjHjp2oJYZAND3HW-3Fz0Sgx9liEq2G6Ftq4OIEOO0zE=s120",
+      "path": "icons/browser-languagetool.png",
+      "source_page": "https://chromewebstore.google.com/detail/oldceeleldhonbafppcapldpdifcinji",
+      "sha256": "ee87577043af2ba815ea7f1e17b687fe918a8f0d4ca7fce1e31ced4be300cbbb",
+      "bytes": 14265,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "languagetool-browser-extension"
+      ],
+      "product_id": "languagetool",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/1GEyefcE9xXjgajeOPnhPvl0clNaQy87Uf2XLBS6Ov4bbZ5Xxoz263PhkGyFi8p7SGrMUaEUuYja-F07YqpOnn-R=s120",
+      "path": "icons/browser-quillbot.png",
+      "source_page": "https://chromewebstore.google.com/detail/iidnbdjijdkbmajdffnidomddglmieko",
+      "sha256": "064a4f071c708a66a6db1cab41d04ecedf07b0547d006f0d98251b12dc90e922",
+      "bytes": 1479,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "quillbot-browser-extension",
+        "quillbot"
+      ],
+      "product_id": "quillbot",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/u1cIHX2SwGud7U2JF1SBpryNUhvnAF2Ps7qHDu0teB835eTVOIsglZf6bfB086xOjYRf8rXcQKjlwkmCg9JTYJQjVw=s120",
+      "path": "icons/browser-aiprm.png",
+      "source_page": "https://chromewebstore.google.com/detail/ojnbohmppadfgpejeebfnmnknjdlckgj",
+      "sha256": "ad0483497ea6a752f8eb3ead151dc57e90f68764cb9b8c6ce68273e43a947691",
+      "bytes": 4833,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "aiprm-browser-extension"
+      ],
+      "product_id": "aiprm",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/8ZfTYzpBLEZ03bwu0cioHFBuxy7SNrc6SZ03Gma2ovE4O7d2iEwD5osGnUgjNBPEUjR1ejO9gJR9xPXtx_zLZsYoiJ8=s120",
+      "path": "icons/browser-jetwriter.png",
+      "source_page": "https://chromewebstore.google.com/detail/pdnenlnelpdomajfejgapbdpmjkfpjkp",
+      "sha256": "925a21dc340759f1869d29b2ad1f017837dacd6c0dbd4bd22d7809fd9e8c6975",
+      "bytes": 5786,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "jetwriter-browser-extension"
+      ],
+      "product_id": "jetwriter",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/RJqyxsrLdu3ZWpP1r6uVaRbo-bsG9ERMEHmKFI8A2KV3oD_k4LpObu_4ORuaOLw9EaX0rpK0vS0pj2MvtDN3r_Y95rw=s120",
+      "path": "icons/browser-eightify.png",
+      "source_page": "https://chromewebstore.google.com/detail/cdcpabkolgalpgeingbdcebojebfelgb",
+      "sha256": "d408b4ee65ff220171030a72327b75374e16212760dae48cb6d65f8a4659fbae",
+      "bytes": 17822,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "eightify-browser-extension"
+      ],
+      "product_id": "eightify",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/iay9HUXcZPRCt7rFEuVM9WBuwG13R5e7oe8_2zws4Js8j-Z0i1xXvuDLGmuE6KpKFCTBQ5YGfAPqQzuQ2SGKv3U2=s120",
+      "path": "icons/browser-textcortex.png",
+      "source_page": "https://chromewebstore.google.com/detail/hahkojdegblcccihngmgndhdfheheofe",
+      "sha256": "abd93a936283e7d268f135437d0d3d36c6716387c77956a8e1bd1702ed92754c",
+      "bytes": 19426,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "textcortex-browser-extension"
+      ],
+      "product_id": "textcortex",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/wY4UVFl6mRSrlaWoT_9VKE6KtBR1Bem9tXnB3HyZBNNx3sPksM-9y9gGXDp7vzIELKUsHZwzjCMsaqBo_XUQTXM=s120",
+      "path": "icons/browser-scispace.png",
+      "source_page": "https://chromewebstore.google.com/detail/cipccbpjpemcnijhjcdjmkjhmhniiick",
+      "sha256": "e0980214272b5c33c04a69743d5fd1fc0728df0cd5b7760f614849cf4c0a7d19",
+      "bytes": 9348,
+      "format": "PNG",
+      "width": 120,
+      "height": 120,
+      "application_ids": [
+        "scispace-browser-extension"
+      ],
+      "product_id": "scispace",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://www.diabrowser.com/favicon-96x96.png",
+      "path": "icons/browser-dia.png",
+      "source_page": "https://www.diabrowser.com/",
+      "sha256": "59fa57a28db6d02f5948190f2f358bdfcde8b7dab0c05699446a1cc7f48b5222",
+      "bytes": 3591,
+      "format": "PNG",
+      "application_ids": [
+        "dia-desktop"
+      ],
+      "product_id": "dia",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "url": "https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/favicon/opera/safari-pinned-tab.2ff3aa479bec.svg",
+      "path": "icons/browser-opera.svg",
+      "source_page": "https://www.opera.com/features/browser-ai",
+      "sha256": "6a8ac735da2121889ab5eeaaf17b03eb97ea0bf76b8d2217304710b9b5a8d7da",
+      "bytes": 768,
+      "format": "SVG",
+      "application_ids": [
+        "opera-desktop"
+      ],
+      "product_id": "opera",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://cdn-production-opera-website.operacdn.com/staticfiles/assets/neon/images/favicon/apple-touch-icon-180x180.943a8669f7ea.png",
+      "path": "icons/browser-opera-neon.png",
+      "source_page": "https://www.operaneon.com/",
+      "sha256": "b24ba595978c7338981f49e4b18caa3382e0f7fab44f70bb649201ed41c33725",
+      "bytes": 6153,
+      "format": "PNG",
+      "width": 180,
+      "height": 180,
+      "application_ids": [
+        "opera-neon-desktop"
+      ],
+      "product_id": "opera-neon",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "url": "https://moxby.com/brand/moxby-mark.png",
+      "path": "icons/browser-moxby.png",
+      "source_page": "https://moxby.com/",
+      "sha256": "9e7cfaa575eefba12024b4b8df627adb0010b90b23d559b35b4da77c6d9f3044",
+      "bytes": 185757,
+      "format": "PNG",
+      "width": 897,
+      "height": 897,
+      "application_ids": [
+        "moxby-browser"
+      ],
+      "product_id": "moxby",
+      "rights": "官方品牌素材归各权利人所有，仅用于产品识别；不推定商标、背书或再授权。"
+    },
+    {
+      "path": "icons/browser-microsoft-edge.svg",
+      "url": "https://raw.githubusercontent.com/pheralb/svgl/f9b726cee1d1f3c697a18c880185e89d9a55bb70/static/library/edge.svg",
+      "format": "SVG",
+      "bytes": 4015,
+      "sha256": "b2cc3e0066cf332b9d421d075f125b0f99431b534184e8722c4dea7dc5474a18",
+      "source_page": "https://github.com/pheralb/svgl/blob/f9b726cee1d1f3c697a18c880185e89d9a55bb70/LICENSE",
+      "application_ids": [
+        "microsoft-edge-desktop"
+      ],
+      "product_id": "microsoft-edge",
+      "rights": "SVGL MIT，沿用licenses/svgl.txt；Microsoft商标权仍保留。"
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/standards-site-beta.appspot.com/o/documents%2F6t12iheczyb%2F732776432bb%2FComet%20Logo.zip?alt=media&token=305c54a4-9cb1-4cb5-9d96-338a7779902d",
+      "source_page": "https://live.standards.site/perplexity/logo",
+      "archive_entry": "Comet Logo/Icon/Comet_Icon_Black.svg",
+      "sha256": "eaff79fd8fb9ee7ffebdc1dc29c61c2c5853a3e7e6e52c9c74fc2bec5d7f9fa7",
+      "bytes": 2595,
+      "extraction": "Original ZIP member, bytes unchanged",
+      "path": "icons/browser-comet.svg",
+      "format": "SVG",
+      "product_id": "comet",
+      "application_ids": [
+        "comet-desktop"
+      ],
+      "rights": "Perplexity官方品牌标志，品牌和商标权保留；不推定背书或额外授权。"
+    }
+  ]
+}

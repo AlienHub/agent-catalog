@@ -1263,5 +1263,126 @@
         "title": "Gumloop 官方套餐及价格"
       }
     ]
+  },
+  "monica-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方Chrome商店明确标有应用内购买，记录付费服务存在；不推断价格或地区可用性。",
+    "sources": [
+      {
+        "url": "https://chromewebstore.google.com/detail/ofpnmcalabcbjgholdjcjblkibolbppb",
+        "title": "Monica: All-In-One AI Assist & Smartest AI Agent — 官方 Chrome 商店条目"
+      }
+    ]
+  },
+  "merlin-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方Chrome商店明确标有应用内购买，记录付费服务存在；不推断价格或地区可用性。",
+    "sources": [
+      {
+        "url": "https://chromewebstore.google.com/detail/camppjleccjaphfdbohjdohecfnoikec",
+        "title": "Merlin AI — 官方 Chrome 商店条目"
+      }
+    ]
+  },
+  "harpa-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方Chrome商店明确标有应用内购买，记录付费服务存在；不推断价格或地区可用性。",
+    "sources": [
+      {
+        "url": "https://chromewebstore.google.com/detail/eanggfilgoajaocelnaflolkadkeghjp",
+        "title": "HARPA AI: Web Automation with ChatGPT, Claude, Gemini, Grok — 官方 Chrome 商店条目"
+      }
+    ]
+  },
+  "compose-ai-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方Chrome商店明确标有应用内购买，记录付费服务存在；不推断价格或地区可用性。",
+    "sources": [
+      {
+        "url": "https://chromewebstore.google.com/detail/ddlbpiadoechcolndfeaonajmngmhblj",
+        "title": "Compose AI: AI-powered Writing Tool — 官方 Chrome 商店条目"
+      }
+    ]
+  },
+  "glasp-youtube-summary-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方Chrome商店明确标有应用内购买，记录付费服务存在；不推断价格或地区可用性。",
+    "sources": [
+      {
+        "url": "https://chromewebstore.google.com/detail/nmmicjeknamkfloonkhhcjmomieiodli",
+        "title": "YouTube Summary with ChatGPT & Claude — 官方 Chrome 商店条目"
+      }
+    ]
+  },
+  "glasp-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方Chrome商店明确标有应用内购买，记录付费服务存在；不推断价格或地区可用性。",
+    "sources": [
+      {
+        "url": "https://chromewebstore.google.com/detail/blillmbchncajnhkjfdnincfndboieik",
+        "title": "Glasp Web Highlighter: PDF & Web Highlight — 官方 Chrome 商店条目"
+      }
+    ]
+  },
+  "aiprm-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方Chrome商店明确标有应用内购买，记录付费服务存在；不推断价格或地区可用性。",
+    "sources": [
+      {
+        "url": "https://chromewebstore.google.com/detail/ojnbohmppadfgpejeebfnmnknjdlckgj",
+        "title": "AIPRM for ChatGPT — 官方 Chrome 商店条目"
+      }
+    ]
+  },
+  "eightify-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方Chrome商店明确标有应用内购买，记录付费服务存在；不推断价格或地区可用性。",
+    "sources": [
+      {
+        "url": "https://chromewebstore.google.com/detail/cdcpabkolgalpgeingbdcebojebfelgb",
+        "title": "Eightify: AI YouTube Summarizer — 官方 Chrome 商店条目"
+      }
+    ]
+  },
+  "textcortex-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方Chrome商店明确标有应用内购买，记录付费服务存在；不推断价格或地区可用性。",
+    "sources": [
+      {
+        "url": "https://chromewebstore.google.com/detail/hahkojdegblcccihngmgndhdfheheofe",
+        "title": "TextCortex: AI Knowledge Base for Enterprises — 官方 Chrome 商店条目"
+      }
+    ]
+  },
+  "dia-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方套餐页明确提供付费AI服务；免费浏览器与付费AI能力区别见官方说明。",
+    "sources": [
+      {
+        "url": "https://www.diabrowser.com/plans",
+        "title": "官方AI服务套餐说明"
+      }
+    ]
+  },
+  "opera-neon-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方套餐页明确提供付费AI服务；免费浏览器与付费AI能力区别见官方说明。",
+    "sources": [
+      {
+        "url": "https://www.operaneon.com/subscription",
+        "title": "官方AI服务套餐说明"
+      }
+    ]
   }
 }
