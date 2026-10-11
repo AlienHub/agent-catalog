@@ -10,6 +10,7 @@
     "codebuddy-ide-extension",
     "codeflicker",
     "comate",
+    "comate-ide-plugin",
     "deepseek-harness-desktop",
     "deepseek-harness-web",
     "dingtalk-wukong",
@@ -53,7 +54,9 @@
     "trae-cn-jetbrains",
     "trae-cn-vscode",
     "trae-work",
+    "trae-work-gui",
     "trae-work-cn",
+    "trae-work-cn-gui",
     "workbuddy",
     "workbuddy-cn",
     "zcode-desktop"

@@ -23,7 +23,8 @@ export async function validateData() {
       assert(Array.isArray(app[key]) && app[key].every(v => typeof v === 'string' && v.length), `${app.id}.${key}`);
       assert.equal(new Set(app[key]).size, app[key].length, `Duplicate ${app.id}.${key}`);
     }
-    assert(app.interfaces.length, `No interfaces: ${app.id}`);
+    assert.equal(app.interfaces.length, 1, `One interaction form per application: ${app.id}`);
+    assert(['GUI','CLI','IDE 插件','Web'].includes(app.interfaces[0]), `Invalid interaction form: ${app.id}`);
     if (app.icon) {
       assert(/^icons\/[a-z0-9-]+\.svg$/.test(app.icon), `Nonportable SVG path: ${app.icon}`);
       iconPaths.add(app.icon);

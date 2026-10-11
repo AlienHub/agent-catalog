@@ -915,26 +915,6 @@
     ],
     "classification": "application"
   },
-  "mistral-vibe": {
-    "repository_url": "https://github.com/mistralai/mistral-vibe",
-    "source_model": "open-source",
-    "license": "Apache-2.0",
-    "license_url": "https://github.com/mistralai/mistral-vibe/blob/main/LICENSE",
-    "maintenance": {
-      "status": "unknown",
-      "checked_at": "2026-10-04",
-      "github_archived": false,
-      "last_push_at": "2026-10-03T20:35:58Z"
-    },
-    "notes": "",
-    "sources": [
-      {
-        "url": "https://github.com/mistralai/mistral-vibe/blob/main/LICENSE",
-        "title": "Official license"
-      }
-    ],
-    "classification": "application"
-  },
   "anythingllm-desktop": {
     "repository_url": "https://github.com/Mintplex-Labs/anything-llm",
     "source_model": "open-source",
@@ -1273,5 +1253,25 @@
         "title": "上游主分支 LICENSE"
       }
     ]
+  },
+  "mistral-vibe-cli": {
+    "repository_url": "https://github.com/mistralai/mistral-vibe",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/mistralai/mistral-vibe/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-04",
+      "github_archived": false,
+      "last_push_at": "2026-10-03T20:35:58Z"
+    },
+    "notes": "",
+    "sources": [
+      {
+        "url": "https://github.com/mistralai/mistral-vibe/blob/main/LICENSE",
+        "title": "Official license"
+      }
+    ],
+    "classification": "application"
   }
 }

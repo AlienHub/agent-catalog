@@ -1,0 +1,564 @@
+{
+  "fromVersion": "0.6",
+  "toVersion": "0.7",
+  "previousRecordCount": 279,
+  "recordCount": 303,
+  "productCount": 185,
+  "records": [
+    {
+      "previous_id": "jetbrains-air-ide",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "jetbrains-air-ide"
+      ]
+    },
+    {
+      "previous_id": "autoclaw",
+      "previous_interfaces": [
+        "GUI",
+        "IM"
+      ],
+      "application_ids": [
+        "autoclaw"
+      ]
+    },
+    {
+      "previous_id": "autoclaw-cn",
+      "previous_interfaces": [
+        "GUI",
+        "IM"
+      ],
+      "application_ids": [
+        "autoclaw-cn"
+      ]
+    },
+    {
+      "previous_id": "chatgpt",
+      "previous_interfaces": [
+        "Web",
+        "GUI",
+        "浏览器扩展"
+      ],
+      "application_ids": [
+        "chatgpt",
+        "chatgpt-gui",
+        "chatgpt-browser-extension"
+      ]
+    },
+    {
+      "previous_id": "claude",
+      "previous_interfaces": [
+        "Web",
+        "GUI",
+        "浏览器扩展"
+      ],
+      "application_ids": [
+        "claude",
+        "claude-gui",
+        "claude-browser-extension"
+      ]
+    },
+    {
+      "previous_id": "claude-code-ide",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "claude-code-ide"
+      ]
+    },
+    {
+      "previous_id": "cline",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "cline"
+      ]
+    },
+    {
+      "previous_id": "codebuddy-ide-extension",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "codebuddy-ide-extension"
+      ]
+    },
+    {
+      "previous_id": "codegeex",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "codegeex"
+      ]
+    },
+    {
+      "previous_id": "codex-ide",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "codex-ide"
+      ]
+    },
+    {
+      "previous_id": "deepseek",
+      "previous_interfaces": [
+        "Web",
+        "GUI"
+      ],
+      "application_ids": [
+        "deepseek",
+        "deepseek-gui"
+      ]
+    },
+    {
+      "previous_id": "descript",
+      "previous_interfaces": [
+        "Web",
+        "GUI"
+      ],
+      "application_ids": [
+        "descript",
+        "descript-gui"
+      ]
+    },
+    {
+      "previous_id": "dify",
+      "previous_interfaces": [
+        "Web",
+        "GUI"
+      ],
+      "application_ids": [
+        "dify"
+      ]
+    },
+    {
+      "previous_id": "fastgpt",
+      "previous_interfaces": [
+        "Web",
+        "GUI"
+      ],
+      "application_ids": [
+        "fastgpt"
+      ]
+    },
+    {
+      "previous_id": "fireflies-ai",
+      "previous_interfaces": [
+        "Web",
+        "GUI",
+        "浏览器扩展"
+      ],
+      "application_ids": [
+        "fireflies-ai",
+        "fireflies-ai-gui",
+        "fireflies-ai-browser-extension"
+      ]
+    },
+    {
+      "previous_id": "gemini-code-assist",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "gemini-code-assist"
+      ]
+    },
+    {
+      "previous_id": "gemini-notebook",
+      "previous_interfaces": [
+        "Web",
+        "GUI"
+      ],
+      "application_ids": [
+        "gemini-notebook",
+        "gemini-notebook-gui"
+      ]
+    },
+    {
+      "previous_id": "github-copilot",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "github-copilot"
+      ]
+    },
+    {
+      "previous_id": "grammarly",
+      "previous_interfaces": [
+        "Web",
+        "GUI",
+        "浏览器扩展"
+      ],
+      "application_ids": [
+        "grammarly",
+        "grammarly-gui",
+        "grammarly-browser-extension"
+      ]
+    },
+    {
+      "previous_id": "jetbrains-ai",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "jetbrains-ai"
+      ]
+    },
+    {
+      "previous_id": "junie-ide",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "junie-ide"
+      ]
+    },
+    {
+      "previous_id": "kimi",
+      "previous_interfaces": [
+        "Web",
+        "GUI"
+      ],
+      "application_ids": [
+        "kimi",
+        "kimi-gui"
+      ]
+    },
+    {
+      "previous_id": "kimi-code-ide",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "kimi-code-ide"
+      ]
+    },
+    {
+      "previous_id": "maxclaw",
+      "previous_interfaces": [
+        "Web",
+        "IM"
+      ],
+      "application_ids": [
+        "maxclaw"
+      ]
+    },
+    {
+      "previous_id": "maxclaw-cn",
+      "previous_interfaces": [
+        "Web",
+        "IM"
+      ],
+      "application_ids": [
+        "maxclaw-cn"
+      ]
+    },
+    {
+      "previous_id": "meta-ai",
+      "previous_interfaces": [
+        "Web",
+        "GUI"
+      ],
+      "application_ids": [
+        "meta-ai",
+        "meta-ai-gui"
+      ]
+    },
+    {
+      "previous_id": "mistral-vibe",
+      "previous_interfaces": [
+        "Web",
+        "CLI",
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "mistral-vibe",
+        "mistral-vibe-cli",
+        "mistral-vibe-ide-plugin"
+      ]
+    },
+    {
+      "previous_id": "notion-ai",
+      "previous_interfaces": [
+        "Web",
+        "GUI"
+      ],
+      "application_ids": [
+        "notion-ai",
+        "notion-ai-gui"
+      ]
+    },
+    {
+      "previous_id": "opencode-ide",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "opencode-ide"
+      ]
+    },
+    {
+      "previous_id": "otter-ai",
+      "previous_interfaces": [
+        "Web",
+        "GUI",
+        "浏览器扩展"
+      ],
+      "application_ids": [
+        "otter-ai",
+        "otter-ai-gui",
+        "otter-ai-browser-extension"
+      ]
+    },
+    {
+      "previous_id": "qclaw",
+      "previous_interfaces": [
+        "GUI",
+        "IM"
+      ],
+      "application_ids": [
+        "qclaw"
+      ]
+    },
+    {
+      "previous_id": "qclaw-cn",
+      "previous_interfaces": [
+        "GUI",
+        "IM"
+      ],
+      "application_ids": [
+        "qclaw-cn"
+      ]
+    },
+    {
+      "previous_id": "qoder-cn-jetbrains",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "qoder-cn-jetbrains"
+      ]
+    },
+    {
+      "previous_id": "qoder-jetbrains",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "qoder-jetbrains"
+      ]
+    },
+    {
+      "previous_id": "qwen-code-ide",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "qwen-code-ide"
+      ]
+    },
+    {
+      "previous_id": "tabby",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "tabby"
+      ]
+    },
+    {
+      "previous_id": "trae-work",
+      "previous_interfaces": [
+        "Web",
+        "GUI"
+      ],
+      "application_ids": [
+        "trae-work",
+        "trae-work-gui"
+      ]
+    },
+    {
+      "previous_id": "trae-work-cn",
+      "previous_interfaces": [
+        "Web",
+        "GUI"
+      ],
+      "application_ids": [
+        "trae-work-cn",
+        "trae-work-cn-gui"
+      ]
+    },
+    {
+      "previous_id": "wordtune",
+      "previous_interfaces": [
+        "Web",
+        "浏览器扩展"
+      ],
+      "application_ids": [
+        "wordtune",
+        "wordtune-browser-extension"
+      ]
+    },
+    {
+      "previous_id": "workbuddy",
+      "previous_interfaces": [
+        "GUI",
+        "IM"
+      ],
+      "application_ids": [
+        "workbuddy"
+      ]
+    },
+    {
+      "previous_id": "workbuddy-cn",
+      "previous_interfaces": [
+        "GUI",
+        "IM",
+        "小程序"
+      ],
+      "application_ids": [
+        "workbuddy-cn"
+      ]
+    },
+    {
+      "previous_id": "qianwen",
+      "previous_interfaces": [
+        "Web",
+        "GUI",
+        "浏览器扩展"
+      ],
+      "application_ids": [
+        "qianwen",
+        "qianwen-gui",
+        "qianwen-browser-extension"
+      ]
+    },
+    {
+      "previous_id": "codearts-agent-ide-extension",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "codearts-agent-ide-extension"
+      ]
+    },
+    {
+      "previous_id": "comate",
+      "previous_interfaces": [
+        "GUI",
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "comate",
+        "comate-ide-plugin"
+      ]
+    },
+    {
+      "previous_id": "dingtalk-wukong",
+      "previous_interfaces": [
+        "GUI",
+        "钉钉内嵌"
+      ],
+      "application_ids": [
+        "dingtalk-wukong"
+      ]
+    },
+    {
+      "previous_id": "kilo-code-ide",
+      "previous_interfaces": [
+        "IDE"
+      ],
+      "application_ids": [
+        "kilo-code-ide"
+      ]
+    },
+    {
+      "previous_id": "trae-cn-vscode",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "trae-cn-vscode"
+      ]
+    },
+    {
+      "previous_id": "trae-cn-jetbrains",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "trae-cn-jetbrains"
+      ]
+    },
+    {
+      "previous_id": "codemaker-vscode",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "codemaker-vscode"
+      ]
+    },
+    {
+      "previous_id": "codemaker-jetbrains",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "codemaker-jetbrains"
+      ]
+    },
+    {
+      "previous_id": "firebender-ide",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "firebender-ide"
+      ]
+    },
+    {
+      "previous_id": "pochi-vscode",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "pochi-vscode"
+      ]
+    },
+    {
+      "previous_id": "roo-code-vscode",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "roo-code-vscode"
+      ]
+    },
+    {
+      "previous_id": "zencoder-vscode",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "zencoder-vscode"
+      ]
+    },
+    {
+      "previous_id": "zencoder-jetbrains",
+      "previous_interfaces": [
+        "IDE 扩展"
+      ],
+      "application_ids": [
+        "zencoder-jetbrains"
+      ]
+    }
+  ]
+}

@@ -5,9 +5,10 @@ import rawSchema from '../data/schema.json' with { type: 'json' };
 import sourceMetadata from '../data/metadata.json' with { type: 'json' };
 import { deepFreeze } from './freeze.js';
 import type { CatalogApp, CatalogEvidence, CatalogFilters, CatalogMetadata, FilterValue, JsonValue } from './types.js';
-export type { CatalogApp, CatalogEvidence, CatalogFilters, CatalogMetadata, EvidenceSource, FilterValue, DeepReadonly, JsonValue } from './types.js';
+export type { CatalogApp, InteractionForm, CatalogEvidence, CatalogFilters, CatalogMetadata, EvidenceSource, FilterValue, DeepReadonly, JsonValue } from './types.js';
 
-export const apps: readonly CatalogApp[] = deepFreeze(rawApps);
+// validate-data enforces the single-form tuple before every SDK build.
+export const apps: readonly CatalogApp[] = deepFreeze(rawApps) as readonly CatalogApp[];
 export const evidence: Readonly<Record<string, CatalogEvidence>> = deepFreeze(rawEvidence);
 export const collections: Readonly<Record<string, readonly string[]>> = deepFreeze(rawCollections);
 export const schema: Readonly<Record<string, JsonValue>> = deepFreeze(rawSchema);

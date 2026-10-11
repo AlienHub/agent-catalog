@@ -955,5 +955,148 @@
         "title": "官方商业服务与订阅说明"
       }
     ]
+  },
+  "chatgpt-gui": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供个人订阅及 Business、Enterprise 套餐，也有免费套餐。 形态拆分继承原产品的商业服务来源；未重新验证安装或所有收费功能。",
+    "sources": [
+      {
+        "url": "https://chatgpt.com/pricing/",
+        "title": "ChatGPT 官方商业服务依据"
+      }
+    ]
+  },
+  "chatgpt-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供个人订阅及 Business、Enterprise 套餐，也有免费套餐。 形态拆分继承原产品的商业服务来源；未重新验证安装或所有收费功能。",
+    "sources": [
+      {
+        "url": "https://chatgpt.com/pricing/",
+        "title": "ChatGPT 官方商业服务依据"
+      }
+    ]
+  },
+  "claude-gui": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro、Max、Team 和 Enterprise 服务，也有免费方案。 形态拆分继承原产品的商业服务来源；未重新验证安装或所有收费功能。",
+    "sources": [
+      {
+        "url": "https://claude.com/pricing",
+        "title": "Claude 官方商业服务依据"
+      }
+    ]
+  },
+  "claude-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro、Max、Team 和 Enterprise 服务，也有免费方案。 形态拆分继承原产品的商业服务来源；未重新验证安装或所有收费功能。",
+    "sources": [
+      {
+        "url": "https://claude.com/pricing",
+        "title": "Claude 官方商业服务依据"
+      }
+    ]
+  },
+  "descript-gui": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供按成员付费的 Creator 和 Business 套餐。 形态拆分继承原产品的商业服务来源；未重新验证安装或所有收费功能。",
+    "sources": [
+      {
+        "url": "https://www.descript.com/pricing",
+        "title": "Descript 官方商业服务依据"
+      }
+    ]
+  },
+  "fireflies-ai-gui": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro、Business 和 Enterprise 付费套餐。 形态拆分继承原产品的商业服务来源；未重新验证安装或所有收费功能。",
+    "sources": [
+      {
+        "url": "https://fireflies.ai/pricing",
+        "title": "Fireflies.ai 官方商业服务依据"
+      }
+    ]
+  },
+  "fireflies-ai-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro、Business 和 Enterprise 付费套餐。 形态拆分继承原产品的商业服务来源；未重新验证安装或所有收费功能。",
+    "sources": [
+      {
+        "url": "https://fireflies.ai/pricing",
+        "title": "Fireflies.ai 官方商业服务依据"
+      }
+    ]
+  },
+  "grammarly-gui": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro 与 Enterprise 商业服务。 形态拆分继承原产品的商业服务来源；未重新验证安装或所有收费功能。",
+    "sources": [
+      {
+        "url": "https://www.grammarly.com/plans",
+        "title": "Grammarly 官方商业服务依据"
+      }
+    ]
+  },
+  "grammarly-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro 与 Enterprise 商业服务。 形态拆分继承原产品的商业服务来源；未重新验证安装或所有收费功能。",
+    "sources": [
+      {
+        "url": "https://www.grammarly.com/plans",
+        "title": "Grammarly 官方商业服务依据"
+      }
+    ]
+  },
+  "notion-ai-gui": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "Notion 官方套餐包含商业 AI 服务。 形态拆分继承原产品的商业服务来源；未重新验证安装或所有收费功能。",
+    "sources": [
+      {
+        "url": "https://www.notion.com/pricing",
+        "title": "Notion AI 官方商业服务依据"
+      }
+    ]
+  },
+  "otter-ai-gui": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro 和组织付费套餐。 形态拆分继承原产品的商业服务来源；未重新验证安装或所有收费功能。",
+    "sources": [
+      {
+        "url": "https://otter.ai/pricing",
+        "title": "Otter.ai 官方商业服务依据"
+      }
+    ]
+  },
+  "otter-ai-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Pro 和组织付费套餐。 形态拆分继承原产品的商业服务来源；未重新验证安装或所有收费功能。",
+    "sources": [
+      {
+        "url": "https://otter.ai/pricing",
+        "title": "Otter.ai 官方商业服务依据"
+      }
+    ]
+  },
+  "wordtune-browser-extension": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-05",
+    "notes": "官方提供 Advanced 与 Unlimited 按月订阅。 形态拆分继承原产品的商业服务来源；未重新验证安装或所有收费功能。",
+    "sources": [
+      {
+        "url": "https://www.wordtune.com/plans",
+        "title": "Wordtune 官方商业服务依据"
+      }
+    ]
   }
 }

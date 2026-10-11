@@ -74,9 +74,17 @@
       "interfaces": {
         "type": "array",
         "items": {
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "GUI",
+            "CLI",
+            "IDE 插件",
+            "Web"
+          ]
         },
-        "minItems": 1
+        "minItems": 1,
+        "maxItems": 1,
+        "description": "Exactly one interaction form per independently identified application; product_id groups related applications."
       }
     }
   }

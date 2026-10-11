@@ -15,3 +15,9 @@ results.push(apps[0]!);
 // @ts-expect-error metadata must be readonly
 catalogMeta.recordCount = 0;
 void [optionalApp, optionalIcon, view];
+const oneForm: CatalogApp['interfaces'] = ['IDE 插件'];
+// @ts-expect-error one application cannot combine interaction forms
+const combinedForms: CatalogApp['interfaces'] = ['GUI', 'CLI'];
+// @ts-expect-error legacy form names are not canonical
+const legacyForm: CatalogApp['interfaces'] = ['IDE 扩展'];
+void [oneForm, combinedForms, legacyForm];

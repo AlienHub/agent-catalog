@@ -175,11 +175,11 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.6（2026-10-10），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.7（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
-- `interfaces` 描述 CLI、桌面 GUI、Web、IDE 扩展等交互形态；`platforms` 描述支持系统
+- `interfaces` 只允许 GUI、CLI、IDE 插件、Web，且每条记录只有一个值；每个形态独立定义为应用并拥有独立 `id`。`product_id` 关联产品，`platforms` 描述该应用支持系统。GUI 包括原生客户端和独立浏览器扩展；IM 是接入渠道，不单独计为应用。
 - `edition` 表示产品版本定位，不保证某地区可访问、可注册或有资格使用
 - `evidence.json` 中的 `sources`、`notes` 和 `verified_at` 保留来源、核验日期及例外说明；官网资料核对不代表安装或运行测试
 - 缺失可靠 SVG 的记录保留空 `icon` 与相应 `svg_status`；不能用位图改后缀或猜测的图形补齐
@@ -235,7 +235,7 @@ npm run build:website
 
 ### 开源应用与版本级授权元信息
 
-v0.5 补录20个产品、29条CLI/Web/GUI/IDE形态；v0.6 完成 Sentra 缺口补录后，当前279条记录、185个产品。`data/dataset.json` 与13字段主schema不变；新增 `data/open-source.json` 以具体记录ID关联仓库、许可证、应用类别、维护状态及来源，`data/open-source-schema.json` 描述该独立结构。
+v0.5 补录20个产品、29条CLI/Web/GUI/IDE形态；v0.6 完成 Sentra 缺口补录后，v0.6 为279条记录、185个产品；v0.7 拆分交互形态后为303条应用记录、185个产品。`data/dataset.json` 与13字段主schema不变；新增 `data/open-source.json` 以具体记录ID关联仓库、许可证、应用类别、维护状态及来源，`data/open-source-schema.json` 描述该独立结构。
 
 - `open-source`：本轮核验了该发行形态的开源许可；不自动延伸到同品牌云服务或其他客户端
 - `source-available`：源码可见但有附加用途/商标等限制，不进入“仅已核验开源”筛选
@@ -291,3 +291,11 @@ Unified private Cloudflare website + API deployment now lives in [cloudflare/REA
 - 部分产品只补已确认形态，MonkeyCode桌面/CLI等发行包仍待核验。未核实的系统支持清单为空，未取得可靠SVG的记录保留空icon；未做安装、运行或服务可用性测试。
 
 完整调查见[38项调查](docs/research/sentra-agent-gaps-2026-10-10.md)，实际新增ID与Sentra映射见[补录清单](docs/research/sentra-gap-update-2026-10-10.json)。正式主schema和已有稳定ID保持不变。
+
+## v0.7 交互形态迁移
+
+每条应用只属于 GUI、CLI、IDE 插件、Web 之一。为保留 JSON 字段路径，`interfaces` 仍是数组，但 Schema 和 TypeScript 将其约束为单元素。现有单形态 ID 保留；原聚合 ID 归属迁移表中的首个应用，其余形态新增 ID。按产品聚合请使用 `getAppsByProduct(product_id)`，不要再把旧聚合 ID 当作完整产品。
+
+同一产品、同一地区可以有多个 GUI 宿主应用（例如原生客户端与浏览器扩展）；桌面和移动系统暂仍通过 `platforms` 表达。浏览器扩展归 GUI 并单独保留应用记录，IM、小程序远程调度等渠道保留在核验说明中。Web 中的可视化界面不额外算 GUI。Dify、FastGPT 保留 Web 记录；Mistral Vibe 的开源许可只关联 CLI，不从 CLI 推断托管 Web 服务开源。
+
+[迁移明细](interaction-form-migration-2026-10-11.json)记录原 ID、原形态和拆分后应用 ID；来源与许可证按应用范围保留。更新数据、SDK、CSV、ZIP 和网站时必须同步生成，不维护第二份页面数据。

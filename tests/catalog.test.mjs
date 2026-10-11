@@ -9,9 +9,9 @@ const raw = JSON.parse(await readFile(new URL('../data/dataset.json', import.met
 
 test('canonical snapshot preserved, including all record fields and IDs', () => {
   assert.deepEqual(catalog.apps, raw);
-  assert.equal(catalog.catalogMeta.recordCount, 279);
+  assert.equal(catalog.catalogMeta.recordCount, 303);
   assert.equal(catalog.catalogMeta.productCount, 185);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.6');
+  assert.equal(catalog.catalogMeta.dataVersion, '0.7');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
@@ -24,7 +24,7 @@ test('ESM and CommonJS core exports agree', () => {
 test('Sentra additions preserve product families, renamed aliases and license boundaries', async () => {
   assert.equal(catalog.getApp('qoder-wake-cn-cli').product_id, catalog.getApp('qoder-cn-cli').product_id);
   assert.equal(catalog.getApp('trae-cn-vscode').product_id, catalog.getApp('trae-cn').product_id);
-  assert.deepEqual(catalog.getApp('trae-cn-vscode').interfaces, ['IDE 扩展']);
+  assert.deepEqual(catalog.getApp('trae-cn-vscode').interfaces, ['IDE 插件']);
   assert(catalog.searchApps('Mux').some(app => app.id === 'xum-desktop'));
   assert.notEqual(catalog.getApp('aider-desk-desktop').product_id, catalog.getApp('aider').product_id);
   assert.notEqual(catalog.getApp('reasonix-cli').vendor_id, 'deepseek');
@@ -75,7 +75,7 @@ test('search supports case, aliases, Unicode normalization, Chinese and combined
   assert.deepEqual(catalog.searchApps('never-matching-unicorn-128392'), []);
 });
 test('collections and evidence preserve exact provenance and unknown-key behavior', () => {
-  assert.equal(catalog.getCollection('chinese_agents').length, 57);
+  assert.equal(catalog.getCollection('chinese_agents').length, 60);
   assert.deepEqual(catalog.getCollection('not-a-collection'), []);
   assert.deepEqual(catalog.findApps({ collection: '__proto__' }), []);
   assert.equal(catalog.getEvidence('__proto__'), undefined);
@@ -97,4 +97,25 @@ test('all SVG lookups are bundled and portable, with explicit absence', async ()
   assert.equal(icons.getIconSvg('icons/missing.svg'), undefined);
   assert(Object.isFrozen(icons.iconPaths));
   assert.equal(icons.iconPaths.length, catalog.catalogMeta.svgFileCount);
+});
+
+test('each application has one canonical form and split applications keep product identity', async () => {
+  const forms = new Set(['GUI', 'CLI', 'IDE 插件', 'Web']);
+  for (const app of catalog.apps) {
+    assert.equal(app.interfaces.length, 1, app.id);
+    assert(forms.has(app.interfaces[0]), app.id);
+  }
+  assert.deepEqual(catalog.getApp('chatgpt').interfaces, ['Web']);
+  assert.deepEqual(catalog.getApp('chatgpt-gui').interfaces, ['GUI']);
+  assert.deepEqual(catalog.getApp('chatgpt-browser-extension').interfaces, ['GUI']);
+  assert.equal(catalog.getAppsByProduct('chatgpt').length, 3);
+  for (const app of catalog.getAppsByProduct('chatgpt')) assert.equal(app.vendor_id, 'openai');
+  assert(!catalog.getApp('chatgpt-gui').platforms.includes('Web'));
+  assert.deepEqual(catalog.getApp('dify').interfaces, ['Web']);
+  assert.equal(catalog.getApp('dify-gui'), undefined);
+  const source = JSON.parse(await readFile(new URL('../data/open-source.json', import.meta.url)));
+  assert.equal(source['mistral-vibe'], undefined);
+  assert.equal(source['mistral-vibe-cli'].source_model, 'open-source');
+  assert.equal(source['mistral-vibe-ide-plugin'], undefined);
+  assert.equal(catalog.schema.items.properties.interfaces.maxItems, 1);
 });

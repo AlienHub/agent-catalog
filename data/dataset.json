@@ -55,7 +55,7 @@
     "vendor_id": "jetbrains",
     "product_id": "jetbrains-air",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材"
@@ -347,8 +347,7 @@
     "vendor_id": "zhipu",
     "product_id": "autoclaw",
     "interfaces": [
-      "GUI",
-      "IM"
+      "GUI"
     ],
     "edition": "国际版",
     "svg_status": "未找到可核验SVG"
@@ -373,8 +372,7 @@
     "vendor_id": "zhipu",
     "product_id": "autoclaw",
     "interfaces": [
-      "GUI",
-      "IM"
+      "GUI"
     ],
     "edition": "中国版",
     "svg_status": "未找到可核验SVG"
@@ -470,15 +468,37 @@
   },
   {
     "id": "chatgpt",
-    "name": "ChatGPT",
+    "name": "ChatGPT（Web）",
     "aliases": [
+      "ChatGPT",
       "Chat GPT"
     ],
     "vendor": "OpenAI",
     "type": "通用助手",
     "website": "https://chatgpt.com/",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/chatgpt.svg",
+    "vendor_id": "openai",
+    "product_id": "chatgpt",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "chatgpt-gui",
+    "name": "ChatGPT（GUI）",
+    "aliases": [
+      "ChatGPT",
+      "Chat GPT"
+    ],
+    "vendor": "OpenAI",
+    "type": "通用助手",
+    "website": "https://chatgpt.com/",
+    "platforms": [
       "Windows",
       "macOS",
       "iOS",
@@ -488,9 +508,29 @@
     "vendor_id": "openai",
     "product_id": "chatgpt",
     "interfaces": [
-      "Web",
-      "GUI",
-      "浏览器扩展"
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "chatgpt-browser-extension",
+    "name": "ChatGPT（浏览器扩展 · GUI）",
+    "aliases": [
+      "ChatGPT",
+      "Chat GPT"
+    ],
+    "vendor": "OpenAI",
+    "type": "通用助手",
+    "website": "https://chatgpt.com/",
+    "platforms": [
+      "浏览器"
+    ],
+    "icon": "icons/chatgpt.svg",
+    "vendor_id": "openai",
+    "product_id": "chatgpt",
+    "interfaces": [
+      "GUI"
     ],
     "edition": "国际版",
     "svg_status": "available"
@@ -520,13 +560,35 @@
   },
   {
     "id": "claude",
-    "name": "Claude",
-    "aliases": [],
+    "name": "Claude（Web）",
+    "aliases": [
+      "Claude"
+    ],
     "vendor": "Anthropic",
     "type": "通用助手",
     "website": "https://claude.ai/",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/claude.svg",
+    "vendor_id": "anthropic",
+    "product_id": "claude",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "claude-gui",
+    "name": "Claude（GUI）",
+    "aliases": [
+      "Claude"
+    ],
+    "vendor": "Anthropic",
+    "type": "通用助手",
+    "website": "https://claude.ai/",
+    "platforms": [
       "Windows",
       "macOS",
       "Linux",
@@ -538,9 +600,28 @@
     "vendor_id": "anthropic",
     "product_id": "claude",
     "interfaces": [
-      "Web",
-      "GUI",
-      "浏览器扩展"
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "claude-browser-extension",
+    "name": "Claude（浏览器扩展 · GUI）",
+    "aliases": [
+      "Claude"
+    ],
+    "vendor": "Anthropic",
+    "type": "通用助手",
+    "website": "https://claude.ai/",
+    "platforms": [
+      "ChromeOS"
+    ],
+    "icon": "icons/claude.svg",
+    "vendor_id": "anthropic",
+    "product_id": "claude",
+    "interfaces": [
+      "GUI"
     ],
     "edition": "国际版",
     "svg_status": "available"
@@ -568,7 +649,7 @@
   },
   {
     "id": "claude-code-ide",
-    "name": "Claude Code IDE 扩展",
+    "name": "Claude Code IDE 插件",
     "aliases": [],
     "vendor": "Anthropic",
     "type": "AI 编程",
@@ -582,7 +663,7 @@
     "vendor_id": "anthropic",
     "product_id": "claude-code",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库"
@@ -671,7 +752,7 @@
   },
   {
     "id": "cline",
-    "name": "Cline（IDE 扩展）",
+    "name": "Cline（IDE 插件）",
     "aliases": [],
     "vendor": "Cline Bot Inc.",
     "type": "AI 编程",
@@ -685,7 +766,7 @@
     "vendor_id": "cline",
     "product_id": "cline",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库"
@@ -739,7 +820,7 @@
   },
   {
     "id": "codebuddy-ide-extension",
-    "name": "CodeBuddy（IDE 扩展）",
+    "name": "CodeBuddy（IDE 插件）",
     "aliases": [],
     "vendor": "腾讯 Tencent",
     "type": "AI 编程",
@@ -756,7 +837,7 @@
     "vendor_id": "tencent",
     "product_id": "codebuddy",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "中国版",
     "svg_status": "已验证 SVG · 官方素材"
@@ -797,7 +878,7 @@
     "vendor_id": "zhipu",
     "product_id": "codegeex",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "未确认",
     "svg_status": "已核验SVG · Lobe Icons"
@@ -884,7 +965,7 @@
   },
   {
     "id": "codex-ide",
-    "name": "Codex IDE 扩展",
+    "name": "Codex IDE 插件",
     "aliases": [],
     "vendor": "OpenAI",
     "type": "AI 编程",
@@ -898,7 +979,7 @@
     "vendor_id": "openai",
     "product_id": "codex",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库"
@@ -1029,15 +1110,37 @@
   },
   {
     "id": "deepseek",
-    "name": "DeepSeek",
+    "name": "DeepSeek（Web）",
     "aliases": [
+      "DeepSeek",
       "深度求索"
     ],
     "vendor": "DeepSeek",
     "type": "通用助手",
     "website": "https://chat.deepseek.com/",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/deepseek.svg",
+    "vendor_id": "deepseek",
+    "product_id": "deepseek",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "deepseek-gui",
+    "name": "DeepSeek（GUI）",
+    "aliases": [
+      "DeepSeek",
+      "深度求索"
+    ],
+    "vendor": "DeepSeek",
+    "type": "通用助手",
+    "website": "https://chat.deepseek.com/",
+    "platforms": [
       "iOS",
       "Android"
     ],
@@ -1045,7 +1148,6 @@
     "vendor_id": "deepseek",
     "product_id": "deepseek",
     "interfaces": [
-      "Web",
       "GUI"
     ],
     "edition": "未确认",
@@ -1053,13 +1155,35 @@
   },
   {
     "id": "descript",
-    "name": "Descript",
-    "aliases": [],
+    "name": "Descript（Web）",
+    "aliases": [
+      "Descript"
+    ],
     "vendor": "Descript",
     "type": "音视频编辑",
     "website": "https://www.descript.com/",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/descript.svg",
+    "vendor_id": "descript",
+    "product_id": "descript",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "descript-gui",
+    "name": "Descript（GUI）",
+    "aliases": [
+      "Descript"
+    ],
+    "vendor": "Descript",
+    "type": "音视频编辑",
+    "website": "https://www.descript.com/",
+    "platforms": [
       "Windows",
       "macOS"
     ],
@@ -1067,7 +1191,6 @@
     "vendor_id": "descript",
     "product_id": "descript",
     "interfaces": [
-      "Web",
       "GUI"
     ],
     "edition": "国际版",
@@ -1134,8 +1257,7 @@
     "vendor_id": "langgenius",
     "product_id": "dify",
     "interfaces": [
-      "Web",
-      "GUI"
+      "Web"
     ],
     "edition": "未确认",
     "svg_status": "已核验SVG · 官方来源"
@@ -1303,8 +1425,7 @@
     "vendor_id": "fastgpt",
     "product_id": "fastgpt",
     "interfaces": [
-      "Web",
-      "GUI"
+      "Web"
     ],
     "edition": "未确认",
     "svg_status": "已核验SVG · 官方来源"
@@ -1333,27 +1454,68 @@
   },
   {
     "id": "fireflies-ai",
-    "name": "Fireflies.ai",
+    "name": "Fireflies.ai（Web）",
     "aliases": [
+      "Fireflies.ai",
       "Fireflies"
     ],
     "vendor": "Fireflies.ai",
     "type": "会议转写",
     "website": "https://fireflies.ai/",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/fireflies-ai.svg",
+    "vendor_id": "fireflies-ai",
+    "product_id": "fireflies-ai",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "fireflies-ai-gui",
+    "name": "Fireflies.ai（GUI）",
+    "aliases": [
+      "Fireflies.ai",
+      "Fireflies"
+    ],
+    "vendor": "Fireflies.ai",
+    "type": "会议转写",
+    "website": "https://fireflies.ai/",
+    "platforms": [
       "Desktop",
       "iOS",
-      "Android",
+      "Android"
+    ],
+    "icon": "icons/fireflies-ai.svg",
+    "vendor_id": "fireflies-ai",
+    "product_id": "fireflies-ai",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "fireflies-ai-browser-extension",
+    "name": "Fireflies.ai（浏览器扩展 · GUI）",
+    "aliases": [
+      "Fireflies.ai",
+      "Fireflies"
+    ],
+    "vendor": "Fireflies.ai",
+    "type": "会议转写",
+    "website": "https://fireflies.ai/",
+    "platforms": [
       "Chrome"
     ],
     "icon": "icons/fireflies-ai.svg",
     "vendor_id": "fireflies-ai",
     "product_id": "fireflies-ai",
     "interfaces": [
-      "Web",
-      "GUI",
-      "浏览器扩展"
+      "GUI"
     ],
     "edition": "国际版",
     "svg_status": "available"
@@ -1436,15 +1598,16 @@
     "vendor_id": "google",
     "product_id": "gemini-code-assist",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库"
   },
   {
     "id": "gemini-notebook",
-    "name": "Gemini Notebook",
+    "name": "Gemini Notebook（Web）",
     "aliases": [
+      "Gemini Notebook",
       "NotebookLM",
       "Google NotebookLM"
     ],
@@ -1452,14 +1615,35 @@
     "type": "知识与笔记",
     "website": "https://notebook.google/?hl=en-GB",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/gemini-notebook.svg",
+    "vendor_id": "google",
+    "product_id": "gemini-notebook",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "gemini-notebook-gui",
+    "name": "Gemini Notebook（GUI）",
+    "aliases": [
+      "Gemini Notebook",
+      "NotebookLM",
+      "Google NotebookLM"
+    ],
+    "vendor": "Google",
+    "type": "知识与笔记",
+    "website": "https://notebook.google/?hl=en-GB",
+    "platforms": [
       "Mobile"
     ],
     "icon": "icons/gemini-notebook.svg",
     "vendor_id": "google",
     "product_id": "gemini-notebook",
     "interfaces": [
-      "Web",
       "GUI"
     ],
     "edition": "国际版",
@@ -1523,7 +1707,7 @@
     "vendor_id": "microsoft",
     "product_id": "github-copilot",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库"
@@ -1633,13 +1817,35 @@
   },
   {
     "id": "grammarly",
-    "name": "Grammarly",
-    "aliases": [],
+    "name": "Grammarly（Web）",
+    "aliases": [
+      "Grammarly"
+    ],
     "vendor": "Superhuman",
     "type": "写作助手",
     "website": "https://www.grammarly.com/",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/grammarly.svg",
+    "vendor_id": "superhuman",
+    "product_id": "grammarly",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "grammarly-gui",
+    "name": "Grammarly（GUI）",
+    "aliases": [
+      "Grammarly"
+    ],
+    "vendor": "Superhuman",
+    "type": "写作助手",
+    "website": "https://www.grammarly.com/",
+    "platforms": [
       "Windows",
       "macOS",
       "iOS",
@@ -1649,9 +1855,28 @@
     "vendor_id": "superhuman",
     "product_id": "grammarly",
     "interfaces": [
-      "Web",
-      "GUI",
-      "浏览器扩展"
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "grammarly-browser-extension",
+    "name": "Grammarly（浏览器扩展 · GUI）",
+    "aliases": [
+      "Grammarly"
+    ],
+    "vendor": "Superhuman",
+    "type": "写作助手",
+    "website": "https://www.grammarly.com/",
+    "platforms": [
+      "浏览器"
+    ],
+    "icon": "icons/grammarly.svg",
+    "vendor_id": "superhuman",
+    "product_id": "grammarly",
+    "interfaces": [
+      "GUI"
     ],
     "edition": "国际版",
     "svg_status": "available"
@@ -1853,7 +2078,7 @@
     "vendor_id": "jetbrains",
     "product_id": "jetbrains-ai",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG"
@@ -1914,7 +2139,7 @@
     "vendor_id": "jetbrains",
     "product_id": "junie",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库"
@@ -1940,15 +2165,37 @@
   },
   {
     "id": "kimi",
-    "name": "Kimi",
+    "name": "Kimi（Web）",
     "aliases": [
+      "Kimi",
       "Kimi智能助手"
     ],
     "vendor": "月之暗面 Moonshot AI",
     "type": "通用助手",
     "website": "https://www.kimi.com/",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/kimi.svg",
+    "vendor_id": "moonshot",
+    "product_id": "kimi",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "未确认",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "kimi-gui",
+    "name": "Kimi（GUI）",
+    "aliases": [
+      "Kimi",
+      "Kimi智能助手"
+    ],
+    "vendor": "月之暗面 Moonshot AI",
+    "type": "通用助手",
+    "website": "https://www.kimi.com/",
+    "platforms": [
       "iOS",
       "Android",
       "HarmonyOS",
@@ -1959,7 +2206,6 @@
     "vendor_id": "moonshot",
     "product_id": "kimi",
     "interfaces": [
-      "Web",
       "GUI"
     ],
     "edition": "未确认",
@@ -2025,7 +2271,7 @@
     "vendor_id": "moonshot",
     "product_id": "kimi-code",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材"
@@ -2305,8 +2551,7 @@
     "vendor_id": "minimax",
     "product_id": "maxclaw",
     "interfaces": [
-      "Web",
-      "IM"
+      "Web"
     ],
     "edition": "国际版",
     "svg_status": "未找到可核验SVG"
@@ -2325,21 +2570,42 @@
     "vendor_id": "minimax",
     "product_id": "maxclaw",
     "interfaces": [
-      "Web",
-      "IM"
+      "Web"
     ],
     "edition": "中国版",
     "svg_status": "未找到可核验SVG"
   },
   {
     "id": "meta-ai",
-    "name": "Meta AI",
-    "aliases": [],
+    "name": "Meta AI（Web）",
+    "aliases": [
+      "Meta AI"
+    ],
     "vendor": "Meta",
     "type": "通用助手",
     "website": "https://www.meta.ai/",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/meta-ai.svg",
+    "vendor_id": "meta",
+    "product_id": "meta-ai",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "meta-ai-gui",
+    "name": "Meta AI（GUI）",
+    "aliases": [
+      "Meta AI"
+    ],
+    "vendor": "Meta",
+    "type": "通用助手",
+    "website": "https://www.meta.ai/",
+    "platforms": [
       "iOS",
       "Android"
     ],
@@ -2347,7 +2613,6 @@
     "vendor_id": "meta",
     "product_id": "meta-ai",
     "interfaces": [
-      "Web",
       "GUI"
     ],
     "edition": "国际版",
@@ -2480,8 +2745,9 @@
   },
   {
     "id": "mistral-vibe",
-    "name": "Mistral Vibe",
+    "name": "Mistral Vibe（Web）",
     "aliases": [
+      "Mistral Vibe",
       "Le Chat",
       "Mistral Le Chat",
       "Vibe for work",
@@ -2489,10 +2755,58 @@
     ],
     "vendor": "Mistral AI",
     "type": "通用助手",
-    "website": "https://mistral.ai/products/vibe/",
+    "website": "https://chat.mistral.ai/",
     "platforms": [
-      "Web",
-      "Terminal",
+      "Web"
+    ],
+    "icon": "icons/mistral-vibe.svg",
+    "vendor_id": "mistral-ai",
+    "product_id": "mistral-vibe",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "mistral-vibe-cli",
+    "name": "Mistral Vibe（CLI）",
+    "aliases": [
+      "Mistral Vibe",
+      "Le Chat",
+      "Mistral Le Chat",
+      "Vibe for work",
+      "Vibe for code"
+    ],
+    "vendor": "Mistral AI",
+    "type": "通用助手",
+    "website": "https://github.com/mistralai/mistral-vibe",
+    "platforms": [
+      "Terminal"
+    ],
+    "icon": "icons/mistral-vibe.svg",
+    "vendor_id": "mistral-ai",
+    "product_id": "mistral-vibe",
+    "interfaces": [
+      "CLI"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "mistral-vibe-ide-plugin",
+    "name": "Mistral Vibe（IDE 插件）",
+    "aliases": [
+      "Mistral Vibe",
+      "Le Chat",
+      "Mistral Le Chat",
+      "Vibe for work",
+      "Vibe for code"
+    ],
+    "vendor": "Mistral AI",
+    "type": "通用助手",
+    "website": "https://github.com/mistralai/mistral-vibe",
+    "platforms": [
       "VS Code",
       "JetBrains",
       "Zed"
@@ -2501,9 +2815,7 @@
     "vendor_id": "mistral-ai",
     "product_id": "mistral-vibe",
     "interfaces": [
-      "Web",
-      "CLI",
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "国际版",
     "svg_status": "available"
@@ -2554,15 +2866,37 @@
   },
   {
     "id": "notion-ai",
-    "name": "Notion AI",
+    "name": "Notion AI（Web）",
     "aliases": [
+      "Notion AI",
       "Notion AI Assistant"
     ],
     "vendor": "Notion",
     "type": "办公助手",
     "website": "https://www.notion.com/product/ai",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/notion-ai.svg",
+    "vendor_id": "notion",
+    "product_id": "notion-ai",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "notion-ai-gui",
+    "name": "Notion AI（GUI）",
+    "aliases": [
+      "Notion AI",
+      "Notion AI Assistant"
+    ],
+    "vendor": "Notion",
+    "type": "办公助手",
+    "website": "https://www.notion.com/product/ai",
+    "platforms": [
       "Desktop",
       "Mobile"
     ],
@@ -2570,7 +2904,6 @@
     "vendor_id": "notion",
     "product_id": "notion-ai",
     "interfaces": [
-      "Web",
       "GUI"
     ],
     "edition": "国际版",
@@ -2697,7 +3030,7 @@
     "vendor_id": "anomaly",
     "product_id": "opencode",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库"
@@ -2725,8 +3058,9 @@
   },
   {
     "id": "otter-ai",
-    "name": "Otter.ai",
+    "name": "Otter.ai（Web）",
     "aliases": [
+      "Otter.ai",
       "Otter",
       "Otter Meeting Agent"
     ],
@@ -2734,19 +3068,61 @@
     "type": "会议转写",
     "website": "https://otter.ai/",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/otter-ai.svg",
+    "vendor_id": "otter-ai",
+    "product_id": "otter-ai",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "otter-ai-gui",
+    "name": "Otter.ai（GUI）",
+    "aliases": [
+      "Otter.ai",
+      "Otter",
+      "Otter Meeting Agent"
+    ],
+    "vendor": "Otter.ai",
+    "type": "会议转写",
+    "website": "https://otter.ai/",
+    "platforms": [
       "Desktop",
       "iOS",
-      "Android",
+      "Android"
+    ],
+    "icon": "icons/otter-ai.svg",
+    "vendor_id": "otter-ai",
+    "product_id": "otter-ai",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "otter-ai-browser-extension",
+    "name": "Otter.ai（浏览器扩展 · GUI）",
+    "aliases": [
+      "Otter.ai",
+      "Otter",
+      "Otter Meeting Agent"
+    ],
+    "vendor": "Otter.ai",
+    "type": "会议转写",
+    "website": "https://otter.ai/",
+    "platforms": [
       "Chrome"
     ],
     "icon": "icons/otter-ai.svg",
     "vendor_id": "otter-ai",
     "product_id": "otter-ai",
     "interfaces": [
-      "Web",
-      "GUI",
-      "浏览器扩展"
+      "GUI"
     ],
     "edition": "国际版",
     "svg_status": "available"
@@ -2886,8 +3262,7 @@
     "vendor_id": "tencent",
     "product_id": "qclaw",
     "interfaces": [
-      "GUI",
-      "IM"
+      "GUI"
     ],
     "edition": "国际版",
     "svg_status": "未找到可核验SVG"
@@ -2909,8 +3284,7 @@
     "vendor_id": "tencent",
     "product_id": "qclaw",
     "interfaces": [
-      "GUI",
-      "IM"
+      "GUI"
     ],
     "edition": "中国版",
     "svg_status": "未找到可核验SVG"
@@ -3023,7 +3397,7 @@
     "vendor_id": "alibaba",
     "product_id": "qoder",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "中国版",
     "svg_status": "已验证 SVG · 官方素材"
@@ -3129,7 +3503,7 @@
     "vendor_id": "alibaba",
     "product_id": "qoder",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "国际版",
     "svg_status": "已验证 SVG · 官方素材"
@@ -3261,7 +3635,7 @@
   },
   {
     "id": "qwen-code-ide",
-    "name": "Qwen Code（IDE 扩展）",
+    "name": "Qwen Code（IDE 插件）",
     "aliases": [],
     "vendor": "阿里巴巴 Alibaba",
     "type": "AI 编程",
@@ -3275,7 +3649,7 @@
     "vendor_id": "alibaba",
     "product_id": "qwen-code",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材"
@@ -3461,7 +3835,7 @@
     "vendor_id": "tabbyml",
     "product_id": "tabby",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材"
@@ -3518,8 +3892,9 @@
   },
   {
     "id": "trae-work",
-    "name": "TraeWork",
+    "name": "TraeWork（Web）",
     "aliases": [
+      "TraeWork",
       "TRAE Work",
       "TRAE SOLO 独立版"
     ],
@@ -3527,7 +3902,29 @@
     "type": "通用任务 Agent",
     "website": "https://www.trae.ai/work",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/trae.svg",
+    "vendor_id": "bytedance",
+    "product_id": "trae-work",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）"
+  },
+  {
+    "id": "trae-work-gui",
+    "name": "TraeWork（GUI）",
+    "aliases": [
+      "TraeWork",
+      "TRAE Work",
+      "TRAE SOLO 独立版"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "通用任务 Agent",
+    "website": "https://www.trae.ai/work",
+    "platforms": [
       "macOS",
       "Windows",
       "iOS"
@@ -3536,7 +3933,6 @@
     "vendor_id": "bytedance",
     "product_id": "trae-work",
     "interfaces": [
-      "Web",
       "GUI"
     ],
     "edition": "国际版",
@@ -3544,8 +3940,9 @@
   },
   {
     "id": "trae-work-cn",
-    "name": "TraeWork 中国版",
+    "name": "TraeWork 中国版（Web）",
     "aliases": [
+      "TraeWork 中国版",
       "TRAE Work",
       "TRAE SOLO 独立版"
     ],
@@ -3553,7 +3950,29 @@
     "type": "通用任务 Agent",
     "website": "https://work.trae.cn/",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/trae.svg",
+    "vendor_id": "bytedance",
+    "product_id": "trae-work",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）"
+  },
+  {
+    "id": "trae-work-cn-gui",
+    "name": "TraeWork 中国版（GUI）",
+    "aliases": [
+      "TraeWork 中国版",
+      "TRAE Work",
+      "TRAE SOLO 独立版"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "通用任务 Agent",
+    "website": "https://work.trae.cn/",
+    "platforms": [
       "macOS",
       "Windows",
       "iOS",
@@ -3563,7 +3982,6 @@
     "vendor_id": "bytedance",
     "product_id": "trae-work",
     "interfaces": [
-      "Web",
       "GUI"
     ],
     "edition": "中国版",
@@ -3694,13 +4112,35 @@
   },
   {
     "id": "wordtune",
-    "name": "Wordtune",
-    "aliases": [],
+    "name": "Wordtune（Web）",
+    "aliases": [
+      "Wordtune"
+    ],
     "vendor": "AI21 Labs",
     "type": "写作助手",
     "website": "https://www.wordtune.com/",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/wordtune.svg",
+    "vendor_id": "ai21",
+    "product_id": "wordtune",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "国际版",
+    "svg_status": "available"
+  },
+  {
+    "id": "wordtune-browser-extension",
+    "name": "Wordtune（浏览器扩展 · GUI）",
+    "aliases": [
+      "Wordtune"
+    ],
+    "vendor": "AI21 Labs",
+    "type": "写作助手",
+    "website": "https://www.wordtune.com/",
+    "platforms": [
       "Chrome",
       "Edge",
       "Firefox"
@@ -3709,8 +4149,7 @@
     "vendor_id": "ai21",
     "product_id": "wordtune",
     "interfaces": [
-      "Web",
-      "浏览器扩展"
+      "GUI"
     ],
     "edition": "国际版",
     "svg_status": "available"
@@ -3732,8 +4171,7 @@
     "vendor_id": "tencent",
     "product_id": "workbuddy",
     "interfaces": [
-      "GUI",
-      "IM"
+      "GUI"
     ],
     "edition": "国际版",
     "svg_status": "已核验SVG · 官方来源"
@@ -3756,9 +4194,7 @@
     "vendor_id": "tencent",
     "product_id": "workbuddy",
     "interfaces": [
-      "GUI",
-      "IM",
-      "小程序"
+      "GUI"
     ],
     "edition": "中国版",
     "svg_status": "已核验SVG · 官方来源"
@@ -3890,8 +4326,9 @@
   },
   {
     "id": "qianwen",
-    "name": "千问",
+    "name": "千问（Web）",
     "aliases": [
+      "千问",
       "通义千问",
       "通义",
       "Qwen"
@@ -3900,7 +4337,30 @@
     "type": "通用助手",
     "website": "https://www.qianwen.com/",
     "platforms": [
-      "Web",
+      "Web"
+    ],
+    "icon": "icons/qianwen.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qwen-chat",
+    "interfaces": [
+      "Web"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "qianwen-gui",
+    "name": "千问（GUI）",
+    "aliases": [
+      "千问",
+      "通义千问",
+      "通义",
+      "Qwen"
+    ],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "通用助手",
+    "website": "https://www.qianwen.com/",
+    "platforms": [
       "macOS",
       "Windows",
       "iOS",
@@ -3910,9 +4370,31 @@
     "vendor_id": "alibaba",
     "product_id": "qwen-chat",
     "interfaces": [
-      "Web",
-      "GUI",
-      "浏览器扩展"
+      "GUI"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · Lobe Icons"
+  },
+  {
+    "id": "qianwen-browser-extension",
+    "name": "千问（浏览器扩展 · GUI）",
+    "aliases": [
+      "千问",
+      "通义千问",
+      "通义",
+      "Qwen"
+    ],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "通用助手",
+    "website": "https://www.qianwen.com/",
+    "platforms": [
+      "浏览器"
+    ],
+    "icon": "icons/qianwen.svg",
+    "vendor_id": "alibaba",
+    "product_id": "qwen-chat",
+    "interfaces": [
+      "GUI"
     ],
     "edition": "中国版",
     "svg_status": "已核验SVG · Lobe Icons"
@@ -4016,7 +4498,7 @@
   },
   {
     "id": "codearts-agent-ide-extension",
-    "name": "华为云码道（IDE 扩展）",
+    "name": "华为云码道（IDE 插件）",
     "aliases": [],
     "vendor": "华为 Huawei Cloud",
     "type": "AI 编程",
@@ -4029,7 +4511,7 @@
     "vendor_id": "huawei",
     "product_id": "codearts-agent",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "中国版",
     "svg_status": "未找到可核验SVG"
@@ -4186,8 +4668,29 @@
   },
   {
     "id": "comate",
-    "name": "文心快码",
+    "name": "文心快码（GUI）",
     "aliases": [
+      "文心快码",
+      "Baidu Comate"
+    ],
+    "vendor": "百度 Baidu",
+    "type": "AI 编程",
+    "website": "https://comate.baidu.com/",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "baidu",
+    "product_id": "comate",
+    "interfaces": [
+      "GUI"
+    ],
+    "edition": "未确认",
+    "svg_status": "未找到可核验SVG"
+  },
+  {
+    "id": "comate-ide-plugin",
+    "name": "文心快码（IDE 插件）",
+    "aliases": [
+      "文心快码",
       "Baidu Comate"
     ],
     "vendor": "百度 Baidu",
@@ -4200,8 +4703,7 @@
     "vendor_id": "baidu",
     "product_id": "comate",
     "interfaces": [
-      "GUI",
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "未确认",
     "svg_status": "未找到可核验SVG"
@@ -4545,8 +5047,7 @@
     "vendor_id": "alibaba",
     "product_id": "dingtalk-wukong",
     "interfaces": [
-      "GUI",
-      "钉钉内嵌"
+      "GUI"
     ],
     "edition": "中国版",
     "svg_status": "未找到可核验SVG"
@@ -4794,7 +5295,7 @@
   },
   {
     "id": "kilo-code-ide",
-    "name": "Kilo Code （IDE 扩展）",
+    "name": "Kilo Code （IDE 插件）",
     "aliases": [
       "Kilo"
     ],
@@ -4812,7 +5313,7 @@
     "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
-      "IDE"
+      "IDE 插件"
     ]
   },
   {
@@ -5368,7 +5869,7 @@
     "vendor_id": "bytedance",
     "product_id": "trae",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "中国版",
     "svg_status": "沿用已核验官方品牌 SVG"
@@ -5388,7 +5889,7 @@
     "vendor_id": "bytedance",
     "product_id": "trae",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "中国版",
     "svg_status": "沿用已核验官方品牌 SVG"
@@ -5474,7 +5975,7 @@
     "vendor_id": "codemaker-ai",
     "product_id": "codemaker",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充"
@@ -5491,7 +5992,7 @@
     "vendor_id": "codemaker-ai",
     "product_id": "codemaker",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充"
@@ -5628,7 +6129,7 @@
     "vendor_id": "firebender",
     "product_id": "firebender",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充"
@@ -5778,7 +6279,7 @@
     "vendor_id": "tabbyml",
     "product_id": "pochi",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充"
@@ -5837,7 +6338,7 @@
     "vendor_id": "roo-code",
     "product_id": "roo-code",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充"
@@ -5896,7 +6397,7 @@
     "vendor_id": "zencoder",
     "product_id": "zencoder",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充"
@@ -5913,7 +6414,7 @@
     "vendor_id": "zencoder",
     "product_id": "zencoder",
     "interfaces": [
-      "IDE 扩展"
+      "IDE 插件"
     ],
     "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充"

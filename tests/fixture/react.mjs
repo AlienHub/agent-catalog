@@ -4,7 +4,7 @@ import { renderToStaticMarkup } from 'react-dom/server';
 import { AppIcon } from '@alienhub/agent-atlas/react';
 const html = renderToStaticMarkup(createElement(AppIcon,{ appId:'chatgpt', size:32, loading:'lazy' }));
 assert(html.includes('src="data:image/svg+xml;'));
-assert(html.includes('alt="ChatGPT 图标"'));
+assert(html.includes('alt="ChatGPT（Web） 图标"'));
 assert(html.includes('width="32"'));
 assert(!html.includes('https://'));
 assert.equal(renderToStaticMarkup(createElement(AppIcon,{ appId:'unknown', fallback:null })), '');

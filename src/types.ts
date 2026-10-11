@@ -1,4 +1,5 @@
-/** IDs and field values preserve the canonical dataset, including historical names. */
+export type InteractionForm = 'GUI' | 'CLI' | 'IDE 插件' | 'Web';
+/** One independently identified application per interaction form and edition. */
 export interface CatalogApp {
   readonly id: string;
   readonly name: string;
@@ -11,7 +12,8 @@ export interface CatalogApp {
   readonly icon: string;
   readonly vendor_id: string;
   readonly product_id: string;
-  readonly interfaces: readonly string[];
+  /** Kept as a one-element tuple for JSON/SDK field compatibility. */
+  readonly interfaces: readonly [InteractionForm];
   /** Product/service edition; not a geographic availability guarantee. */
   readonly edition: string;
   /** Original status text, preserved verbatim rather than normalized to boolean. */
