@@ -11,7 +11,7 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, 297);
   assert.equal(catalog.catalogMeta.productCount, 185);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.11');
+  assert.equal(catalog.catalogMeta.dataVersion, '0.12');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
@@ -52,7 +52,7 @@ test('filters AND across fields, OR within arrays, and handle empty arrays', () 
   assert.deepEqual(catalog.findApps({ vendorId: 'openai', interface: 'CLI' }), expected);
   assert.deepEqual(catalog.findApps({ productId: ['codex','chatgpt'] }), raw.filter(app => ['codex','chatgpt'].includes(app.product_id)));
   assert.equal(catalog.findApps({ productId: [] }).length, 0);
-  assert.deepEqual(catalog.findApps({ edition: 'CN', hasSvg: false }), raw.filter(app => app.edition === 'CN' && !app.icon));
+  assert.deepEqual(catalog.findApps({ hasSvg: false }), raw.filter(app => !app.icon));
   const app = raw[0];
   assert(catalog.findApps({ type: app.type, platform: app.platforms[0] }).some(item => item.id === app.id));
 });
@@ -149,6 +149,12 @@ test('display names omit form suffixes and China editions use CN', () => {
  assert.deepEqual(catalog.getApp('chatgpt').interfaces,['Web']);
  assert.deepEqual(catalog.getApp('chatgpt-gui').interfaces,['GUI']);
  assert.equal(catalog.getApp('trae-work-cn').name,'TraeWork CN');
- assert.equal(catalog.getApp('trae-work-cn').edition,'CN');
- assert(catalog.apps.every(a => !a.name.includes('中国版') && a.edition!=='中国版' && !/（(?:Web|GUI|CLI|IDE|IDE 插件)）$/.test(a.name)));
+ assert(catalog.apps.every(a => !a.name.includes('中国版') && !/（(?:Web|GUI|CLI|IDE|IDE 插件)）$/.test(a.name)));
+});
+
+test('edition field is removed from records and schema', () => {
+ assert.equal(catalog.catalogMeta.schemaVersion,4);
+ assert(catalog.apps.every(a=>!Object.hasOwn(a,'edition')));
+ assert(!catalog.schema.items.required.includes('edition'));
+ assert(!Object.hasOwn(catalog.schema.items.properties,'edition'));
 });

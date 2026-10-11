@@ -1,5 +1,5 @@
 export type InteractionForm = 'GUI' | 'CLI' | 'IDE 插件' | 'Web' | '浏览器插件' | '小程序';
-/** One independently identified application per interaction form and edition. */
+/** One independently identified application per interaction form. */
 export interface CatalogApp {
   readonly id: string;
   readonly name: string;
@@ -14,8 +14,6 @@ export interface CatalogApp {
   readonly product_id: string;
   /** Kept as a one-element tuple for JSON/SDK field compatibility. */
   readonly interfaces: readonly [InteractionForm];
-  /** Product/service edition; not a geographic availability guarantee. */
-  readonly edition: string;
   /** Original status text, preserved verbatim rather than normalized to boolean. */
   readonly svg_status: string;
   /** Official store ID; empty means unverified or not applicable. */
@@ -34,7 +32,6 @@ export interface CatalogFilters {
   readonly vendorId?: FilterValue;
   readonly productId?: FilterValue;
   readonly interface?: FilterValue;
-  readonly edition?: FilterValue;
   readonly type?: FilterValue;
   readonly platform?: FilterValue;
   readonly hasSvg?: boolean;

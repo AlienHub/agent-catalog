@@ -1,6 +1,6 @@
 {
   "chatgpt": {
-    "notes": "General assistant with search, writing, images and voice. Desktop and mobile distributions are interfaces of the same product; subscription tiers are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。",
+    "notes": "General assistant with search, writing, images and voice. Desktop and mobile distributions are interfaces of the same product; subscription tiers are not separate products. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。",
     "sources": [
       {
         "url": "https://chatgpt.com/",
@@ -18,7 +18,7 @@
     "verified_at": "2026-10-02"
   },
   "claude": {
-    "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。",
+    "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。",
     "sources": [
       {
         "url": "https://claude.ai/",
@@ -40,7 +40,7 @@
     "verified_at": "2026-10-02"
   },
   "gemini": {
-    "notes": "Google consumer AI assistant, distinct from the Gemini model family and Gemini CLI. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Google consumer AI assistant, distinct from the Gemini model family and Gemini CLI.",
     "sources": [
       {
         "url": "https://gemini.google.com/",
@@ -58,7 +58,7 @@
     "verified_at": "2026-10-02"
   },
   "microsoft-copilot": {
-    "notes": "Microsoft consumer Copilot assistant. Distinct from GitHub Copilot; Microsoft 365 subscription tiers are not separate entries here. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Microsoft consumer Copilot assistant. Distinct from GitHub Copilot; Microsoft 365 subscription tiers are not separate entries here.",
     "sources": [
       {
         "url": "https://copilot.microsoft.com/",
@@ -76,7 +76,7 @@
     "verified_at": "2026-10-02"
   },
   "perplexity": {
-    "notes": "Answer and research application with web sources. Model choices and plan tiers are not counted as separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Answer and research application with web sources. Model choices and plan tiers are not counted as separate products.",
     "sources": [
       {
         "url": "https://www.perplexity.ai/",
@@ -94,7 +94,7 @@
     "verified_at": "2026-10-02"
   },
   "grok": {
-    "notes": "xAI assistant at grok.com, distinct from xAI model versions. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "xAI assistant at grok.com, distinct from xAI model versions.",
     "sources": [
       {
         "url": "https://grok.com/",
@@ -112,7 +112,7 @@
     "verified_at": "2026-10-02"
   },
   "meta-ai": {
-    "notes": "Meta assistant. Official Meta newsroom documents standalone iOS/Android app and meta.ai; rollout availability varies by country and feature. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。",
+    "notes": "Meta assistant. Official Meta newsroom documents standalone iOS/Android app and meta.ai; rollout availability varies by country and feature. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。",
     "sources": [
       {
         "url": "https://www.meta.ai/",
@@ -138,7 +138,7 @@
     "verified_at": "2026-10-02"
   },
   "mistral-vibe": {
-    "notes": "Official product page explicitly says Le Chat is now Vibe and describes work/chat and coding as one product. Le Chat and Vibe for code are not counted again. Uses the Mistral brand mark. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / CLI / IDE 扩展。",
+    "notes": "Official product page explicitly says Le Chat is now Vibe and describes work/chat and coding as one product. Le Chat and Vibe for code are not counted again. Uses the Mistral brand mark. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / CLI / IDE 扩展。",
     "sources": [
       {
         "url": "https://mistral.ai/products/vibe/",
@@ -160,7 +160,7 @@
     "verified_at": "2026-10-02"
   },
   "poe": {
-    "notes": "Multi-model AI chat application from Quora; individual hosted bots are not extra catalog products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Multi-model AI chat application from Quora; individual hosted bots are not extra catalog products.",
     "sources": [
       {
         "url": "https://poe.com/",
@@ -178,7 +178,7 @@
     "verified_at": "2026-10-02"
   },
   "gemini-notebook": {
-    "notes": "Official FAQ states NotebookLM became Gemini Notebook in July 2026; it remains the same standalone source-grounded research product across web and mobile. Uses current official favicon. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。",
+    "notes": "Official FAQ states NotebookLM became Gemini Notebook in July 2026; it remains the same standalone source-grounded research product across web and mobile. Uses current official favicon. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。",
     "sources": [
       {
         "url": "https://notebook.google/?hl=en-GB",
@@ -196,7 +196,7 @@
     "verified_at": "2026-10-02"
   },
   "brave-leo": {
-    "notes": "Assistant built into the Brave browser. GUI means browser-integrated desktop/mobile UI, not a standalone Leo web service. Official Leo mark used, not Brave browser lion. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "notes": "Assistant built into the Brave browser. GUI means browser-integrated desktop/mobile UI, not a standalone Leo web service. Official Leo mark used, not Brave browser lion. 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://brave.com/leo/",
@@ -210,7 +210,7 @@
     "verified_at": "2026-10-11"
   },
   "duck-ai": {
-    "notes": "DuckDuckGo private AI chat product. Uses its official Duck.ai SVG favicon, not a generic generated placeholder. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "DuckDuckGo private AI chat product. Uses its official Duck.ai SVG favicon, not a generic generated placeholder.",
     "sources": [
       {
         "url": "https://duck.ai/",
@@ -224,7 +224,7 @@
     "verified_at": "2026-10-02"
   },
   "kagi-assistant": {
-    "notes": "Kagi conversational research assistant, accessed in the browser. Uses the Kagi brand mark. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Kagi conversational research assistant, accessed in the browser. Uses the Kagi brand mark.",
     "sources": [
       {
         "url": "https://help.kagi.com/kagi/ai/assistant.html",
@@ -242,7 +242,7 @@
     "verified_at": "2026-10-02"
   },
   "notion-ai": {
-    "notes": "AI workspace capabilities within Notion, including agents, enterprise search and meeting notes. Counted once; uses the Notion brand mark. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。",
+    "notes": "AI workspace capabilities within Notion, including agents, enterprise search and meeting notes. Counted once; uses the Notion brand mark. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。",
     "sources": [
       {
         "url": "https://www.notion.com/product/ai",
@@ -260,7 +260,7 @@
     "verified_at": "2026-10-02"
   },
   "grammarly": {
-    "notes": "AI writing application. Official company page says Grammarly remains the product name while the company is now Superhuman. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。",
+    "notes": "AI writing application. Official company page says Grammarly remains the product name while the company is now Superhuman. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。",
     "sources": [
       {
         "url": "https://www.grammarly.com/",
@@ -282,7 +282,7 @@
     "verified_at": "2026-10-02"
   },
   "quillbot": {
-    "notes": "Writing, paraphrasing and creative AI toolkit. No trustworthy current SVG asset was obtained in this pass; no raster-to-SVG wrapper is supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Writing, paraphrasing and creative AI toolkit. No trustworthy current SVG asset was obtained in this pass; no raster-to-SVG wrapper is supplied.",
     "sources": [
       {
         "url": "https://quillbot.com/",
@@ -292,7 +292,7 @@
     "verified_at": "2026-10-02"
   },
   "jasper": {
-    "notes": "AI marketing application and agent workspace. Logo is the downloadable/copyable inline SVG explicitly supplied by the official homepage. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "AI marketing application and agent workspace. Logo is the downloadable/copyable inline SVG explicitly supplied by the official homepage.",
     "sources": [
       {
         "url": "https://www.jasper.ai/",
@@ -306,7 +306,7 @@
     "verified_at": "2026-10-02"
   },
   "copy-ai": {
-    "notes": "GTM AI workflow and marketing application. Official SVG wordmark supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "GTM AI workflow and marketing application. Official SVG wordmark supplied.",
     "sources": [
       {
         "url": "https://www.copy.ai/",
@@ -320,7 +320,7 @@
     "verified_at": "2026-10-02"
   },
   "writesonic": {
-    "notes": "Current site positions Writesonic as an AI-search growth platform with content agents and article writing; not only a text generator. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Current site positions Writesonic as an AI-search growth platform with content agents and article writing; not only a text generator.",
     "sources": [
       {
         "url": "https://writesonic.com/",
@@ -334,7 +334,7 @@
     "verified_at": "2026-10-02"
   },
   "wordtune": {
-    "notes": "AI21 Labs writing and rewriting assistant. Official SVG wordmark supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / 浏览器扩展。",
+    "notes": "AI21 Labs writing and rewriting assistant. Official SVG wordmark supplied. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / 浏览器扩展。",
     "sources": [
       {
         "url": "https://www.wordtune.com/",
@@ -348,7 +348,7 @@
     "verified_at": "2026-10-02"
   },
   "canva-ai": {
-    "notes": "Canva international AI design product. Older /magic/ URL redirects to /canva-ai/. Counted once within the Canva product, not per Magic Studio feature. Uses Canva brand SVG from SVGL; no assertion about access in China. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Canva international AI design product. Older /magic/ URL redirects to /canva-ai/. Counted once within the Canva product, not per Magic Studio feature. Uses Canva brand SVG from SVGL; no assertion about access in China.",
     "sources": [
       {
         "url": "https://www.canva.com/canva-ai/",
@@ -366,7 +366,7 @@
     "verified_at": "2026-10-02"
   },
   "adobe-firefly": {
-    "notes": "Adobe generative creative application for images and video; model versions are not separate apps. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Adobe generative creative application for images and video; model versions are not separate apps.",
     "sources": [
       {
         "url": "https://www.adobe.com/products/firefly.html",
@@ -384,7 +384,7 @@
     "verified_at": "2026-10-02"
   },
   "midjourney": {
-    "notes": "Image-generation application. Individual model releases and plan tiers are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Image-generation application. Individual model releases and plan tiers are not separate products.",
     "sources": [
       {
         "url": "https://www.midjourney.com/",
@@ -402,7 +402,7 @@
     "verified_at": "2026-10-02"
   },
   "leonardo-ai": {
-    "notes": "Canva-owned generative image and video application. No trustworthy current SVG logo was obtained in this pass; no raster conversion supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 原来源主体名称：Leonardo.Ai / Canva；目录按供应商主体归组。",
+    "notes": "Canva-owned generative image and video application. No trustworthy current SVG logo was obtained in this pass; no raster conversion supplied. 原来源主体名称：Leonardo.Ai / Canva；目录按供应商主体归组。",
     "sources": [
       {
         "url": "https://leonardo.ai/",
@@ -412,7 +412,7 @@
     "verified_at": "2026-10-02"
   },
   "ideogram": {
-    "notes": "Visual generative AI application; model releases are not separate product entries. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Visual generative AI application; model releases are not separate product entries.",
     "sources": [
       {
         "url": "https://ideogram.ai/",
@@ -430,7 +430,7 @@
     "verified_at": "2026-10-02"
   },
   "recraft": {
-    "notes": "Generative design workspace including image and vector creation. Native SVG generation is a product feature, separate from its actual brand logo. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Generative design workspace including image and vector creation. Native SVG generation is a product feature, separate from its actual brand logo.",
     "sources": [
       {
         "url": "https://www.recraft.ai/",
@@ -448,7 +448,7 @@
     "verified_at": "2026-10-02"
   },
   "runway": {
-    "notes": "Generative video and creative application. Official runwayml.com redirects to runway.com; both names are searchable aliases. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Generative video and creative application. Official runwayml.com redirects to runway.com; both names are searchable aliases.",
     "sources": [
       {
         "url": "https://runway.com/",
@@ -466,7 +466,7 @@
     "verified_at": "2026-10-02"
   },
   "pika": {
-    "notes": "AI video-generation application. Effect names and model versions are not counted as standalone apps. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "AI video-generation application. Effect names and model versions are not counted as standalone apps.",
     "sources": [
       {
         "url": "https://pika.art/",
@@ -484,7 +484,7 @@
     "verified_at": "2026-10-02"
   },
   "luma-dream-machine": {
-    "notes": "Luma AI image/video creative application. Official web quick-start confirms browser use. Distinct from underlying Ray model versions. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Luma AI image/video creative application. Official web quick-start confirms browser use. Distinct from underlying Ray model versions.",
     "sources": [
       {
         "url": "https://lumalabs.ai/dream-machine",
@@ -506,7 +506,7 @@
     "verified_at": "2026-10-02"
   },
   "synthesia": {
-    "notes": "AI business video and avatar platform. Uses official SVG wordmark. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "AI business video and avatar platform. Uses official SVG wordmark.",
     "sources": [
       {
         "url": "https://www.synthesia.io/",
@@ -520,7 +520,7 @@
     "verified_at": "2026-10-02"
   },
   "heygen": {
-    "notes": "AI avatar video creation and translation application. Official site currently exposes PNG brand images; no verified genuine SVG acquired, so icon is intentionally empty. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "AI avatar video creation and translation application. Official site currently exposes PNG brand images; no verified genuine SVG acquired, so icon is intentionally empty.",
     "sources": [
       {
         "url": "https://www.heygen.com/",
@@ -530,7 +530,7 @@
     "verified_at": "2026-10-02"
   },
   "descript": {
-    "notes": "AI-assisted text-based audio/video editing application. Official download page lists macOS and Windows; web editor is also linked. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。",
+    "notes": "AI-assisted text-based audio/video editing application. Official download page lists macOS and Windows; web editor is also linked. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。",
     "sources": [
       {
         "url": "https://www.descript.com/",
@@ -548,7 +548,7 @@
     "verified_at": "2026-10-02"
   },
   "elevenlabs": {
-    "notes": "AI audio and voice creation platform. Voice models and individual voices are not cataloged as separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "AI audio and voice creation platform. Voice models and individual voices are not cataloged as separate products.",
     "sources": [
       {
         "url": "https://elevenlabs.io/",
@@ -566,7 +566,7 @@
     "verified_at": "2026-10-02"
   },
   "suno": {
-    "notes": "AI music-generation application. Subscription tiers and model versions are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "AI music-generation application. Subscription tiers and model versions are not separate products.",
     "sources": [
       {
         "url": "https://suno.com/",
@@ -584,7 +584,7 @@
     "verified_at": "2026-10-02"
   },
   "udio": {
-    "notes": "AI music-generation application from Uncharted Labs. Model versions are not separate apps. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "AI music-generation application from Uncharted Labs. Model versions are not separate apps.",
     "sources": [
       {
         "url": "https://www.udio.com/",
@@ -602,7 +602,7 @@
     "verified_at": "2026-10-02"
   },
   "otter-ai": {
-    "notes": "AI meeting recording, transcription and insights application. Homepage links desktop, iOS, Android and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。",
+    "notes": "AI meeting recording, transcription and insights application. Homepage links desktop, iOS, Android and Chrome extension. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。",
     "sources": [
       {
         "url": "https://otter.ai/",
@@ -616,7 +616,7 @@
     "verified_at": "2026-10-02"
   },
   "fireflies-ai": {
-    "notes": "AI meeting and work assistant. Homepage explicitly documents web dashboard, desktop/mobile apps and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。",
+    "notes": "AI meeting and work assistant. Homepage explicitly documents web dashboard, desktop/mobile apps and Chrome extension. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。",
     "sources": [
       {
         "url": "https://fireflies.ai/",
@@ -630,7 +630,7 @@
     "verified_at": "2026-10-02"
   },
   "fathom": {
-    "notes": "Fathom AI meeting notetaker. fathom.video redirects to fathom.ai. Uses actual official Fathom mark, not the unrelated Fathom analytics brand. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Fathom AI meeting notetaker. fathom.video redirects to fathom.ai. Uses actual official Fathom mark, not the unrelated Fathom analytics brand.",
     "sources": [
       {
         "url": "https://www.fathom.ai/",
@@ -644,7 +644,7 @@
     "verified_at": "2026-10-02"
   },
   "gamma": {
-    "notes": "AI presentation and website application at gamma.app. No verified genuine SVG obtained; unrelated Gamma hardware-store/telecom/crypto marks were rejected. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "AI presentation and website application at gamma.app. No verified genuine SVG obtained; unrelated Gamma hardware-store/telecom/crypto marks were rejected.",
     "sources": [
       {
         "url": "https://gamma.app/",
@@ -654,7 +654,7 @@
     "verified_at": "2026-10-02"
   },
   "napkin-ai": {
-    "notes": "Text-to-visual diagram and presentation application. Official SVG wordmark supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Text-to-visual diagram and presentation application. Official SVG wordmark supplied.",
     "sources": [
       {
         "url": "https://www.napkin.ai/",
@@ -4550,7 +4550,7 @@
     "verified_at": "2026-10-10"
   },
   "chatgpt-gui": {
-    "notes": "General assistant with search, writing, images and voice. Desktop and mobile distributions are interfaces of the same product; subscription tiers are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "notes": "General assistant with search, writing, images and voice. Desktop and mobile distributions are interfaces of the same product; subscription tiers are not separate products. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://chatgpt.com/",
@@ -4568,7 +4568,7 @@
     "verified_at": "2026-10-11"
   },
   "chatgpt-browser-extension": {
-    "notes": "General assistant with search, writing, images and voice. Desktop and mobile distributions are interfaces of the same product; subscription tiers are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。 此条为OpenAI官方ChatGPT search默认搜索扩展，不等同于具有网页操作能力的Agent。",
+    "notes": "General assistant with search, writing, images and voice. Desktop and mobile distributions are interfaces of the same product; subscription tiers are not separate products. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。 此条为OpenAI官方ChatGPT search默认搜索扩展，不等同于具有网页操作能力的Agent。",
     "sources": [
       {
         "url": "https://chatgpt.com/",
@@ -4590,7 +4590,7 @@
     "verified_at": "2026-10-11"
   },
   "claude-gui": {
-    "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://claude.ai/",
@@ -4612,7 +4612,7 @@
     "verified_at": "2026-10-11"
   },
   "claude-browser-extension": {
-    "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
+    "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
     "sources": [
       {
         "url": "https://claude.ai/",
@@ -4638,7 +4638,7 @@
     "verified_at": "2026-10-11"
   },
   "descript-gui": {
-    "notes": "AI-assisted text-based audio/video editing application. Official download page lists macOS and Windows; web editor is also linked. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。",
+    "notes": "AI-assisted text-based audio/video editing application. Official download page lists macOS and Windows; web editor is also linked. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。",
     "sources": [
       {
         "url": "https://www.descript.com/",
@@ -4656,7 +4656,7 @@
     "verified_at": "2026-10-02"
   },
   "fireflies-ai-gui": {
-    "notes": "AI meeting and work assistant. Homepage explicitly documents web dashboard, desktop/mobile apps and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "notes": "AI meeting and work assistant. Homepage explicitly documents web dashboard, desktop/mobile apps and Chrome extension. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://fireflies.ai/",
@@ -4670,7 +4670,7 @@
     "verified_at": "2026-10-11"
   },
   "fireflies-ai-browser-extension": {
-    "notes": "AI meeting and work assistant. Homepage explicitly documents web dashboard, desktop/mobile apps and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
+    "notes": "AI meeting and work assistant. Homepage explicitly documents web dashboard, desktop/mobile apps and Chrome extension. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
     "sources": [
       {
         "url": "https://fireflies.ai/",
@@ -4688,7 +4688,7 @@
     "verified_at": "2026-10-11"
   },
   "grammarly-gui": {
-    "notes": "AI writing application. Official company page says Grammarly remains the product name while the company is now Superhuman. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "notes": "AI writing application. Official company page says Grammarly remains the product name while the company is now Superhuman. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://www.grammarly.com/",
@@ -4710,7 +4710,7 @@
     "verified_at": "2026-10-11"
   },
   "grammarly-browser-extension": {
-    "notes": "AI writing application. Official company page says Grammarly remains the product name while the company is now Superhuman. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。 Chrome商店页面本次读取失败，Chrome ID由官方安装链接及部署文档确认；名称以官方Edge商店条目为准。",
+    "notes": "AI writing application. Official company page says Grammarly remains the product name while the company is now Superhuman. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。 Chrome商店页面本次读取失败，Chrome ID由官方安装链接及部署文档确认；名称以官方Edge商店条目为准。",
     "sources": [
       {
         "url": "https://www.grammarly.com/",
@@ -4762,7 +4762,7 @@
     "verified_at": "2026-10-11"
   },
   "mistral-vibe-cli": {
-    "notes": "Official product page explicitly says Le Chat is now Vibe and describes work/chat and coding as one product. Le Chat and Vibe for code are not counted again. Uses the Mistral brand mark. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / CLI / IDE 扩展。 2026-10-11 形态规范迁移：本条仅表示CLI应用。原交互标签：Web / CLI / IDE 扩展。",
+    "notes": "Official product page explicitly says Le Chat is now Vibe and describes work/chat and coding as one product. Le Chat and Vibe for code are not counted again. Uses the Mistral brand mark. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / CLI / IDE 扩展。 2026-10-11 形态规范迁移：本条仅表示CLI应用。原交互标签：Web / CLI / IDE 扩展。",
     "sources": [
       {
         "url": "https://mistral.ai/products/vibe/",
@@ -4788,7 +4788,7 @@
     "verified_at": "2026-10-02"
   },
   "mistral-vibe-ide-plugin": {
-    "notes": "Official product page explicitly says Le Chat is now Vibe and describes work/chat and coding as one product. Le Chat and Vibe for code are not counted again. Uses the Mistral brand mark. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / CLI / IDE 扩展。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：Web / CLI / IDE 扩展。 IDE 入口通过 ACP 接入 Vibe CLI；不声称提供独立自研 IDE 安装包。",
+    "notes": "Official product page explicitly says Le Chat is now Vibe and describes work/chat and coding as one product. Le Chat and Vibe for code are not counted again. Uses the Mistral brand mark. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / CLI / IDE 扩展。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：Web / CLI / IDE 扩展。 IDE 入口通过 ACP 接入 Vibe CLI；不声称提供独立自研 IDE 安装包。",
     "sources": [
       {
         "url": "https://mistral.ai/products/vibe/",
@@ -4814,7 +4814,7 @@
     "verified_at": "2026-10-02"
   },
   "notion-ai-gui": {
-    "notes": "AI workspace capabilities within Notion, including agents, enterprise search and meeting notes. Counted once; uses the Notion brand mark. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "notes": "AI workspace capabilities within Notion, including agents, enterprise search and meeting notes. Counted once; uses the Notion brand mark. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://www.notion.com/product/ai",
@@ -4832,7 +4832,7 @@
     "verified_at": "2026-10-11"
   },
   "otter-ai-gui": {
-    "notes": "AI meeting recording, transcription and insights application. Homepage links desktop, iOS, Android and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "notes": "AI meeting recording, transcription and insights application. Homepage links desktop, iOS, Android and Chrome extension. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://otter.ai/",
@@ -4846,7 +4846,7 @@
     "verified_at": "2026-10-11"
   },
   "otter-ai-browser-extension": {
-    "notes": "AI meeting recording, transcription and insights application. Homepage links desktop, iOS, Android and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
+    "notes": "AI meeting recording, transcription and insights application. Homepage links desktop, iOS, Android and Chrome extension. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
     "sources": [
       {
         "url": "https://otter.ai/",
@@ -4908,7 +4908,7 @@
     "verified_at": "2026-10-11"
   },
   "wordtune-browser-extension": {
-    "notes": "AI21 Labs writing and rewriting assistant. Official SVG wordmark supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
+    "notes": "AI21 Labs writing and rewriting assistant. Official SVG wordmark supplied. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
     "sources": [
       {
         "url": "https://www.wordtune.com/",

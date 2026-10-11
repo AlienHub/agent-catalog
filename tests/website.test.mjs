@@ -29,7 +29,7 @@ async function setup(failure=false, trendResponses={}){
 test('React catalog preserves records, all filters, searches and empty/reset',async()=>{
  const t=await setup();try{
  assert.equal(t.count(),297);
- for(const[id,key,array]of [['type','type',false],['platform','platforms',true],['vendor','vendor_id',false],['interface','interfaces',true],['edition','edition',false]]){const value=t.$(id).options[1].value;await t.change(id,value);assert.equal(t.count(),apps.filter(a=>array?a[key].includes(value):a[key]===value).length);await t.click('reset');assert.equal(t.count(),297)}
+ for(const[id,key,array]of [['type','type',false],['platform','platforms',true],['vendor','vendor_id',false],['interface','interfaces',true]]){const value=t.$(id).options[1].value;await t.change(id,value);assert.equal(t.count(),apps.filter(a=>array?a[key].includes(value):a[key]===value).length);await t.click('reset');assert.equal(t.count(),297)}
  for(const field of ['name','vendor','aliases']){const app=apps.find(a=>field!=='aliases'||a.aliases.length);await t.change('search',field==='aliases'?app.aliases[0]:app[field]);assert(t.count()>0);await t.click('reset')}
  await t.change('search','zzzz-nonexistent-87234');assert.equal(t.count(),0);assert(!t.$('empty').hidden);await t.click('emptyReset');assert.equal(t.count(),297);
  // React checkbox change is driven by a click, just as a user toggles it.
@@ -166,5 +166,16 @@ test('extension details link separate store IDs and do not invent unknown IDs', 
   await t.click('closeDetails');await t.change('search','qianwen-browser-extension');await t.click(t.w.document.querySelector('.appname'));
   assert(t.$('detailContent').textContent.includes('未确认官方商店 ID'));
   assert.equal(t.$('detailTitle').textContent,'千问');
+ }finally{t.dom.window.close()}
+});
+
+test('edition labels, filter, detail field and CSV column are removed', async () => {
+ const t=await setup();try{
+  assert.equal(t.$('edition'),null);
+  assert([...t.w.document.querySelectorAll('.card-tags')].every(el=>!/(国际版|全球版|社区 \/ 自托管版)/.test(el.textContent)));
+  await t.change('search','chatgpt-gui');await t.click(t.w.document.querySelector('.appname'));
+  assert(!t.$('detailContent').textContent.includes('地区版本'));
+  await t.click('csvExport');assert(!t.downloads.at(-1).blob.parts.join('').split('\r\n')[0].includes('edition'));
+  await t.click('schemaButton');assert(!t.$('fields').textContent.includes('edition'));
  }finally{t.dom.window.close()}
 });

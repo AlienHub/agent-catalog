@@ -17,13 +17,13 @@ export async function validateData() {
     assert(/^[a-z][a-z0-9-]*$/.test(app.id), `Invalid ID: ${app.id}`);
     assert(!ids.has(app.id), `Duplicate ID: ${app.id}`); ids.add(app.id);
     for (const key of stringFields) assert.equal(typeof app[key], 'string', `${app.id}.${key}`);
-    for (const key of ['name','vendor','vendor_id','product_id','type','edition','svg_status']) assert(app[key].trim(), `${app.id}.${key} is empty`);
+    for (const key of ['name','vendor','vendor_id','product_id','type','svg_status']) assert(app[key].trim(), `${app.id}.${key} is empty`);
     assert(['http:', 'https:'].includes(new URL(app.website).protocol), `Website URL: ${app.id}`);
     for (const key of ['aliases','platforms','interfaces']) {
       assert(Array.isArray(app[key]) && app[key].every(v => typeof v === 'string' && v.length), `${app.id}.${key}`);
       assert.equal(new Set(app[key]).size, app[key].length, `Duplicate ${app.id}.${key}`);
     }
-    assert(!app.name.includes('中国版') && app.edition !== '中国版', `Use CN edition naming: ${app.id}`);
+    assert(!app.name.includes('中国版'), `Use CN edition naming: ${app.id}`);
     assert(!/（(?:Web|GUI|CLI|IDE|IDE 插件)）$/.test(app.name), `Interaction form belongs in interfaces: ${app.id}`);
     assert(!app.platforms.some(p => ['iOS','iPadOS','Android','Mobile'].includes(p)), `Mobile platform outside catalog scope: ${app.id}`);
     assert.equal(app.interfaces.length, 1, `One interaction form per application: ${app.id}`);

@@ -1,13 +1,12 @@
 {
-  "schemaVersion": 3,
-  "dataVersion": "0.11",
+  "schemaVersion": 4,
+  "dataVersion": "0.12",
   "snapshotDate": "2026-10-11",
   "source": "Agent Atlas verified application catalog; Sentra gap review against sentra-lib 2cdefd26c0f5f1cebec0aeab33d0a9c84ae9558f",
   "verificationScope": "Official website/source review; not an installation or availability test",
-  "editionCaveat": "Edition identifies the linked product/service positioning, not guaranteed geographic availability",
-  "sourceCommit": "11df21b72276f540c8e878c506f45696aa656dd5",
+  "sourceCommit": "b663861dbd28e7be36bcbf6e2fe9934a66eaeb80",
   "openSourceMetadataScope": "Verified per record ID; missing metadata means unverified, not closed-source. Repository pushes do not prove maintenance.",
-  "interactionModel": "One independent application record per interaction form and edition: GUI, CLI, IDE 插件, Web, 浏览器插件, 小程序. IM is a channel; DingTalk embedded AI capabilities belong to its GUI application.",
+  "interactionModel": "One independent application record per interaction form: GUI, CLI, IDE 插件, Web, 浏览器插件, 小程序. IM is a channel; DingTalk embedded AI capabilities belong to its GUI application.",
   "applicationScope": "Desktop and browser applications; mobile-only records excluded. Existing mini programs retained.",
-  "namingPolicy": "Use CN for the China edition. Application names omit added interaction-form suffixes; interfaces, platforms and edition distinguish records."
+  "namingPolicy": "Use CN where needed in product names. Application names omit added interaction-form suffixes; interfaces and platforms distinguish records. No edition field."
 }

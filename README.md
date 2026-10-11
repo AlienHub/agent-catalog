@@ -91,7 +91,6 @@ console.log(catalogMeta.recordCount, catalogMeta.productCount, apps.length);
 | `vendorId` | `vendor_id` |
 | `productId` | `product_id` |
 | `interface` | `interfaces` 中的值，例如 `CLI`、`GUI`、`Web` |
-| `edition` | `edition` 原值 |
 | `type` | `type` 原值 |
 | `platform` | `platforms` 中的值 |
 | `collection` | 集合名称，例如 `chinese_agents` |
@@ -175,12 +174,11 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.11（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.12（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
 - `interfaces` 只允许 GUI、CLI、IDE 插件、Web、浏览器插件、小程序，且每条记录只有一个值；每个形态独立定义为应用并拥有独立 `id`。`product_id` 关联产品，`platforms` 描述该应用支持系统。浏览器插件和小程序各自独立分类；钉钉内嵌 AI 能力归 GUI；IM 是接入渠道，不单独计为应用。
-- `edition` 表示产品版本定位，不保证某地区可访问、可注册或有资格使用
 - `evidence.json` 中的 `sources`、`notes` 和 `verified_at` 保留来源、核验日期及例外说明；官网资料核对不代表安装或运行测试
 - 缺失可靠 SVG 的记录保留空 `icon` 与相应 `svg_status`；不能用位图改后缀或猜测的图形补齐
 - 这是版本化快照，不是实时服务状态；维护时需复核来源，保留停服、迁移或未确认事项的说明
@@ -318,6 +316,12 @@ Unified private Cloudflare website + API deployment now lives in [cloudflare/REA
 
 [范围调整记录](desktop-scope-migration-2026-10-11.json)保留移除的原记录与平台变更，供历史追溯；主数据、核验来源、集合、商业元信息、SDK与网站导出同步移除移动端应用。空缺平台不代表产品不存在移动版本，只表示不纳入本目录。
 
-## v0.11 名称与 CN 版本规范
+## v0.11 名称与 CN 版本规范（历史字段，由 v0.12 移除）
 
 地区版本统一使用 `CN`；名称、别名、核验说明与网站字段说明同步使用 CN。应用名称去掉人为添加的 Web、GUI、IDE 插件及宿主等括号后缀，交互形态通过 `interfaces`、宿主通过 `platforms`、版本通过 `edition` 区分。产品本身的正式名称（例如 ChatGPT search、Qoder Desktop、Qwen Code Web UI）保留。不同形态允许同名，稳定应用 ID 与产品关联不变。
+
+## v0.12 移除地区版本字段
+
+Schema v4 删除 `edition` 字段，SDK 的 `CatalogApp`、`CatalogFilters` 同步删除该属性。网站去掉地区版本筛选、卡片标签、详情字段和字段字典项；JSON、CSV、ZIP中不再导出该字段。数据快照版本 `dataVersion` 仍用于追踪更新。已有名称中的 CN 标识、应用ID、产品ID和297条应用记录均保留。
+
+这是数据结构变更：调用方需要移除 `edition` 属性访问及筛选条件，按稳定应用ID识别对应记录。

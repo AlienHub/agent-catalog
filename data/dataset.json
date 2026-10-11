@@ -15,7 +15,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -38,7 +37,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -61,7 +59,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -82,7 +79,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -105,7 +101,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -126,7 +121,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -147,7 +141,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -172,7 +165,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -197,7 +189,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -222,7 +213,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -243,7 +233,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -266,7 +255,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -291,7 +279,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -312,7 +299,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -338,7 +324,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -363,7 +348,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -388,7 +372,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -411,7 +394,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -434,7 +416,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -458,7 +439,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -482,7 +462,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -507,7 +486,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -531,7 +509,6 @@
     "interfaces": [
       "浏览器插件"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "ejcfepkfckglbgocfkanmcdngdijcgld",
     "edge_extension_id": ""
@@ -556,7 +533,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -579,7 +555,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -605,7 +580,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -628,7 +602,6 @@
     "interfaces": [
       "浏览器插件"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "fcoeoabgfenejglbffodgkkbkcdhcgfn",
     "edge_extension_id": ""
@@ -651,7 +624,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -674,7 +646,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -695,7 +666,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -718,7 +688,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -741,7 +710,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -764,7 +732,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -787,7 +754,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -812,7 +778,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -838,7 +803,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -864,7 +828,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "CN",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -887,7 +850,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -909,7 +871,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -930,7 +891,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -953,7 +913,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -976,7 +935,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -997,7 +955,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1020,7 +977,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1043,7 +999,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1064,7 +1019,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1087,7 +1041,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1110,7 +1063,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1135,7 +1087,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1156,7 +1107,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1180,7 +1130,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1203,7 +1152,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1227,7 +1175,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1251,7 +1198,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1277,7 +1223,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1299,7 +1244,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1322,7 +1266,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1345,7 +1288,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1368,7 +1310,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1389,7 +1330,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1413,7 +1353,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1438,7 +1377,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1461,7 +1399,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1483,7 +1420,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1507,7 +1443,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1531,7 +1466,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1555,7 +1489,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1579,7 +1512,6 @@
     "interfaces": [
       "浏览器插件"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "meimoidfecamngeoanhnpdjjdcefoldn",
     "edge_extension_id": ""
@@ -1600,7 +1532,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "unavailable",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1624,7 +1555,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1647,7 +1577,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1670,7 +1599,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1695,7 +1623,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1718,7 +1645,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1741,7 +1667,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1764,7 +1689,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1785,7 +1709,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1808,7 +1731,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1831,7 +1753,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1854,7 +1775,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1877,7 +1797,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1900,7 +1819,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1924,7 +1842,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1947,7 +1864,6 @@
     "interfaces": [
       "浏览器插件"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "kbfnbcaeplbcioakkpcpgfkobkghlhen",
     "edge_extension_id": "cnlefmmeadmemmdciolhbnfeacpdfbkd"
@@ -1968,7 +1884,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1990,7 +1905,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2011,7 +1925,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2032,7 +1945,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "unavailable",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2053,7 +1965,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2077,7 +1988,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2100,7 +2010,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2123,7 +2032,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2144,7 +2052,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2169,7 +2076,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2190,7 +2096,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2213,7 +2118,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2236,7 +2140,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2257,7 +2160,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2281,7 +2183,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2306,7 +2207,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2332,7 +2232,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2354,7 +2253,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2377,7 +2275,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2398,7 +2295,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2424,7 +2320,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2450,7 +2345,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2474,7 +2368,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2497,7 +2390,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "unavailable",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2520,7 +2412,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2545,7 +2436,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2569,7 +2459,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2595,7 +2484,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2616,7 +2504,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2638,7 +2525,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2662,7 +2548,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2683,7 +2568,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2704,7 +2588,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "CN",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2727,7 +2610,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2751,7 +2633,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2772,7 +2653,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2793,7 +2673,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "已核验SVG · Lobe Icons（MiniMax 品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2814,7 +2693,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons（MiniMax 品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2840,7 +2718,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2864,7 +2741,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2891,7 +2767,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2918,7 +2793,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2947,7 +2821,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2972,7 +2845,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2995,7 +2867,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3019,7 +2890,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3043,7 +2913,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3066,7 +2935,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3088,7 +2956,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3112,7 +2979,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3135,7 +3001,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3158,7 +3023,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3181,7 +3045,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3204,7 +3067,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3229,7 +3091,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3254,7 +3115,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3279,7 +3139,6 @@
     "interfaces": [
       "浏览器插件"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "bnmojkbbkkonlmlfgejehefjldooiedp",
     "edge_extension_id": ""
@@ -3300,7 +3159,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3323,7 +3181,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3344,7 +3201,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3367,7 +3223,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3388,7 +3243,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3409,7 +3263,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3433,7 +3286,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3457,7 +3309,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3480,7 +3331,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "国际版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3505,7 +3355,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "CN",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3533,7 +3382,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3557,7 +3405,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3580,7 +3427,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "CN",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3604,7 +3450,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3629,7 +3474,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3651,7 +3495,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3673,7 +3516,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3696,7 +3538,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "国际版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3720,7 +3561,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3741,7 +3581,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "unavailable",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3764,7 +3603,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3789,7 +3627,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3812,7 +3649,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3833,7 +3669,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3856,7 +3691,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3877,7 +3711,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3900,7 +3733,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3925,7 +3757,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3948,7 +3779,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3971,7 +3801,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3992,7 +3821,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4013,7 +3841,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4036,7 +3863,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4063,7 +3889,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4090,7 +3915,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4115,7 +3939,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4141,7 +3964,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4166,7 +3988,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4192,7 +4013,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4213,7 +4033,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4236,7 +4055,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4259,7 +4077,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4281,7 +4098,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4304,7 +4120,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4327,7 +4142,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4352,7 +4166,6 @@
     "interfaces": [
       "浏览器插件"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "nllcnknpjnininklegdoijpljgdjkijc",
     "edge_extension_id": "fgngodlaekdlibajobmkaklibdggemdd"
@@ -4376,7 +4189,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "国际版",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4401,7 +4213,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4425,7 +4236,6 @@
     "interfaces": [
       "小程序"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4446,7 +4256,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4467,7 +4276,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4490,7 +4298,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "国际版",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4515,7 +4322,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4538,7 +4344,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4562,7 +4367,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4588,7 +4392,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4615,7 +4418,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4641,7 +4443,6 @@
     "interfaces": [
       "浏览器插件"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4669,7 +4470,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4693,7 +4493,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4718,7 +4517,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "CN",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4746,7 +4544,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4768,7 +4565,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "CN",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4791,7 +4587,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4814,7 +4609,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4838,7 +4632,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4861,7 +4654,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4885,7 +4677,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4908,7 +4699,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4932,7 +4722,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4954,7 +4743,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "未确认",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4978,7 +4766,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "未确认",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5002,7 +4789,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5025,7 +4811,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5048,7 +4833,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5071,7 +4855,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5094,7 +4877,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5117,7 +4899,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5140,7 +4921,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5164,7 +4944,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5187,7 +4966,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5210,7 +4988,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5233,7 +5010,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5256,7 +5032,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5279,7 +5054,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5306,7 +5080,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5329,7 +5102,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5354,7 +5126,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5378,7 +5149,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "未确认",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5401,7 +5171,6 @@
     "icon": "",
     "vendor_id": "openclaw",
     "product_id": "openclaw",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "CLI"
@@ -5425,7 +5194,6 @@
     "icon": "",
     "vendor_id": "openclaw",
     "product_id": "openclaw",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "Web"
@@ -5451,7 +5219,6 @@
     "icon": "",
     "vendor_id": "openclaw",
     "product_id": "openclaw",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "GUI"
@@ -5474,7 +5241,6 @@
     "icon": "",
     "vendor_id": "nous-research",
     "product_id": "hermes-agent",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "CLI"
@@ -5499,7 +5265,6 @@
     "icon": "",
     "vendor_id": "agentscope",
     "product_id": "qwenpaw",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "CLI"
@@ -5522,7 +5287,6 @@
     "icon": "",
     "vendor_id": "agentscope",
     "product_id": "qwenpaw",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "Web"
@@ -5545,7 +5309,6 @@
     "icon": "",
     "vendor_id": "hkuds",
     "product_id": "nanobot",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "CLI"
@@ -5566,7 +5329,6 @@
     "icon": "",
     "vendor_id": "hkuds",
     "product_id": "nanobot",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "Web"
@@ -5589,7 +5351,6 @@
     "icon": "",
     "vendor_id": "agent-zero",
     "product_id": "agent-zero",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "Web"
@@ -5614,7 +5375,6 @@
     "icon": "",
     "vendor_id": "kilo-code",
     "product_id": "kilo-code",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "CLI"
@@ -5639,7 +5399,6 @@
     "icon": "",
     "vendor_id": "kilo-code",
     "product_id": "kilo-code",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "IDE 插件"
@@ -5665,7 +5424,6 @@
     "icon": "",
     "vendor_id": "earendil-works",
     "product_id": "pi",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "CLI"
@@ -5688,7 +5446,6 @@
     "icon": "",
     "vendor_id": "eigent",
     "product_id": "eigent",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "GUI"
@@ -5713,7 +5470,6 @@
     "icon": "",
     "vendor_id": "iofficeai",
     "product_id": "aionui",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "GUI"
@@ -5736,7 +5492,6 @@
     "icon": "",
     "vendor_id": "iofficeai",
     "product_id": "aionui",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "Web"
@@ -5759,7 +5514,6 @@
     "icon": "",
     "vendor_id": "different-ai",
     "product_id": "openwork",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "GUI"
@@ -5780,7 +5534,6 @@
     "icon": "",
     "vendor_id": "librechat",
     "product_id": "librechat",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "Web"
@@ -5805,7 +5558,6 @@
     "icon": "",
     "vendor_id": "open-interpreter",
     "product_id": "open-interpreter",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "CLI"
@@ -5824,7 +5576,6 @@
     "icon": "",
     "vendor_id": "bytedance",
     "product_id": "agent-tars",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "CLI"
@@ -5845,7 +5596,6 @@
     "icon": "",
     "vendor_id": "bytedance",
     "product_id": "agent-tars",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "Web"
@@ -5869,7 +5619,6 @@
     "icon": "",
     "vendor_id": "bytedance",
     "product_id": "ui-tars-desktop",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "GUI"
@@ -5893,7 +5642,6 @@
     "icon": "",
     "vendor_id": "bytedance",
     "product_id": "deerflow",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "Web"
@@ -5918,7 +5666,6 @@
     "icon": "",
     "vendor_id": "bytedance",
     "product_id": "deerflow",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "CLI"
@@ -5939,7 +5686,6 @@
     "icon": "",
     "vendor_id": "astrbot",
     "product_id": "astrbot",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "Web"
@@ -5960,7 +5706,6 @@
     "icon": "",
     "vendor_id": "langbot",
     "product_id": "langbot",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "Web"
@@ -5983,7 +5728,6 @@
     "icon": "",
     "vendor_id": "foundationagents",
     "product_id": "openmanus",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "CLI"
@@ -6006,7 +5750,6 @@
     "icon": "",
     "vendor_id": "plandex",
     "product_id": "plandex",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "CLI"
@@ -6027,7 +5770,6 @@
     "icon": "",
     "vendor_id": "stackblitz",
     "product_id": "bolt-diy",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "Web"
@@ -6050,7 +5792,6 @@
     "icon": "",
     "vendor_id": "stackblitz",
     "product_id": "bolt-diy",
-    "edition": "社区 / 自托管版",
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "interfaces": [
       "GUI"
@@ -6074,7 +5815,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6097,7 +5837,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6118,7 +5857,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6141,7 +5879,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6162,7 +5899,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "CN",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6184,7 +5920,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "CN",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6209,7 +5944,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "CN",
     "svg_status": "沿用已核验官方品牌 SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6232,7 +5966,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "CN",
     "svg_status": "沿用已核验官方品牌 SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6254,7 +5987,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "CN",
     "svg_status": "沿用已核验官方品牌 SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6276,7 +6008,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "CN",
     "svg_status": "沿用已核验官方品牌 SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6301,7 +6032,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6326,7 +6056,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6351,7 +6080,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6370,7 +6098,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6389,7 +6116,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6408,7 +6134,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6429,7 +6154,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6454,7 +6178,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6476,7 +6199,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6499,7 +6221,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6521,7 +6242,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6540,7 +6260,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6561,7 +6280,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6582,7 +6300,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6601,7 +6318,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6622,7 +6338,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6643,7 +6358,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6664,7 +6378,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6687,7 +6400,6 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6706,7 +6418,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6727,7 +6438,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6752,7 +6462,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6771,7 +6480,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6796,7 +6504,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6817,7 +6524,6 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6836,7 +6542,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6855,7 +6560,6 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6880,7 +6584,6 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "全球版",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""

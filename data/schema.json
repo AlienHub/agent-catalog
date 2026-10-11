@@ -16,7 +16,6 @@
       "icon",
       "vendor_id",
       "product_id",
-      "edition",
       "svg_status",
       "interfaces",
       "chrome_extension_id",
@@ -65,9 +64,6 @@
         "type": "string"
       },
       "product_id": {
-        "type": "string"
-      },
-      "edition": {
         "type": "string"
       },
       "svg_status": {

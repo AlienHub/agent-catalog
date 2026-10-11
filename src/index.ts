@@ -28,7 +28,7 @@ const byId = new Map(apps.map(app => [app.id, app]));
 const collectionIds = new Map(Object.entries(collections).map(([name, ids]) => [name, new Set(ids)]));
 const searchTexts = new Map(apps.map(app => [app.id, normalize([
   app.id, app.name, ...app.aliases, app.vendor, app.vendor_id, app.product_id,
-  app.type, app.edition, app.chrome_extension_id, app.edge_extension_id, ...app.interfaces, ...app.platforms,
+  app.type, app.chrome_extension_id, app.edge_extension_id, ...app.interfaces, ...app.platforms,
 ].join(' '))]));
 function normalize(value: string): string { return value.normalize('NFKC').toLowerCase(); }
 function matches(actual: string | readonly string[], expected: FilterValue | undefined): boolean {
@@ -41,14 +41,13 @@ function filterMatch(app: CatalogApp, filters: CatalogFilters): boolean {
   return matches(app.vendor_id, filters.vendorId)
     && matches(app.product_id, filters.productId)
     && matches(app.interfaces, filters.interface)
-    && matches(app.edition, filters.edition)
     && matches(app.type, filters.type)
     && matches(app.platforms, filters.platform)
     && (filters.hasSvg === undefined || app.icon.endsWith('.svg') === filters.hasSvg)
     && (filters.collection === undefined || collectionIds.get(filters.collection)?.has(app.id) === true);
 }
 
-/** Exact stable ID lookup. Does not guess between product, edition or interface IDs. */
+/** Exact stable ID lookup. Does not guess between product or interface IDs. */
 export function getApp(id: string): CatalogApp | undefined { return byId.get(id); }
 export function getEvidence(id: string): CatalogEvidence | undefined {
   return Object.prototype.hasOwnProperty.call(evidence, id) ? evidence[id] : undefined;
