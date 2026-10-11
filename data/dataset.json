@@ -8180,5 +8180,497 @@
     ],
     "chrome_extension_id": "",
     "edge_extension_id": ""
+  },
+  {
+    "id": "step-code-cli",
+    "name": "Step Code",
+    "aliases": [
+      "StepCode"
+    ],
+    "vendor": "阶跃星辰 StepFun",
+    "type": "AI 编程",
+    "website": "https://github.com/stepfun-ai/Step-Code",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "stepfun",
+    "product_id": "step-code",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "未收录 SVG · Logo 待补充",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "freebuff-desktop",
+    "name": "Freebuff",
+    "aliases": [],
+    "vendor": "Freebuff, Inc. / CodebuffAI",
+    "type": "AI 编程",
+    "website": "https://freebuff.com/desktop",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/openrouter-freebuff.png",
+    "vendor_id": "codebuffai",
+    "product_id": "freebuff",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "freebuff-cli",
+    "name": "Freebuff",
+    "aliases": [],
+    "vendor": "Freebuff, Inc. / CodebuffAI",
+    "type": "AI 编程",
+    "website": "https://freebuff.com/cli",
+    "platforms": [],
+    "icon": "icons/openrouter-freebuff.png",
+    "vendor_id": "codebuffai",
+    "product_id": "freebuff",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "freebuff-web",
+    "name": "Freebuff",
+    "aliases": [],
+    "vendor": "Freebuff, Inc. / CodebuffAI",
+    "type": "AI 编程",
+    "website": "https://freebuff.com/web",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openrouter-freebuff.png",
+    "vendor_id": "codebuffai",
+    "product_id": "freebuff",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "omp-cli",
+    "name": "omp",
+    "aliases": [],
+    "vendor": "Stencil Labs, Inc.",
+    "type": "AI 编程",
+    "website": "https://omp.sh/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/openrouter-omp.svg",
+    "vendor_id": "stencil-labs",
+    "product_id": "omp",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "available",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "codegpt-vscode",
+    "name": "CodeGPT",
+    "aliases": [
+      "CodeGPT: AI Coding Agents & Chat"
+    ],
+    "vendor": "CodeGPT LLC",
+    "type": "AI 编程",
+    "website": "https://www.codegpt.co/",
+    "platforms": [
+      "VS Code"
+    ],
+    "icon": "icons/openrouter-codegpt.svg",
+    "vendor_id": "codegpt",
+    "product_id": "codegpt",
+    "interfaces": [
+      "IDE 插件"
+    ],
+    "svg_status": "available",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "strix-cli",
+    "name": "Strix",
+    "aliases": [],
+    "vendor": "OmniSecure, Inc.",
+    "type": "AI 安全测试",
+    "website": "https://github.com/usestrix/strix",
+    "platforms": [],
+    "icon": "icons/openrouter-strix.png",
+    "vendor_id": "omnisecure",
+    "product_id": "strix",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "strix-web",
+    "name": "Strix",
+    "aliases": [],
+    "vendor": "OmniSecure, Inc.",
+    "type": "AI 安全测试",
+    "website": "https://app.strix.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openrouter-strix.png",
+    "vendor_id": "omnisecure",
+    "product_id": "strix",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "sillytavern-web",
+    "name": "SillyTavern",
+    "aliases": [],
+    "vendor": "SillyTavern 项目",
+    "type": "角色对话",
+    "website": "https://sillytavern.app/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openrouter-sillytavern.png",
+    "vendor_id": "sillytavern",
+    "product_id": "sillytavern",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "lemonade-web",
+    "name": "Lemonade",
+    "aliases": [],
+    "vendor": "Lemonade Labs, Inc.",
+    "type": "AI 游戏创作",
+    "website": "https://lemonade.gg/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openrouter-lemonade.svg",
+    "vendor_id": "lemonade-labs",
+    "product_id": "lemonade",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "available",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "proto-desktop",
+    "name": "Proto",
+    "aliases": [
+      "Proto Agent"
+    ],
+    "vendor": "ERP•AI",
+    "type": "通用任务 Agent",
+    "website": "https://proto.erp.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/openrouter-proto.png",
+    "vendor_id": "erp-ai",
+    "product_id": "proto",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "isekai-zero-web",
+    "name": "ISEKAI ZERO",
+    "aliases": [],
+    "vendor": "ISEKAI ZERO",
+    "type": "角色对话",
+    "website": "https://www.isekaizero.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openrouter-isekai-zero.png",
+    "vendor_id": "isekai-zero",
+    "product_id": "isekai-zero",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "craft-rpgs-web",
+    "name": "Craft",
+    "aliases": [],
+    "vendor": "Craft",
+    "type": "AI 游戏创作",
+    "website": "https://www.craftrpgs.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openrouter-craft.png",
+    "vendor_id": "craft-rpgs",
+    "product_id": "craft-rpgs",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "digen-web",
+    "name": "Digen AI",
+    "aliases": [],
+    "vendor": "Digen AI",
+    "type": "图像与视频生成",
+    "website": "https://agent.digen.ai/en",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "digen",
+    "product_id": "digen",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · Logo 待补充",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "framer-web",
+    "name": "Framer",
+    "aliases": [],
+    "vendor": "Framer",
+    "type": "AI 网站创作",
+    "website": "https://www.framer.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openrouter-framer.png",
+    "vendor_id": "framer",
+    "product_id": "framer",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "gdevelop-desktop",
+    "name": "GDevelop",
+    "aliases": [],
+    "vendor": "GDevelop",
+    "type": "AI 游戏创作",
+    "website": "https://gdevelop.io/download",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/openrouter-gdevelop.svg",
+    "vendor_id": "gdevelop",
+    "product_id": "gdevelop",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "available",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "gdevelop-web",
+    "name": "GDevelop",
+    "aliases": [],
+    "vendor": "GDevelop",
+    "type": "AI 游戏创作",
+    "website": "https://editor.gdevelop.io/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openrouter-gdevelop.svg",
+    "vendor_id": "gdevelop",
+    "product_id": "gdevelop",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "available",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "rosebud-web",
+    "name": "Rosebud AI",
+    "aliases": [],
+    "vendor": "Rosebud AI, Inc.",
+    "type": "AI 游戏创作",
+    "website": "https://rosebud.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openrouter-rosebud.png",
+    "vendor_id": "rosebud-ai",
+    "product_id": "rosebud",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "fliki-web",
+    "name": "Fliki",
+    "aliases": [],
+    "vendor": "Fliki",
+    "type": "音视频生成",
+    "website": "https://fliki.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openrouter-fliki.png",
+    "vendor_id": "fliki",
+    "product_id": "fliki",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "websim-web",
+    "name": "Websim",
+    "aliases": [
+      "websim agent"
+    ],
+    "vendor": "Websim, Inc.",
+    "type": "AI 应用构建",
+    "website": "https://websim.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openrouter-websim.png",
+    "vendor_id": "websim",
+    "product_id": "websim",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "highlevel-web",
+    "name": "HighLevel",
+    "aliases": [],
+    "vendor": "HighLevel",
+    "type": "AI 业务自动化",
+    "website": "https://www.gohighlevel.com/ai",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openrouter-highlevel.png",
+    "vendor_id": "highlevel",
+    "product_id": "highlevel",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已核验 PNG（位图）",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "letta-code-cli",
+    "name": "Letta Code",
+    "aliases": [],
+    "vendor": "Letta, Inc.",
+    "type": "通用任务 Agent",
+    "website": "https://docs.letta.com/platform/cli",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "letta",
+    "product_id": "letta",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "未收录 SVG · Logo 待补充",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "letta-desktop",
+    "name": "Letta",
+    "aliases": [],
+    "vendor": "Letta, Inc.",
+    "type": "通用任务 Agent",
+    "website": "https://docs.letta.com/platform/desktop-app",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "letta",
+    "product_id": "letta",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未收录 SVG · Logo 待补充",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "letta-web",
+    "name": "Letta",
+    "aliases": [],
+    "vendor": "Letta, Inc.",
+    "type": "通用任务 Agent",
+    "website": "https://chat.letta.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "letta",
+    "product_id": "letta",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · Logo 待补充",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
   }
 ]

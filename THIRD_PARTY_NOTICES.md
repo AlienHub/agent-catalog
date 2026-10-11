@@ -66,3 +66,9 @@ Reasonix 仓库素材随附原始 [MIT 文本](./licenses/reasonix-mit.txt)。Po
 ## 浏览器 AI 资产补充（2026-10-11）
 
 原始素材URL、SHA-256、格式、PNG尺寸与应用关联见 [素材清单](docs/research/browser-ai-assets-2026-10-11.json)。官方 Chrome 商店发布者图标、官网原始 SVG/PNG 均用于对应产品识别，商标、品牌与素材权利归各自权利人；公开可下载不意味着额外品牌或背书授权。Edge SVG 来自 SVGL 固定提交，沿用随附 [MIT 文本](licenses/svgl.txt)，不改变 Microsoft 商标权利。PNG 未转换成 SVG；Dia 官网内嵌位图的 favicon.svg 未作为独立矢量收录。
+
+## OpenRouter 发现来源及品牌素材（2026-10-11）
+
+OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别及URL来源保存于 `docs/research/openrouter-apps-2026-10-11.json`，没有下载或复用其第三方favicon代理缓存，也没有把选择公开追踪的用量当全市场统计。
+
+15份新增品牌素材均原样来自核验官网明确引用的SVG/PNG URL，原始URL、字节数、格式、SHA-256和应用关联见 `docs/research/openrouter-review-2026-10-11.json`。所有商标和品牌权利归权利人，不从代码许可推定品牌授权。GDevelop名称和Logo归Florian Rival；Letta代码许可排除的品牌素材未收录。

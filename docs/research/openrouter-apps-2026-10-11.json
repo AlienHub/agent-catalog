@@ -1,0 +1,5755 @@
+{
+  "source_url": "https://openrouter.ai/apps",
+  "collected_at": "2026-10-11T13:06:17.652Z",
+  "source_html_sha256": "59168c76a2e2088a4b04fa40719802de49b78d8bd1faea6abd59f1121b192b41",
+  "scope": "Public server payload: popular, trending, category lists and day/week/month global lists; not all OpenRouter applications or all AI applications.",
+  "policy": "Discovery candidates only. Reported names, categories and URLs are unverified. Never automatically import into the catalog or request candidate URLs. OpenRouter usage is opt-in and is not total market usage.",
+  "candidate_count": 273,
+  "candidates": [
+    {
+      "openrouter_app_id": 3067167,
+      "title": "Hermes Agent",
+      "reported_url": "https://hermes-agent.nousresearch.com/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "personal-agent",
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/hermes-agent",
+      "observed_lists": [
+        {
+          "list": "popular",
+          "position": 1
+        },
+        {
+          "list": "category:coding",
+          "position": 1
+        },
+        {
+          "list": "category:productivity",
+          "position": 1
+        },
+        {
+          "list": "global:day",
+          "position": 1
+        },
+        {
+          "list": "global:week",
+          "position": 1
+        },
+        {
+          "list": "global:month",
+          "position": 1
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2627404,
+      "title": "Claude Code",
+      "reported_url": "https://claude.ai/code",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/claude-code",
+      "observed_lists": [
+        {
+          "list": "popular",
+          "position": 2
+        },
+        {
+          "list": "trending",
+          "position": 2
+        },
+        {
+          "list": "category:coding",
+          "position": 2
+        },
+        {
+          "list": "global:day",
+          "position": 2
+        },
+        {
+          "list": "global:week",
+          "position": 2
+        },
+        {
+          "list": "global:month",
+          "position": 2
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2262242,
+      "title": "Kilo Code",
+      "reported_url": "https://github.com/Kilo-Org/kilocode/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent",
+        "ide-extension"
+      ],
+      "source_url": "https://openrouter.ai/apps/kilo-code",
+      "observed_lists": [
+        {
+          "list": "popular",
+          "position": 3
+        },
+        {
+          "list": "category:coding",
+          "position": 3
+        },
+        {
+          "list": "global:day",
+          "position": 3
+        },
+        {
+          "list": "global:week",
+          "position": 3
+        },
+        {
+          "list": "global:month",
+          "position": 3
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 190604,
+      "title": "Cline",
+      "reported_url": "https://cline.bot/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "ide-extension",
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/cline",
+      "observed_lists": [
+        {
+          "list": "popular",
+          "position": 4
+        },
+        {
+          "list": "category:coding",
+          "position": 5
+        },
+        {
+          "list": "global:day",
+          "position": 5
+        },
+        {
+          "list": "global:week",
+          "position": 4
+        },
+        {
+          "list": "global:month",
+          "position": 4
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4137556,
+      "title": "Freebuff",
+      "reported_url": "https://freebuff.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffreebuff.com%2F",
+      "observed_lists": [
+        {
+          "list": "trending",
+          "position": 1
+        },
+        {
+          "list": "global:day",
+          "position": 7
+        },
+        {
+          "list": "global:week",
+          "position": 6
+        },
+        {
+          "list": "global:month",
+          "position": 8
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2668297,
+      "title": "Codex",
+      "reported_url": "https://openai.com/codex",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/codex",
+      "observed_lists": [
+        {
+          "list": "trending",
+          "position": 3
+        },
+        {
+          "list": "global:day",
+          "position": 6
+        },
+        {
+          "list": "global:week",
+          "position": 5
+        },
+        {
+          "list": "global:month",
+          "position": 6
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5268002,
+      "title": "StepCode",
+      "reported_url": "https://github.com/stepfun-ai/Step-Code",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fstepfun-ai%2FStep-Code",
+      "observed_lists": [
+        {
+          "list": "trending",
+          "position": 4
+        },
+        {
+          "list": "category:coding",
+          "position": 4
+        },
+        {
+          "list": "global:day",
+          "position": 4
+        },
+        {
+          "list": "global:week",
+          "position": 12
+        },
+        {
+          "list": "global:month",
+          "position": 30
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5223849,
+      "title": "codex-fleet conductor",
+      "reported_url": "https://github.com/AxiomMath/codex-fleet",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2FAxiomMath%2Fcodex-fleet",
+      "observed_lists": [
+        {
+          "list": "trending",
+          "position": 5
+        },
+        {
+          "list": "global:day",
+          "position": 37
+        },
+        {
+          "list": "global:week",
+          "position": 19
+        },
+        {
+          "list": "global:month",
+          "position": 45
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2725608,
+      "title": "OpenClaw",
+      "reported_url": "https://openclaw.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "personal-agent",
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/openclaw",
+      "observed_lists": [
+        {
+          "list": "trending",
+          "position": 6
+        },
+        {
+          "list": "category:productivity",
+          "position": 2
+        },
+        {
+          "list": "global:day",
+          "position": 10
+        },
+        {
+          "list": "global:week",
+          "position": 9
+        },
+        {
+          "list": "global:month",
+          "position": 9
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2524738,
+      "title": "LangChain",
+      "reported_url": "https://docs.langchain.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/langchain",
+      "observed_lists": [
+        {
+          "list": "trending",
+          "position": 7
+        },
+        {
+          "list": "global:day",
+          "position": 35
+        },
+        {
+          "list": "global:week",
+          "position": 21
+        },
+        {
+          "list": "global:month",
+          "position": 28
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2637375,
+      "title": "Lemonade",
+      "reported_url": "https://lemonade.gg/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "programming-app"
+      ],
+      "source_url": "https://openrouter.ai/apps/lemonade",
+      "observed_lists": [
+        {
+          "list": "trending",
+          "position": 8
+        },
+        {
+          "list": "global:day",
+          "position": 12
+        },
+        {
+          "list": "global:week",
+          "position": 15
+        },
+        {
+          "list": "global:month",
+          "position": 16
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4132065,
+      "title": "Hello Minds, powered by Ethoswarm",
+      "reported_url": "https://www.hellominds.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "roleplay",
+        "personal-agent",
+        "creative-writing"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.hellominds.ai%2F",
+      "observed_lists": [
+        {
+          "list": "category:creative",
+          "position": 1
+        },
+        {
+          "list": "category:productivity",
+          "position": 4
+        },
+        {
+          "list": "category:entertainment",
+          "position": 1
+        },
+        {
+          "list": "global:day",
+          "position": 14
+        },
+        {
+          "list": "global:week",
+          "position": 17
+        },
+        {
+          "list": "global:month",
+          "position": 15
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2308106,
+      "title": "Descript",
+      "reported_url": "https://descript.com/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "video-gen"
+      ],
+      "source_url": "https://openrouter.ai/apps/descript",
+      "observed_lists": [
+        {
+          "list": "category:creative",
+          "position": 2
+        },
+        {
+          "list": "global:day",
+          "position": 27
+        },
+        {
+          "list": "global:week",
+          "position": 25
+        },
+        {
+          "list": "global:month",
+          "position": 22
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3844484,
+      "title": "Craft",
+      "reported_url": "https://craftrpgs.com/?utm_source=openrouter",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "roleplay",
+        "game",
+        "creative-writing",
+        "writing-assistant"
+      ],
+      "source_url": "https://openrouter.ai/apps/craft-rpgs",
+      "observed_lists": [
+        {
+          "list": "category:creative",
+          "position": 3
+        },
+        {
+          "list": "category:entertainment",
+          "position": 4
+        },
+        {
+          "list": "global:day",
+          "position": 30
+        },
+        {
+          "list": "global:week",
+          "position": 33
+        },
+        {
+          "list": "global:month",
+          "position": 34
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4832946,
+      "title": "Digen AI",
+      "reported_url": "https://agent.digen.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent",
+        "video-gen",
+        "cloud-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fagent.digen.ai%2F",
+      "observed_lists": [
+        {
+          "list": "category:creative",
+          "position": 4
+        },
+        {
+          "list": "global:day",
+          "position": 38
+        },
+        {
+          "list": "global:week",
+          "position": 41
+        },
+        {
+          "list": "global:month",
+          "position": 44
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3296290,
+      "title": "Mira",
+      "reported_url": "https://mira.tg/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "personal-agent",
+        "video-gen"
+      ],
+      "source_url": "https://openrouter.ai/apps/mira",
+      "observed_lists": [
+        {
+          "list": "category:creative",
+          "position": 5
+        },
+        {
+          "list": "global:day",
+          "position": 43
+        },
+        {
+          "list": "global:week",
+          "position": 37
+        },
+        {
+          "list": "global:month",
+          "position": 38
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4725308,
+      "title": "Proto Agent",
+      "reported_url": "https://proto.erp.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "personal-agent",
+        "general-chat",
+        "cli-agent",
+        "programming-app",
+        "native-app-builder"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fproto.erp.ai%2F",
+      "observed_lists": [
+        {
+          "list": "category:productivity",
+          "position": 3
+        },
+        {
+          "list": "global:day",
+          "position": 13
+        },
+        {
+          "list": "global:week",
+          "position": 20
+        },
+        {
+          "list": "global:month",
+          "position": 24
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2938662,
+      "title": "Nous Research API",
+      "reported_url": "https://portal.nousresearch.com/api-docs",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "general-chat"
+      ],
+      "source_url": "https://openrouter.ai/apps/nous-research-api",
+      "observed_lists": [
+        {
+          "list": "category:productivity",
+          "position": 5
+        },
+        {
+          "list": "global:day",
+          "position": 24
+        },
+        {
+          "list": "global:week",
+          "position": 26
+        },
+        {
+          "list": "global:month",
+          "position": 19
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2699842,
+      "title": "ISEKAI ZERO",
+      "reported_url": "https://www.isekai.world/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "game"
+      ],
+      "source_url": "https://openrouter.ai/apps/isekai-zero",
+      "observed_lists": [
+        {
+          "list": "category:entertainment",
+          "position": 2
+        },
+        {
+          "list": "global:day",
+          "position": 15
+        },
+        {
+          "list": "global:week",
+          "position": 14
+        },
+        {
+          "list": "global:month",
+          "position": 13
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 169155,
+      "title": "Janitor AI",
+      "reported_url": "https://janitorai.com/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "roleplay"
+      ],
+      "source_url": "https://openrouter.ai/apps/janitor-ai",
+      "observed_lists": [
+        {
+          "list": "category:entertainment",
+          "position": 3
+        },
+        {
+          "list": "global:day",
+          "position": 25
+        },
+        {
+          "list": "global:week",
+          "position": 30
+        },
+        {
+          "list": "global:month",
+          "position": 26
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 142576,
+      "title": "SillyTavern",
+      "reported_url": "https://sillytavern.app/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "roleplay"
+      ],
+      "source_url": "https://openrouter.ai/apps/sillytavern",
+      "observed_lists": [
+        {
+          "list": "category:entertainment",
+          "position": 5
+        },
+        {
+          "list": "global:day",
+          "position": 41
+        },
+        {
+          "list": "global:week",
+          "position": 42
+        },
+        {
+          "list": "global:month",
+          "position": 43
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2853275,
+      "title": "pi",
+      "reported_url": "https://pi.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/pi",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 8
+        },
+        {
+          "list": "global:week",
+          "position": 7
+        },
+        {
+          "list": "global:month",
+          "position": 5
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3682314,
+      "title": "omp",
+      "reported_url": "https://omp.sh/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fomp.sh%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 9
+        },
+        {
+          "list": "global:week",
+          "position": 8
+        },
+        {
+          "list": "global:month",
+          "position": 7
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4706207,
+      "title": "DeepSeek Harness",
+      "reported_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fdeepseek-ai%2Fdeepseek-harness",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 11
+        },
+        {
+          "list": "global:week",
+          "position": 10
+        },
+        {
+          "list": "global:month",
+          "position": 10
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 189563,
+      "title": "OpenHands",
+      "reported_url": "https://docs.all-hands.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/openhands",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 16
+        },
+        {
+          "list": "global:week",
+          "position": 11
+        },
+        {
+          "list": "global:month",
+          "position": 12
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4780809,
+      "title": "CodeGPT",
+      "reported_url": "https://codegpt.co/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "ide-extension",
+        "cli-agent",
+        "cloud-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcodegpt.co%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 17
+        },
+        {
+          "list": "global:week",
+          "position": 24
+        },
+        {
+          "list": "global:month",
+          "position": 20
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 169295,
+      "title": "Portkey AI",
+      "reported_url": "https://portkey.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "programming-app"
+      ],
+      "source_url": "https://openrouter.ai/apps/portkey-ai",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 18
+        },
+        {
+          "list": "global:week",
+          "position": 23
+        },
+        {
+          "list": "global:month",
+          "position": 29
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3003505,
+      "title": "Strix",
+      "reported_url": "https://strix.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fstrix.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 19
+        },
+        {
+          "list": "global:week",
+          "position": 16
+        },
+        {
+          "list": "global:month",
+          "position": 17
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4580044,
+      "title": "HighLevel",
+      "reported_url": "https://www.gohighlevel.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.gohighlevel.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 20
+        },
+        {
+          "list": "global:week",
+          "position": 18
+        },
+        {
+          "list": "global:month",
+          "position": 18
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2368812,
+      "title": "Letta",
+      "reported_url": "https://letta.com/agent",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent",
+        "cloud-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/letta",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 21
+        },
+        {
+          "list": "global:week",
+          "position": 27
+        },
+        {
+          "list": "global:month",
+          "position": 31
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2823243,
+      "title": "ZCode",
+      "reported_url": "https://zcode.z.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "programming-app"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fzcode.z.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 22
+        },
+        {
+          "list": "global:week",
+          "position": 22
+        },
+        {
+          "list": "global:month",
+          "position": 14
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4981823,
+      "title": "Pogl builder",
+      "reported_url": "https://play.pogl.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fplay.pogl.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 23
+        },
+        {
+          "list": "global:week",
+          "position": 51
+        },
+        {
+          "list": "global:month",
+          "position": 84
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4749832,
+      "title": "Aura.agent2.python_agent",
+      "reported_url": "https://geniusplugin.vercel.app/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgeniusplugin.vercel.app%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 26
+        },
+        {
+          "list": "global:week",
+          "position": 28
+        },
+        {
+          "list": "global:month",
+          "position": 32
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2267189,
+      "title": "Zed Editor",
+      "reported_url": "https://zed.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "programming-app"
+      ],
+      "source_url": "https://openrouter.ai/apps/zed-editor",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 28
+        },
+        {
+          "list": "global:week",
+          "position": 31
+        },
+        {
+          "list": "global:month",
+          "position": 27
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2237546,
+      "title": "Cursor",
+      "reported_url": "https://cursor.com/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "programming-app",
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcursor.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 29
+        },
+        {
+          "list": "global:week",
+          "position": 29
+        },
+        {
+          "list": "global:month",
+          "position": 21
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2285082,
+      "title": "websim agent",
+      "reported_url": "https://websim.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwebsim.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 31
+        },
+        {
+          "list": "global:week",
+          "position": 38
+        },
+        {
+          "list": "global:month",
+          "position": 42
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2299688,
+      "title": "GDevelop",
+      "reported_url": "https://gdevelop.io/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "native-app-builder"
+      ],
+      "source_url": "https://openrouter.ai/apps/gdevelop",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 32
+        },
+        {
+          "list": "global:week",
+          "position": 36
+        },
+        {
+          "list": "global:month",
+          "position": 39
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 171054,
+      "title": "HackerAI",
+      "reported_url": "https://hackerai.co/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fhackerai.co%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 33
+        },
+        {
+          "list": "global:week",
+          "position": 34
+        },
+        {
+          "list": "global:month",
+          "position": 33
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2377136,
+      "title": "Perplexity AI",
+      "reported_url": "https://perplexity.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fperplexity.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 34
+        },
+        {
+          "list": "global:week",
+          "position": 44
+        },
+        {
+          "list": "global:month",
+          "position": 74
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3335353,
+      "title": "Framer",
+      "reported_url": "https://www.framer.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/framer",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 36
+        },
+        {
+          "list": "global:week",
+          "position": 32
+        },
+        {
+          "list": "global:month",
+          "position": 23
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3906588,
+      "title": "Zoo Code",
+      "reported_url": "https://github.com/Zoo-Code-Org/Zoo-Code",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2FZoo-Code-Org%2FZoo-Code",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 39
+        },
+        {
+          "list": "global:week",
+          "position": 39
+        },
+        {
+          "list": "global:month",
+          "position": 36
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 184102,
+      "title": "Open WebUI",
+      "reported_url": "https://openwebui.com/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "general-chat"
+      ],
+      "source_url": "https://openrouter.ai/apps/open-webui",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 40
+        },
+        {
+          "list": "global:week",
+          "position": 35
+        },
+        {
+          "list": "global:month",
+          "position": 35
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4981787,
+      "title": "VVV Easy Agent",
+      "reported_url": "https://vvveasy.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fvvveasy.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 42
+        },
+        {
+          "list": "global:week",
+          "position": 46
+        },
+        {
+          "list": "global:month",
+          "position": 63
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2605040,
+      "title": "claude-mem",
+      "reported_url": "https://github.com/thedotmack/claude-mem",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fthedotmack%2Fclaude-mem",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 44
+        },
+        {
+          "list": "global:week",
+          "position": 40
+        },
+        {
+          "list": "global:month",
+          "position": 37
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3350625,
+      "title": "extra.email",
+      "reported_url": "https://extra.email/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "writing-assistant",
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/extra-email",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 45
+        },
+        {
+          "list": "global:week",
+          "position": 52
+        },
+        {
+          "list": "global:month",
+          "position": 50
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3103947,
+      "title": "Hello Haven",
+      "reported_url": "https://hellohaven.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fhellohaven.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 46
+        },
+        {
+          "list": "global:week",
+          "position": 49
+        },
+        {
+          "list": "global:month",
+          "position": 49
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4558104,
+      "title": "bench-harvest",
+      "reported_url": "https://github.com/bench-harvest",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fbench-harvest",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 47
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 194607,
+      "title": "Chatbox AI",
+      "reported_url": "https://chatboxai.app/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "general-chat"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fchatboxai.app%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 48
+        },
+        {
+          "list": "global:week",
+          "position": 56
+        },
+        {
+          "list": "global:month",
+          "position": 62
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4875175,
+      "title": "Fliki",
+      "reported_url": "https://fliki.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffliki.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 49
+        },
+        {
+          "list": "global:week",
+          "position": 73
+        },
+        {
+          "list": "global:month",
+          "position": 113
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2483960,
+      "title": "Context7",
+      "reported_url": "https://context7.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcontext7.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 50
+        },
+        {
+          "list": "global:week",
+          "position": 53
+        },
+        {
+          "list": "global:month",
+          "position": 54
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4648961,
+      "title": "pareto-autoresearch",
+      "reported_url": "https://github.com/circuitandchisel/pareto-autoresearch",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fcircuitandchisel%2Fpareto-autoresearch",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 51
+        },
+        {
+          "list": "global:week",
+          "position": 69
+        },
+        {
+          "list": "global:month",
+          "position": 138
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4979262,
+      "title": "BobAI agents",
+      "reported_url": "https://bobai.puntt.ai/app/BobAI%20agents",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fbobai.puntt.ai%2Fapp%2FBobAI%2520agents",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 52
+        },
+        {
+          "list": "global:week",
+          "position": 61
+        },
+        {
+          "list": "global:month",
+          "position": 61
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2583810,
+      "title": "CoChat",
+      "reported_url": "https://cochat.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "general-chat",
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcochat.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 53
+        },
+        {
+          "list": "global:week",
+          "position": 106
+        },
+        {
+          "list": "global:month",
+          "position": 197
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4257708,
+      "title": "OverSkill",
+      "reported_url": "https://www.overskill.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.overskill.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 54
+        },
+        {
+          "list": "global:week",
+          "position": 48
+        },
+        {
+          "list": "global:month",
+          "position": 85
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5257045,
+      "title": "cyber-train nexus eval",
+      "reported_url": "https://github.com/collinear-ai/cyber-train",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fcollinear-ai%2Fcyber-train",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 55
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3943127,
+      "title": "Rosebud",
+      "reported_url": "https://rosebud.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Frosebud.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 56
+        },
+        {
+          "list": "global:week",
+          "position": 65
+        },
+        {
+          "list": "global:month",
+          "position": 71
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4924454,
+      "title": "Olympus Ether",
+      "reported_url": "https://olympuscloud.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Folympuscloud.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 57
+        },
+        {
+          "list": "global:week",
+          "position": 108
+        },
+        {
+          "list": "global:month",
+          "position": 141
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2243795,
+      "title": "Chataigne",
+      "reported_url": "https://chataigne.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fchataigne.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 58
+        },
+        {
+          "list": "global:week",
+          "position": 67
+        },
+        {
+          "list": "global:month",
+          "position": 114
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4885443,
+      "title": "ai-copilot-prod",
+      "reported_url": "https://git.xtools.tv/ml/ai-copilot-prod",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgit.xtools.tv%2Fml%2Fai-copilot-prod",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 59
+        },
+        {
+          "list": "global:week",
+          "position": 45
+        },
+        {
+          "list": "global:month",
+          "position": 40
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5019682,
+      "title": "gentity-fleet",
+      "reported_url": "https://rootteam.co.jp/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Frootteam.co.jp%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 60
+        },
+        {
+          "list": "global:week",
+          "position": 50
+        },
+        {
+          "list": "global:month",
+          "position": 46
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5140074,
+      "title": "cerebro",
+      "reported_url": "https://cerebro.plus/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcerebro.plus%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 61
+        },
+        {
+          "list": "global:week",
+          "position": 98
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2675681,
+      "title": "DeepWork",
+      "reported_url": "https://cli-agent-bridge.mindoffice.cn/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcli-agent-bridge.mindoffice.cn%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 62
+        },
+        {
+          "list": "global:week",
+          "position": 68
+        },
+        {
+          "list": "global:month",
+          "position": 92
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3248223,
+      "title": "goose",
+      "reported_url": "https://goose-docs.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cloud-agent",
+        "cli-agent",
+        "programming-app"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgoose-docs.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 63
+        },
+        {
+          "list": "global:week",
+          "position": 47
+        },
+        {
+          "list": "global:month",
+          "position": 48
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4056540,
+      "title": "Halluna",
+      "reported_url": "https://halluna.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "roleplay",
+        "general-chat"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fhalluna.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 64
+        },
+        {
+          "list": "global:week",
+          "position": 63
+        },
+        {
+          "list": "global:month",
+          "position": 53
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5195428,
+      "title": "OpenKey",
+      "reported_url": "https://openkey.id/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fopenkey.id%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 65
+        },
+        {
+          "list": "global:week",
+          "position": 91
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 831074,
+      "title": "Roo Code",
+      "reported_url": "https://roocode.com/",
+      "reported_repository_url": "https://github.com/RooVetGit/Roo-Code",
+      "reported_categories": [
+        "ide-extension",
+        "cloud-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/roo-code",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 66
+        },
+        {
+          "list": "global:week",
+          "position": 60
+        },
+        {
+          "list": "global:month",
+          "position": 51
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2400879,
+      "title": "Sophia's LoreBary",
+      "reported_url": "https://lorebary.com/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "roleplay"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Florebary.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 67
+        },
+        {
+          "list": "global:week",
+          "position": 71
+        },
+        {
+          "list": "global:month",
+          "position": 66
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 174617,
+      "title": "ppq.ai",
+      "reported_url": "https://ppq.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fppq.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 68
+        },
+        {
+          "list": "global:week",
+          "position": 75
+        },
+        {
+          "list": "global:month",
+          "position": 75
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3178860,
+      "title": "Ito",
+      "reported_url": "https://www.ito.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cloud-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/ito",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 69
+        },
+        {
+          "list": "global:week",
+          "position": 54
+        },
+        {
+          "list": "global:month",
+          "position": 47
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4831680,
+      "title": "Trenzel",
+      "reported_url": "https://trenzel.com/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Ftrenzel.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 70
+        },
+        {
+          "list": "global:week",
+          "position": 58
+        },
+        {
+          "list": "global:month",
+          "position": 67
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3980383,
+      "title": "mimocode",
+      "reported_url": "https://mimo.xiaomi.com/coder",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "programming-app",
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fmimo.xiaomi.com%2Fcoder",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 71
+        },
+        {
+          "list": "global:week",
+          "position": 70
+        },
+        {
+          "list": "global:month",
+          "position": 57
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4812277,
+      "title": "miles thinking synthesis",
+      "reported_url": "https://github.com/Adcock-AGI-Inc/miles",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2FAdcock-AGI-Inc%2Fmiles",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 72
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3828701,
+      "title": "Letaido",
+      "reported_url": "https://letaido.com/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cloud-agent",
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fletaido.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 73
+        },
+        {
+          "list": "global:week",
+          "position": 74
+        },
+        {
+          "list": "global:month",
+          "position": 77
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3637102,
+      "title": "Ask-Chat.ai",
+      "reported_url": "https://ask-chat.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fask-chat.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 74
+        },
+        {
+          "list": "global:week",
+          "position": 64
+        },
+        {
+          "list": "global:month",
+          "position": 93
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4705724,
+      "title": "Daum",
+      "reported_url": "https://www.daum.net/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.daum.net%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 75
+        },
+        {
+          "list": "global:week",
+          "position": 86
+        },
+        {
+          "list": "global:month",
+          "position": 181
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5020774,
+      "title": "cubrik",
+      "reported_url": "https://app.cubrik.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fapp.cubrik.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 76
+        },
+        {
+          "list": "global:week",
+          "position": 82
+        },
+        {
+          "list": "global:month",
+          "position": 183
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3350889,
+      "title": "Yeyu AI",
+      "reported_url": "https://yeyu.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fyeyu.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 77
+        },
+        {
+          "list": "global:week",
+          "position": 92
+        },
+        {
+          "list": "global:month",
+          "position": 86
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 188881,
+      "title": "Chub AI",
+      "reported_url": "https://chub.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "roleplay"
+      ],
+      "source_url": "https://openrouter.ai/apps/chub-ai",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 78
+        },
+        {
+          "list": "global:week",
+          "position": 84
+        },
+        {
+          "list": "global:month",
+          "position": 78
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3854365,
+      "title": "bashtv",
+      "reported_url": "https://bash.tv/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fbash.tv%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 79
+        },
+        {
+          "list": "global:week",
+          "position": 145
+        },
+        {
+          "list": "global:month",
+          "position": 180
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3894681,
+      "title": "Bloha",
+      "reported_url": "https://bloha.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fbloha.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 80
+        },
+        {
+          "list": "global:week",
+          "position": 88
+        },
+        {
+          "list": "global:month",
+          "position": 111
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3213374,
+      "title": "ClodHost",
+      "reported_url": "https://clodhost.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fclodhost.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 81
+        },
+        {
+          "list": "global:week",
+          "position": 110
+        },
+        {
+          "list": "global:month",
+          "position": 110
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2928242,
+      "title": "Mnemonic Extractor",
+      "reported_url": "https://github.com/mnemonic-extractor",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fmnemonic-extractor",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 82
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2235067,
+      "title": "HammerAI",
+      "reported_url": "https://www.hammerai.com/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "roleplay"
+      ],
+      "source_url": "https://openrouter.ai/apps/hammerai",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 83
+        },
+        {
+          "list": "global:week",
+          "position": 96
+        },
+        {
+          "list": "global:month",
+          "position": 65
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2235775,
+      "title": "shapes.inc Imprezia category selection",
+      "reported_url": "https://shapes.inc/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "roleplay",
+        "game"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fshapes.inc%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 84
+        },
+        {
+          "list": "global:week",
+          "position": 101
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5048821,
+      "title": "rustllm",
+      "reported_url": "https://github.com/corbanvilla/rustllm",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fcorbanvilla%2Frustllm",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 85
+        },
+        {
+          "list": "global:week",
+          "position": 115
+        },
+        {
+          "list": "global:month",
+          "position": 103
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3780468,
+      "title": "Oneport-Agent",
+      "reported_url": "https://oneportai.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Foneportai.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 86
+        },
+        {
+          "list": "global:week",
+          "position": 155
+        },
+        {
+          "list": "global:month",
+          "position": 130
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4961302,
+      "title": "Fan Auto",
+      "reported_url": "https://fanauto.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffanauto.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 87
+        },
+        {
+          "list": "global:week",
+          "position": 102
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2351296,
+      "title": "Crush",
+      "reported_url": "https://charm.land/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcharm.land%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 88
+        },
+        {
+          "list": "global:week",
+          "position": 66
+        },
+        {
+          "list": "global:month",
+          "position": 69
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3174833,
+      "title": "OrationAI",
+      "reported_url": "https://oration.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Foration.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 89
+        },
+        {
+          "list": "global:week",
+          "position": 89
+        },
+        {
+          "list": "global:month",
+          "position": 88
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 190307,
+      "title": "KoalaBear",
+      "reported_url": "https://i.love.koalas.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fi.love.koalas.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 90
+        },
+        {
+          "list": "global:week",
+          "position": 94
+        },
+        {
+          "list": "global:month",
+          "position": 97
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2464416,
+      "title": "JobLeads LLM",
+      "reported_url": "https://jobleads.com/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fjobleads.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 91
+        },
+        {
+          "list": "global:week",
+          "position": 143
+        },
+        {
+          "list": "global:month",
+          "position": 158
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4280719,
+      "title": "Dulci",
+      "reported_url": "https://ls.dulci.art/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fls.dulci.art%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 92
+        },
+        {
+          "list": "global:week",
+          "position": 116
+        },
+        {
+          "list": "global:month",
+          "position": 173
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2354934,
+      "title": "Qwen Code",
+      "reported_url": "https://github.com/QwenLM/qwen-code.git",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/qwen-code",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 93
+        },
+        {
+          "list": "global:week",
+          "position": 76
+        },
+        {
+          "list": "global:month",
+          "position": 72
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2735766,
+      "title": "nanobot",
+      "reported_url": "https://github.com/HKUDS/nanobot",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/nanobot",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 94
+        },
+        {
+          "list": "global:week",
+          "position": 55
+        },
+        {
+          "list": "global:month",
+          "position": 59
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4343219,
+      "title": "unit-reason-graph",
+      "reported_url": "https://agent-unit-reason-graph.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fagent-unit-reason-graph.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 95
+        },
+        {
+          "list": "global:week",
+          "position": 103
+        },
+        {
+          "list": "global:month",
+          "position": 94
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2469970,
+      "title": "OP.GG",
+      "reported_url": "https://op.gg/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "game",
+        "general-chat",
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/opgg",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 96
+        },
+        {
+          "list": "global:week",
+          "position": 104
+        },
+        {
+          "list": "global:month",
+          "position": 105
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2479028,
+      "title": "ThetaWave",
+      "reported_url": "https://thetawave.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fthetawave.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 97
+        },
+        {
+          "list": "global:week",
+          "position": 95
+        },
+        {
+          "list": "global:month",
+          "position": 104
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4155700,
+      "title": "StoryHearts",
+      "reported_url": "https://lovell-a.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Flovell-a.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 98
+        },
+        {
+          "list": "global:week",
+          "position": 113
+        },
+        {
+          "list": "global:month",
+          "position": 140
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2330063,
+      "title": "HeyDitto",
+      "reported_url": "https://heyditto.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fheyditto.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 99
+        },
+        {
+          "list": "global:week",
+          "position": 59
+        },
+        {
+          "list": "global:month",
+          "position": 58
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2236212,
+      "title": "Cherry Studio",
+      "reported_url": "https://cherry-ai.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcherry-ai.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 100
+        },
+        {
+          "list": "global:week",
+          "position": 87
+        },
+        {
+          "list": "global:month",
+          "position": 80
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4961473,
+      "title": "critpt rollout",
+      "reported_url": "https://github.com/critpt-synth",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fcritpt-synth",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 101
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2531485,
+      "title": "LOVE",
+      "reported_url": "https://lab.naturaumana.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Flab.naturaumana.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 102
+        },
+        {
+          "list": "global:week",
+          "position": 99
+        },
+        {
+          "list": "global:month",
+          "position": 79
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4949782,
+      "title": "v3-local-news-validation-api",
+      "reported_url": "https://newscatcherapi.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fnewscatcherapi.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 103
+        },
+        {
+          "list": "global:week",
+          "position": 72
+        },
+        {
+          "list": "global:month",
+          "position": 68
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4130613,
+      "title": "Perisclaw",
+      "reported_url": "https://perisclaw.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fperisclaw.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 104
+        },
+        {
+          "list": "global:week",
+          "position": 140
+        },
+        {
+          "list": "global:month",
+          "position": 169
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2275362,
+      "title": "SkyrimNet",
+      "reported_url": "https://github.com/SkyrimNet",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "game"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2FSkyrimNet",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 105
+        },
+        {
+          "list": "global:week",
+          "position": 125
+        },
+        {
+          "list": "global:month",
+          "position": 124
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3886237,
+      "title": "ChainPatrol",
+      "reported_url": "https://app.chainpatrol.io/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fapp.chainpatrol.io%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 106
+        },
+        {
+          "list": "global:week",
+          "position": 119
+        },
+        {
+          "list": "global:month",
+          "position": 83
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5139130,
+      "title": "marshal-harness",
+      "reported_url": "https://github.com/cowboyinc/marshal-harness",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fcowboyinc%2Fmarshal-harness",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 107
+        },
+        {
+          "list": "global:week",
+          "position": 107
+        },
+        {
+          "list": "global:month",
+          "position": 179
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2891361,
+      "title": "Yumina",
+      "reported_url": "https://yumina.app/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fyumina.app%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 108
+        },
+        {
+          "list": "global:week",
+          "position": 133
+        },
+        {
+          "list": "global:month",
+          "position": 126
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4919301,
+      "title": "nymbo NYM-4 P6 judge",
+      "reported_url": "https://github.com/nymbo-ai/nymbo",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fnymbo-ai%2Fnymbo",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 109
+        },
+        {
+          "list": "global:week",
+          "position": 134
+        },
+        {
+          "list": "global:month",
+          "position": 163
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2496671,
+      "title": "fal.ai Turn Classifier",
+      "reported_url": "https://fal.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffal.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 110
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2250749,
+      "title": "My Dream Companion",
+      "reported_url": "https://www.mydreamcompanion.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.mydreamcompanion.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 111
+        },
+        {
+          "list": "global:week",
+          "position": 122
+        },
+        {
+          "list": "global:month",
+          "position": 112
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3405080,
+      "title": "msai-sim-offline",
+      "reported_url": "https://marketingsecrets.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fmarketingsecrets.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 112
+        },
+        {
+          "list": "global:week",
+          "position": 120
+        },
+        {
+          "list": "global:month",
+          "position": 148
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3473470,
+      "title": "Bitsec",
+      "reported_url": "https://bitsec.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fbitsec.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 113
+        },
+        {
+          "list": "global:week",
+          "position": 146
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2842396,
+      "title": "JONI",
+      "reported_url": "https://joni.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fjoni.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 114
+        },
+        {
+          "list": "global:week",
+          "position": 123
+        },
+        {
+          "list": "global:month",
+          "position": 156
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5077867,
+      "title": "softsins-buch",
+      "reported_url": "https://softsins.de/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fsoftsins.de%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 115
+        },
+        {
+          "list": "global:week",
+          "position": 150
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4217612,
+      "title": "Sentry MCP",
+      "reported_url": "https://github.com/getsentry/sentry-mcp",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fgetsentry%2Fsentry-mcp",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 116
+        },
+        {
+          "list": "global:week",
+          "position": 79
+        },
+        {
+          "list": "global:month",
+          "position": 73
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 146907,
+      "title": "Miniapps.ai",
+      "reported_url": "https://miniapps.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fminiapps.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 117
+        },
+        {
+          "list": "global:week",
+          "position": 117
+        },
+        {
+          "list": "global:month",
+          "position": 96
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4986757,
+      "title": "Forge sandbox",
+      "reported_url": "https://forge.osinternal.io/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fforge.osinternal.io%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 118
+        },
+        {
+          "list": "global:week",
+          "position": 100
+        },
+        {
+          "list": "global:month",
+          "position": 165
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2238582,
+      "title": "Kilo Code",
+      "reported_url": "https://github.com/Kilo-Org/kilocode",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2FKilo-Org%2Fkilocode",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 119
+        },
+        {
+          "list": "global:week",
+          "position": 165
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4823862,
+      "title": "SciCode Formats",
+      "reported_url": "https://github.com/scicode-qa",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fscicode-qa",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 120
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4625009,
+      "title": "Rene",
+      "reported_url": "https://rene.co/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Frene.co%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 121
+        },
+        {
+          "list": "global:week",
+          "position": 93
+        },
+        {
+          "list": "global:month",
+          "position": 106
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5006776,
+      "title": "ORION Agent Runner",
+      "reported_url": "https://orion.matagent.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Forion.matagent.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 122
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4777483,
+      "title": "o-am-f",
+      "reported_url": "https://a.test/o-am-f",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fa.test%2Fo-am-f",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 123
+        },
+        {
+          "list": "global:week",
+          "position": 144
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3321349,
+      "title": "Landingsite",
+      "reported_url": "https://app.landingsite.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fapp.landingsite.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 124
+        },
+        {
+          "list": "global:week",
+          "position": 62
+        },
+        {
+          "list": "global:month",
+          "position": 55
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3939208,
+      "title": "pre.dev-agent",
+      "reported_url": "https://pre.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fpre.dev%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 125
+        },
+        {
+          "list": "global:week",
+          "position": 156
+        },
+        {
+          "list": "global:month",
+          "position": 76
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4012572,
+      "title": "MavenBio",
+      "reported_url": "https://mavenbio.io/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fmavenbio.io%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 126
+        },
+        {
+          "list": "global:week",
+          "position": 43
+        },
+        {
+          "list": "global:month",
+          "position": 41
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2904101,
+      "title": "Favur",
+      "reported_url": "https://favur.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent",
+        "programming-app",
+        "video-gen"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffavur.dev%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 127
+        },
+        {
+          "list": "global:week",
+          "position": 141
+        },
+        {
+          "list": "global:month",
+          "position": 135
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2293498,
+      "title": "Agent Zero",
+      "reported_url": "https://agent-zero.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cloud-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/agent-zero",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 128
+        },
+        {
+          "list": "global:week",
+          "position": 109
+        },
+        {
+          "list": "global:month",
+          "position": 95
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4606398,
+      "title": "LUNATALK-test",
+      "reported_url": "https://lunatalk.chat/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Flunatalk.chat%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 129
+        },
+        {
+          "list": "global:week",
+          "position": 151
+        },
+        {
+          "list": "global:month",
+          "position": 144
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2721535,
+      "title": "jcode",
+      "reported_url": "https://github.com/jcode",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fjcode",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 130
+        },
+        {
+          "list": "global:week",
+          "position": 97
+        },
+        {
+          "list": "global:month",
+          "position": 64
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5054261,
+      "title": "AgenticWeb Registry experiment",
+      "reported_url": "https://github.com/zitiang/agenticweb_registry",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fzitiang%2Fagenticweb_registry",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 131
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2686552,
+      "title": "Pipeelo",
+      "reported_url": "https://pipeelo.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fpipeelo.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 132
+        },
+        {
+          "list": "global:week",
+          "position": 127
+        },
+        {
+          "list": "global:month",
+          "position": 133
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3089803,
+      "title": "opencase-web",
+      "reported_url": "https://www.opencase.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.opencase.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 133
+        },
+        {
+          "list": "global:week",
+          "position": 81
+        },
+        {
+          "list": "global:month",
+          "position": 122
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5009132,
+      "title": "skill-poc",
+      "reported_url": "https://daloopa.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fdaloopa.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 134
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4510737,
+      "title": "Buzz POC check",
+      "reported_url": "https://github.com/block/buzz",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fblock%2Fbuzz",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 135
+        },
+        {
+          "list": "global:week",
+          "position": 118
+        },
+        {
+          "list": "global:month",
+          "position": 109
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2336253,
+      "title": "SkyrimNet",
+      "reported_url": "https://github.com/SkyrimNet-GamePlugin",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "game"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2FSkyrimNet-GamePlugin",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 136
+        },
+        {
+          "list": "global:week",
+          "position": 171
+        },
+        {
+          "list": "global:month",
+          "position": 182
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2427089,
+      "title": "minitap",
+      "reported_url": "https://minitap.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fminitap.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 137
+        },
+        {
+          "list": "global:week",
+          "position": 172
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2277651,
+      "title": "LobeHub",
+      "reported_url": "https://lobehub.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Flobehub.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 138
+        },
+        {
+          "list": "global:week",
+          "position": 175
+        },
+        {
+          "list": "global:month",
+          "position": 184
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4913981,
+      "title": "MeGPT mind",
+      "reported_url": "https://megpt.app/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fmegpt.app%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 139
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2338369,
+      "title": "Dyad",
+      "reported_url": "https://www.dyad.sh/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.dyad.sh%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 140
+        },
+        {
+          "list": "global:week",
+          "position": 132
+        },
+        {
+          "list": "global:month",
+          "position": 132
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 144889,
+      "title": "https://muah.ai",
+      "reported_url": "https://muah.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fmuah.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 141
+        },
+        {
+          "list": "global:week",
+          "position": 159
+        },
+        {
+          "list": "global:month",
+          "position": 162
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 150064,
+      "title": "LibreChat",
+      "reported_url": "https://librechat.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "general-chat"
+      ],
+      "source_url": "https://openrouter.ai/apps/librechat",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 142
+        },
+        {
+          "list": "global:week",
+          "position": 111
+        },
+        {
+          "list": "global:month",
+          "position": 99
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2225616,
+      "title": "Dify.AI",
+      "reported_url": "https://dify.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fdify.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 143
+        },
+        {
+          "list": "global:week",
+          "position": 168
+        },
+        {
+          "list": "global:month",
+          "position": 152
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2616764,
+      "title": "Timepot",
+      "reported_url": "https://www.pieverse.io/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.pieverse.io%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 144
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 542482,
+      "title": "Learn LLMs",
+      "reported_url": "https://lovable.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Flovable.dev%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 145
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4298219,
+      "title": "AIexotic prompt-processing",
+      "reported_url": "https://aiexotic.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Faiexotic.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 146
+        },
+        {
+          "list": "global:week",
+          "position": 160
+        },
+        {
+          "list": "global:month",
+          "position": 190
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5112983,
+      "title": "Agency",
+      "reported_url": "https://agency.easydev.tv/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fagency.easydev.tv%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 147
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4480648,
+      "title": "Mono Studio visual expansion",
+      "reported_url": "https://aside.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Faside.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 148
+        },
+        {
+          "list": "global:week",
+          "position": 105
+        },
+        {
+          "list": "global:month",
+          "position": 90
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3207090,
+      "title": "Honcho Deep Reasoning Analysis",
+      "reported_url": "https://honcho.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fhoncho.dev%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 149
+        },
+        {
+          "list": "global:week",
+          "position": 129
+        },
+        {
+          "list": "global:month",
+          "position": 131
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4946547,
+      "title": "GALC model trial",
+      "reported_url": "https://galco.land/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgalco.land%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 150
+        },
+        {
+          "list": "global:week",
+          "position": 57
+        },
+        {
+          "list": "global:month",
+          "position": 123
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2726836,
+      "title": "curvo-pr-risk-classifier",
+      "reported_url": "https://app.curvo.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "general-chat",
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fapp.curvo.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 151
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2318385,
+      "title": "Traycer",
+      "reported_url": "https://traycer.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent",
+        "ide-extension"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Ftraycer.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 152
+        },
+        {
+          "list": "global:week",
+          "position": 136
+        },
+        {
+          "list": "global:month",
+          "position": 107
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5217301,
+      "title": "isdlc.ai",
+      "reported_url": "https://isdlc.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fisdlc.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 153
+        },
+        {
+          "list": "global:week",
+          "position": 170
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4752436,
+      "title": "Legwork",
+      "reported_url": "https://legwork.sh/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Flegwork.sh%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 154
+        },
+        {
+          "list": "global:week",
+          "position": 147
+        },
+        {
+          "list": "global:month",
+          "position": 119
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5265622,
+      "title": "Drex",
+      "reported_url": "https://console.nace.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fconsole.nace.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 155
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3088716,
+      "title": "WaifuBot",
+      "reported_url": "https://app.honeychat.bot/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fapp.honeychat.bot%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 156
+        },
+        {
+          "list": "global:week",
+          "position": 183
+        },
+        {
+          "list": "global:month",
+          "position": 187
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3927367,
+      "title": "Rulebase",
+      "reported_url": "https://app.rulebase.co/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fapp.rulebase.co%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 157
+        },
+        {
+          "list": "global:week",
+          "position": 130
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3940184,
+      "title": "Sekai",
+      "reported_url": "https://sekai.chat/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fsekai.chat%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 158
+        },
+        {
+          "list": "global:month",
+          "position": 115
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3686939,
+      "title": "Fluxgate",
+      "reported_url": "https://fluxgate.cc/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffluxgate.cc%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 159
+        },
+        {
+          "list": "global:week",
+          "position": 142
+        },
+        {
+          "list": "global:month",
+          "position": 198
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4265147,
+      "title": "payready-document-extraction",
+      "reported_url": "https://docs-api.payready.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fdocs-api.payready.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 160
+        },
+        {
+          "list": "global:month",
+          "position": 161
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5042718,
+      "title": "BigPlans",
+      "reported_url": "https://bigplans.plans.app/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cloud-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fbigplans.plans.app%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 161
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 181596,
+      "title": "Continue",
+      "reported_url": "https://www.continue.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.continue.dev%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 162
+        },
+        {
+          "list": "global:week",
+          "position": 179
+        },
+        {
+          "list": "global:month",
+          "position": 150
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4887524,
+      "title": "content-manager",
+      "reported_url": "https://vargascorporation.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fvargascorporation.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 163
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3275663,
+      "title": "Parall",
+      "reported_url": "https://www.parall.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.parall.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 164
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3932186,
+      "title": "bos-model-router",
+      "reported_url": "https://bos.pro/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fbos.pro%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 165
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4257790,
+      "title": "Roomote",
+      "reported_url": "https://roomote.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Froomote.dev%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 166
+        },
+        {
+          "list": "global:week",
+          "position": 135
+        },
+        {
+          "list": "global:month",
+          "position": 125
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2338620,
+      "title": "BuddyPro AI",
+      "reported_url": "https://buddypro.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fbuddypro.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 167
+        },
+        {
+          "list": "global:week",
+          "position": 166
+        },
+        {
+          "list": "global:month",
+          "position": 146
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3426540,
+      "title": "cvi-magic-tasks-ai-tagging",
+      "reported_url": "https://convosight.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fconvosight.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 168
+        },
+        {
+          "list": "global:week",
+          "position": 194
+        },
+        {
+          "list": "global:month",
+          "position": 192
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 624929,
+      "title": "DreamRunner.ai",
+      "reported_url": "https://dreamrunner.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "roleplay",
+        "game"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fdreamrunner.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 169
+        },
+        {
+          "list": "global:week",
+          "position": 188
+        },
+        {
+          "list": "global:month",
+          "position": 175
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4092701,
+      "title": "Old Greg's Tavern",
+      "reported_url": "https://www.oldgregstavern.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.oldgregstavern.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 170
+        },
+        {
+          "list": "global:week",
+          "position": 187
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4303441,
+      "title": "StocksSena",
+      "reported_url": "https://stockssena.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fstockssena.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 171
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5161169,
+      "title": "Ultimator",
+      "reported_url": "https://ultimator.app/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fultimator.app%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 172
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2737347,
+      "title": "Bankr LLM Gateway",
+      "reported_url": "https://bankr.bot/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fbankr.bot%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 173
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5061221,
+      "title": "amahub AMA agent (free)",
+      "reported_url": "https://free.lane.amahub.ama.one/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffree.lane.amahub.ama.one%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 174
+        },
+        {
+          "list": "global:week",
+          "position": 182
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4334998,
+      "title": "DXAP - Agentic Trading Protocol",
+      "reported_url": "https://www.dxap.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "personal-agent",
+        "cloud-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.dxap.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 175
+        },
+        {
+          "list": "global:week",
+          "position": 177
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4632013,
+      "title": "Delta",
+      "reported_url": "https://delta.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fdelta.dev%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 176
+        },
+        {
+          "list": "global:week",
+          "position": 158
+        },
+        {
+          "list": "global:month",
+          "position": 164
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3488461,
+      "title": "camelAI",
+      "reported_url": "https://camelai.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cloud-agent",
+        "programming-app"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcamelai.dev%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 177
+        },
+        {
+          "list": "global:week",
+          "position": 191
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2860037,
+      "title": "SITE123",
+      "reported_url": "https://www.site123.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.site123.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 178
+        },
+        {
+          "list": "global:week",
+          "position": 180
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 143418,
+      "title": "Aider",
+      "reported_url": "https://aider.chat/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/aider",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 179
+        },
+        {
+          "list": "global:week",
+          "position": 200
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2403849,
+      "title": "litellm",
+      "reported_url": "https://github.com/voocel/litellm",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fvoocel%2Flitellm",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 180
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4306152,
+      "title": "rhumb-papa-server",
+      "reported_url": "https://rhumb.tools/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Frhumb.tools%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 181
+        },
+        {
+          "list": "global:week",
+          "position": 163
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5007772,
+      "title": "Janus",
+      "reported_url": "https://github.com/tractian/janus-harness",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Ftractian%2Fjanus-harness",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 182
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3303540,
+      "title": "WildGirl",
+      "reported_url": "https://wildgrl.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwildgrl.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 183
+        },
+        {
+          "list": "global:month",
+          "position": 189
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5187192,
+      "title": "AGENCY",
+      "reported_url": "https://www.agencypad.fun/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.agencypad.fun%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 184
+        },
+        {
+          "list": "global:week",
+          "position": 162
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3879658,
+      "title": "StakeBetApp",
+      "reported_url": "https://app.stakebetvip.com/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent",
+        "cloud-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fapp.stakebetvip.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 185
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3821659,
+      "title": "LumenHub",
+      "reported_url": "https://lumenhub.app/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Flumenhub.app%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 186
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3387916,
+      "title": "coder-bakeoff",
+      "reported_url": "https://claude-hub.local/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fclaude-hub.local%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 187
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3266788,
+      "title": "Tavo",
+      "reported_url": "https://tavoai.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "roleplay",
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Ftavoai.dev%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 188
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4927060,
+      "title": "Orbio",
+      "reported_url": "https://orbio.so/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Forbio.so%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 189
+        },
+        {
+          "list": "global:week",
+          "position": 197
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4379887,
+      "title": "QuantPad",
+      "reported_url": "https://quantpad.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fquantpad.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 190
+        },
+        {
+          "list": "global:week",
+          "position": 198
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4485672,
+      "title": "UI.Vision Free AI",
+      "reported_url": "https://ui.vision/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fui.vision%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 191
+        },
+        {
+          "list": "global:week",
+          "position": 181
+        },
+        {
+          "list": "global:month",
+          "position": 200
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4259637,
+      "title": "Sentient",
+      "reported_url": "https://sbatman.com/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fsbatman.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 192
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3763607,
+      "title": "DIS",
+      "reported_url": "https://anec.app/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fanec.app%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 193
+        },
+        {
+          "list": "global:week",
+          "position": 173
+        },
+        {
+          "list": "global:month",
+          "position": 171
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 142443,
+      "title": "TypingMind",
+      "reported_url": "https://www.typingmind.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.typingmind.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 194
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4939402,
+      "title": "Octavus",
+      "reported_url": "https://octavus.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Foctavus.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 195
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4569425,
+      "title": "Mina v2 Body",
+      "reported_url": "https://github.com/pv9077/mina-v2",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fpv9077%2Fmina-v2",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 196
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5249493,
+      "title": "arc2-data-teacher-pilot",
+      "reported_url": "https://arc2.local/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Farc2.local%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 197
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4985932,
+      "title": "m1-judge",
+      "reported_url": "https://shopport.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fshopport.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 198
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2719410,
+      "title": "Plato Computer Use Agent",
+      "reported_url": "https://plato.so/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fplato.so%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 199
+        },
+        {
+          "list": "global:week",
+          "position": 193
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2641378,
+      "title": "Rose Agents",
+      "reported_url": "https://roselabs.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Froselabs.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:day",
+          "position": 200
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3909382,
+      "title": "Command Code",
+      "reported_url": "https://commandcode.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "programming-app",
+        "cli-agent",
+        "ide-extension",
+        "native-app-builder",
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcommandcode.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 13
+        },
+        {
+          "list": "global:month",
+          "position": 11
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3415311,
+      "title": "Hark SITO SFT datagen",
+      "reported_url": "https://hark.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fhark.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 77
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4427065,
+      "title": "omp/18.9.1",
+      "reported_url": "https://other.aihub-gateway.fbrai.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fother.aihub-gateway.fbrai.dev%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 78
+        },
+        {
+          "list": "global:month",
+          "position": 60
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3846891,
+      "title": "LangCC",
+      "reported_url": "https://langcc.local/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Flangcc.local%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 80
+        },
+        {
+          "list": "global:month",
+          "position": 81
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4564295,
+      "title": "Instaplay",
+      "reported_url": "https://instaplay.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "game"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Finstaplay.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 83
+        },
+        {
+          "list": "global:month",
+          "position": 52
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4931841,
+      "title": "stateful-safety-crm_sales",
+      "reported_url": "https://github.com/jmss-appen/agentic-envs",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fjmss-appen%2Fagentic-envs",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 85
+        },
+        {
+          "list": "global:month",
+          "position": 127
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2817517,
+      "title": "Eastman AI Gateway",
+      "reported_url": "https://ai.eastman.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fai.eastman.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 90
+        },
+        {
+          "list": "global:month",
+          "position": 89
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4220404,
+      "title": "Rayline",
+      "reported_url": "https://rayline.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent",
+        "cloud-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Frayline.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 112
+        },
+        {
+          "list": "global:month",
+          "position": 199
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4483145,
+      "title": "OpenCode",
+      "reported_url": "https://opencode.aihub-gateway.fbrai.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fopencode.aihub-gateway.fbrai.dev%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 114
+        },
+        {
+          "list": "global:month",
+          "position": 101
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4710829,
+      "title": "Panwright",
+      "reported_url": "https://panwright.com/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "programming-app",
+        "native-app-builder"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fpanwright.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 121
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4862767,
+      "title": "Ouroboros",
+      "reported_url": "https://ouroboros-agent.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fouroboros-agent.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 124
+        },
+        {
+          "list": "global:month",
+          "position": 98
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5050788,
+      "title": "mirasim",
+      "reported_url": "https://mirasim.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fmirasim.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 126
+        },
+        {
+          "list": "global:month",
+          "position": 172
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3946891,
+      "title": "Peec agent",
+      "reported_url": "https://app.peec.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fapp.peec.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 128
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5110918,
+      "title": "Taste Symphony RLE",
+      "reported_url": "https://rle.tastelabs.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Frle.tastelabs.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 131
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5218203,
+      "title": "assistant-seed fanout",
+      "reported_url": "https://assistant-seed.local/fanout",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fassistant-seed.local%2Ffanout",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 137
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4847709,
+      "title": "Codewhale",
+      "reported_url": "https://codewhale.net/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent",
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcodewhale.net%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 138
+        },
+        {
+          "list": "global:month",
+          "position": 137
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3363853,
+      "title": "Forge",
+      "reported_url": "https://forge.humanforce.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fforge.humanforce.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 139
+        },
+        {
+          "list": "global:month",
+          "position": 147
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2509665,
+      "title": "Unistream",
+      "reported_url": "https://unistream.unistream.cloud/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Funistream.unistream.cloud%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 148
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3489792,
+      "title": "dash-ocr-pipeline structured-stage12",
+      "reported_url": "https://github.com/dashmote/dash-ocr-pipeline",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fdashmote%2Fdash-ocr-pipeline",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 149
+        },
+        {
+          "list": "global:month",
+          "position": 185
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3316379,
+      "title": "ProVision.ai",
+      "reported_url": "https://provision.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fprovision.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 152
+        },
+        {
+          "list": "global:month",
+          "position": 108
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4513490,
+      "title": "Chess Reasoner Trace Generator",
+      "reported_url": "https://github.com/chess-reasoner",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fchess-reasoner",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 153
+        },
+        {
+          "list": "global:month",
+          "position": 91
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4765745,
+      "title": "Callex",
+      "reported_url": "https://callex.co.il/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcallex.co.il%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 154
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4651122,
+      "title": "Vortex Desktop",
+      "reported_url": "https://vortex.spinozalabs.local/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fvortex.spinozalabs.local%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 157
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3767370,
+      "title": "Rebel",
+      "reported_url": "https://rebel.mindstone.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Frebel.mindstone.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 161
+        },
+        {
+          "list": "global:month",
+          "position": 157
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4674357,
+      "title": "RubyLLM",
+      "reported_url": "https://rubyllm.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Frubyllm.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 164
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3883653,
+      "title": "Raylu",
+      "reported_url": "https://raylu.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fraylu.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 167
+        },
+        {
+          "list": "global:month",
+          "position": 118
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2988919,
+      "title": "AI Broker",
+      "reported_url": "https://prod.brokerai.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fprod.brokerai.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 169
+        },
+        {
+          "list": "global:month",
+          "position": 82
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3435247,
+      "title": "Snowfall AI",
+      "reported_url": "https://snowfall.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fsnowfall.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 174
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2299803,
+      "title": "Pocket AI",
+      "reported_url": "https://getpocket.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgetpocket.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 176
+        },
+        {
+          "list": "global:month",
+          "position": 70
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2984876,
+      "title": "AiKit",
+      "reported_url": "https://plataforma.aikit.es/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fplataforma.aikit.es%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 178
+        },
+        {
+          "list": "global:month",
+          "position": 153
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3282295,
+      "title": "pi",
+      "reported_url": "https://github.com/olixis/pi-openrouter-plus",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Folixis%2Fpi-openrouter-plus",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 184
+        },
+        {
+          "list": "global:month",
+          "position": 128
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4179002,
+      "title": "SuperDev Pro",
+      "reported_url": "https://fomo.family/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffomo.family%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 185
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4100716,
+      "title": "Sahaa",
+      "reported_url": "https://sahaa.bot/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fsahaa.bot%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 186
+        },
+        {
+          "list": "global:month",
+          "position": 136
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3826354,
+      "title": "Vertem Claude Proxy",
+      "reported_url": "https://ai.vertem.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fai.vertem.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 189
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4798237,
+      "title": "Agent37",
+      "reported_url": "https://www.agent37.com/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cloud-agent",
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.agent37.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 190
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3097485,
+      "title": "Studs.gg",
+      "reported_url": "https://studs.gg/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cloud-agent",
+        "game"
+      ],
+      "source_url": "https://openrouter.ai/apps/studsgg",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 192
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4529916,
+      "title": "Minis App",
+      "reported_url": "https://github.com/OpenMinis/OpenMinis",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2FOpenMinis%2FOpenMinis",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 195
+        },
+        {
+          "list": "global:month",
+          "position": 178
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3600620,
+      "title": "GBrain",
+      "reported_url": "https://gbrain.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgbrain.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 196
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4488303,
+      "title": "VS Code OpenRouter Copilot Extension",
+      "reported_url": "https://github.com/husamettinulutas/openrouter-copilot-model-manager",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fhusamettinulutas%2Fopenrouter-copilot-model-manager",
+      "observed_lists": [
+        {
+          "list": "global:week",
+          "position": 199
+        },
+        {
+          "list": "global:month",
+          "position": 174
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4124659,
+      "title": "draco-cascade-bench",
+      "reported_url": "https://github.com/circuitandchisel/draco-cascade-bench",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fcircuitandchisel%2Fdraco-cascade-bench",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 25
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2344758,
+      "title": "Sahasra",
+      "reported_url": "https://stan.store/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/stan",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 56
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2595273,
+      "title": "Open WebUI plugin for OpenRouter Responses API",
+      "reported_url": "https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "general-chat"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Frbb-dev%2FOpen-WebUI-OpenRouter-pipe",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 87
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3288259,
+      "title": "Tracer III RLVR Pipeline",
+      "reported_url": "https://tracer-iii.local/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Ftracer-iii.local%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 100
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3370926,
+      "title": "haiku55-screen-em4",
+      "reported_url": "https://research.outersignal.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fresearch.outersignal.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 102
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3959260,
+      "title": "op",
+      "reported_url": "https://openpaths.io/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fopenpaths.io%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 116
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4974010,
+      "title": "Siege ORLoad",
+      "reported_url": "https://github.com/china-qijizhifeng/siege",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fchina-qijizhifeng%2Fsiege",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 117
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3760213,
+      "title": "OceanAPI",
+      "reported_url": "https://oceanapi.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Foceanapi.dev%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 120
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3422032,
+      "title": "Arlo AEO",
+      "reported_url": "https://www.arlo.sh/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.arlo.sh%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 121
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4590770,
+      "title": "wenzhang-gen",
+      "reported_url": "https://github.com/Web3ok/seoxx",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2FWeb3ok%2Fseoxx",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 129
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5158617,
+      "title": "svrn case harness",
+      "reported_url": "https://svrnassetmanager-production.up.railway.app/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fsvrnassetmanager-production.up.railway.app%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 134
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2986188,
+      "title": "Factory AI Droid",
+      "reported_url": "factory.ai",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffactory.ai%2Fdroid",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 139
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2105170,
+      "title": "browser-use",
+      "reported_url": "https://browser-use.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fbrowser-use.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 142
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5015872,
+      "title": "Alkera Hub Proxy",
+      "reported_url": "https://internalhub7881.alkera.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Finternalhub7881.alkera.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 143
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4533799,
+      "title": "Gorgias Cortex",
+      "reported_url": "https://cortex.gorgias.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcortex.gorgias.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 145
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3305564,
+      "title": "Shelf Insights",
+      "reported_url": "https://shelfbeta.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fshelfbeta.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 149
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2651517,
+      "title": "MiniMax Code",
+      "reported_url": "https://agent.minimax.io/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/minimax-code",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 151
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4236456,
+      "title": "Bolter exit judge",
+      "reported_url": "https://bolter.chat/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fbolter.chat%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 154
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2909255,
+      "title": "Kadoa transformation (local)",
+      "reported_url": "https://kadoa.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fkadoa.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 155
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4906571,
+      "title": "Cubic",
+      "reported_url": "https://www.cubic.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.cubic.dev%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 159
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4783329,
+      "title": "experiential",
+      "reported_url": "https://github.com/experientiallabs/experiential",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fexperientiallabs%2Fexperiential",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 160
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 5041210,
+      "title": "Olly",
+      "reported_url": "https://olly.bot/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Folly.bot%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 166
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4973622,
+      "title": "Ekko Studio",
+      "reported_url": "https://ekkostudio.xyz/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "cli-agent",
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fekkostudio.xyz%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 167
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3193536,
+      "title": "Manifest",
+      "reported_url": "https://manifest.build/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fmanifest.build%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 168
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4974813,
+      "title": "Skuld Summary Prod",
+      "reported_url": "https://skuld-summary-prod/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fskuld-summary-prod%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 170
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3308773,
+      "title": "QwenPaw",
+      "reported_url": "https://qwenpaw.agentscope.io/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fqwenpaw.agentscope.io%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 176
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4498125,
+      "title": "CompanyOS",
+      "reported_url": "https://co.youonai.ai/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fco.youonai.ai%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 177
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4600026,
+      "title": "Hoplite",
+      "reported_url": "https://hoplite.dev/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fhoplite.dev%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 186
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 1557910,
+      "title": "Gitlab",
+      "reported_url": "https://gitlab.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgitlab.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 188
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2474841,
+      "title": "Curriculum Q&A Demo",
+      "reported_url": "https://kiddom.co/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fkiddom.co%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 191
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 2755681,
+      "title": "Pieces.app: Ambient Artificial Memory",
+      "reported_url": "https://pieces.app/",
+      "reported_repository_url": null,
+      "reported_categories": [
+        "personal-agent"
+      ],
+      "source_url": "https://openrouter.ai/apps/pieces",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 193
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 4291263,
+      "title": "TimelyAI",
+      "reported_url": "https://timelyai.io/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Ftimelyai.io%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 194
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3374673,
+      "title": "Smart Connections MCP",
+      "reported_url": "https://maxtesla.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fmaxtesla.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 195
+        }
+      ],
+      "review_status": "candidate"
+    },
+    {
+      "openrouter_app_id": 3307428,
+      "title": "whipsmart-mediadb",
+      "reported_url": "https://whipsmart.com/",
+      "reported_repository_url": null,
+      "reported_categories": [],
+      "source_url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwhipsmart.com%2F",
+      "observed_lists": [
+        {
+          "list": "global:month",
+          "position": 196
+        }
+      ],
+      "review_status": "candidate"
+    }
+  ]
+}

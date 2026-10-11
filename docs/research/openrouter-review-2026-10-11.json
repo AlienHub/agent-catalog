@@ -1,0 +1,373 @@
+{
+  "verified_at": "2026-10-11",
+  "source_snapshot": "openrouter-apps-2026-10-11.json",
+  "new_application_ids": [
+    "step-code-cli",
+    "freebuff-desktop",
+    "freebuff-cli",
+    "freebuff-web",
+    "omp-cli",
+    "codegpt-vscode",
+    "strix-cli",
+    "strix-web",
+    "sillytavern-web",
+    "lemonade-web",
+    "proto-desktop",
+    "isekai-zero-web",
+    "craft-rpgs-web",
+    "digen-web",
+    "framer-web",
+    "gdevelop-desktop",
+    "gdevelop-web",
+    "rosebud-web",
+    "fliki-web",
+    "websim-web",
+    "highlevel-web",
+    "letta-code-cli",
+    "letta-desktop",
+    "letta-web"
+  ],
+  "assets": [
+    {
+      "product_id": "freebuff",
+      "path": "icons/openrouter-freebuff.png",
+      "url": "https://freebuff.com/brand/freebuff-mark.png",
+      "source_page": "https://freebuff.com/",
+      "format": "PNG",
+      "bytes": 4433,
+      "sha256": "43530e9cfe9434fe7622439cd923b9a42fafe9e76b20cb1fd7fa157663628f1c",
+      "width": 512,
+      "height": 512,
+      "application_ids": [
+        "freebuff-desktop",
+        "freebuff-cli",
+        "freebuff-web"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    },
+    {
+      "product_id": "omp",
+      "path": "icons/openrouter-omp.svg",
+      "url": "https://omp.sh/favicon.svg",
+      "source_page": "https://omp.sh/",
+      "format": "SVG",
+      "bytes": 434,
+      "sha256": "9419975a0c24961341221c4cec18703db26a989fa037768f92cda74e3769fe05",
+      "application_ids": [
+        "omp-cli"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    },
+    {
+      "product_id": "codegpt",
+      "path": "icons/openrouter-codegpt.svg",
+      "url": "https://www.codegpt.co/img/logo.svg",
+      "source_page": "https://www.codegpt.co/",
+      "format": "SVG",
+      "bytes": 2475,
+      "sha256": "9689acd5f4736d78adc05f2a08228c6ea8825abc01d5eb6d05855bec8be30868",
+      "application_ids": [
+        "codegpt-vscode"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    },
+    {
+      "product_id": "strix",
+      "path": "icons/openrouter-strix.png",
+      "url": "https://www.strix.ai/logo-transparent.png",
+      "source_page": "https://www.strix.ai/",
+      "format": "PNG",
+      "bytes": 3044,
+      "sha256": "d933dc494f08a204734ed51645a1b82505b9c7970b55814f41cc4ce3cb615be4",
+      "width": 644,
+      "height": 636,
+      "application_ids": [
+        "strix-cli",
+        "strix-web"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    },
+    {
+      "product_id": "sillytavern",
+      "path": "icons/openrouter-sillytavern.png",
+      "url": "https://sillytavern.app/img/apple-icon-144x144.png",
+      "source_page": "https://sillytavern.app/",
+      "format": "PNG",
+      "bytes": 7740,
+      "sha256": "6a99999570d28c518b3adc7aa182c0a734e71bb2f36e0702033caef2afca4d47",
+      "width": 144,
+      "height": 144,
+      "application_ids": [
+        "sillytavern-web"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    },
+    {
+      "product_id": "lemonade",
+      "path": "icons/openrouter-lemonade.svg",
+      "url": "https://lemonade.gg/icons/logo-icon.svg",
+      "source_page": "https://lemonade.gg/",
+      "format": "SVG",
+      "bytes": 1635,
+      "sha256": "7da04b39a18d738ba82f457aae848861eabf5450c4178a71467298c5c0c2501c",
+      "application_ids": [
+        "lemonade-web"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    },
+    {
+      "product_id": "proto",
+      "path": "icons/openrouter-proto.png",
+      "url": "https://proto.erp.ai/assets/images/proto-search-icon-256.png",
+      "source_page": "https://proto.erp.ai/",
+      "format": "PNG",
+      "bytes": 34889,
+      "sha256": "07d9d1f2593d9fb6be71e48a9e3292b358565b297d6911048e1b87ce73ce2f88",
+      "width": 256,
+      "height": 256,
+      "application_ids": [
+        "proto-desktop"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    },
+    {
+      "product_id": "isekai-zero",
+      "path": "icons/openrouter-isekai-zero.png",
+      "url": "https://www.isekaizero.ai/favicon.png",
+      "source_page": "https://www.isekaizero.ai/",
+      "format": "PNG",
+      "bytes": 17337,
+      "sha256": "d2ef79e79236407a7d9ea3391b07df170348aeb7f94a0094c0403567424dcd67",
+      "width": 128,
+      "height": 128,
+      "application_ids": [
+        "isekai-zero-web"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    },
+    {
+      "product_id": "craft",
+      "path": "icons/openrouter-craft.png",
+      "url": "https://www.craftrpgs.com/icons/apple-touch-icon.png",
+      "source_page": "https://www.craftrpgs.com/",
+      "format": "PNG",
+      "bytes": 7263,
+      "sha256": "93b2570ba8f574f51e2e46176ef63b047daeac9cc9bf5f616747e2ea0309c4bc",
+      "width": 180,
+      "height": 180,
+      "application_ids": [
+        "craft-rpgs-web"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    },
+    {
+      "product_id": "framer",
+      "path": "icons/openrouter-framer.png",
+      "url": "https://framerusercontent.com/images/Io89FonxEaWg4nxvQQllVLwPUUI.png",
+      "source_page": "https://www.framer.com/",
+      "format": "PNG",
+      "bytes": 3178,
+      "sha256": "bdd2278b81d71ee1b732cefba2b15f683f631a634727fc3b50463557db9892b1",
+      "width": 64,
+      "height": 64,
+      "application_ids": [
+        "framer-web"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    },
+    {
+      "product_id": "gdevelop",
+      "path": "icons/openrouter-gdevelop.svg",
+      "url": "https://gdevelop.io/favicons/safari-pinned-tab.svg",
+      "source_page": "https://gdevelop.io/download",
+      "format": "SVG",
+      "bytes": 1462,
+      "sha256": "469d86fea33c38c4e767afb18847169aa6a774491cac48929e02ff8789ccc257",
+      "application_ids": [
+        "gdevelop-desktop",
+        "gdevelop-web"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    },
+    {
+      "product_id": "rosebud",
+      "path": "icons/openrouter-rosebud.png",
+      "url": "https://rosebud.ai/assets/rosebud-icon.png",
+      "source_page": "https://rosebud.ai/",
+      "format": "PNG",
+      "bytes": 14705,
+      "sha256": "fe8cd12b3ee6c25e3ef3c6752b13e98c9a6003e6f99c0be1b04aca94f4b8c509",
+      "width": 128,
+      "height": 128,
+      "application_ids": [
+        "rosebud-web"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    },
+    {
+      "product_id": "fliki",
+      "path": "icons/openrouter-fliki.png",
+      "url": "https://cdn.fliki.ai/public/favicon/apple-touch-icon.png?v=0.1",
+      "source_page": "https://fliki.ai/",
+      "format": "PNG",
+      "bytes": 8445,
+      "sha256": "d7704f4ceae3cca277fff4ca86c36c10afaa315fadf30fddcec41e053e624e92",
+      "width": 180,
+      "height": 180,
+      "application_ids": [
+        "fliki-web"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    },
+    {
+      "product_id": "websim",
+      "path": "icons/openrouter-websim.png",
+      "url": "https://websim.com/swirl.png",
+      "source_page": "https://websim.com/",
+      "format": "PNG",
+      "bytes": 81568,
+      "sha256": "97ba98fe749a2cda18699d0f77178c0ebf0eff583ff0f6a4c60f031806a81114",
+      "width": 256,
+      "height": 256,
+      "application_ids": [
+        "websim-web"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    },
+    {
+      "product_id": "highlevel",
+      "path": "icons/openrouter-highlevel.png",
+      "url": "https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/62b48689c85eccb36ca941fc.png",
+      "source_page": "https://www.gohighlevel.com/ai",
+      "format": "PNG",
+      "bytes": 1923,
+      "sha256": "4b58c79e1162b0c4159b14ed8cf1edd1816b38f98844f245e839d347fa5bf80d",
+      "width": 32,
+      "height": 32,
+      "application_ids": [
+        "highlevel-web"
+      ],
+      "rights": "官方品牌素材原始文件，仅用于识别；品牌权利归权利人，不从代码许可证推定品牌授权。"
+    }
+  ],
+  "decisions": {
+    "5268002": {
+      "status": "collected",
+      "application_ids": [
+        "step-code-cli"
+      ]
+    },
+    "4137556": {
+      "status": "collected",
+      "application_ids": [
+        "freebuff-desktop",
+        "freebuff-cli",
+        "freebuff-web"
+      ]
+    },
+    "3682314": {
+      "status": "collected",
+      "application_ids": [
+        "omp-cli"
+      ]
+    },
+    "4780809": {
+      "status": "collected",
+      "application_ids": [
+        "codegpt-vscode"
+      ]
+    },
+    "3003505": {
+      "status": "collected",
+      "application_ids": [
+        "strix-cli",
+        "strix-web"
+      ]
+    },
+    "142576": {
+      "status": "collected",
+      "application_ids": [
+        "sillytavern-web"
+      ]
+    },
+    "2637375": {
+      "status": "collected",
+      "application_ids": [
+        "lemonade-web"
+      ]
+    },
+    "4725308": {
+      "status": "collected",
+      "application_ids": [
+        "proto-desktop"
+      ]
+    },
+    "2699842": {
+      "status": "collected",
+      "application_ids": [
+        "isekai-zero-web"
+      ]
+    },
+    "3844484": {
+      "status": "collected",
+      "application_ids": [
+        "craft-rpgs-web"
+      ]
+    },
+    "4832946": {
+      "status": "collected",
+      "application_ids": [
+        "digen-web"
+      ]
+    },
+    "3335353": {
+      "status": "collected",
+      "application_ids": [
+        "framer-web"
+      ]
+    },
+    "2299688": {
+      "status": "collected",
+      "application_ids": [
+        "gdevelop-desktop",
+        "gdevelop-web"
+      ]
+    },
+    "3943127": {
+      "status": "collected",
+      "application_ids": [
+        "rosebud-web"
+      ]
+    },
+    "4875175": {
+      "status": "collected",
+      "application_ids": [
+        "fliki-web"
+      ]
+    },
+    "2285082": {
+      "status": "collected",
+      "application_ids": [
+        "websim-web"
+      ]
+    },
+    "2368812": {
+      "status": "collected",
+      "application_ids": [
+        "letta-code-cli",
+        "letta-desktop",
+        "letta-web"
+      ]
+    }
+  },
+  "deferred": {
+    "janitor-ai": "官网本次403，身份及当前入口未完成独立核验。",
+    "minds": "营销页有Minds by Animoca Brands声明，实际Web应用入口/IM渠道形态未完成核验。",
+    "codegpt-jetbrains": "官网安装链接本次404，暂缓独立记录。",
+    "portkey": "主要LLM网关/开发基础设施，独立交互AI应用范围需另查。",
+    "nous-research-api": "API入口，本轮不作为独立终端应用。",
+    "langchain": "开发框架，榜单使用量不意味着独立应用。",
+    "mira": "Telegram原生助手，IM是接入渠道，不建立IM应用。",
+    "remaining-candidates": "未核验候选保留快照，不批量导入。内部域名/任务名、数据生成与评测工具不访问，不按品牌词自动关联。"
+  }
+}

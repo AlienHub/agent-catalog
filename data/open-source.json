@@ -1883,5 +1883,159 @@
         "title": "同名 Jazz 是同步数据库/开发工具，与 lvndry 的通用 Agent 无官方关联；不可混用 logo、厂商或许可。"
       }
     ]
+  },
+  "step-code-cli": {
+    "repository_url": "https://github.com/stepfun-ai/Step-Code",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/stepfun-ai/Step-Code/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-11"
+    },
+    "notes": "第一方MIT，保留Pi衍生来源及文件级/资产例外。",
+    "sources": [
+      {
+        "url": "https://github.com/stepfun-ai/Step-Code/blob/main/LICENSE",
+        "title": "官方源码许可"
+      },
+      {
+        "url": "https://github.com/stepfun-ai/Step-Code",
+        "title": "官方可运行应用源码"
+      }
+    ],
+    "classification": "application"
+  },
+  "freebuff-cli": {
+    "repository_url": "https://github.com/CodebuffAI/freebuff",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/CodebuffAI/freebuff/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-11"
+    },
+    "notes": "核验可运行CLI和desktop源码；托管服务未推定开源。",
+    "sources": [
+      {
+        "url": "https://github.com/CodebuffAI/freebuff/blob/main/LICENSE",
+        "title": "官方源码许可"
+      },
+      {
+        "url": "https://github.com/CodebuffAI/freebuff",
+        "title": "官方可运行应用源码"
+      }
+    ],
+    "classification": "application"
+  },
+  "freebuff-desktop": {
+    "repository_url": "https://github.com/CodebuffAI/freebuff",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/CodebuffAI/freebuff/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-11"
+    },
+    "notes": "核验可运行CLI和desktop源码；托管服务未推定开源。",
+    "sources": [
+      {
+        "url": "https://github.com/CodebuffAI/freebuff/blob/main/LICENSE",
+        "title": "官方源码许可"
+      },
+      {
+        "url": "https://github.com/CodebuffAI/freebuff",
+        "title": "官方可运行应用源码"
+      }
+    ],
+    "classification": "application"
+  },
+  "strix-cli": {
+    "repository_url": "https://github.com/usestrix/strix",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/usestrix/strix/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-11"
+    },
+    "notes": "本地CLI源码许可，不推定Strix Cloud服务。",
+    "sources": [
+      {
+        "url": "https://github.com/usestrix/strix/blob/main/LICENSE",
+        "title": "官方源码许可"
+      },
+      {
+        "url": "https://github.com/usestrix/strix",
+        "title": "官方可运行应用源码"
+      }
+    ],
+    "classification": "application"
+  },
+  "sillytavern-web": {
+    "repository_url": "https://github.com/SillyTavern/SillyTavern",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/SillyTavern/SillyTavern/blob/release/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-11"
+    },
+    "notes": "核验本地可部署浏览器前端。",
+    "sources": [
+      {
+        "url": "https://github.com/SillyTavern/SillyTavern/blob/release/LICENSE",
+        "title": "官方源码许可"
+      },
+      {
+        "url": "https://github.com/SillyTavern/SillyTavern",
+        "title": "官方可运行应用源码"
+      }
+    ],
+    "classification": "application"
+  },
+  "gdevelop-desktop": {
+    "repository_url": "https://github.com/4ian/GDevelop",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/4ian/GDevelop/blob/master/LICENSE.md",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-11"
+    },
+    "notes": "IDE/引擎MIT；名称和Logo为专属财产；托管Web未推定开源。",
+    "sources": [
+      {
+        "url": "https://github.com/4ian/GDevelop/blob/master/LICENSE.md",
+        "title": "官方源码许可"
+      },
+      {
+        "url": "https://github.com/4ian/GDevelop",
+        "title": "官方可运行应用源码"
+      }
+    ],
+    "classification": "application"
+  },
+  "letta-code-cli": {
+    "repository_url": "https://github.com/letta-ai/letta-code",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/letta-ai/letta-code/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-10-11"
+    },
+    "notes": "代码Apache-2.0；Letta名称、Logo、图像及ASCII明确排除，未下载或收录素材。",
+    "sources": [
+      {
+        "url": "https://github.com/letta-ai/letta-code/blob/main/LICENSE",
+        "title": "官方源码许可"
+      },
+      {
+        "url": "https://github.com/letta-ai/letta-code",
+        "title": "官方可运行应用源码"
+      }
+    ],
+    "classification": "application"
   }
 }

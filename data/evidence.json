@@ -7080,5 +7080,517 @@
         "title": "OpenAI 官方 Atlas 发布历史及当前弃用声明"
       }
     ]
+  },
+  "step-code-cli": {
+    "notes": "终端代理；Windows原生PowerShell为beta，推荐WSL。Step Plan不同地区登录配置不另拆应用。源自Pi但为独立产品。未确认专属Logo，不冒用Pi标识。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fstepfun-ai%2FStep-Code",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://github.com/stepfun-ai/Step-Code",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://github.com/stepfun-ai/Step-Code/blob/main/README.md",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://github.com/stepfun-ai/Step-Code/blob/main/LICENSE-STATUS.md",
+        "title": "官方应用形态、功能及发行依据"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "freebuff-desktop": {
+    "notes": "官网给出三个桌面系统安装包。 使用官方共用Freebuff品牌。不是把Codebuff编排框架作为新应用。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffreebuff.com%2F",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://freebuff.com/desktop",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://freebuff.com/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://github.com/CodebuffAI/freebuff/blob/main/README.md",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://freebuff.com/brand/freebuff-mark.png",
+        "title": "官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "freebuff-cli": {
+    "notes": "官方npm命令freebuff；CLI各系统兼容性未单独确认，因此系统列表留空。 使用官方共用Freebuff品牌。不是把Codebuff编排框架作为新应用。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffreebuff.com%2F",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://freebuff.com/cli",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://freebuff.com/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://github.com/CodebuffAI/freebuff/blob/main/README.md",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://freebuff.com/brand/freebuff-mark.png",
+        "title": "官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "freebuff-web": {
+    "notes": "Web/Cloud/Chat为同站入口，记录一条Web应用，通过说明保留不同用途。 使用官方共用Freebuff品牌。不是把Codebuff编排框架作为新应用。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffreebuff.com%2F",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://freebuff.com/web",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://freebuff.com/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://github.com/CodebuffAI/freebuff/blob/main/README.md",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://freebuff.com/brand/freebuff-mark.png",
+        "title": "官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "omp-cli": {
+    "notes": "官网提供macOS/Linux安装方式并明确Windows原生支持；内置IDE工具不意味着独立IDE插件。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fomp.sh%2F",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://omp.sh/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://omp.sh/docs",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://omp.sh/favicon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "codegpt-vscode": {
+    "notes": "官网交叉链接VS Code商店DanielSanMedium.dscodegpt。JetBrains入口本次404，暂不确认独立记录；未从OpenRouter CLI分类推断CLI已发行。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcodegpt.co%2F",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://www.codegpt.co/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://www.codegpt.co/img/logo.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "strix-cli": {
+    "notes": "实际可运行的终端渗透测试应用；需要Docker与模型密钥。系统兼容性本轮未完整核验，列表留空。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fstrix.ai%2F",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://github.com/usestrix/strix",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://github.com/usestrix/strix/blob/main/README.md",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://www.strix.ai/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://www.strix.ai/logo-transparent.png",
+        "title": "官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "strix-web": {
+    "notes": "独立托管安全测试、报告与修复平台。CLI许可证不推定覆盖托管服务。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fstrix.ai%2F",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://app.strix.ai/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://www.strix.ai/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://www.strix.ai/logo-transparent.png",
+        "title": "官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "sillytavern-web": {
+    "notes": "本地部署的浏览器前端，不是原生桌面GUI。桌面运行要求见安装文档；使用专属官方原始PNG。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/sillytavern",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://sillytavern.app/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://docs.sillytavern.app/installation/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://github.com/SillyTavern/SillyTavern",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://sillytavern.app/img/apple-icon-144x144.png",
+        "title": "官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "lemonade-web": {
+    "notes": "通过提示词生成Roblox游戏；不同于AMD Lemonade模型运行服务。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/lemonade",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://lemonade.gg/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://lemonade.gg/terms-of-service",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://lemonade.gg/icons/logo-icon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "proto-desktop": {
+    "notes": "官网明确桌面alpha，支持Apple Silicon macOS、Windows x64、Linux x64。营销官网不收作Web；OpenRouter多个类别不拆成CLI。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fproto.erp.ai%2F",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://proto.erp.ai/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://proto.erp.ai/assets/images/proto-search-icon-256.png",
+        "title": "官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "isekai-zero-web": {
+    "notes": "旧www.isekai.world已重定向当前官网。确认AI角色、故事与浏览器入口；未确认供应商法律实体，采用官网品牌名。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/isekai-zero",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://www.isekaizero.ai/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://www.isekai.world/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://www.isekaizero.ai/favicon.png",
+        "title": "官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "craft-rpgs-web": {
+    "notes": "AI RPG世界创作、游玩与Orbit助手，同站能力不另拆应用；区别于同名文档工具。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/craft-rpgs",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://www.craftrpgs.com/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://www.craftrpgs.com/icons/apple-touch-icon.png",
+        "title": "官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "digen-web": {
+    "notes": "官方Web页面SoftwareApplication声明Web及AI视频Agent。未凭榜单CLI分类添加CLI。favicon未呈现可识别图形，Logo暂留空。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fagent.digen.ai%2F",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://agent.digen.ai/en",
+        "title": "官方应用形态、功能及发行依据"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "framer-web": {
+    "notes": "官网当前AI design agent与网页设计工具；使用官网原始favicon，应用入口见官方页面。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/framer",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://www.framer.com/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://framerusercontent.com/images/Io89FonxEaWg4nxvQQllVLwPUUI.png",
+        "title": "官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "gdevelop-desktop": {
+    "notes": "官方桌面下载页列出三个系统。AI助教与游戏生成属于本体功能；移动端不收录。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/gdevelop",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://gdevelop.io/download",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://gdevelop.io/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://gdevelop.io/favicons/safari-pinned-tab.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "gdevelop-web": {
+    "notes": "官网直接链接浏览器编辑器，含AI助教和创建能力；引擎源码许可不推定覆盖托管服务。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/gdevelop",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://editor.gdevelop.io/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://gdevelop.io/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://gdevelop.io/download",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://gdevelop.io/favicons/safari-pinned-tab.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "rosebud-web": {
+    "notes": "官方浏览器AI游戏创作平台，提供lab.rosebud.ai作品创建入口。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/url/https%3A%2F%2Frosebud.ai%2F",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://rosebud.ai/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://lab.rosebud.ai/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://rosebud.ai/assets/rosebud-icon.png",
+        "title": "官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "fliki-web": {
+    "notes": "官网提供文本/想法转视频与AI语音，以及Web创建入口。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffliki.ai%2F",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://fliki.ai/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://app.fliki.ai/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://cdn.fliki.ai/public/favicon/apple-touch-icon.png?v=0.1",
+        "title": "官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "websim-web": {
+    "notes": "官网直接提供创建游戏/应用界面及AI作品；榜单名websim agent规范为正式品牌Websim。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwebsim.com%2F",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://websim.com/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://websim.com/swirl.png",
+        "title": "官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "highlevel-web": {
+    "notes": "官方AI Employee、AI营销/销售与工作流平台。应用内能力不逐个生成产品。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://www.gohighlevel.com/ai",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/62b48689c85eccb36ca941fc.png",
+        "title": "官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "letta-code-cli": {
+    "notes": "CLI命令letta；本轮系统列表留空，不按Node可运行推断完整兼容性。 品牌素材被单独排除于代码许可，未收Logo。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/letta",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://docs.letta.com/platform/cli",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://github.com/letta-ai/letta-code",
+        "title": "官方应用形态、功能及发行依据"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "letta-desktop": {
+    "notes": "当前发行文档仅提供Apple Silicon macOS下载；README称更多平台，保守采用当前可核验下载，不列Windows/Linux。 品牌素材被单独排除于代码许可，未收Logo。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/letta",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://docs.letta.com/platform/desktop-app",
+        "title": "官方应用形态、功能及发行依据"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "letta-web": {
+    "notes": "官方CLI文档与README明确浏览器入口；登录后可用范围未经实测。 品牌素材被单独排除于代码许可，未收Logo。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "sources": [
+      {
+        "url": "https://openrouter.ai/apps/letta",
+        "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+      },
+      {
+        "url": "https://chat.letta.com/",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://docs.letta.com/platform/cli",
+        "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://github.com/letta-ai/letta-code",
+        "title": "官方应用形态、功能及发行依据"
+      }
+    ],
+    "verified_at": "2026-10-11"
   }
 }

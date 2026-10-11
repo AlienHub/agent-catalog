@@ -1384,5 +1384,16 @@
         "title": "官方AI服务套餐说明"
       }
     ]
+  },
+  "codegpt-vscode": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官网列出Professional及Teams付费套餐；不记录易变的具体价格。",
+    "sources": [
+      {
+        "url": "https://www.codegpt.co/",
+        "title": "CodeGPT官方套餐"
+      }
+    ]
   }
 }

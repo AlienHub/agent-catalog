@@ -1,14 +1,14 @@
 {
   "schemaVersion": 5,
-  "dataVersion": "0.15",
+  "dataVersion": "0.16",
   "snapshotDate": "2026-10-11",
   "source": "Agent Atlas verified application catalog; Sentra gap review against sentra-lib 2cdefd26c0f5f1cebec0aeab33d0a9c84ae9558f",
   "verificationScope": "Official website/source review; not an installation or availability test",
-  "sourceCommit": "254e4c2288f7164b9851a1489902a5a0ae255841",
+  "sourceCommit": "77451dc1bab7e9e0721e01e280e4b1ec2f43fc75",
   "openSourceMetadataScope": "Verified per record ID; missing metadata means unverified, not closed-source. Repository pushes do not prove maintenance.",
   "interactionModel": "One independent application record per interaction form: GUI, CLI, IDE 插件, Web, 浏览器插件, 小程序. IM is a channel; DingTalk embedded AI capabilities belong to its GUI application.",
   "applicationScope": "Desktop and browser applications; mobile-only records excluded. Existing mini programs retained.",
   "namingPolicy": "Use CN where needed in product names. Application names omit added interaction-form suffixes; interfaces and platforms distinguish records. No edition field.",
-  "assetReview": "Official browser and Web AI asset review 2026-10-11: original SVG and PNG, verified Chrome/Edge IDs; source URLs and SHA-256 in docs/research/browser-ai-assets-2026-10-11.json and web-ai-assets-2026-10-11.json. PNG is never counted as SVG.",
+  "assetReview": "OpenRouter candidate discovery 2026-10-11: public page snapshot, independently verified application forms, original SVG/PNG sources and hashes in docs/research/openrouter-review-2026-10-11.json. OpenRouter categories and opt-in token usage do not determine catalog identity, licensing or total market popularity.",
   "logoPolicy": "Original SVG and PNG accepted. PNG is explicitly marked raster; hasSvg and SVG counts only include .svg assets."
 }

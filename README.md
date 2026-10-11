@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.15（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.16（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -346,3 +346,23 @@ Schema v4 删除 `edition` 字段，SDK 的 `CatalogApp`、`CatalogFilters` 同�
 新增 48 条应用：17 个浏览器插件、6 个浏览器 GUI、25 个 Web 应用。Chrome 与 Edge ID 分别核验，共补充 17 个 Chrome ID、9 个 Edge ID。保留共享产品关联，现有应用 ID 不变。Atlas 按官方已弃用的历史 macOS 应用收录，页面显示生命周期提示。
 
 新增 51 份原始 Logo（12 SVG、39 PNG），并补齐 7 条已有应用的 Logo。PNG 始终明确标为位图，不计入 SVG。未确认商店 ID 或素材的字段留空，候选及暂缓原因见 [浏览器核验报告](docs/research/browser-ai-assets-2026-10-11.md) 和 [Web 核验报告](docs/research/web-ai-assets-2026-10-11.md)。来源及 SHA-256 见对应 JSON 清单。
+
+## v0.16 OpenRouter 应用发现
+
+采集 [OpenRouter Apps](https://openrouter.ai/apps) 的公开页面数据，包括热门、趋势、类别榜及日/周/月榜，去重保存273个候选。该快照不是全量AI应用，也不代表全市场热度；榜单仅包含选择公开追踪用量的项目。候选名称、分类和URL仅作线索，不自动导入目录，也不自动访问其URL。
+
+首批通过官网、发行文档、源码/插件商店核验后新增24条应用、18个产品，目录共393条应用、253个产品。新增15份原始Logo（4 SVG、11 PNG）。本轮未确认的系统列表或Logo留空；Letta品牌资产明确排除于代码许可，未收录；Digen官网favicon缺少可辨认图形，未作为Logo入库。
+
+- [采集快照](docs/research/openrouter-apps-2026-10-11.json)
+- [核验记录和素材哈希](docs/research/openrouter-review-2026-10-11.json)
+- [收录与暂缓说明](docs/research/openrouter-review-2026-10-11.md)
+
+复用采集器时使用新的输出文件名，避免覆盖旧快照：
+
+```sh
+node scripts/collect-openrouter-apps.mjs --fetch /tmp/openrouter-apps-new.json
+# 或使用已保存的公开HTML，离线解析，不执行页面脚本
+node scripts/collect-openrouter-apps.mjs /tmp/openrouter-apps.html /tmp/openrouter-apps-offline.json
+```
+
+采集器在页面数据结构变化时明确失败，保留原快照；新的候选仍需人工核验。
