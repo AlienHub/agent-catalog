@@ -174,7 +174,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.12（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.13（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -325,3 +325,11 @@ Unified private Cloudflare website + API deployment now lives in [cloudflare/REA
 Schema v4 删除 `edition` 字段，SDK 的 `CatalogApp`、`CatalogFilters` 同步删除该属性。网站去掉地区版本筛选、卡片标签、详情字段和字段字典项；JSON、CSV、ZIP中不再导出该字段。数据快照版本 `dataVersion` 仍用于追踪更新。已有名称中的 CN 标识、应用ID、产品ID和297条应用记录均保留。
 
 这是数据结构变更：调用方需要移除 `edition` 属性访问及筛选条件，按稳定应用ID识别对应记录。
+
+## v0.13 吸收 PR #1 数据与资产
+
+对过时 PR #1 增量吸收，保留主分支既有ID及桌面/浏览器范围、单形态、CN命名、无edition字段的规范。新增24条应用记录，当前321条应用、190个产品。吸收7份官方SVG，逐一重新下载并匹配SHA-256；同步保留来源和许可。
+
+修正Pochi IDE的包级许可（保留所有权利），不套用仓库根Apache-2.0；补充DeepSeek Harness、MonkeyCode等具体分发的源码证据。已有QoderWake、AiderDesk、TRAE、Zencoder和Pochi记录复用稳定ID；Reasonix CLI/Web不同版本线不重复建记录。移动端和待审候选不进入主目录。
+
+[完整吸收映射](docs/research/pr-1-absorption-2026-10-11.json)与[原始研究归档](docs/research/pr-1-2026-10-09/README.md)保留候选、历史版本线、暂缓原因及素材来源，归档不参与网站/SDK生成。

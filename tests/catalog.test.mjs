@@ -9,9 +9,9 @@ const raw = JSON.parse(await readFile(new URL('../data/dataset.json', import.met
 
 test('canonical snapshot preserved, including all record fields and IDs', () => {
   assert.deepEqual(catalog.apps, raw);
-  assert.equal(catalog.catalogMeta.recordCount, 297);
-  assert.equal(catalog.catalogMeta.productCount, 185);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.12');
+  assert.equal(catalog.catalogMeta.recordCount, 321);
+  assert.equal(catalog.catalogMeta.productCount, 190);
+  assert.equal(catalog.catalogMeta.dataVersion, '0.13');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
@@ -75,7 +75,7 @@ test('search supports case, aliases, Unicode normalization, Chinese and combined
   assert.deepEqual(catalog.searchApps('never-matching-unicorn-128392'), []);
 });
 test('collections and evidence preserve exact provenance and unknown-key behavior', () => {
-  assert.equal(catalog.getCollection('chinese_agents').length, 61);
+  assert.deepEqual(new Set(catalog.getCollection('chinese_agents').map(a=>a.id)), new Set(catalog.collections.chinese_agents));
   assert.deepEqual(catalog.getCollection('not-a-collection'), []);
   assert.deepEqual(catalog.findApps({ collection: '__proto__' }), []);
   assert.equal(catalog.getEvidence('__proto__'), undefined);

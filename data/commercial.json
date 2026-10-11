@@ -1065,5 +1065,93 @@
         "title": "Wordtune 官方商业服务依据"
       }
     ]
+  },
+  "lingcode-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-09",
+    "notes": "PR #1 逐形态官方资料核验：存在付费服务或订阅，不代表下载收费、所有功能收费或全部地区可购。官网运营商为 Aurelian Labs Inc.；官方支持页指向 Xavierhuang/LingCode，但本轮无法读取该仓库与 LICENSE，源码和准确许可保持未核验，不能因免费下载或 BYOK 判为开源。Free/Pro/Max Pro/Enterprise 是同一产品的订阅层；官网 Pro $20/月、Max Pro $200/月，企业方案自定义报价，价格可能变化。 浏览器 /try 为 app-building playground，支持 prompt、预览、文件读写和 ZIP 导出；浏览器 Deep Agent 是付费方案功能，不说成 Free 自带。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "sources": [
+      {
+        "url": "https://lingcode.dev/pricing.html",
+        "title": "Official paid service or subscription evidence for this distribution"
+      }
+    ]
+  },
+  "lingcode-baby-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-09",
+    "notes": "PR #1 逐形态官方资料核验：存在付费服务或订阅，不代表下载收费、所有功能收费或全部地区可购。官方单独的 Baby 下载与收费页描述轻量跨平台桌面编辑器，与完整 Mac IDE 为同厂产品族的独立 sibling app，因此单独 product_id。支持 macOS 11+ Apple Silicon、Windows 10/11 x64/ARM64、Linux x86-64；Claude Code 聊天可读写/创建文件、执行命令，并提供 Web deploy UI。免费试用后 $20/月，不能套用主 LingCode 产品的 Free 方案。未核实此应用独立源码仓库/准确许可证，保持未知。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "sources": [
+      {
+        "url": "https://lingcode.dev/baby.html",
+        "title": "Official paid service or subscription evidence for this distribution"
+      }
+    ]
+  },
+  "coze-desktop-cn": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-09",
+    "notes": "PR #1 逐形态官方资料核验：存在付费服务或订阅，不代表下载收费、所有功能收费或全部地区可购。已有扣子CN Web 服务的官方桌面客户端；同账号同步项目、会话、文件和任务。CN核验不得自动外推 coze.com 国际版。 为已有扣子CN补 Desktop GUI，明确 macOS Apple/Intel 与 Windows，保留 Web。不要把 GitHub 上 Coze Studio、SDK、工作流引擎或第三方桌面封装的许可证转移到本客户端。本轮未获得 coze.com 国际版桌面发行证据，国际版平台字段保持原有已核实值；这不构成国际版桌面不存在的结论。 核验的具体形态：扣子桌面端（CN）。系统边界：macOS (Apple Silicon)；macOS (Intel)；Windows（架构与最低版本未核实）。版本定位：China desktop; personal / team / enterprise service plans。源码状态：unknown；许可证说明：扣子用户协议（专有服务条款；未核实桌面客户端本体的开源许可证）；商业状态：verified-paid。价格和下载限制见逐字段研究及下列来源。仅官方公开资料核验，未安装或测试兼容性。官方运营主体：北京春田知韵科技有限公司及关联方；沿用已有产品的稳定供应商分组。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "sources": [
+      {
+        "url": "https://docs.coze.cn/cozespace_coze_billing_overview",
+        "title": "Official paid service or subscription evidence for this distribution"
+      }
+    ]
+  },
+  "command-code-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-09",
+    "notes": "PR #1 逐形态官方资料核验：存在付费服务或订阅，不代表下载收费、所有功能收费或全部地区可购。建议以 Command Code 一条产品记录收录 CLI 和 Desktop beta 两种形态。taste-1 是官方模型/学习能力，不另建同名终端产品；cmd/cmdc 是平台命令别名。公开 issues/installer 仓库不是源码开放证明。未把官网 FAQ 的 free-tier 宣传替代当前详细价格页。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。 Linux 下载仅明确 Debian/Ubuntu .deb；Windows 为 preview。 Command Code Desktop：版本/形态定位=Desktop beta; Windows preview；官方平台限制=macOS、Linux (Debian / Ubuntu .deb)、Windows；接口=desktop GUI、integrated terminal、local browser preview；源代码分类=unknown；许可证=Command Code Terms & Conditions（专有服务许可；应用开发仓库为 private）；商业状态=verified-paid；价格来源=https://commandcode.ai/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "sources": [
+      {
+        "url": "https://commandcode.ai/pricing",
+        "title": "Official paid service or subscription evidence for this distribution"
+      }
+    ]
+  },
+  "moxby-browser": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-09",
+    "notes": "PR #1 逐形态官方资料核验：存在付费服务或订阅，不代表下载收费、所有功能收费或全部地区可购。独立产品；Chat/Mods/Missions/Bridge 是同一产品功能/形态。应作为浏览器/电脑通用 Agent 收录；免费层不能标成免费 AI Agent，因为 Chat 与自主 Missions 不在免费层。桌面是可选 Bridge/companion，不能把历史整合浏览器 UI 宣传直接变成另一个现行产品。官方 SVG 未取得，保留 null。 核实 Chrome Web Store；Chromium 兼容描述不推定每个浏览器商店单独分发。免费 Mods 不包括 AI Chat/自主 Missions。 Moxby browser extension：版本/形态定位=Free Mods / Plus / Pro / Max；官方平台限制=Chrome / Chromium-based browser (official Chrome Web Store verified)；接口=browser extension、AI chat、browser automation；源代码分类=unknown；许可证=Moxby proprietary Terms of Service；商业状态=verified-paid；价格来源=https://moxby.com/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "sources": [
+      {
+        "url": "https://moxby.com/pricing",
+        "title": "Official paid service or subscription evidence for this distribution"
+      }
+    ]
+  },
+  "moxby-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-09",
+    "notes": "PR #1 逐形态官方资料核验：存在付费服务或订阅，不代表下载收费、所有功能收费或全部地区可购。独立产品；Chat/Mods/Missions/Bridge 是同一产品功能/形态。应作为浏览器/电脑通用 Agent 收录；免费层不能标成免费 AI Agent，因为 Chat 与自主 Missions 不在免费层。桌面是可选 Bridge/companion，不能把历史整合浏览器 UI 宣传直接变成另一个现行产品。官方 SVG 未取得，保留 null。 桌面 Bridge/companion 为浏览器连接本地电脑的可选伴随，不是另一个独立品牌或完整自主桌面应用。 Moxby Desktop Bridge / companion：版本/形态定位=optional companion to browser extension; paid feature；官方平台限制=macOS (Intel and Apple Silicon documented)、Windows；接口=desktop companion、browser-to-local computer bridge；源代码分类=unknown；许可证=Moxby proprietary Terms of Service；商业状态=verified-paid；价格来源=https://moxby.com/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "sources": [
+      {
+        "url": "https://moxby.com/pricing",
+        "title": "Official paid service or subscription evidence for this distribution"
+      }
+    ]
+  },
+  "rovo-dev-ide": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-09",
+    "notes": "PR #1 逐形态官方资料核验：存在付费服务或订阅，不代表下载收费、所有功能收费或全部地区可购。产品关系：Atlassian Rovo 家族的开发者 Agent；不能因同属 Rovo 而与通用 Rovo 功能直接合并；未来 Rovo CLI 是宣布中的迁移目标。 应纳入编程 Agent，但必须展示 sunset-announced / transitioning 提醒。现有 CLI、IDE、Code Reviewer 仍可运行；不得提前写成已停运或把 2026-12-03 当作终止日。未核实官方 Rovo Dev 本体源码仓库或可单独下载的产品 SVG，保留 null；不借用 ACLI 组件或 Rovo 通用图标的许可/身份。未核实地区可购性或执行安装。 独立 IDE 能力将退役，最终日期待定；当前仍支持，不写已停服。 Rovo Dev IDE：版本/形态定位=Standard; 独立 IDE 能力将退役，日期待定；官方平台限制=Visual Studio Code、VS Code-compatible IDEs (including Cursor)；接口=IDE extension；源代码分类=unknown；许可证=Atlassian Customer Agreement（专有产品/服务条款）；商业状态=verified-paid；价格来源=https://www.atlassian.com/software/rovo-dev/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "sources": [
+      {
+        "url": "https://www.atlassian.com/software/rovo-dev/pricing",
+        "title": "Official paid service or subscription evidence for this distribution"
+      }
+    ]
+  },
+  "rovo-dev-reviewer": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-09",
+    "notes": "PR #1 逐形态官方资料核验：存在付费服务或订阅，不代表下载收费、所有功能收费或全部地区可购。产品关系：Atlassian Rovo 家族的开发者 Agent；不能因同属 Rovo 而与通用 Rovo 功能直接合并；未来 Rovo CLI 是宣布中的迁移目标。 应纳入编程 Agent，但必须展示 sunset-announced / transitioning 提醒。现有 CLI、IDE、Code Reviewer 仍可运行；不得提前写成已停运或把 2026-12-03 当作终止日。未核实官方 Rovo Dev 本体源码仓库或可单独下载的产品 SVG，保留 null；不借用 ACLI 组件或 Rovo 通用图标的许可/身份。未核实地区可购性或执行安装。 托管 PR 审查适用于 GitHub/Bitbucket Cloud；2026-12-03 计划切换 Rovo Credits 计费，不是服务结束日。 Rovo Dev Code Reviewer：版本/形态定位=Rovo Dev Standard / eligible Jira-TWC transition；官方平台限制=Bitbucket Cloud、GitHub；接口=cloud pull-request review；源代码分类=unknown；许可证=Atlassian Customer Agreement（专有产品/服务条款）；商业状态=verified-paid；价格来源=https://www.atlassian.com/software/rovo-dev/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "sources": [
+      {
+        "url": "https://www.atlassian.com/software/rovo-dev/pricing",
+        "title": "Official paid service or subscription evidence for this distribution"
+      }
+    ]
   }
 }

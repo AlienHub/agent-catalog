@@ -1,0 +1,115 @@
+# Existing product forms: official-source verification
+
+Verified: 2026-10-09. Scope: public official sources; no installations or account changes. Four research records, not four new product identities.
+
+## TRAE VS Code extension
+
+Decision: **update-existing**
+
+新增形态
+
+已有 TRAE 产品的独立 IDE 扩展形态；扩展可装入 VS Code，不是 TRAE IDE 内置扩展市场。原 MarsCode 扩展更名，扩展 ID 保持 MarsCode.marscode-extension。 给已有 TRAE 增加 VS Code extension 形态及准确发行页，保留 IDE/CN/Work 既有形态；不能另造名为 TRAE VSCode 的独立产品，也不能选用同名 Trae AI Helper、用量监控等第三方扩展。MarsCode 是此扩展的历史品牌/发行 ID，应作为别名消歧。官方亦证明 JetBrains / Android Studio 支持，但本条聚焦用户要求的 VS Code 核验。源码许可未知，不借用 trae-agent、VS Code 或第三方扩展许可证。
+
+### TraeCode Plugin for VS Code（TRAE AI: Coding Assistant）
+
+- Platforms: Windows（产品概述列 Windows 11+ x86_64；企业系统要求另列 Windows 10+ x86_64/ARM64）; macOS (Apple Silicon ARM64, Intel x86_64); Linux (Ubuntu 20.04+, Debian 10+; x86_64)
+- Edition: VS Code 1.93+; personal / enterprise login; Marketplace package MarsCode.marscode-extension
+- Distribution license: None
+- Source classification: unknown
+- Commercial status: verified-paid
+- Official product-source repository: None
+- Verified official SVG URL: None
+
+Evidence:
+- [https://www.trae.cn/plugin](https://www.trae.cn/plugin): 官方产品页明确原 MarsCode 编程助手，支持安装至本地 VS Code / JetBrains；页脚列中国版运营方北京引力弹弓科技有限公司。
+- [https://docs.trae.cn/plugin_get-started-with-trae-plugin](https://docs.trae.cn/plugin_get-started-with-trae-plugin): 官方安装流程要求 VS Code 1.93+，搜索 TRAE AI: Coding Assistant，并提供个人/企业账号登录；直接证明独立 VS Code 扩展。
+- [https://marketplace.visualstudio.com/items?itemName=MarsCode.marscode-extension](https://marketplace.visualstudio.com/items?itemName=MarsCode.marscode-extension): 官方产品文档与 Marketplace 页面相互链接；当前标题 TraeCode: Coding Assistant，Publisher MarsCode，ID MarsCode.marscode-extension。2026-10-09 实时 HTML 的 Pricing 为 Free，表示扩展免费获取；LicenseText 为空，不足以证明开源或 AI 服务永久免费。
+- [https://www.marscode.com/](https://www.marscode.com/): 官方旧站公告说明 MarsCode Extension 更名为 Trae Plugin，只更名而非独立新产品。
+- [https://docs.trae.cn/plugin_what-is-trae-plugin](https://docs.trae.cn/plugin_what-is-trae-plugin): 插件专属系统要求列 macOS、Windows、Linux；Windows 11+ x86_64、Mac ARM64/x86_64、Linux Ubuntu 20.04+/Debian 10+ x86_64。
+- [https://docs.trae.cn/enterprise_system-requirements](https://docs.trae.cn/enterprise_system-requirements): 企业版插件系统要求与普通概述有差异：Windows 10+、x86_64/ARM64；Mac 与 Linux亦有独立要求。保留版本/版本类别差异，不冒称安装测试已通过。
+- [https://docs.trae.cn/enterprise_subscription-rules](https://docs.trae.cn/enterprise_subscription-rules): 企业版采用席位订阅加超额按量计费；套餐到期后明确不能登录企业版 TraeCode Plugin 使用 AI。verified-paid 仅表示已核实存在付费企业使用，不表示插件下载收费或所有个人功能收费。
+- [https://www.trae.cn/pricing](https://www.trae.cn/pricing): TRAE 中国站个人套餐含免费档及付费档；本轮未从已读官方文档确认个人插件各功能与套餐/积分的精确对应，不能把 IDE 的价格直接当作插件独立价格。
+- [https://www.trae.cn/terms-of-service](https://www.trae.cn/terms-of-service): Marketplace 指向该官方用户协议；本轮文本抓取只返回页面外壳，未取得个人扩展本体许可证全文，因此 license 保留 null。未确认本体官方源码仓库和独立 SVG logo URL。
+
+## Coze / 扣子 desktop
+
+Decision: **update-existing**
+
+新增形态
+
+已有扣子中国版 Web 服务的官方桌面客户端；同账号同步项目、会话、文件和任务。中国版核验不得自动外推 coze.com 国际版。 为已有扣子中国版补 Desktop GUI，明确 macOS Apple/Intel 与 Windows，保留 Web。不要把 GitHub 上 Coze Studio、SDK、工作流引擎或第三方桌面封装的许可证转移到本客户端。本轮未获得 coze.com 国际版桌面发行证据，国际版平台字段保持原有已核实值；这不构成国际版桌面不存在的结论。
+
+### 扣子桌面端（中国版）
+
+- Platforms: macOS (Apple Silicon); macOS (Intel); Windows（架构与最低版本未核实）
+- Edition: China desktop; personal / team / enterprise service plans
+- Distribution license: 扣子用户协议（专有服务条款；未核实桌面客户端本体的开源许可证）
+- Source classification: unknown
+- Commercial status: verified-paid
+- Official product-source repository: None
+- Verified official SVG URL: None
+
+Evidence:
+- [https://docs.coze.cn/quick-start-coze-desktop](https://docs.coze.cn/quick-start-coze-desktop): 官方明确桌面端名称与 macOS / Windows 支持，列 macOS Apple / Intel 和 Windows 下载入口；客户端可授权处理本地文件、调用本地软件，并与 Web/移动端同步。
+- [https://docs.coze.cn/](https://docs.coze.cn/): 官方概述把桌面端、移动端、网页端列为同一扣子产品的多端入口，明确同账号数据同步。
+- [https://ugapk.com/FJvCs](https://ugapk.com/FJvCs): 由官方桌面快速入门直接链接的下载跳转入口；官方文档 macOS Apple 和 Windows 标签共用此链接，故不把此短链本身当作独立 OS 安装包地址。
+- [https://ugapk.com/N752o](https://ugapk.com/N752o): 官方桌面快速入门中 macOS Intel 的下载跳转入口；未安装客户端或测试 CPU/系统兼容性。
+- [https://docs.coze.cn/cozespace_coze_billing_overview](https://docs.coze.cn/cozespace_coze_billing_overview): 现行个人免费档 0 元；进阶/高阶/旗舰/尊享月价 39.9/99/199/999 元，另有团队/企业。Agent 对话、生成等按积分消耗；免费下载不等于全部服务免费。
+- [https://docs.coze.cn/guides_terms-of-service](https://docs.coze.cn/guides_terms-of-service): 2026-09-09 生效用户协议指明北京春田知韵科技有限公司为运营方，覆盖网页及应用程序；保留软件/代码等知识产权并限制未经授权分发、反向工程。
+- [https://www.coze.cn/](https://www.coze.cn/): 实时取得官方首页，仅确认中国版入口；未核实该桌面应用本体的官方开源仓库或官方独立 SVG logo URL。
+
+## 智谱清言 desktop
+
+Decision: **update-existing**
+
+新增形态
+
+已有智谱清言产品的官方 Windows/macOS 桌面客户端；官方域下提供可下载 .exe/.dmg，非仅第三方 Web wrapper。不得与 ZCode 或 GLM-PC 自动合并。 为已有智谱清言补 Desktop GUI 的 Windows 与 macOS 官方形态。双平台既有正式规则文本，又有仍可访问的官方安装包，证据强于仅有网页“下载”按钮。不引用第三方仿官网宣称的版本、硬件要求或免费额度；不把 GLM 开源模型、AutoGLM/GLM-PC、ZCode 当作本客户端源码或同一产品。
+
+### 智谱清言桌面客户端（ChatGLM）
+
+- Platforms: Windows（架构与最低系统版本未核实）; macOS（官方包名 universal；最低系统与实际 CPU 兼容性未安装核实）
+- Edition: China desktop; observed official package version 2.0.0
+- Distribution license: 智谱清言用户协议及特定功能使用规则；本地化模型功能限定个人非商业使用，该限制不可无条件外推所有云服务
+- Source classification: unknown
+- Commercial status: unknown
+- Official product-source repository: None
+- Verified official SVG URL: None
+
+Evidence:
+- [https://chatglm.cn/](https://chatglm.cn/): 官方站点显示桌面下载入口、升级会员及积分入口。仅为界面观察，未读到可核实的正式收费计划或订阅条款，不据此确认付费状态；商业状态保留 unknown，定价 URL 留空。
+- [https://chatglm.cn/legal/specificFunction](https://chatglm.cn/legal/specificFunction): 官方特定功能规则第 4 条直接指称智谱清言 Windows/MacOS 客户端；本地化模型需设备适配，并对本软件及其本地模型设个人非商业使用授权、禁止未经授权反向工程。
+- [https://agentmore.chatglm.cn/](https://agentmore.chatglm.cn/): 官方域下网页 HTML 的标题为 AgentMore - 智谱清言，并加载本记录所列发布资源；仅作为官方客户端分发链的入口证据，不把 AgentMore 另计为这个桌面候选。
+- [https://agentmore.chatglm.cn/assets/index-CzZdablk.js](https://agentmore.chatglm.cn/assets/index-CzZdablk.js): 2026-10-09 实时读取官方网页所加载的公开 JS。下载应用菜单按系统显示 Mac/Windows，内含 mac 与 win 映射到两个 chatglm_2.0.0 安装包。只是读取公开发布资源，没有安装执行。
+- [https://sfile.chatglm.cn/apk/xinyu/windows/chatglm_2.0.0_universal.dmg](https://sfile.chatglm.cn/apk/xinyu/windows/chatglm_2.0.0_universal.dmg): 官方 JS 明确 mac 下载目标；2026-10-09 HEAD HTTP 200，Content-Type application/x-apple-diskimage，182430383 bytes。包名 universal 不等于已实测 Intel/Apple Silicon。
+- [https://sfile.chatglm.cn/apk/xinyu/windows/chatglm_2.0.0_win32.exe](https://sfile.chatglm.cn/apk/xinyu/windows/chatglm_2.0.0_win32.exe): 官方 JS 明确 win 下载目标；2026-10-09 HEAD HTTP 200，Content-Type application/x-msdownload，159825088 bytes。win32 文件名不能直接当作 CPU 为 32 位的证据。
+- [https://chatglm.cn/legal/minorsNotice](https://chatglm.cn/legal/minorsNotice): 智谱清言官方规则页列北京智谱华章科技股份有限公司；支持厂商归属。
+- [https://chatglm.cn/UsageSpecification?lang=zh](https://chatglm.cn/UsageSpecification?lang=zh): 官方使用规范禁止对服务算法/源码做反向工程；不等于发布了开源客户端许可证。未核实桌面本体源码仓库或官方独立 SVG logo URL。
+
+## Kimi Work
+
+Decision: **update-existing**
+
+已有产品别名
+
+Kimi 官方桌面客户端中的 Work 模式，是已有 Kimi GUI 的明确命名工作形态。以 Kimi Code 为 Agent 内核，但官方区分 Work 的知识工作者定位与 Code 的开发者定位。 现有 Kimi 已有 macOS/Windows GUI，应更新这个 GUI 形态的名称、Work 模式能力、下载入口和证据，并增加 Kimi Work 别名；不增加第二个相同桌面安装产品。Kimi Code 保持既有独立编码产品记录，不能因共享内核或会员积分而将 Work 归到 Kimi Code Desktop。没有发现需要把 Kimi Work 拆成另一个独立分发包的官方证据。Kimi Code 的仓库许可不能移植给 Kimi Work/桌面 GUI。
+
+### Kimi 桌面端 · Kimi Work（Work 模式）
+
+- Platforms: macOS 12+ (Apple Silicon; Work 概述未确认 Intel 支持); Windows 10+
+- Edition: Kimi desktop Work mode; Beta; shared Kimi membership credits
+- Distribution license: Kimi Terms of Services（专有服务条款；未核实 Kimi 桌面应用本体开源许可证）
+- Source classification: unknown
+- Commercial status: verified-paid
+- Official product-source repository: None
+- Verified official SVG URL: None
+
+Evidence:
+- [https://www.kimi.com/products/kimi-work](https://www.kimi.com/products/kimi-work): 官方中文产品标题明确为 Kimi Work：Kimi 官方桌面客户端，Windows 与 Mac Apple 芯片下载均指向 appsupport.moonshot.cn 的 Kimi app 分发接口。
+- [https://www.kimi.com/en/help/kimi-work/overview](https://www.kimi.com/en/help/kimi-work/overview): 明确 Work 是 Kimi 桌面客户端的模式，另有 Chat 模式；以 Kimi Code 为内核但目标用户不同。系统要求 macOS 12+ Apple silicon、Windows 10+；Beta。
+- [https://www.kimi.com/en/products/](https://www.kimi.com/en/products/): 官方产品索引区分 Kimi、Kimi Work、Kimi Code。表示命名工作形态/定位不同，不足以证明 Kimi Work 与已有 Kimi GUI 是两个独立安装包。
+- [https://www.kimi.com/en/help/kimi-work/kimi-work-faq](https://www.kimi.com/en/help/kimi-work/kimi-work-faq): Work 可处理本地目录、调用浏览器、运行代码与定时任务；桌面任务需应用与电脑保持运行，不能把 Web 云任务属性直接套用到 Work。
+- [https://www.kimi.com/en/help/membership/membership-overview](https://www.kimi.com/en/help/membership/membership-overview): Kimi Work、Kimi Code 与其他 Kimi 功能共享会员积分池。所读官方页列 Andante/Moderato/Allegretto/Allegro 为人民币 49/99/199/699 元每月；地区或购买页可能不同，不把此价格当作全球统一美元价。
+- [https://www.kimi.com/en/help/membership/membership-update-rules](https://www.kimi.com/en/help/membership/membership-update-rules): 积分按任务 Token 消耗并按周期刷新；免费用户也有额度示例，不能写全部功能免费，亦不能从共享积分推出 Work 等同 Code。
+- [https://www.kimi.com/user/agreement/modelUse?version=v2](https://www.kimi.com/user/agreement/modelUse?version=v2): 现行官方服务条款指明 Moonshot AI / Beijing Moonshot Technology Co., Ltd. 及关联方；涵盖 apps，禁止未经授权复制/转让/出租/再许可及逆向工程，未授予桌面本体开源权利。
+- [https://www.kimi.com/resources/kimi-brand](https://www.kimi.com/resources/kimi-brand): 官方品牌手册提供 logo 素材 ZIP 和内联矢量；本轮未核实单独可直接访问的官方 SVG 文件 URL，故 svg_url 为 null，不把 PNG 或 ZIP 改写成 SVG。

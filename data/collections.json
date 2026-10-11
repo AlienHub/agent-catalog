@@ -60,6 +60,11 @@
     "workbuddy",
     "workbuddy-cn",
     "workbuddy-cn-mini-program",
-    "zcode-desktop"
+    "zcode-desktop",
+    "coze-desktop-cn",
+    "deepseek-harness-cli",
+    "loomy-web",
+    "monkeycode-work-desktop",
+    "qingyan-desktop"
   ]
 }

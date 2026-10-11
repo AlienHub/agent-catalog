@@ -28,10 +28,10 @@ async function setup(failure=false, trendResponses={}){
 }
 test('React catalog preserves records, all filters, searches and empty/reset',async()=>{
  const t=await setup();try{
- assert.equal(t.count(),297);
- for(const[id,key,array]of [['type','type',false],['platform','platforms',true],['vendor','vendor_id',false],['interface','interfaces',true]]){const value=t.$(id).options[1].value;await t.change(id,value);assert.equal(t.count(),apps.filter(a=>array?a[key].includes(value):a[key]===value).length);await t.click('reset');assert.equal(t.count(),297)}
+ assert.equal(t.count(),321);
+ for(const[id,key,array]of [['type','type',false],['platform','platforms',true],['vendor','vendor_id',false],['interface','interfaces',true]]){const value=t.$(id).options[1].value;await t.change(id,value);assert.equal(t.count(),apps.filter(a=>array?a[key].includes(value):a[key]===value).length);await t.click('reset');assert.equal(t.count(),321)}
  for(const field of ['name','vendor','aliases']){const app=apps.find(a=>field!=='aliases'||a.aliases.length);await t.change('search',field==='aliases'?app.aliases[0]:app[field]);assert(t.count()>0);await t.click('reset')}
- await t.change('search','zzzz-nonexistent-87234');assert.equal(t.count(),0);assert(!t.$('empty').hidden);await t.click('emptyReset');assert.equal(t.count(),297);
+ await t.change('search','zzzz-nonexistent-87234');assert.equal(t.count(),0);assert(!t.$('empty').hidden);await t.click('emptyReset');assert.equal(t.count(),321);
  // React checkbox change is driven by a click, just as a user toggles it.
  await t.click('svgOnly');assert.equal(t.count(),apps.filter(a=>a.icon.endsWith('.svg')).length);assert.equal(t.w.document.querySelectorAll('.missing').length,0);await t.click('reset');
  assert.equal(t.$('agentCollection'),null);assert(!t.w.document.body.textContent.includes('中国厂商'));assert.equal(t.$('openSourceOnly'),null);
@@ -149,7 +149,7 @@ test('unified Cloudflare config requests metrics on the authenticated website or
 test('browser plugins and mini programs remain independent forms with selectable details', async () => {
  const t=await setup();try{
   assert.deepEqual([...t.$('interface').options].map(o=>o.value),['','GUI','CLI','IDE 插件','Web','浏览器插件','小程序']);
-  await t.change('interface','浏览器插件');assert.equal(t.count(),7);
+  await t.change('interface','浏览器插件');assert.equal(t.count(),8);
   assert([...t.w.document.querySelectorAll('.card-tags')].every(el=>el.textContent.includes('浏览器插件')&&!el.textContent.includes('GUI')));
   await t.click('reset');await t.change('interface','小程序');assert.equal(t.count(),1);
   await t.click(t.w.document.querySelector('.appname'));assert(t.$('detailContent').textContent.includes('workbuddy-cn-mini-program'));assert(t.$('detailContent').textContent.includes('微信'));

@@ -1,0 +1,714 @@
+[
+  {
+    "candidate": "Rovo Dev",
+    "canonical_name": "Rovo Dev",
+    "vendor": "Atlassian",
+    "official_url": "https://www.atlassian.com/software/rovo-dev",
+    "aliases": [
+      "Atlassian Rovo Dev",
+      "Rovo Dev CLI"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "Rovo Dev CLI",
+        "interfaces": [
+          "CLI"
+        ],
+        "platforms": [
+          "macOS",
+          "Linux",
+          "Windows"
+        ],
+        "edition": "Standard; 迁移到统一 Rovo CLI 的过渡期",
+        "repository_url": null,
+        "license": "Atlassian Customer Agreement（专有产品/服务条款）",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://www.atlassian.com/software/rovo-dev/pricing",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/",
+            "supports": "终端自然语言编码、调试、文档与测试；当前说明 CLI 需付费 Standard，不能把 Standard 试用视为 CLI 免费层。"
+          },
+          {
+            "url": "https://support.atlassian.com/rovo/docs/install-and-run-rovo-dev-cli-on-your-device/",
+            "supports": "通过 Atlassian CLI 的 rovodev 命令安装/启动；列出 macOS、Linux、Windows 官方安装入口。"
+          },
+          {
+            "url": "https://www.atlassian.com/software/rovo-dev/pricing",
+            "supports": "官方当前页面仍列 Standard $20/开发者/月，含 2,000 credits，额外 $0.01/credit；同时显示独立产品将终止的通知。"
+          },
+          {
+            "url": "https://www.atlassian.com/licensing/rovo-dev",
+            "supports": "截至本次核查仍在运行；CLI 将迁移到 Rovo CLI，独立 IDE 能力将退役，最终 EOL 日期均待定；2026-12-03 是 Code Reviewer 转 Rovo Credits 的计划日期，不是 EOL。"
+          },
+          {
+            "url": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+            "supports": "Atlassian 产品适用客户协议及商业授权限制；未核实 Rovo Dev 产品本体的开源许可证。"
+          }
+        ]
+      },
+      {
+        "name": "Rovo Dev IDE",
+        "interfaces": [
+          "IDE extension"
+        ],
+        "platforms": [
+          "Visual Studio Code",
+          "VS Code-compatible IDEs (including Cursor)"
+        ],
+        "edition": "Standard; 独立 IDE 能力将退役，日期待定",
+        "repository_url": null,
+        "license": "Atlassian Customer Agreement（专有产品/服务条款）",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://www.atlassian.com/software/rovo-dev/pricing",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://support.atlassian.com/rovo/docs/work-with-rovo-dev-in-the-ide/",
+            "supports": "支持 VS Code 与 Cursor 等兼容 IDE；需付费 Standard；可编辑、重构、调试和创建测试。"
+          },
+          {
+            "url": "https://www.atlassian.com/software/rovo-dev/pricing",
+            "supports": "官方当前页面仍列 Standard $20/开发者/月，含 2,000 credits，额外 $0.01/credit；同时显示独立产品将终止的通知。"
+          },
+          {
+            "url": "https://www.atlassian.com/licensing/rovo-dev",
+            "supports": "截至本次核查仍在运行；CLI 将迁移到 Rovo CLI，独立 IDE 能力将退役，最终 EOL 日期均待定；2026-12-03 是 Code Reviewer 转 Rovo Credits 的计划日期，不是 EOL。"
+          },
+          {
+            "url": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+            "supports": "Atlassian 产品适用客户协议及商业授权限制；未核实 Rovo Dev 产品本体的开源许可证。"
+          }
+        ]
+      },
+      {
+        "name": "Rovo Dev Code Reviewer",
+        "interfaces": [
+          "cloud pull-request review"
+        ],
+        "platforms": [
+          "Bitbucket Cloud",
+          "GitHub"
+        ],
+        "edition": "Rovo Dev Standard / eligible Jira-TWC transition",
+        "repository_url": null,
+        "license": "Atlassian Customer Agreement（专有产品/服务条款）",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://www.atlassian.com/software/rovo-dev/pricing",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://www.atlassian.com/software/rovo-dev/pricing",
+            "supports": "官方当前页面仍列 Standard $20/开发者/月，含 2,000 credits，额外 $0.01/credit；同时显示独立产品将终止的通知。"
+          },
+          {
+            "url": "https://www.atlassian.com/licensing/rovo-dev",
+            "supports": "截至本次核查仍在运行；CLI 将迁移到 Rovo CLI，独立 IDE 能力将退役，最终 EOL 日期均待定；2026-12-03 是 Code Reviewer 转 Rovo Credits 的计划日期，不是 EOL。"
+          },
+          {
+            "url": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+            "supports": "Atlassian 产品适用客户协议及商业授权限制；未核实 Rovo Dev 产品本体的开源许可证。"
+          },
+          {
+            "url": "https://support.atlassian.com/subscriptions-and-billing/docs/how-billing-works-for-rovo-dev-standard/",
+            "supports": "Rovo Dev Free 是付费 Jira 套餐附带额度，不是无条件独立免费产品；文档列每用户每月 350 credits，Standard 为 2,000。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "产品关系：Atlassian Rovo 家族的开发者 Agent；不能因同属 Rovo 而与通用 Rovo 功能直接合并；未来 Rovo CLI 是宣布中的迁移目标。 应纳入编程 Agent，但必须展示 sunset-announced / transitioning 提醒。现有 CLI、IDE、Code Reviewer 仍可运行；不得提前写成已停运或把 2026-12-03 当作终止日。未核实官方 Rovo Dev 本体源码仓库或可单独下载的产品 SVG，保留 null；不借用 ACLI 组件或 Rovo 通用图标的许可/身份。未核实地区可购性或执行安装。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "Roo",
+    "canonical_name": "Roo Code",
+    "vendor": "Roo Code, Inc.",
+    "official_url": "https://roocodeinc.github.io/Roo-Code/",
+    "aliases": [
+      "Roo",
+      "Roo Cline",
+      "Roo-Code"
+    ],
+    "relationship_to_existing": "已有产品别名",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "Roo Code VS Code extension（已停运/归档）",
+        "interfaces": [
+          "IDE extension"
+        ],
+        "platforms": [
+          "VS Code on Windows/macOS/Linux",
+          "VS Code-compatible editors"
+        ],
+        "edition": "archived historical release",
+        "repository_url": "https://github.com/RooCodeInc/Roo-Code",
+        "license": "Apache-2.0",
+        "source_classification": "open-source",
+        "commercial_status": "verified-free",
+        "pricing_url": "https://roocodeinc.github.io/Roo-Code/update-notes/v3.28/",
+        "svg_url": "https://roocodeinc.github.io/Roo-Code/img/roo-code-logo-dark.svg",
+        "sources": [
+          {
+            "url": "https://github.com/RooCodeInc/Roo-Code",
+            "supports": "官方仓库标注 2026-05-15 归档；README 明确扩展已于 May 15 shut down，并推荐 ZooCode 社区分支与原始 Cline。"
+          },
+          {
+            "url": "https://github.com/RooCodeInc/Roo-Code/blob/main/LICENSE",
+            "supports": "产品扩展代码的 Apache License 2.0；不将此许可扩展至另行托管云服务。"
+          },
+          {
+            "url": "https://roocodeinc.github.io/Roo-Code/getting-started/installing/",
+            "supports": "官方历史安装说明列 VS Code、Cursor、VSCodium/Windsurf、Marketplace/Open VSX/VSIX；Windows/Linux/macOS 快捷键，未进行当前安装测试。"
+          },
+          {
+            "url": "https://roocodeinc.github.io/Roo-Code/update-notes/v3.2.0/",
+            "supports": "官方更新说明确认 Roo Cline 正式改名 Roo Code。"
+          },
+          {
+            "url": "https://roocodeinc.github.io/Roo-Code/update-notes/v3.28/",
+            "supports": "历史发布说明明确扩展免费且开源；模型供应商费用另计，此处不是仍运营的承诺。"
+          },
+          {
+            "url": "https://roocodeinc.github.io/Roo-Code/",
+            "supports": "官方归档文档直接引用本记录 SVG，描述本地 IDE 访问文件、终端及多步工作流。"
+          },
+          {
+            "url": "https://roocodeinc.github.io/Roo-Code/img/roo-code-logo-dark.svg",
+            "supports": "2026-10-09 实际 HTTP 200、Content-Type image/svg+xml，正文是真实矢量 SVG。"
+          },
+          {
+            "url": "https://roocode.com/",
+            "supports": "本次实际跳转至 https://roomote.dev/；另一个产品入口，不证明 Roo Code 仍运营。"
+          }
+        ]
+      },
+      {
+        "name": "Roo Code Cloud / Router（历史托管服务）",
+        "interfaces": [
+          "web cloud agents",
+          "model routing service"
+        ],
+        "platforms": [
+          "web (historical)",
+          "Slack integration (historical)"
+        ],
+        "edition": "historical service; 当前销售/可用性未核实",
+        "repository_url": null,
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://blog.roocode.com/p/monthly-roo-code-cloud-2025-12",
+            "supports": "Roo 团队官方历史月报确认 Cloud 为托管 Agent 产品，具有 Linear、云沙箱、预览和任务环境。"
+          },
+          {
+            "url": "https://blog.roocode.com/p/roo-code-slack",
+            "supports": "官方历史博客说明 Roo Cloud 可由 Slack 的 @Roomote 触发；此历史集成名称不意味着当前 Roomote 就是旧扩展。"
+          },
+          {
+            "url": "https://github.com/RooCodeInc/Roo-Code",
+            "supports": "当前 README 只保留归档扩展及历史付费用户账单联系方式；当前云定价、托管代码许可证和运行能力未核实。"
+          }
+        ]
+      }
+    ],
+    "status": "discontinued",
+    "recommendation": "needs-review",
+    "reason": "产品关系：Roo 是 Roo Code 简称；Roo Cline 为历史旧名。源于 Cline，但不是 Cline 的别名；roocode.com 转向 Roomote 不足以把两个产品合并。 Roo Code 仅作历史/已停运审查记录，不应新增至活动产品目录；若已有 Roo Code 则补别名和生命周期并撤下活动推荐。已确认扩展 2026-05-15 停运/归档；Cloud/Router 的精确关停公告原页当前不可读，因此不额外声称其具体关停日期。开源归档仍可被分叉，不等于厂商继续支持。尚未核实当前托管服务价格或产品 SVG 之外的图标；未执行安装。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "Tabnine CLI",
+    "canonical_name": "Tabnine CLI",
+    "vendor": "Tabnine Ltd. / Tricentis（官网公告收购）",
+    "official_url": "https://docs.tabnine.com/main/getting-started/tabnine-cli",
+    "aliases": [
+      "Tabnine terminal agent"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "Tabnine CLI",
+        "interfaces": [
+          "CLI",
+          "headless/CI invocation"
+        ],
+        "platforms": [
+          "macOS",
+          "Linux",
+          "WSL",
+          "Windows PowerShell/CMD"
+        ],
+        "edition": "Tabnine Agentic Platform; team Agents must be enabled",
+        "repository_url": null,
+        "license": "Tabnine Terms of Use（专有使用授权；未核实 CLI 本体开源许可）",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://www.tabnine.com/pricing/",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://docs.tabnine.com/main/getting-started/tabnine-cli",
+            "supports": "官方明确终端 AI 编程助手；团队管理员须开启 Agents。"
+          },
+          {
+            "url": "https://docs.tabnine.com/main/getting-started/tabnine-cli/getting-started/installation",
+            "supports": "当前文档列 macOS/Linux/WSL 与 Windows 安装、Tabnine host 和团队 Agents 前置条件。Node 版本段落相互不一致，故不硬编码最低版本。"
+          },
+          {
+            "url": "https://docs.tabnine.com/main/getting-started/tabnine-cli/features/commands",
+            "supports": "官方命令支持文件上下文、shell 执行、项目初始化、会话管理，足以归类终端编码 Agent。"
+          },
+          {
+            "url": "https://www.tabnine.com/pricing/",
+            "supports": "官方定价搜索索引明确将 Tabnine CLI 包含在付费 Agentic Platform，而非基本 Code Assistant 档。本次价格页直连 502，因此只核实付费属性，不采用索引中的金额作为当前现售价格。"
+          },
+          {
+            "url": "https://www.tabnine.com/headless-agent-pricing/",
+            "supports": "官方将大规模 Headless Agents 列为另行定价/处理容量授权；不能因 CLI 能用于管道就推断所有 CI 用量包含在个人席位。"
+          },
+          {
+            "url": "https://www.tabnine.com/terms-of-use/",
+            "supports": "官方条款标注 Tabnine Ltd. 并提供有限、不可转让的内部使用许可及逆向/修改限制；服务条款不是开源许可证。"
+          },
+          {
+            "url": "https://www.tabnine.com/",
+            "supports": "2026-10-09 实际访问重定向至 Tricentis 产品目录；官方搜索索引另显示已被 Tricentis 收购。文档仍有 CLI 产品页面，不凭域名跳转断言停运。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "产品关系：属于 Tabnine Agentic Platform 的 CLI 入口；不是 Tabby，不能与已有 Tabby 合并。 可以独立列 CLI 或作为新 Tabnine 产品的分发形态，绝不能合并进 Tabby。官方文档现行存在且清楚覆盖 Agent 能力。官网迁移/收购造成定价直连 502 与首页跳转，付费属性由官方定价索引核实，但现售金额、合同和地区可购性仍需复核。CLI 代码仓库及官方 SVG 未核实，null；未把公开 IDE 插件仓库许可套用 CLI，未执行安装。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "TerraMind",
+    "canonical_name": "Terramind",
+    "vendor": "Terramind.com, Inc.",
+    "official_url": "https://terramind.com/",
+    "aliases": [],
+    "relationship_to_existing": "待判定",
+    "category": "通用Agent",
+    "variants": [
+      {
+        "name": "Terramind Nucleus",
+        "interfaces": [
+          "desktop GUI",
+          "agent orchestration",
+          "cloud task execution"
+        ],
+        "platforms": [
+          "macOS Apple silicon"
+        ],
+        "edition": "Nucleus; Free / Plus / Family / Pro / team plans",
+        "repository_url": null,
+        "license": "Terramind Terms of Service（专有服务条款）",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://terramind.com/pricing",
+        "svg_url": "https://terramind.com/images/logo.svg",
+        "sources": [
+          {
+            "url": "https://terramind.com/nucleus",
+            "supports": "运行 Claude Code、Codex、Grok 与自有 Agent；支持多任务、文档产物、浏览器和可选云任务，超出基础编辑器范围。"
+          },
+          {
+            "url": "https://terramind.com/pricing",
+            "supports": "共享 Free $0、Plus $20/月、Family $50/月、Pro $200/月；同订阅覆盖 Nucleus 和 Spaces；外接编码 Agent 原订阅另计。"
+          },
+          {
+            "url": "https://terramind.com/privacy/docs/tos",
+            "supports": "Terramind 服务条款含受限访问授权、禁止逆向及修改源码等限制；没有核实桌面产品本体开源许可。"
+          },
+          {
+            "url": "https://terramind.com/download",
+            "supports": "Nucleus 与 Spaces 同一下载、独立安装更新；主要发布为 Apple silicon Mac。Intel 区块存在但本次未解析到实际可下载构建；明确没有 Windows/Linux 构建。"
+          },
+          {
+            "url": "https://terramind.com/branding",
+            "supports": "官方品牌资产页面直接提供 /images/logo.svg 作为 vector mark 下载。"
+          },
+          {
+            "url": "https://terramind.com/images/logo.svg",
+            "supports": "2026-10-09 HTTP 200、image/svg+xml，真实 SVG；aria-label 为 Terramind。"
+          }
+        ]
+      },
+      {
+        "name": "Terramind Spaces",
+        "interfaces": [
+          "desktop GUI",
+          "AI teammate workspace"
+        ],
+        "platforms": [
+          "macOS Apple silicon"
+        ],
+        "edition": "Spaces; shares Terramind subscription",
+        "repository_url": null,
+        "license": "Terramind Terms of Service（专有服务条款）",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://terramind.com/pricing",
+        "svg_url": "https://terramind.com/images/logo.svg",
+        "sources": [
+          {
+            "url": "https://terramind.com/spaces",
+            "supports": "文档、团队聊天、项目及目标工作台；AI teammates 接受提及、分配任务及周期触发。"
+          },
+          {
+            "url": "https://terramind.com/pricing",
+            "supports": "共享 Free $0、Plus $20/月、Family $50/月、Pro $200/月；同订阅覆盖 Nucleus 和 Spaces；外接编码 Agent 原订阅另计。"
+          },
+          {
+            "url": "https://terramind.com/privacy/docs/tos",
+            "supports": "Terramind 服务条款含受限访问授权、禁止逆向及修改源码等限制；没有核实桌面产品本体开源许可。"
+          },
+          {
+            "url": "https://terramind.com/download",
+            "supports": "Nucleus 与 Spaces 同一下载、独立安装更新；主要发布为 Apple silicon Mac。Intel 区块存在但本次未解析到实际可下载构建；明确没有 Windows/Linux 构建。"
+          },
+          {
+            "url": "https://terramind.com/branding",
+            "supports": "官方品牌资产页面直接提供 /images/logo.svg 作为 vector mark 下载。"
+          },
+          {
+            "url": "https://terramind.com/images/logo.svg",
+            "supports": "2026-10-09 HTTP 200、image/svg+xml，真实 SVG；aria-label 为 Terramind。"
+          }
+        ]
+      },
+      {
+        "name": "Terramind Atlas / Agents web",
+        "interfaces": [
+          "web chat",
+          "tool-using agent"
+        ],
+        "platforms": [
+          "web"
+        ],
+        "edition": "Atlas / Agents; 网页入口与桌面共同品牌，当前网页额度未单独核实",
+        "repository_url": null,
+        "license": "Terramind Terms of Service（专有服务条款）",
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": "https://terramind.com/pricing",
+        "svg_url": "https://terramind.com/images/logo.svg",
+        "sources": [
+          {
+            "url": "https://terramind.com/agents",
+            "supports": "官方页面把 Atlas 描述为调度多种工具的 Agent，并给出 agents.terramind.com 对话入口；不能误列为独立基础模型。"
+          },
+          {
+            "url": "https://terramind.com/",
+            "supports": "官网统一介绍 Nucleus、Spaces 与 Atlas，页脚主体为 Terramind.com, Inc.。"
+          },
+          {
+            "url": "https://research.ibm.com/publications/terramind-large-scale-generative-multimodality-for-earth-observation",
+            "supports": "IBM 官方同名 TerraMind 为地球观测多模态基础模型，不属于本记录桌面 Agent 的公司、许可或仓库。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "needs-review",
+    "reason": "产品关系：可明确识别为 terramind.com 的 Agent 应用家族；同名 IBM TerraMind 地球观测模型完全无关。Nucleus/Spaces 是该公司的具体产品，不是 Codex/Claude Code 的别名。 候选未提供原始规则 URL，TerraMind 可指应用家族或 IBM/ESA 地球观测模型，因此必须保留 needs-review，不能自动把检测候选映射为 terramind.com。以下 Nucleus / Spaces 等事实仅核实该官网的应用，不证明用户原候选身份；取得规则的具体身份依据后再决定是否纳入。Mac Intel 文案与 FAQ 存在不完整/不一致，保守只登记 Apple silicon。未核实仓库、原生移动 App、地区版本及网页专属价格；无安装测试。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "TinyCloud",
+    "canonical_name": "TinyCloud",
+    "vendor": "TinyCloud Labs",
+    "official_url": "https://tinycloud.xyz/",
+    "aliases": [
+      "TinyCloud Protocol",
+      "TinyCloud Labs"
+    ],
+    "relationship_to_existing": "待判定",
+    "category": "SDK或框架",
+    "variants": [
+      {
+        "name": "TinyCloud Node / Protocol",
+        "interfaces": [
+          "server backend",
+          "API"
+        ],
+        "platforms": [
+          "Rust server",
+          "Docker"
+        ],
+        "edition": "self-hosted protocol",
+        "repository_url": "https://github.com/TinyCloudLabs/tinycloud-node",
+        "license": "TinyCloud Ecosystem General Public License (EGPL) v1.5; production restrictions; stated transition 2030-01-01",
+        "source_classification": "source-available",
+        "commercial_status": "unknown",
+        "pricing_url": "https://tinycloud.xyz/pricing",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/TinyCloudLabs/tinycloud-node",
+            "supports": "官方仓库定义服务器为数据空间、delegations、KV 存储后端；不是自主执行用户任务的成品助手。"
+          },
+          {
+            "url": "https://github.com/TinyCloudLabs/tinycloud-node/blob/main/LICENSE.md",
+            "supports": "逐分发许可已核实：EGPL v1.5；生产用途/生态对齐/年收入门槛有限制，2030 过渡描述不能当作今天已经 AGPL；不能标成 OSI 开源。"
+          },
+          {
+            "url": "https://tinycloud.xyz/pricing",
+            "supports": "官方定价仅写 early access、需联系取得价格与可用性，无公开免费承诺或确切价格，因此商业状态 unknown。"
+          }
+        ]
+      },
+      {
+        "name": "TinyCloud JavaScript SDK",
+        "interfaces": [
+          "SDK",
+          "developer CLI"
+        ],
+        "platforms": [
+          "Browser",
+          "Node.js",
+          "Rust/WASM components"
+        ],
+        "edition": "developer toolkit",
+        "repository_url": "https://github.com/TinyCloudLabs/js-sdk",
+        "license": "TinyCloud EGPL v1.5; Additional Use Grant: integration testing and development; stated transition 2030-01-01",
+        "source_classification": "source-available",
+        "commercial_status": "unknown",
+        "pricing_url": "https://tinycloud.xyz/pricing",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/TinyCloudLabs/js-sdk",
+            "supports": "官方 README 定义 browser/Node 存储、认证、delegation 开发工具；不是端用户聊天/编码助手。"
+          },
+          {
+            "url": "https://github.com/TinyCloudLabs/js-sdk/blob/master/LICENSE.md",
+            "supports": "SDK 自己的 EGPL v1.5 已读；Additional Use Grant 与 Node 不同，限定集成测试/开发；不能将 Node 的许可参数直接复制到 SDK。"
+          }
+        ]
+      },
+      {
+        "name": "tinycloud-agents memory plugins",
+        "interfaces": [
+          "framework plugin",
+          "SDK"
+        ],
+        "platforms": [
+          "Bun",
+          "elizaOS 2.0"
+        ],
+        "edition": "agent memory integration",
+        "repository_url": "https://github.com/TinyCloudLabs/tinycloud-agents",
+        "license": null,
+        "source_classification": "unknown",
+        "commercial_status": "unknown",
+        "pricing_url": null,
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://github.com/TinyCloudLabs/tinycloud-agents",
+            "supports": "官方仓库是 agent-client 共享客户端与 elizaOS memory provider；根目录未取得可核实 LICENSE，不能借用其他仓库 EGPL 或假定 MIT。"
+          },
+          {
+            "url": "https://github.com/TinyCloudLabs",
+            "supports": "官方组织自我定位私有 AI 基础设施/SDK，链接 tinycloud.xyz；组织也有 TinyChat/Listener 等另外命名的应用，未把它们冒充 TinyCloud 本体。"
+          },
+          {
+            "url": "https://www.tinycloud.io/",
+            "supports": "同名官方工作室网站自述 digital product studio / venture builder，提供定制 Agent 开发，非上述协议的官方别名。"
+          }
+        ]
+      }
+    ],
+    "status": "unknown",
+    "recommendation": "needs-review",
+    "reason": "产品关系：TinyCloud Labs 是基础设施/协议与 SDK，不是已证实的同名通用 Agent；tinycloud.io 是另一家数字产品工作室。不得混入 TinyClaw/TinyAgent 等近名产品。 目前可确定的 TinyCloud 是主权数据/私有计算基础设施及 SDK，未证明候选是可直接使用的端用户 AI Agent，因此留待审，不作为新增通用 Agent。源代码可见但 EGPL 有生产限制，明确 source-available 而非 open-source。候选原 URL、真正所指产品、托管价格和官方 SVG 未核实。若用户指 TinyChat/Listener，应作为新候选另审，不能静默改名。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "Zencoder",
+    "canonical_name": "Zencoder",
+    "vendor": "For Good AI Inc. (dba Zencoder Inc.)",
+    "official_url": "https://zencoder.ai/",
+    "aliases": [
+      "Zencoder IDE Agents",
+      "Zencoder AI"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "编码助手",
+    "variants": [
+      {
+        "name": "Zencoder IDE Agents",
+        "interfaces": [
+          "IDE extension"
+        ],
+        "platforms": [
+          "Visual Studio Code",
+          "JetBrains IDEs"
+        ],
+        "edition": "Free/BYOK access; Pro / Pro Plus / Pro Max / Enterprise",
+        "repository_url": null,
+        "license": "Zencoder Terms of Service（专有服务授权）",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://zencoder.ai/pricing",
+        "svg_url": "https://zencoder.ai/hubfs/Logo-dark-1.svg",
+        "sources": [
+          {
+            "url": "https://zencoder.ai/product/coding-agent",
+            "supports": "官方明确安装到 VS Code/JetBrains，理解仓库、跨文件编辑和验证；同时给出两家扩展商店链接。"
+          },
+          {
+            "url": "https://zencoder.ai/download",
+            "supports": "官方将 Zencoder IDE plugins 与 Zenflow Desktop 并列下载，支持产品关系判断。"
+          },
+          {
+            "url": "https://zencoder.ai/pricing",
+            "supports": "当前月费 Pro $45、Pro Plus $95、Pro Max $195/用户/月，Enterprise 定制；套餐包含 Zenflow Desktop 和 IDE plugins。7天/5,000 credits 试用；FAQ 明确 Free 支持 BYOK，但不据此推断免费托管额度。"
+          },
+          {
+            "url": "https://zencoder.ai/legal/terms-of-service",
+            "supports": "主体 For Good AI Inc. (dba Zencoder Inc.)；有限、不可转让服务授权，未提供产品本体开源许可。"
+          },
+          {
+            "url": "https://zencoder.ai/product/universal-ai-platform",
+            "supports": "CLI 入口是连接 Claude Code/Codex/Gemini 等现有 CLI 到 IDE 的平台能力；未找到可据此认定的独立 Zencoder CLI 分发，故不虚构新 CLI 变体。"
+          },
+          {
+            "url": "https://zencoder.ai/",
+            "supports": "当前官方 HTML 直接引用 Logo-dark-1.svg 作为品牌 logo。"
+          },
+          {
+            "url": "https://zencoder.ai/hubfs/Logo-dark-1.svg",
+            "supports": "2026-10-09 实际 HTTP 200、image/svg+xml，含真实矢量路径。"
+          },
+          {
+            "url": "https://zencoder.support.brightcove.com/general-information/faq-zencoder-pricing.html",
+            "supports": "Brightcove 官方同名 Zencoder 按视频转码分钟计费，是异厂异类服务，不能用于本记录。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "产品关系：与 Zenflow 同一厂商与共享订阅，但 IDE Agent 与 Zenflow 桌面产品并列，不是简单改名；与 Brightcove Zencoder 转码服务无关。 可纳入 AI 编程 Agent。保留 Zencoder 与 Zenflow 的父品牌/姐妹产品关系和共享套餐，避免重复计算同一订阅但也不能把 IDE 入口删掉。未核实产品本体源码仓库、CLI 独立客户端或原生移动端，均不推定；平台仅写官方列明 IDE，未安装验证操作系统兼容性或地区可用性。",
+    "verified_at": "2026-10-09"
+  },
+  {
+    "candidate": "Zenflow",
+    "canonical_name": "Zenflow",
+    "vendor": "For Good AI Inc. (dba Zencoder Inc.)",
+    "official_url": "https://zencoder.ai/zenflow",
+    "aliases": [
+      "Zenflow Code",
+      "Zenflow Work",
+      "Zenflow by Zencoder"
+    ],
+    "relationship_to_existing": "独立产品",
+    "category": "通用Agent",
+    "variants": [
+      {
+        "name": "Zenflow Desktop — Code",
+        "interfaces": [
+          "desktop GUI",
+          "multi-agent coding workflows",
+          "scheduled automation"
+        ],
+        "platforms": [
+          "macOS Apple silicon (ARM64)",
+          "macOS Intel (x64)",
+          "Windows x64",
+          "Linux .deb/.rpm x64"
+        ],
+        "edition": "Code mode within shared Zenflow Desktop",
+        "repository_url": null,
+        "license": "Zenflow Desktop Terms of Service（专有应用授权；与 Zencoder hosted services 条款分开）",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://zencoder.ai/pricing",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://zencoder.ai/zenflow",
+            "supports": "官方称 Zenflow Code：spec-driven 开发、多 Agent 并行、验证/测试、内置浏览器及计划任务；是端用户 Agent 应用。"
+          },
+          {
+            "url": "https://zencoder.ai/download",
+            "supports": "官方桌面一个应用含 Code 和 Work，提供 macOS ARM64/Intel、Windows x64、Linux deb/rpm x64。"
+          },
+          {
+            "url": "https://zencoder.ai/legal/terms-of-service-zenflow",
+            "supports": "此条款专门适用于 Zenflow Desktop，明确不等同于其他 Zencoder 服务条款；有限下载使用许可，无源码权利；部分基础功能无需登录，额外功能取决于账号。"
+          },
+          {
+            "url": "https://zencoder.ai/pricing",
+            "supports": "同一 Zencoder 订阅包含 Zenflow Desktop 与 IDE 插件；现行 Pro/Plus/Max 付费档及试用，Free/BYOK 受功能限制。"
+          }
+        ]
+      },
+      {
+        "name": "Zenflow Desktop — Work",
+        "interfaces": [
+          "desktop GUI",
+          "tool-using general agent",
+          "Telegram messaging",
+          "Slack/Discord early access"
+        ],
+        "platforms": [
+          "macOS Apple silicon (ARM64)",
+          "macOS Intel (x64)",
+          "Windows x64",
+          "Linux .deb/.rpm x64"
+        ],
+        "edition": "Work mode within shared Zenflow Desktop",
+        "repository_url": null,
+        "license": "Zenflow Desktop Terms of Service（专有应用授权；连接/托管服务另受 Zencoder 条款）",
+        "source_classification": "unknown",
+        "commercial_status": "verified-paid",
+        "pricing_url": "https://zencoder.ai/pricing",
+        "svg_url": null,
+        "sources": [
+          {
+            "url": "https://zencoder.ai/zenflow-work",
+            "supports": "官方 Work 为目标驱动通用工作 Agent，跨项目、沟通、文档等工具执行；Telegram 已列可用，Slack/Discord 为 early access，不能都记作成熟端。"
+          },
+          {
+            "url": "https://zencoder.ai/download",
+            "supports": "官方桌面一个应用含 Code 和 Work，提供 macOS ARM64/Intel、Windows x64、Linux deb/rpm x64。"
+          },
+          {
+            "url": "https://zencoder.ai/legal/terms-of-service-zenflow",
+            "supports": "此条款专门适用于 Zenflow Desktop，明确不等同于其他 Zencoder 服务条款；有限下载使用许可，无源码权利；部分基础功能无需登录，额外功能取决于账号。"
+          },
+          {
+            "url": "https://zencoder.ai/pricing",
+            "supports": "同一 Zencoder 订阅包含 Zenflow Desktop 与 IDE 插件；现行 Pro/Plus/Max 付费档及试用，Free/BYOK 受功能限制。"
+          },
+          {
+            "url": "https://github.com/zendev-sh/zenflow",
+            "supports": "另一个同名 Zenflow 是 Go/YAML 多 Agent 工作流引擎，其 GitHub 代码和许可证不得附加给 Zencoder 桌面应用。"
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "recommendation": "add",
+    "reason": "产品关系：Zencoder 厂商的桌面应用（含 Code/Work），共享账户/计费；与 Zencoder IDE 插件并列。与 zendev-sh/zenflow 同名工作流引擎无关。 建议纳入 Zenflow 一条产品、Code/Work 两种功能形态（实际同一桌面下载），并与 Zencoder 互链。不能把 zendev-sh 的开源仓库或许可套到专有桌面客户端。未核实 Zenflow 专用官方 SVG，因此 null，未冒用 Zencoder 字标作为 Zenflow 产品图标。未核实中国/国际地区差异、原生移动 App、单独 CLI 分发或安装功能测试。",
+    "verified_at": "2026-10-09"
+  }
+]

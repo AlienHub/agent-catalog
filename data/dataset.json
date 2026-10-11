@@ -2192,7 +2192,9 @@
     "name": "Kimi",
     "aliases": [
       "Kimi",
-      "Kimi智能助手"
+      "Kimi智能助手",
+      "Kimi Work",
+      "Kimi Desktop Work mode"
     ],
     "vendor": "月之暗面 Moonshot AI",
     "type": "通用助手",
@@ -4174,7 +4176,9 @@
     "id": "workbuddy",
     "name": "WorkBuddy",
     "aliases": [
-      "Tencent WorkBuddy"
+      "Tencent WorkBuddy",
+      "WorkBuddy AI",
+      "腾讯 WorkBuddy"
     ],
     "vendor": "腾讯 Tencent",
     "type": "通用任务 Agent",
@@ -4198,14 +4202,18 @@
     "name": "WorkBuddy CN",
     "aliases": [
       "腾讯龙虾",
-      "Tencent WorkBuddy"
+      "Tencent WorkBuddy",
+      "WorkBuddy AI",
+      "腾讯 WorkBuddy"
     ],
     "vendor": "腾讯 Tencent",
     "type": "通用任务 Agent",
     "website": "https://www.workbuddy.cn/",
     "platforms": [
       "macOS",
-      "Windows"
+      "Windows",
+      "Linux",
+      "HarmonyOS PC"
     ],
     "icon": "icons/workbuddy.svg",
     "vendor_id": "tencent",
@@ -5809,13 +5817,13 @@
     "type": "AI 编程",
     "website": "https://deepseek.com/en/harness/",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/deepseek-harness.svg",
     "vendor_id": "deepseek",
     "product_id": "deepseek-harness",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -5831,13 +5839,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/deepseek-harness.svg",
     "vendor_id": "deepseek",
     "product_id": "deepseek-harness",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -5845,7 +5853,7 @@
     "id": "lingcode-desktop",
     "name": "LingCode",
     "aliases": [],
-    "vendor": "LingCode",
+    "vendor": "Aurelian Labs Inc.",
     "type": "AI 编程",
     "website": "https://lingcode.dev/?lang=en",
     "platforms": [
@@ -5865,7 +5873,7 @@
     "id": "lingcode-cli",
     "name": "LingCode CLI",
     "aliases": [],
-    "vendor": "LingCode",
+    "vendor": "Aurelian Labs Inc.",
     "type": "AI 编程",
     "website": "https://lingcode.dev/?lang=en",
     "platforms": [
@@ -5914,13 +5922,13 @@
       "macOS",
       "Windows"
     ],
-    "icon": "",
+    "icon": "icons/loomy.svg",
     "vendor_id": "iflytek",
     "product_id": "loomy",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6172,13 +6180,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/command-code.svg",
     "vendor_id": "commandcode-ai",
     "product_id": "command-code",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6394,13 +6402,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/ona.svg",
     "vendor_id": "ona",
     "product_id": "ona",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6432,13 +6440,13 @@
     "type": "AI 编程",
     "website": "https://github.com/esengine/DeepSeek-Reasonix",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/reasonix.svg",
     "vendor_id": "esengine",
     "product_id": "reasonix",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6536,13 +6544,13 @@
     "type": "AI 编程",
     "website": "https://zencoder.ai/download/all",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/zencoder.svg",
     "vendor_id": "zencoder",
     "product_id": "zencoder",
     "interfaces": [
       "IDE 插件"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6554,13 +6562,13 @@
     "type": "AI 编程",
     "website": "https://zencoder.ai/download/all",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/zencoder.svg",
     "vendor_id": "zencoder",
     "product_id": "zencoder",
     "interfaces": [
       "IDE 插件"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -6585,6 +6593,557 @@
       "GUI"
     ],
     "svg_status": "未找到可靠 SVG，待补充",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "coder-community-web",
+    "name": "Coder Agents",
+    "aliases": [
+      "Coder",
+      "Coder Agents"
+    ],
+    "vendor": "Coder Technologies Inc.",
+    "type": "AI 编程",
+    "website": "https://coder.com/docs/about",
+    "platforms": [
+      "Web",
+      "Self-hosted"
+    ],
+    "icon": "icons/coder.svg",
+    "vendor_id": "coder",
+    "product_id": "coder",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "lingcode-web",
+    "name": "LingCode Web",
+    "aliases": [],
+    "vendor": "Aurelian Labs Inc.",
+    "type": "AI 编程",
+    "website": "https://lingcode.dev/try.html",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "lingcode",
+    "product_id": "lingcode",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "lingcode-baby-desktop",
+    "name": "LingCode Baby",
+    "aliases": [
+      "LingCodeBaby"
+    ],
+    "vendor": "Aurelian Labs Inc.",
+    "type": "AI 编程",
+    "website": "https://lingcode.dev/baby.html",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "lingcode",
+    "product_id": "lingcode-baby",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "monkeycode-work-desktop",
+    "name": "MonkeyCode Work",
+    "aliases": [],
+    "vendor": "北京长亭科技有限公司（Chaitin）",
+    "type": "编程与通用 Agent",
+    "website": "https://monkeycode.docs.baizhi.cloud/node/019fa346-8636-7ee6-9a35-1e014d087297",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "chaitin",
+    "product_id": "monkeycode",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "coze-desktop-cn",
+    "name": "扣子 CN",
+    "aliases": [
+      "扣子桌面端",
+      "桌面端扣子",
+      "Coze desktop（CN）"
+    ],
+    "vendor": "字节跳动 ByteDance",
+    "type": "通用任务 Agent",
+    "website": "https://www.coze.cn/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "bytedance",
+    "product_id": "coze",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "qingyan-desktop",
+    "name": "智谱清言桌面客户端",
+    "aliases": [
+      "智谱清言桌面客户端",
+      "ChatGLM desktop",
+      "ChatGLM Windows/MacOS 客户端"
+    ],
+    "vendor": "智谱 Z.ai",
+    "type": "通用助手",
+    "website": "https://chatglm.cn/",
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "zhipu",
+    "product_id": "qingyan",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "deepseek-harness-cli",
+    "name": "DeepSeek Harness CLI",
+    "aliases": [
+      "dsh"
+    ],
+    "vendor": "DeepSeek AI / 杭州深度求索人工智能基础技术研究有限公司",
+    "type": "编程与通用 Agent",
+    "website": "https://www.deepseek.com/harness/",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/deepseek-harness.svg",
+    "vendor_id": "deepseek",
+    "product_id": "deepseek-harness",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "loomy-web",
+    "name": "Loomy",
+    "aliases": [],
+    "vendor": "科大讯飞 / 合肥科讯创想软件开发有限公司",
+    "type": "通用任务 Agent",
+    "website": "https://loomy.xunfei.cn/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/loomy.svg",
+    "vendor_id": "iflytek",
+    "product_id": "loomy",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "vscode-desktop",
+    "name": "Visual Studio Code",
+    "aliases": [
+      "VS Code"
+    ],
+    "vendor": "Microsoft",
+    "type": "AI IDE",
+    "website": "https://code.visualstudio.com/",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "microsoft",
+    "product_id": "vscode",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "aiderdesk-cli",
+    "name": "AiderDesk CLI / ACP",
+    "aliases": [
+      "Aider Desk",
+      "aider-desk"
+    ],
+    "vendor": "Hotovo / AiderDesk contributors",
+    "type": "AI 编程",
+    "website": "https://aiderdesk.hotovo.com/",
+    "platforms": [],
+    "icon": "",
+    "vendor_id": "hotovo",
+    "product_id": "aider-desk",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "command-code-desktop",
+    "name": "Command Code Desktop",
+    "aliases": [
+      "CommandCode",
+      "Command Code AI",
+      "command-code"
+    ],
+    "vendor": "Command Code",
+    "type": "AI 编程",
+    "website": "https://commandcode.ai/docs/desktop",
+    "platforms": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ],
+    "icon": "icons/command-code.svg",
+    "vendor_id": "commandcode-ai",
+    "product_id": "command-code",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "deep-agents-code-cli",
+    "name": "Deep Agents Code",
+    "aliases": [
+      "deepagents-code",
+      "dcode"
+    ],
+    "vendor": "LangChain, Inc.",
+    "type": "AI 编程",
+    "website": "https://docs.langchain.com/oss/deepagents/code/overview",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "langchain",
+    "product_id": "deep-agents-code",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "forgecode-ide",
+    "name": "ForgeCode VS Code Companion",
+    "aliases": [
+      "Forge",
+      "Forge Code"
+    ],
+    "vendor": "Tailcall, Inc.",
+    "type": "AI 编程",
+    "website": "https://forgecode.dev/",
+    "platforms": [
+      "VS Code"
+    ],
+    "icon": "",
+    "vendor_id": "tailcall",
+    "product_id": "forgecode",
+    "interfaces": [
+      "IDE 插件"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "moxby-browser",
+    "name": "Moxby",
+    "aliases": [
+      "Moxby Agent"
+    ],
+    "vendor": "Workado, LLC dba Moxby",
+    "type": "通用任务 Agent",
+    "website": "https://moxby.com/",
+    "platforms": [
+      "Chrome"
+    ],
+    "icon": "",
+    "vendor_id": "moxby",
+    "product_id": "moxby",
+    "interfaces": [
+      "浏览器插件"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "kogdciljkfifplhdainlinbppfpeenii",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "moxby-desktop",
+    "name": "Moxby Desktop Bridge",
+    "aliases": [
+      "Moxby Agent"
+    ],
+    "vendor": "Workado, LLC dba Moxby",
+    "type": "通用任务 Agent",
+    "website": "https://moxby.com/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "moxby",
+    "product_id": "moxby",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "neovate-ide",
+    "name": "Neovate Assistant",
+    "aliases": [
+      "Neovate Assistant",
+      "neovate-assistant"
+    ],
+    "vendor": "NeovateAI; ChenCheng / Ant UED (license attribution differs by distribution)",
+    "type": "AI 编程",
+    "website": "https://github.com/neovateai",
+    "platforms": [
+      "VS Code"
+    ],
+    "icon": "",
+    "vendor_id": "neovateai",
+    "product_id": "neovate",
+    "interfaces": [
+      "IDE 插件"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "neovate-desktop",
+    "name": "Neovate Desktop",
+    "aliases": [],
+    "vendor": "NeovateAI; ChenCheng / Ant UED (license attribution differs by distribution)",
+    "type": "AI 编程",
+    "website": "https://github.com/neovateai",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "neovateai",
+    "product_id": "neovate",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "pochi-cli",
+    "name": "Pochi CLI",
+    "aliases": [
+      "Pochi (Research Preview)",
+      "@getpochi/cli"
+    ],
+    "vendor": "TabbyML, Inc.",
+    "type": "AI 编程",
+    "website": "https://docs.getpochi.com/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "tabbyml",
+    "product_id": "pochi",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：已核实官方SVG来源，本批未打包",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "reasonix-studio-desktop",
+    "name": "Reasonix Studio",
+    "aliases": [
+      "Reasonix Studio",
+      "DeepSeek-Reasonix"
+    ],
+    "vendor": "Huahui Yu / esengine and Reasonix Contributors",
+    "type": "AI 编程",
+    "website": "https://reasonix.io/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/reasonix.svg",
+    "vendor_id": "esengine",
+    "product_id": "reasonix",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "reasonix-desktop",
+    "name": "Reasonix Desktop",
+    "aliases": [
+      "DeepSeek-Reasonix"
+    ],
+    "vendor": "Huahui Yu / esengine and Reasonix Contributors",
+    "type": "AI 编程",
+    "website": "https://reasonix.io/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/reasonix.svg",
+    "vendor_id": "esengine",
+    "product_id": "reasonix",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "reasonix-web",
+    "name": "Reasonix Web",
+    "aliases": [
+      "DeepSeek-Reasonix"
+    ],
+    "vendor": "Huahui Yu / esengine and Reasonix Contributors",
+    "type": "AI 编程",
+    "website": "https://reasonix.io/",
+    "platforms": [
+      "Web",
+      "Self-hosted"
+    ],
+    "icon": "icons/reasonix.svg",
+    "vendor_id": "esengine",
+    "product_id": "reasonix",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "reasonix-ide",
+    "name": "Reasonix for VS Code",
+    "aliases": [],
+    "vendor": "Huahui Yu / esengine and Reasonix Contributors",
+    "type": "AI 编程",
+    "website": "https://reasonix.io/",
+    "platforms": [
+      "VS Code",
+      "VSCodium",
+      "Eclipse Theia"
+    ],
+    "icon": "icons/reasonix.svg",
+    "vendor_id": "esengine",
+    "product_id": "reasonix",
+    "interfaces": [
+      "IDE 插件"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "rovo-dev-ide",
+    "name": "Rovo Dev IDE",
+    "aliases": [
+      "Atlassian Rovo Dev"
+    ],
+    "vendor": "Atlassian",
+    "type": "AI 编程",
+    "website": "https://www.atlassian.com/software/rovo-dev",
+    "platforms": [
+      "VS Code",
+      "Cursor"
+    ],
+    "icon": "",
+    "vendor_id": "atlassian",
+    "product_id": "rovo-dev",
+    "interfaces": [
+      "IDE 插件"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "rovo-dev-reviewer",
+    "name": "Rovo Dev Code Reviewer",
+    "aliases": [
+      "Atlassian Rovo Dev"
+    ],
+    "vendor": "Atlassian",
+    "type": "AI 代码审查",
+    "website": "https://www.atlassian.com/software/rovo-dev",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "atlassian",
+    "product_id": "rovo-dev",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   }
