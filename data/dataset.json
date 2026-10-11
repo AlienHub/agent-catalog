@@ -1260,13 +1260,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/web-dola.png",
     "vendor_id": "bytedance",
     "product_id": "doubao",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -1282,13 +1282,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/web-dreamina.png",
     "vendor_id": "bytedance",
     "product_id": "jimeng",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -1526,13 +1526,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/web-gamma.png",
     "vendor_id": "gamma",
     "product_id": "gamma",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "unavailable",
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -1939,13 +1939,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/web-heygen.png",
     "vendor_id": "heygen",
     "product_id": "heygen",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "unavailable",
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -4634,13 +4634,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/web-miaohua.png",
     "vendor_id": "sensetime",
     "product_id": "miaohua",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
@@ -7140,6 +7140,506 @@
     "icon": "icons/rovo-dev.svg",
     "vendor_id": "atlassian",
     "product_id": "rovo-dev",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "consensus",
+    "name": "Consensus",
+    "aliases": [],
+    "vendor": "Consensus",
+    "type": "AI 搜索与研究",
+    "website": "https://consensus.app/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-consensus.svg",
+    "vendor_id": "consensus",
+    "product_id": "consensus",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "elicit",
+    "name": "Elicit",
+    "aliases": [],
+    "vendor": "Elicit, Inc.",
+    "type": "AI 搜索与研究",
+    "website": "https://elicit.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-elicit.png",
+    "vendor_id": "elicit",
+    "product_id": "elicit",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "scispace",
+    "name": "SciSpace",
+    "aliases": [],
+    "vendor": "PubGenius Inc.",
+    "type": "AI 搜索与研究",
+    "website": "https://scispace.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "pubgenius",
+    "product_id": "scispace",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 官方 Logo 仍待核验",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "chatpdf",
+    "name": "ChatPDF",
+    "aliases": [],
+    "vendor": "ChatPDF",
+    "type": "AI 文档与知识库",
+    "website": "https://www.chatpdf.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-chatpdf.svg",
+    "vendor_id": "chatpdf",
+    "product_id": "chatpdf",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "manus",
+    "name": "Manus",
+    "aliases": [],
+    "vendor": "Manus",
+    "type": "通用 AI Agent",
+    "website": "https://manus.im/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-manus.svg",
+    "vendor_id": "manus",
+    "product_id": "manus",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "genspark",
+    "name": "Genspark",
+    "aliases": [],
+    "vendor": "Genspark",
+    "type": "通用 AI Agent",
+    "website": "https://www.genspark.ai/genspark-landing.html",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "genspark",
+    "product_id": "genspark",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 官方 Logo 仍待核验",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "felo",
+    "name": "Felo",
+    "aliases": [],
+    "vendor": "Felo Inc.",
+    "type": "AI 搜索与研究",
+    "website": "https://felo.ai/search",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-felo.png",
+    "vendor_id": "felo",
+    "product_id": "felo",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "jenni",
+    "name": "Jenni",
+    "aliases": [],
+    "vendor": "Jenni AI",
+    "type": "AI 写作",
+    "website": "https://jenni.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-jenni.svg",
+    "vendor_id": "jenni",
+    "product_id": "jenni",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "jotbot",
+    "name": "JotBot",
+    "aliases": [],
+    "vendor": "SLAM Ventures, LLC",
+    "type": "AI 写作",
+    "website": "https://myjotbot.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-jotbot.png",
+    "vendor_id": "slam-ventures",
+    "product_id": "jotbot",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "deepl-write",
+    "name": "DeepL Write",
+    "aliases": [],
+    "vendor": "DeepL SE",
+    "type": "AI 写作",
+    "website": "https://www.deepl.com/en/write",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-deepl-write.svg",
+    "vendor_id": "deepl",
+    "product_id": "deepl-write",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "google-ai-studio",
+    "name": "Google AI Studio",
+    "aliases": [],
+    "vendor": "Google",
+    "type": "AI 应用构建",
+    "website": "https://aistudio.google.com/welcome",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-google-ai-studio.png",
+    "vendor_id": "google",
+    "product_id": "google-ai-studio",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "beautiful-ai",
+    "name": "Beautiful.ai",
+    "aliases": [],
+    "vendor": "Beautiful.ai",
+    "type": "AI 演示与设计",
+    "website": "https://www.beautiful.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-beautiful-ai.png",
+    "vendor_id": "beautiful-ai",
+    "product_id": "beautiful-ai",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "slidesgo",
+    "name": "Slidesgo",
+    "aliases": [],
+    "vendor": "Freepik",
+    "type": "AI 演示与设计",
+    "website": "https://slidesgo.com/ai/presentation-maker",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-slidesgo.png",
+    "vendor_id": "freepik",
+    "product_id": "slidesgo",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "krea",
+    "name": "Krea",
+    "aliases": [],
+    "vendor": "Krea",
+    "type": "图像与视频生成",
+    "website": "https://www.krea.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-krea.png",
+    "vendor_id": "krea",
+    "product_id": "krea",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "fal",
+    "name": "fal",
+    "aliases": [],
+    "vendor": "fal",
+    "type": "图像与视频生成",
+    "website": "https://fal.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-fal.png",
+    "vendor_id": "fal",
+    "product_id": "fal",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "higgsfield",
+    "name": "Higgsfield",
+    "aliases": [],
+    "vendor": "Higgsfield",
+    "type": "图像与视频生成",
+    "website": "https://higgsfield.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-higgsfield.svg",
+    "vendor_id": "higgsfield",
+    "product_id": "higgsfield",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "fish-audio",
+    "name": "Fish Audio",
+    "aliases": [],
+    "vendor": "Fish Audio",
+    "type": "语音与音频生成",
+    "website": "https://fish.audio/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-fish-audio.png",
+    "vendor_id": "fish-audio",
+    "product_id": "fish-audio",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "aiva",
+    "name": "AIVA",
+    "aliases": [],
+    "vendor": "AIVA Technologies",
+    "type": "音乐生成",
+    "website": "https://www.aiva.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-aiva.png",
+    "vendor_id": "aiva",
+    "product_id": "aiva",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "soundraw",
+    "name": "SOUNDRAW",
+    "aliases": [],
+    "vendor": "SOUNDRAW",
+    "type": "音乐生成",
+    "website": "https://soundraw.io/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-soundraw.png",
+    "vendor_id": "soundraw",
+    "product_id": "soundraw",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "uizard",
+    "name": "Uizard",
+    "aliases": [],
+    "vendor": "Uizard",
+    "type": "AI 演示与设计",
+    "website": "https://uizard.io/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-uizard.png",
+    "vendor_id": "uizard",
+    "product_id": "uizard",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "relevance-ai",
+    "name": "Relevance AI",
+    "aliases": [],
+    "vendor": "Relevance AI",
+    "type": "AI 工作流与自动化",
+    "website": "https://relevanceai.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-relevance-ai.png",
+    "vendor_id": "relevance-ai",
+    "product_id": "relevance-ai",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "lindy",
+    "name": "Lindy",
+    "aliases": [],
+    "vendor": "Lindy",
+    "type": "AI 工作流与自动化",
+    "website": "https://www.lindy.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-lindy.png",
+    "vendor_id": "lindy",
+    "product_id": "lindy",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "aliases": [],
+    "vendor": "n8n GmbH",
+    "type": "AI 工作流与自动化",
+    "website": "https://n8n.io/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-n8n.svg",
+    "vendor_id": "n8n",
+    "product_id": "n8n",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "zapier",
+    "name": "Zapier Agents",
+    "aliases": [],
+    "vendor": "Zapier",
+    "type": "AI 工作流与自动化",
+    "website": "https://zapier.com/agents",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-zapier.png",
+    "vendor_id": "zapier",
+    "product_id": "zapier",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": ""
+  },
+  {
+    "id": "gumloop",
+    "name": "Gumloop",
+    "aliases": [],
+    "vendor": "AgentHub Inc.",
+    "type": "AI 工作流与自动化",
+    "website": "https://www.gumloop.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-gumloop.svg",
+    "vendor_id": "gumloop",
+    "product_id": "gumloop",
     "interfaces": [
       "Web"
     ],

@@ -1,0 +1,454 @@
+{
+  "verified_at": "2026-10-11",
+  "new_application_ids": [
+    "consensus",
+    "elicit",
+    "scispace",
+    "chatpdf",
+    "manus",
+    "genspark",
+    "felo",
+    "jenni",
+    "jotbot",
+    "deepl-write",
+    "google-ai-studio",
+    "beautiful-ai",
+    "slidesgo",
+    "krea",
+    "fal",
+    "higgsfield",
+    "fish-audio",
+    "aiva",
+    "soundraw",
+    "uizard",
+    "relevance-ai",
+    "lindy",
+    "n8n",
+    "zapier",
+    "gumloop"
+  ],
+  "existing_logo_updates": [
+    "dola",
+    "dreamina",
+    "heygen",
+    "gamma",
+    "miaohua"
+  ],
+  "renamed_application_ids": [],
+  "assets": [
+    {
+      "path": "icons/web-jotbot.png",
+      "url": "https://framerusercontent.com/images/wX7VeNkYrnd16sAPVNugZZSsWqI.png",
+      "sha256": "c8c5244dad626dc9e67c01886b4382ad0282273f52b6e4f15246fd12db791c9a",
+      "bytes": 166883,
+      "format": "PNG",
+      "application_ids": [
+        "jotbot"
+      ],
+      "source_page": "https://myjotbot.com/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 791,
+      "height": 955,
+      "product_id": "jotbot"
+    },
+    {
+      "path": "icons/web-n8n.svg",
+      "url": "https://n8n.io/brandguidelines/logo-dark.svg",
+      "sha256": "9fd7dc879b2119f59fcd4055147257de08620c3db5722329a7d4d8fc502d592e",
+      "bytes": 3159,
+      "format": "SVG",
+      "application_ids": [
+        "n8n"
+      ],
+      "source_page": "https://n8n.io/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "product_id": "n8n"
+    },
+    {
+      "path": "icons/web-gumloop.svg",
+      "url": "https://www.gumloop.com/brand/Wordmark.svg",
+      "sha256": "81b343abf7431340a5bbaabc36d215a0297db2ec24ce257f0330d45ea5a4d638",
+      "bytes": 6511,
+      "format": "SVG",
+      "application_ids": [
+        "gumloop"
+      ],
+      "source_page": "https://www.gumloop.com/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "product_id": "gumloop"
+    },
+    {
+      "path": "icons/web-slidesgo.png",
+      "url": "https://slidesgo.com/favicons/apple-favicon-180x180.png",
+      "sha256": "e2ce11e973e8ade3d2b3440d41a8b2945bcba154ae4ac5f0a7f9e745334fbdec",
+      "bytes": 5290,
+      "format": "PNG",
+      "application_ids": [
+        "slidesgo"
+      ],
+      "source_page": "https://slidesgo.com/ai/presentation-maker",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 180,
+      "height": 180,
+      "product_id": "slidesgo"
+    },
+    {
+      "path": "icons/web-zapier.png",
+      "url": "https://res.cloudinary.com/zapier-media/image/upload/f_png/v1757453971/Zapier_Logo_yjhvbo",
+      "sha256": "f5f84e73c7e6bcafae12614f9396ba65db712776b8c159727793f52bdc9c19d6",
+      "bytes": 1192,
+      "format": "PNG",
+      "application_ids": [
+        "zapier"
+      ],
+      "source_page": "https://zapier.com/agents",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 244,
+      "height": 67,
+      "product_id": "zapier"
+    },
+    {
+      "path": "icons/web-consensus.svg",
+      "url": "https://consensus.app/favicon.svg",
+      "sha256": "196fdd2f621818686bac9555bc8fad6f5ea2f745758283b3024e45c20632a8a8",
+      "bytes": 1348,
+      "format": "SVG",
+      "application_ids": [
+        "consensus"
+      ],
+      "source_page": "https://consensus.app/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "product_id": "consensus"
+    },
+    {
+      "path": "icons/web-elicit.png",
+      "url": "https://framerusercontent.com/images/GWXKVhGBLC34aTLlmLIMsRVb4.png",
+      "sha256": "18789ffe6f238d1768fc369b096f36d2df967603847814e8b9a015ea42d943e2",
+      "bytes": 2727,
+      "format": "PNG",
+      "application_ids": [
+        "elicit"
+      ],
+      "source_page": "https://elicit.com/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 180,
+      "height": 180,
+      "product_id": "elicit"
+    },
+    {
+      "path": "icons/web-chatpdf.svg",
+      "url": "https://www.chatpdf.com/icon.svg",
+      "sha256": "9dc1acf1a1adfac4760309e6a5717e7b25fe49c6ad625ebe03b0dd0c6b8c5bac",
+      "bytes": 734,
+      "format": "SVG",
+      "application_ids": [
+        "chatpdf"
+      ],
+      "source_page": "https://www.chatpdf.com/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "product_id": "chatpdf"
+    },
+    {
+      "path": "icons/web-manus.svg",
+      "url": "https://manus.im/icon.svg?icon.2kbcs13ndm9it.svg",
+      "sha256": "ee7825396fb63d32477c6f4728cbdc4e6e31963effc961542e9be326955c77bf",
+      "bytes": 5627,
+      "format": "SVG",
+      "application_ids": [
+        "manus"
+      ],
+      "source_page": "https://manus.im/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "product_id": "manus"
+    },
+    {
+      "path": "icons/web-jenni.svg",
+      "url": "https://framerusercontent.com/images/qYjbIznnZuv0AsCQzQJcoyhQI.svg",
+      "sha256": "8bfb562429bb327d8997106b9755cd8052e18cd061e1a1af9b55e9f728ec78da",
+      "bytes": 573,
+      "format": "SVG",
+      "application_ids": [
+        "jenni"
+      ],
+      "source_page": "https://jenni.ai/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "product_id": "jenni"
+    },
+    {
+      "path": "icons/web-deepl-write.svg",
+      "url": "https://www.deepl.com/icon?96dd39650c8ded7a",
+      "sha256": "e92ac3065c3121995fedd9b78609e915512af1da0fdd7865abf9f03bc56e1d41",
+      "bytes": 2099,
+      "format": "SVG",
+      "application_ids": [
+        "deepl-write"
+      ],
+      "source_page": "https://www.deepl.com/en/write",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "product_id": "deepl-write"
+    },
+    {
+      "path": "icons/web-google-ai-studio.png",
+      "url": "https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-512dp/logo_ai_studio_color_1x_web_512dp.png",
+      "sha256": "fce776642fe351843afa508ff5391b5f395eb2346207b0c712837fda72798854",
+      "bytes": 58700,
+      "format": "PNG",
+      "application_ids": [
+        "google-ai-studio"
+      ],
+      "source_page": "https://aistudio.google.com/welcome",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 512,
+      "height": 512,
+      "product_id": "google-ai-studio"
+    },
+    {
+      "path": "icons/web-beautiful-ai.png",
+      "url": "https://cdn.prod.website-files.com/59deb588800ae30001ec19c9/691b4ae4a724e6c686bfb035_BAI%20symbol%3Dfull%20color%20black.png",
+      "sha256": "67c4c274c606331ff6463c6156fb2f07cb188b05f23f5e42470d51b3c420c68c",
+      "bytes": 3559,
+      "format": "PNG",
+      "application_ids": [
+        "beautiful-ai"
+      ],
+      "source_page": "https://www.beautiful.ai/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 256,
+      "height": 256,
+      "product_id": "beautiful-ai"
+    },
+    {
+      "path": "icons/web-krea.png",
+      "url": "https://www.krea.ai/favicon/favicon-192.png",
+      "sha256": "442af3d39273774e5228388aaf9adc7889fb3d65fb90b2c0649ff81b203e2bb4",
+      "bytes": 3035,
+      "format": "PNG",
+      "application_ids": [
+        "krea"
+      ],
+      "source_page": "https://www.krea.ai/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 192,
+      "height": 192,
+      "product_id": "krea"
+    },
+    {
+      "path": "icons/web-fal.png",
+      "url": "https://fal.ai/apple-touch-icon.png",
+      "sha256": "78b67eb609cd7f519a0491e6a3c8e5153869c64bfaa475a77edac0bb922bd38e",
+      "bytes": 2348,
+      "format": "PNG",
+      "application_ids": [
+        "fal"
+      ],
+      "source_page": "https://fal.ai/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 180,
+      "height": 180,
+      "product_id": "fal"
+    },
+    {
+      "path": "icons/web-higgsfield.svg",
+      "url": "https://static.higgsfield.ai/public/home/higgsfield-projects/higgs-icon.svg",
+      "sha256": "dd3a8cbbbbd2e4fbc8e6f2d6e5fd853b8d9d1a812e216166294c61fc2d525cfb",
+      "bytes": 8667,
+      "format": "SVG",
+      "application_ids": [
+        "higgsfield"
+      ],
+      "source_page": "https://higgsfield.ai/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "product_id": "higgsfield"
+    },
+    {
+      "path": "icons/web-fish-audio.png",
+      "url": "https://fish.audio/favicon-96x96.png",
+      "sha256": "6f887657e27e27ff68e1b53be45b4598125bdf296440575f25d0fc049ddc1fd6",
+      "bytes": 4157,
+      "format": "PNG",
+      "application_ids": [
+        "fish-audio"
+      ],
+      "source_page": "https://fish.audio/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 96,
+      "height": 96,
+      "product_id": "fish-audio"
+    },
+    {
+      "path": "icons/web-aiva.png",
+      "url": "https://www.aiva.ai/assets/img/aiva_logo_2.png",
+      "sha256": "d64ba6aeac08feee7ee1e9a8f22656af35e00fb1b3adec48f2575b044f21a433",
+      "bytes": 31268,
+      "format": "PNG",
+      "application_ids": [
+        "aiva"
+      ],
+      "source_page": "https://www.aiva.ai/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 1000,
+      "height": 1000,
+      "product_id": "aiva"
+    },
+    {
+      "path": "icons/web-soundraw.png",
+      "url": "https://soundraw.io/assets/apple-touch-icon-4ffadde212293f472dc6fde485807f0a51992631e0f2d9169dfac04b84d5e98e.png",
+      "sha256": "2558fd78c1e1f9adcc86b5e93c07227a4509c19c197a3c8ca102558647927e93",
+      "bytes": 3456,
+      "format": "PNG",
+      "application_ids": [
+        "soundraw"
+      ],
+      "source_page": "https://soundraw.io/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 180,
+      "height": 180,
+      "product_id": "soundraw"
+    },
+    {
+      "path": "icons/web-uizard.png",
+      "url": "https://uizard.io/apple-touch-icon.png",
+      "sha256": "b4a96fd3183f5af4ca1ab2c1f20ec3b53bf9bedaa8d9bde43ad95522ddf12e2d",
+      "bytes": 34064,
+      "format": "PNG",
+      "application_ids": [
+        "uizard"
+      ],
+      "source_page": "https://uizard.io/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 180,
+      "height": 180,
+      "product_id": "uizard"
+    },
+    {
+      "path": "icons/web-relevance-ai.png",
+      "url": "https://cdn.relevanceai.com/images/favicon-256x256.png",
+      "sha256": "5631d11628ddc581d3b3f21a0552b109abc3074f3d8e7357d5f617862409c84c",
+      "bytes": 3874,
+      "format": "PNG",
+      "application_ids": [
+        "relevance-ai"
+      ],
+      "source_page": "https://relevanceai.com/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 256,
+      "height": 256,
+      "product_id": "relevance-ai"
+    },
+    {
+      "path": "icons/web-lindy.png",
+      "url": "https://www.lindy.ai/_sherpa/assets/static/lindy/69f7b166c2e11ba39f7b2b9e_lindy-avatar-favicon.png",
+      "sha256": "21325a93996dd4a521b375bd863aa4f78a1b39080a8f0bd8d60dde5eb2cdcd91",
+      "bytes": 99415,
+      "format": "PNG",
+      "application_ids": [
+        "lindy"
+      ],
+      "source_page": "https://www.lindy.ai/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 512,
+      "height": 512,
+      "product_id": "lindy"
+    },
+    {
+      "path": "icons/web-dola.png",
+      "url": "https://sf-flow-web-cdn.ciciai.com/obj/ocean-flow-web-sg/favicon/new-dola/192x192.png",
+      "sha256": "db20e87e224aacc6398f58843a306ab0611c3f7b34a4358f3a4350da0c06bf81",
+      "bytes": 24226,
+      "format": "PNG",
+      "application_ids": [
+        "dola"
+      ],
+      "source_page": "https://www.dola.com/chat/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 192,
+      "height": 192,
+      "product_id": "doubao"
+    },
+    {
+      "path": "icons/web-dreamina.png",
+      "url": "https://p16-seeyou-useast5.capcutcdn-us.com/tos-useast5-i-2zwwjm3azk-tx/40fed40e0bd1411292155e446a0f3a30~tplv-2zwwjm3azk-compress:q90.image",
+      "sha256": "30ac0742788643f08090b51e33c05da3a387d1e899d09ac1af205c520337d343",
+      "bytes": 168290,
+      "format": "PNG",
+      "application_ids": [
+        "dreamina"
+      ],
+      "source_page": "https://dreamina.capcut.com/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 900,
+      "height": 900,
+      "product_id": "jimeng"
+    },
+    {
+      "path": "icons/web-heygen.png",
+      "url": "https://www.heygen.com/images/heygen-logo.png",
+      "sha256": "8f703e4dd2c8e9c0da7ebdf4dd885b7beccdbac2c02c07beb461a1fa32e382bb",
+      "bytes": 18500,
+      "format": "PNG",
+      "application_ids": [
+        "heygen"
+      ],
+      "source_page": "https://www.heygen.com/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 306,
+      "height": 214,
+      "product_id": "heygen"
+    },
+    {
+      "path": "icons/web-felo.png",
+      "url": "https://felo.ai/icon-square.png",
+      "sha256": "5b5170f989dd0b52332671b5eb3682a7ffe16925cc14783f96b773c544a4e42a",
+      "bytes": 15903,
+      "format": "PNG",
+      "application_ids": [
+        "felo"
+      ],
+      "source_page": "https://felo.ai/search",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 192,
+      "height": 192,
+      "product_id": "felo"
+    },
+    {
+      "path": "icons/web-gamma.png",
+      "url": "https://help.gamma.app/assets/favicon",
+      "sha256": "daa12cc9e7446ad36e7f143f59e01beff6c6595b98326355b95e761c6b2b88f7",
+      "bytes": 207100,
+      "format": "PNG",
+      "application_ids": [
+        "gamma"
+      ],
+      "source_page": "https://help.gamma.app/en/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 588,
+      "height": 588,
+      "product_id": "gamma"
+    },
+    {
+      "path": "icons/web-miaohua.png",
+      "url": "https://bkmksh.oss-cn-shanghai.aliyuncs.com/assets1/homepage/m-favicon.png",
+      "sha256": "68d1b1482cacdec03263ba15ae9e879edb8f389b0d6c3c582121723f4b8861d2",
+      "bytes": 658,
+      "format": "PNG",
+      "application_ids": [
+        "miaohua"
+      ],
+      "source_page": "https://miaohua.sensetime.com/",
+      "rights": "官方品牌素材；商标及品牌权利归权利人，未发现单独素材授权，不从软件许可推定。",
+      "width": 40,
+      "height": 40,
+      "product_id": "miaohua"
+    }
+  ],
+  "deferred": {
+    "you-com": "当前官网转为 API，for.you.com 为连接助手搜索入口，未确认独立 Web 聊天应用继续服务，暂缓。",
+    "notebooklm": "官网重定向 Gemini Notebook，已有 gemini-notebook，避免重复。",
+    "baidu-ai-search": "chat.baidu.com 重定向文心，已有 wenxin，避免重复。",
+    "hunyuan": "官网模型/开发门户，未核验独立消费者助手。",
+    "tome": "当前官网404，历史停服候选不新增。",
+    "slidesai": "官网目前主要 Google Slides/PowerPoint 宿主，不直接认定为独立 Web 应用。",
+    "spline": "本轮官网重定向未完成核验。",
+    "flow": "本轮官网重定向未完成核验。"
+  }
+}

@@ -1153,5 +1153,115 @@
         "title": "Official paid service or subscription evidence for this distribution"
       }
     ]
+  },
+  "elicit": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方套餐或按量价格页面确认对应 Web 服务收费；不据此推定源码许可。",
+    "sources": [
+      {
+        "url": "https://elicit.com/pricing",
+        "title": "Elicit 官方套餐及价格"
+      }
+    ]
+  },
+  "jenni": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方套餐或按量价格页面确认对应 Web 服务收费；不据此推定源码许可。",
+    "sources": [
+      {
+        "url": "https://jenni.ai/pricing",
+        "title": "Jenni 官方套餐及价格"
+      }
+    ]
+  },
+  "beautiful-ai": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方套餐或按量价格页面确认对应 Web 服务收费；不据此推定源码许可。",
+    "sources": [
+      {
+        "url": "https://www.beautiful.ai/pricing",
+        "title": "Beautiful.ai 官方套餐及价格"
+      }
+    ]
+  },
+  "krea": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方套餐或按量价格页面确认对应 Web 服务收费；不据此推定源码许可。",
+    "sources": [
+      {
+        "url": "https://www.krea.ai/pricing",
+        "title": "Krea 官方套餐及价格"
+      }
+    ]
+  },
+  "fal": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方套餐或按量价格页面确认对应 Web 服务收费；不据此推定源码许可。",
+    "sources": [
+      {
+        "url": "https://fal.ai/pricing",
+        "title": "fal 官方套餐及价格"
+      }
+    ]
+  },
+  "fish-audio": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方套餐或按量价格页面确认对应 Web 服务收费；不据此推定源码许可。",
+    "sources": [
+      {
+        "url": "https://fish.audio/plan/",
+        "title": "Fish Audio 官方套餐及价格"
+      }
+    ]
+  },
+  "relevance-ai": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方套餐或按量价格页面确认对应 Web 服务收费；不据此推定源码许可。",
+    "sources": [
+      {
+        "url": "https://relevanceai.com/pricing",
+        "title": "Relevance AI 官方套餐及价格"
+      }
+    ]
+  },
+  "lindy": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方套餐或按量价格页面确认对应 Web 服务收费；不据此推定源码许可。",
+    "sources": [
+      {
+        "url": "https://www.lindy.ai/pricing",
+        "title": "Lindy 官方套餐及价格"
+      }
+    ]
+  },
+  "n8n": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方套餐或按量价格页面确认对应 Web 服务收费；不据此推定源码许可。",
+    "sources": [
+      {
+        "url": "https://n8n.io/pricing/",
+        "title": "n8n 官方套餐及价格"
+      }
+    ]
+  },
+  "gumloop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-11",
+    "notes": "官方套餐或按量价格页面确认对应 Web 服务收费；不据此推定源码许可。",
+    "sources": [
+      {
+        "url": "https://www.gumloop.com/pricing",
+        "title": "Gumloop 官方套餐及价格"
+      }
+    ]
   }
 }
