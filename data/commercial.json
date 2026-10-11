@@ -255,7 +255,7 @@
   "coze-cn": {
     "offer": "paid-service",
     "verified_at": "2026-10-05",
-    "notes": "扣子中国版官方列明个人、团队、企业订阅；不将此证据套用到国际版。",
+    "notes": "扣子CN官方列明个人、团队、企业订阅；不将此证据套用到国际版。",
     "sources": [
       {
         "url": "https://docs.coze.cn/guides_edition",
@@ -266,7 +266,7 @@
   "codebuddy-cli": {
     "offer": "paid-service",
     "verified_at": "2026-10-05",
-    "notes": "国际版官方列明 Pro、Team 及 Credits 购买，并说明团队额度适用于 IDE 和 CLI；中国版另待核验。",
+    "notes": "国际版官方列明 Pro、Team 及 Credits 购买，并说明团队额度适用于 IDE 和 CLI；CN另待核验。",
     "sources": [
       {
         "url": "https://www.codebuddy.ai/docs/ide/Account/pricing",
@@ -277,7 +277,7 @@
   "workbuddy": {
     "offer": "paid-service",
     "verified_at": "2026-10-05",
-    "notes": "WorkBuddy 国际版官方列明 Pro 与 Team 订阅；中国版另待核验。",
+    "notes": "WorkBuddy 国际版官方列明 Pro 与 Team 订阅；CN另待核验。",
     "sources": [
       {
         "url": "https://www.codebuddy.ai/docs/workbuddy/Subscription",
@@ -288,7 +288,7 @@
   "qoder-cli": {
     "offer": "paid-service",
     "verified_at": "2026-10-05",
-    "notes": "Qoder 国际版官方列明 Pro、Pro+、Ultra 和组织订阅；中国版另待核验。",
+    "notes": "Qoder 国际版官方列明 Pro、Pro+、Ultra 和组织订阅；CN另待核验。",
     "sources": [
       {
         "url": "https://docs.qoder.com/account/pricing",
@@ -299,7 +299,7 @@
   "qoder": {
     "offer": "paid-service",
     "verified_at": "2026-10-05",
-    "notes": "Qoder 国际版官方列明 Pro、Pro+、Ultra 和组织订阅；中国版另待核验。",
+    "notes": "Qoder 国际版官方列明 Pro、Pro+、Ultra 和组织订阅；CN另待核验。",
     "sources": [
       {
         "url": "https://docs.qoder.com/account/pricing",
@@ -310,7 +310,7 @@
   "qoder-jetbrains": {
     "offer": "paid-service",
     "verified_at": "2026-10-05",
-    "notes": "Qoder 国际版官方列明 Pro、Pro+、Ultra 和组织订阅；中国版另待核验。",
+    "notes": "Qoder 国际版官方列明 Pro、Pro+、Ultra 和组织订阅；CN另待核验。",
     "sources": [
       {
         "url": "https://docs.qoder.com/account/pricing",

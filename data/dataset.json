@@ -133,7 +133,7 @@
   },
   {
     "id": "amp-desktop",
-    "name": "Amp（macOS）",
+    "name": "Amp",
     "aliases": [],
     "vendor": "Amp Frontier Corporation",
     "type": "AI 编程",
@@ -345,7 +345,7 @@
   },
   {
     "id": "autoclaw-cn",
-    "name": "AutoClaw 中国版",
+    "name": "AutoClaw CN",
     "aliases": [
       "澳龙",
       "AutoClaw by AutoGLM"
@@ -363,7 +363,7 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -465,7 +465,7 @@
   },
   {
     "id": "chatgpt",
-    "name": "ChatGPT（Web）",
+    "name": "ChatGPT",
     "aliases": [
       "ChatGPT",
       "Chat GPT"
@@ -489,7 +489,7 @@
   },
   {
     "id": "chatgpt-gui",
-    "name": "ChatGPT（GUI）",
+    "name": "ChatGPT",
     "aliases": [
       "ChatGPT",
       "Chat GPT"
@@ -563,7 +563,7 @@
   },
   {
     "id": "claude",
-    "name": "Claude（Web）",
+    "name": "Claude",
     "aliases": [
       "Claude"
     ],
@@ -586,7 +586,7 @@
   },
   {
     "id": "claude-gui",
-    "name": "Claude（GUI）",
+    "name": "Claude",
     "aliases": [
       "Claude"
     ],
@@ -702,7 +702,7 @@
   },
   {
     "id": "claude-code-desktop",
-    "name": "Claude Code（桌面）",
+    "name": "Claude Code",
     "aliases": [],
     "vendor": "Anthropic",
     "type": "AI 编程",
@@ -771,7 +771,7 @@
   },
   {
     "id": "cline",
-    "name": "Cline（IDE 插件）",
+    "name": "Cline",
     "aliases": [],
     "vendor": "Cline Bot Inc.",
     "type": "AI 编程",
@@ -838,14 +838,14 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
   {
     "id": "codebuddy-ide-extension",
-    "name": "CodeBuddy（IDE 插件）",
+    "name": "CodeBuddy",
     "aliases": [],
     "vendor": "腾讯 Tencent",
     "type": "AI 编程",
@@ -864,7 +864,7 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -1027,7 +1027,7 @@
   },
   {
     "id": "codex-desktop",
-    "name": "Codex（ChatGPT 桌面内）",
+    "name": "Codex",
     "aliases": [],
     "vendor": "OpenAI",
     "type": "AI 编程",
@@ -1163,7 +1163,7 @@
   },
   {
     "id": "deepseek",
-    "name": "DeepSeek（Web）",
+    "name": "DeepSeek",
     "aliases": [
       "DeepSeek",
       "深度求索"
@@ -1187,7 +1187,7 @@
   },
   {
     "id": "descript",
-    "name": "Descript（Web）",
+    "name": "Descript",
     "aliases": [
       "Descript"
     ],
@@ -1210,7 +1210,7 @@
   },
   {
     "id": "descript-gui",
-    "name": "Descript（GUI）",
+    "name": "Descript",
     "aliases": [
       "Descript"
     ],
@@ -1514,7 +1514,7 @@
   },
   {
     "id": "fireflies-ai",
-    "name": "Fireflies.ai（Web）",
+    "name": "Fireflies.ai",
     "aliases": [
       "Fireflies.ai",
       "Fireflies"
@@ -1538,7 +1538,7 @@
   },
   {
     "id": "fireflies-ai-gui",
-    "name": "Fireflies.ai（GUI）",
+    "name": "Fireflies.ai",
     "aliases": [
       "Fireflies.ai",
       "Fireflies"
@@ -1677,7 +1677,7 @@
   },
   {
     "id": "gemini-notebook",
-    "name": "Gemini Notebook（Web）",
+    "name": "Gemini Notebook",
     "aliases": [
       "Gemini Notebook",
       "NotebookLM",
@@ -1748,7 +1748,7 @@
   },
   {
     "id": "github-copilot",
-    "name": "GitHub Copilot（IDE）",
+    "name": "GitHub Copilot",
     "aliases": [],
     "vendor": "Microsoft",
     "type": "AI 编程",
@@ -1771,7 +1771,7 @@
   },
   {
     "id": "github-copilot-web",
-    "name": "GitHub Copilot（Web）",
+    "name": "GitHub Copilot",
     "aliases": [],
     "vendor": "Microsoft",
     "type": "AI 编程",
@@ -1884,7 +1884,7 @@
   },
   {
     "id": "grammarly",
-    "name": "Grammarly（Web）",
+    "name": "Grammarly",
     "aliases": [
       "Grammarly"
     ],
@@ -1907,7 +1907,7 @@
   },
   {
     "id": "grammarly-gui",
-    "name": "Grammarly（GUI）",
+    "name": "Grammarly",
     "aliases": [
       "Grammarly"
     ],
@@ -2220,7 +2220,7 @@
   },
   {
     "id": "junie-ide",
-    "name": "Junie（IDE）",
+    "name": "Junie",
     "aliases": [],
     "vendor": "JetBrains",
     "type": "AI 编程",
@@ -2264,7 +2264,7 @@
   },
   {
     "id": "kimi",
-    "name": "Kimi（Web）",
+    "name": "Kimi",
     "aliases": [
       "Kimi",
       "Kimi智能助手"
@@ -2288,7 +2288,7 @@
   },
   {
     "id": "kimi-gui",
-    "name": "Kimi（GUI）",
+    "name": "Kimi",
     "aliases": [
       "Kimi",
       "Kimi智能助手"
@@ -2384,7 +2384,7 @@
   },
   {
     "id": "kimi-code-web",
-    "name": "Kimi Code Web（本地）",
+    "name": "Kimi Code Web",
     "aliases": [],
     "vendor": "月之暗面 Moonshot AI",
     "type": "AI 编程",
@@ -2690,7 +2690,7 @@
   },
   {
     "id": "maxclaw-cn",
-    "name": "MaxClaw 中国版",
+    "name": "MaxClaw CN",
     "aliases": [],
     "vendor": "MiniMax",
     "type": "通用任务 Agent",
@@ -2704,14 +2704,14 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
   {
     "id": "meta-ai",
-    "name": "Meta AI（Web）",
+    "name": "Meta AI",
     "aliases": [
       "Meta AI"
     ],
@@ -2800,7 +2800,7 @@
   },
   {
     "id": "minimax-agent-cn",
-    "name": "MiniMax Agent 中国版",
+    "name": "MiniMax Agent CN",
     "aliases": [],
     "vendor": "MiniMax",
     "type": "通用任务 Agent",
@@ -2814,7 +2814,7 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons（MiniMax 品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -2871,7 +2871,7 @@
   },
   {
     "id": "mistral-vibe",
-    "name": "Mistral Vibe（Web）",
+    "name": "Mistral Vibe",
     "aliases": [
       "Mistral Vibe",
       "Le Chat",
@@ -2898,7 +2898,7 @@
   },
   {
     "id": "mistral-vibe-cli",
-    "name": "Mistral Vibe（CLI）",
+    "name": "Mistral Vibe",
     "aliases": [
       "Mistral Vibe",
       "Le Chat",
@@ -2925,7 +2925,7 @@
   },
   {
     "id": "mistral-vibe-ide-plugin",
-    "name": "Mistral Vibe（IDE 插件）",
+    "name": "Mistral Vibe",
     "aliases": [
       "Mistral Vibe",
       "Le Chat",
@@ -3002,7 +3002,7 @@
   },
   {
     "id": "notion-ai",
-    "name": "Notion AI（Web）",
+    "name": "Notion AI",
     "aliases": [
       "Notion AI",
       "Notion AI Assistant"
@@ -3026,7 +3026,7 @@
   },
   {
     "id": "notion-ai-gui",
-    "name": "Notion AI（GUI）",
+    "name": "Notion AI",
     "aliases": [
       "Notion AI",
       "Notion AI Assistant"
@@ -3073,7 +3073,7 @@
   },
   {
     "id": "ollama-desktop",
-    "name": "Ollama（桌面）",
+    "name": "Ollama",
     "aliases": [],
     "vendor": "Ollama Inc.",
     "type": "本地模型工具",
@@ -3165,7 +3165,7 @@
   },
   {
     "id": "opencode-ide",
-    "name": "OpenCode（IDE）",
+    "name": "OpenCode",
     "aliases": [],
     "vendor": "Anomaly",
     "type": "AI 编程",
@@ -3211,7 +3211,7 @@
   },
   {
     "id": "otter-ai",
-    "name": "Otter.ai（Web）",
+    "name": "Otter.ai",
     "aliases": [
       "Otter.ai",
       "Otter",
@@ -3236,7 +3236,7 @@
   },
   {
     "id": "otter-ai-gui",
-    "name": "Otter.ai（GUI）",
+    "name": "Otter.ai",
     "aliases": [
       "Otter.ai",
       "Otter",
@@ -3440,7 +3440,7 @@
   },
   {
     "id": "qclaw-cn",
-    "name": "QClaw 中国版",
+    "name": "QClaw CN",
     "aliases": [
       "腾讯 QClaw"
     ],
@@ -3457,7 +3457,7 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3505,7 +3505,7 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3533,7 +3533,7 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3557,14 +3557,14 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
   {
     "id": "qoder-cn-jetbrains",
-    "name": "Qoder CN（JetBrains 插件）",
+    "name": "Qoder CN",
     "aliases": [],
     "vendor": "阿里巴巴 Alibaba",
     "type": "AI 编程",
@@ -3580,7 +3580,7 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -3673,14 +3673,14 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
   {
     "id": "qoder-jetbrains",
-    "name": "Qoder（JetBrains 插件）",
+    "name": "Qoder",
     "aliases": [],
     "vendor": "阿里巴巴 Alibaba",
     "type": "AI 编程",
@@ -3819,7 +3819,7 @@
   },
   {
     "id": "qwen-code-web",
-    "name": "Qwen Code Web UI（本地）",
+    "name": "Qwen Code Web UI",
     "aliases": [],
     "vendor": "阿里巴巴 Alibaba",
     "type": "AI 编程",
@@ -3840,7 +3840,7 @@
   },
   {
     "id": "qwen-code-ide",
-    "name": "Qwen Code（IDE 插件）",
+    "name": "Qwen Code",
     "aliases": [],
     "vendor": "阿里巴巴 Alibaba",
     "type": "AI 编程",
@@ -4070,11 +4070,11 @@
   },
   {
     "id": "trae-cn",
-    "name": "TraeCode 中国版",
+    "name": "TraeCode CN",
     "aliases": [
       "TRAE",
       "TRAE SOLO 模式",
-      "TRAE中国版"
+      "TRAECN"
     ],
     "vendor": "字节跳动 ByteDance",
     "type": "AI 编程",
@@ -4090,14 +4090,14 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
   {
     "id": "trae-work",
-    "name": "TraeWork（Web）",
+    "name": "TraeWork",
     "aliases": [
       "TraeWork",
       "TRAE Work",
@@ -4122,7 +4122,7 @@
   },
   {
     "id": "trae-work-gui",
-    "name": "TraeWork（GUI）",
+    "name": "TraeWork",
     "aliases": [
       "TraeWork",
       "TRAE Work",
@@ -4148,9 +4148,9 @@
   },
   {
     "id": "trae-work-cn",
-    "name": "TraeWork 中国版（Web）",
+    "name": "TraeWork CN",
     "aliases": [
-      "TraeWork 中国版",
+      "TraeWork CN",
       "TRAE Work",
       "TRAE SOLO 独立版"
     ],
@@ -4166,16 +4166,16 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
   {
     "id": "trae-work-cn-gui",
-    "name": "TraeWork 中国版（GUI）",
+    "name": "TraeWork CN",
     "aliases": [
-      "TraeWork 中国版",
+      "TraeWork CN",
       "TRAE Work",
       "TRAE SOLO 独立版"
     ],
@@ -4192,7 +4192,7 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4311,7 +4311,7 @@
   },
   {
     "id": "wordtune",
-    "name": "Wordtune（Web）",
+    "name": "Wordtune",
     "aliases": [
       "Wordtune"
     ],
@@ -4383,7 +4383,7 @@
   },
   {
     "id": "workbuddy-cn",
-    "name": "WorkBuddy 中国版",
+    "name": "WorkBuddy CN",
     "aliases": [
       "腾讯龙虾",
       "Tencent WorkBuddy"
@@ -4401,14 +4401,14 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
   {
     "id": "workbuddy-cn-mini-program",
-    "name": "WorkBuddy 中国版（微信小程序）",
+    "name": "WorkBuddy CN",
     "aliases": [
       "腾讯龙虾",
       "Tencent WorkBuddy"
@@ -4425,7 +4425,7 @@
     "interfaces": [
       "小程序"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4569,7 +4569,7 @@
   },
   {
     "id": "qianwen",
-    "name": "千问（Web）",
+    "name": "千问",
     "aliases": [
       "千问",
       "通义千问",
@@ -4588,14 +4588,14 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
   {
     "id": "qianwen-gui",
-    "name": "千问（GUI）",
+    "name": "千问",
     "aliases": [
       "千问",
       "通义千问",
@@ -4615,7 +4615,7 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4641,7 +4641,7 @@
     "interfaces": [
       "浏览器插件"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4669,7 +4669,7 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4693,7 +4693,7 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4718,7 +4718,7 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4746,14 +4746,14 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
   {
     "id": "codearts-agent-ide-extension",
-    "name": "华为云码道（IDE 插件）",
+    "name": "华为云码道",
     "aliases": [],
     "vendor": "华为 Huawei Cloud",
     "type": "AI 编程",
@@ -4768,7 +4768,7 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4791,7 +4791,7 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4861,7 +4861,7 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4894,7 +4894,7 @@
     "id": "coze-cn",
     "name": "扣子",
     "aliases": [
-      "Coze中国版"
+      "CozeCN"
     ],
     "vendor": "字节跳动 ByteDance",
     "type": "智能体与工作流",
@@ -4908,7 +4908,7 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -4939,7 +4939,7 @@
   },
   {
     "id": "comate",
-    "name": "文心快码（GUI）",
+    "name": "文心快码",
     "aliases": [
       "文心快码",
       "Baidu Comate"
@@ -4961,7 +4961,7 @@
   },
   {
     "id": "comate-ide-plugin",
-    "name": "文心快码（IDE 插件）",
+    "name": "文心快码",
     "aliases": [
       "文心快码",
       "Baidu Comate"
@@ -5002,7 +5002,7 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5279,7 +5279,7 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5306,7 +5306,7 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5354,7 +5354,7 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -5411,7 +5411,7 @@
   },
   {
     "id": "openclaw-web",
-    "name": "OpenClaw Web（自托管）",
+    "name": "OpenClaw Web",
     "aliases": [
       "Clawdbot",
       "Moltbot"
@@ -5509,7 +5509,7 @@
   },
   {
     "id": "qwenpaw-web",
-    "name": "QwenPaw Web（自托管）",
+    "name": "QwenPaw Web",
     "aliases": [
       "CoPaw"
     ],
@@ -5555,7 +5555,7 @@
   },
   {
     "id": "nanobot-web",
-    "name": "nanobot Web（自托管）",
+    "name": "nanobot Web",
     "aliases": [],
     "vendor": "HKUDS / Xubin Ren",
     "type": "通用任务 Agent",
@@ -5624,7 +5624,7 @@
   },
   {
     "id": "kilo-code-ide",
-    "name": "Kilo Code （IDE 插件）",
+    "name": "Kilo Code",
     "aliases": [
       "Kilo"
     ],
@@ -5723,7 +5723,7 @@
   },
   {
     "id": "aionui-web",
-    "name": "AionUi Web（自托管）",
+    "name": "AionUi Web",
     "aliases": [
       "Aion UI"
     ],
@@ -5834,7 +5834,7 @@
   },
   {
     "id": "agent-tars-web",
-    "name": "Agent TARS Web（自托管）",
+    "name": "Agent TARS Web",
     "aliases": [],
     "vendor": "字节跳动 ByteDance",
     "type": "通用任务 Agent",
@@ -5879,7 +5879,7 @@
   },
   {
     "id": "deerflow-web",
-    "name": "DeerFlow Web（自托管）",
+    "name": "DeerFlow Web",
     "aliases": [
       "DeerFlow 2.0",
       "deer-flow"
@@ -6016,7 +6016,7 @@
   },
   {
     "id": "bolt-diy-web",
-    "name": "bolt.diy Web（自托管）",
+    "name": "bolt.diy Web",
     "aliases": [],
     "vendor": "StackBlitz",
     "type": "AI 应用构建",
@@ -6162,7 +6162,7 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6184,7 +6184,7 @@
     "interfaces": [
       "GUI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6209,7 +6209,7 @@
     "interfaces": [
       "CLI"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "沿用已核验官方品牌 SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6232,14 +6232,14 @@
     "interfaces": [
       "Web"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "沿用已核验官方品牌 SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
   {
     "id": "trae-cn-vscode",
-    "name": "TRAE（VS Code 插件）",
+    "name": "TRAE",
     "aliases": [
       "MarsCode",
       "TRAE 插件"
@@ -6254,14 +6254,14 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "沿用已核验官方品牌 SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
   },
   {
     "id": "trae-cn-jetbrains",
-    "name": "TRAE（JetBrains 插件）",
+    "name": "TRAE",
     "aliases": [
       "MarsCode",
       "TRAE 插件"
@@ -6276,7 +6276,7 @@
     "interfaces": [
       "IDE 插件"
     ],
-    "edition": "中国版",
+    "edition": "CN",
     "svg_status": "沿用已核验官方品牌 SVG",
     "chrome_extension_id": "",
     "edge_extension_id": ""
@@ -6358,7 +6358,7 @@
   },
   {
     "id": "codemaker-vscode",
-    "name": "CodeMaker AI（VS Code 插件）",
+    "name": "CodeMaker AI",
     "aliases": [],
     "vendor": "CodeMaker AI",
     "type": "AI 编程",
@@ -6377,7 +6377,7 @@
   },
   {
     "id": "codemaker-jetbrains",
-    "name": "CodeMaker AI（JetBrains 插件）",
+    "name": "CodeMaker AI",
     "aliases": [],
     "vendor": "CodeMaker AI",
     "type": "AI 编程",
@@ -6824,7 +6824,7 @@
   },
   {
     "id": "zencoder-vscode",
-    "name": "Zencoder（VS Code 插件）",
+    "name": "Zencoder",
     "aliases": [],
     "vendor": "Zencoder",
     "type": "AI 编程",
@@ -6843,7 +6843,7 @@
   },
   {
     "id": "zencoder-jetbrains",
-    "name": "Zencoder（JetBrains 插件）",
+    "name": "Zencoder",
     "aliases": [],
     "vendor": "Zencoder",
     "type": "AI 编程",

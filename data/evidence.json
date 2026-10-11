@@ -1189,7 +1189,7 @@
     "sources": [
       {
         "url": "https://www.trae.cn/",
-        "title": "TRAE 中国版 官方网站"
+        "title": "TRAE CN 官方网站"
       },
       {
         "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/trae-color.svg",
@@ -3188,7 +3188,7 @@
         "title": "WorkBuddy 官方历史版本：macOS / Windows"
       }
     ],
-    "notes": "国际站及服务协议确认腾讯海外运营主体；可自主规划任务并处理授权本地文件。与中国版分站记录，不把办公工作台与 CodeBuddy IDE 混为同一个应用。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM。 IM 是接入渠道，不额外计为独立应用。",
+    "notes": "国际站及服务协议确认腾讯海外运营主体；可自主规划任务并处理授权本地文件。与CN分站记录，不把办公工作台与 CodeBuddy IDE 混为同一个应用。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM。 IM 是接入渠道，不额外计为独立应用。",
     "verified_at": "2026-10-02"
   },
   "qclaw-cn": {
@@ -3220,7 +3220,7 @@
         "title": "QClaw 国际官网：本地任务、消息应用控制与邀请内测"
       }
     ],
-    "notes": "国际官网核验时仍显示 20,000 名额邀请内测，可由 IM 远程执行电脑任务。中国版另有 2026-12-24 停运公告；现有官方材料未明确该停运安排是否适用于国际版，不能推断其全球停运。仅核验产品与页面状态，未登录验证账号可用性。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM。 IM 是接入渠道，不额外计为独立应用。",
+    "notes": "国际官网核验时仍显示 20,000 名额邀请内测，可由 IM 远程执行电脑任务。CN另有 2026-12-24 停运公告；现有官方材料未明确该停运安排是否适用于国际版，不能推断其全球停运。仅核验产品与页面状态，未登录验证账号可用性。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM。 IM 是接入渠道，不额外计为独立应用。",
     "verified_at": "2026-10-02"
   },
   "minimax-agent": {
@@ -3472,7 +3472,7 @@
         "title": "千问办公官方下载页所用原始 SVG 应用图标"
       }
     ],
-    "notes": "千问办公（QwenWork）是独立办公任务 Agent 产品，与千问聊天（qianwen / qwen-chat）、Qwen Code（qwen-code）分开计数。中国版服务协议运营主体为钉钉科技有限公司、钉钉（中国）信息技术有限公司及关联公司；属阿里巴巴体系，vendor_id 使用 dingtalk 以保留运营主体区别。官方描述可规划执行任务、处理本地文件、生成及编辑 Office 产物、进行网页及电脑操作。平台为官方公布和下载入口核验，未安装运行测试；不把官网宣传等同于实测能力。 桌面下载页列出 macOS 14+ Apple Silicon / Intel DMG、Windows 10+ 64 位 EXE、Linux Debian 系 x64/ARM64 DEB。HarmonyOS 条目适用于鸿蒙电脑 6.1+，不是手机端支持声明；官方仅经 AppGallery 分发。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "notes": "千问办公（QwenWork）是独立办公任务 Agent 产品，与千问聊天（qianwen / qwen-chat）、Qwen Code（qwen-code）分开计数。CN服务协议运营主体为钉钉科技有限公司、钉钉（中国）信息技术有限公司及关联公司；属阿里巴巴体系，vendor_id 使用 dingtalk 以保留运营主体区别。官方描述可规划执行任务、处理本地文件、生成及编辑 Office 产物、进行网页及电脑操作。平台为官方公布和下载入口核验，未安装运行测试；不把官网宣传等同于实测能力。 桌面下载页列出 macOS 14+ Apple Silicon / Intel DMG、Windows 10+ 64 位 EXE、Linux Debian 系 x64/ARM64 DEB。HarmonyOS 条目适用于鸿蒙电脑 6.1+，不是手机端支持声明；官方仅经 AppGallery 分发。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "verified_at": "2026-10-11"
   },
   "qwenwork-web-cn": {
@@ -3498,7 +3498,7 @@
         "title": "千问办公官方下载页所用原始 SVG 应用图标"
       }
     ],
-    "notes": "千问办公（QwenWork）是独立办公任务 Agent 产品，与千问聊天（qianwen / qwen-chat）、Qwen Code（qwen-code）分开计数。中国版服务协议运营主体为钉钉科技有限公司、钉钉（中国）信息技术有限公司及关联公司；属阿里巴巴体系，vendor_id 使用 dingtalk 以保留运营主体区别。官方描述可规划执行任务、处理本地文件、生成及编辑 Office 产物、进行网页及电脑操作。平台为官方公布和下载入口核验，未安装运行测试；不把官网宣传等同于实测能力。 本条为浏览器入口，与桌面端共用 product_id=qwenwork；未据此承诺网页端具备桌面端所有本地权限和能力。",
+    "notes": "千问办公（QwenWork）是独立办公任务 Agent 产品，与千问聊天（qianwen / qwen-chat）、Qwen Code（qwen-code）分开计数。CN服务协议运营主体为钉钉科技有限公司、钉钉（中国）信息技术有限公司及关联公司；属阿里巴巴体系，vendor_id 使用 dingtalk 以保留运营主体区别。官方描述可规划执行任务、处理本地文件、生成及编辑 Office 产物、进行网页及电脑操作。平台为官方公布和下载入口核验，未安装运行测试；不把官网宣传等同于实测能力。 本条为浏览器入口，与桌面端共用 product_id=qwenwork；未据此承诺网页端具备桌面端所有本地权限和能力。",
     "verified_at": "2026-10-02"
   },
   "doubao-desktop": {

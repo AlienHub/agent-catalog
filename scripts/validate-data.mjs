@@ -23,6 +23,8 @@ export async function validateData() {
       assert(Array.isArray(app[key]) && app[key].every(v => typeof v === 'string' && v.length), `${app.id}.${key}`);
       assert.equal(new Set(app[key]).size, app[key].length, `Duplicate ${app.id}.${key}`);
     }
+    assert(!app.name.includes('中国版') && app.edition !== '中国版', `Use CN edition naming: ${app.id}`);
+    assert(!/（(?:Web|GUI|CLI|IDE|IDE 插件)）$/.test(app.name), `Interaction form belongs in interfaces: ${app.id}`);
     assert(!app.platforms.some(p => ['iOS','iPadOS','Android','Mobile'].includes(p)), `Mobile platform outside catalog scope: ${app.id}`);
     assert.equal(app.interfaces.length, 1, `One interaction form per application: ${app.id}`);
     assert(['GUI','CLI','IDE 插件','Web','浏览器插件','小程序'].includes(app.interfaces[0]), `Invalid interaction form: ${app.id}`);

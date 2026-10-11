@@ -9,7 +9,7 @@ const render = props => renderToStaticMarkup(createElement(AppIcon, props));
 test('React icon SSR uses bundled data SVG and accessible default name', () => {
   const html = render({ appId: 'chatgpt', size: 32, loading: 'lazy', className: 'logo' });
   assert(html.includes('data:image/svg+xml;'));
-  assert(html.includes('alt="ChatGPT（Web） 图标"'));
+  assert(html.includes('alt="ChatGPT 图标"'));
   assert(html.includes('width="32"') && html.includes('height="32"'));
   assert(html.includes('class="logo"'));
   assert(!html.includes('https://'));

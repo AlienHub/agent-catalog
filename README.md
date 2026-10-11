@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.10（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.11（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -302,7 +302,7 @@ Unified private Cloudflare website + API deployment now lives in [cloudflare/REA
 
 ## v0.8 交互形态边界更正
 
-按用户明确的定义，浏览器插件从 GUI 移至独立类别（7条应用，ID保持不变），恢复 WorkBuddy 中国版微信小程序的独立应用记录 `workbuddy-cn-mini-program`。当前304条应用记录、185个产品；每条应用仍只有一种形态。钉钉内嵌AI能力属于钉钉GUI应用，保留核验说明，不创建额外插件形态。IM指即时通讯接入渠道，例如通过聊天工具触发Agent，不单独生成应用记录。
+按用户明确的定义，浏览器插件从 GUI 移至独立类别（7条应用，ID保持不变），恢复 WorkBuddy CN微信小程序的独立应用记录 `workbuddy-cn-mini-program`。当前304条应用记录、185个产品；每条应用仍只有一种形态。钉钉内嵌AI能力属于钉钉GUI应用，保留核验说明，不创建额外插件形态。IM指即时通讯接入渠道，例如通过聊天工具触发Agent，不单独生成应用记录。
 
 [更正明细](interaction-form-correction-2026-10-11.json)。v0.7迁移文档保留历史说明，当前分类以v0.8数据和Schema为准。
 
@@ -317,3 +317,7 @@ Unified private Cloudflare website + API deployment now lives in [cloudflare/REA
 主目录仅关注桌面端与浏览器应用，不收录移动端。移除7条仅移动端应用，并从桌面与移动混合记录中移除 iOS、iPadOS、Android、Mobile 等移动平台信息；产品对应的 Web、CLI、IDE 插件与桌面记录保留。鸿蒙电脑使用 `HarmonyOS PC` 平台标签，小程序按既有要求保留。现有目录为297条应用、185个产品。
 
 [范围调整记录](desktop-scope-migration-2026-10-11.json)保留移除的原记录与平台变更，供历史追溯；主数据、核验来源、集合、商业元信息、SDK与网站导出同步移除移动端应用。空缺平台不代表产品不存在移动版本，只表示不纳入本目录。
+
+## v0.11 名称与 CN 版本规范
+
+地区版本统一使用 `CN`；名称、别名、核验说明与网站字段说明同步使用 CN。应用名称去掉人为添加的 Web、GUI、IDE 插件及宿主等括号后缀，交互形态通过 `interfaces`、宿主通过 `platforms`、版本通过 `edition` 区分。产品本身的正式名称（例如 ChatGPT search、Qoder Desktop、Qwen Code Web UI）保留。不同形态允许同名，稳定应用 ID 与产品关联不变。

@@ -11,7 +11,7 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, 297);
   assert.equal(catalog.catalogMeta.productCount, 185);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.10');
+  assert.equal(catalog.catalogMeta.dataVersion, '0.11');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
@@ -52,7 +52,7 @@ test('filters AND across fields, OR within arrays, and handle empty arrays', () 
   assert.deepEqual(catalog.findApps({ vendorId: 'openai', interface: 'CLI' }), expected);
   assert.deepEqual(catalog.findApps({ productId: ['codex','chatgpt'] }), raw.filter(app => ['codex','chatgpt'].includes(app.product_id)));
   assert.equal(catalog.findApps({ productId: [] }).length, 0);
-  assert.deepEqual(catalog.findApps({ edition: '中国版', hasSvg: false }), raw.filter(app => app.edition === '中国版' && !app.icon));
+  assert.deepEqual(catalog.findApps({ edition: 'CN', hasSvg: false }), raw.filter(app => app.edition === 'CN' && !app.icon));
   const app = raw[0];
   assert(catalog.findApps({ type: app.type, platform: app.platforms[0] }).some(item => item.id === app.id));
 });
@@ -141,4 +141,14 @@ test('catalog excludes mobile applications and keeps desktop HarmonyOS and mini 
   assert(catalog.apps.every(a => !a.platforms.some(p => ['iOS','iPadOS','Android','Mobile'].includes(p))));
   assert(catalog.getApp('qwenwork-desktop-cn').platforms.includes('HarmonyOS PC'));
   assert.deepEqual(catalog.getApp('workbuddy-cn-mini-program').interfaces, ['小程序']);
+});
+
+test('display names omit form suffixes and China editions use CN', () => {
+ assert.equal(catalog.getApp('chatgpt').name,'ChatGPT');
+ assert.equal(catalog.getApp('chatgpt-gui').name,'ChatGPT');
+ assert.deepEqual(catalog.getApp('chatgpt').interfaces,['Web']);
+ assert.deepEqual(catalog.getApp('chatgpt-gui').interfaces,['GUI']);
+ assert.equal(catalog.getApp('trae-work-cn').name,'TraeWork CN');
+ assert.equal(catalog.getApp('trae-work-cn').edition,'CN');
+ assert(catalog.apps.every(a => !a.name.includes('中国版') && a.edition!=='中国版' && !/（(?:Web|GUI|CLI|IDE|IDE 插件)）$/.test(a.name)));
 });
