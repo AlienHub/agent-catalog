@@ -8,3 +8,6 @@
 .trend-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:14px 0}.trend-stats span{display:block;font-size:10px;color:#858a92}.trend-stats strong{display:block;font-size:15px;font-weight:550;margin-top:4px}.trend-chart{display:block;width:100%;height:auto;margin:10px 0}.trend-chart text{font-size:9px;fill:#878c94}.trend-data{font-size:11px;color:#757c87}.trend-data summary{cursor:pointer;padding:6px 0}.trend-data table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}.trend-data td,.trend-data th{text-align:left;padding:5px;border-bottom:1px solid #e9ebee}
 
 .trend-subtitle{font-size:11px;font-weight:500;color:#6e737d;margin:18px 0 4px}
+
+/* Preserve native find/navigation while skipping offscreen card layout and paint. */
+.app-card{content-visibility:auto;contain-intrinsic-block-size:auto 152px}
