@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { createRequire } from 'node:module';
+import { apps } from '../dist/esm/index.js';
 import { AppIcon } from '../dist/esm/react.js';
 const require = createRequire(import.meta.url);
 const render = props => renderToStaticMarkup(createElement(AppIcon, props));
@@ -20,13 +21,14 @@ test('accessibility supports alt, title and decorative usage', () => {
   const decorative = render({ appId: 'chatgpt', decorative: true });
   assert(decorative.includes('alt=""') && decorative.includes('aria-hidden="true"'));
 });
-test('missing SVGs do not masquerade as official marks', () => {
-  const html = render({ appId: 'gamma' });
-  assert(html.includes('data-icon-fallback="gamma"'));
+test('missing Logos do not masquerade as official marks', () => {
+  const appId = apps.find(app => !app.icon).id;
+  const html = render({ appId });
+  assert(html.includes(`data-icon-fallback="${appId}"`));
   assert(html.includes('role="img"'));
   assert(!html.includes('<img'));
-  assert.equal(render({ appId: 'gamma', fallback: null }), '');
-  assert(render({ appId: 'gamma', fallback: createElement('b', null, 'Pending') }).includes('<b>Pending</b>'));
+  assert.equal(render({ appId, fallback: null }), '');
+  assert(render({ appId, fallback: createElement('b', null, 'Pending') }).includes('<b>Pending</b>'));
   assert(render({ appId: 'unknown-app' }).includes('>?</span>'));
   assert(!render({ appId: 'unknown-app', decorative: true }).includes('aria-label'));
 });

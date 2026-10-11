@@ -520,14 +520,18 @@
     "verified_at": "2026-10-02"
   },
   "heygen": {
-    "notes": "AI avatar video creation and translation application. Official site currently exposes PNG brand images; no verified genuine SVG acquired, so icon is intentionally empty.",
+    "notes": "AI avatar video creation and translation application. Official site currently exposes PNG brand images; no verified genuine SVG acquired, so icon is intentionally empty. 2026-10-11 补充官网原始 PNG，保持独立产品标识；不将国内品牌图标直接套用国际记录。",
     "sources": [
       {
         "url": "https://www.heygen.com/",
         "title": "HeyGen: Create Realistic AI Videos of Yourself in Minutes"
+      },
+      {
+        "url": "https://www.heygen.com/images/heygen-logo.png",
+        "title": "HeyGen 官方原始 PNG 品牌素材"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "descript": {
     "notes": "AI-assisted text-based audio/video editing application. Official download page lists macOS and Windows; web editor is also linked. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。",
@@ -644,14 +648,22 @@
     "verified_at": "2026-10-02"
   },
   "gamma": {
-    "notes": "AI presentation and website application at gamma.app. No verified genuine SVG obtained; unrelated Gamma hardware-store/telecom/crypto marks were rejected.",
+    "notes": "AI presentation and website application at gamma.app. No verified genuine SVG obtained; unrelated Gamma hardware-store/telecom/crypto marks were rejected. 2026-10-11 补充官方站点原始 PNG 品牌标识；未推定额外品牌授权。",
     "sources": [
       {
         "url": "https://gamma.app/",
         "title": "Gamma official product website"
+      },
+      {
+        "url": "https://help.gamma.app/en/",
+        "title": "Gamma 官方网站/帮助中心素材来源页"
+      },
+      {
+        "url": "https://help.gamma.app/assets/favicon",
+        "title": "Gamma 官方原始 PNG 品牌素材"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "napkin-ai": {
     "notes": "Text-to-visual diagram and presentation application. Official SVG wordmark supplied.",
@@ -722,7 +734,7 @@
     "verified_at": "2026-10-02"
   },
   "dola": {
-    "notes": "与豆包保守合并为同一产品家族计数；独立品牌入口，不主张账号或功能相同。官网及前端脚本中标识为PNG，未用其他产品图标或伪SVG代替。 原来源主体名称：字节跳动 / SPRING (SG) PTE. LTD.；目录按供应商主体归组。",
+    "notes": "与豆包保守合并为同一产品家族计数；独立品牌入口，不主张账号或功能相同。官网及前端脚本中标识为PNG，未用其他产品图标或伪SVG代替。 原来源主体名称：字节跳动 / SPRING (SG) PTE. LTD.；目录按供应商主体归组。 2026-10-11 补充官网原始 PNG，保持独立产品标识；不将国内品牌图标直接套用国际记录。",
     "sources": [
       {
         "url": "https://www.dola.com/chat/",
@@ -731,9 +743,13 @@
       {
         "url": "https://www.dola.com/legal/privacy/en",
         "title": "Dola 官方隐私政策与运营主体"
+      },
+      {
+        "url": "https://sf-flow-web-cdn.ciciai.com/obj/ocean-flow-web-sg/favicon/new-dola/192x192.png",
+        "title": "Dola 官方原始 PNG 品牌素材"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "qianwen": {
     "sources": [
@@ -936,14 +952,18 @@
     "verified_at": "2026-10-02"
   },
   "dreamina": {
-    "notes": "即梦的国际品牌入口；不主张账号互通。官网页首品牌标识为内嵌PNG，未用其他产品图标或伪SVG代替。",
+    "notes": "即梦的国际品牌入口；不主张账号互通。官网页首品牌标识为内嵌PNG，未用其他产品图标或伪SVG代替。 2026-10-11 补充官网原始 PNG，保持独立产品标识；不将国内品牌图标直接套用国际记录。",
     "sources": [
       {
         "url": "https://dreamina.capcut.com/",
         "title": "Dreamina 官方网站"
+      },
+      {
+        "url": "https://p16-seeyou-useast5.capcutcdn-us.com/tos-useast5-i-2zwwjm3azk-tx/40fed40e0bd1411292155e446a0f3a30~tplv-2zwwjm3azk-compress:q90.image",
+        "title": "Dreamina 官方原始 PNG 品牌素材"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "kling": {
     "notes": "未明确区分地区版本；不推断地域可用性。",
@@ -1080,14 +1100,22 @@
     "verified_at": "2026-10-02"
   },
   "miaohua": {
-    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "notes": "未明确区分地区版本；不推断地域可用性。 2026-10-11 补充官方站点原始 PNG 品牌标识；未推定额外品牌授权。",
     "sources": [
       {
         "url": "https://miaohua.sensetime.com/",
         "title": "商汤秒画 官方网站"
+      },
+      {
+        "url": "https://miaohua.sensetime.com/",
+        "title": "商汤秒画 官方网站/帮助中心素材来源页"
+      },
+      {
+        "url": "https://bkmksh.oss-cn-shanghai.aliyuncs.com/assets1/homepage/m-favicon.png",
+        "title": "商汤秒画 官方原始 PNG 品牌素材"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "ima": {
     "notes": "未明确区分地区版本；不推断地域可用性。",
@@ -6189,6 +6217,396 @@
       {
         "url": "https://www.atlassian.com/software/rovo-dev",
         "title": "SVG Logo — official brand asset"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "consensus": {
+    "notes": "科学文献检索、证据综合与研究问答。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://consensus.app/",
+        "title": "Consensus 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://consensus.app/favicon.svg",
+        "title": "Consensus 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "elicit": {
+    "notes": "科学文献检索、研究报告与系统性文献综述。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://elicit.com/",
+        "title": "Elicit 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://framerusercontent.com/images/GWXKVhGBLC34aTLlmLIMsRVb4.png",
+        "title": "Elicit 官方原始 PNG 品牌素材"
+      },
+      {
+        "url": "https://elicit.com/users/auth?show=signup",
+        "title": "Elicit 官方浏览器应用入口（登录或模型交互）"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "scispace": {
+    "notes": "论文检索、文献综述、PDF 问答与学术写作；各工具是同一 Web 工作空间的功能。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 未取得可靠可下载 Logo，保留空 icon。",
+    "sources": [
+      {
+        "url": "https://scispace.com/",
+        "title": "SciSpace 官方产品及 Web 入口"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "chatpdf": {
+    "notes": "上传 PDF 并进行带来源的文档问答；不按文件类型拆成产品。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://www.chatpdf.com/",
+        "title": "ChatPDF 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://www.chatpdf.com/icon.svg",
+        "title": "ChatPDF 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "manus": {
+    "notes": "通过 Web 工作空间委派研究、网页构建和多步骤任务；浏览器操作能力属于工作空间功能。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://manus.im/",
+        "title": "Manus 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://manus.im/icon.svg?icon.2kbcs13ndm9it.svg",
+        "title": "Manus 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "genspark": {
+    "notes": "AI 工作空间聚合聊天、研究、演示文稿与多媒体创建；不把每个工作空间工具单列产品。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 未取得可靠可下载 Logo，保留空 icon。",
+    "sources": [
+      {
+        "url": "https://www.genspark.ai/genspark-landing.html",
+        "title": "Genspark 官方产品及 Web 入口"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "felo": {
+    "notes": "多语言 AI 搜索、资料理解与内容创建。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://felo.ai/search",
+        "title": "Felo 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://felo.ai/icon-square.png",
+        "title": "Felo 官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "jenni": {
+    "notes": "学术写作与研究辅助，包含引用、资料管理和写作建议。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://jenni.ai/",
+        "title": "Jenni 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://framerusercontent.com/images/qYjbIznnZuv0AsCQzQJcoyhQI.svg",
+        "title": "Jenni 官方原始 SVG 品牌素材"
+      },
+      {
+        "url": "https://app.jenni.ai/",
+        "title": "Jenni 官方浏览器应用入口（登录或模型交互）"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "jotbot": {
+    "notes": "浏览器文档中的写作、自动续写、资料检索与引用。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://myjotbot.com/",
+        "title": "JotBot 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://framerusercontent.com/images/wX7VeNkYrnd16sAPVNugZZSsWqI.png",
+        "title": "JotBot 官方原始 PNG 品牌素材"
+      },
+      {
+        "url": "https://app.myjotbot.com/",
+        "title": "JotBot 官方浏览器应用入口（登录或模型交互）"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "deepl-write": {
+    "notes": "AI 文字润色和表达建议，区别于 DeepL Translator 翻译服务。图标为其官网使用的 DeepL 共用品牌 favicon，不声称专属 Write 标识。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://www.deepl.com/en/write",
+        "title": "DeepL Write 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://www.deepl.com/icon?96dd39650c8ded7a",
+        "title": "DeepL Write 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "google-ai-studio": {
+    "notes": "Gemini 提示词与多模态模型试验、应用原型构建；区别于消费者 Gemini 聊天和 Gemini Notebook。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://aistudio.google.com/welcome",
+        "title": "Google AI Studio 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://ai.google.dev/aistudio",
+        "title": "Google 官方 AI Studio 产品文档"
+      },
+      {
+        "url": "https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-512dp/logo_ai_studio_color_1x_web_512dp.png",
+        "title": "Google AI Studio 官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "beautiful-ai": {
+    "notes": "AI 演示文稿生成与团队演示编辑。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://www.beautiful.ai/",
+        "title": "Beautiful.ai 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/59deb588800ae30001ec19c9/691b4ae4a724e6c686bfb035_BAI%20symbol%3Dfull%20color%20black.png",
+        "title": "Beautiful.ai 官方原始 PNG 品牌素材"
+      },
+      {
+        "url": "https://www.beautiful.ai/login",
+        "title": "Beautiful.ai 官方浏览器应用入口（登录或模型交互）"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "slidesgo": {
+    "notes": "官方网站中的 AI 演示文稿创建与模板编辑；不将模板单列产品。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://slidesgo.com/ai/presentation-maker",
+        "title": "Slidesgo 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://slidesgo.com/favicons/apple-favicon-180x180.png",
+        "title": "Slidesgo 官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "krea": {
+    "notes": "Web AI 创作套件，提供图像、视频与 3D 创作。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://www.krea.ai/",
+        "title": "Krea 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://www.krea.ai/favicon/favicon-192.png",
+        "title": "Krea 官方原始 PNG 品牌素材"
+      },
+      {
+        "url": "https://www.krea.ai/login",
+        "title": "Krea 官方浏览器应用入口（登录或模型交互）"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "fal": {
+    "notes": "托管生成式媒体模型的浏览器 Playground；此条为可直接操作的 Web 界面，不将纯 API 或单个模型新增为应用。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://fal.ai/",
+        "title": "fal 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://fal.ai/apple-touch-icon.png",
+        "title": "fal 官方原始 PNG 品牌素材"
+      },
+      {
+        "url": "https://fal.ai/explore",
+        "title": "fal 官方浏览器应用入口（登录或模型交互）"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "higgsfield": {
+    "notes": "AI 创作工作空间，提供图像、视频与制作工具；模型和模板不单独建应用。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://higgsfield.ai/",
+        "title": "Higgsfield 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://static.higgsfield.ai/public/home/higgsfield-projects/higgs-icon.svg",
+        "title": "Higgsfield 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "fish-audio": {
+    "notes": "浏览器语音合成、声音克隆与音频创作工作空间；不从模型仓库许可证推定托管服务开源。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://fish.audio/",
+        "title": "Fish Audio 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://fish.audio/favicon-96x96.png",
+        "title": "Fish Audio 官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "aiva": {
+    "notes": "AI 音乐生成助手，通过浏览器创建和编辑音乐。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://www.aiva.ai/",
+        "title": "AIVA 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://www.aiva.ai/assets/img/aiva_logo_2.png",
+        "title": "AIVA 官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "soundraw": {
+    "notes": "浏览器 AI 音乐生成与编辑服务。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://soundraw.io/",
+        "title": "SOUNDRAW 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://soundraw.io/assets/apple-touch-icon-4ffadde212293f472dc6fde485807f0a51992631e0f2d9169dfac04b84d5e98e.png",
+        "title": "SOUNDRAW 官方原始 PNG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "uizard": {
+    "notes": "浏览器中的 AI 界面设计、原型与协作编辑。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://uizard.io/",
+        "title": "Uizard 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://uizard.io/apple-touch-icon.png",
+        "title": "Uizard 官方原始 PNG 品牌素材"
+      },
+      {
+        "url": "https://app.uizard.io/login",
+        "title": "Uizard 官方浏览器应用入口（登录或模型交互）"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "relevance-ai": {
+    "notes": "Web 平台创建和运行专业 AI Agent 与工作流。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://relevanceai.com/",
+        "title": "Relevance AI 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://cdn.relevanceai.com/images/favicon-256x256.png",
+        "title": "Relevance AI 官方原始 PNG 品牌素材"
+      },
+      {
+        "url": "https://app.relevanceai.com/signup",
+        "title": "Relevance AI 官方浏览器应用入口（登录或模型交互）"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "lindy": {
+    "notes": "Web AI 工作助手与多工具自动化；消息工具集成不新增 IM 应用形态。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://www.lindy.ai/",
+        "title": "Lindy 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://www.lindy.ai/_sherpa/assets/static/lindy/69f7b166c2e11ba39f7b2b9e_lindy-avatar-favicon.png",
+        "title": "Lindy 官方原始 PNG 品牌素材"
+      },
+      {
+        "url": "https://chat.lindy.ai/login",
+        "title": "Lindy 官方浏览器应用入口（登录或模型交互）"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "n8n": {
+    "notes": "浏览器中的可视化 AI 工作流与 Agent 构建；托管/自托管共用一条 Web 记录，不从源码可见推定 OSI 开源。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://n8n.io/",
+        "title": "n8n 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://n8n.io/brandguidelines/logo-dark.svg",
+        "title": "n8n 官方原始 SVG 品牌素材"
+      },
+      {
+        "url": "https://app.n8n.cloud/login",
+        "title": "n8n 官方浏览器应用入口（登录或模型交互）"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "zapier": {
+    "notes": "Zapier 官方 AI Agent Web 产品，用于创建具有应用连接能力的 AI 工作助手。Logo 使用官网 Agents 页注明的 Zapier 品牌标识。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://zapier.com/agents",
+        "title": "Zapier Agents 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://res.cloudinary.com/zapier-media/image/upload/f_png/v1757453971/Zapier_Logo_yjhvbo",
+        "title": "Zapier Agents 官方原始 PNG 品牌素材"
+      },
+      {
+        "url": "https://agents.zapier.com/login",
+        "title": "Zapier Agents 官方浏览器应用入口（登录或模型交互）"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "gumloop": {
+    "notes": "在浏览器构建 AI Agent 和自动化工作流。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://www.gumloop.com/",
+        "title": "Gumloop 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://www.gumloop.com/brand/Wordmark.svg",
+        "title": "Gumloop 官方原始 SVG 品牌素材"
       }
     ],
     "verified_at": "2026-10-11"

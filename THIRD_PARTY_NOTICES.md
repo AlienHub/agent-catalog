@@ -56,3 +56,9 @@ Reasonix 仓库素材随附原始 [MIT 文本](./licenses/reasonix-mit.txt)。Po
 来源、原始 SHA-256 与对应应用见 [素材清单](docs/research/coding-logo-assets-2026-10-11.json)。VS Code 图标来自 SVGL，适用随附 MIT 文本。其他素材来自相应官方站点或官方仓库，用于识别产品，商标和品牌权利归各自权利人；仓库代码许可证不自动赋予品牌许可。JetBrains AI Assistant 品牌标识归 JetBrains s.r.o.，品牌规则见 https://www.jetbrains.com/company/brand/ 。Pochi 本次补充官方 Logo，仍保留包级版权声明，不将仓库根 Apache-2.0 推定覆盖该资产。Rovo Dev 保留官网内嵌 SVG 的路径与属性，未重新绘制。
 
 官方 PNG 原样保存为位图，格式、尺寸与哈希在同一素材清单中。Plandex、MonkeyCode、AiderDesk、Crush、Neovate 的品牌权利归各自权利人；未因源码许可证推定额外品牌授权。
+
+## Web AI 资产补录（2026-10-11）
+
+本批原始官方 SVG/PNG 的来源页、下载地址、格式、尺寸、SHA-256 和对应应用见 [素材核验清单](docs/research/web-ai-assets-2026-10-11.json)。官网使用的第三方托管 CDN 以来源页链接核实，不仅凭域名归属。素材未经重绘或位图矢量化。Dola、Dreamina 使用各自官网品牌，未直接套用豆包或即梦。DeepL Write 与 Zapier Agents 使用对应官方产品页的共用厂商品牌标识，未声称专属产品 Logo。n8n 素材来自 [官方品牌规则](https://n8n.io/brandguidelines/)，品牌使用规则继续适用。
+
+这些素材用于识别产品，商标、版权和其他品牌权利归各自权利人。公开下载不等于再授权，不从源码许可或商业套餐推定品牌授权。本批没有添加未经确认的统一素材许可证。

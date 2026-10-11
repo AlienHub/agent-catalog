@@ -9,8 +9,8 @@ const raw = JSON.parse(await readFile(new URL('../data/dataset.json', import.met
 
 test('canonical snapshot preserved, including all record fields and IDs', () => {
   assert.deepEqual(catalog.apps, raw);
-  assert.equal(catalog.catalogMeta.recordCount, 321);
-  assert.equal(catalog.catalogMeta.productCount, 190);
+  assert.equal(catalog.catalogMeta.recordCount, raw.length);
+  assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
   assert.equal(catalog.catalogMeta.dataVersion, '0.14');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
@@ -181,4 +181,25 @@ test('coding logo assets retain verified hashes and provenance across applicatio
    }
   }
  }
+});
+
+
+test('Web AI additions preserve original asset hashes, format and per-application sources', async () => {
+  const { createHash } = await import('node:crypto');
+  const audit = JSON.parse(await readFile(new URL('../docs/research/web-ai-assets-2026-10-11.json', import.meta.url)));
+  for (const id of audit.new_application_ids) {
+    assert.deepEqual(catalog.getApp(id).interfaces, ['Web']);
+    assert.equal(catalog.getApp(id).chrome_extension_id, '');
+  }
+  for (const asset of audit.assets) {
+    const bytes = await readFile(new URL(`../assets/${asset.path}`, import.meta.url));
+    assert.equal(createHash('sha256').update(bytes).digest('hex'), asset.sha256, asset.path);
+    for (const id of asset.application_ids) {
+      assert.equal(catalog.getApp(id).icon, asset.path);
+      assert(catalog.getEvidence(id).sources.some(source => source.url === asset.url));
+      assert.equal(icons.getAppLogo(id).format, asset.format);
+    }
+  }
+  assert.equal(catalog.getApp('scispace').icon, '');
+  assert.equal(catalog.getApp('genspark').icon, '');
 });
