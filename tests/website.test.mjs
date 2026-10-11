@@ -22,14 +22,14 @@ async function setup(failure=false, trendResponses={}){
  w.HTMLDialogElement.prototype.close=function(){this.open=false;this._returnFocus?.focus()};
  w.eval(bundle);for(let i=0;i<50&&!w.document.querySelector(failure?'#error':'article');i++)await wait(10);
  const $=id=>w.document.getElementById(id),count=()=>w.document.querySelectorAll('.app-card').length;
- const change=async(id,value)=>{const el=$(id),prop=el.type==='checkbox'?'checked':'value';const descriptor=Object.getOwnPropertyDescriptor(el.tagName==='SELECT'?w.HTMLSelectElement.prototype:w.HTMLInputElement.prototype,prop);descriptor.set.call(el,value);el.dispatchEvent(new w.Event(el.tagName==='SELECT'||prop==='checked'?'change':'input',{bubbles:true}));await wait(25)};
+ const change=async(id,value)=>{if(id==='interface'){w.document.querySelector(`[data-form="${value}"]`).click();await wait(25);return;}const el=$(id),prop=el.type==='checkbox'?'checked':'value';const descriptor=Object.getOwnPropertyDescriptor(el.tagName==='SELECT'?w.HTMLSelectElement.prototype:w.HTMLInputElement.prototype,prop);descriptor.set.call(el,value);el.dispatchEvent(new w.Event(el.tagName==='SELECT'||prop==='checked'?'change':'input',{bubbles:true}));await wait(25)};
  const click=async el=>{(typeof el==='string'?$(el):el).click();await wait(25)};
  return {dom,w,$,count,change,click,errors,downloads};
 }
 test('React catalog preserves records, all filters, searches and empty/reset',async()=>{
  const t=await setup();try{
  assert.equal(t.count(),321);
- for(const[id,key,array]of [['type','type',false],['platform','platforms',true],['vendor','vendor_id',false],['interface','interfaces',true]]){const value=t.$(id).options[1].value;await t.change(id,value);assert.equal(t.count(),apps.filter(a=>array?a[key].includes(value):a[key]===value).length);await t.click('reset');assert.equal(t.count(),321)}
+ for(const[id,key,array]of [['type','type',false],['platform','platforms',true],['vendor','vendor_id',false]]){const value=t.$(id).options[1].value;await t.change(id,value);assert.equal(t.count(),apps.filter(a=>array?a[key].includes(value):a[key]===value).length);await t.click('reset');assert.equal(t.count(),321)}
  for(const field of ['name','vendor','aliases']){const app=apps.find(a=>field!=='aliases'||a.aliases.length);await t.change('search',field==='aliases'?app.aliases[0]:app[field]);assert(t.count()>0);await t.click('reset')}
  await t.change('search','zzzz-nonexistent-87234');assert.equal(t.count(),0);assert(!t.$('empty').hidden);await t.click('emptyReset');assert.equal(t.count(),321);
  // React checkbox change is driven by a click, just as a user toggles it.
@@ -146,14 +146,19 @@ test('unified Cloudflare config requests metrics on the authenticated website or
  try{await t.change('search','openclaw-cli');await t.click(t.w.document.querySelector('.appname'));await new Promise(r=>setTimeout(r,30));const section=t.w.document.querySelector('.repository-trends');assert.equal(section.querySelector('.trend-stats strong').textContent,'8');assert(section.textContent.includes('历史数据积累中'));}finally{t.dom.window.close()}
 });
 
-test('browser plugins and mini programs remain independent forms with selectable details', async () => {
+test('form segments share the classification row, omit mini-program option and retain its data', async () => {
  const t=await setup();try{
-  assert.deepEqual([...t.$('interface').options].map(o=>o.value),['','GUI','CLI','IDE 插件','Web','浏览器插件','小程序']);
+  assert.equal(t.$('interface').tagName,'DIV');
+  assert.deepEqual([...t.$('interface').querySelectorAll('button')].map(o=>o.dataset.form),['','GUI','CLI','IDE 插件','Web','浏览器插件']);
+  assert.equal(t.$('interface').parentElement,t.$('allCollection').parentElement.parentElement);
+  assert.equal(t.w.document.querySelector('select#interface'),null);
   await t.change('interface','浏览器插件');assert.equal(t.count(),8);
   assert([...t.w.document.querySelectorAll('.card-tags')].every(el=>el.textContent.includes('浏览器插件')&&!el.textContent.includes('GUI')));
-  await t.click('reset');await t.change('interface','小程序');assert.equal(t.count(),1);
+  await t.click('reset');await t.change('search','workbuddy-cn-mini-program');assert.equal(t.count(),1);
   await t.click(t.w.document.querySelector('.appname'));assert(t.$('detailContent').textContent.includes('workbuddy-cn-mini-program'));assert(t.$('detailContent').textContent.includes('微信'));
   await t.click('closeDetails');await t.click('reset');assert.equal(t.count(),apps.length);
+  for(const form of ['GUI','CLI','IDE 插件','Web','浏览器插件']){await t.change('interface',form);assert.equal(t.count(),apps.filter(a=>a.interfaces.includes(form)).length);assert.equal(t.$('interface').querySelector(`[data-form="${form}"]`).getAttribute('aria-pressed'),'true');}
+  await t.change('interface','');assert.equal(t.count(),apps.length);
  }finally{t.dom.window.close()}
 });
 
