@@ -13,3 +13,6 @@
 .app-card{content-visibility:auto;contain-intrinsic-block-size:auto 152px}
 
 .filter-segments{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:20px}.filter-segments .collections{margin-top:0;max-width:100%}.form-segments{flex-wrap:wrap}
+
+/* MiniMax Code official symbol is white; preserve the SVG and provide contrast. */
+.appicon[src="icons/minimax-code.svg"]{background:#202124;border-color:#202124}
