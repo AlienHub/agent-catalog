@@ -10,7 +10,7 @@ assert.equal(catalogMeta.productCount, new Set(raw.map(app => app.product_id)).s
 assert.equal(getApp('chatgpt').vendor_id, 'openai');
 assert(findApps({ interface: 'CLI' }).length > 0);
 assert(getAppIcon('chatgpt').svg.startsWith('<svg'));
-assert.equal(require('@alienhub/agent-atlas/dataset.json').length, apps.length);
+assert.equal(catalogMeta.recordCount, raw.length);
 assert((await readFile(require.resolve('@alienhub/agent-atlas/icons/chatgpt.svg'),'utf8')).includes('<svg'));
 
 assert.equal(require('@alienhub/agent-atlas/open-source.json')['openclaw-cli'].source_model, 'open-source');

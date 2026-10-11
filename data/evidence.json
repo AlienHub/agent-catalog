@@ -282,14 +282,18 @@
     "verified_at": "2026-10-02"
   },
   "quillbot": {
-    "notes": "Writing, paraphrasing and creative AI toolkit. No trustworthy current SVG asset was obtained in this pass; no raster-to-SVG wrapper is supplied.",
+    "notes": "Writing, paraphrasing and creative AI toolkit. No trustworthy current SVG asset was obtained in this pass; no raster-to-SVG wrapper is supplied. 2026-10-11 补充官方原始PNG位图Logo，未转换或冒充SVG。",
     "sources": [
       {
         "url": "https://quillbot.com/",
         "title": "QuillBot official product website"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/1GEyefcE9xXjgajeOPnhPvl0clNaQy87Uf2XLBS6Ov4bbZ5Xxoz263PhkGyFi8p7SGrMUaEUuYja-F07YqpOnn-R=s120",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "jasper": {
     "notes": "AI marketing application and agent workspace. Logo is the downloadable/copyable inline SVG explicitly supplied by the official homepage.",
@@ -5912,7 +5916,7 @@
     "verified_at": "2026-10-11"
   },
   "moxby-browser": {
-    "notes": "独立产品；Chat/Mods/Missions/Bridge 是同一产品功能/形态。应作为浏览器/电脑通用 Agent 收录；免费层不能标成免费 AI Agent，因为 Chat 与自主 Missions 不在免费层。桌面是可选 Bridge/companion，不能把历史整合浏览器 UI 宣传直接变成另一个现行产品。官方 SVG 未取得，保留 null。 核实 Chrome Web Store；Chromium 兼容描述不推定每个浏览器商店单独分发。免费 Mods 不包括 AI Chat/自主 Missions。 Moxby browser extension：版本/形态定位=Free Mods / Plus / Pro / Max；官方平台限制=Chrome / Chromium-based browser (official Chrome Web Store verified)；接口=browser extension、AI chat、browser automation；源代码分类=unknown；许可证=Moxby proprietary Terms of Service；商业状态=verified-paid；价格来源=https://moxby.com/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "独立产品；Chat/Mods/Missions/Bridge 是同一产品功能/形态。应作为浏览器/电脑通用 Agent 收录；免费层不能标成免费 AI Agent，因为 Chat 与自主 Missions 不在免费层。桌面是可选 Bridge/companion，不能把历史整合浏览器 UI 宣传直接变成另一个现行产品。官方 SVG 未取得，保留 null。 核实 Chrome Web Store；Chromium 兼容描述不推定每个浏览器商店单独分发。免费 Mods 不包括 AI Chat/自主 Missions。 Moxby browser extension：版本/形态定位=Free Mods / Plus / Pro / Max；官方平台限制=Chrome / Chromium-based browser (official Chrome Web Store verified)；接口=browser extension、AI chat、browser automation；源代码分类=unknown；许可证=Moxby proprietary Terms of Service；商业状态=verified-paid；价格来源=https://moxby.com/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-11 补充官方原始PNG位图Logo，未转换或冒充SVG。",
     "sources": [
       {
         "url": "https://moxby.com/",
@@ -5929,9 +5933,13 @@
       {
         "url": "https://moxby.com/pricing",
         "title": "官方 Free $0 仅运行免费 Marketplace Mods；Chat、创建 Mods/Missions 从 Plus $25/月起，Pro $50/月、Max $100/月；年付各 $250/$500/$1,000。第三方模型费用另计。"
+      },
+      {
+        "url": "https://moxby.com/brand/moxby-mark.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
-    "verified_at": "2026-10-09"
+    "verified_at": "2026-10-11"
   },
   "moxby-desktop": {
     "notes": "独立产品；Chat/Mods/Missions/Bridge 是同一产品功能/形态。应作为浏览器/电脑通用 Agent 收录；免费层不能标成免费 AI Agent，因为 Chat 与自主 Missions 不在免费层。桌面是可选 Bridge/companion，不能把历史整合浏览器 UI 宣传直接变成另一个现行产品。官方 SVG 未取得，保留 null。 桌面 Bridge/companion 为浏览器连接本地电脑的可选伴随，不是另一个独立品牌或完整自主桌面应用。 Moxby Desktop Bridge / companion：版本/形态定位=optional companion to browser extension; paid feature；官方平台限制=macOS (Intel and Apple Silicon documented)、Windows；接口=desktop companion、browser-to-local computer bridge；源代码分类=unknown；许可证=Moxby proprietary Terms of Service；商业状态=verified-paid；价格来源=https://moxby.com/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
@@ -6610,5 +6618,467 @@
       }
     ],
     "verified_at": "2026-10-11"
+  },
+  "sider-browser-extension": {
+    "notes": "Sider / ChatGPT Sidebar；官网Chrome及Edge链接交叉核验。浏览器内聊天、网页总结、Hand网页自动化与Code网站定制属于同一扩展功能，不拆为重复应用。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://sider.ai/extensions",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/difoiogjjojoaoomphldepapgpbgkhkb",
+        "title": "Sider: Chat with all AI: GPT-5, Claude, DeepSeek, Gemini, Grok — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/wTNeFS62yyaqVft_MeRoTbruPhDzswQUidH2fciH0myvLry-aCPcmIuZkEF2WUcyCoHDHxV7Hq0J3DlLgRozkC2IKQ=s120",
+        "title": "官方品牌素材原始 PNG"
+      },
+      {
+        "url": "https://microsoftedge.microsoft.com/addons/detail/dhoenijjpgpeimemopealfcbiecgceod",
+        "title": "官方 Microsoft Edge Add-ons 独立商店条目"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "monica-browser-extension": {
+    "notes": "Monica；官网安装帮助直接链接两个商店，Chrome发布者与帮助中心版权主体一致。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://www.monica.im/help/Get-Monica-across-all-your-devices",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/ofpnmcalabcbjgholdjcjblkibolbppb",
+        "title": "Monica: All-In-One AI Assist & Smartest AI Agent — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/rLhEeo6TgST5H4WmCNWKO4fDJDvZVGfoXJNt035pGtnamBRJenmcXhqiI3RvZbRM71LWlQkTL6B825XzbAwAx52c9Q=s120",
+        "title": "官方品牌素材原始 PNG"
+      },
+      {
+        "url": "https://microsoftedge.microsoft.com/addons/detail/fhimbbbmdjiifimnepkibjfjbppnjble",
+        "title": "官方 Microsoft Edge Add-ons 独立商店条目"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "merlin-browser-extension": {
+    "notes": "Merlin AI；官网直接链接Chrome商店，发布者Foyer Tech、支持站getmerlin.in。Edge商店尚未确认，不将Chrome ID复制给Edge。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://www.getmerlin.in/",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/camppjleccjaphfdbohjdohecfnoikec",
+        "title": "Merlin AI — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/1IRNacfoscegZdDLag7X13YsvqUKdlviMAFiAxMeldDGx9ppKkx-QA2c3-gELQXVrsJ5iQfPhTF-yHslzYctNHw93g=s120",
+        "title": "官方品牌素材原始 PNG"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "maxai-browser-extension": {
+    "notes": "MaxAI；官网直接链接独立Chrome和Edge商店条目，原MaxAI.me别名保留。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://www.maxai.me/",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/mhnlakgilnojmhinhkckjpncpbhabphi",
+        "title": "MaxAI: Ask AI anything as you browse (GPT, Gemini, Claude, Grok, etc.) — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/df7_QdBlSnqIOVG4i6F_Di2huUvmS1ZOTlS_ZOst-ViBCd6kkVqiXY_7vOQQnOenPvgaiFD29fEFp-VMcmftwJCMMg=s120",
+        "title": "官方品牌素材原始 PNG"
+      },
+      {
+        "url": "https://microsoftedge.microsoft.com/addons/detail/ngphehpfehdmjellohmlojkplilekadg",
+        "title": "官方 Microsoft Edge Add-ons 独立商店条目"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "harpa-browser-extension": {
+    "notes": "HARPA AI；官网get.harpa.ai安装入口重定向Chrome商店。网页自动化、监控、摘要和AI侧栏是同一扩展；未把可安装Chrome包推定为Edge商店发布。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://harpa.ai/",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/eanggfilgoajaocelnaflolkadkeghjp",
+        "title": "HARPA AI: Web Automation with ChatGPT, Claude, Gemini, Grok — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/6aYbtLo2s6tEznsCGN5AJ_o0j7HR05CtD-dbsRDicnWCOc98OkFFdH8ZhLD0lp2HFPzLRydEf7QTG8ZFH5GfHjq7PA=s120",
+        "title": "官方品牌素材原始 PNG"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "immersive-translate-browser-extension": {
+    "notes": "沉浸式翻译 / Immersive Translate；官网列浏览器商店，支持AI翻译网页、PDF与字幕。Safari仅表示桌面扩展形态，不收移动端。未把已公开历史仓库推定为当前商店版本开源。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://immersivetranslate.com/en/",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
+        "title": "Immersive Translate: AI Web, PDF & Video Translator — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://immersivetranslate.com/img/favicon.svg",
+        "title": "官方品牌素材原始 SVG"
+      },
+      {
+        "url": "https://microsoftedge.microsoft.com/addons/detail/amkbmndfnliijdhojkpoglbnaaahippg",
+        "title": "官方 Microsoft Edge Add-ons 独立商店条目"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "compose-ai-browser-extension": {
+    "notes": "Compose AI；官网与Chrome商店验证网站所有者身份，AI自动补全、改写、邮件写作。发布者页面列Michael Shuffett，官网版权主体Compose AI, Inc.。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://www.compose.ai/",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/ddlbpiadoechcolndfeaonajmngmhblj",
+        "title": "Compose AI: AI-powered Writing Tool — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/5HmiTnv6h8QmF7rYjg5qe1BYToXRjB8ISCc081oJ6hBGjRPi-sPIOuhUZd_axRZ7dvPFHEeWUPJR5LDgnXnty2jOV6M=s120",
+        "title": "官方品牌素材原始 PNG"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "tinamind-browser-extension": {
+    "notes": "TinaMind；官网扩展链接与Chrome已验证网站所有者tinamind.com一致。官网现推广WiseInks工作区，本条仅TinaMind扩展，不将新工作区品牌与插件名称混淆。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://tinamind.com/",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/befflofjcniongenjmbkgkoljhgliihe",
+        "title": "TinaMind - The most powerful AI Assistant! — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/K9crHkKVk8B11XNYig7w89fC1OC3BFu9k-zolWg8wngt6JfTLS0p0jcHMHrYuARFnkBxvs2CS2DtcRrSGmXEAk2IEa8=s120",
+        "title": "官方品牌素材原始 PNG"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "glasp-youtube-summary-browser-extension": {
+    "notes": "YouTube Summary with ChatGPT & Claude；官网直接链接两商店，发布者GLASP INC。这是Glasp公司独立发行的扩展，不是OpenAI/Anthropic官方插件；与Glasp高亮扩展ID不同，归同一product_id=glasp。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://glasp.co/youtube-summary",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/nmmicjeknamkfloonkhhcjmomieiodli",
+        "title": "YouTube Summary with ChatGPT & Claude — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/v87Ne-944ya_q_QY0aymwZA8VybkOc3eQQhL4942ewOhK3Y7qHQ2Yop7l5mfoNThWNz23O01fFxNM_etxRA5VUAsWg0=s120",
+        "title": "官方品牌素材原始 PNG"
+      },
+      {
+        "url": "https://microsoftedge.microsoft.com/addons/detail/cfmilchfgimokpfjlhabjiaenaldahih",
+        "title": "官方 Microsoft Edge Add-ons 独立商店条目"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "glasp-browser-extension": {
+    "notes": "Glasp Web Highlighter；官网明确AI建议高亮、总结与基于阅读记录的AI问答。与YouTube Summary独立商店条目，同一Glasp产品生态。Safari仅桌面。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://glasp.co/features",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/blillmbchncajnhkjfdnincfndboieik",
+        "title": "Glasp Web Highlighter: PDF & Web Highlight — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/tB9DLsVQ5T9FvZYrAV9HZqTOHY0EzWTuzuFaoKhc9mIZo3oinJ04w0-rlpYYmsCEHxD9dfdRQWs4p9aZFXPYH6C64Q=s120",
+        "title": "官方品牌素材原始 PNG"
+      },
+      {
+        "url": "https://microsoftedge.microsoft.com/addons/detail/lldbnkidnfhinkmoapddhdkgobcajenb",
+        "title": "官方 Microsoft Edge Add-ons 独立商店条目"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "languagetool-browser-extension": {
+    "notes": "LanguageTool；官网逐一列浏览器安装链接，商店发布者LanguageTooler GmbH。扩展AI改写与语法检查，不把语言工具核心开源许可推定为商店扩展的许可。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://languagetool.org/",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/oldceeleldhonbafppcapldpdifcinji",
+        "title": "AI Grammar Checker & Paraphraser – LanguageTool — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/aWtP0rIATRVsZjZHBoicvGMeXImFkM4PV4LVJ3SWyJ6LFYDFjHjp2oJYZAND3HW-3Fz0Sgx9liEq2G6Ftq4OIEOO0zE=s120",
+        "title": "官方品牌素材原始 PNG"
+      },
+      {
+        "url": "https://microsoftedge.microsoft.com/addons/detail/hfjadhjooeceemgojogkhlppanjkbobc",
+        "title": "官方 Microsoft Edge Add-ons 独立商店条目"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "quillbot-browser-extension": {
+    "notes": "QuillBot；Chrome及Edge官方安装帮助分别验证商店ID，沿用现有Web product_id/vendor_id。桌面Safari扩展亦官方说明；不收录移动端。Chrome商店法律发布者QuillBot (Course Hero), LLC。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://help.quillbot.com/hc/en-us/categories/16802670890007-Extensions-Apps",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/iidnbdjijdkbmajdffnidomddglmieko",
+        "title": "Quillbot: AI Writing Assistant with Humanizer, Paraphraser & AI Detector — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/1GEyefcE9xXjgajeOPnhPvl0clNaQy87Uf2XLBS6Ov4bbZ5Xxoz263PhkGyFi8p7SGrMUaEUuYja-F07YqpOnn-R=s120",
+        "title": "官方品牌素材原始 PNG"
+      },
+      {
+        "url": "https://microsoftedge.microsoft.com/addons/detail/cphpplikchcioccedpjacdanfibnimmh",
+        "title": "官方 Microsoft Edge Add-ons 独立商店条目"
+      },
+      {
+        "url": "https://help.quillbot.com/hc/en-us/articles/39339997135383-How-do-I-install-the-Quillbot-Chrome-extension",
+        "title": "QuillBot 官方Chrome安装链接"
+      },
+      {
+        "url": "https://help.quillbot.com/hc/en-us/articles/39252402443415-How-do-I-install-the-Quillbot-extension-on-Microsoft-Edge",
+        "title": "QuillBot 官方Edge安装链接"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "aiprm-browser-extension": {
+    "notes": "AIPRM for ChatGPT；官网安装链接与商店AIPRM, Corp.匹配。第三方提示词管理与团队社区功能，不冒充OpenAI官方扩展。官网AIPRM for Claude页当前也链接同一个Chrome ID，因此不另造重复应用。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://www.aiprm.com/",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/ojnbohmppadfgpejeebfnmnknjdlckgj",
+        "title": "AIPRM for ChatGPT — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/u1cIHX2SwGud7U2JF1SBpryNUhvnAF2Ps7qHDu0teB835eTVOIsglZf6bfB086xOjYRf8rXcQKjlwkmCg9JTYJQjVw=s120",
+        "title": "官方品牌素材原始 PNG"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "jetwriter-browser-extension": {
+    "notes": "Jetwriter AI；旧chatgptwriter.ai重定向Jetwriter官网，旧品牌ChatGPT Writer作为别名。官方Chrome/Edge安装链接核对，Firefox及Safari为coming soon，不加入平台列表。非OpenAI官方插件。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://jetwriter.ai/",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/pdnenlnelpdomajfejgapbdpmjkfpjkp",
+        "title": "Jetwriter AI: Reply Emails, Ask Page, Summarize, Fix Grammar, and More — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/8ZfTYzpBLEZ03bwu0cioHFBuxy7SNrc6SZ03Gma2ovE4O7d2iEwD5osGnUgjNBPEUjR1ejO9gJR9xPXtx_zLZsYoiJ8=s120",
+        "title": "官方品牌素材原始 PNG"
+      },
+      {
+        "url": "https://microsoftedge.microsoft.com/addons/detail/gocnmcailiollkkaaieichicbfobepae",
+        "title": "官方 Microsoft Edge Add-ons 独立商店条目"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "eightify-browser-extension": {
+    "notes": "Eightify；官网footer直接链接Chrome商店；商店发布者Rational Expressions Inc.，支持邮箱eightify.app。YouTube视频总结与摘要检索；未确认独立Edge条目。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://eightify.app/",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/cdcpabkolgalpgeingbdcebojebfelgb",
+        "title": "Eightify: AI YouTube Summarizer — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/RJqyxsrLdu3ZWpP1r6uVaRbo-bsG9ERMEHmKFI8A2KV3oD_k4LpObu_4ORuaOLw9EaX0rpK0vS0pj2MvtDN3r_Y95rw=s120",
+        "title": "官方品牌素材原始 PNG"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "textcortex-browser-extension": {
+    "notes": "TextCortex；官方帮助中心链接Chrome商店并明确支持Chromium浏览器。Edge平台表示安装Chrome构建，不表示存在已确认Edge商店ID；ZenoChat/Zeno Assist属于扩展功能。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://help.textcortex.com/hc/en-us/articles/21630404402065-How-to-install-TextCortex-Browser-Extension",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/hahkojdegblcccihngmgndhdfheheofe",
+        "title": "TextCortex: AI Knowledge Base for Enterprises — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/iay9HUXcZPRCt7rFEuVM9WBuwG13R5e7oe8_2zws4Js8j-Z0i1xXvuDLGmuE6KpKFCTBQ5YGfAPqQzuQ2SGKv3U2=s120",
+        "title": "官方品牌素材原始 PNG"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "scispace-browser-extension": {
+    "notes": "SciSpace；官网插件页直接链接Chrome商店，发布者PubGenius Inc与官网版权主体匹配。论文解释、科学资料摘要；与Web形态以product_id=scispace关联。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
+    "sources": [
+      {
+        "url": "https://scispace.com/copilot-chrome-plugin",
+        "title": "官方产品与浏览器安装说明"
+      },
+      {
+        "url": "https://chromewebstore.google.com/detail/cipccbpjpemcnijhjcdjmkjhmhniiick",
+        "title": "SciSpace: Do hours of research in minutes — 官方 Chrome 商店条目"
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/wY4UVFl6mRSrlaWoT_9VKE6KtBR1Bem9tXnB3HyZBNNx3sPksM-9y9gGXDp7vzIELKUsHZwzjCMsaqBo_XUQTXM=s120",
+        "title": "官方品牌素材原始 PNG"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "comet-desktop": {
+    "notes": "独立AI浏览器，内嵌Comet Assistant；官网明确Mac/Windows。与Perplexity Web助手为不同产品，不重复建立Assistant GUI。 不收录移动端；资料核验不等于安装或功能实测。 Logo原样提取官方Comet Logo ZIP内Comet Logo/Icon/Comet_Icon_Black.svg，不使用双栏黑白样张。",
+    "sources": [
+      {
+        "url": "https://www.perplexity.ai/comet",
+        "title": "官方浏览器产品、能力与桌面平台说明"
+      },
+      {
+        "url": "https://live.standards.site/perplexity/logo",
+        "title": "Perplexity 官方品牌指南 — Comet 标志"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/standards-site-beta.appspot.com/o/documents%2F6t12iheczyb%2F732776432bb%2FComet%20Logo.zip?alt=media&token=305c54a4-9cb1-4cb5-9d96-338a7779902d",
+        "title": "官方 Comet Logo ZIP 原始标志包"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "dia-desktop": {
+    "notes": "AI浏览器，内嵌跨标签上下文问答、报告与工作整合；Windows 1.1.0已于2026-10-08官方发布，不沿用历史仅macOS的说明。 不收录移动端；资料核验不等于安装或功能实测。 官网favicon.svg实际内嵌位图，不作为独立矢量SVG收录；采用官网原始PNG。",
+    "sources": [
+      {
+        "url": "https://www.diabrowser.com/",
+        "title": "官方浏览器产品、能力与桌面平台说明"
+      },
+      {
+        "url": "https://www.diabrowser.com/changelog/windows/1-1-0",
+        "title": "官方浏览器产品、能力与桌面平台说明"
+      },
+      {
+        "url": "https://www.diabrowser.com/favicon-96x96.png",
+        "title": "官方原始 PNG 位图品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "opera-desktop": {
+    "notes": "浏览器本体内嵌Opera AI，当前官方页面已用Opera AI名称，Aria为历史品牌别名。通过GUI形态记录Opera的AI能力；不另造Aria/ChatGPT/Gemini三个GUI条目。 不收录移动端；资料核验不等于安装或功能实测。",
+    "sources": [
+      {
+        "url": "https://www.opera.com/features/browser-ai",
+        "title": "官方浏览器产品、能力与桌面平台说明"
+      },
+      {
+        "url": "https://www.opera.com/download",
+        "title": "官方浏览器产品、能力与桌面平台说明"
+      },
+      {
+        "url": "https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/favicon/opera/safari-pinned-tab.2ff3aa479bec.svg",
+        "title": "品牌素材原始 SVG"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "opera-neon-desktop": {
+    "notes": "独立于Opera的AI浏览器，内嵌Chat/Do/Make和研究任务能力。官网FAQ确认Windows/macOS；订阅页区分可免费连接自有代理与需订阅的内置Agent能力。 不收录移动端；资料核验不等于安装或功能实测。",
+    "sources": [
+      {
+        "url": "https://www.operaneon.com/",
+        "title": "官方浏览器产品、能力与桌面平台说明"
+      },
+      {
+        "url": "https://www.operaneon.com/faq",
+        "title": "官方浏览器产品、能力与桌面平台说明"
+      },
+      {
+        "url": "https://www.operaneon.com/subscription",
+        "title": "官方浏览器产品、能力与桌面平台说明"
+      },
+      {
+        "url": "https://cdn-production-opera-website.operacdn.com/staticfiles/assets/neon/images/favicon/apple-touch-icon-180x180.943a8669f7ea.png",
+        "title": "品牌素材原始 PNG"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "microsoft-edge-desktop": {
+    "notes": "Edge浏览器内嵌Copilot与Copilot Mode，按浏览器本体GUI记录，不重复建立内嵌Copilot GUI。本条仅核验Windows/macOS；功能按设备、市场、账户及版本变化，不推定Linux获得同等AI能力。 不收录移动端；资料核验不等于安装或功能实测。",
+    "sources": [
+      {
+        "url": "https://www.microsoft.com/en-us/edge/copilot-mode",
+        "title": "官方浏览器产品、能力与桌面平台说明"
+      },
+      {
+        "url": "https://www.microsoft.com/en-us/edge",
+        "title": "官方浏览器产品、能力与桌面平台说明"
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/microsoft-copilot/getting-started-with-copilot-in-microsoft-edge",
+        "title": "官方浏览器产品、能力与桌面平台说明"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/pheralb/svgl/f9b726cee1d1f3c697a18c880185e89d9a55bb70/static/library/edge.svg",
+        "title": "品牌素材原始 SVG"
+      },
+      {
+        "url": "https://github.com/pheralb/svgl/blob/f9b726cee1d1f3c697a18c880185e89d9a55bb70/LICENSE",
+        "title": "SVGL MIT 原始版权声明；不授予商标权"
+      }
+    ],
+    "verified_at": "2026-10-11"
+  },
+  "chatgpt-atlas-gui": {
+    "notes": "历史资产：OpenAI官方介绍页顶部已明确 Atlas has since been deprecated（Atlas已弃用）。本次核验日期2026-10-11，官方未在该说明给出具体弃用日期，不猜测日期。2025-10-21发布公告仅确认macOS，当时Windows为coming soon，未作为已发行平台收录。原chatgpt.com/atlas入口本次不可读。保留识别旧安装的资产记录，不代表当前仍可下载或提供服务；专用Logo未核验，未套用ChatGPT品牌标志。",
+    "verified_at": "2026-10-11",
+    "sources": [
+      {
+        "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+        "title": "OpenAI 官方 Atlas 发布历史及当前弃用声明"
+      }
+    ]
   }
 }
