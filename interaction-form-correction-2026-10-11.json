@@ -1,0 +1,25 @@
+{
+  "fromVersion": "0.7",
+  "toVersion": "0.8",
+  "previousRecordCount": 303,
+  "recordCount": 304,
+  "browserPluginIds": [
+    "chatgpt-browser-extension",
+    "claude-browser-extension",
+    "fireflies-ai-browser-extension",
+    "grammarly-browser-extension",
+    "otter-ai-browser-extension",
+    "wordtune-browser-extension",
+    "qianwen-browser-extension"
+  ],
+  "restoredMiniProgramId": "workbuddy-cn-mini-program",
+  "forms": [
+    "GUI",
+    "CLI",
+    "IDE 插件",
+    "Web",
+    "浏览器插件",
+    "小程序"
+  ],
+  "notes": "浏览器插件独立分类；小程序恢复为独立应用；IM 仅作为接入渠道；钉钉内嵌 AI 能力归 GUI。"
+}

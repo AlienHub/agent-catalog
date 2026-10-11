@@ -21,3 +21,6 @@ const combinedForms: CatalogApp['interfaces'] = ['GUI', 'CLI'];
 // @ts-expect-error legacy form names are not canonical
 const legacyForm: CatalogApp['interfaces'] = ['IDE 扩展'];
 void [oneForm, combinedForms, legacyForm];
+const browserPluginForm: CatalogApp['interfaces'] = ['浏览器插件'];
+const miniProgramForm: CatalogApp['interfaces'] = ['小程序'];
+void [browserPluginForm, miniProgramForm];

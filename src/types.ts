@@ -1,4 +1,4 @@
-export type InteractionForm = 'GUI' | 'CLI' | 'IDE 插件' | 'Web';
+export type InteractionForm = 'GUI' | 'CLI' | 'IDE 插件' | 'Web' | '浏览器插件' | '小程序';
 /** One independently identified application per interaction form and edition. */
 export interface CatalogApp {
   readonly id: string;

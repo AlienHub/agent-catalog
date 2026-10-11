@@ -24,7 +24,7 @@ export async function validateData() {
       assert.equal(new Set(app[key]).size, app[key].length, `Duplicate ${app.id}.${key}`);
     }
     assert.equal(app.interfaces.length, 1, `One interaction form per application: ${app.id}`);
-    assert(['GUI','CLI','IDE 插件','Web'].includes(app.interfaces[0]), `Invalid interaction form: ${app.id}`);
+    assert(['GUI','CLI','IDE 插件','Web','浏览器插件','小程序'].includes(app.interfaces[0]), `Invalid interaction form: ${app.id}`);
     if (app.icon) {
       assert(/^icons\/[a-z0-9-]+\.svg$/.test(app.icon), `Nonportable SVG path: ${app.icon}`);
       iconPaths.add(app.icon);

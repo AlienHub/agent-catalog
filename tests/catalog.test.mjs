@@ -9,9 +9,9 @@ const raw = JSON.parse(await readFile(new URL('../data/dataset.json', import.met
 
 test('canonical snapshot preserved, including all record fields and IDs', () => {
   assert.deepEqual(catalog.apps, raw);
-  assert.equal(catalog.catalogMeta.recordCount, 303);
+  assert.equal(catalog.catalogMeta.recordCount, 304);
   assert.equal(catalog.catalogMeta.productCount, 185);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.7');
+  assert.equal(catalog.catalogMeta.dataVersion, '0.8');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
@@ -75,7 +75,7 @@ test('search supports case, aliases, Unicode normalization, Chinese and combined
   assert.deepEqual(catalog.searchApps('never-matching-unicorn-128392'), []);
 });
 test('collections and evidence preserve exact provenance and unknown-key behavior', () => {
-  assert.equal(catalog.getCollection('chinese_agents').length, 60);
+  assert.equal(catalog.getCollection('chinese_agents').length, 61);
   assert.deepEqual(catalog.getCollection('not-a-collection'), []);
   assert.deepEqual(catalog.findApps({ collection: '__proto__' }), []);
   assert.equal(catalog.getEvidence('__proto__'), undefined);
@@ -100,14 +100,14 @@ test('all SVG lookups are bundled and portable, with explicit absence', async ()
 });
 
 test('each application has one canonical form and split applications keep product identity', async () => {
-  const forms = new Set(['GUI', 'CLI', 'IDE 插件', 'Web']);
+  const forms = new Set(['GUI', 'CLI', 'IDE 插件', 'Web', '浏览器插件', '小程序']);
   for (const app of catalog.apps) {
     assert.equal(app.interfaces.length, 1, app.id);
     assert(forms.has(app.interfaces[0]), app.id);
   }
   assert.deepEqual(catalog.getApp('chatgpt').interfaces, ['Web']);
   assert.deepEqual(catalog.getApp('chatgpt-gui').interfaces, ['GUI']);
-  assert.deepEqual(catalog.getApp('chatgpt-browser-extension').interfaces, ['GUI']);
+  assert.deepEqual(catalog.getApp('chatgpt-browser-extension').interfaces, ['浏览器插件']);
   assert.equal(catalog.getAppsByProduct('chatgpt').length, 3);
   for (const app of catalog.getAppsByProduct('chatgpt')) assert.equal(app.vendor_id, 'openai');
   assert(!catalog.getApp('chatgpt-gui').platforms.includes('Web'));

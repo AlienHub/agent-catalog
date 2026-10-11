@@ -515,7 +515,7 @@
   },
   {
     "id": "chatgpt-browser-extension",
-    "name": "ChatGPT（浏览器扩展 · GUI）",
+    "name": "ChatGPT（浏览器插件）",
     "aliases": [
       "ChatGPT",
       "Chat GPT"
@@ -530,7 +530,7 @@
     "vendor_id": "openai",
     "product_id": "chatgpt",
     "interfaces": [
-      "GUI"
+      "浏览器插件"
     ],
     "edition": "国际版",
     "svg_status": "available"
@@ -607,7 +607,7 @@
   },
   {
     "id": "claude-browser-extension",
-    "name": "Claude（浏览器扩展 · GUI）",
+    "name": "Claude（浏览器插件）",
     "aliases": [
       "Claude"
     ],
@@ -615,13 +615,13 @@
     "type": "通用助手",
     "website": "https://claude.ai/",
     "platforms": [
-      "ChromeOS"
+      "浏览器"
     ],
     "icon": "icons/claude.svg",
     "vendor_id": "anthropic",
     "product_id": "claude",
     "interfaces": [
-      "GUI"
+      "浏览器插件"
     ],
     "edition": "国际版",
     "svg_status": "available"
@@ -1500,7 +1500,7 @@
   },
   {
     "id": "fireflies-ai-browser-extension",
-    "name": "Fireflies.ai（浏览器扩展 · GUI）",
+    "name": "Fireflies.ai（浏览器插件）",
     "aliases": [
       "Fireflies.ai",
       "Fireflies"
@@ -1515,7 +1515,7 @@
     "vendor_id": "fireflies-ai",
     "product_id": "fireflies-ai",
     "interfaces": [
-      "GUI"
+      "浏览器插件"
     ],
     "edition": "国际版",
     "svg_status": "available"
@@ -1862,7 +1862,7 @@
   },
   {
     "id": "grammarly-browser-extension",
-    "name": "Grammarly（浏览器扩展 · GUI）",
+    "name": "Grammarly（浏览器插件）",
     "aliases": [
       "Grammarly"
     ],
@@ -1876,7 +1876,7 @@
     "vendor_id": "superhuman",
     "product_id": "grammarly",
     "interfaces": [
-      "GUI"
+      "浏览器插件"
     ],
     "edition": "国际版",
     "svg_status": "available"
@@ -3106,7 +3106,7 @@
   },
   {
     "id": "otter-ai-browser-extension",
-    "name": "Otter.ai（浏览器扩展 · GUI）",
+    "name": "Otter.ai（浏览器插件）",
     "aliases": [
       "Otter.ai",
       "Otter",
@@ -3122,7 +3122,7 @@
     "vendor_id": "otter-ai",
     "product_id": "otter-ai",
     "interfaces": [
-      "GUI"
+      "浏览器插件"
     ],
     "edition": "国际版",
     "svg_status": "available"
@@ -4133,7 +4133,7 @@
   },
   {
     "id": "wordtune-browser-extension",
-    "name": "Wordtune（浏览器扩展 · GUI）",
+    "name": "Wordtune（浏览器插件）",
     "aliases": [
       "Wordtune"
     ],
@@ -4149,7 +4149,7 @@
     "vendor_id": "ai21",
     "product_id": "wordtune",
     "interfaces": [
-      "GUI"
+      "浏览器插件"
     ],
     "edition": "国际版",
     "svg_status": "available"
@@ -4195,6 +4195,28 @@
     "product_id": "workbuddy",
     "interfaces": [
       "GUI"
+    ],
+    "edition": "中国版",
+    "svg_status": "已核验SVG · 官方来源"
+  },
+  {
+    "id": "workbuddy-cn-mini-program",
+    "name": "WorkBuddy 中国版（微信小程序）",
+    "aliases": [
+      "腾讯龙虾",
+      "Tencent WorkBuddy"
+    ],
+    "vendor": "腾讯 Tencent",
+    "type": "通用任务 Agent",
+    "website": "https://www.workbuddy.cn/",
+    "platforms": [
+      "微信"
+    ],
+    "icon": "icons/workbuddy.svg",
+    "vendor_id": "tencent",
+    "product_id": "workbuddy",
+    "interfaces": [
+      "小程序"
     ],
     "edition": "中国版",
     "svg_status": "已核验SVG · 官方来源"
@@ -4377,7 +4399,7 @@
   },
   {
     "id": "qianwen-browser-extension",
-    "name": "千问（浏览器扩展 · GUI）",
+    "name": "千问（浏览器插件）",
     "aliases": [
       "千问",
       "通义千问",
@@ -4394,7 +4416,7 @@
     "vendor_id": "alibaba",
     "product_id": "qwen-chat",
     "interfaces": [
-      "GUI"
+      "浏览器插件"
     ],
     "edition": "中国版",
     "svg_status": "已核验SVG · Lobe Icons"

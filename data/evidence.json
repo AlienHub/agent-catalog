@@ -3246,7 +3246,7 @@
         "title": "WorkBuddy 官方多端协同说明"
       }
     ],
-    "notes": "腾讯正式办公智能体产品，可执行本地文件、办公和开发任务；微信小程序/IM 是远程入口。腾讯财报以活跃账户衡量称其为中国最受欢迎的效率 AI 智能体；该口径为厂商披露。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM / 小程序。 IM 是接入渠道，不额外计为独立应用。 小程序/钉钉内嵌为远程调度入口，保留在说明中。",
+    "notes": "腾讯正式办公智能体产品，可执行本地文件、办公和开发任务；微信小程序/IM 是远程入口。腾讯财报以活跃账户衡量称其为中国最受欢迎的效率 AI 智能体；该口径为厂商披露。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM / 小程序。 IM 是接入渠道，不额外计为独立应用。 微信小程序另见独立应用 workbuddy-cn-mini-program。",
     "verified_at": "2026-10-02"
   },
   "workbuddy": {
@@ -3406,7 +3406,7 @@
         "title": "悟空官方 FAQ：独立应用与钉钉设备调度"
       }
     ],
-    "notes": "企业级 AI 工作平台，可自主规划任务并调用工具；独立桌面 App 操作本机，钉钉入口用于统一调度。阿里旗舰级正式发布产品，未用钉钉总用户数冒充悟空用户数。下载页仍有 Beta 标识，官网当前图标为 PNG。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / 钉钉内嵌。 小程序/钉钉内嵌为远程调度入口，保留在说明中。",
+    "notes": "企业级 AI 工作平台，可自主规划任务并调用工具；独立桌面 App 操作本机，钉钉入口用于统一调度。阿里旗舰级正式发布产品，未用钉钉总用户数冒充悟空用户数。下载页仍有 Beta 标识，官网当前图标为 PNG。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / 钉钉内嵌。 钉钉内嵌表示钉钉 GUI 应用具有的 AI 能力，不另立插件形态。",
     "verified_at": "2026-10-02"
   },
   "qoder-desktop": {
@@ -4644,7 +4644,7 @@
     "verified_at": "2026-10-02"
   },
   "chatgpt-browser-extension": {
-    "notes": "General assistant with search, writing, images and voice. Desktop and mobile distributions are interfaces of the same product; subscription tiers are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器扩展作为 GUI 下的独立宿主应用保留，未与桌面/移动客户端合并。",
+    "notes": "General assistant with search, writing, images and voice. Desktop and mobile distributions are interfaces of the same product; subscription tiers are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。",
     "sources": [
       {
         "url": "https://chatgpt.com/",
@@ -4684,7 +4684,7 @@
     "verified_at": "2026-10-02"
   },
   "claude-browser-extension": {
-    "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器扩展作为 GUI 下的独立宿主应用保留，未与桌面/移动客户端合并。",
+    "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。",
     "sources": [
       {
         "url": "https://claude.ai/",
@@ -4756,7 +4756,7 @@
     "verified_at": "2026-10-02"
   },
   "fireflies-ai-browser-extension": {
-    "notes": "AI meeting and work assistant. Homepage explicitly documents web dashboard, desktop/mobile apps and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器扩展作为 GUI 下的独立宿主应用保留，未与桌面/移动客户端合并。",
+    "notes": "AI meeting and work assistant. Homepage explicitly documents web dashboard, desktop/mobile apps and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。",
     "sources": [
       {
         "url": "https://fireflies.ai/",
@@ -4810,7 +4810,7 @@
     "verified_at": "2026-10-02"
   },
   "grammarly-browser-extension": {
-    "notes": "AI writing application. Official company page says Grammarly remains the product name while the company is now Superhuman. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器扩展作为 GUI 下的独立宿主应用保留，未与桌面/移动客户端合并。",
+    "notes": "AI writing application. Official company page says Grammarly remains the product name while the company is now Superhuman. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。",
     "sources": [
       {
         "url": "https://www.grammarly.com/",
@@ -4960,7 +4960,7 @@
     "verified_at": "2026-10-02"
   },
   "otter-ai-browser-extension": {
-    "notes": "AI meeting recording, transcription and insights application. Homepage links desktop, iOS, Android and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器扩展作为 GUI 下的独立宿主应用保留，未与桌面/移动客户端合并。",
+    "notes": "AI meeting recording, transcription and insights application. Homepage links desktop, iOS, Android and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。",
     "sources": [
       {
         "url": "https://otter.ai/",
@@ -5018,7 +5018,7 @@
     "verified_at": "2026-10-02"
   },
   "wordtune-browser-extension": {
-    "notes": "AI21 Labs writing and rewriting assistant. Official SVG wordmark supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / 浏览器扩展。 浏览器扩展作为 GUI 下的独立宿主应用保留，未与桌面/移动客户端合并。",
+    "notes": "AI21 Labs writing and rewriting assistant. Official SVG wordmark supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。",
     "sources": [
       {
         "url": "https://www.wordtune.com/",
@@ -5080,7 +5080,7 @@
         "title": "阿里云官方文档：千问办公定位与 qwenwork.cn 官方入口"
       }
     ],
-    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。 千问聊天仍为 qwen-chat 产品；独立的千问办公（QwenWork）使用 product_id=qwenwork，Qwen Code 使用 product_id=qwen-code，不因共用品牌或集团归并成同一产品。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器扩展作为 GUI 下的独立宿主应用保留，未与桌面/移动客户端合并。",
+    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。 千问聊天仍为 qwen-chat 产品；独立的千问办公（QwenWork）使用 product_id=qwenwork，Qwen Code 使用 product_id=qwen-code，不因共用品牌或集团归并成同一产品。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。",
     "verified_at": "2026-10-02"
   },
   "comate-ide-plugin": {
@@ -5099,6 +5099,28 @@
       }
     ],
     "notes": "文心快码提供Zulu等编程智能体，官方文档明确支持代码库检索、端到端生成、技术规划、测试、评审和问题修复；适合中国厂商Agent筛选。原聚合记录现按独立 GUI 应用和 IDE 插件拆分；支持平台仅保留原有来源，不新增推断。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IDE 扩展。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：GUI / IDE 扩展。",
+    "verified_at": "2026-10-02"
+  },
+  "workbuddy-cn-mini-program": {
+    "sources": [
+      {
+        "url": "https://cloud.tencent.com/product/workbuddy",
+        "title": "腾讯云 WorkBuddy：自主规划、调用工具、读写本地文件"
+      },
+      {
+        "url": "https://www.codebuddy.cn/docs/workbuddy/Download-History",
+        "title": "WorkBuddy 官方历史版本：macOS / Windows"
+      },
+      {
+        "url": "https://static.www.tencent.com/uploads/2026/05/13/59cf8219adbb046153f69387479350ac.pdf",
+        "title": "腾讯 2026 年一季度财报：WorkBuddy 使用增长与活跃度"
+      },
+      {
+        "url": "https://www.workbuddy.cn/docs/workbuddymini/features/Multidevice",
+        "title": "WorkBuddy 官方多端协同说明"
+      }
+    ],
+    "notes": "腾讯正式办公智能体产品，可执行本地文件、办公和开发任务；微信小程序/IM 是远程入口。腾讯财报以活跃账户衡量称其为中国最受欢迎的效率 AI 智能体；该口径为厂商披露。 2026-10-11 形态规范迁移：本条仅表示小程序应用。原交互标签：GUI / IM / 小程序。 IM 是接入渠道，不额外计为独立应用。 小程序入口作为独立应用保留。 v0.8 恢复微信小程序为独立应用记录，沿用原始小程序入口来源；小程序可用于远程触发任务，不声称所有桌面功能均能在小程序内运行。",
     "verified_at": "2026-10-02"
   }
 }
