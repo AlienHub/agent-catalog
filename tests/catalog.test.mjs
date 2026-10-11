@@ -9,9 +9,9 @@ const raw = JSON.parse(await readFile(new URL('../data/dataset.json', import.met
 
 test('canonical snapshot preserved, including all record fields and IDs', () => {
   assert.deepEqual(catalog.apps, raw);
-  assert.equal(catalog.catalogMeta.recordCount, 304);
+  assert.equal(catalog.catalogMeta.recordCount, 297);
   assert.equal(catalog.catalogMeta.productCount, 185);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.9');
+  assert.equal(catalog.catalogMeta.dataVersion, '0.10');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
@@ -131,4 +131,14 @@ test('extension identities are independent from application IDs and store IDs ar
   assert.deepEqual(catalog.searchApps(word.edge_extension_id), [word]);
   assert(catalog.findApps({interface:'浏览器插件'}).every(a => !a.name.includes('（浏览器插件）')));
   assert(catalog.apps.filter(a => a.interfaces[0] !== '浏览器插件').every(a => !a.chrome_extension_id && !a.edge_extension_id));
+});
+
+test('catalog excludes mobile applications and keeps desktop HarmonyOS and mini programs', () => {
+  for (const id of ['amp-mobile','anythingllm-android','deepseek-gui','meta-ai-gui','replit-mobile','v0-ios','gemini-notebook-gui']) {
+    assert.equal(catalog.getApp(id), undefined);
+    assert.equal(catalog.getEvidence(id), undefined);
+  }
+  assert(catalog.apps.every(a => !a.platforms.some(p => ['iOS','iPadOS','Android','Mobile'].includes(p))));
+  assert(catalog.getApp('qwenwork-desktop-cn').platforms.includes('HarmonyOS PC'));
+  assert.deepEqual(catalog.getApp('workbuddy-cn-mini-program').interfaces, ['小程序']);
 });

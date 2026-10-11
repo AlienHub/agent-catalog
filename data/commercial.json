@@ -340,17 +340,6 @@
       }
     ]
   },
-  "amp-mobile": {
-    "offer": "paid-service",
-    "verified_at": "2026-10-05",
-    "notes": "官方提供个人订阅及按量付费服务。",
-    "sources": [
-      {
-        "url": "https://ampcode.com/pricing",
-        "title": "Amp（iOS / iPadOS） 官方商业服务依据"
-      }
-    ]
-  },
   "amp-desktop": {
     "offer": "paid-service",
     "verified_at": "2026-10-05",
@@ -593,17 +582,6 @@
       }
     ]
   },
-  "replit-mobile": {
-    "offer": "paid-service",
-    "verified_at": "2026-10-05",
-    "notes": "官方提供订阅及按量计费的 Agent 平台服务。",
-    "sources": [
-      {
-        "url": "https://replit.com/pricing",
-        "title": "Replit（移动端） 官方商业服务依据"
-      }
-    ]
-  },
   "v0-web": {
     "offer": "paid-service",
     "verified_at": "2026-10-05",
@@ -612,17 +590,6 @@
       {
         "url": "https://v0.app/pricing",
         "title": "v0 官方商业服务依据"
-      }
-    ]
-  },
-  "v0-ios": {
-    "offer": "paid-service",
-    "verified_at": "2026-10-05",
-    "notes": "官方提供 Plus、Business 与 Enterprise 套餐，也有免费层。",
-    "sources": [
-      {
-        "url": "https://v0.app/pricing",
-        "title": "v0（iOS） 官方商业服务依据"
       }
     ]
   },

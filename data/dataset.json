@@ -132,28 +132,6 @@
     "edge_extension_id": ""
   },
   {
-    "id": "amp-mobile",
-    "name": "Amp（iOS / iPadOS）",
-    "aliases": [],
-    "vendor": "Amp Frontier Corporation",
-    "type": "AI 编程",
-    "website": "https://ampcode.com",
-    "platforms": [
-      "iOS",
-      "iPadOS"
-    ],
-    "icon": "icons/amp.svg",
-    "vendor_id": "amp-frontier",
-    "product_id": "amp",
-    "interfaces": [
-      "GUI"
-    ],
-    "edition": "全球版",
-    "svg_status": "已验证 SVG · 图标库",
-    "chrome_extension_id": "",
-    "edge_extension_id": ""
-  },
-  {
     "id": "amp-desktop",
     "name": "Amp（macOS）",
     "aliases": [],
@@ -294,27 +272,6 @@
     "edge_extension_id": ""
   },
   {
-    "id": "anythingllm-android",
-    "name": "AnythingLLM Mobile",
-    "aliases": [],
-    "vendor": "Mintplex Labs",
-    "type": "本地模型工具",
-    "website": "https://anythingllm.com",
-    "platforms": [
-      "Android"
-    ],
-    "icon": "icons/anythingllm.svg",
-    "vendor_id": "mintplex-labs",
-    "product_id": "anythingllm",
-    "interfaces": [
-      "GUI"
-    ],
-    "edition": "全球版",
-    "svg_status": "已验证 SVG · 官方素材",
-    "chrome_extension_id": "",
-    "edge_extension_id": ""
-  },
-  {
     "id": "augment-code-cli",
     "name": "Auggie CLI",
     "aliases": [
@@ -398,9 +355,7 @@
     "website": "https://autoclaw.zhipuai.cn/",
     "platforms": [
       "macOS",
-      "Windows",
-      "iOS",
-      "Android"
+      "Windows"
     ],
     "icon": "",
     "vendor_id": "zhipu",
@@ -471,9 +426,7 @@
     "platforms": [
       "Windows",
       "macOS",
-      "Linux",
-      "iOS",
-      "Android"
+      "Linux"
     ],
     "icon": "icons/brave-leo.svg",
     "vendor_id": "brave",
@@ -546,9 +499,7 @@
     "website": "https://chatgpt.com/",
     "platforms": [
       "Windows",
-      "macOS",
-      "iOS",
-      "Android"
+      "macOS"
     ],
     "icon": "icons/chatgpt.svg",
     "vendor_id": "openai",
@@ -646,8 +597,6 @@
       "Windows",
       "macOS",
       "Linux",
-      "iOS",
-      "Android",
       "ChromeOS"
     ],
     "icon": "icons/claude.svg",
@@ -1237,31 +1186,6 @@
     "edge_extension_id": ""
   },
   {
-    "id": "deepseek-gui",
-    "name": "DeepSeek（GUI）",
-    "aliases": [
-      "DeepSeek",
-      "深度求索"
-    ],
-    "vendor": "DeepSeek",
-    "type": "通用助手",
-    "website": "https://chat.deepseek.com/",
-    "platforms": [
-      "iOS",
-      "Android"
-    ],
-    "icon": "icons/deepseek.svg",
-    "vendor_id": "deepseek",
-    "product_id": "deepseek",
-    "interfaces": [
-      "GUI"
-    ],
-    "edition": "未确认",
-    "svg_status": "已核验SVG · 官方来源",
-    "chrome_extension_id": "",
-    "edge_extension_id": ""
-  },
-  {
     "id": "descript",
     "name": "Descript（Web）",
     "aliases": [
@@ -1623,9 +1547,7 @@
     "type": "会议转写",
     "website": "https://fireflies.ai/",
     "platforms": [
-      "Desktop",
-      "iOS",
-      "Android"
+      "Desktop"
     ],
     "icon": "icons/fireflies-ai.svg",
     "vendor_id": "fireflies-ai",
@@ -1772,31 +1694,6 @@
     "product_id": "gemini-notebook",
     "interfaces": [
       "Web"
-    ],
-    "edition": "国际版",
-    "svg_status": "available",
-    "chrome_extension_id": "",
-    "edge_extension_id": ""
-  },
-  {
-    "id": "gemini-notebook-gui",
-    "name": "Gemini Notebook（GUI）",
-    "aliases": [
-      "Gemini Notebook",
-      "NotebookLM",
-      "Google NotebookLM"
-    ],
-    "vendor": "Google",
-    "type": "知识与笔记",
-    "website": "https://notebook.google/?hl=en-GB",
-    "platforms": [
-      "Mobile"
-    ],
-    "icon": "icons/gemini-notebook.svg",
-    "vendor_id": "google",
-    "product_id": "gemini-notebook",
-    "interfaces": [
-      "GUI"
     ],
     "edition": "国际版",
     "svg_status": "available",
@@ -2019,9 +1916,7 @@
     "website": "https://www.grammarly.com/",
     "platforms": [
       "Windows",
-      "macOS",
-      "iOS",
-      "Android"
+      "macOS"
     ],
     "icon": "icons/grammarly.svg",
     "vendor_id": "superhuman",
@@ -2402,9 +2297,6 @@
     "type": "通用助手",
     "website": "https://www.kimi.com/",
     "platforms": [
-      "iOS",
-      "Android",
-      "HarmonyOS",
       "macOS",
       "Windows"
     ],
@@ -2841,30 +2733,6 @@
     "edge_extension_id": ""
   },
   {
-    "id": "meta-ai-gui",
-    "name": "Meta AI（GUI）",
-    "aliases": [
-      "Meta AI"
-    ],
-    "vendor": "Meta",
-    "type": "通用助手",
-    "website": "https://www.meta.ai/",
-    "platforms": [
-      "iOS",
-      "Android"
-    ],
-    "icon": "icons/meta-ai.svg",
-    "vendor_id": "meta",
-    "product_id": "meta-ai",
-    "interfaces": [
-      "GUI"
-    ],
-    "edition": "国际版",
-    "svg_status": "available",
-    "chrome_extension_id": "",
-    "edge_extension_id": ""
-  },
-  {
     "id": "microsoft-copilot",
     "name": "Microsoft Copilot",
     "aliases": [
@@ -3167,8 +3035,7 @@
     "type": "办公助手",
     "website": "https://www.notion.com/product/ai",
     "platforms": [
-      "Desktop",
-      "Mobile"
+      "Desktop"
     ],
     "icon": "icons/notion-ai.svg",
     "vendor_id": "notion",
@@ -3379,9 +3246,7 @@
     "type": "会议转写",
     "website": "https://otter.ai/",
     "platforms": [
-      "Desktop",
-      "iOS",
-      "Android"
+      "Desktop"
     ],
     "icon": "icons/otter-ai.svg",
     "vendor_id": "otter-ai",
@@ -3684,7 +3549,7 @@
       "macOS",
       "Windows",
       "Linux",
-      "HarmonyOS"
+      "HarmonyOS PC"
     ],
     "icon": "icons/qoder.svg",
     "vendor_id": "alibaba",
@@ -3731,7 +3596,7 @@
       "macOS",
       "Windows",
       "Linux",
-      "HarmonyOS"
+      "HarmonyOS PC"
     ],
     "icon": "icons/qoder.svg",
     "vendor_id": "alibaba",
@@ -4066,30 +3931,6 @@
     "edge_extension_id": ""
   },
   {
-    "id": "replit-mobile",
-    "name": "Replit（移动端）",
-    "aliases": [
-      "Replit Agent"
-    ],
-    "vendor": "Replit, Inc.",
-    "type": "AI 应用构建",
-    "website": "https://replit.com",
-    "platforms": [
-      "iOS",
-      "Android"
-    ],
-    "icon": "icons/replit.svg",
-    "vendor_id": "replit",
-    "product_id": "replit",
-    "interfaces": [
-      "GUI"
-    ],
-    "edition": "全球版",
-    "svg_status": "已验证 SVG · 图标库",
-    "chrome_extension_id": "",
-    "edge_extension_id": ""
-  },
-  {
     "id": "runway",
     "name": "Runway",
     "aliases": [
@@ -4292,8 +4133,7 @@
     "website": "https://www.trae.ai/work",
     "platforms": [
       "macOS",
-      "Windows",
-      "iOS"
+      "Windows"
     ],
     "icon": "icons/trae.svg",
     "vendor_id": "bytedance",
@@ -4344,9 +4184,7 @@
     "website": "https://work.trae.cn/",
     "platforms": [
       "macOS",
-      "Windows",
-      "iOS",
-      "Android"
+      "Windows"
     ],
     "icon": "icons/trae.svg",
     "vendor_id": "bytedance",
@@ -4397,29 +4235,6 @@
     "product_id": "v0",
     "interfaces": [
       "Web"
-    ],
-    "edition": "全球版",
-    "svg_status": "已验证 SVG · 图标库",
-    "chrome_extension_id": "",
-    "edge_extension_id": ""
-  },
-  {
-    "id": "v0-ios",
-    "name": "v0（iOS）",
-    "aliases": [
-      "v0.dev"
-    ],
-    "vendor": "Vercel",
-    "type": "AI 应用构建",
-    "website": "https://v0.app",
-    "platforms": [
-      "iOS"
-    ],
-    "icon": "icons/v0.svg",
-    "vendor_id": "vercel",
-    "product_id": "v0",
-    "interfaces": [
-      "GUI"
     ],
     "edition": "全球版",
     "svg_status": "已验证 SVG · 图标库",
@@ -4792,9 +4607,7 @@
     "website": "https://www.qianwen.com/",
     "platforms": [
       "macOS",
-      "Windows",
-      "iOS",
-      "Android"
+      "Windows"
     ],
     "icon": "icons/qianwen.svg",
     "vendor_id": "alibaba",
@@ -4848,7 +4661,7 @@
       "macOS",
       "Windows",
       "Linux",
-      "HarmonyOS"
+      "HarmonyOS PC"
     ],
     "icon": "icons/qwenwork.svg",
     "vendor_id": "dingtalk",

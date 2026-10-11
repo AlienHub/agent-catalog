@@ -196,7 +196,7 @@
     "verified_at": "2026-10-02"
   },
   "brave-leo": {
-    "notes": "Assistant built into the Brave browser. GUI means browser-integrated desktop/mobile UI, not a standalone Leo web service. Official Leo mark used, not Brave browser lion. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
+    "notes": "Assistant built into the Brave browser. GUI means browser-integrated desktop/mobile UI, not a standalone Leo web service. Official Leo mark used, not Brave browser lion. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://brave.com/leo/",
@@ -207,7 +207,7 @@
         "title": "Official website asset — original SVG asset"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "duck-ai": {
     "notes": "DuckDuckGo private AI chat product. Uses its official Duck.ai SVG favicon, not a generic generated placeholder. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability.",
@@ -1997,24 +1997,6 @@
     ],
     "verified_at": "2026-10-02"
   },
-  "replit-mobile": {
-    "notes": "",
-    "sources": [
-      {
-        "url": "https://replit.com",
-        "title": "Replit · AI app and website builder"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/replit-color.svg",
-        "title": "Lobe Icons · matching product icon"
-      },
-      {
-        "url": "https://replit.com/mobile",
-        "title": "Replit mobile app"
-      }
-    ],
-    "verified_at": "2026-10-02"
-  },
   "bolt": {
     "notes": "",
     "sources": [
@@ -2071,24 +2053,6 @@
       {
         "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/v0.svg",
         "title": "Lobe Icons · matching product icon"
-      }
-    ],
-    "verified_at": "2026-10-02"
-  },
-  "v0-ios": {
-    "notes": "",
-    "sources": [
-      {
-        "url": "https://v0.app",
-        "title": "v0 by Vercel - Build Full-Stack Web Apps with AI OpenAI icon"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/v0.svg",
-        "title": "Lobe Icons · matching product icon"
-      },
-      {
-        "url": "https://v0.app/ios",
-        "title": "Download the v0 iOS app - v0.app"
       }
     ],
     "verified_at": "2026-10-02"
@@ -2445,28 +2409,6 @@
     ],
     "verified_at": "2026-10-02"
   },
-  "amp-mobile": {
-    "notes": "TestFlight beta；要求 iOS/iPadOS 26 或更高",
-    "sources": [
-      {
-        "url": "https://ampcode.com",
-        "title": "Amp: Coding agent and dev environment built for the frontier"
-      },
-      {
-        "url": "https://ampcode.com/terms",
-        "title": "Amp license terms · operator"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/amp-color.svg",
-        "title": "Lobe Icons · matching product icon"
-      },
-      {
-        "url": "https://ampcode.com/app",
-        "title": "Download Amp"
-      }
-    ],
-    "verified_at": "2026-10-02"
-  },
   "gemini-code-assist": {
     "notes": "免费与 Google AI Pro/Ultra 消费者服务已于 2026-06-18 转向 Antigravity；Standard/Enterprise 企业服务保持支持；VS Code 与 JetBrains 等 IDE 扩展 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：IDE 扩展。",
     "sources": [
@@ -2621,24 +2563,6 @@
       {
         "url": "https://anythingllm.com/images/brand/mark.svg",
         "title": "Official AnythingLLM brand mark"
-      }
-    ],
-    "verified_at": "2026-10-02"
-  },
-  "anythingllm-android": {
-    "notes": "官方当前明确为 Android 的本地优先智能体",
-    "sources": [
-      {
-        "url": "https://anythingllm.com",
-        "title": "AnythingLLM — On-device AI for productivity | Local & Private"
-      },
-      {
-        "url": "https://anythingllm.com/images/brand/mark.svg",
-        "title": "Official AnythingLLM brand mark"
-      },
-      {
-        "url": "https://anythingllm.com/mobile",
-        "title": "AnythingLLM Mobile — A local-first AI agent for Android"
       }
     ],
     "verified_at": "2026-10-02"
@@ -3374,8 +3298,8 @@
         "title": "AutoClaw 官方产品动态"
       }
     ],
-    "notes": "智谱正式桌面智能体，直接调用浏览器、本地文件及工具完成多步骤办公任务。中国站列出 iOS/Android 任务查看与触发入口；国际站当前提供 Linux 下载入口，平台按各站证据分别记录。官方 logo 为内嵌 PNG；未找到独立可核验产品 SVG，不用 AutoGLM 标志代替。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM。 IM 是接入渠道，不额外计为独立应用。",
-    "verified_at": "2026-10-02"
+    "notes": "智谱正式桌面智能体，直接调用浏览器、本地文件及工具完成多步骤办公任务。中国站列出 iOS/Android 任务查看与触发入口；国际站当前提供 Linux 下载入口，平台按各站证据分别记录。官方 logo 为内嵌 PNG；未找到独立可核验产品 SVG，不用 AutoGLM 标志代替。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM。 IM 是接入渠道，不额外计为独立应用。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "verified_at": "2026-10-11"
   },
   "autoclaw": {
     "sources": [
@@ -3420,8 +3344,8 @@
         "title": "Qoder 官方产品家族：独立桌面工作台"
       }
     ],
-    "notes": "全新 Qoder 桌面工作台，与 Qoder IDE、CLI 和旧 QoderWork 分列；支持通用任务及编程，官网列出 macOS、Windows、Linux、HarmonyOS。旧 QoderWork 有独立迁移安排。 使用 Qoder 官方品牌 SVG。官网的 600 万开发者为整个 Qoder 家族口径，不宣称为此独立形态用户数。",
-    "verified_at": "2026-10-02"
+    "notes": "全新 Qoder 桌面工作台，与 Qoder IDE、CLI 和旧 QoderWork 分列；支持通用任务及编程，官网列出 macOS、Windows、Linux、HarmonyOS。旧 QoderWork 有独立迁移安排。 使用 Qoder 官方品牌 SVG。官网的 600 万开发者为整个 Qoder 家族口径，不宣称为此独立形态用户数。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "verified_at": "2026-10-11"
   },
   "qoder-desktop-cn": {
     "sources": [
@@ -3434,8 +3358,8 @@
         "title": "Qoder 官方产品家族：独立桌面工作台"
       }
     ],
-    "notes": "全新 Qoder 桌面工作台，与 Qoder IDE、CLI 和旧 QoderWork 分列；支持通用任务及编程，官网列出 macOS、Windows、Linux、HarmonyOS。旧 QoderWork 有独立迁移安排。 使用 Qoder 官方品牌 SVG。官网的 600 万开发者为整个 Qoder 家族口径，不宣称为此独立形态用户数。",
-    "verified_at": "2026-10-02"
+    "notes": "全新 Qoder 桌面工作台，与 Qoder IDE、CLI 和旧 QoderWork 分列；支持通用任务及编程，官网列出 macOS、Windows、Linux、HarmonyOS。旧 QoderWork 有独立迁移安排。 使用 Qoder 官方品牌 SVG。官网的 600 万开发者为整个 Qoder 家族口径，不宣称为此独立形态用户数。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "verified_at": "2026-10-11"
   },
   "qoder-work": {
     "sources": [
@@ -3548,8 +3472,8 @@
         "title": "千问办公官方下载页所用原始 SVG 应用图标"
       }
     ],
-    "notes": "千问办公（QwenWork）是独立办公任务 Agent 产品，与千问聊天（qianwen / qwen-chat）、Qwen Code（qwen-code）分开计数。中国版服务协议运营主体为钉钉科技有限公司、钉钉（中国）信息技术有限公司及关联公司；属阿里巴巴体系，vendor_id 使用 dingtalk 以保留运营主体区别。官方描述可规划执行任务、处理本地文件、生成及编辑 Office 产物、进行网页及电脑操作。平台为官方公布和下载入口核验，未安装运行测试；不把官网宣传等同于实测能力。 桌面下载页列出 macOS 14+ Apple Silicon / Intel DMG、Windows 10+ 64 位 EXE、Linux Debian 系 x64/ARM64 DEB。HarmonyOS 条目适用于鸿蒙电脑 6.1+，不是手机端支持声明；官方仅经 AppGallery 分发。",
-    "verified_at": "2026-10-02"
+    "notes": "千问办公（QwenWork）是独立办公任务 Agent 产品，与千问聊天（qianwen / qwen-chat）、Qwen Code（qwen-code）分开计数。中国版服务协议运营主体为钉钉科技有限公司、钉钉（中国）信息技术有限公司及关联公司；属阿里巴巴体系，vendor_id 使用 dingtalk 以保留运营主体区别。官方描述可规划执行任务、处理本地文件、生成及编辑 Office 产物、进行网页及电脑操作。平台为官方公布和下载入口核验，未安装运行测试；不把官网宣传等同于实测能力。 桌面下载页列出 macOS 14+ Apple Silicon / Intel DMG、Windows 10+ 64 位 EXE、Linux Debian 系 x64/ARM64 DEB。HarmonyOS 条目适用于鸿蒙电脑 6.1+，不是手机端支持声明；官方仅经 AppGallery 分发。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "verified_at": "2026-10-11"
   },
   "qwenwork-web-cn": {
     "sources": [
@@ -4626,7 +4550,7 @@
     "verified_at": "2026-10-10"
   },
   "chatgpt-gui": {
-    "notes": "General assistant with search, writing, images and voice. Desktop and mobile distributions are interfaces of the same product; subscription tiers are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。",
+    "notes": "General assistant with search, writing, images and voice. Desktop and mobile distributions are interfaces of the same product; subscription tiers are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://chatgpt.com/",
@@ -4641,7 +4565,7 @@
         "title": "Official website asset — original SVG asset"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "chatgpt-browser-extension": {
     "notes": "General assistant with search, writing, images and voice. Desktop and mobile distributions are interfaces of the same product; subscription tiers are not separate products. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。 此条为OpenAI官方ChatGPT search默认搜索扩展，不等同于具有网页操作能力的Agent。",
@@ -4666,7 +4590,7 @@
     "verified_at": "2026-10-11"
   },
   "claude-gui": {
-    "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。",
+    "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://claude.ai/",
@@ -4685,7 +4609,7 @@
         "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "claude-browser-extension": {
     "notes": "General Anthropic assistant. Desktop and mobile apps are interfaces of Claude. Claude Code is tracked separately by the developer-tools catalog, not duplicated here. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
@@ -4713,24 +4637,6 @@
     ],
     "verified_at": "2026-10-11"
   },
-  "deepseek-gui": {
-    "notes": "仅统计 DeepSeek 聊天应用。官方另列 DeepSeek Harness 桌面产品，未混入本条。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。",
-    "sources": [
-      {
-        "url": "https://chat.deepseek.com/",
-        "title": "DeepSeek 官方网站"
-      },
-      {
-        "url": "https://www.deepseek.com/en/download/",
-        "title": "官方下载与平台支持"
-      },
-      {
-        "url": "https://fe-static.deepseek.com/chat/favicon.svg",
-        "title": "官方网站 SVG 标识"
-      }
-    ],
-    "verified_at": "2026-10-02"
-  },
   "descript-gui": {
     "notes": "AI-assisted text-based audio/video editing application. Official download page lists macOS and Windows; web editor is also linked. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。",
     "sources": [
@@ -4750,7 +4656,7 @@
     "verified_at": "2026-10-02"
   },
   "fireflies-ai-gui": {
-    "notes": "AI meeting and work assistant. Homepage explicitly documents web dashboard, desktop/mobile apps and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。",
+    "notes": "AI meeting and work assistant. Homepage explicitly documents web dashboard, desktop/mobile apps and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://fireflies.ai/",
@@ -4761,7 +4667,7 @@
         "title": "Official website asset — original SVG asset"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "fireflies-ai-browser-extension": {
     "notes": "AI meeting and work assistant. Homepage explicitly documents web dashboard, desktop/mobile apps and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
@@ -4781,26 +4687,8 @@
     ],
     "verified_at": "2026-10-11"
   },
-  "gemini-notebook-gui": {
-    "notes": "Official FAQ states NotebookLM became Gemini Notebook in July 2026; it remains the same standalone source-grounded research product across web and mobile. Uses current official favicon. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。",
-    "sources": [
-      {
-        "url": "https://notebook.google/?hl=en-GB",
-        "title": "Gemini Notebook | AI research tool and thinking partner"
-      },
-      {
-        "url": "https://workspaceupdates.googleblog.com/2026/07/notebooklm-now-gemini-notebook.html",
-        "title": "Official NotebookLM to Gemini Notebook announcement"
-      },
-      {
-        "url": "https://notebook.google/_/static/branding/v6/light_mode/favicon/favicon.svg",
-        "title": "Official website asset — original SVG asset"
-      }
-    ],
-    "verified_at": "2026-10-02"
-  },
   "grammarly-gui": {
-    "notes": "AI writing application. Official company page says Grammarly remains the product name while the company is now Superhuman. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。",
+    "notes": "AI writing application. Official company page says Grammarly remains the product name while the company is now Superhuman. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://www.grammarly.com/",
@@ -4819,7 +4707,7 @@
         "title": "Simple Icons CC0 license; brand trademarks retained"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "grammarly-browser-extension": {
     "notes": "AI writing application. Official company page says Grammarly remains the product name while the company is now Superhuman. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。 Chrome商店页面本次读取失败，Chrome ID由官方安装链接及部署文档确认；名称以官方Edge商店条目为准。",
@@ -4856,7 +4744,7 @@
     "verified_at": "2026-10-11"
   },
   "kimi-gui": {
-    "notes": "未明确区分地区版本；不推断地域可用性。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。",
+    "notes": "未明确区分地区版本；不推断地域可用性。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://www.kimi.com/",
@@ -4871,33 +4759,7 @@
         "title": "官方下载与平台支持"
       }
     ],
-    "verified_at": "2026-10-02"
-  },
-  "meta-ai-gui": {
-    "notes": "Meta assistant. Official Meta newsroom documents standalone iOS/Android app and meta.ai; rollout availability varies by country and feature. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。",
-    "sources": [
-      {
-        "url": "https://www.meta.ai/",
-        "title": "Meta AI official product website"
-      },
-      {
-        "url": "https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/",
-        "title": "Meta introduces its iOS and Android app"
-      },
-      {
-        "url": "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/",
-        "title": "Meta AI app and web product update"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/metaai-color.svg",
-        "title": "LobeHub Icons — original SVG asset"
-      },
-      {
-        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
-        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
-      }
-    ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "mistral-vibe-cli": {
     "notes": "Official product page explicitly says Le Chat is now Vibe and describes work/chat and coding as one product. Le Chat and Vibe for code are not counted again. Uses the Mistral brand mark. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / CLI / IDE 扩展。 2026-10-11 形态规范迁移：本条仅表示CLI应用。原交互标签：Web / CLI / IDE 扩展。",
@@ -4952,7 +4814,7 @@
     "verified_at": "2026-10-02"
   },
   "notion-ai-gui": {
-    "notes": "AI workspace capabilities within Notion, including agents, enterprise search and meeting notes. Counted once; uses the Notion brand mark. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。",
+    "notes": "AI workspace capabilities within Notion, including agents, enterprise search and meeting notes. Counted once; uses the Notion brand mark. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://www.notion.com/product/ai",
@@ -4967,10 +4829,10 @@
         "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "otter-ai-gui": {
-    "notes": "AI meeting recording, transcription and insights application. Homepage links desktop, iOS, Android and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。",
+    "notes": "AI meeting recording, transcription and insights application. Homepage links desktop, iOS, Android and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
     "sources": [
       {
         "url": "https://otter.ai/",
@@ -4981,7 +4843,7 @@
         "title": "Official homepage inline SVG logo — original SVG asset"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-11"
   },
   "otter-ai-browser-extension": {
     "notes": "AI meeting recording, transcription and insights application. Homepage links desktop, iOS, Android and Chrome extension. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / GUI / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
@@ -5020,8 +4882,8 @@
         "title": "TraeWork 官方快速开始：Web / macOS / Windows"
       }
     ],
-    "notes": "独立的通用任务工作台，可自行拆解任务、调用工具并交付文档/数据/研究成果；与 TraeCode IDE 内的 SOLO 模式分列。官方文档说明能力由原 TraeCode SOLO 模式扩展而来；旧称保留用于识别，当前名称采用 TraeWork。移动端是任务调度/同步入口。SVG 使用 Lobe Icons 的 TRAE 品牌标志。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。",
-    "verified_at": "2026-10-02"
+    "notes": "独立的通用任务工作台，可自行拆解任务、调用工具并交付文档/数据/研究成果；与 TraeCode IDE 内的 SOLO 模式分列。官方文档说明能力由原 TraeCode SOLO 模式扩展而来；旧称保留用于识别，当前名称采用 TraeWork。移动端是任务调度/同步入口。SVG 使用 Lobe Icons 的 TRAE 品牌标志。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "verified_at": "2026-10-11"
   },
   "trae-work-cn-gui": {
     "sources": [
@@ -5042,8 +4904,8 @@
         "title": "TraeWork 官方快速开始：Web / macOS / Windows"
       }
     ],
-    "notes": "独立的通用任务工作台，可自行拆解任务、调用工具并交付文档/数据/研究成果；与 TraeCode IDE 内的 SOLO 模式分列。官方文档说明能力由原 TraeCode SOLO 模式扩展而来；旧称保留用于识别，当前名称采用 TraeWork。移动端是任务调度/同步入口。SVG 使用 Lobe Icons 的 TRAE 品牌标志。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。",
-    "verified_at": "2026-10-02"
+    "notes": "独立的通用任务工作台，可自行拆解任务、调用工具并交付文档/数据/研究成果；与 TraeCode IDE 内的 SOLO 模式分列。官方文档说明能力由原 TraeCode SOLO 模式扩展而来；旧称保留用于识别，当前名称采用 TraeWork。移动端是任务调度/同步入口。SVG 使用 Lobe Icons 的 TRAE 品牌标志。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "verified_at": "2026-10-11"
   },
   "wordtune-browser-extension": {
     "notes": "AI21 Labs writing and rewriting assistant. Official SVG wordmark supplied. Edition identifies the linked international-facing service, not a claim of worldwide or mainland-China availability. 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示浏览器插件应用。原交互标签：Web / 浏览器扩展。 浏览器插件独立分类，不归入 GUI。 v0.8 按用户明确的形态定义从 GUI 更正为浏览器插件；应用 ID 保留。 2026-10-11：移除人为添加的浏览器插件形态名称后缀；保留稳定应用ID。Chrome与Edge商店ID分别核验，空值表示未确认官方商店条目，不表示确定未发布。",
@@ -5094,8 +4956,8 @@
         "title": "阿里云官方文档：千问办公定位与 qwenwork.cn 官方入口"
       }
     ],
-    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。 千问聊天仍为 qwen-chat 产品；独立的千问办公（QwenWork）使用 product_id=qwenwork，Qwen Code 使用 product_id=qwen-code，不因共用品牌或集团归并成同一产品。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。",
-    "verified_at": "2026-10-02"
+    "notes": "地区标签表示对应产品站点，不构成服务可用性或账号互通承诺。 千问聊天仍为 qwen-chat 产品；独立的千问办公（QwenWork）使用 product_id=qwenwork，Qwen Code 使用 product_id=qwen-code，不因共用品牌或集团归并成同一产品。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：Web / GUI / 浏览器扩展。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "verified_at": "2026-10-11"
   },
   "qianwen-browser-extension": {
     "sources": [

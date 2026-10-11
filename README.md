@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.9（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.10（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -311,3 +311,9 @@ Unified private Cloudflare website + API deployment now lives in [cloudflare/REA
 浏览器插件使用实际插件名称，不追加形态括号；形态仍由 `interfaces` 表示，已有应用 ID 保持稳定。Schema v3 在全部记录增加 `chrome_extension_id`、`edge_extension_id` 两个字符串字段，分别记录官方 Chrome Web Store 与 Microsoft Edge Add-ons 的32位插件ID。非浏览器插件为空；插件字段为空表示尚未确认官方商店条目，不表示确定未发布。兼容 Edge 安装不等于拥有 Edge 商店ID。
 
 目前核验6个Chrome ID、2个Edge ID，来源保留在 `evidence.json`。千问插件的官方发布与正式名称尚未确认，保留原记录且ID留空；Grammarly的Chrome ID由官方安装链接确认，名称由官方Edge商店确认。SDK与网站支持按商店ID搜索，详情提供商店链接；JSON、CSV、ZIP同步包含新字段。
+
+## v0.10 桌面端与浏览器收录范围
+
+主目录仅关注桌面端与浏览器应用，不收录移动端。移除7条仅移动端应用，并从桌面与移动混合记录中移除 iOS、iPadOS、Android、Mobile 等移动平台信息；产品对应的 Web、CLI、IDE 插件与桌面记录保留。鸿蒙电脑使用 `HarmonyOS PC` 平台标签，小程序按既有要求保留。现有目录为297条应用、185个产品。
+
+[范围调整记录](desktop-scope-migration-2026-10-11.json)保留移除的原记录与平台变更，供历史追溯；主数据、核验来源、集合、商业元信息、SDK与网站导出同步移除移动端应用。空缺平台不代表产品不存在移动版本，只表示不纳入本目录。
