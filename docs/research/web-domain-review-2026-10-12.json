@@ -1,0 +1,3921 @@
+{
+  "checked_at": "2026-10-12",
+  "original_web_records": 168,
+  "added_web_records": 5,
+  "counts": {
+    "verified": 73,
+    "unverified": 85,
+    "self-hosted": 15
+  },
+  "scope": "All Web records structurally audited. Verified means official public entry evidence, not authenticated use or network-dependency coverage. Unverified remains an explicit gap.",
+  "records": [
+    {
+      "id": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "website": "https://www.adobe.com/products/firefly.html",
+      "status": "verified",
+      "web_url": "https://firefly.adobe.com/",
+      "domains": [
+        "firefly.adobe.com"
+      ],
+      "sources": [
+        {
+          "url": "https://www.adobe.com/products/firefly.html",
+          "title": "Adobe Firefly - Free Generative AI for Creatives"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/adobefirefly-color.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        },
+        {
+          "url": "https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/adobe-firefly-faq.html",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        },
+        {
+          "url": "https://firefly.adobe.com/",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "jetbrains-air-web",
+      "name": "Air Teams",
+      "website": "https://www.jetbrains.com/air/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.jetbrains.com/air/",
+          "title": "JetBrains Air: One system for building software with agents"
+        },
+        {
+          "url": "https://www.jetbrains.com/_assets/rr/air-logo-DS7oe4qO.svg",
+          "title": "Official JetBrains Air product logo"
+        }
+      ]
+    },
+    {
+      "id": "amp-web",
+      "name": "Amp Web",
+      "website": "https://ampcode.com",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://ampcode.com",
+          "title": "Amp: Coding agent and dev environment built for the frontier"
+        },
+        {
+          "url": "https://ampcode.com/terms",
+          "title": "Amp license terms · operator"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/amp-color.svg",
+          "title": "Lobe Icons · matching product icon"
+        }
+      ]
+    },
+    {
+      "id": "anythingllm-web",
+      "name": "AnythingLLM Cloud / 自托管",
+      "website": "https://anythingllm.com",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://anythingllm.com",
+          "title": "AnythingLLM — On-device AI for productivity | Local & Private"
+        },
+        {
+          "url": "https://anythingllm.com/images/brand/mark.svg",
+          "title": "Official AnythingLLM brand mark"
+        }
+      ]
+    },
+    {
+      "id": "augment-code-web",
+      "name": "Augment Code Cloud Agents",
+      "website": "https://www.augmentcode.com",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.augmentcode.com",
+          "title": "Augment Code: Agentic software development at organizational scale"
+        },
+        {
+          "url": "https://www.augmentcode.com/favicon.svg",
+          "title": "Official website favicon"
+        }
+      ]
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt",
+      "website": "https://bolt.new",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://bolt.new",
+          "title": "Bolt AI builder: Websites, apps & prototypes"
+        },
+        {
+          "url": "https://bolt.new/static/favicon.svg",
+          "title": "Official website favicon"
+        }
+      ]
+    },
+    {
+      "id": "canva-ai",
+      "name": "Canva AI",
+      "website": "https://www.canva.com/canva-ai/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.canva.com/canva-ai/",
+          "title": "Canva AI official product website"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/canva.svg",
+          "title": "SVGL brand library — original SVG asset"
+        },
+        {
+          "url": "https://github.com/pheralb/svgl/blob/main/LICENSE",
+          "title": "SVGL library MIT license; brand trademarks retained"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "website": "https://chatgpt.com/",
+      "status": "verified",
+      "web_url": "https://chatgpt.com/",
+      "domains": [
+        "chatgpt.com"
+      ],
+      "sources": [
+        {
+          "url": "https://chatgpt.com/",
+          "title": "ChatGPT: Chat, Work, Create & Code with AI"
+        },
+        {
+          "url": "https://chatgpt.com/download/",
+          "title": "Official ChatGPT desktop and mobile downloads"
+        },
+        {
+          "url": "https://chatgpt.com/cdn/assets/favicon-l4nq08hd.svg",
+          "title": "Official website asset — original SVG asset"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "website": "https://claude.ai/",
+      "status": "verified",
+      "web_url": "https://claude.ai/",
+      "domains": [
+        "claude.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://claude.ai/",
+          "title": "Claude official product website"
+        },
+        {
+          "url": "https://claude.com/download",
+          "title": "Official Claude apps and extensions"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/claude-color.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        }
+      ]
+    },
+    {
+      "id": "claude-code-web",
+      "name": "Claude Code Web",
+      "website": "https://code.claude.com",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://code.claude.com/docs/en/overview",
+          "title": "Overview - Claude Code Docs"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/claudecode-color.svg",
+          "title": "Lobe Icons · matching product icon"
+        }
+      ]
+    },
+    {
+      "id": "coderabbit-web",
+      "name": "CodeRabbit",
+      "website": "https://www.coderabbit.ai",
+      "status": "verified",
+      "web_url": "https://app.coderabbit.ai/login",
+      "domains": [
+        "app.coderabbit.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coderabbit.ai",
+          "title": "AI Code Reviews | CodeRabbit | Try for Free. Severity Distribution"
+        },
+        {
+          "url": "https://www.coderabbit.ai/press-kit/coderabbit-mark-orange.svg",
+          "title": "Official CodeRabbit press kit"
+        },
+        {
+          "url": "https://app.coderabbit.ai/login",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "codex-web",
+      "name": "Codex Cloud",
+      "website": "https://openai.com/codex/",
+      "status": "verified",
+      "web_url": "https://chatgpt.com/codex/",
+      "domains": [
+        "chatgpt.com"
+      ],
+      "sources": [
+        {
+          "url": "https://openai.com/codex/",
+          "title": "Codex | AI Coding Partner from OpenAI | OpenAI"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/codex.svg",
+          "title": "Lobe Icons · matching product icon"
+        },
+        {
+          "url": "https://openai.com/index/introducing-the-codex-app/",
+          "title": "Codex app introduction · CLI, web, IDE and app"
+        },
+        {
+          "url": "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        },
+        {
+          "url": "https://chatgpt.com/codex/",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "copy-ai",
+      "name": "Copy.ai",
+      "website": "https://www.copy.ai/",
+      "status": "verified",
+      "web_url": "https://app.copy.ai/login",
+      "domains": [
+        "app.copy.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://www.copy.ai/",
+          "title": "Future proof your business with GTM AI"
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/628288c5cd3e8411b90a36a4/6797ee68ae7908e605a9a4d0_copy_logo-all-dark.svg",
+          "title": "Official website asset — original SVG asset"
+        },
+        {
+          "url": "https://app.copy.ai/login",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "coze",
+      "name": "Coze",
+      "website": "https://www.coze.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.coze.com/",
+          "title": "Coze 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/coze.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        }
+      ]
+    },
+    {
+      "id": "cursor-web",
+      "name": "Cursor Web",
+      "website": "https://cursor.com",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://cursor.com/download",
+          "title": "Cursor · Download Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple"
+        },
+        {
+          "url": "https://cursor.com/terms-of-service",
+          "title": "Cursor Terms · Anysphere vendor"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/cursor.svg",
+          "title": "Lobe Icons · matching product icon"
+        }
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "website": "https://chat.deepseek.com/",
+      "status": "verified",
+      "web_url": "https://chat.deepseek.com/",
+      "domains": [
+        "chat.deepseek.com"
+      ],
+      "sources": [
+        {
+          "url": "https://chat.deepseek.com/",
+          "title": "DeepSeek 官方网站"
+        },
+        {
+          "url": "https://www.deepseek.com/en/download/",
+          "title": "官方下载与平台支持"
+        },
+        {
+          "url": "https://fe-static.deepseek.com/chat/favicon.svg",
+          "title": "官方网站 SVG 标识"
+        }
+      ]
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "website": "https://www.descript.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.descript.com/",
+          "title": "Descript: AI Video & Audio Text-based Editor — Try Free"
+        },
+        {
+          "url": "https://www.descript.com/download",
+          "title": "Official Descript macOS and Windows downloads"
+        },
+        {
+          "url": "https://static-cdn.descript.com/descript-website/images/descript-nav-logo-dark.svg",
+          "title": "Official website asset — original SVG asset"
+        }
+      ]
+    },
+    {
+      "id": "devin-web",
+      "name": "Devin Cloud",
+      "website": "https://devin.ai",
+      "status": "verified",
+      "web_url": "https://app.devin.ai/login",
+      "domains": [
+        "app.devin.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://devin.ai/desktop",
+          "title": "Devin Desktop · official rebrand FAQ"
+        },
+        {
+          "url": "https://devin.ai/download",
+          "title": "Devin downloads"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/devin-color.svg",
+          "title": "Lobe Icons · matching product icon"
+        },
+        {
+          "url": "https://devin.ai",
+          "title": "Devin · official product site"
+        },
+        {
+          "url": "https://app.devin.ai/login",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "website": "https://dify.ai/",
+      "status": "verified",
+      "web_url": "https://cloud.dify.ai/",
+      "domains": [
+        "cloud.dify.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://dify.ai/",
+          "title": "Dify 官方网站"
+        },
+        {
+          "url": "https://dify.ai/favicon.svg",
+          "title": "官方网站 SVG 标识"
+        },
+        {
+          "url": "https://github.com/langgenius/dify",
+          "title": "官方仓库：浏览器访问自托管应用"
+        },
+        {
+          "url": "https://cloud.dify.ai/",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "dola",
+      "name": "Dola",
+      "website": "https://www.dola.com/chat/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.dola.com/chat/",
+          "title": "Dola 官方网站"
+        },
+        {
+          "url": "https://www.dola.com/legal/privacy/en",
+          "title": "Dola 官方隐私政策与运营主体"
+        },
+        {
+          "url": "https://sf-flow-web-cdn.ciciai.com/obj/ocean-flow-web-sg/favicon/new-dola/192x192.png",
+          "title": "Dola 官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "dreamina",
+      "name": "Dreamina",
+      "website": "https://dreamina.capcut.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://dreamina.capcut.com/",
+          "title": "Dreamina 官方网站"
+        },
+        {
+          "url": "https://p16-seeyou-useast5.capcutcdn-us.com/tos-useast5-i-2zwwjm3azk-tx/40fed40e0bd1411292155e446a0f3a30~tplv-2zwwjm3azk-compress:q90.image",
+          "title": "Dreamina 官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "duck-ai",
+      "name": "Duck.ai",
+      "website": "https://duck.ai/",
+      "status": "verified",
+      "web_url": "https://duck.ai/",
+      "domains": [
+        "duck.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://duck.ai/",
+          "title": "Duck.ai by DuckDuckGo. Private AI chat. Free."
+        },
+        {
+          "url": "https://duck.ai/favicon.svg",
+          "title": "Official website asset — original SVG asset"
+        }
+      ]
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "website": "https://elevenlabs.io/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://elevenlabs.io/",
+          "title": "Free AI Voice Generator & Voice Agents Platform | ElevenLabs"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/elevenlabs.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        }
+      ]
+    },
+    {
+      "id": "factory-droid-web",
+      "name": "Factory Web",
+      "website": "https://factory.com",
+      "status": "verified",
+      "web_url": "https://app.factory.ai/",
+      "domains": [
+        "app.factory.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://factory.com/",
+          "title": "Factory | Agent-Native Software Development Factory Arrow Right Icon RBC T-Mobile Blackstone Adyen HP Wipro DoorDash Medline Under Armour Groq Chainguard Arrow Right Icon"
+        },
+        {
+          "url": "https://docs.factory.com/",
+          "title": "Factory official documentation"
+        },
+        {
+          "url": "https://factory.com/favicon.svg",
+          "title": "Official website favicon"
+        },
+        {
+          "url": "https://factory.com",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        },
+        {
+          "url": "https://app.factory.ai/",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "fastgpt",
+      "name": "FastGPT",
+      "website": "https://fastgpt.cn/",
+      "status": "verified",
+      "web_url": "https://cloud.fastgpt.cn/",
+      "domains": [
+        "cloud.fastgpt.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://fastgpt.cn/",
+          "title": "FastGPT 官方网站"
+        },
+        {
+          "url": "https://fastgpt.cn/logo.svg",
+          "title": "官方网站 SVG 标识"
+        },
+        {
+          "url": "https://github.com/labring/FastGPT",
+          "title": "官方仓库：浏览器访问自托管应用"
+        },
+        {
+          "url": "https://cloud.fastgpt.cn/",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "fathom",
+      "name": "Fathom",
+      "website": "https://www.fathom.ai/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.fathom.ai/",
+          "title": "Fathom AI Notetaker - Never Take Notes Again"
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6899da9beccbdbe92be49b5d/68e7961ff28d093095bdf392_logotype-new.svg",
+          "title": "Official website asset — original SVG asset"
+        }
+      ]
+    },
+    {
+      "id": "fireflies-ai",
+      "name": "Fireflies.ai",
+      "website": "https://fireflies.ai/",
+      "status": "verified",
+      "web_url": "https://app.fireflies.ai/",
+      "domains": [
+        "app.fireflies.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://fireflies.ai/",
+          "title": "Fireflies.ai | #1 AI Teammate for Meetings, Email, Chat & CRM"
+        },
+        {
+          "url": "https://fireflies.ai/_next/static/media/logo.4ae482a6.svg",
+          "title": "Official website asset — original SVG asset"
+        },
+        {
+          "url": "https://app.fireflies.ai/",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "website": "https://gamma.app/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://gamma.app/",
+          "title": "Gamma official product website"
+        },
+        {
+          "url": "https://help.gamma.app/en/",
+          "title": "Gamma 官方网站/帮助中心素材来源页"
+        },
+        {
+          "url": "https://help.gamma.app/assets/favicon",
+          "title": "Gamma 官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "website": "https://gemini.google.com/",
+      "status": "verified",
+      "web_url": "https://gemini.google.com/",
+      "domains": [
+        "gemini.google.com"
+      ],
+      "sources": [
+        {
+          "url": "https://gemini.google.com/",
+          "title": "‎Google Gemini"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/gemini-color.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        }
+      ]
+    },
+    {
+      "id": "gemini-notebook",
+      "name": "Gemini Notebook",
+      "website": "https://notebook.google/?hl=en-GB",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://notebook.google/?hl=en-GB",
+          "title": "Gemini Notebook | AI research tool and thinking partner"
+        },
+        {
+          "url": "https://workspaceupdates.googleblog.com/2026/07/notebooklm-now-gemini-notebook.html",
+          "title": "Official NotebookLM to Gemini Notebook announcement"
+        },
+        {
+          "url": "https://notebook.google/_/static/branding/v6/light_mode/favicon/favicon.svg",
+          "title": "Official website asset — original SVG asset"
+        }
+      ]
+    },
+    {
+      "id": "github-copilot-web",
+      "name": "GitHub Copilot",
+      "website": "https://github.com/features/copilot",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/features/copilot",
+          "title": "GitHub Copilot · Your AI coding agent · GitHub Duolingo FedEx American Airlines Shopify Stripe CocaCola Coyote Logistics Mercado Libre General Motors Duolingo FedEx American Airlines Shopify Stripe CocaCola Coyote Logistics Mercado Libre General Motors GitHub Visual Studio VS Code Xcode JetBrains Neovim Eclipse IDE Raycast"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/githubcopilot.svg",
+          "title": "Lobe Icons · matching product icon"
+        }
+      ]
+    },
+    {
+      "id": "gitlab-duo",
+      "name": "GitLab Duo Agent Platform",
+      "website": "https://about.gitlab.com/gitlab-duo-agent-platform/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://about.gitlab.com/gitlab-duo-agent-platform/",
+          "title": "GitLab Duo Agent Platform"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/gitlab.svg",
+          "title": "Simple Icons · GitLab product family mark"
+        }
+      ]
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "website": "https://www.grammarly.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.grammarly.com/",
+          "title": "Grammarly: Free AI Writing Assistance"
+        },
+        {
+          "url": "https://www.grammarly.com/about",
+          "title": "Grammarly product and Superhuman company identity"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/grammarly.svg",
+          "title": "Simple Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+          "title": "Simple Icons CC0 license; brand trademarks retained"
+        }
+      ]
+    },
+    {
+      "id": "greptile-web",
+      "name": "Greptile",
+      "website": "https://www.greptile.com",
+      "status": "verified",
+      "web_url": "https://app.greptile.com/signup",
+      "domains": [
+        "app.greptile.com"
+      ],
+      "sources": [
+        {
+          "url": "https://www.greptile.com",
+          "title": "AI Code Review | Greptile | Merge 4X Faster, Catch 3X More Bugs"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/greptile-color.svg",
+          "title": "Lobe Icons · matching product icon"
+        },
+        {
+          "url": "https://app.greptile.com/signup",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "website": "https://grok.com/",
+      "status": "verified",
+      "web_url": "https://grok.com/",
+      "domains": [
+        "grok.com"
+      ],
+      "sources": [
+        {
+          "url": "https://grok.com/",
+          "title": "Grok"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/grok.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        }
+      ]
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "website": "https://www.heygen.com/",
+      "status": "verified",
+      "web_url": "https://app.heygen.com/",
+      "domains": [
+        "app.heygen.com"
+      ],
+      "sources": [
+        {
+          "url": "https://www.heygen.com/",
+          "title": "HeyGen: Create Realistic AI Videos of Yourself in Minutes"
+        },
+        {
+          "url": "https://www.heygen.com/images/heygen-logo.png",
+          "title": "HeyGen 官方原始 PNG 品牌素材"
+        },
+        {
+          "url": "https://app.heygen.com/",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        }
+      ]
+    },
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "website": "https://ideogram.ai/",
+      "status": "verified",
+      "web_url": "https://ideogram.ai/",
+      "domains": [
+        "ideogram.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://ideogram.ai/",
+          "title": "Ideogram official product website"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/ideogram.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        },
+        {
+          "url": "https://docs.ideogram.ai/quick-start-guide",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        }
+      ]
+    },
+    {
+      "id": "ima",
+      "name": "ima",
+      "website": "https://ima.qq.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://ima.qq.com/",
+          "title": "ima 官方网站"
+        },
+        {
+          "url": "https://fe-static.ima.myqcloud.com/ima/assets/chat/favicon.svg",
+          "title": "官方网站 SVG 标识"
+        }
+      ]
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "website": "https://www.jasper.ai/",
+      "status": "verified",
+      "web_url": "https://app.jasper.ai/",
+      "domains": [
+        "app.jasper.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://www.jasper.ai/",
+          "title": "Put AI agents to work for marketing | Jasper"
+        },
+        {
+          "url": "https://www.jasper.ai/",
+          "title": "Official homepage inline SVG logo — original SVG asset"
+        },
+        {
+          "url": "https://app.jasper.ai/",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "jules",
+      "name": "Jules",
+      "website": "https://jules.google",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://jules.google",
+          "title": "Jules - An Autonomous Coding Agent Jules - An Autonomous Coding Agent"
+        },
+        {
+          "url": "https://jules.google/favicon.svg",
+          "title": "Official jules logo SVG"
+        }
+      ]
+    },
+    {
+      "id": "kagi-assistant",
+      "name": "Kagi Assistant",
+      "website": "https://help.kagi.com/kagi/ai/assistant.html",
+      "status": "verified",
+      "web_url": "https://assistant.kagi.com/",
+      "domains": [
+        "assistant.kagi.com"
+      ],
+      "sources": [
+        {
+          "url": "https://help.kagi.com/kagi/ai/assistant.html",
+          "title": "Kagi Assistant | Kagi's Docs"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/kagi.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        },
+        {
+          "url": "https://assistant.kagi.com/",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "website": "https://www.kimi.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.kimi.com/",
+          "title": "Kimi 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/kimi-color.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        },
+        {
+          "url": "https://www.kimi.com/en/products/download",
+          "title": "官方下载与平台支持"
+        }
+      ]
+    },
+    {
+      "id": "kimi-code-web",
+      "name": "Kimi Code Web",
+      "website": "https://www.kimi.com/code/docs/en/kimi-code-cli/guides/web.html",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.kimi.com/code/docs/en/kimi-code-cli/guides/web.html",
+          "title": "Kimi Code Web官方文档：内置本地浏览器图形界面"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MoonshotAI/kimi-code/main/apps/vscode/resources/kimi-icon.svg",
+          "title": "Kimi Code 官方VS Code客户端原始SVG（MIT项目，商标归权利人）"
+        }
+      ]
+    },
+    {
+      "id": "kiro-web",
+      "name": "Kiro Web",
+      "website": "https://kiro.dev",
+      "status": "verified",
+      "web_url": "https://app.kiro.dev/",
+      "domains": [
+        "app.kiro.dev"
+      ],
+      "sources": [
+        {
+          "url": "https://kiro.dev",
+          "title": "Kiro: Move beyond AI coding to agentic engineering"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/upgrade-to-kiro.html",
+          "title": "AWS · Upgrade to Kiro"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/kiro-color.svg",
+          "title": "Lobe Icons · matching product icon"
+        },
+        {
+          "url": "https://kiro.dev/faq/",
+          "title": "Kiro FAQ · app.kiro.dev"
+        },
+        {
+          "url": "https://app.kiro.dev/",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "leonardo-ai",
+      "name": "Leonardo.Ai",
+      "website": "https://leonardo.ai/",
+      "status": "verified",
+      "web_url": "https://app.leonardo.ai/",
+      "domains": [
+        "app.leonardo.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://leonardo.ai/",
+          "title": "Leonardo.Ai official product website"
+        },
+        {
+          "url": "https://app.leonardo.ai/",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        }
+      ]
+    },
+    {
+      "id": "liblib",
+      "name": "LiblibAI",
+      "website": "https://www.liblib.art/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.liblib.art/",
+          "title": "LiblibAI 官方网站"
+        }
+      ]
+    },
+    {
+      "id": "lovable-web",
+      "name": "Lovable",
+      "website": "https://lovable.dev",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://lovable.dev",
+          "title": "Lovable · official app and website builder"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/lovable-color.svg",
+          "title": "Lobe Icons · matching product icon"
+        }
+      ]
+    },
+    {
+      "id": "luma-dream-machine",
+      "name": "Luma Dream Machine",
+      "website": "https://lumalabs.ai/dream-machine",
+      "status": "verified",
+      "web_url": "https://dream-machine.lumalabs.ai/",
+      "domains": [
+        "dream-machine.lumalabs.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://lumalabs.ai/dream-machine",
+          "title": "Creative agents for creative professionals | Luma"
+        },
+        {
+          "url": "https://lumalabs.ai/learning-hub/web-quick-start",
+          "title": "Official Dream Machine web quick-start"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/dreammachine.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        },
+        {
+          "url": "https://lumalabs.ai/dream-machine?noredirect=true",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        },
+        {
+          "url": "https://dream-machine.lumalabs.ai/",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "maxclaw",
+      "name": "MaxClaw",
+      "website": "https://agent.minimax.io/max-claw",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://agent.minimax.io/max-claw",
+          "title": "MiniMax 官方国际站 MaxClaw 入口"
+        },
+        {
+          "url": "https://agent.minimaxi.com/activity/max-claw",
+          "title": "MiniMax 官方 MaxClaw 能力说明"
+        }
+      ]
+    },
+    {
+      "id": "maxclaw-cn",
+      "name": "MaxClaw CN",
+      "website": "https://agent.minimaxi.com/max-claw",
+      "status": "verified",
+      "web_url": "https://agent.minimax.cn/max-claw",
+      "domains": [
+        "agent.minimax.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://agent.minimaxi.com/activity/max-claw",
+          "title": "MiniMax 官方 MaxClaw：云端托管 OpenClaw、浏览器/代码/文件工具"
+        },
+        {
+          "url": "https://agent.minimaxi.com/max-claw",
+          "title": "MiniMax 中国站 MaxClaw 入口"
+        },
+        {
+          "url": "https://agent.minimax.cn/max-claw",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        }
+      ]
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "website": "https://www.meta.ai/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.meta.ai/",
+          "title": "Meta AI official product website"
+        },
+        {
+          "url": "https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/",
+          "title": "Meta introduces its iOS and Android app"
+        },
+        {
+          "url": "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/",
+          "title": "Meta AI app and web product update"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/metaai-color.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "website": "https://copilot.microsoft.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://copilot.microsoft.com/",
+          "title": "Microsoft Copilot"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/copilot-color.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        }
+      ]
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "website": "https://www.midjourney.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.midjourney.com/",
+          "title": "Midjourney official product website"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/midjourney.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        }
+      ]
+    },
+    {
+      "id": "minimax-agent",
+      "name": "MiniMax Agent",
+      "website": "https://agent.minimax.io/",
+      "status": "verified",
+      "web_url": "https://agent.minimax.io/",
+      "domains": [
+        "agent.minimax.io"
+      ],
+      "sources": [
+        {
+          "url": "https://www.minimax.io/news/minimax-agent",
+          "title": "MiniMax 官方：通用智能体发布"
+        },
+        {
+          "url": "https://agent.minimax.io/download",
+          "title": "官方产品区分：MiniMax Code 本地桌面 / MiniMax Agent 云端网页"
+        },
+        {
+          "url": "https://agent.minimax.io/home",
+          "title": "MiniMax Agent 国际 Web 工作台"
+        },
+        {
+          "url": "https://agent.minimax.io/",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        }
+      ]
+    },
+    {
+      "id": "minimax-agent-cn",
+      "name": "MiniMax Agent CN",
+      "website": "https://agent.minimaxi.com/",
+      "status": "verified",
+      "web_url": "https://agent.minimax.cn/",
+      "domains": [
+        "agent.minimax.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://agent.minimaxi.com/",
+          "title": "MiniMax Agent 中国站"
+        },
+        {
+          "url": "https://agent.minimaxi.com/doc/zh/terms-of-service.html",
+          "title": "MiniMax 官方中国站用户协议：Agent 服务"
+        },
+        {
+          "url": "https://agent.minimaxi.com/skills",
+          "title": "MiniMax 官方技能市场：可执行办公/分析任务"
+        },
+        {
+          "url": "https://agent.minimax.cn/",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        }
+      ]
+    },
+    {
+      "id": "mistral-vibe",
+      "name": "Mistral Vibe",
+      "website": "https://chat.mistral.ai/",
+      "status": "verified",
+      "web_url": "https://chat.mistral.ai/",
+      "domains": [
+        "chat.mistral.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://mistral.ai/products/vibe/",
+          "title": "Mistral Vibe (formerly Le Chat) - AI chat and coding agent"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mistral-color.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        },
+        {
+          "url": "https://github.com/mistralai/mistral-vibe",
+          "title": "官方 Vibe CLI 仓库；开源许可仅按 CLI 记录关联"
+        },
+        {
+          "url": "https://chat.mistral.ai/",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        }
+      ]
+    },
+    {
+      "id": "napkin-ai",
+      "name": "Napkin AI",
+      "website": "https://www.napkin.ai/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.napkin.ai/",
+          "title": "Napkin AI - Turn Text into AI Diagrams and Visuals"
+        },
+        {
+          "url": "https://www.napkin.ai/assets/napkin-logo-2024.svg",
+          "title": "Official website asset — original SVG asset"
+        }
+      ]
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "website": "https://www.notion.com/product/ai",
+      "status": "verified",
+      "web_url": "https://app.notion.com/chat",
+      "domains": [
+        "app.notion.com"
+      ],
+      "sources": [
+        {
+          "url": "https://www.notion.com/product/ai",
+          "title": "Meet your AI team | Notion"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/notion.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        },
+        {
+          "url": "https://app.notion.com/login?redirectURL=%2Fchat",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        },
+        {
+          "url": "https://app.notion.com/chat",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "website": "https://openwebui.com",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://openwebui.com",
+          "title": "Open WebUI: Self-Hosted AI Platform"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openwebui.svg",
+          "title": "Lobe Icons · matching product icon"
+        }
+      ]
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "website": "https://www.openhands.dev",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.openhands.dev/",
+          "title": "OpenHands | The Open Platform for Cloud Coding Agents"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openhands-color.svg",
+          "title": "Lobe Icons · matching product icon"
+        }
+      ]
+    },
+    {
+      "id": "otter-ai",
+      "name": "Otter.ai",
+      "website": "https://otter.ai/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://otter.ai/",
+          "title": "Otter Meeting Agent - AI Notetaker, Transcription, Insights"
+        },
+        {
+          "url": "https://otter.ai/",
+          "title": "Official homepage inline SVG logo — original SVG asset"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "website": "https://www.perplexity.ai/",
+      "status": "verified",
+      "web_url": "https://www.perplexity.ai/",
+      "domains": [
+        "www.perplexity.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://www.perplexity.ai/",
+          "title": "Perplexity official product website"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/perplexity-color.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        }
+      ]
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "website": "https://pika.art/",
+      "status": "verified",
+      "web_url": "https://create.pika.art/login",
+      "domains": [
+        "create.pika.art"
+      ],
+      "sources": [
+        {
+          "url": "https://pika.art/",
+          "title": "Pika"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/pika.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        },
+        {
+          "url": "https://create.pika.art/login",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "pixverse",
+      "name": "PixVerse",
+      "website": "https://pixverse.ai/",
+      "status": "verified",
+      "web_url": "https://app.pixverse.ai/",
+      "domains": [
+        "app.pixverse.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://pixverse.ai/",
+          "title": "PixVerse 官方网站"
+        },
+        {
+          "url": "https://cdn.pixverse.ai/media/pixverse/favicon.svg",
+          "title": "官方网站 SVG 标识"
+        },
+        {
+          "url": "https://app.pixverse.ai/",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "poe",
+      "name": "Poe",
+      "website": "https://poe.com/",
+      "status": "verified",
+      "web_url": "https://poe.com/",
+      "domains": [
+        "poe.com"
+      ],
+      "sources": [
+        {
+          "url": "https://poe.com/",
+          "title": "Poe official product website"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/poe-color.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        }
+      ]
+    },
+    {
+      "id": "qodo",
+      "name": "Qodo",
+      "website": "https://www.qodo.ai",
+      "status": "verified",
+      "web_url": "https://app.qodo.ai/home",
+      "domains": [
+        "app.qodo.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://www.qodo.ai",
+          "title": "AI Code Review – Qodo: Deploy with confidence"
+        },
+        {
+          "url": "https://www.qodo.ai/wp-content/uploads/2025/03/qodo-logo.svg",
+          "title": "Official Qodo website logo"
+        },
+        {
+          "url": "https://app.qodo.ai/home",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "quillbot",
+      "name": "QuillBot",
+      "website": "https://quillbot.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://quillbot.com/",
+          "title": "QuillBot official product website"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/1GEyefcE9xXjgajeOPnhPvl0clNaQy87Uf2XLBS6Ov4bbZ5Xxoz263PhkGyFi8p7SGrMUaEUuYja-F07YqpOnn-R=s120",
+          "title": "官方品牌素材原始 PNG"
+        }
+      ]
+    },
+    {
+      "id": "qwen-chat",
+      "name": "Qwen Chat",
+      "website": "https://chat.qwen.ai/",
+      "status": "verified",
+      "web_url": "https://chat.qwen.ai/",
+      "domains": [
+        "chat.qwen.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://chat.qwen.ai/",
+          "title": "Qwen Chat 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/qwen-color.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        }
+      ]
+    },
+    {
+      "id": "qwen-code-web",
+      "name": "Qwen Code Web UI",
+      "website": "https://github.com/QwenLM/qwen-code",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/QwenLM/qwen-code",
+          "title": "Qwen Code 官方仓库：Agent能力与CLI、IDE、桌面、Web入口"
+        },
+        {
+          "url": "https://qwen.ai/qwencode",
+          "title": "Qwen Code 官方产品页"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/QwenLM/qwen-code/main/packages/desktop/bootstrap/qwen-code-logo.svg",
+          "title": "Qwen Code 官方仓库原始SVG（Apache-2.0 项目，商标归权利人）"
+        }
+      ]
+    },
+    {
+      "id": "recraft",
+      "name": "Recraft",
+      "website": "https://www.recraft.ai/",
+      "status": "verified",
+      "web_url": "https://www.recraft.ai/auth/login",
+      "domains": [
+        "www.recraft.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://www.recraft.ai/",
+          "title": "Recraft | AI for designers, creatives, sellers, and teams"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/recraft.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        },
+        {
+          "url": "https://www.recraft.ai/auth/login",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        }
+      ]
+    },
+    {
+      "id": "replit-web",
+      "name": "Replit",
+      "website": "https://replit.com",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://replit.com",
+          "title": "Replit · AI app and website builder"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/replit-color.svg",
+          "title": "Lobe Icons · matching product icon"
+        }
+      ]
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "website": "https://runway.com/",
+      "status": "verified",
+      "web_url": "https://app.runwayml.com/",
+      "domains": [
+        "app.runwayml.com"
+      ],
+      "sources": [
+        {
+          "url": "https://runway.com/",
+          "title": "Runway | Building Real-World Intelligence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/runway.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        },
+        {
+          "url": "https://app.runwayml.com/",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "skywork",
+      "name": "Skywork",
+      "website": "https://skywork.ai/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://skywork.ai/",
+          "title": "Skywork 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/skywork-color.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        }
+      ]
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "website": "https://suno.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://suno.com/",
+          "title": "Suno | AI Music Generator"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/suno.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        }
+      ]
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "website": "https://www.synthesia.io/",
+      "status": "verified",
+      "web_url": "https://app.synthesia.io/welcome",
+      "domains": [
+        "app.synthesia.io"
+      ],
+      "sources": [
+        {
+          "url": "https://www.synthesia.io/",
+          "title": "Synthesia: #1 AI Video Platform for Business"
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d710/65eae689ace95f5017dc17a0_Logo-main.svg",
+          "title": "Official website asset — original SVG asset"
+        },
+        {
+          "url": "https://app.synthesia.io/welcome",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "trae-work",
+      "name": "TraeWork",
+      "website": "https://www.trae.ai/work",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.trae.ai/work",
+          "title": "TRAE 官方：TraeWork 独立工作应用"
+        },
+        {
+          "url": "https://www.trae.ai/download",
+          "title": "TRAE 官方下载中心：TraeWork 与 TraeCode 区分"
+        },
+        {
+          "url": "https://docs.trae.cn/work_what-is-trae-work",
+          "title": "TraeWork 官方概述：三端与 Work/Code/Design 模式"
+        },
+        {
+          "url": "https://docs.trae.cn/work_trae-work-web-and-desktop-quickstart",
+          "title": "TraeWork 官方快速开始：Web / macOS / Windows"
+        }
+      ]
+    },
+    {
+      "id": "trae-work-cn",
+      "name": "TraeWork CN",
+      "website": "https://work.trae.cn/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.trae.ai/work",
+          "title": "TRAE 官方：TraeWork 独立工作应用"
+        },
+        {
+          "url": "https://www.trae.ai/download",
+          "title": "TRAE 官方下载中心：TraeWork 与 TraeCode 区分"
+        },
+        {
+          "url": "https://docs.trae.cn/work_what-is-trae-work",
+          "title": "TraeWork 官方概述：三端与 Work/Code/Design 模式"
+        },
+        {
+          "url": "https://docs.trae.cn/work_trae-work-web-and-desktop-quickstart",
+          "title": "TraeWork 官方快速开始：Web / macOS / Windows"
+        }
+      ]
+    },
+    {
+      "id": "udio",
+      "name": "Udio",
+      "website": "https://www.udio.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.udio.com/",
+          "title": "Udio | AI Music Generator - Official Website"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/udio-color.svg",
+          "title": "LobeHub Icons — original SVG asset"
+        },
+        {
+          "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+          "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+        }
+      ]
+    },
+    {
+      "id": "v0-web",
+      "name": "v0",
+      "website": "https://v0.app",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://v0.app",
+          "title": "v0 by Vercel - Build Full-Stack Web Apps with AI OpenAI icon"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/v0.svg",
+          "title": "Lobe Icons · matching product icon"
+        }
+      ]
+    },
+    {
+      "id": "vidu",
+      "name": "Vidu",
+      "website": "https://www.vidu.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.vidu.com/",
+          "title": "Vidu 官方网站"
+        },
+        {
+          "url": "https://www.vidu.com/logo.svg",
+          "title": "官方网站 SVG 标识"
+        }
+      ]
+    },
+    {
+      "id": "wordtune",
+      "name": "Wordtune",
+      "website": "https://www.wordtune.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.wordtune.com/",
+          "title": "Wordtune — Express yourself with confidence"
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/5f7e0f9d75fee6f6f546df46/6559d4e795abd345862d30ff_Group%201000007998.svg",
+          "title": "Official website asset — original SVG asset"
+        }
+      ]
+    },
+    {
+      "id": "wps-ai",
+      "name": "WPS AI",
+      "website": "https://ai.wps.cn/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://ai.wps.cn/",
+          "title": "WPS AI 官方网站"
+        }
+      ]
+    },
+    {
+      "id": "writesonic",
+      "name": "Writesonic",
+      "website": "https://writesonic.com/",
+      "status": "verified",
+      "web_url": "https://app.writesonic.com/",
+      "domains": [
+        "app.writesonic.com"
+      ],
+      "sources": [
+        {
+          "url": "https://writesonic.com/",
+          "title": "Writesonic | The AI Search Growth Engine. Win Customers."
+        },
+        {
+          "url": "https://writesonic.com/icon.svg?icon.0hdydehcy1ouj.svg",
+          "title": "Official website asset — original SVG asset"
+        },
+        {
+          "url": "https://app.writesonic.com/",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        }
+      ]
+    },
+    {
+      "id": "zai-chat",
+      "name": "Z.ai Chat",
+      "website": "https://chat.z.ai/",
+      "status": "verified",
+      "web_url": "https://chat.z.ai/",
+      "domains": [
+        "chat.z.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://chat.z.ai/",
+          "title": "Z.ai Chat 官方网站"
+        },
+        {
+          "url": "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+          "title": "官方网站 SVG 标识"
+        }
+      ]
+    },
+    {
+      "id": "wan",
+      "name": "万相",
+      "website": "https://wan.video/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://wan.video/",
+          "title": "万相 官方网站"
+        }
+      ]
+    },
+    {
+      "id": "qianwen",
+      "name": "千问",
+      "website": "https://www.qianwen.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.qianwen.com/",
+          "title": "千问 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/qwen-color.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        },
+        {
+          "url": "https://www.qianwen.com/download",
+          "title": "千问官方客户端下载（官网配置列有 Windows、Mac 与移动端）"
+        },
+        {
+          "url": "https://qwenwork.cn/",
+          "title": "千问办公（QwenWork）官网：任务规划、交付与网页入口"
+        },
+        {
+          "url": "https://help.aliyun.com/zh/qwenwork/",
+          "title": "阿里云官方文档：千问办公定位与 qwenwork.cn 官方入口"
+        }
+      ]
+    },
+    {
+      "id": "qwenwork-web-cn",
+      "name": "千问办公网页版",
+      "website": "https://qwenwork.cn/signin",
+      "status": "verified",
+      "web_url": "https://qwenwork.cn/signin",
+      "domains": [
+        "qwenwork.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://qwenwork.cn/",
+          "title": "千问办公（QwenWork）官网：任务规划、交付与网页入口"
+        },
+        {
+          "url": "https://help.aliyun.com/zh/qwenwork/",
+          "title": "阿里云官方文档：千问办公定位与 qwenwork.cn 官方入口"
+        },
+        {
+          "url": "https://docs.qwenwork.cn/getting-started/usage-entry",
+          "title": "千问办公官方快速开始：钉钉、网页、独立桌面入口"
+        },
+        {
+          "url": "https://terms.alicdn.com/legal-agreement/terms/b_end_product_protocol/20260708175856831/20260708175856831.html",
+          "title": "千问办公服务协议：运营主体为钉钉科技有限公司、钉钉（中国）信息技术有限公司及关联公司"
+        },
+        {
+          "url": "https://img.alicdn.com/imgextra/i1/O1CN01fS6hoy1LDsZq2CXqf_!!6000000001266-55-tps-1024-1024.svg",
+          "title": "千问办公官方下载页所用原始 SVG 应用图标"
+        },
+        {
+          "url": "https://qwenwork.cn/signin",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        }
+      ]
+    },
+    {
+      "id": "jimeng",
+      "name": "即梦AI",
+      "website": "https://jimeng.jianying.com/",
+      "status": "verified",
+      "web_url": "https://jimeng.jianying.com/",
+      "domains": [
+        "jimeng.jianying.com"
+      ],
+      "sources": [
+        {
+          "url": "https://jimeng.jianying.com/",
+          "title": "即梦AI 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/jimeng-color.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        }
+      ]
+    },
+    {
+      "id": "kling",
+      "name": "可灵AI",
+      "website": "https://app.klingai.com/",
+      "status": "verified",
+      "web_url": "https://klingai.com/app/",
+      "domains": [
+        "klingai.com"
+      ],
+      "sources": [
+        {
+          "url": "https://app.klingai.com/",
+          "title": "可灵AI 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/kling-color.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        },
+        {
+          "url": "https://klingai.com/app/",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        }
+      ]
+    },
+    {
+      "id": "miaohua",
+      "name": "商汤秒画",
+      "website": "https://miaohua.sensetime.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://miaohua.sensetime.com/",
+          "title": "商汤秒画 官方网站"
+        },
+        {
+          "url": "https://miaohua.sensetime.com/",
+          "title": "商汤秒画 官方网站/帮助中心素材来源页"
+        },
+        {
+          "url": "https://bkmksh.oss-cn-shanghai.aliyuncs.com/assets1/homepage/m-favicon.png",
+          "title": "商汤秒画 官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "tiangong",
+      "name": "天工",
+      "website": "https://www.tiangong.cn/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.tiangong.cn/",
+          "title": "天工 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/tiangong-color.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        }
+      ]
+    },
+    {
+      "id": "get-biji",
+      "name": "得到大脑",
+      "website": "https://www.biji.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.biji.com/",
+          "title": "得到大脑（原Get笔记）官方网站"
+        },
+        {
+          "url": "https://www.biji.com/docs/getnote/developer/index",
+          "title": "Get笔记官方使用指南"
+        },
+        {
+          "url": "https://doc.biji.com/docs/PydawiziAiDqxokurl4cSlyGnAu/",
+          "title": "得到大脑官方使用文档"
+        }
+      ]
+    },
+    {
+      "id": "coze-cn",
+      "name": "扣子",
+      "website": "https://www.coze.cn/",
+      "status": "verified",
+      "web_url": "https://www.coze.cn/",
+      "domains": [
+        "www.coze.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coze.cn/",
+          "title": "扣子 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/coze.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        }
+      ]
+    },
+    {
+      "id": "wenxin",
+      "name": "文心",
+      "website": "https://wenxin.baidu.com/",
+      "status": "verified",
+      "web_url": "https://wenxin.baidu.com/",
+      "domains": [
+        "wenxin.baidu.com"
+      ],
+      "sources": [
+        {
+          "url": "https://wenxin.baidu.com/",
+          "title": "文心 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/wenxin-color.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        }
+      ]
+    },
+    {
+      "id": "qingyan",
+      "name": "智谱清言",
+      "website": "https://chatglm.cn/",
+      "status": "verified",
+      "web_url": "https://chatglm.cn/",
+      "domains": [
+        "chatglm.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://chatglm.cn/",
+          "title": "智谱清言 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/qingyan-color.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        }
+      ]
+    },
+    {
+      "id": "hailuo",
+      "name": "海螺AI",
+      "website": "https://hailuoai.video/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://hailuoai.video/",
+          "title": "海螺AI 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/hailuo-color.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        }
+      ]
+    },
+    {
+      "id": "baixiaoyi",
+      "name": "百小医",
+      "website": "https://yi.baichuan-ai.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://yi.baichuan-ai.com/",
+          "title": "百小医 官方网站"
+        }
+      ]
+    },
+    {
+      "id": "baidu-wenku",
+      "name": "百度文库",
+      "website": "https://wenku.baidu.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://wenku.baidu.com/",
+          "title": "百度文库 官方网站"
+        },
+        {
+          "url": "https://edu-wenku.bdimg.com/v1/pc/2026PC/favicon.svg",
+          "title": "官方网站 SVG 标识"
+        }
+      ]
+    },
+    {
+      "id": "metaso",
+      "name": "秘塔AI搜索",
+      "website": "https://metaso.cn/",
+      "status": "verified",
+      "web_url": "https://metaso.cn/",
+      "domains": [
+        "metaso.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://metaso.cn/",
+          "title": "官方网站 SVG 标识"
+        }
+      ]
+    },
+    {
+      "id": "gaoding",
+      "name": "稿定AI",
+      "website": "https://www.gaoding.com/ai",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.gaoding.com/ai",
+          "title": "稿定AI 官方网站"
+        },
+        {
+          "url": "https://www.gaoding.com/footer-logo.svg",
+          "title": "稿定官网页尾品牌SVG"
+        }
+      ]
+    },
+    {
+      "id": "nami",
+      "name": "纳米AI",
+      "website": "https://www.n.cn/",
+      "status": "verified",
+      "web_url": "https://www.n.cn/",
+      "domains": [
+        "www.n.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://www.n.cn/",
+          "title": "纳米AI 官方网站"
+        },
+        {
+          "url": "https://s5.ssl.qhres2.com/static/1d036ee171d75707.svg",
+          "title": "官方网站 SVG 标识"
+        }
+      ]
+    },
+    {
+      "id": "meitu-design",
+      "name": "美图设计室",
+      "website": "https://www.designkit.cn/",
+      "status": "verified",
+      "web_url": "https://www.designkit.cn/",
+      "domains": [
+        "www.designkit.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://www.designkit.cn/",
+          "title": "美图设计室 官方网站"
+        },
+        {
+          "url": "https://xiuxiu-pro-new.meitudata.com/poster/03757bbfe467e293e71e74d6e07c6a42.svg",
+          "title": "官方网站 SVG 标识"
+        }
+      ]
+    },
+    {
+      "id": "yuanbao",
+      "name": "腾讯元宝",
+      "website": "https://yuanbao.tencent.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://yuanbao.tencent.com/",
+          "title": "腾讯元宝 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/yuanbao-color.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        }
+      ]
+    },
+    {
+      "id": "iflywrite",
+      "name": "讯飞写作",
+      "website": "https://huixie.iflyrec.com/",
+      "status": "verified",
+      "web_url": "https://huixie.iflyrec.com/",
+      "domains": [
+        "huixie.iflyrec.com"
+      ],
+      "sources": [
+        {
+          "url": "https://huixie.iflyrec.com/",
+          "title": "讯飞写作 官方网站"
+        }
+      ]
+    },
+    {
+      "id": "iflyrec",
+      "name": "讯飞听见",
+      "website": "https://www.iflyrec.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.iflyrec.com/",
+          "title": "讯飞听见 官方网站"
+        }
+      ]
+    },
+    {
+      "id": "spark",
+      "name": "讯飞星火",
+      "website": "https://xinghuo.xfyun.cn/",
+      "status": "verified",
+      "web_url": "https://xinghuo.xfyun.cn/",
+      "domains": [
+        "xinghuo.xfyun.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://xinghuo.xfyun.cn/",
+          "title": "讯飞星火 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/spark-color.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        }
+      ]
+    },
+    {
+      "id": "doubao",
+      "name": "豆包",
+      "website": "https://www.doubao.com/",
+      "status": "verified",
+      "web_url": "https://www.doubao.com/chat/",
+      "domains": [
+        "www.doubao.com"
+      ],
+      "sources": [
+        {
+          "url": "https://www.doubao.com/",
+          "title": "豆包 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/doubao-color.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        },
+        {
+          "url": "https://www.doubao.com/download/desktop",
+          "title": "豆包官方桌面下载页：工作模式、电脑与浏览器操作、AI 编辑和飞书联动"
+        },
+        {
+          "url": "https://www.doubao.com/chat/",
+          "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+        }
+      ]
+    },
+    {
+      "id": "tingwu",
+      "name": "通义听悟",
+      "website": "https://tingwu.aliyun.com/",
+      "status": "verified",
+      "web_url": "https://tingwu.aliyun.com/",
+      "domains": [
+        "tingwu.aliyun.com"
+      ],
+      "sources": [
+        {
+          "url": "https://tingwu.aliyun.com/",
+          "title": "官方网站 SVG 标识"
+        }
+      ]
+    },
+    {
+      "id": "stepfun",
+      "name": "阶跃AI",
+      "website": "https://chat.stepfun.com/",
+      "status": "verified",
+      "web_url": "https://chat.stepfun.com/",
+      "domains": [
+        "chat.stepfun.com"
+      ],
+      "sources": [
+        {
+          "url": "https://chat.stepfun.com/",
+          "title": "阶跃AI 官方网站"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/stepfun-color.svg",
+          "title": "Lobe Icons 品牌矢量图标"
+        }
+      ]
+    },
+    {
+      "id": "openclaw-web",
+      "name": "OpenClaw Web",
+      "website": "https://openclaw.ai",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/openclaw/openclaw/blob/main/README.md",
+          "title": "Official README; interfaces and deployment"
+        },
+        {
+          "url": "https://github.com/openclaw/openclaw/blob/main/LICENSE",
+          "title": "Official license"
+        }
+      ]
+    },
+    {
+      "id": "qwenpaw-web",
+      "name": "QwenPaw Web",
+      "website": "http://qwenpaw.agentscope.io/",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/agentscope-ai/QwenPaw/blob/main/README.md",
+          "title": "Official README; interfaces and deployment"
+        },
+        {
+          "url": "https://github.com/agentscope-ai/QwenPaw/blob/main/LICENSE",
+          "title": "Official license"
+        }
+      ]
+    },
+    {
+      "id": "nanobot-web",
+      "name": "nanobot Web",
+      "website": "https://nanobot.wiki",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/HKUDS/nanobot/blob/main/README.md",
+          "title": "Official README; interfaces and deployment"
+        },
+        {
+          "url": "https://github.com/HKUDS/nanobot/blob/main/LICENSE",
+          "title": "Official license"
+        }
+      ]
+    },
+    {
+      "id": "agent-zero-web",
+      "name": "Agent Zero",
+      "website": "https://agent-zero.ai",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/agent0ai/agent-zero/blob/main/README.md",
+          "title": "Official README; interfaces and deployment"
+        },
+        {
+          "url": "https://github.com/agent0ai/agent-zero/blob/main/LICENSE",
+          "title": "Official license"
+        }
+      ]
+    },
+    {
+      "id": "aionui-web",
+      "name": "AionUi Web",
+      "website": "https://www.aionui.com",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/iOfficeAI/AionUi/blob/main/readme.md",
+          "title": "Official README; interfaces and deployment"
+        },
+        {
+          "url": "https://github.com/iOfficeAI/AionUi/blob/main/LICENSE",
+          "title": "Official license"
+        }
+      ]
+    },
+    {
+      "id": "librechat-web",
+      "name": "LibreChat",
+      "website": "https://librechat.ai/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/LibreChat-AI/LibreChat/blob/main/README.md",
+          "title": "Official README; interfaces and deployment"
+        },
+        {
+          "url": "https://github.com/LibreChat-AI/LibreChat/blob/main/LICENSE",
+          "title": "Official license"
+        }
+      ]
+    },
+    {
+      "id": "agent-tars-web",
+      "name": "Agent TARS Web",
+      "website": "https://agent-tars.com",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/README.md",
+          "title": "Official README; interfaces and deployment"
+        },
+        {
+          "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/LICENSE",
+          "title": "Official license"
+        }
+      ]
+    },
+    {
+      "id": "deerflow-web",
+      "name": "DeerFlow Web",
+      "website": "https://deerflow.tech",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/deer-flow/blob/main/README.md",
+          "title": "Official README; interfaces and deployment"
+        },
+        {
+          "url": "https://github.com/bytedance/deer-flow/blob/main/LICENSE",
+          "title": "Official license"
+        }
+      ]
+    },
+    {
+      "id": "astrbot-web",
+      "name": "AstrBot",
+      "website": "https://astrbot.app",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md",
+          "title": "Official README; interfaces and deployment"
+        },
+        {
+          "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/LICENSE",
+          "title": "Official license"
+        }
+      ]
+    },
+    {
+      "id": "langbot-web",
+      "name": "LangBot",
+      "website": "https://space.langbot.app/cloud",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/langbot-app/LangBot/blob/master/README.md",
+          "title": "Official README; interfaces and deployment"
+        },
+        {
+          "url": "https://github.com/langbot-app/LangBot/blob/master/LICENSE",
+          "title": "Official license"
+        }
+      ]
+    },
+    {
+      "id": "bolt-diy-web",
+      "name": "bolt.diy Web",
+      "website": "https://stackblitz-labs.github.io/bolt.diy/",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/README.md",
+          "title": "Official README; interfaces and deployment"
+        },
+        {
+          "url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/LICENSE",
+          "title": "Official license"
+        }
+      ]
+    },
+    {
+      "id": "deepseek-harness-web",
+      "name": "DeepSeek Harness Web Console",
+      "website": "https://deepseek.com/en/harness/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://deepseek.com/en/harness/",
+          "title": "DeepSeek Harness / dsh — 官方产品/文档或上游仓库"
+        },
+        {
+          "url": "https://github.com/deepseek-ai/deepseek-harness",
+          "title": "DeepSeek Harness / dsh — 官方产品/文档或上游仓库"
+        },
+        {
+          "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/index.md",
+          "title": "最终用户可以选择工作区、发起任务、读写文件、运行命令、委派工作和维护计划。"
+        },
+        {
+          "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/apps/cli/README.md",
+          "title": "官方 CLI 使用参考；命令行与无界面集成为同一 Harness 的入口。"
+        },
+        {
+          "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/development.md",
+          "title": "Node.js 运行要求、原生 Windows 与 WSL 2/Linux 开发环境说明；未据此声称存在 Linux 官方桌面安装包。"
+        },
+        {
+          "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/LICENSE",
+          "title": "MIT 软件许可；模型/API 服务成本不属于该许可证的免费授权结论。"
+        },
+        {
+          "url": "https://www.deepseek.com/harness/favicon.svg",
+          "title": "Official product/repository SVG asset; downloaded unmodified and checked for active/raster content"
+        }
+      ]
+    },
+    {
+      "id": "monkeycode-web",
+      "name": "MonkeyCode",
+      "website": "https://github.com/chaitin/MonkeyCode",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/chaitin/MonkeyCode",
+          "title": "MonkeyCode — 官方产品/文档或上游仓库"
+        },
+        {
+          "url": "https://github.com/chaitin/MonkeyCode/releases",
+          "title": "MonkeyCode — 官方产品/文档或上游仓库"
+        },
+        {
+          "url": "https://github.com/chaitin/monkeycode-cli",
+          "title": "MonkeyCode — 官方产品/文档或上游仓库"
+        },
+        {
+          "url": "https://github.com/chaitin/MonkeyCode/blob/main/LICENSE",
+          "title": "根 LICENSE 为 GNU AGPL v3；只用于该仓库源码分发，不能外推托管服务或第三方组件许可。"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/chaitin/MonkeyCode/3aab1fdbcca48c8fbc09ae5f38e0eea899ea4a56/frontend/public/logo-colored.png",
+          "title": "Official project PNG Logo — original raster asset"
+        }
+      ]
+    },
+    {
+      "id": "qoder-wake-cn-web",
+      "name": "QoderWake CN Web Console",
+      "website": "https://docs.qoder.cn/en/qoderwake/installation",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://docs.qoder.cn/en/qoderwake/installation",
+          "title": "QoderWake — 官方产品/文档或上游仓库"
+        },
+        {
+          "url": "https://qoder.com/en/qoderwake",
+          "title": "QoderWake — 官方产品/文档或上游仓库"
+        },
+        {
+          "url": "https://qoder.com/favIcon.svg",
+          "title": "Qoder 官方SVG标识"
+        },
+        {
+          "url": "https://docs.qoder.cn/qoderwake/cloud-computer",
+          "title": "官方云电脑为 Waker 提供持久化浏览器、终端、文件和桌面环境，本机可离线；标准版目录价 ¥99/月/台、活动价 ¥59/月/台。它是 Wake 的运行环境形态，不是新品牌。"
+        },
+        {
+          "url": "https://docs.qoder.cn/qoderwake/ecs-deployment",
+          "title": "同时支持用户自行在云电脑/ECS 部署；不能将自部署 ECS 与官方托管云电脑的费用混为一谈。"
+        }
+      ]
+    },
+    {
+      "id": "ona-web",
+      "name": "Ona",
+      "website": "https://ona.com/stories/gitpod-is-now-ona",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://ona.com/stories/gitpod-is-now-ona",
+          "title": "Ona（原 Gitpod） — 官方产品/文档或上游仓库"
+        },
+        {
+          "url": "https://github.com/gitpod-io",
+          "title": "Ona（原 Gitpod） — 官方产品/文档或上游仓库"
+        },
+        {
+          "url": "https://ona.com/ona-light-favicon.svg",
+          "title": "Official SVG asset — byte-for-byte verified against PR #1"
+        }
+      ]
+    },
+    {
+      "id": "coder-community-web",
+      "name": "Coder Agents",
+      "website": "https://coder.com/docs/about",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://coder.com/docs/about",
+          "title": "官方身份：自托管开发环境及原生 AI coding agents；Coder Agents 使用 Web UI/REST API；workspace 支持 Linux/macOS/Windows。"
+        },
+        {
+          "url": "https://coder.com/pricing",
+          "title": "Community 免费；5 个 active Coder Agents；平台 Web UI、CLI、REST API 和 IDE integrations。"
+        },
+        {
+          "url": "https://github.com/coder/coder",
+          "title": "官方源码仓库，README 描述原生 Coder Agents。"
+        },
+        {
+          "url": "https://github.com/coder/coder/blob/main/LICENSE",
+          "title": "社区代码 LICENSE 为 GNU AGPL version 3。"
+        },
+        {
+          "url": "https://github.com/coder/coder/blob/main/LICENSE.enterprise",
+          "title": "企业目录由 Coder Technologies Inc. 单独的自定义许可证约束。"
+        },
+        {
+          "url": "https://coder.com/brand",
+          "title": "官方品牌页 Primary logo 图链为所列 SVG；抓取返回 image/svg+xml。"
+        },
+        {
+          "url": "https://github.com/coder/coder/releases",
+          "title": "仍活跃：v2.38.0 发布于 2026-10-06；旧 Tasks 已弃用移除。"
+        },
+        {
+          "url": "https://github.com/coder/coder/blob/main/coderd/coderd.go",
+          "title": "具体社区实现证据：文件 API 注释标 AGPL-3.0 并链接根 LICENSE；Chats 注释明确为用户端 Coder Agents 产品而非 workspace daemon；导入 coderd/x/chatd，调用 chatd.New 并启动 chatDaemon；未设置 ChatAgentCapacityUnlock 时保留默认 Agent 配额。"
+        },
+        {
+          "url": "https://github.com/coder/coder/blob/main/coderd/x/chatd/chatd.go",
+          "title": "原生 chatd 实现文件在 coderd/x/chatd，位于 enterprise 目录之外。"
+        },
+        {
+          "url": "https://github.com/coder/coder/blob/main/coderd/x/chatd/ARCHITECTURE.md",
+          "title": "架构说明 chat worker 在 coderd 中调用 LLM 和执行工具，确认此目录包含实际 Agent loop。"
+        },
+        {
+          "url": "https://github.com/coder/coder/blob/main/enterprise/cli/server.go",
+          "title": "企业层源码注释明确 chatd 使用的 bridge 由 AGPL cli/server.go 无条件启动，不依赖 license；仅 proxy daemon enterprise-gated。"
+        },
+        {
+          "url": "https://github.com/coder/coder/blob/main/enterprise/coderd/coderd.go",
+          "title": "企业层另行注入 ChatStreamPartsDialer（跨副本）与 entchatd.NewAgentCapacityUnlock，然后调用基础 coderd.New；不等于完整 Agent loop 只在企业目录。"
+        },
+        {
+          "url": "https://coder.com/brand/images/logo/sections/0/content/1/value/images/0/image.svg",
+          "title": "Coder official brand Primary logo SVG; original unmodified asset"
+        }
+      ]
+    },
+    {
+      "id": "lingcode-web",
+      "name": "LingCode Web",
+      "website": "https://lingcode.dev/try.html",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://lingcode.dev/try.html",
+          "title": "官方浏览器 app-building playground，prompt、预览、文件读写、Zip导出；主页链接该形态。"
+        },
+        {
+          "url": "https://lingcode.dev/pricing.html",
+          "title": "Web playground 在 Free 方案；浏览器 Deep Agent 为付费功能，不能算 Free 自带。"
+        },
+        {
+          "url": "https://lingcode.dev/cli.html",
+          "title": "Linux/Windows 仅指 CLI，不宣称完整 Mac IDE 在这些系统可用。"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/lingcode/id6757243830",
+          "title": "移动端功能/兼容系统；美国App Store IAP Pro $19.99 与官网 $20 分开记录。"
+        },
+        {
+          "url": "https://lingcode.dev/favicon.svg",
+          "title": "SVG Logo — official brand asset"
+        }
+      ]
+    },
+    {
+      "id": "loomy-web",
+      "name": "Loomy",
+      "website": "https://loomy.xunfei.cn/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://loomy.xunfei.cn/",
+          "title": "官网列有已可打开的 Web Beta 入口，说明免下载登录后可发起云端任务。不能将桌面 API Key/local-storage 特性自动套用到 Web。"
+        },
+        {
+          "url": "https://loomy.xunfei.cn/assets/images/bottom_loomy.svg",
+          "title": "Official product/repository SVG asset; downloaded unmodified and checked for active/raster content"
+        }
+      ]
+    },
+    {
+      "id": "reasonix-web",
+      "name": "Reasonix Web",
+      "website": "https://reasonix.io/",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/esengine/DeepSeek-Reasonix/blob/studio/README.md",
+          "title": "1.x 继续 bugfix、provider/API compatibility、updater/security 修复，核心架构不再扩展；npm i -g reasonix 与 Homebrew 当前指该稳定线。"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/esengine/DeepSeek-Reasonix/main-v2/LICENSE",
+          "title": "main-v2 独立核实为 MIT，不以 2.x 许可替代。"
+        },
+        {
+          "url": "https://reasonix.io/",
+          "title": "官网描述本地运行、BYOK；无官方软件价格表，商业状态保留 unknown。"
+        },
+        {
+          "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/tag/v1.39.8",
+          "title": "实际 CLI release assets 为 darwin/linux/windows × amd64/arm64；与 desktop-v1.39.8 是分开发布。"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/esengine/DeepSeek-Reasonix/v1.39.8/LICENSE",
+          "title": "2026-10-09 精确发布 tag 的许可证 HTTP 200，核实 MIT；不仅依赖当前分支。"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/esengine/DeepSeek-Reasonix/studio/docs/favicon.svg",
+          "title": "Official product/repository SVG asset; downloaded unmodified and checked for active/raster content"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/esengine/DeepSeek-Reasonix/studio/LICENSE",
+          "title": "该分支 MIT。"
+        },
+        {
+          "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/tag/v2.33.0",
+          "title": "官方已发布 CLI release；实际档案分别为 darwin/linux/windows × amd64/arm64。"
+        }
+      ]
+    },
+    {
+      "id": "rovo-dev-reviewer",
+      "name": "Rovo Dev Code Reviewer",
+      "website": "https://www.atlassian.com/software/rovo-dev",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.atlassian.com/software/rovo-dev/pricing",
+          "title": "官方当前页面仍列 Standard $20/开发者/月，含 2,000 credits，额外 $0.01/credit；同时显示独立产品将终止的通知。"
+        },
+        {
+          "url": "https://www.atlassian.com/licensing/rovo-dev",
+          "title": "截至本次核查仍在运行；CLI 将迁移到 Rovo CLI，独立 IDE 能力将退役，最终 EOL 日期均待定；2026-12-03 是 Code Reviewer 转 Rovo Credits 的计划日期，不是 EOL。"
+        },
+        {
+          "url": "https://www.atlassian.com/legal/atlassian-customer-agreement",
+          "title": "Atlassian 产品适用客户协议及商业授权限制；未核实 Rovo Dev 产品本体的开源许可证。"
+        },
+        {
+          "url": "https://support.atlassian.com/subscriptions-and-billing/docs/how-billing-works-for-rovo-dev-standard/",
+          "title": "Rovo Dev Free 是付费 Jira 套餐附带额度，不是无条件独立免费产品；文档列每用户每月 350 credits，Standard 为 2,000。"
+        },
+        {
+          "url": "https://www.atlassian.com/software/rovo-dev",
+          "title": "SVG Logo — official brand asset"
+        }
+      ]
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "website": "https://consensus.app/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://consensus.app/",
+          "title": "Consensus 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://consensus.app/favicon.svg",
+          "title": "Consensus 官方原始 SVG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "elicit",
+      "name": "Elicit",
+      "website": "https://elicit.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://elicit.com/",
+          "title": "Elicit 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://framerusercontent.com/images/GWXKVhGBLC34aTLlmLIMsRVb4.png",
+          "title": "Elicit 官方原始 PNG 品牌素材"
+        },
+        {
+          "url": "https://elicit.com/users/auth?show=signup",
+          "title": "Elicit 官方浏览器应用入口（登录或模型交互）"
+        }
+      ]
+    },
+    {
+      "id": "scispace",
+      "name": "SciSpace",
+      "website": "https://scispace.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://scispace.com/",
+          "title": "SciSpace 官方产品及 Web 入口"
+        }
+      ]
+    },
+    {
+      "id": "chatpdf",
+      "name": "ChatPDF",
+      "website": "https://www.chatpdf.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.chatpdf.com/",
+          "title": "ChatPDF 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://www.chatpdf.com/icon.svg",
+          "title": "ChatPDF 官方原始 SVG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "website": "https://manus.im/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://manus.im/",
+          "title": "Manus 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://manus.im/icon.svg?icon.2kbcs13ndm9it.svg",
+          "title": "Manus 官方原始 SVG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "genspark",
+      "name": "Genspark",
+      "website": "https://www.genspark.ai/genspark-landing.html",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.genspark.ai/genspark-landing.html",
+          "title": "Genspark 官方产品及 Web 入口"
+        }
+      ]
+    },
+    {
+      "id": "felo",
+      "name": "Felo",
+      "website": "https://felo.ai/search",
+      "status": "verified",
+      "web_url": "https://felo.ai/search",
+      "domains": [
+        "felo.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://felo.ai/search",
+          "title": "Felo 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://felo.ai/icon-square.png",
+          "title": "Felo 官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "jenni",
+      "name": "Jenni",
+      "website": "https://jenni.ai/",
+      "status": "verified",
+      "web_url": "https://app.jenni.ai/",
+      "domains": [
+        "app.jenni.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://jenni.ai/",
+          "title": "Jenni 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://framerusercontent.com/images/qYjbIznnZuv0AsCQzQJcoyhQI.svg",
+          "title": "Jenni 官方原始 SVG 品牌素材"
+        },
+        {
+          "url": "https://app.jenni.ai/",
+          "title": "Jenni 官方浏览器应用入口（登录或模型交互）"
+        }
+      ]
+    },
+    {
+      "id": "jotbot",
+      "name": "JotBot",
+      "website": "https://myjotbot.com/",
+      "status": "verified",
+      "web_url": "https://app.myjotbot.com/",
+      "domains": [
+        "app.myjotbot.com"
+      ],
+      "sources": [
+        {
+          "url": "https://myjotbot.com/",
+          "title": "JotBot 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://framerusercontent.com/images/wX7VeNkYrnd16sAPVNugZZSsWqI.png",
+          "title": "JotBot 官方原始 PNG 品牌素材"
+        },
+        {
+          "url": "https://app.myjotbot.com/",
+          "title": "JotBot 官方浏览器应用入口（登录或模型交互）"
+        }
+      ]
+    },
+    {
+      "id": "deepl-write",
+      "name": "DeepL Write",
+      "website": "https://www.deepl.com/en/write",
+      "status": "verified",
+      "web_url": "https://www.deepl.com/en/write",
+      "domains": [
+        "www.deepl.com"
+      ],
+      "sources": [
+        {
+          "url": "https://www.deepl.com/en/write",
+          "title": "DeepL Write 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://www.deepl.com/icon?96dd39650c8ded7a",
+          "title": "DeepL Write 官方原始 SVG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "google-ai-studio",
+      "name": "Google AI Studio",
+      "website": "https://aistudio.google.com/welcome",
+      "status": "verified",
+      "web_url": "https://aistudio.google.com/welcome",
+      "domains": [
+        "aistudio.google.com"
+      ],
+      "sources": [
+        {
+          "url": "https://aistudio.google.com/welcome",
+          "title": "Google AI Studio 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://ai.google.dev/aistudio",
+          "title": "Google 官方 AI Studio 产品文档"
+        },
+        {
+          "url": "https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-512dp/logo_ai_studio_color_1x_web_512dp.png",
+          "title": "Google AI Studio 官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "beautiful-ai",
+      "name": "Beautiful.ai",
+      "website": "https://www.beautiful.ai/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.beautiful.ai/",
+          "title": "Beautiful.ai 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/59deb588800ae30001ec19c9/691b4ae4a724e6c686bfb035_BAI%20symbol%3Dfull%20color%20black.png",
+          "title": "Beautiful.ai 官方原始 PNG 品牌素材"
+        },
+        {
+          "url": "https://www.beautiful.ai/login",
+          "title": "Beautiful.ai 官方浏览器应用入口（登录或模型交互）"
+        }
+      ]
+    },
+    {
+      "id": "slidesgo",
+      "name": "Slidesgo",
+      "website": "https://slidesgo.com/ai/presentation-maker",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://slidesgo.com/ai/presentation-maker",
+          "title": "Slidesgo 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://slidesgo.com/favicons/apple-favicon-180x180.png",
+          "title": "Slidesgo 官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "krea",
+      "name": "Krea",
+      "website": "https://www.krea.ai/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.krea.ai/",
+          "title": "Krea 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://www.krea.ai/favicon/favicon-192.png",
+          "title": "Krea 官方原始 PNG 品牌素材"
+        },
+        {
+          "url": "https://www.krea.ai/login",
+          "title": "Krea 官方浏览器应用入口（登录或模型交互）"
+        }
+      ]
+    },
+    {
+      "id": "fal",
+      "name": "fal",
+      "website": "https://fal.ai/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://fal.ai/",
+          "title": "fal 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://fal.ai/apple-touch-icon.png",
+          "title": "fal 官方原始 PNG 品牌素材"
+        },
+        {
+          "url": "https://fal.ai/explore",
+          "title": "fal 官方浏览器应用入口（登录或模型交互）"
+        }
+      ]
+    },
+    {
+      "id": "higgsfield",
+      "name": "Higgsfield",
+      "website": "https://higgsfield.ai/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://higgsfield.ai/",
+          "title": "Higgsfield 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://static.higgsfield.ai/public/home/higgsfield-projects/higgs-icon.svg",
+          "title": "Higgsfield 官方原始 SVG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "fish-audio",
+      "name": "Fish Audio",
+      "website": "https://fish.audio/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://fish.audio/",
+          "title": "Fish Audio 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://fish.audio/favicon-96x96.png",
+          "title": "Fish Audio 官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "aiva",
+      "name": "AIVA",
+      "website": "https://www.aiva.ai/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.aiva.ai/",
+          "title": "AIVA 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://www.aiva.ai/assets/img/aiva_logo_2.png",
+          "title": "AIVA 官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "soundraw",
+      "name": "SOUNDRAW",
+      "website": "https://soundraw.io/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://soundraw.io/",
+          "title": "SOUNDRAW 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://soundraw.io/assets/apple-touch-icon-4ffadde212293f472dc6fde485807f0a51992631e0f2d9169dfac04b84d5e98e.png",
+          "title": "SOUNDRAW 官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "uizard",
+      "name": "Uizard",
+      "website": "https://uizard.io/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://uizard.io/",
+          "title": "Uizard 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://uizard.io/apple-touch-icon.png",
+          "title": "Uizard 官方原始 PNG 品牌素材"
+        },
+        {
+          "url": "https://app.uizard.io/login",
+          "title": "Uizard 官方浏览器应用入口（登录或模型交互）"
+        }
+      ]
+    },
+    {
+      "id": "relevance-ai",
+      "name": "Relevance AI",
+      "website": "https://relevanceai.com/",
+      "status": "verified",
+      "web_url": "https://app.relevanceai.com/signup",
+      "domains": [
+        "app.relevanceai.com"
+      ],
+      "sources": [
+        {
+          "url": "https://relevanceai.com/",
+          "title": "Relevance AI 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://cdn.relevanceai.com/images/favicon-256x256.png",
+          "title": "Relevance AI 官方原始 PNG 品牌素材"
+        },
+        {
+          "url": "https://app.relevanceai.com/signup",
+          "title": "Relevance AI 官方浏览器应用入口（登录或模型交互）"
+        }
+      ]
+    },
+    {
+      "id": "lindy",
+      "name": "Lindy",
+      "website": "https://www.lindy.ai/",
+      "status": "verified",
+      "web_url": "https://chat.lindy.ai/login",
+      "domains": [
+        "chat.lindy.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://www.lindy.ai/",
+          "title": "Lindy 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://www.lindy.ai/_sherpa/assets/static/lindy/69f7b166c2e11ba39f7b2b9e_lindy-avatar-favicon.png",
+          "title": "Lindy 官方原始 PNG 品牌素材"
+        },
+        {
+          "url": "https://chat.lindy.ai/login",
+          "title": "Lindy 官方浏览器应用入口（登录或模型交互）"
+        }
+      ]
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "website": "https://n8n.io/",
+      "status": "verified",
+      "web_url": "https://app.n8n.cloud/login",
+      "domains": [
+        "app.n8n.cloud"
+      ],
+      "sources": [
+        {
+          "url": "https://n8n.io/",
+          "title": "n8n 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://n8n.io/brandguidelines/logo-dark.svg",
+          "title": "n8n 官方原始 SVG 品牌素材"
+        },
+        {
+          "url": "https://app.n8n.cloud/login",
+          "title": "n8n 官方浏览器应用入口（登录或模型交互）"
+        }
+      ]
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier Agents",
+      "website": "https://zapier.com/agents",
+      "status": "verified",
+      "web_url": "https://agents.zapier.com/login",
+      "domains": [
+        "agents.zapier.com"
+      ],
+      "sources": [
+        {
+          "url": "https://zapier.com/agents",
+          "title": "Zapier Agents 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://res.cloudinary.com/zapier-media/image/upload/f_png/v1757453971/Zapier_Logo_yjhvbo",
+          "title": "Zapier Agents 官方原始 PNG 品牌素材"
+        },
+        {
+          "url": "https://agents.zapier.com/login",
+          "title": "Zapier Agents 官方浏览器应用入口（登录或模型交互）"
+        }
+      ]
+    },
+    {
+      "id": "gumloop",
+      "name": "Gumloop",
+      "website": "https://www.gumloop.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.gumloop.com/",
+          "title": "Gumloop 官方产品及 Web 入口"
+        },
+        {
+          "url": "https://www.gumloop.com/brand/Wordmark.svg",
+          "title": "Gumloop 官方原始 SVG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "freebuff-web",
+      "name": "Freebuff",
+      "website": "https://freebuff.com/web",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffreebuff.com%2F",
+          "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+        },
+        {
+          "url": "https://freebuff.com/web",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://freebuff.com/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://github.com/CodebuffAI/freebuff/blob/main/README.md",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://freebuff.com/brand/freebuff-mark.png",
+          "title": "官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "strix-web",
+      "name": "Strix",
+      "website": "https://app.strix.ai/",
+      "status": "verified",
+      "web_url": "https://app.strix.ai/",
+      "domains": [
+        "app.strix.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fstrix.ai%2F",
+          "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+        },
+        {
+          "url": "https://app.strix.ai/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://www.strix.ai/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://www.strix.ai/logo-transparent.png",
+          "title": "官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "sillytavern-web",
+      "name": "SillyTavern",
+      "website": "https://sillytavern.app/",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/apps/sillytavern",
+          "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+        },
+        {
+          "url": "https://sillytavern.app/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://docs.sillytavern.app/installation/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://github.com/SillyTavern/SillyTavern",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://sillytavern.app/img/apple-icon-144x144.png",
+          "title": "官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "lemonade-web",
+      "name": "Lemonade",
+      "website": "https://lemonade.gg/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/apps/lemonade",
+          "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+        },
+        {
+          "url": "https://lemonade.gg/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://lemonade.gg/terms-of-service",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://lemonade.gg/icons/logo-icon.svg",
+          "title": "官方原始 SVG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "isekai-zero-web",
+      "name": "ISEKAI ZERO",
+      "website": "https://www.isekaizero.ai/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/apps/isekai-zero",
+          "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+        },
+        {
+          "url": "https://www.isekaizero.ai/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://www.isekai.world/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://www.isekaizero.ai/favicon.png",
+          "title": "官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "craft-rpgs-web",
+      "name": "Craft",
+      "website": "https://www.craftrpgs.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/apps/craft-rpgs",
+          "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+        },
+        {
+          "url": "https://www.craftrpgs.com/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://www.craftrpgs.com/icons/apple-touch-icon.png",
+          "title": "官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "digen-web",
+      "name": "Digen AI",
+      "website": "https://agent.digen.ai/en",
+      "status": "verified",
+      "web_url": "https://agent.digen.ai/en",
+      "domains": [
+        "agent.digen.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fagent.digen.ai%2F",
+          "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+        },
+        {
+          "url": "https://agent.digen.ai/en",
+          "title": "官方应用形态、功能及发行依据"
+        }
+      ]
+    },
+    {
+      "id": "framer-web",
+      "name": "Framer",
+      "website": "https://www.framer.com/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/apps/framer",
+          "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+        },
+        {
+          "url": "https://www.framer.com/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://framerusercontent.com/images/Io89FonxEaWg4nxvQQllVLwPUUI.png",
+          "title": "官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "gdevelop-web",
+      "name": "GDevelop",
+      "website": "https://editor.gdevelop.io/",
+      "status": "verified",
+      "web_url": "https://editor.gdevelop.io/",
+      "domains": [
+        "editor.gdevelop.io"
+      ],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/apps/gdevelop",
+          "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+        },
+        {
+          "url": "https://editor.gdevelop.io/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://gdevelop.io/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://gdevelop.io/download",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://gdevelop.io/favicons/safari-pinned-tab.svg",
+          "title": "官方原始 SVG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "rosebud-web",
+      "name": "Rosebud AI",
+      "website": "https://rosebud.ai/",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/apps/url/https%3A%2F%2Frosebud.ai%2F",
+          "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+        },
+        {
+          "url": "https://rosebud.ai/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://lab.rosebud.ai/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://rosebud.ai/assets/rosebud-icon.png",
+          "title": "官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "fliki-web",
+      "name": "Fliki",
+      "website": "https://fliki.ai/",
+      "status": "verified",
+      "web_url": "https://app.fliki.ai/",
+      "domains": [
+        "app.fliki.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffliki.ai%2F",
+          "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+        },
+        {
+          "url": "https://fliki.ai/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://app.fliki.ai/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://cdn.fliki.ai/public/favicon/apple-touch-icon.png?v=0.1",
+          "title": "官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "websim-web",
+      "name": "Websim",
+      "website": "https://websim.com/",
+      "status": "verified",
+      "web_url": "https://websim.com/",
+      "domains": [
+        "websim.com"
+      ],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwebsim.com%2F",
+          "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+        },
+        {
+          "url": "https://websim.com/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://websim.com/swirl.png",
+          "title": "官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "highlevel-web",
+      "name": "HighLevel",
+      "website": "https://www.gohighlevel.com/ai",
+      "status": "unverified",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/apps",
+          "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+        },
+        {
+          "url": "https://www.gohighlevel.com/ai",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/62b48689c85eccb36ca941fc.png",
+          "title": "官方原始 PNG 品牌素材"
+        }
+      ]
+    },
+    {
+      "id": "letta-web",
+      "name": "Letta",
+      "website": "https://chat.letta.com/",
+      "status": "verified",
+      "web_url": "https://chat.letta.com/",
+      "domains": [
+        "chat.letta.com"
+      ],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/apps/letta",
+          "title": "OpenRouter 发现线索；属性经官方来源重新核验"
+        },
+        {
+          "url": "https://chat.letta.com/",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://docs.letta.com/platform/cli",
+          "title": "官方应用形态、功能及发行依据"
+        },
+        {
+          "url": "https://github.com/letta-ai/letta-code",
+          "title": "官方应用形态、功能及发行依据"
+        }
+      ]
+    },
+    {
+      "id": "t3-chat-web",
+      "name": "T3 Chat",
+      "website": "https://t3.chat/",
+      "status": "verified",
+      "web_url": "https://t3.chat/",
+      "domains": [
+        "t3.chat"
+      ],
+      "sources": [
+        {
+          "url": "https://t3.chat/",
+          "title": "官方产品、AI 功能及 Web 形态"
+        },
+        {
+          "url": "https://t3.chat/",
+          "title": "官方应用入口（域名核验）"
+        }
+      ]
+    },
+    {
+      "id": "abacus-chatllm-web",
+      "name": "ChatLLM",
+      "website": "https://chatllm.abacus.ai/",
+      "status": "verified",
+      "web_url": "https://apps.abacus.ai/chatllm/",
+      "domains": [
+        "apps.abacus.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://chatllm.abacus.ai/",
+          "title": "官方产品、AI 功能及 Web 形态"
+        },
+        {
+          "url": "https://apps.abacus.ai/chatllm/",
+          "title": "官方应用入口（域名核验）"
+        }
+      ]
+    },
+    {
+      "id": "dust-web",
+      "name": "Dust",
+      "website": "https://dust.tt/",
+      "status": "verified",
+      "web_url": "https://app.dust.tt/",
+      "domains": [
+        "app.dust.tt"
+      ],
+      "sources": [
+        {
+          "url": "https://dust.tt/",
+          "title": "官方产品、AI 功能及 Web 形态"
+        },
+        {
+          "url": "https://app.dust.tt/",
+          "title": "官方应用入口（域名核验）"
+        },
+        {
+          "url": "https://dust.tt/academy/first-steps-on-dust/chapter/discover",
+          "title": "官方 Academy：明确 app.dust.tt 应用入口"
+        }
+      ]
+    },
+    {
+      "id": "mem-web",
+      "name": "Mem",
+      "website": "https://get.mem.ai/",
+      "status": "verified",
+      "web_url": "https://mem.ai/login",
+      "domains": [
+        "mem.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://get.mem.ai/",
+          "title": "官方产品、AI 功能及 Web 形态"
+        },
+        {
+          "url": "https://mem.ai/login",
+          "title": "官方应用入口（域名核验）"
+        },
+        {
+          "url": "https://get.mem.ai/download",
+          "title": "官方导航与登录入口"
+        }
+      ]
+    },
+    {
+      "id": "taskade-web",
+      "name": "Taskade",
+      "website": "https://www.taskade.com/",
+      "status": "verified",
+      "web_url": "https://www.taskade.com/login",
+      "domains": [
+        "www.taskade.com"
+      ],
+      "sources": [
+        {
+          "url": "https://www.taskade.com/",
+          "title": "官方产品、AI 功能及 Web 形态"
+        },
+        {
+          "url": "https://www.taskade.com/login",
+          "title": "官方应用入口（域名核验）"
+        },
+        {
+          "url": "https://help.taskade.com/en/articles/8958451-taskade-ai-chat",
+          "title": "官方 AI Chat 文档"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1439 @@
+{
+  "checked_at": "2026-10-12",
+  "scope": "Public website response and candidate links only; HTTP success does not verify an application domain. No authentication or installation tests.",
+  "records": [
+    {
+      "id": "adobe-firefly",
+      "website": "https://www.adobe.com/products/firefly.html",
+      "error": "HTTP Error 403: Forbidden",
+      "candidate_links": []
+    },
+    {
+      "id": "jetbrains-air-web",
+      "website": "https://www.jetbrains.com/air/",
+      "http_status": 200,
+      "final_url": "https://www.jetbrains.com/air/",
+      "title": "JetBrains Air: One system for building software with agents",
+      "candidate_links": []
+    },
+    {
+      "id": "amp-web",
+      "website": "https://ampcode.com",
+      "http_status": 200,
+      "final_url": "https://ampcode.com",
+      "title": "Amp: Coding agent and dev environment built for the frontier",
+      "candidate_links": []
+    },
+    {
+      "id": "anythingllm-web",
+      "website": "https://anythingllm.com",
+      "http_status": 200,
+      "final_url": "https://anythingllm.com",
+      "title": "AnythingLLM — On-device AI for productivity | Local & Private",
+      "candidate_links": [
+        "https://docs.anythingllm.com/chatting-with-documents/introduction"
+      ]
+    },
+    {
+      "id": "augment-code-web",
+      "website": "https://www.augmentcode.com",
+      "http_status": 200,
+      "final_url": "https://www.augmentcode.com",
+      "title": "Augment Code: Agentic software development at organizational scale",
+      "candidate_links": []
+    },
+    {
+      "id": "bolt",
+      "website": "https://bolt.new",
+      "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
+      "candidate_links": []
+    },
+    {
+      "id": "canva-ai",
+      "website": "https://www.canva.com/canva-ai/",
+      "error": "HTTP Error 403: Forbidden",
+      "candidate_links": []
+    },
+    {
+      "id": "chatgpt",
+      "website": "https://chatgpt.com/",
+      "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+      "candidate_links": []
+    },
+    {
+      "id": "claude",
+      "website": "https://claude.ai/",
+      "error": "HTTP Error 403: Forbidden",
+      "candidate_links": []
+    },
+    {
+      "id": "claude-code-web",
+      "website": "https://code.claude.com",
+      "http_status": 200,
+      "final_url": "https://claude.com/product/claude-code",
+      "title": "Claude Code by Anthropic | AI Coding Agent, Terminal, IDE",
+      "candidate_links": [
+        "https://claude.ai/login",
+        "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684",
+        "https://play.google.com/store/apps/details",
+        "https://marketplace.visualstudio.com/items"
+      ]
+    },
+    {
+      "id": "coderabbit-web",
+      "website": "https://www.coderabbit.ai",
+      "http_status": 200,
+      "final_url": "https://www.coderabbit.ai",
+      "title": "CodeRabbit | Governance & Control for Agentic DevelopmentSeverity Distribution",
+      "candidate_links": [
+        "https://app.coderabbit.ai/login"
+      ]
+    },
+    {
+      "id": "codex-web",
+      "website": "https://openai.com/codex/",
+      "error": "HTTP Error 403: Forbidden",
+      "candidate_links": []
+    },
+    {
+      "id": "copy-ai",
+      "website": "https://www.copy.ai/",
+      "http_status": 200,
+      "final_url": "https://www.copy.ai/",
+      "title": "Future proof your business with GTM AI",
+      "candidate_links": [
+        "https://app.copy.ai/login"
+      ]
+    },
+    {
+      "id": "coze",
+      "website": "https://www.coze.com/",
+      "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+      "candidate_links": []
+    },
+    {
+      "id": "cursor-web",
+      "website": "https://cursor.com",
+      "http_status": 200,
+      "final_url": "https://cursor.com",
+      "title": "AI Coding Agent for Building Ambitious Software | Cursor",
+      "candidate_links": []
+    },
+    {
+      "id": "deepseek",
+      "website": "https://chat.deepseek.com/",
+      "http_status": 200,
+      "final_url": "https://chat.deepseek.com/",
+      "title": "DeepSeek",
+      "candidate_links": []
+    },
+    {
+      "id": "descript",
+      "website": "https://www.descript.com/",
+      "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+      "candidate_links": []
+    },
+    {
+      "id": "devin-web",
+      "website": "https://devin.ai",
+      "http_status": 200,
+      "final_url": "https://devin.ai",
+      "title": "Devin: the autonomous software engineer",
+      "candidate_links": [
+        "https://app.devin.ai/login",
+        "https://app.devin.ai/auth/signup"
+      ]
+    },
+    {
+      "id": "dify",
+      "website": "https://dify.ai/",
+      "http_status": 200,
+      "final_url": "https://dify.ai/",
+      "title": "Dify - The Platform for Production-Ready Agentic WorkflowsMAERSKAdobeGooglePanasonicPayPalLillyThermo Fisher ScientificMITREMercedes-BenzNovartisDeloitteMcDonald'sAIAVolkswagenCTCKPMGRICOHRICOHVOLVOVOLVOetsetsMAERSKAdobeGooglePanasonicPayPalLillyThermo Fisher ScientificMITREMercedes-BenzNovartisDeloitteMcDonald'sAIAVolkswagenCTCKPMG",
+      "candidate_links": [
+        "https://cloud.dify.ai/signin",
+        "https://cloud.dify.ai"
+      ]
+    },
+    {
+      "id": "dola",
+      "website": "https://www.dola.com/chat/",
+      "http_status": 200,
+      "final_url": "https://www.dola.com/chat/",
+      "title": "Dola AI - Your everyday AI assistant",
+      "candidate_links": []
+    },
+    {
+      "id": "dreamina",
+      "website": "https://dreamina.capcut.com/",
+      "http_status": 200,
+      "final_url": "https://dreamina.capcut.com/",
+      "title": "",
+      "candidate_links": []
+    },
+    {
+      "id": "duck-ai",
+      "website": "https://duck.ai/",
+      "http_status": 200,
+      "final_url": "https://duck.ai/",
+      "title": "Duck.ai by DuckDuckGo. Private AI chat. Free.",
+      "candidate_links": []
+    },
+    {
+      "id": "elevenlabs",
+      "website": "https://elevenlabs.io/",
+      "http_status": 200,
+      "final_url": "https://elevenlabs.io/",
+      "title": "Free AI Voice Generator & Voice Agents Platform | ElevenLabs",
+      "candidate_links": []
+    },
+    {
+      "id": "factory-droid-web",
+      "website": "https://factory.com",
+      "http_status": 200,
+      "final_url": "https://factory.com",
+      "title": "Factory | Agent-Native Software DevelopmentFactoryArrow Right IconRBCT-MobileBlackstoneAdyenHPWiproDoorDashMedlineUnder ArmourGroqChainguardArrow Right Icon",
+      "candidate_links": [
+        "https://app.factory.ai/",
+        "https://app.factory.ai"
+      ]
+    },
+    {
+      "id": "fastgpt",
+      "website": "https://fastgpt.cn/",
+      "http_status": 200,
+      "final_url": "https://fastgpt.cn/",
+      "title": "FastGPT - 企业级 AI 智能体构建平台 | 开源 RAG 系统",
+      "candidate_links": [
+        "https://cloud.fastgpt.cn"
+      ]
+    },
+    {
+      "id": "fathom",
+      "website": "https://www.fathom.ai/",
+      "http_status": 200,
+      "final_url": "https://www.fathom.ai/",
+      "title": "Fathom AI Notetaker - Never Take Notes Again",
+      "candidate_links": []
+    },
+    {
+      "id": "fireflies-ai",
+      "website": "https://fireflies.ai/",
+      "http_status": 200,
+      "final_url": "https://fireflies.ai/",
+      "title": "Fireflies.ai | #1 AI Teammate for Meetings, Email, Chat & CRM",
+      "candidate_links": [
+        "https://app.fireflies.ai/",
+        "https://app.fireflies.ai/login"
+      ]
+    },
+    {
+      "id": "gamma",
+      "website": "https://gamma.app/",
+      "error": "HTTP Error 403: Forbidden",
+      "candidate_links": []
+    },
+    {
+      "id": "gemini",
+      "website": "https://gemini.google.com/",
+      "http_status": 200,
+      "final_url": "https://gemini.google.com/",
+      "title": "",
+      "candidate_links": []
+    },
+    {
+      "id": "gemini-notebook",
+      "website": "https://notebook.google/?hl=en-GB",
+      "http_status": 200,
+      "final_url": "https://notebook.google/?hl=en-GB",
+      "title": "Gemini Notebook | AI research tool and thinking partner",
+      "candidate_links": []
+    },
+    {
+      "id": "github-copilot-web",
+      "website": "https://github.com/features/copilot",
+      "http_status": 200,
+      "final_url": "https://github.com/features/copilot",
+      "title": "GitHub Copilot · Your AI coding agent · GitHub · GitHubDuolingoFedExAmerican AirlinesShopifyStripeCocaColaCoyote LogisticsMercado LibreGeneral MotorsDuolingoFedExAmerican AirlinesShopify",
+      "candidate_links": [
+        "https://github.com/solutions/use-case/app-modernization"
+      ]
+    },
+    {
+      "id": "gitlab-duo",
+      "website": "https://about.gitlab.com/gitlab-duo-agent-platform/",
+      "http_status": 200,
+      "final_url": "https://about.gitlab.com/gitlab-duo-agent-platform/",
+      "title": "GitLab Duo Agent Platform",
+      "candidate_links": []
+    },
+    {
+      "id": "grammarly",
+      "website": "https://www.grammarly.com/",
+      "http_status": 200,
+      "final_url": "https://www.grammarly.com/",
+      "title": "Grammarly: Free AI Writing AssistanceGrammarly HomeGrammarly HomeGrammarly Home",
+      "candidate_links": [
+        "https://www.grammarly.com/signin"
+      ]
+    },
+    {
+      "id": "greptile-web",
+      "website": "https://www.greptile.com",
+      "http_status": 200,
+      "final_url": "https://www.greptile.com",
+      "title": "AI Code Review | Greptile | Merge 4X Faster, Catch 3X More Bugs",
+      "candidate_links": [
+        "https://app.greptile.com/signup",
+        "https://zapier.com/apps/greptile/integrations"
+      ]
+    },
+    {
+      "id": "grok",
+      "website": "https://grok.com/",
+      "http_status": 200,
+      "final_url": "https://grok.com/",
+      "title": "Grok",
+      "candidate_links": []
+    },
+    {
+      "id": "heygen",
+      "website": "https://www.heygen.com/",
+      "http_status": 200,
+      "final_url": "https://www.heygen.com/",
+      "title": "HeyGen: Create AI Videos with Your Personal AvatarBack to main menu",
+      "candidate_links": [
+        "https://app.heygen.com/developers/api"
+      ]
+    },
+    {
+      "id": "ideogram",
+      "website": "https://ideogram.ai/",
+      "error": "HTTP Error 403: Forbidden",
+      "candidate_links": []
+    },
+    {
+      "id": "ima",
+      "website": "https://ima.qq.com/",
+      "http_status": 200,
+      "final_url": "https://ima.qq.com/",
+      "title": "ima - 腾讯AI知识管家",
+      "candidate_links": []
+    },
+    {
+      "id": "jasper",
+      "website": "https://www.jasper.ai/",
+      "http_status": 200,
+      "final_url": "https://www.jasper.ai/",
+      "title": "Put AI agents to work for marketing | Jasper",
+      "candidate_links": [
+        "https://app.jasper.ai/",
+        "https://app.jasper.ai/auth/signup"
+      ]
+    },
+    {
+      "id": "jules",
+      "website": "https://jules.google",
+      "http_status": 200,
+      "final_url": "https://jules.google",
+      "title": "",
+      "candidate_links": []
+    },
+    {
+      "id": "kagi-assistant",
+      "website": "https://help.kagi.com/kagi/ai/assistant.html",
+      "http_status": 200,
+      "final_url": "https://help.kagi.com/kagi/ai/assistant.html",
+      "title": "Kagi Assistant | Kagi's Docs",
+      "candidate_links": [
+        "https://assistant.kagi.com",
+        "https://kagi.com/assistant"
+      ]
+    },
+    {
+      "id": "kimi",
+      "website": "https://www.kimi.com/",
+      "http_status": 200,
+      "final_url": "https://www.kimi.com/",
+      "title": "Kimi AI 官网 - K3 上线，专为智能体编程与知识工作打造",
+      "candidate_links": []
+    },
+    {
+      "id": "kimi-code-web",
+      "website": "https://www.kimi.com/code/docs/en/kimi-code-cli/guides/web.html",
+      "http_status": 200,
+      "final_url": "https://www.kimi.com/code/docs/en/kimi-code-cli/guides/web.html",
+      "title": "Using Kimi Code in the browser | Kimi Code Docs",
+      "candidate_links": []
+    },
+    {
+      "id": "kiro-web",
+      "website": "https://kiro.dev",
+      "http_status": 200,
+      "final_url": "https://kiro.dev",
+      "title": "Kiro: Move beyond AI coding to agentic engineering",
+      "candidate_links": [
+        "https://app.kiro.dev/",
+        "https://app.kiro.dev/settings/account",
+        "https://app.kiro.dev"
+      ]
+    },
+    {
+      "id": "leonardo-ai",
+      "website": "https://leonardo.ai/",
+      "error": "HTTP Error 403: Forbidden",
+      "candidate_links": []
+    },
+    {
+      "id": "liblib",
+      "website": "https://www.liblib.art/",
+      "http_status": 200,
+      "final_url": "https://www.liblib.art/",
+      "title": "LiblibAI-哩布哩布AI - 国内极具影响力的AI创作平台",
+      "candidate_links": []
+    },
+    {
+      "id": "lovable-web",
+      "website": "https://lovable.dev",
+      "error": "HTTP Error 403: Forbidden",
+      "candidate_links": []
+    },
+    {
+      "id": "luma-dream-machine",
+      "website": "https://lumalabs.ai/dream-machine",
+      "error": "HTTP Error 308: Permanent Redirect",
+      "candidate_links": []
+    },
+    {
+      "id": "maxclaw",
+      "website": "https://agent.minimax.io/max-claw",
+      "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+      "candidate_links": []
+    },
+    {
+      "id": "maxclaw-cn",
+      "website": "https://agent.minimaxi.com/max-claw",
+      "http_status": 200,
+      "final_url": "https://agent.minimax.cn/max-claw",
+      "title": "MaxClaw - MiniMax OpenClaw AI 智能体创建平台 | 技能与子智能体",
+      "candidate_links": []
+    },
+    {
+      "id": "meta-ai",
+      "website": "https://www.meta.ai/",
+      "error": "HTTP Error 403: Client challenge",
+      "candidate_links": []
+    },
+    {
+      "id": "microsoft-copilot",
+      "website": "https://copilot.microsoft.com/",
+      "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
+      "candidate_links": []
+    },
+    {
+      "id": "midjourney",
+      "website": "https://www.midjourney.com/",
+      "error": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>",
+      "candidate_links": []
+    },
+    {
+      "id": "minimax-agent",
+      "website": "https://agent.minimax.io/",
+      "http_status": 200,
+      "final_url": "https://agent.minimax.io/",
+      "title": "MiniMax Agent: Minimize Effort, Maximize Intelligence",
+      "candidate_links": []
+    },
+    {
+      "id": "minimax-agent-cn",
+      "website": "https://agent.minimaxi.com/",
+      "http_status": 200,
+      "final_url": "https://agent.minimax.cn/",
+      "title": "MiniMax Agent: 简单指令, 无限可能",
+      "candidate_links": []
+    },
+    {
+      "id": "mistral-vibe",
+      "website": "https://chat.mistral.ai/",
+      "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+      "candidate_links": []
+    },
+    {
+      "id": "napkin-ai",
+      "website": "https://www.napkin.ai/",
+      "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
+      "candidate_links": []
+    },
+    {
+      "id": "notion-ai",
+      "website": "https://www.notion.com/product/ai",
+      "http_status": 200,
+      "final_url": "https://www.notion.com/product/ai",
+      "title": "Meet your AI team | Notion",
+      "candidate_links": []
+    },
+    {
+      "id": "open-webui",
+      "website": "https://openwebui.com",
+      "http_status": 200,
+      "final_url": "https://openwebui.com",
+      "title": "Open WebUI: Self-Hosted AI Platform",
+      "candidate_links": []
+    },
+    {
+      "id": "openhands",
+      "website": "https://www.openhands.dev",
+      "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+      "candidate_links": []
+    },
+    {
+      "id": "otter-ai",
+      "website": "https://otter.ai/",
+      "http_status": 200,
+      "final_url": "https://otter.ai/",
+      "title": "Otter Meeting Agent - AI Notetaker, Transcription, Insights",
+      "candidate_links": [
+        "https://apps.apple.com/us/app/otter-voice-meeting-notes/id1276437113",
+        "https://play.google.com/store/apps/details"
+      ]
+    },
+    {
+      "id": "perplexity",
+      "website": "https://www.perplexity.ai/",
+      "error": "HTTP Error 403: Forbidden",
+      "candidate_links": []
+    },
+    {
+      "id": "pika",
+      "website": "https://pika.art/",
+      "http_status": 200,
+      "final_url": "https://pika.art/",
+      "title": "PikaPika",
+      "candidate_links": [
+        "https://create.pika.art/login",
+        "https://create.pika.art/apps"
+      ]
+    },
+    {
+      "id": "pixverse",
+      "website": "https://pixverse.ai/",
+      "http_status": 200,
+      "final_url": "https://pixverse.ai/en",
+      "title": "The Generative Core Behind Digital Worlds and Experiences | PixVerse",
+      "candidate_links": [
+        "https://app.pixverse.ai",
+        "https://app.pixverse.ai/creation/video",
+        "https://app.pixverse.ai/",
+        "https://app.pixverse.ai/cli",
+        "https://app.pixverse.ai/agent",
+        "https://app.pixverse.ai/mini-apps",
+        "https://app.pixverse.ai/marketing-hub",
+        "https://app.pixverse.ai/canvas",
+        "https://app.pixverse.ai/mini-apps/ad-master",
+        "https://app.pixverse.ai/mini-apps/director-shots",
+        "https://app.pixverse.ai/mini-apps/promo-mix",
+        "https://app.pixverse.ai/mini-apps/sound-effect-generator",
+        "https://app.pixverse.ai/mini-apps/image-region-editor",
+        "https://app.pixverse.ai/mini-apps/fashion-beat",
+        "https://app.pixverse.ai/mini-apps/magic-extend",
+        "https://app.pixverse.ai/mini-apps/video-expand",
+        "https://app.pixverse.ai/mini-apps/vibe-mv",
+        "https://app.pixverse.ai/mini-apps/product-video-remix",
+        "https://app.pixverse.ai/app-download"
+      ]
+    },
+    {
+      "id": "poe",
+      "website": "https://poe.com/",
+      "error": "HTTP Error 403: Forbidden",
+      "candidate_links": []
+    },
+    {
+      "id": "qodo",
+      "website": "https://www.qodo.ai",
+      "http_status": 200,
+      "final_url": "https://www.qodo.ai",
+      "title": "AI Code Review – Qodo: Deploy with confidence",
+      "candidate_links": [
+        "https://app.qodo.ai",
+        "https://app.qodo.ai/home",
+        "https://app.qodo.ai/",
+        "https://marketplace.visualstudio.com/items"
+      ]
+    },
+    {
+      "id": "quillbot",
+      "website": "https://quillbot.com/",
+      "error": "HTTP Error 403: Forbidden",
+      "candidate_links": []
+    },
+    {
+      "id": "qwen-chat",
+      "website": "https://chat.qwen.ai/",
+      "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+      "candidate_links": []
+    },
+    {
+      "id": "qwen-code-web",
+      "website": "https://github.com/QwenLM/qwen-code",
+      "http_status": 200,
+      "final_url": "https://github.com/QwenLM/qwen-code",
+      "title": "GitHub - QwenLM/qwen-code: An open-source AI coding agent that lives in your terminal. · GitHub",
+      "candidate_links": [
+        "https://github.com/solutions/use-case/app-modernization"
+      ]
+    },
+    {
+      "id": "recraft",
+      "website": "https://www.recraft.ai/",
+      "http_status": 200,
+      "final_url": "https://www.recraft.ai/",
+      "title": "Recraft | AI for designers, creatives, sellers, and teams",
+      "candidate_links": [
+        "https://apps.apple.com/app/recraft/id6502416347",
+        "https://play.google.com/store/apps/details"
+      ]
+    },
+    {
+      "id": "replit-web",
+      "website": "https://replit.com",
+      "http_status": 200,
+      "final_url": "https://replit.com",
+      "title": "AI App and Website Builder | Replit",
+      "candidate_links": []
+    },
+    {
+      "id": "runway",
+      "website": "https://runway.com/",
+      "http_status": 200,
+      "final_url": "https://runway.com/",
+      "title": "Runway | Building Real-World Intelligence",
+      "candidate_links": [
+        "https://apps.apple.com/app/runway-ai-video-photo-maker/id1665024375",
+        "https://play.google.com/store/apps/details",
+        "https://app.runwayml.com/login",
+        "https://app.runwayml.com"
+      ]
+    },
+    {
+      "id": "skywork",
+      "website": "https://skywork.ai/",
+      "http_status": 200,
+      "final_url": "https://skywork.ai/",
+      "title": "Skywork︱The Originator of AI Workspace Agents",
+      "candidate_links": []
+    },
+    {
+      "id": "suno",
+      "website": "https://suno.com/",
+      "http_status": 200,
+      "final_url": "https://suno.com/",
+      "title": "Suno | AI Music Generator",
+      "candidate_links": []
+    },
+    {
+      "id": "synthesia",
+      "website": "https://www.synthesia.io/",
+      "http_status": 200,
+      "final_url": "https://www.synthesia.io/",
+      "title": "Synthesia: #1 AI Video Platform for Business",
+      "candidate_links": [
+        "https://app.synthesia.io/welcome"
+      ]
+    },
+    {
+      "id": "trae-work",
+      "website": "https://www.trae.ai/work",
+      "http_status": 200,
+      "final_url": "https://www.trae.ai/work",
+      "title": "TraeWork | TRAE - Collaborate with Intelligence",
+      "candidate_links": []
+    },
+    {
+      "id": "trae-work-cn",
+      "website": "https://work.trae.cn/",
+      "http_status": 200,
+      "final_url": "https://work.trae.cn/",
+      "title": "TRAE - Ship Faster With TRAE（智能无限，协作无间）",
+      "candidate_links": []
+    },
+    {
+      "id": "udio",
+      "website": "https://www.udio.com/",
+      "http_status": 200,
+      "final_url": "https://www.udio.com/",
+      "title": "Udio | AI Music Generator - Official Website",
+      "candidate_links": []
+    },
+    {
+      "id": "v0-web",
+      "website": "https://v0.app",
+      "http_status": 200,
+      "final_url": "https://v0.app",
+      "title": "v0 by Vercel - Build Full-Stack Web Apps with AIOpenAI icon",
+      "candidate_links": []
+    },
+    {
+      "id": "vidu",
+      "website": "https://www.vidu.com/",
+      "http_status": 200,
+      "final_url": "https://www.vidu.cn/",
+      "title": "Vidu AI - Vidu AI - 全球领先的AI内容生产平台",
+      "candidate_links": []
+    },
+    {
+      "id": "wordtune",
+      "website": "https://www.wordtune.com/",
+      "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+      "candidate_links": []
+    },
+    {
+      "id": "wps-ai",
+      "website": "https://ai.wps.cn/",
+      "http_status": 200,
+      "final_url": "https://ai.wps.cn/",
+      "title": "WPS AI - PPT一键生成 | AI写作文档 | AI表格处理",
+      "candidate_links": []
+    },
+    {
+      "id": "writesonic",
+      "website": "https://writesonic.com/",
+      "http_status": 200,
+      "final_url": "https://writesonic.com/",
+      "title": "Writesonic | The AI Search Growth Engine. Win Customers.",
+      "candidate_links": [
+        "https://app.writesonic.com/",
+        "https://app.writesonic.com/signup"
+      ]
+    },
+    {
+      "id": "zai-chat",
+      "website": "https://chat.z.ai/",
+      "http_status": 200,
+      "final_url": "https://chat.z.ai/",
+      "title": "Z.ai - Advanced AI Chatbot & Agent powered by GLM-5.3-Flash",
+      "candidate_links": []
+    },
+    {
+      "id": "wan",
+      "website": "https://wan.video/",
+      "http_status": 200,
+      "final_url": "https://wan.video/",
+      "title": "Wan AI: Leading AI Video Generation Model",
+      "candidate_links": []
+    },
+    {
+      "id": "qianwen",
+      "website": "https://www.qianwen.com/",
+      "http_status": 200,
+      "final_url": "https://www.qianwen.com/",
+      "title": "千问-阿里 AI 助手",
+      "candidate_links": []
+    },
+    {
+      "id": "qwenwork-web-cn",
+      "website": "https://qwenwork.cn/signin",
+      "http_status": 200,
+      "final_url": "https://qwenwork.cn/signin",
+      "title": "千问办公",
+      "candidate_links": []
+    },
+    {
+      "id": "jimeng",
+      "website": "https://jimeng.jianying.com/",
+      "http_status": 200,
+      "final_url": "https://jimeng.jianying.com/",
+      "title": "即梦AI - 即刻造梦",
+      "candidate_links": [
+        "https://jimeng.jianying.com/ai-tool/image/generate",
+        "https://jimeng.jianying.com/ai-tool/home",
+        "https://jimeng.jianying.com/ai-tool/explore"
+      ]
+    },
+    {
+      "id": "kling",
+      "website": "https://app.klingai.com/",
+      "http_status": 200,
+      "final_url": "https://klingai.com/app/",
+      "title": "Kling AI: Next-Generation AI Creative Studio",
+      "candidate_links": []
+    },
+    {
+      "id": "miaohua",
+      "website": "https://miaohua.sensetime.com/",
+      "http_status": 200,
+      "final_url": "https://miaohua.sensetime.com/",
+      "title": "商汤秒画SenseMirage – AI作画，有手就行！还是免费的！",
+      "candidate_links": []
+    },
+    {
+      "id": "tiangong",
+      "website": "https://www.tiangong.cn/",
+      "http_status": 200,
+      "final_url": "https://www.tiangong.cn/",
+      "title": "AI办公智能体先行者",
+      "candidate_links": []
+    },
+    {
+      "id": "get-biji",
+      "website": "https://www.biji.com/",
+      "http_status": 200,
+      "final_url": "https://www.biji.com/",
+      "title": "",
+      "candidate_links": []
+    },
+    {
+      "id": "coze-cn",
+      "website": "https://www.coze.cn/",
+      "http_status": 200,
+      "final_url": "https://www.coze.cn/",
+      "title": "扣子 - AI办公助手一站式平台 - 扣子提供AI写作|PPT|表格|设计|播客|生图",
+      "candidate_links": []
+    },
+    {
+      "id": "wenxin",
+      "website": "https://wenxin.baidu.com/",
+      "http_status": 200,
+      "final_url": "https://wenxin.baidu.com/",
+      "title": "百度文心助手 - 办公学习一站解决",
+      "candidate_links": []
+    },
+    {
+      "id": "qingyan",
+      "website": "https://chatglm.cn/",
+      "http_status": 200,
+      "final_url": "https://chatglm.cn/",
+      "title": "智谱清言",
+      "candidate_links": []
+    },
+    {
+      "id": "hailuo",
+      "website": "https://hailuoai.video/",
+      "http_status": 200,
+      "final_url": "https://hailuoai.video/",
+      "title": "Hailuo AI: MiniMax H3 LIVE NOW. Top-Tier Quality, Versatile References",
+      "candidate_links": []
+    },
+    {
+      "id": "baixiaoyi",
+      "website": "https://yi.baichuan-ai.com/",
+      "http_status": 200,
+      "final_url": "https://yi.baichuan-ai.com/",
+      "title": "百小医",
+      "candidate_links": []
+    },
+    {
+      "id": "baidu-wenku",
+      "website": "https://wenku.baidu.com/",
+      "http_status": 200,
+      "final_url": "https://wenku.baidu.com/",
+      "title": "",
+      "candidate_links": []
+    },
+    {
+      "id": "metaso",
+      "website": "https://metaso.cn/",
+      "http_status": 200,
+      "final_url": "https://metaso.cn/",
+      "title": "秘塔AI搜索",
+      "candidate_links": []
+    },
+    {
+      "id": "gaoding",
+      "website": "https://www.gaoding.com/ai",
+      "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
+      "candidate_links": []
+    },
+    {
+      "id": "nami",
+      "website": "https://www.n.cn/",
+      "http_status": 200,
+      "final_url": "https://www.n.cn/",
+      "title": "纳米AI",
+      "candidate_links": []
+    },
+    {
+      "id": "meitu-design",
+      "website": "https://www.designkit.cn/",
+      "http_status": 200,
+      "final_url": "https://www.designkit.cn/",
+      "title": "美图设计室-免费AI设计工具，支持AI PPT、AI海报、AI商品图在线设计制作",
+      "candidate_links": []
+    },
+    {
+      "id": "yuanbao",
+      "website": "https://yuanbao.tencent.com/",
+      "http_status": 200,
+      "final_url": "https://yuanbao.tencent.com/",
+      "title": "",
+      "candidate_links": []
+    },
+    {
+      "id": "iflywrite",
+      "website": "https://huixie.iflyrec.com/",
+      "http_status": 200,
+      "final_url": "https://huixie.iflyrec.com/",
+      "title": "讯飞写作-智能AI写作助手-在线AI写作软件",
+      "candidate_links": []
+    },
+    {
+      "id": "iflyrec",
+      "website": "https://www.iflyrec.com/",
+      "http_status": 200,
+      "final_url": "https://www.iflyrec.com/",
+      "title": "讯飞听见-AI在线录音转文字-语音转文字-录音整理-语音翻译软件企业 公司 fill录音 fill编辑 笔 2fill编辑 笔 2fill24gf-telephone会员权益录音 fill217时间-线性转文字 转写 fill转文字 转写 fill",
+      "candidate_links": []
+    },
+    {
+      "id": "spark",
+      "website": "https://xinghuo.xfyun.cn/",
+      "http_status": 200,
+      "final_url": "https://xinghuo.xfyun.cn/",
+      "title": "讯飞星火-懂我的AI助手",
+      "candidate_links": []
+    },
+    {
+      "id": "doubao",
+      "website": "https://www.doubao.com/",
+      "http_status": 200,
+      "final_url": "https://www.doubao.com/chat/",
+      "title": "豆包 - 字节跳动旗下 AI 智能助手",
+      "candidate_links": []
+    },
+    {
+      "id": "tingwu",
+      "website": "https://tingwu.aliyun.com/",
+      "http_status": 200,
+      "final_url": "https://tingwu.aliyun.com/",
+      "title": "通义听悟-你的工作学习AI助手",
+      "candidate_links": []
+    },
+    {
+      "id": "stepfun",
+      "website": "https://chat.stepfun.com/",
+      "http_status": 200,
+      "final_url": "https://chat.stepfun.com/",
+      "title": "阶跃AI",
+      "candidate_links": [
+        "https://app.mokahr.com/social-recruitment/step/94904"
+      ]
+    },
+    {
+      "id": "openclaw-web",
+      "website": "https://openclaw.ai",
+      "http_status": 200,
+      "final_url": "https://openclaw.ai",
+      "title": "OpenClaw — Open-Source AI Assistant",
+      "candidate_links": []
+    },
+    {
+      "id": "qwenpaw-web",
+      "website": "http://qwenpaw.agentscope.io/",
+      "http_status": 200,
+      "final_url": "http://qwenpaw.agentscope.io/",
+      "title": "QwenPaw — Works for you, grows with you.",
+      "candidate_links": []
+    },
+    {
+      "id": "nanobot-web",
+      "website": "https://nanobot.wiki",
+      "http_status": 200,
+      "final_url": "https://nanobot.wiki",
+      "title": "nanobot - Ultra-Lightweight Open-Source AI Agent",
+      "candidate_links": []
+    },
+    {
+      "id": "agent-zero-web",
+      "website": "https://agent-zero.ai",
+      "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+      "candidate_links": []
+    },
+    {
+      "id": "aionui-web",
+      "website": "https://www.aionui.com",
+      "http_status": 200,
+      "final_url": "https://www.aionui.com",
+      "title": "AionUi",
+      "candidate_links": []
+    },
+    {
+      "id": "librechat-web",
+      "website": "https://librechat.ai/",
+      "http_status": 200,
+      "final_url": "https://www.librechat.ai/",
+      "title": "LibreChat - The Open-Source AI Platform",
+      "candidate_links": [
+        "https://chat.librechat.ai",
+        "https://discord.librechat.ai",
+        "https://chat.librechat.ai/",
+        "https://status.librechat.ai/",
+        "https://github.librechat.ai/",
+        "https://discord.librechat.ai/",
+        "https://linkedin.librechat.ai/"
+      ]
+    },
+    {
+      "id": "agent-tars-web",
+      "website": "https://agent-tars.com",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f",
+      "candidate_links": []
+    },
+    {
+      "id": "deerflow-web",
+      "website": "https://deerflow.tech",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)>",
+      "candidate_links": []
+    },
+    {
+      "id": "astrbot-web",
+      "website": "https://astrbot.app",
+      "http_status": 200,
+      "final_url": "https://astrbot.app",
+      "title": "AstrBot - Agentic AI 助手",
+      "candidate_links": []
+    },
+    {
+      "id": "langbot-web",
+      "website": "https://space.langbot.app/cloud",
+      "http_status": 200,
+      "final_url": "https://space.langbot.app/cloud",
+      "title": "LangBot Cloud 托管服务：快速部署 AI 机器人 | LangBot Space",
+      "candidate_links": []
+    },
+    {
+      "id": "bolt-diy-web",
+      "website": "https://stackblitz-labs.github.io/bolt.diy/",
+      "http_status": 200,
+      "final_url": "https://stackblitz-labs.github.io/bolt.diy/",
+      "title": "bolt.diy Docs",
+      "candidate_links": []
+    },
+    {
+      "id": "deepseek-harness-web",
+      "website": "https://deepseek.com/en/harness/",
+      "http_status": 200,
+      "final_url": "https://www.deepseek.com/en/harness/",
+      "title": "DeepSeek Harness | Explore the limits of intelligence",
+      "candidate_links": []
+    },
+    {
+      "id": "monkeycode-web",
+      "website": "https://github.com/chaitin/MonkeyCode",
+      "http_status": 200,
+      "final_url": "https://github.com/chaitin/MonkeyCode",
+      "title": "GitHub - chaitin/MonkeyCode: AI coding platform for teams · GitHub",
+      "candidate_links": [
+        "https://github.com/solutions/use-case/app-modernization"
+      ]
+    },
+    {
+      "id": "qoder-wake-cn-web",
+      "website": "https://docs.qoder.cn/en/qoderwake/installation",
+      "http_status": 200,
+      "final_url": "https://docs.qoder.cn/en/qoderwake/installation",
+      "title": "Quick Start - Qoder CNCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopy",
+      "candidate_links": []
+    },
+    {
+      "id": "ona-web",
+      "website": "https://ona.com/stories/gitpod-is-now-ona",
+      "http_status": 200,
+      "final_url": "https://ona.com/stories/gitpod-is-now-ona",
+      "title": "Gitpod is now Ona: your AI software engineer · Ona",
+      "candidate_links": [
+        "https://app.gitpod.io/",
+        "https://chatgpt.com/"
+      ]
+    },
+    {
+      "id": "coder-community-web",
+      "website": "https://coder.com/docs/about",
+      "http_status": 200,
+      "final_url": "https://coder.com/docs/about",
+      "title": "About | Home | Coder Docs",
+      "candidate_links": [
+        "https://code.visualstudio.com/docs/remote/ssh-tutorial"
+      ]
+    },
+    {
+      "id": "lingcode-web",
+      "website": "https://lingcode.dev/try.html",
+      "http_status": 200,
+      "final_url": "https://lingcode.dev/try.html",
+      "title": "Try LingCode — Build Native Apps in Your Browser",
+      "candidate_links": []
+    },
+    {
+      "id": "loomy-web",
+      "website": "https://loomy.xunfei.cn/",
+      "http_status": 200,
+      "final_url": "https://loomy.xunfei.cn/",
+      "title": "Loomy-你的AI工作搭子",
+      "candidate_links": []
+    },
+    {
+      "id": "reasonix-web",
+      "website": "https://reasonix.io/",
+      "http_status": 200,
+      "final_url": "https://reasonix.io/",
+      "title": "Reasonix — an open-source coding agent for your terminal, desktop, browser and editor",
+      "candidate_links": [
+        "https://marketplace.visualstudio.com/items"
+      ]
+    },
+    {
+      "id": "rovo-dev-reviewer",
+      "website": "https://www.atlassian.com/software/rovo-dev",
+      "http_status": 200,
+      "final_url": "https://www.atlassian.com/software/rovo-dev",
+      "title": "Rovo Dev | AI Coding Agent for Software Teams | Atlassian",
+      "candidate_links": []
+    },
+    {
+      "id": "consensus",
+      "website": "https://consensus.app/",
+      "http_status": 200,
+      "final_url": "https://consensus.app/",
+      "title": "Consensus: AI for Research",
+      "candidate_links": []
+    },
+    {
+      "id": "elicit",
+      "website": "https://elicit.com/",
+      "http_status": 200,
+      "final_url": "https://elicit.com/",
+      "title": "Elicit: AI for research & decision-making",
+      "candidate_links": []
+    },
+    {
+      "id": "scispace",
+      "website": "https://scispace.com/",
+      "error": "HTTP Error 403: Forbidden",
+      "candidate_links": []
+    },
+    {
+      "id": "chatpdf",
+      "website": "https://www.chatpdf.com/",
+      "http_status": 200,
+      "final_url": "https://www.chatpdf.com/",
+      "title": "ChatPDF AI | Chat with any PDF | Free",
+      "candidate_links": [
+        "https://www.instagram.com/chatpdf",
+        "https://www.linkedin.com/company/chatpdf",
+        "https://chat-pdf.notion.site/ChatPDF-Privacy-Policy-45fa3cf8bac8483896eb09b108f0c0f2",
+        "https://chat-pdf.notion.site/ChatPDF-Terms-of-Service-6a422751d9b74ad8893dea50fd970270",
+        "https://chat-pdf.notion.site/ChatPDF-Imprint-ed51ab27b1d34e12b48ab5eb8b348818"
+      ]
+    },
+    {
+      "id": "manus",
+      "website": "https://manus.im/",
+      "http_status": 200,
+      "final_url": "https://manus.im/",
+      "title": "Manus: Hands On AI",
+      "candidate_links": []
+    },
+    {
+      "id": "genspark",
+      "website": "https://www.genspark.ai/genspark-landing.html",
+      "error": "HTTP Error 403: Forbidden",
+      "candidate_links": []
+    },
+    {
+      "id": "felo",
+      "website": "https://felo.ai/search",
+      "http_status": 200,
+      "final_url": "https://felo.ai/search",
+      "title": "Felo — Free Multilingual AI Search & Creation Platform",
+      "candidate_links": []
+    },
+    {
+      "id": "jenni",
+      "website": "https://jenni.ai/",
+      "http_status": 200,
+      "final_url": "https://jenni.ai/",
+      "title": "Jenni | AI Academic Writer & Research Tool for Students & Academics",
+      "candidate_links": [
+        "https://app.jenni.ai/",
+        "https://app.jenni.ai/register",
+        "https://app.jenni.ai/home",
+        "https://app.jenni.ai"
+      ]
+    },
+    {
+      "id": "jotbot",
+      "website": "https://myjotbot.com/",
+      "http_status": 200,
+      "final_url": "https://myjotbot.com/",
+      "title": "AI Writing Assistant | JotBot ",
+      "candidate_links": [
+        "https://app.myjotbot.com"
+      ]
+    },
+    {
+      "id": "deepl-write",
+      "website": "https://www.deepl.com/en/write",
+      "http_status": 200,
+      "final_url": "https://www.deepl.com/en/write",
+      "title": "DeepL Write: AI-powered writing companion",
+      "candidate_links": []
+    },
+    {
+      "id": "google-ai-studio",
+      "website": "https://aistudio.google.com/welcome",
+      "http_status": 200,
+      "final_url": "https://aistudio.google.com/welcome",
+      "title": "Google AI Studio",
+      "candidate_links": []
+    },
+    {
+      "id": "beautiful-ai",
+      "website": "https://www.beautiful.ai/",
+      "http_status": 200,
+      "final_url": "https://www.beautiful.ai/",
+      "title": "AI Presentation Software for Teams",
+      "candidate_links": []
+    },
+    {
+      "id": "slidesgo",
+      "website": "https://slidesgo.com/ai/presentation-maker",
+      "http_status": 200,
+      "final_url": "https://slidesgo.com/ai/presentation-maker",
+      "title": "Free AI Presentation Maker | Slidesgo",
+      "candidate_links": [
+        "https://slidesgo.com/auth/login"
+      ]
+    },
+    {
+      "id": "krea",
+      "website": "https://www.krea.ai/",
+      "http_status": 200,
+      "final_url": "https://www.krea.ai/",
+      "title": "Krea",
+      "candidate_links": [
+        "https://chatgpt.com/plugins/plugin_asdk_app_6a456b312b388191823141ebd1b0f461"
+      ]
+    },
+    {
+      "id": "fal",
+      "website": "https://fal.ai/",
+      "http_status": 200,
+      "final_url": "https://fal.ai/",
+      "title": "Gen Media AI Inference Platform & Serverless GPUs | fal",
+      "candidate_links": []
+    },
+    {
+      "id": "higgsfield",
+      "website": "https://higgsfield.ai/",
+      "http_status": 200,
+      "final_url": "https://higgsfield.ai/",
+      "title": "Higgsfield AI — AI-native creative suite",
+      "candidate_links": []
+    },
+    {
+      "id": "fish-audio",
+      "website": "https://fish.audio/",
+      "http_status": 200,
+      "final_url": "https://fish.audio/",
+      "title": "Best AI Text To Speech & Free Voice Cloning | Fish AudioGitHubDiscordXYouTube",
+      "candidate_links": [
+        "https://acestudio.ai/"
+      ]
+    },
+    {
+      "id": "aiva",
+      "website": "https://www.aiva.ai/",
+      "http_status": 200,
+      "final_url": "https://www.aiva.ai/",
+      "title": "AIVA, the AI Music Generation Assistant",
+      "candidate_links": [
+        "https://discordapp.com/invite/ypDnFXN"
+      ]
+    },
+    {
+      "id": "soundraw",
+      "website": "https://soundraw.io/",
+      "http_status": 200,
+      "final_url": "https://soundraw.io/",
+      "title": "SOUNDRAW | AI Music Generator – Royalty Free Beats",
+      "candidate_links": []
+    },
+    {
+      "id": "uizard",
+      "website": "https://uizard.io/",
+      "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+      "candidate_links": []
+    },
+    {
+      "id": "relevance-ai",
+      "website": "https://relevanceai.com/",
+      "http_status": 200,
+      "final_url": "https://relevanceai.com/",
+      "title": "Specialist AI Agents for Every Task | Relevance AI",
+      "candidate_links": [
+        "https://app.relevanceai.com/signup"
+      ]
+    },
+    {
+      "id": "lindy",
+      "website": "https://www.lindy.ai/",
+      "http_status": 200,
+      "final_url": "https://www.lindy.ai/",
+      "title": "Lindy – The AI Teammate That Lets You Do More",
+      "candidate_links": [
+        "https://chat.lindy.ai/login",
+        "https://chat.lindy.ai/signup",
+        "https://app.drata.com/trust/9cb791f0-0c38-11ee-865f-029d78a187d9"
+      ]
+    },
+    {
+      "id": "n8n",
+      "website": "https://n8n.io/",
+      "http_status": 200,
+      "final_url": "https://n8n.io/",
+      "title": "AI Workflow Automation Platform - n8n",
+      "candidate_links": [
+        "https://app.n8n.cloud/login",
+        "https://app.n8n.cloud/register"
+      ]
+    },
+    {
+      "id": "zapier",
+      "website": "https://zapier.com/agents",
+      "http_status": 200,
+      "final_url": "https://zapier.com/agents",
+      "title": "Build AI teammates with Zapier Agents",
+      "candidate_links": [
+        "https://agents.zapier.com/login"
+      ]
+    },
+    {
+      "id": "gumloop",
+      "website": "https://www.gumloop.com/",
+      "http_status": 200,
+      "final_url": "https://www.gumloop.com/",
+      "title": "Gumloop: Build AI agents for work",
+      "candidate_links": []
+    },
+    {
+      "id": "freebuff-web",
+      "website": "https://freebuff.com/web",
+      "http_status": 200,
+      "final_url": "https://freebuff.com/web",
+      "title": "Freebuff Web: Build and deploy apps for free",
+      "candidate_links": []
+    },
+    {
+      "id": "strix-web",
+      "website": "https://app.strix.ai/",
+      "http_status": 200,
+      "final_url": "https://app.strix.ai/",
+      "title": "Strix",
+      "candidate_links": []
+    },
+    {
+      "id": "sillytavern-web",
+      "website": "https://sillytavern.app/",
+      "http_status": 200,
+      "final_url": "https://sillytavern.app/",
+      "title": "SillyTavern - LLM Frontend for Power Users [Official Homepage]",
+      "candidate_links": []
+    },
+    {
+      "id": "lemonade-web",
+      "website": "https://lemonade.gg/",
+      "http_status": 200,
+      "final_url": "https://lemonade.gg/",
+      "title": "Lemonade",
+      "candidate_links": []
+    },
+    {
+      "id": "isekai-zero-web",
+      "website": "https://www.isekaizero.ai/",
+      "http_status": 200,
+      "final_url": "https://www.isekaizero.ai/",
+      "title": "ISEKAI ZERO - AI Roleplay & AI Story | Live Your Adventure",
+      "candidate_links": [
+        "https://apps.apple.com/us/app/isekai-zero/id6748359707",
+        "https://play.google.com/store/apps/details",
+        "https://apps.apple.com/app/isekai-zero/id6748359707"
+      ]
+    },
+    {
+      "id": "craft-rpgs-web",
+      "website": "https://www.craftrpgs.com/",
+      "http_status": 200,
+      "final_url": "https://www.craftrpgs.com/",
+      "title": "Craft — Build and Play the Next Generation of AI RPGsDiscordRedditYouTube",
+      "candidate_links": []
+    },
+    {
+      "id": "digen-web",
+      "website": "https://agent.digen.ai/en",
+      "http_status": 200,
+      "final_url": "https://agent.digen.ai/en",
+      "title": "Digen AI Agent",
+      "candidate_links": []
+    },
+    {
+      "id": "framer-web",
+      "website": "https://www.framer.com/",
+      "http_status": 200,
+      "final_url": "https://www.framer.com/",
+      "title": "Framer: AI design agent",
+      "candidate_links": []
+    },
+    {
+      "id": "gdevelop-web",
+      "website": "https://editor.gdevelop.io/",
+      "http_status": 200,
+      "final_url": "https://editor.gdevelop.io/",
+      "title": "GDevelop 5",
+      "candidate_links": []
+    },
+    {
+      "id": "rosebud-web",
+      "website": "https://rosebud.ai/",
+      "http_status": 200,
+      "final_url": "https://rosebud.ai/",
+      "title": "Rosebud AI Game Maker | Create Games with AI",
+      "candidate_links": []
+    },
+    {
+      "id": "fliki-web",
+      "website": "https://fliki.ai/",
+      "http_status": 200,
+      "final_url": "https://fliki.ai/",
+      "title": "Fliki - Turn Any Idea Into Video With 2,000+ AI Voices",
+      "candidate_links": [
+        "https://app.fliki.ai",
+        "https://app.fliki.ai/series",
+        "https://app.fliki.ai/playground"
+      ]
+    },
+    {
+      "id": "websim-web",
+      "website": "https://websim.com/",
+      "http_status": 200,
+      "final_url": "https://websim.com/",
+      "title": "Websim",
+      "candidate_links": []
+    },
+    {
+      "id": "highlevel-web",
+      "website": "https://www.gohighlevel.com/ai",
+      "http_status": 200,
+      "final_url": "https://www.gohighlevel.com/ai",
+      "title": "AI Marketing Automation Platform for Businesses | HighLevel",
+      "candidate_links": []
+    },
+    {
+      "id": "letta-web",
+      "website": "https://chat.letta.com/",
+      "http_status": 200,
+      "final_url": "https://chat.letta.com/",
+      "title": "Letta",
+      "candidate_links": []
+    }
+  ]
+}

@@ -7,6 +7,12 @@ export interface CatalogApp {
   readonly vendor: string;
   readonly type: string;
   readonly website: string;
+  /** Actual user-facing Web entry; empty until verified. */
+  readonly web_url: string;
+  /** Exact hosts; shared hosts require web_url path context. Not API/CDN rules. */
+  readonly web_domains: readonly string[];
+  readonly web_domain_status: 'verified' | 'unverified' | 'self-hosted' | 'not-applicable';
+  readonly web_domain_verified_at: string;
   readonly platforms: readonly string[];
   /** Relative path to a bundled original SVG or PNG, or empty when no verified Logo exists. */
   readonly icon: string;
@@ -30,6 +36,7 @@ export type FilterValue = string | readonly string[];
 /** AND across fields, OR within each array. Empty arrays match no records. */
 export interface CatalogFilters {
   readonly vendorId?: FilterValue;
+  readonly webDomain?: FilterValue;
   readonly productId?: FilterValue;
   readonly interface?: FilterValue;
   readonly type?: FilterValue;

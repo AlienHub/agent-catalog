@@ -18,3 +18,5 @@
 .appicon[src="icons/minimax-code.svg"],
 .appicon[src="icons/openrouter-lemonade.svg"],
 .appicon[src="icons/anythingllm.svg"]{background:#202124;border-color:#202124}
+
+.web-domain{font-size:10px;line-height:1.5;color:#73757b;padding:7px 14px;overflow-wrap:anywhere;border-top:1px solid var(--line)}

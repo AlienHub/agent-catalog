@@ -1,0 +1,29 @@
+{
+  "verified_at": "2026-10-12",
+  "assets": [
+    {
+      "application_id": "dust-web",
+      "path": "icons/web-dust.png",
+      "url": "https://dust.tt/static/favicon.png",
+      "sha256": "7e2d50f528c7b440a01968f9e0f62b161ad0fc679d79a5c736c8ae80016192ad",
+      "bytes": 387,
+      "format": "PNG"
+    },
+    {
+      "application_id": "mem-web",
+      "path": "icons/web-mem.png",
+      "url": "https://get.mem.ai/assets/brand/mem-mark.png",
+      "sha256": "4124b23a7a68a9523c78b8bd3990e4d7a05eda9358dad49c836b724e21756e05",
+      "bytes": 480,
+      "format": "PNG"
+    },
+    {
+      "application_id": "taskade-web",
+      "path": "icons/web-taskade.svg",
+      "url": "https://www.taskade.com/favicon.svg",
+      "sha256": "3c0d862abe315ae33b2647628210e81ffc7be0d08c72cb5cc2f9514d95407402",
+      "bytes": 13780,
+      "format": "SVG"
+    }
+  ]
+}

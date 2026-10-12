@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.16（2026-10-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.17（2026-10-12），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -366,3 +366,10 @@ node scripts/collect-openrouter-apps.mjs /tmp/openrouter-apps.html /tmp/openrout
 ```
 
 采集器在页面数据结构变化时明确失败，保留原快照；新的候选仍需人工核验。
+
+
+## v0.17 Web 应用实际域名
+
+独立保留官网 `website` 与实际应用入口 `web_url`。`web_domains` 仅包含已核验的完整主机名；`web_domain_status` 区分 verified、unverified、self-hosted、not-applicable，`web_domain_verified_at` 单独记录核验日期。空数组不是“不存在域名”。自托管／本地 UI 没有统一公共域名；未核验域名不推测、不从官网直接生成。应用域名不等于 API、CDN、SSO 域名清单，也不自动匹配子域名。共享域名如 ChatGPT 与 Codex 需结合入口路径区分，不能仅按域名唯一识别产品。
+
+SDK 支持 `findApps({ webDomain: 'firefly.adobe.com' })` 精确查找，搜索与 CSV/JSON/ZIP 导出包含新字段。详情页显示核验状态、入口与日期。全部 Web 条目的审计、明确待核验清单及公开 HTTP 观察见 `docs/research/web-domain-review-2026-10-12.json`、`web-domain-http-audit-2026-10-12.json`；HTTP 403／超时不等于产品已停服。

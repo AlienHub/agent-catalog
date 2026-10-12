@@ -199,3 +199,20 @@ test('PNG logos show the original format in cards and details and remain outside
   await t.click('svgOnly');assert.equal(t.count(),0);
  }finally{t.dom.window.close()}
 });
+
+test('Web domains find actual entries and detail distinguishes website, entry and unknown state',async()=>{
+ const t=await setup();try{
+  await t.change('search','firefly.adobe.com');assert.equal(t.count(),1);
+  assert(t.w.document.querySelector('.web-domain').textContent.includes('firefly.adobe.com'));
+  await t.click(t.w.document.querySelector('.appname'));
+  const links=[...t.$('detailContent').querySelectorAll('a')];
+  assert(links.some(a=>a.textContent==='打开应用'&&a.href==='https://firefly.adobe.com/'));
+  assert(links.some(a=>a.textContent==='访问官网'&&a.href.includes('/products/firefly.html')));
+  assert(t.$('detailContent').textContent.includes('已核验'));
+  await t.click('closeDetails');await t.change('search','qwen-code-web');
+  assert(t.w.document.querySelector('.web-domain').textContent.includes('自托管'));
+  await t.click(t.w.document.querySelector('.appname'));
+  assert(![...t.$('detailContent').querySelectorAll('a')].some(a=>a.textContent==='打开应用'));
+  assert(t.$('detailContent').textContent.includes('域名由部署实例决定'));
+ }finally{t.dom.window.close()}
+});

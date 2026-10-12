@@ -11,7 +11,7 @@ export async function validateData() {
   assert(Array.isArray(apps) && apps.length > 0, 'Dataset must be a nonempty array');
   const ids = new Set(); const iconPaths = new Set();
   const expectedKeys = [...schema.items.required].sort();
-  const stringFields = expectedKeys.filter(key => !['aliases','platforms','interfaces'].includes(key));
+  const stringFields = expectedKeys.filter(key => !['aliases','platforms','interfaces','web_domains'].includes(key));
   for (const app of apps) {
     assert.deepEqual(Object.keys(app).sort(), expectedKeys, `Schema keys: ${app.id}`);
     assert(/^[a-z][a-z0-9-]*$/.test(app.id), `Invalid ID: ${app.id}`);
@@ -19,7 +19,7 @@ export async function validateData() {
     for (const key of stringFields) assert.equal(typeof app[key], 'string', `${app.id}.${key}`);
     for (const key of ['name','vendor','vendor_id','product_id','type','svg_status']) assert(app[key].trim(), `${app.id}.${key} is empty`);
     assert(['http:', 'https:'].includes(new URL(app.website).protocol), `Website URL: ${app.id}`);
-    for (const key of ['aliases','platforms','interfaces']) {
+    for (const key of ['aliases','platforms','interfaces','web_domains']) {
       assert(Array.isArray(app[key]) && app[key].every(v => typeof v === 'string' && v.length), `${app.id}.${key}`);
       assert.equal(new Set(app[key]).size, app[key].length, `Duplicate ${app.id}.${key}`);
     }
@@ -28,6 +28,24 @@ export async function validateData() {
     assert(!app.platforms.some(p => ['iOS','iPadOS','Android','Mobile'].includes(p)), `Mobile platform outside catalog scope: ${app.id}`);
     assert.equal(app.interfaces.length, 1, `One interaction form per application: ${app.id}`);
     assert(['GUI','CLI','IDE 插件','Web','浏览器插件','小程序'].includes(app.interfaces[0]), `Invalid interaction form: ${app.id}`);
+    assert(['verified','unverified','self-hosted','not-applicable'].includes(app.web_domain_status), `Web domain status: ${app.id}`);
+    if (app.interfaces[0] !== 'Web') assert.equal(app.web_domain_status, 'not-applicable', `Web fields only belong to Web applications: ${app.id}`);
+    else assert.notEqual(app.web_domain_status, 'not-applicable', `Web status missing: ${app.id}`);
+    if (app.web_domain_status === 'verified') {
+      const entry = new URL(app.web_url);
+      assert.equal(entry.protocol, 'https:', `Web entry protocol: ${app.id}`);
+      assert(!entry.username && !entry.password && !entry.search && !entry.hash, `Canonical Web entry: ${app.id}`);
+      assert(app.web_domains.length && app.web_domains.includes(entry.hostname), `Web entry hostname: ${app.id}`);
+      assert(/^\d{4}-\d{2}-\d{2}$/.test(app.web_domain_verified_at), `Web domain date: ${app.id}`);
+      for (const domain of app.web_domains) {
+        assert(/^(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z]{2,}$/.test(domain), `Exact Web hostname: ${app.id}/${domain}`);
+        assert(evidence[app.id]?.sources.some(s => new URL(s.url).hostname === domain), `Missing Web domain evidence: ${app.id}/${domain}`);
+      }
+    } else {
+      assert.equal(app.web_url, '', `Unverified Web URL: ${app.id}`);
+      assert.deepEqual(app.web_domains, [], `Unverified Web domains: ${app.id}`);
+      assert.equal(app.web_domain_verified_at, '', `Unverified Web date: ${app.id}`);
+    }
     for (const key of ['chrome_extension_id','edge_extension_id']) {
       assert(/^$|^[a-p]{32}$/.test(app[key]), `Invalid store ID: ${app.id}.${key}`);
       if (app.interfaces[0] !== '浏览器插件') assert.equal(app[key], '', `Store ID only belongs to browser plugins: ${app.id}`);

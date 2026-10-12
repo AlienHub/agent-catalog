@@ -17,7 +17,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://firefly.adobe.com/",
+    "web_domains": [
+      "firefly.adobe.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "aider",
@@ -39,7 +45,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "jetbrains-air-ide",
@@ -61,7 +71,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "jetbrains-air-web",
@@ -81,7 +95,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "amp-cli",
@@ -103,7 +121,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "amp-web",
@@ -123,7 +145,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "amp-desktop",
@@ -143,7 +169,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "antigravity-desktop",
@@ -167,7 +197,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "antigravity-cli",
@@ -191,7 +225,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "antigravity-ide",
@@ -215,7 +253,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "anythingllm-web",
@@ -235,7 +277,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "anythingllm-desktop",
@@ -257,7 +303,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "augment-code-cli",
@@ -281,7 +331,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "augment-code-web",
@@ -301,7 +355,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "autoclaw",
@@ -326,7 +384,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "autoclaw-cn",
@@ -350,7 +412,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "blackbox-ai",
@@ -374,7 +440,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "bolt",
@@ -396,7 +466,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "brave-leo",
@@ -418,7 +492,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "canva-ai",
@@ -441,7 +519,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "chatgpt",
@@ -464,7 +546,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://chatgpt.com/",
+    "web_domains": [
+      "chatgpt.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "chatgpt-gui",
@@ -488,7 +576,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "chatgpt-browser-extension",
@@ -511,7 +603,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "ejcfepkfckglbgocfkanmcdngdijcgld",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "cherry-studio",
@@ -535,7 +631,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "claude",
@@ -557,7 +657,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://claude.ai/",
+    "web_domains": [
+      "claude.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "claude-gui",
@@ -582,7 +688,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "claude-browser-extension",
@@ -604,7 +714,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "fcoeoabgfenejglbffodgkkbkcdhcgfn",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "claude-code",
@@ -626,7 +740,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "claude-code-ide",
@@ -648,7 +766,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "claude-code-web",
@@ -668,7 +790,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "claude-code-desktop",
@@ -690,7 +816,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "cline-cli",
@@ -712,7 +842,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "cline-desktop",
@@ -734,7 +868,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "cline",
@@ -756,7 +894,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "codebuddy-cli",
@@ -780,7 +922,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "codebuddy",
@@ -805,7 +951,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "codebuddy-ide-extension",
@@ -830,7 +980,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "codeflicker",
@@ -852,7 +1006,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "codegeex",
@@ -873,7 +1031,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "coderabbit-web",
@@ -893,7 +1055,13 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.coderabbit.ai/login",
+    "web_domains": [
+      "app.coderabbit.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "coderabbit-cli",
@@ -915,7 +1083,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "codex-cli",
@@ -937,7 +1109,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "codex-web",
@@ -957,7 +1133,13 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://chatgpt.com/codex/",
+    "web_domains": [
+      "chatgpt.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "codex-ide",
@@ -979,7 +1161,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "codex-desktop",
@@ -1001,7 +1187,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "copy-ai",
@@ -1021,7 +1211,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.copy.ai/login",
+    "web_domains": [
+      "app.copy.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "coze",
@@ -1043,7 +1239,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "cursor",
@@ -1065,7 +1265,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "cursor-cli",
@@ -1089,7 +1293,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "cursor-web",
@@ -1109,7 +1317,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "deepseek",
@@ -1132,7 +1344,13 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://chat.deepseek.com/",
+    "web_domains": [
+      "chat.deepseek.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "descript",
@@ -1154,7 +1372,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "descript-gui",
@@ -1177,7 +1399,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "devin-web",
@@ -1200,7 +1426,13 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.devin.ai/login",
+    "web_domains": [
+      "app.devin.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "devin-desktop",
@@ -1225,7 +1457,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "dify",
@@ -1246,7 +1482,13 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://cloud.dify.ai/",
+    "web_domains": [
+      "cloud.dify.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "dola",
@@ -1268,7 +1510,11 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "dreamina",
@@ -1290,7 +1536,11 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "duck-ai",
@@ -1312,7 +1562,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://duck.ai/",
+    "web_domains": [
+      "duck.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "elevenlabs",
@@ -1332,7 +1588,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "factory-droid-desktop",
@@ -1355,7 +1615,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "factory-droid-cli",
@@ -1379,7 +1643,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "factory-droid-web",
@@ -1401,7 +1669,13 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.factory.ai/",
+    "web_domains": [
+      "app.factory.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "fastgpt",
@@ -1422,7 +1696,13 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://cloud.fastgpt.cn/",
+    "web_domains": [
+      "cloud.fastgpt.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "fathom",
@@ -1445,7 +1725,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "fireflies-ai",
@@ -1468,7 +1752,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.fireflies.ai/",
+    "web_domains": [
+      "app.fireflies.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "fireflies-ai-gui",
@@ -1491,7 +1781,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "fireflies-ai-browser-extension",
@@ -1514,7 +1808,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "meimoidfecamngeoanhnpdjjdcefoldn",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "gamma",
@@ -1534,7 +1832,11 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "gemini",
@@ -1557,7 +1859,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://gemini.google.com/",
+    "web_domains": [
+      "gemini.google.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "gemini-cli",
@@ -1579,7 +1887,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "gemini-code-assist",
@@ -1601,7 +1913,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "gemini-notebook",
@@ -1625,7 +1941,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "github-copilot-desktop",
@@ -1647,7 +1967,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "github-copilot-cli",
@@ -1669,7 +1993,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "github-copilot",
@@ -1691,7 +2019,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "github-copilot-web",
@@ -1711,7 +2043,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "gitlab-duo",
@@ -1733,7 +2069,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "goose-cli",
@@ -1755,7 +2095,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "goose-desktop",
@@ -1777,7 +2121,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "gpt4all",
@@ -1799,7 +2147,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "grammarly",
@@ -1821,7 +2173,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "grammarly-gui",
@@ -1844,7 +2200,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "grammarly-browser-extension",
@@ -1866,7 +2226,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "kbfnbcaeplbcioakkpcpgfkobkghlhen",
-    "edge_extension_id": "cnlefmmeadmemmdciolhbnfeacpdfbkd"
+    "edge_extension_id": "cnlefmmeadmemmdciolhbnfeacpdfbkd",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "greptile-web",
@@ -1886,7 +2250,13 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.greptile.com/signup",
+    "web_domains": [
+      "app.greptile.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "greptile-cli",
@@ -1907,7 +2277,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "grok",
@@ -1927,7 +2301,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://grok.com/",
+    "web_domains": [
+      "grok.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "heygen",
@@ -1947,7 +2327,13 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.heygen.com/",
+    "web_domains": [
+      "app.heygen.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "ideogram",
@@ -1967,7 +2353,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://ideogram.ai/",
+    "web_domains": [
+      "ideogram.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "ima",
@@ -1990,7 +2382,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "jan-cli",
@@ -2012,7 +2408,11 @@
     ],
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "jan-desktop",
@@ -2034,7 +2434,11 @@
     ],
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "jasper",
@@ -2054,7 +2458,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.jasper.ai/",
+    "web_domains": [
+      "app.jasper.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "jetbrains-ai",
@@ -2078,7 +2488,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "jules",
@@ -2098,7 +2512,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "junie-cli",
@@ -2120,7 +2538,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "junie-ide",
@@ -2142,7 +2564,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "kagi-assistant",
@@ -2162,7 +2588,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://assistant.kagi.com/",
+    "web_domains": [
+      "assistant.kagi.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "kimi",
@@ -2185,7 +2617,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "kimi-gui",
@@ -2211,7 +2647,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "kimi-code-cli",
@@ -2236,7 +2676,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "kimi-code-desktop",
@@ -2257,7 +2701,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "kimi-code-ide",
@@ -2279,7 +2727,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "kimi-code-web",
@@ -2299,7 +2751,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "kiro-cli",
@@ -2324,7 +2780,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "kiro-ide",
@@ -2349,7 +2809,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "kiro-web",
@@ -2372,7 +2836,13 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.kiro.dev/",
+    "web_domains": [
+      "app.kiro.dev"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "leonardo-ai",
@@ -2394,7 +2864,13 @@
     ],
     "svg_status": "unavailable",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.leonardo.ai/",
+    "web_domains": [
+      "app.leonardo.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "liblib",
@@ -2416,7 +2892,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "lm-studio",
@@ -2440,7 +2920,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "lm-studio-bionic",
@@ -2463,7 +2947,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "lm-studio-cli",
@@ -2488,7 +2976,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "lovable-web",
@@ -2508,7 +3000,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "lovable-desktop",
@@ -2529,7 +3025,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "luma-dream-machine",
@@ -2552,7 +3052,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://dream-machine.lumalabs.ai/",
+    "web_domains": [
+      "dream-machine.lumalabs.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "maxclaw",
@@ -2572,7 +3078,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "maxclaw-cn",
@@ -2592,7 +3102,13 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://agent.minimax.cn/max-claw",
+    "web_domains": [
+      "agent.minimax.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "meta-ai",
@@ -2614,7 +3130,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "microsoft-copilot",
@@ -2637,7 +3157,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "midjourney",
@@ -2657,7 +3181,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "minimax-agent",
@@ -2677,7 +3205,13 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons（MiniMax 品牌）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://agent.minimax.io/",
+    "web_domains": [
+      "agent.minimax.io"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "minimax-agent-cn",
@@ -2697,7 +3231,13 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons（MiniMax 品牌）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://agent.minimax.cn/",
+    "web_domains": [
+      "agent.minimax.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "minimax-code-cli",
@@ -2722,7 +3262,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "minimax-code-desktop",
@@ -2745,7 +3289,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "mistral-vibe",
@@ -2771,7 +3319,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://chat.mistral.ai/",
+    "web_domains": [
+      "chat.mistral.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "mistral-vibe-cli",
@@ -2797,7 +3351,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "mistral-vibe-ide-plugin",
@@ -2825,7 +3383,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "msty",
@@ -2849,7 +3411,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "napkin-ai",
@@ -2871,7 +3437,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "notion-ai",
@@ -2894,7 +3464,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.notion.com/chat",
+    "web_domains": [
+      "app.notion.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "notion-ai-gui",
@@ -2917,7 +3493,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "ollama",
@@ -2939,7 +3519,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "ollama-desktop",
@@ -2960,7 +3544,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "open-webui",
@@ -2983,7 +3571,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "opencode",
@@ -3005,7 +3597,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "opencode-desktop",
@@ -3027,7 +3623,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "opencode-ide",
@@ -3049,7 +3649,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "openhands",
@@ -3071,7 +3675,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "otter-ai",
@@ -3095,7 +3703,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "otter-ai-gui",
@@ -3119,7 +3731,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "otter-ai-browser-extension",
@@ -3143,7 +3759,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "bnmojkbbkkonlmlfgejehefjldooiedp",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "perplexity",
@@ -3163,7 +3783,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://www.perplexity.ai/",
+    "web_domains": [
+      "www.perplexity.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "pieces",
@@ -3185,7 +3811,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "pika",
@@ -3205,7 +3835,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://create.pika.art/login",
+    "web_domains": [
+      "create.pika.art"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "pinokio",
@@ -3227,7 +3863,11 @@
     ],
     "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "pixverse",
@@ -3247,7 +3887,13 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.pixverse.ai/",
+    "web_domains": [
+      "app.pixverse.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "poe",
@@ -3267,7 +3913,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://poe.com/",
+    "web_domains": [
+      "poe.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "qclaw",
@@ -3290,7 +3942,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qclaw-cn",
@@ -3313,7 +3969,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qoder-cli",
@@ -3335,7 +3995,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qoder-cn-cli",
@@ -3359,7 +4023,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "lingma",
@@ -3386,7 +4054,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qoder-desktop-cn",
@@ -3409,7 +4081,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qoder-cn-jetbrains",
@@ -3431,7 +4107,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qoder-desktop",
@@ -3454,7 +4134,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qoder",
@@ -3478,7 +4162,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qoder-work",
@@ -3499,7 +4187,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qoder-work-cn",
@@ -3520,7 +4212,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qoder-jetbrains",
@@ -3542,7 +4238,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qodo",
@@ -3565,7 +4265,13 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.qodo.ai/home",
+    "web_domains": [
+      "app.qodo.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "quillbot",
@@ -3585,7 +4291,11 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qwen-chat",
@@ -3607,7 +4317,13 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://chat.qwen.ai/",
+    "web_domains": [
+      "chat.qwen.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "qwen-code-cli",
@@ -3631,7 +4347,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qwen-code-desktop",
@@ -3653,7 +4373,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qwen-code-web",
@@ -3673,7 +4397,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qwen-code-ide",
@@ -3695,7 +4423,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "recraft",
@@ -3715,7 +4447,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://www.recraft.ai/auth/login",
+    "web_domains": [
+      "www.recraft.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "replit-web",
@@ -3737,7 +4475,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "replit-desktop",
@@ -3761,7 +4503,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "runway",
@@ -3783,7 +4529,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.runwayml.com/",
+    "web_domains": [
+      "app.runwayml.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "skywork",
@@ -3805,7 +4557,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "suno",
@@ -3825,7 +4581,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "synthesia",
@@ -3845,7 +4605,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.synthesia.io/welcome",
+    "web_domains": [
+      "app.synthesia.io"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "tabby",
@@ -3867,7 +4633,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "trae",
@@ -3893,7 +4663,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "trae-cn",
@@ -3919,7 +4693,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "trae-work",
@@ -3943,7 +4721,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "trae-work-gui",
@@ -3968,7 +4750,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "trae-work-cn",
@@ -3992,7 +4778,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "trae-work-cn-gui",
@@ -4017,7 +4807,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "udio",
@@ -4037,7 +4831,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "v0-web",
@@ -4059,7 +4857,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "vidu",
@@ -4081,7 +4883,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "warp-cli",
@@ -4102,7 +4908,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "warp-terminal",
@@ -4124,7 +4934,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "wordtune",
@@ -4146,7 +4960,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "wordtune-browser-extension",
@@ -4170,7 +4988,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "nllcnknpjnininklegdoijpljgdjkijc",
-    "edge_extension_id": "fgngodlaekdlibajobmkaklibdggemdd"
+    "edge_extension_id": "fgngodlaekdlibajobmkaklibdggemdd",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "workbuddy",
@@ -4195,7 +5017,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "workbuddy-cn",
@@ -4223,7 +5049,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "workbuddy-cn-mini-program",
@@ -4246,7 +5076,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "wps-ai",
@@ -4266,7 +5100,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "writesonic",
@@ -4286,7 +5124,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.writesonic.com/",
+    "web_domains": [
+      "app.writesonic.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "zai-chat",
@@ -4308,7 +5152,13 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://chat.z.ai/",
+    "web_domains": [
+      "chat.z.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "zcode-desktop",
@@ -4332,7 +5182,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "zed",
@@ -4354,7 +5208,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "wan",
@@ -4377,7 +5235,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qianwen",
@@ -4402,7 +5264,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qianwen-gui",
@@ -4428,7 +5294,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qianwen-browser-extension",
@@ -4453,7 +5323,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qwenwork-desktop-cn",
@@ -4480,7 +5354,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qwenwork-web-cn",
@@ -4503,7 +5381,13 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://qwenwork.cn/signin",
+    "web_domains": [
+      "qwenwork.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "codearts-agent-cli",
@@ -4527,7 +5411,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "codearts-agent-ide",
@@ -4554,7 +5442,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "codearts-agent-ide-extension",
@@ -4575,7 +5467,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "jimeng",
@@ -4597,7 +5493,13 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://jimeng.jianying.com/",
+    "web_domains": [
+      "jimeng.jianying.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "kling",
@@ -4619,7 +5521,13 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://klingai.com/app/",
+    "web_domains": [
+      "klingai.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "miaohua",
@@ -4642,7 +5550,11 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "tiangong",
@@ -4664,7 +5576,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "get-biji",
@@ -4687,7 +5603,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "coze-cn",
@@ -4709,7 +5629,13 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://www.coze.cn/",
+    "web_domains": [
+      "www.coze.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "wenxin",
@@ -4732,7 +5658,13 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://wenxin.baidu.com/",
+    "web_domains": [
+      "wenxin.baidu.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "comate",
@@ -4753,7 +5685,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "comate-ide-plugin",
@@ -4776,7 +5712,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qingyan",
@@ -4799,7 +5739,13 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://chatglm.cn/",
+    "web_domains": [
+      "chatglm.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "hailuo",
@@ -4821,7 +5767,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "baixiaoyi",
@@ -4843,7 +5793,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "baidu-wenku",
@@ -4865,7 +5819,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "metaso",
@@ -4887,7 +5845,13 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://metaso.cn/",
+    "web_domains": [
+      "metaso.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "gaoding",
@@ -4909,7 +5873,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "nami",
@@ -4931,7 +5899,13 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://www.n.cn/",
+    "web_domains": [
+      "www.n.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "meitu-design",
@@ -4954,7 +5928,13 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://www.designkit.cn/",
+    "web_domains": [
+      "www.designkit.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "yuanbao",
@@ -4976,7 +5956,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "iflywrite",
@@ -4998,7 +5982,13 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://huixie.iflyrec.com/",
+    "web_domains": [
+      "huixie.iflyrec.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "iflyrec",
@@ -5020,7 +6010,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "spark",
@@ -5042,7 +6036,13 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://xinghuo.xfyun.cn/",
+    "web_domains": [
+      "xinghuo.xfyun.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "doubao",
@@ -5064,7 +6064,13 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://www.doubao.com/chat/",
+    "web_domains": [
+      "www.doubao.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "doubao-desktop",
@@ -5090,7 +6096,11 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "tingwu",
@@ -5112,7 +6122,13 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://tingwu.aliyun.com/",
+    "web_domains": [
+      "tingwu.aliyun.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "dingtalk-wukong",
@@ -5136,7 +6152,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "stepfun",
@@ -5159,7 +6179,13 @@
     ],
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://chat.stepfun.com/",
+    "web_domains": [
+      "chat.stepfun.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "openclaw-cli",
@@ -5184,7 +6210,11 @@
       "CLI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "openclaw-web",
@@ -5207,7 +6237,11 @@
       "Web"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "openclaw-desktop",
@@ -5232,7 +6266,11 @@
       "GUI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "hermes-agent-cli",
@@ -5254,7 +6292,11 @@
       "CLI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qwenpaw-cli",
@@ -5278,7 +6320,11 @@
       "CLI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qwenpaw-web",
@@ -5300,7 +6346,11 @@
       "Web"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "nanobot-cli",
@@ -5322,7 +6372,11 @@
       "CLI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "nanobot-web",
@@ -5342,7 +6396,11 @@
       "Web"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "agent-zero-web",
@@ -5364,7 +6422,11 @@
       "Web"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "kilo-code-cli",
@@ -5388,7 +6450,11 @@
       "CLI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "kilo-code-ide",
@@ -5412,7 +6478,11 @@
       "IDE 插件"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "pi-cli",
@@ -5437,7 +6507,11 @@
       "CLI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "eigent-desktop",
@@ -5459,7 +6533,11 @@
       "GUI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "aionui-desktop",
@@ -5483,7 +6561,11 @@
       "GUI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "aionui-web",
@@ -5505,7 +6587,11 @@
       "Web"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "openwork-desktop",
@@ -5527,7 +6613,11 @@
       "GUI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "librechat-web",
@@ -5547,7 +6637,11 @@
       "Web"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "open-interpreter-cli",
@@ -5571,7 +6665,11 @@
       "CLI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "agent-tars-cli",
@@ -5589,7 +6687,11 @@
       "CLI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "agent-tars-web",
@@ -5609,7 +6711,11 @@
       "Web"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "ui-tars-desktop",
@@ -5632,7 +6738,11 @@
       "GUI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "deerflow-web",
@@ -5655,7 +6765,11 @@
       "Web"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "deerflow-cli",
@@ -5679,7 +6793,11 @@
       "CLI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "astrbot-web",
@@ -5699,7 +6817,11 @@
       "Web"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "langbot-web",
@@ -5719,7 +6841,11 @@
       "Web"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "openmanus-cli",
@@ -5741,7 +6867,11 @@
       "CLI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "plandex-cli",
@@ -5763,7 +6893,11 @@
       "CLI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "bolt-diy-web",
@@ -5783,7 +6917,11 @@
       "Web"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "bolt-diy-desktop",
@@ -5805,7 +6943,11 @@
       "GUI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "deepseek-harness-desktop",
@@ -5825,7 +6967,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "deepseek-harness-web",
@@ -5847,7 +6993,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "lingcode-desktop",
@@ -5867,7 +7017,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "lingcode-cli",
@@ -5889,7 +7043,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "monkeycode-web",
@@ -5909,7 +7067,11 @@
     ],
     "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "loomy-desktop",
@@ -5930,7 +7092,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qoder-wake-cn-cli",
@@ -5954,7 +7120,11 @@
     ],
     "svg_status": "沿用已核验官方品牌 SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qoder-wake-cn-web",
@@ -5976,7 +7146,11 @@
     ],
     "svg_status": "沿用已核验官方品牌 SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "trae-cn-vscode",
@@ -5997,7 +7171,11 @@
     ],
     "svg_status": "沿用已核验官方品牌 SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "trae-cn-jetbrains",
@@ -6018,7 +7196,11 @@
     ],
     "svg_status": "沿用已核验官方品牌 SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "aider-desk-desktop",
@@ -6042,7 +7224,11 @@
     ],
     "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "ibm-bob-ide",
@@ -6066,7 +7252,11 @@
     ],
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "ibm-bob-cli",
@@ -6090,7 +7280,11 @@
     ],
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "codemaker-vscode",
@@ -6108,7 +7302,11 @@
     ],
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "codemaker-jetbrains",
@@ -6126,7 +7324,11 @@
     ],
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "codemaker-cli",
@@ -6144,7 +7346,11 @@
     ],
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "syncfusion-codestudio",
@@ -6164,7 +7370,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "command-code-cli",
@@ -6188,7 +7398,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "snowflake-cortex-code-cli",
@@ -6209,7 +7423,11 @@
     ],
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "crush-cli",
@@ -6231,7 +7449,11 @@
     ],
     "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "deepagents-cli",
@@ -6252,7 +7474,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "firebender-ide",
@@ -6270,7 +7496,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "forgecode-cli",
@@ -6290,7 +7520,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "iflow-cli",
@@ -6310,7 +7544,11 @@
     ],
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "jazz-cli",
@@ -6328,7 +7566,11 @@
     ],
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "kode-cli",
@@ -6348,7 +7590,11 @@
     ],
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "xum-desktop",
@@ -6368,7 +7614,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "neovate-cli",
@@ -6388,7 +7638,11 @@
     ],
     "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "ona-web",
@@ -6410,7 +7664,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "pochi-vscode",
@@ -6428,7 +7686,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "reasonix-cli",
@@ -6448,7 +7710,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "rovo-dev-cli",
@@ -6472,7 +7738,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "roo-code-vscode",
@@ -6490,7 +7760,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "tabnine-cli",
@@ -6514,7 +7788,11 @@
     ],
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "tinycloud-cli",
@@ -6534,7 +7812,11 @@
     ],
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "zencoder-vscode",
@@ -6552,7 +7834,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "zencoder-jetbrains",
@@ -6570,7 +7856,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "zenflow-desktop",
@@ -6594,7 +7884,11 @@
     ],
     "svg_status": "未找到可靠 SVG，待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "coder-community-web",
@@ -6618,7 +7912,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "lingcode-web",
@@ -6638,7 +7936,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "lingcode-baby-desktop",
@@ -6662,7 +7964,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "monkeycode-work-desktop",
@@ -6683,7 +7989,11 @@
     ],
     "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "coze-desktop-cn",
@@ -6708,7 +8018,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "qingyan-desktop",
@@ -6733,7 +8047,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "deepseek-harness-cli",
@@ -6756,7 +8074,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "loomy-web",
@@ -6776,7 +8098,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "vscode-desktop",
@@ -6800,7 +8126,11 @@
     ],
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "aiderdesk-cli",
@@ -6821,7 +8151,11 @@
     ],
     "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "command-code-desktop",
@@ -6847,7 +8181,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "deep-agents-code-cli",
@@ -6871,7 +8209,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "forgecode-ide",
@@ -6894,7 +8236,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "moxby-browser",
@@ -6916,7 +8262,11 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "kogdciljkfifplhdainlinbppfpeenii",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "moxby-desktop",
@@ -6939,7 +8289,11 @@
     ],
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "neovate-ide",
@@ -6962,7 +8316,11 @@
     ],
     "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "neovate-desktop",
@@ -6983,7 +8341,11 @@
     ],
     "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "pochi-cli",
@@ -7006,7 +8368,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "reasonix-studio-desktop",
@@ -7031,7 +8397,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "reasonix-desktop",
@@ -7055,7 +8425,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "reasonix-web",
@@ -7078,7 +8452,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "reasonix-ide",
@@ -7100,7 +8478,11 @@
     ],
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "rovo-dev-ide",
@@ -7123,7 +8505,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "rovo-dev-reviewer",
@@ -7145,7 +8531,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "consensus",
@@ -7165,7 +8555,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "elicit",
@@ -7185,7 +8579,11 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "scispace",
@@ -7205,7 +8603,11 @@
     ],
     "svg_status": "未收录 SVG · 官方 Logo 仍待核验",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "chatpdf",
@@ -7225,7 +8627,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "manus",
@@ -7245,7 +8651,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "genspark",
@@ -7265,7 +8675,11 @@
     ],
     "svg_status": "未收录 SVG · 官方 Logo 仍待核验",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "felo",
@@ -7285,7 +8699,13 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://felo.ai/search",
+    "web_domains": [
+      "felo.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "jenni",
@@ -7305,7 +8725,13 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.jenni.ai/",
+    "web_domains": [
+      "app.jenni.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "jotbot",
@@ -7325,7 +8751,13 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.myjotbot.com/",
+    "web_domains": [
+      "app.myjotbot.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "deepl-write",
@@ -7345,7 +8777,13 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://www.deepl.com/en/write",
+    "web_domains": [
+      "www.deepl.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "google-ai-studio",
@@ -7365,7 +8803,13 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://aistudio.google.com/welcome",
+    "web_domains": [
+      "aistudio.google.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "beautiful-ai",
@@ -7385,7 +8829,11 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "slidesgo",
@@ -7405,7 +8853,11 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "krea",
@@ -7425,7 +8877,11 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "fal",
@@ -7445,7 +8901,11 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "higgsfield",
@@ -7465,7 +8925,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "fish-audio",
@@ -7485,7 +8949,11 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "aiva",
@@ -7505,7 +8973,11 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "soundraw",
@@ -7525,7 +8997,11 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "uizard",
@@ -7545,7 +9021,11 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "relevance-ai",
@@ -7565,7 +9045,13 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.relevanceai.com/signup",
+    "web_domains": [
+      "app.relevanceai.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "lindy",
@@ -7585,7 +9071,13 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://chat.lindy.ai/login",
+    "web_domains": [
+      "chat.lindy.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "n8n",
@@ -7605,7 +9097,13 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.n8n.cloud/login",
+    "web_domains": [
+      "app.n8n.cloud"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "zapier",
@@ -7625,7 +9123,13 @@
     ],
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://agents.zapier.com/login",
+    "web_domains": [
+      "agents.zapier.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "gumloop",
@@ -7645,7 +9149,11 @@
     ],
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "sider-browser-extension",
@@ -7669,7 +9177,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "difoiogjjojoaoomphldepapgpbgkhkb",
-    "edge_extension_id": "dhoenijjpgpeimemopealfcbiecgceod"
+    "edge_extension_id": "dhoenijjpgpeimemopealfcbiecgceod",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "monica-browser-extension",
@@ -7692,7 +9204,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "ofpnmcalabcbjgholdjcjblkibolbppb",
-    "edge_extension_id": "fhimbbbmdjiifimnepkibjfjbppnjble"
+    "edge_extension_id": "fhimbbbmdjiifimnepkibjfjbppnjble",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "merlin-browser-extension",
@@ -7714,7 +9230,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "camppjleccjaphfdbohjdohecfnoikec",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "maxai-browser-extension",
@@ -7738,7 +9258,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "mhnlakgilnojmhinhkckjpncpbhabphi",
-    "edge_extension_id": "ngphehpfehdmjellohmlojkplilekadg"
+    "edge_extension_id": "ngphehpfehdmjellohmlojkplilekadg",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "harpa-browser-extension",
@@ -7760,7 +9284,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "eanggfilgoajaocelnaflolkadkeghjp",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "immersive-translate-browser-extension",
@@ -7786,7 +9314,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
-    "edge_extension_id": "amkbmndfnliijdhojkpoglbnaaahippg"
+    "edge_extension_id": "amkbmndfnliijdhojkpoglbnaaahippg",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "compose-ai-browser-extension",
@@ -7808,7 +9340,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "ddlbpiadoechcolndfeaonajmngmhblj",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "tinamind-browser-extension",
@@ -7830,7 +9366,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "befflofjcniongenjmbkgkoljhgliihe",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "glasp-youtube-summary-browser-extension",
@@ -7854,7 +9394,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "nmmicjeknamkfloonkhhcjmomieiodli",
-    "edge_extension_id": "cfmilchfgimokpfjlhabjiaenaldahih"
+    "edge_extension_id": "cfmilchfgimokpfjlhabjiaenaldahih",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "glasp-browser-extension",
@@ -7879,7 +9423,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "blillmbchncajnhkjfdnincfndboieik",
-    "edge_extension_id": "lldbnkidnfhinkmoapddhdkgobcajenb"
+    "edge_extension_id": "lldbnkidnfhinkmoapddhdkgobcajenb",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "languagetool-browser-extension",
@@ -7905,7 +9453,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "oldceeleldhonbafppcapldpdifcinji",
-    "edge_extension_id": "hfjadhjooeceemgojogkhlppanjkbobc"
+    "edge_extension_id": "hfjadhjooeceemgojogkhlppanjkbobc",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "quillbot-browser-extension",
@@ -7929,7 +9481,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "iidnbdjijdkbmajdffnidomddglmieko",
-    "edge_extension_id": "cphpplikchcioccedpjacdanfibnimmh"
+    "edge_extension_id": "cphpplikchcioccedpjacdanfibnimmh",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "aiprm-browser-extension",
@@ -7951,7 +9507,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "ojnbohmppadfgpejeebfnmnknjdlckgj",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "jetwriter-browser-extension",
@@ -7978,7 +9538,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "pdnenlnelpdomajfejgapbdpmjkfpjkp",
-    "edge_extension_id": "gocnmcailiollkkaaieichicbfobepae"
+    "edge_extension_id": "gocnmcailiollkkaaieichicbfobepae",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "eightify-browser-extension",
@@ -8000,7 +9564,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "cdcpabkolgalpgeingbdcebojebfelgb",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "textcortex-browser-extension",
@@ -8026,7 +9594,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "hahkojdegblcccihngmgndhdfheheofe",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "scispace-browser-extension",
@@ -8048,7 +9620,11 @@
       "浏览器插件"
     ],
     "chrome_extension_id": "cipccbpjpemcnijhjcdjmkjhmhniiick",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "comet-desktop",
@@ -8069,7 +9645,11 @@
       "GUI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "dia-desktop",
@@ -8090,7 +9670,11 @@
       "GUI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "opera-desktop",
@@ -8115,7 +9699,11 @@
       "GUI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "opera-neon-desktop",
@@ -8136,7 +9724,11 @@
       "GUI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "microsoft-edge-desktop",
@@ -8157,7 +9749,11 @@
       "GUI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "chatgpt-atlas-gui",
@@ -8179,7 +9775,11 @@
       "GUI"
     ],
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "step-code-cli",
@@ -8203,7 +9803,11 @@
     ],
     "svg_status": "未收录 SVG · Logo 待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "freebuff-desktop",
@@ -8225,7 +9829,11 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "freebuff-cli",
@@ -8243,7 +9851,11 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "freebuff-web",
@@ -8263,7 +9875,11 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "omp-cli",
@@ -8285,7 +9901,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "codegpt-vscode",
@@ -8307,7 +9927,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "strix-cli",
@@ -8325,7 +9949,11 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "strix-web",
@@ -8345,7 +9973,13 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.strix.ai/",
+    "web_domains": [
+      "app.strix.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "sillytavern-web",
@@ -8365,7 +9999,11 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   },
   {
     "id": "lemonade-web",
@@ -8385,7 +10023,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "proto-desktop",
@@ -8409,7 +10051,11 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "isekai-zero-web",
@@ -8429,7 +10075,11 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "craft-rpgs-web",
@@ -8449,7 +10099,11 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "digen-web",
@@ -8469,7 +10123,13 @@
     ],
     "svg_status": "未收录 SVG · Logo 待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://agent.digen.ai/en",
+    "web_domains": [
+      "agent.digen.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "framer-web",
@@ -8489,7 +10149,11 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "gdevelop-desktop",
@@ -8511,7 +10175,11 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "gdevelop-web",
@@ -8531,7 +10199,13 @@
     ],
     "svg_status": "available",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://editor.gdevelop.io/",
+    "web_domains": [
+      "editor.gdevelop.io"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "rosebud-web",
@@ -8551,7 +10225,11 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "fliki-web",
@@ -8571,7 +10249,13 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://app.fliki.ai/",
+    "web_domains": [
+      "app.fliki.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "websim-web",
@@ -8593,7 +10277,13 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://websim.com/",
+    "web_domains": [
+      "websim.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   },
   {
     "id": "highlevel-web",
@@ -8613,7 +10303,11 @@
     ],
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "unverified",
+    "web_domain_verified_at": ""
   },
   {
     "id": "letta-code-cli",
@@ -8631,7 +10325,11 @@
     ],
     "svg_status": "未收录 SVG · Logo 待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "letta-desktop",
@@ -8651,7 +10349,11 @@
     ],
     "svg_status": "未收录 SVG · Logo 待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   },
   {
     "id": "letta-web",
@@ -8671,6 +10373,142 @@
     ],
     "svg_status": "未收录 SVG · Logo 待补充",
     "chrome_extension_id": "",
-    "edge_extension_id": ""
+    "edge_extension_id": "",
+    "web_url": "https://chat.letta.com/",
+    "web_domains": [
+      "chat.letta.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
+  },
+  {
+    "id": "t3-chat-web",
+    "name": "T3 Chat",
+    "aliases": [],
+    "vendor": "T3 Chat",
+    "type": "通用助手",
+    "website": "https://t3.chat/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "t3-chat",
+    "product_id": "t3-chat",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未找到可靠 Logo，待补充",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "https://t3.chat/",
+    "web_domains": [
+      "t3.chat"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
+  },
+  {
+    "id": "abacus-chatllm-web",
+    "name": "ChatLLM",
+    "aliases": [],
+    "vendor": "Abacus.AI",
+    "type": "通用助手",
+    "website": "https://chatllm.abacus.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "abacus-ai",
+    "product_id": "abacus-chatllm",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未找到可靠 Logo，待补充",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "https://apps.abacus.ai/chatllm/",
+    "web_domains": [
+      "apps.abacus.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
+  },
+  {
+    "id": "dust-web",
+    "name": "Dust",
+    "aliases": [],
+    "vendor": "Dust",
+    "type": "智能体与工作流",
+    "website": "https://dust.tt/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-dust.png",
+    "vendor_id": "dust",
+    "product_id": "dust",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "PNG 位图 · 官方素材 · 未收录 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "https://app.dust.tt/",
+    "web_domains": [
+      "app.dust.tt"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
+  },
+  {
+    "id": "mem-web",
+    "name": "Mem",
+    "aliases": [],
+    "vendor": "Mem",
+    "type": "知识与笔记",
+    "website": "https://get.mem.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-mem.png",
+    "vendor_id": "mem",
+    "product_id": "mem",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "PNG 位图 · 官方素材 · 未收录 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "https://mem.ai/login",
+    "web_domains": [
+      "mem.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
+  },
+  {
+    "id": "taskade-web",
+    "name": "Taskade",
+    "aliases": [],
+    "vendor": "Taskade",
+    "type": "智能体与工作流",
+    "website": "https://www.taskade.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/web-taskade.svg",
+    "vendor_id": "taskade",
+    "product_id": "taskade",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "https://www.taskade.com/login",
+    "web_domains": [
+      "www.taskade.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-12"
   }
 ]
