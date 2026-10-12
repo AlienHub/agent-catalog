@@ -14,5 +14,7 @@
 
 .filter-segments{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:20px}.filter-segments .collections{margin-top:0;max-width:100%}.form-segments{flex-wrap:wrap}
 
-/* MiniMax Code official symbol is white; preserve the SVG and provide contrast. */
-.appicon[src="icons/minimax-code.svg"]{background:#202124;border-color:#202124}
+/* Original white symbols need a dark surface in both cards and details. */
+.appicon[src="icons/minimax-code.svg"],
+.appicon[src="icons/openrouter-lemonade.svg"],
+.appicon[src="icons/anythingllm.svg"]{background:#202124;border-color:#202124}
