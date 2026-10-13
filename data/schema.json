@@ -22,6 +22,7 @@
       "edge_extension_id",
       "web_url",
       "web_domains",
+      "web_domain_entries",
       "web_domain_status",
       "web_domain_verified_at"
     ],
@@ -112,7 +113,44 @@
           "pattern": "^[a-z0-9.-]+$"
         },
         "uniqueItems": true,
-        "description": "Verified exact application hostnames, no wildcard, protocol, path, API or CDN domains. Shared hosts require URL path context."
+        "description": "Verified exact application hostnames, no wildcard, protocol, path, API or CDN domains. Shared hosts require URL path context. Must match web_domain_entries[].host in the same order."
+      },
+      "web_domain_entries": {
+        "type": "array",
+        "description": "Labeled application hosts for the same record: primary, regional, legacy or alternate. Empty when not verified. web_domains remains the searchable hostname list.",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "host",
+            "url",
+            "role",
+            "label"
+          ],
+          "properties": {
+            "host": {
+              "type": "string",
+              "pattern": "^[a-z0-9.-]+$"
+            },
+            "url": {
+              "type": "string",
+              "description": "Canonical https entry for this host; empty only when the parent record is not verified"
+            },
+            "role": {
+              "type": "string",
+              "enum": [
+                "primary",
+                "regional",
+                "legacy",
+                "alternate"
+              ]
+            },
+            "label": {
+              "type": "string",
+              "description": "Optional region or legacy note; empty when unused"
+            }
+          }
+        }
       },
       "web_domain_status": {
         "type": "string",

@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.18（2026-10-13），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.19（2026-10-13），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -383,3 +383,11 @@ SDK 支持 `findApps({ webDomain: 'firefly.adobe.com' })` 精确查找，搜索�
 - OpenCode CLI：证据更新为官方 changelog v2.0.27（2026-10-12）。已有桌面与 IDE 记录及稳定 ID 保留。
 
 仅核验公开官方资料，未做安装、运行或区域可用性测试。缺失 Logo 的记录保持空 `icon`。
+
+## v0.19 多域名 Web 模型与中文 Web AI
+
+Schema 升至 v7：保留 `web_url` 与 `web_domains`（精确主机名列表，供 `findApps({ webDomain })` 与搜索使用），并新增 `web_domain_entries`，使同一应用可携带多个已核验域名，条目含 `host`、`url`、`role`（primary / regional / legacy / alternate）与可选 `label`。已有 verified 记录迁移为一条 `primary` 条目，与原 `web_url` 对齐；未核验、自托管与非 Web 记录保持空数组。校验要求主机名列表与条目一致、verified 恰好一个 primary，且每个主机名都有对应 evidence。
+
+新增 6 条中文 Web 应用、6 个产品，目录共 406 条应用、266 个产品。同时核验既有中文 Web 记录的公开入口（Kimi、元宝、千问、海螺、Vidu、Coze、ima、天工/Skywork、万相、LiblibAI、Dreamina、秒画、讯飞听见、百小医、Dola/Cici、WPS AI、得到大脑、TraeWork、Loomy、MaxClaw、百度文库等），并为可灵、星火、清言、文心补充国际站或旧域名。无可靠 SVG 的新记录保持空 `icon`。稿定AI 因公开页拦截自动化访问仍为 unverified；klingai.cn 观察到默认站点页，未收录。
+
+仅核验公开官方资料，未做安装、登录或区域可用性测试。审计见 `docs/research/web-domain-review-2026-10-13.json`。

@@ -1,4 +1,13 @@
 export type InteractionForm = 'GUI' | 'CLI' | 'IDE 插件' | 'Web' | '浏览器插件' | '小程序';
+export type WebDomainRole = 'primary' | 'regional' | 'legacy' | 'alternate';
+/** One labeled host for a Web application; host list stays in web_domains. */
+export interface WebDomainEntry {
+  readonly host: string;
+  readonly url: string;
+  readonly role: WebDomainRole;
+  /** Optional region or legacy note; empty when unused. */
+  readonly label: string;
+}
 /** One independently identified application per interaction form. */
 export interface CatalogApp {
   readonly id: string;
@@ -11,6 +20,8 @@ export interface CatalogApp {
   readonly web_url: string;
   /** Exact hosts; shared hosts require web_url path context. Not API/CDN rules. */
   readonly web_domains: readonly string[];
+  /** Labeled hosts; hosts must match web_domains. Empty until verified. */
+  readonly web_domain_entries: readonly WebDomainEntry[];
   readonly web_domain_status: 'verified' | 'unverified' | 'self-hosted' | 'not-applicable';
   readonly web_domain_verified_at: string;
   readonly platforms: readonly string[];

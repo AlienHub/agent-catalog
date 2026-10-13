@@ -5,7 +5,7 @@ import rawSchema from '../data/schema.json' with { type: 'json' };
 import sourceMetadata from '../data/metadata.json' with { type: 'json' };
 import { deepFreeze } from './freeze.js';
 import type { CatalogApp, CatalogEvidence, CatalogFilters, CatalogMetadata, FilterValue, JsonValue } from './types.js';
-export type { CatalogApp, InteractionForm, CatalogEvidence, CatalogFilters, CatalogMetadata, EvidenceSource, FilterValue, DeepReadonly, JsonValue } from './types.js';
+export type { CatalogApp, InteractionForm, WebDomainEntry, WebDomainRole, CatalogEvidence, CatalogFilters, CatalogMetadata, EvidenceSource, FilterValue, DeepReadonly, JsonValue } from './types.js';
 
 // validate-data enforces the single-form tuple before every SDK build.
 export const apps: readonly CatalogApp[] = deepFreeze(rawApps) as readonly CatalogApp[];
@@ -28,7 +28,7 @@ const byId = new Map(apps.map(app => [app.id, app]));
 const collectionIds = new Map(Object.entries(collections).map(([name, ids]) => [name, new Set(ids)]));
 const searchTexts = new Map(apps.map(app => [app.id, normalize([
   app.id, app.name, ...app.aliases, app.vendor, app.vendor_id, app.product_id,
-  app.type, app.web_url, ...app.web_domains, app.chrome_extension_id, app.edge_extension_id, ...app.interfaces, ...app.platforms,
+  app.type, app.web_url, ...app.web_domains, ...app.web_domain_entries.flatMap(entry => [entry.host, entry.url, entry.role, entry.label]), app.chrome_extension_id, app.edge_extension_id, ...app.interfaces, ...app.platforms,
 ].join(' '))]));
 function normalize(value: string): string { return value.normalize('NFKC').toLowerCase(); }
 function matches(actual: string | readonly string[], expected: FilterValue | undefined): boolean {

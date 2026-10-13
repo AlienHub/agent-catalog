@@ -214,5 +214,13 @@ test('Web domains find actual entries and detail distinguishes website, entry an
   await t.click(t.w.document.querySelector('.appname'));
   assert(![...t.$('detailContent').querySelectorAll('a')].some(a=>a.textContent==='打开应用'));
   assert(t.$('detailContent').textContent.includes('域名由部署实例决定'));
+  await t.click('closeDetails');await t.change('search','kimi.moonshot.cn');
+  assert.equal(t.count(),1);
+  assert(t.w.document.querySelector('.web-domain').textContent.includes('kimi.moonshot.cn'));
+  assert(t.w.document.querySelector('.web-domain').textContent.includes('旧域名'));
+  await t.click(t.w.document.querySelector('.appname'));
+  assert(t.$('detailContent').querySelector('a[href="https://kimi.moonshot.cn/"]'));
+  assert(t.$('detailContent').textContent.includes('旧域名'));
+  await t.click('csvExport');assert(t.downloads.at(-1).blob.parts.join('').includes('web_domain_entries'));
  }finally{t.dom.window.close()}
 });

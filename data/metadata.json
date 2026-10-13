@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 6,
-  "dataVersion": "0.18",
+  "schemaVersion": 7,
+  "dataVersion": "0.19",
   "snapshotDate": "2026-10-13",
-  "source": "Agent Atlas verified application catalog; Dropstone CLI and Muse Code additions plus OpenCode CLI v2.0.27 evidence refresh",
+  "source": "Agent Atlas verified application catalog; schema v7 multi-domain Web entries plus verified Chinese Web AI applications",
   "verificationScope": "Official website/source review; not an installation or availability test",
   "sourceCommit": "1f9ae8257dd368859c767349ed05db9c6ed87f1a",
   "openSourceMetadataScope": "Verified per record ID; missing metadata means unverified, not closed-source. Repository pushes do not prove maintenance.",
@@ -11,5 +11,5 @@
   "namingPolicy": "Use CN where needed in product names. Application names omit added interaction-form suffixes; interfaces and platforms distinguish records. No edition field.",
   "assetReview": "OpenRouter candidate discovery 2026-10-11: public page snapshot, independently verified application forms, original SVG/PNG sources and hashes in docs/research/openrouter-review-2026-10-11.json. OpenRouter categories and opt-in token usage do not determine catalog identity, licensing or total market popularity.",
   "logoPolicy": "Original SVG and PNG accepted. PNG is explicitly marked raster; hasSvg and SVG counts only include .svg assets.",
-  "webDomainPolicy": "Actual user-facing Web entry URL and exact verified hostnames, separate from official website; shared-domain apps require URL paths. No API/CDN inference; self-hosted/local instances have no universal public domain. Missing entries explicitly remain unverified."
+  "webDomainPolicy": "Actual user-facing Web entry URL and exact verified hostnames, separate from official website; shared-domain apps require URL paths. One record may list multiple hosts in web_domains and labeled web_domain_entries (primary/regional/legacy/alternate). No API/CDN inference; self-hosted/local instances have no universal public domain. Missing entries explicitly remain unverified."
 }

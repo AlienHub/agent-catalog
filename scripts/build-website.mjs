@@ -71,7 +71,10 @@ await writeFile(path.join(output, 'website-notices.txt'), uiNotice);
 
 // Preserve the original complete dataset download, now generated from canonical files.
 const csvKeys = Object.keys(data['schema.json'].items.properties);
-const quote = value => '"' + (Array.isArray(value) ? value.join(' | ') : String(value)).replaceAll('"', '""') + '"';
+const formatCell = value => Array.isArray(value)
+  ? value.map(item => item && typeof item === 'object' ? [item.host, item.role, item.label].filter(Boolean).join(':') : String(item)).join(' | ')
+  : String(value);
+const quote = value => '"' + formatCell(value).replaceAll('"', '""') + '"';
 const csv = '\uFEFF' + [csvKeys.map(quote).join(','), ...data['dataset.json'].map(app => csvKeys.map(key => quote(app[key])).join(','))].join('\r\n') + '\r\n';
 await writeFile(path.join(output, 'dataset.csv'), csv);
 const sourceKeys = ['id','repository_url','source_model','license','license_url','classification','maintenance_status','checked_at','last_push_at','github_archived','notes'];

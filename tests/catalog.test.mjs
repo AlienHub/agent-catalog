@@ -11,8 +11,8 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.18');
-  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code']) assert(catalog.getApp(id));
+  assert.equal(catalog.catalogMeta.dataVersion, '0.19');
+  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'kimi', 'zhida', 'tongyi-farui', 'shangliang', 'biling', 'wujieai', 'tusi']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
 test('ESM and CommonJS core exports agree', () => {
@@ -38,6 +38,8 @@ test('shared data and result arrays are deeply frozen', () => {
   assert(Object.isFrozen(catalog.apps));
   assert(Object.isFrozen(catalog.apps[0]));
   assert(Object.isFrozen(catalog.apps[0].interfaces));
+  assert(Object.isFrozen(catalog.getApp('kimi').web_domain_entries));
+  assert(Object.isFrozen(catalog.getApp('kimi').web_domain_entries[0]));
   assert(Object.isFrozen(catalog.evidence.chatgpt.sources[0]));
   assert(Object.isFrozen(catalog.collections.chinese_agents));
   assert(Object.isFrozen(catalog.schema.items.properties));
@@ -153,10 +155,12 @@ test('display names omit form suffixes and China editions use CN', () => {
 });
 
 test('edition field is removed from records and schema', () => {
- assert.equal(catalog.catalogMeta.schemaVersion,6);
+ assert.equal(catalog.catalogMeta.schemaVersion,7);
  assert(catalog.apps.every(a=>!Object.hasOwn(a,'edition')));
  assert(!catalog.schema.items.required.includes('edition'));
  assert(!Object.hasOwn(catalog.schema.items.properties,'edition'));
+ assert(catalog.schema.items.required.includes('web_domain_entries'));
+ assert(Object.hasOwn(catalog.schema.items.properties,'web_domain_entries'));
 });
 
 test('coding logo assets retain verified hashes and provenance across application forms', async () => {
@@ -237,17 +241,43 @@ test('Shared hosts preserve application paths; self-hosted and unknown domains s
   assert.notEqual(catalog.getApp('chatgpt').web_url, catalog.getApp('codex-web').web_url);
   assert.equal(catalog.getApp('qwen-code-web').web_domain_status, 'self-hosted');
   assert.deepEqual(catalog.getApp('qwen-code-web').web_domains, []);
+  assert.deepEqual(catalog.getApp('qwen-code-web').web_domain_entries, []);
   assert.equal(catalog.getApp('qwen-code-web').web_url, '');
   assert.equal(catalog.getApp('jetbrains-air-web').web_domain_status, 'unverified');
   assert.deepEqual(catalog.getApp('jetbrains-air-web').web_domains, []);
-  assert(catalog.apps.filter(a => a.interfaces[0] !== 'Web').every(a => a.web_domain_status === 'not-applicable' && !a.web_url && !a.web_domains.length));
+  assert.deepEqual(catalog.getApp('jetbrains-air-web').web_domain_entries, []);
+  assert(catalog.apps.filter(a => a.interfaces[0] !== 'Web').every(a => a.web_domain_status === 'not-applicable' && !a.web_url && !a.web_domains.length && !a.web_domain_entries.length));
 });
 test('Web audit accounts for every application and new entries have source evidence', async () => {
-  const audit = JSON.parse(await readFile(new URL('../docs/research/web-domain-review-2026-10-12.json', import.meta.url)));
+  const audit = JSON.parse(await readFile(new URL('../docs/research/web-domain-review-2026-10-13.json', import.meta.url)));
   assert.deepEqual(audit.records.map(a => a.id).sort(), catalog.findApps({ interface: 'Web' }).map(a => a.id).sort());
-  for (const id of ['t3-chat-web','abacus-chatllm-web','dust-web','mem-web','taskade-web']) {
+  for (const id of ['t3-chat-web','abacus-chatllm-web','dust-web','mem-web','taskade-web','kimi','zhida','tongyi-farui']) {
     const app = catalog.getApp(id);
     assert.equal(app.web_domain_status, 'verified');
     assert(catalog.getEvidence(id).sources.some(s => new URL(s.url).hostname === app.web_domains[0]));
+    assert.deepEqual(app.web_domain_entries.map(entry => entry.host), app.web_domains);
+    assert.equal(app.web_domain_entries.filter(entry => entry.role === 'primary').length, 1);
   }
+});
+test('one Web application can carry labeled primary, regional and legacy domains', () => {
+  const kimi = catalog.getApp('kimi');
+  assert.equal(kimi.web_url, 'https://www.kimi.com/');
+  assert.deepEqual(kimi.web_domains, ['www.kimi.com', 'kimi.moonshot.cn']);
+  assert.equal(kimi.web_domain_entries[0].role, 'primary');
+  assert.equal(kimi.web_domain_entries[1].role, 'legacy');
+  assert.deepEqual(catalog.findApps({ webDomain: 'kimi.moonshot.cn' }), [kimi]);
+  assert(catalog.searchApps('月之暗面旧域名').some(app => app.id === 'kimi'));
+  const dola = catalog.getApp('dola');
+  assert(dola.web_domains.includes('cici.com'));
+  assert(dola.web_domain_entries.some(entry => entry.role === 'regional' && entry.label === 'Cici'));
+  assert.deepEqual(catalog.findApps({ webDomain: 'cici.com' }), [dola]);
+  const kling = catalog.getApp('kling');
+  assert(kling.web_domains.includes('kling.ai'));
+  assert(catalog.searchApps('kling.ai').some(app => app.id === 'kling'));
+  for (const id of ['zhida', 'tongyi-farui', 'shangliang', 'biling', 'wujieai', 'tusi']) {
+    assert.equal(catalog.getApp(id).icon, '');
+    assert.deepEqual(catalog.getApp(id).interfaces, ['Web']);
+  }
+  assert.deepEqual(catalog.getApp('tusi').web_domains, ['tusi.cn', 'tusiart.com']);
+  assert.equal(catalog.getApp('tongyi-farui').web_url, 'https://tongyi.aliyun.com/farui');
 });

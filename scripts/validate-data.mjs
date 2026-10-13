@@ -11,7 +11,7 @@ export async function validateData() {
   assert(Array.isArray(apps) && apps.length > 0, 'Dataset must be a nonempty array');
   const ids = new Set(); const iconPaths = new Set();
   const expectedKeys = [...schema.items.required].sort();
-  const stringFields = expectedKeys.filter(key => !['aliases','platforms','interfaces','web_domains'].includes(key));
+  const stringFields = expectedKeys.filter(key => !['aliases','platforms','interfaces','web_domains','web_domain_entries'].includes(key));
   for (const app of apps) {
     assert.deepEqual(Object.keys(app).sort(), expectedKeys, `Schema keys: ${app.id}`);
     assert(/^[a-z][a-z0-9-]*$/.test(app.id), `Invalid ID: ${app.id}`);
@@ -23,6 +23,8 @@ export async function validateData() {
       assert(Array.isArray(app[key]) && app[key].every(v => typeof v === 'string' && v.length), `${app.id}.${key}`);
       assert.equal(new Set(app[key]).size, app[key].length, `Duplicate ${app.id}.${key}`);
     }
+    assert(Array.isArray(app.web_domain_entries), `Web domain entries: ${app.id}`);
+    assert.deepEqual(app.web_domain_entries.map(entry => entry.host), app.web_domains, `Web domain entry hosts: ${app.id}`);
     assert(!app.name.includes('中国版'), `Use CN edition naming: ${app.id}`);
     assert(!/（(?:Web|GUI|CLI|IDE|IDE 插件)）$/.test(app.name), `Interaction form belongs in interfaces: ${app.id}`);
     assert(!app.platforms.some(p => ['iOS','iPadOS','Android','Mobile'].includes(p)), `Mobile platform outside catalog scope: ${app.id}`);
@@ -37,13 +39,25 @@ export async function validateData() {
       assert(!entry.username && !entry.password && !entry.search && !entry.hash, `Canonical Web entry: ${app.id}`);
       assert(app.web_domains.length && app.web_domains.includes(entry.hostname), `Web entry hostname: ${app.id}`);
       assert(/^\d{4}-\d{2}-\d{2}$/.test(app.web_domain_verified_at), `Web domain date: ${app.id}`);
-      for (const domain of app.web_domains) {
-        assert(/^(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z]{2,}$/.test(domain), `Exact Web hostname: ${app.id}/${domain}`);
-        assert(evidence[app.id]?.sources.some(s => new URL(s.url).hostname === domain), `Missing Web domain evidence: ${app.id}/${domain}`);
+      const primaries = app.web_domain_entries.filter(item => item.role === 'primary');
+      assert.equal(primaries.length, 1, `Exactly one primary Web domain: ${app.id}`);
+      assert.equal(primaries[0].host, entry.hostname, `Primary Web host: ${app.id}`);
+      assert.equal(primaries[0].url, app.web_url, `Primary Web URL: ${app.id}`);
+      for (const item of app.web_domain_entries) {
+        assert.deepEqual(Object.keys(item).sort(), ['host','label','role','url'], `Web domain entry keys: ${app.id}/${item.host}`);
+        assert(['primary','regional','legacy','alternate'].includes(item.role), `Web domain role: ${app.id}/${item.host}`);
+        assert.equal(typeof item.label, 'string', `Web domain label: ${app.id}/${item.host}`);
+        const labeled = new URL(item.url);
+        assert.equal(labeled.protocol, 'https:', `Web domain entry protocol: ${app.id}/${item.host}`);
+        assert.equal(labeled.hostname, item.host, `Web domain entry URL host: ${app.id}/${item.host}`);
+        assert(!labeled.username && !labeled.password && !labeled.search && !labeled.hash, `Canonical Web domain entry: ${app.id}/${item.host}`);
+        assert(/^(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z]{2,}$/.test(item.host), `Exact Web hostname: ${app.id}/${item.host}`);
+        assert(evidence[app.id]?.sources.some(s => new URL(s.url).hostname === item.host), `Missing Web domain evidence: ${app.id}/${item.host}`);
       }
     } else {
       assert.equal(app.web_url, '', `Unverified Web URL: ${app.id}`);
       assert.deepEqual(app.web_domains, [], `Unverified Web domains: ${app.id}`);
+      assert.deepEqual(app.web_domain_entries, [], `Unverified Web domain entries: ${app.id}`);
       assert.equal(app.web_domain_verified_at, '', `Unverified Web date: ${app.id}`);
     }
     for (const key of ['chrome_extension_id','edge_extension_id']) {
