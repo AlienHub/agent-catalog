@@ -3788,7 +3788,7 @@
     "verified_at": "2026-10-02"
   },
   "openclaw-cli": {
-    "notes": "Gateway、TUI/CLI、Control UI及原生应用；不是腾讯QClaw、智谱AutoClaw、MiniMax MaxClaw。移动端另核后补。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "notes": "Gateway、TUI/CLI、Control UI及原生应用；不是腾讯QClaw、智谱AutoClaw、MiniMax MaxClaw。移动端另核后补。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-13 Logo 核验：收录 Lobe Icons 纯矢量 SVG，原样保存；商标仍归权利人，未推定品牌授权。",
     "sources": [
       {
         "url": "https://github.com/openclaw/openclaw/blob/main/README.md",
@@ -3797,12 +3797,20 @@
       {
         "url": "https://github.com/openclaw/openclaw/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openclaw.svg",
+        "title": "LobeHub Icons — OpenClaw 原始 SVG"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT 许可；商标归各自权利人"
       }
     ],
-    "verified_at": "2026-10-04"
+    "verified_at": "2026-10-13"
   },
   "openclaw-web": {
-    "notes": "Gateway、TUI/CLI、Control UI及原生应用；不是腾讯QClaw、智谱AutoClaw、MiniMax MaxClaw。移动端另核后补。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。",
+    "notes": "Gateway、TUI/CLI、Control UI及原生应用；不是腾讯QClaw、智谱AutoClaw、MiniMax MaxClaw。移动端另核后补。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。 2026-10-13 Logo 核验：收录 Lobe Icons 纯矢量 SVG，原样保存；商标仍归权利人，未推定品牌授权。",
     "sources": [
       {
         "url": "https://github.com/openclaw/openclaw/blob/main/README.md",
@@ -3811,12 +3819,20 @@
       {
         "url": "https://github.com/openclaw/openclaw/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openclaw.svg",
+        "title": "LobeHub Icons — OpenClaw 原始 SVG"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT 许可；商标归各自权利人"
       }
     ],
-    "verified_at": "2026-10-04"
+    "verified_at": "2026-10-13"
   },
   "openclaw-desktop": {
-    "notes": "Gateway、TUI/CLI、Control UI及原生应用；不是腾讯QClaw、智谱AutoClaw、MiniMax MaxClaw。移动端另核后补。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 三平台以实际桌面发行资产核对：macOS原生DMG/ZIP、Linux Tauri shell AppImage/deb、Windows独立原生WinUI Companion/Hub；Windows仓库另为MIT。各平台组件分别发布，不由Gateway支持系统推导；未做安装测试。",
+    "notes": "Gateway、TUI/CLI、Control UI及原生应用；不是腾讯QClaw、智谱AutoClaw、MiniMax MaxClaw。移动端另核后补。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 三平台以实际桌面发行资产核对：macOS原生DMG/ZIP、Linux Tauri shell AppImage/deb、Windows独立原生WinUI Companion/Hub；Windows仓库另为MIT。各平台组件分别发布，不由Gateway支持系统推导；未做安装测试。 2026-10-13 Logo 核验：收录 Lobe Icons 纯矢量 SVG，原样保存；商标仍归权利人，未推定品牌授权。",
     "sources": [
       {
         "url": "https://github.com/openclaw/openclaw/blob/main/README.md",
@@ -3841,12 +3857,20 @@
       {
         "url": "https://github.com/openclaw/openclaw-windows-node/blob/main/LICENSE",
         "title": "Official Windows companion MIT license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openclaw.svg",
+        "title": "LobeHub Icons — OpenClaw 原始 SVG"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT 许可；商标归各自权利人"
       }
     ],
-    "verified_at": "2026-10-04"
+    "verified_at": "2026-10-13"
   },
   "hermes-agent-cli": {
-    "notes": "官方有Hermes Desktop入口，但本轮只确证该仓库CLI/TUI与消息网关的许可；桌面发行单独核验再加。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "notes": "官方有Hermes Desktop入口，但本轮只确证该仓库CLI/TUI与消息网关的许可；桌面发行单独核验再加。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-13 证据刷新：GitHub Releases 最新为 v0.21.7。官方文档确认原生 Windows CLI/TUI，以及独立的 Desktop GUI（含 MSIX / Microsoft Store 分发）；本条仍只表示 CLI。桌面形态见 hermes-agent-desktop。 2026-10-13 Logo 核验：收录 Lobe Icons 纯矢量 SVG，原样保存；商标仍归权利人，未推定品牌授权。",
     "sources": [
       {
         "url": "https://github.com/NousResearch/hermes-agent/blob/main/README.md",
@@ -3855,12 +3879,28 @@
       {
         "url": "https://github.com/NousResearch/hermes-agent/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.7",
+        "title": "Hermes Agent GitHub Releases · v0.21.7（2026-10-12）"
+      },
+      {
+        "url": "https://hermes-agent.nousresearch.com/docs/user-guide/windows-native",
+        "title": "官方 Windows Native 指南：CLI/TUI 与桌面发行区分"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/hermesagent.svg",
+        "title": "LobeHub Icons — Hermes Agent 原始 SVG"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT 许可；商标归各自权利人"
       }
     ],
-    "verified_at": "2026-10-04"
+    "verified_at": "2026-10-13"
   },
   "qwenpaw-cli": {
-    "notes": "CoPaw官方仓库现重定向QwenPaw；Console/TUI可运行应用，非仅AgentScope框架。桌面版提及但独立发行细节待核。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "notes": "CoPaw官方仓库现重定向QwenPaw；Console/TUI可运行应用，非仅AgentScope框架。桌面版提及但独立发行细节待核。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-13 Logo 核验：收录官方仓库纯矢量 SVG，原样保存；商标仍归权利人。",
     "sources": [
       {
         "url": "https://github.com/agentscope-ai/QwenPaw/blob/main/README.md",
@@ -3869,12 +3909,16 @@
       {
         "url": "https://github.com/agentscope-ai/QwenPaw/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/agentscope-ai/QwenPaw/main/scripts/pack/assets/icon.svg",
+        "title": "QwenPaw 官方仓库 scripts/pack/assets/icon.svg 原始矢量"
       }
     ],
-    "verified_at": "2026-10-04"
+    "verified_at": "2026-10-13"
   },
   "qwenpaw-web": {
-    "notes": "CoPaw官方仓库现重定向QwenPaw；Console/TUI可运行应用，非仅AgentScope框架。桌面版提及但独立发行细节待核。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。",
+    "notes": "CoPaw官方仓库现重定向QwenPaw；Console/TUI可运行应用，非仅AgentScope框架。桌面版提及但独立发行细节待核。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。 2026-10-13 Logo 核验：收录官方仓库纯矢量 SVG，原样保存；商标仍归权利人。",
     "sources": [
       {
         "url": "https://github.com/agentscope-ai/QwenPaw/blob/main/README.md",
@@ -3883,9 +3927,13 @@
       {
         "url": "https://github.com/agentscope-ai/QwenPaw/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/agentscope-ai/QwenPaw/main/scripts/pack/assets/icon.svg",
+        "title": "QwenPaw 官方仓库 scripts/pack/assets/icon.svg 原始矢量"
       }
     ],
-    "verified_at": "2026-10-04"
+    "verified_at": "2026-10-13"
   },
   "nanobot-cli": {
     "notes": "有可安装CLI/TUI/WebUI、工具/记忆/IM网关；虽然自称framework，但可直接使用，不等于纯SDK。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
@@ -3916,7 +3964,7 @@
     "verified_at": "2026-10-04"
   },
   "agent-zero-web": {
-    "notes": "浏览器工作台+Docker Linux桌面；宿主macOS/Windows/Linux，不能误标为原生Linux桌面客户端。A0 Launcher另repo不自动继承许可。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。",
+    "notes": "浏览器工作台+Docker Linux桌面；宿主macOS/Windows/Linux，不能误标为原生Linux桌面客户端。A0 Launcher另repo不自动继承许可。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。 2026-10-13 Logo 核验：收录官方仓库纯矢量 SVG，原样保存；商标仍归权利人。",
     "sources": [
       {
         "url": "https://github.com/agent0ai/agent-zero/blob/main/README.md",
@@ -3925,9 +3973,13 @@
       {
         "url": "https://github.com/agent0ai/agent-zero/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/agent0ai/agent-zero/main/webui/public/icon.svg",
+        "title": "Agent Zero 官方仓库 webui/public/icon.svg 原始矢量"
       }
     ],
-    "verified_at": "2026-10-04"
+    "verified_at": "2026-10-13"
   },
   "kilo-code-cli": {
     "notes": "当前主仓库MIT，CLI与VS Code/JetBrains在README列明；CLI源于OpenCode fork但属独立产品。云服务不自动标开源。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-11 Logo 核验：补充官方 SVG，原样保存；来源及 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
@@ -4202,7 +4254,7 @@
     "verified_at": "2026-10-11"
   },
   "bolt-diy-web": {
-    "notes": "和现有商业Bolt有关但不是同产品发行；保留独立product_id，README明确Web及Electron三平台应用。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。",
+    "notes": "和现有商业Bolt有关但不是同产品发行；保留独立product_id，README明确Web及Electron三平台应用。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。 2026-10-13 Logo 核验：收录官方仓库纯矢量 SVG，原样保存；商标仍归权利人。",
     "sources": [
       {
         "url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/README.md",
@@ -4211,12 +4263,16 @@
       {
         "url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/main/icons/logo.svg",
+        "title": "bolt.diy 官方仓库 icons/logo.svg 原始矢量"
       }
     ],
-    "verified_at": "2026-10-04"
+    "verified_at": "2026-10-13"
   },
   "bolt-diy-desktop": {
-    "notes": "和现有商业Bolt有关但不是同产品发行；保留独立product_id，README明确Web及Electron三平台应用。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 桌面发行资产确认macOS DMG、Windows setup.exe及Linux AppImage/deb；不代表本轮已安装测试。",
+    "notes": "和现有商业Bolt有关但不是同产品发行；保留独立product_id，README明确Web及Electron三平台应用。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 桌面发行资产确认macOS DMG、Windows setup.exe及Linux AppImage/deb；不代表本轮已安装测试。 2026-10-13 Logo 核验：收录官方仓库纯矢量 SVG，原样保存；商标仍归权利人。",
     "sources": [
       {
         "url": "https://github.com/stackblitz-labs/bolt.diy/blob/main/README.md",
@@ -4229,9 +4285,13 @@
       {
         "url": "https://github.com/stackblitz-labs/bolt.diy/releases/tag/v1.0.0",
         "title": "Official desktop release assets"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/main/icons/logo.svg",
+        "title": "bolt.diy 官方仓库 icons/logo.svg 原始矢量"
       }
     ],
-    "verified_at": "2026-10-04"
+    "verified_at": "2026-10-13"
   },
   "deepseek-harness-desktop": {
     "notes": "官方 Harness 页面提供产品介绍、下载、Web 启动命令和官方源码链接；与已收录 DeepSeek 聊天产品是不同应用。 桌面下载形态已确认；本条平台支持清单未充分核实，留空，不代表没有支持系统。 本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：deepseek-harness；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 PR #1（2026-10-09）补充核验：当前为开发者/公开预览阶段，非稳定正式版。同厂商独立产品；不是 DeepSeek Chat 的别名。应作为有最终用户桌面和本地网页界面的 Agent 单独收录；可同时标记通用办公与编程用途，不能仅因 harness 一词降为纯框架，也不能并入 DeepSeek 聊天。官方桌面目前只核实 macOS Apple Silicon 和 Windows x64，未安装测试。源码 MIT 与官方模型付费服务分开；没有取得可可靠核实的 Harness 独立价格，商业状态保留 unknown，避免把开源误写为全程免费。 桌面 macOS 仅 Apple Silicon、Windows 仅 x64，未外推 Linux 桌面安装包；独立于现有 DeepSeek 聊天产品。 DeepSeek Harness 官方桌面预览版：版本/形态定位=Global public preview；官方平台限制=macOS (Apple Silicon)、Windows x64；接口=desktop GUI；源代码分类=open-source；许可证=MIT（公开软件源代码）；官方模型服务另受 DeepSeek Harness 用户协议约束；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。",
@@ -5798,7 +5858,7 @@
     "verified_at": "2026-10-11"
   },
   "coze-desktop-cn": {
-    "notes": "已有扣子CN Web 服务的官方桌面客户端；同账号同步项目、会话、文件和任务。CN核验不得自动外推 coze.com 国际版。 为已有扣子CN补 Desktop GUI，明确 macOS Apple/Intel 与 Windows，保留 Web。不要把 GitHub 上 Coze Studio、SDK、工作流引擎或第三方桌面封装的许可证转移到本客户端。本轮未获得 coze.com 国际版桌面发行证据，国际版平台字段保持原有已核实值；这不构成国际版桌面不存在的结论。 核验的具体形态：扣子桌面端（CN）。系统边界：macOS (Apple Silicon)；macOS (Intel)；Windows（架构与最低版本未核实）。版本定位：China desktop; personal / team / enterprise service plans。源码状态：unknown；许可证说明：扣子用户协议（专有服务条款；未核实桌面客户端本体的开源许可证）；商业状态：verified-paid。价格和下载限制见逐字段研究及下列来源。仅官方公开资料核验，未安装或测试兼容性。官方运营主体：北京春田知韵科技有限公司及关联方；沿用已有产品的稳定供应商分组。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "已有扣子CN Web 服务的官方桌面客户端；同账号同步项目、会话、文件和任务。CN核验不得自动外推 coze.com 国际版。 为已有扣子CN补 Desktop GUI，明确 macOS Apple/Intel 与 Windows，保留 Web。不要把 GitHub 上 Coze Studio、SDK、工作流引擎或第三方桌面封装的许可证转移到本客户端。本轮未获得 coze.com 国际版桌面发行证据，国际版平台字段保持原有已核实值；这不构成国际版桌面不存在的结论。 核验的具体形态：扣子桌面端（CN）。系统边界：macOS (Apple Silicon)；macOS (Intel)；Windows（架构与最低版本未核实）。版本定位：China desktop; personal / team / enterprise service plans。源码状态：unknown；许可证说明：扣子用户协议（专有服务条款；未核实桌面客户端本体的开源许可证）；商业状态：verified-paid。价格和下载限制见逐字段研究及下列来源。仅官方公开资料核验，未安装或测试兼容性。官方运营主体：北京春田知韵科技有限公司及关联方；沿用已有产品的稳定供应商分组。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-13 Logo 核验：沿用同产品已核验品牌 SVG，未新绘。",
     "sources": [
       {
         "url": "https://docs.coze.cn/quick-start-coze-desktop",
@@ -5829,10 +5889,10 @@
         "title": "实时取得官方首页，仅确认CN入口；未核实该桌面应用本体的官方开源仓库或官方独立 SVG logo URL。"
       }
     ],
-    "verified_at": "2026-10-09"
+    "verified_at": "2026-10-13"
   },
   "qingyan-desktop": {
-    "notes": "已有智谱清言产品的官方 Windows/macOS 桌面客户端；官方域下提供可下载 .exe/.dmg，非仅第三方 Web wrapper。不得与 ZCode 或 GLM-PC 自动合并。 为已有智谱清言补 Desktop GUI 的 Windows 与 macOS 官方形态。双平台既有正式规则文本，又有仍可访问的官方安装包，证据强于仅有网页“下载”按钮。不引用第三方仿官网宣称的版本、硬件要求或免费额度；不把 GLM 开源模型、AutoGLM/GLM-PC、ZCode 当作本客户端源码或同一产品。 核验的具体形态：智谱清言桌面客户端（ChatGLM）。系统边界：Windows（架构与最低系统版本未核实）；macOS（官方包名 universal；最低系统与实际 CPU 兼容性未安装核实）。版本定位：China desktop; observed official package version 2.0.0。源码状态：unknown；许可证说明：智谱清言用户协议及特定功能使用规则；本地化模型功能限定个人非商业使用，该限制不可无条件外推所有云服务；商业状态：unknown。价格和下载限制见逐字段研究及下列来源。仅官方公开资料核验，未安装或测试兼容性。官方运营主体：智谱 / 北京智谱华章科技股份有限公司；沿用已有产品的稳定供应商分组。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "已有智谱清言产品的官方 Windows/macOS 桌面客户端；官方域下提供可下载 .exe/.dmg，非仅第三方 Web wrapper。不得与 ZCode 或 GLM-PC 自动合并。 为已有智谱清言补 Desktop GUI 的 Windows 与 macOS 官方形态。双平台既有正式规则文本，又有仍可访问的官方安装包，证据强于仅有网页“下载”按钮。不引用第三方仿官网宣称的版本、硬件要求或免费额度；不把 GLM 开源模型、AutoGLM/GLM-PC、ZCode 当作本客户端源码或同一产品。 核验的具体形态：智谱清言桌面客户端（ChatGLM）。系统边界：Windows（架构与最低系统版本未核实）；macOS（官方包名 universal；最低系统与实际 CPU 兼容性未安装核实）。版本定位：China desktop; observed official package version 2.0.0。源码状态：unknown；许可证说明：智谱清言用户协议及特定功能使用规则；本地化模型功能限定个人非商业使用，该限制不可无条件外推所有云服务；商业状态：unknown。价格和下载限制见逐字段研究及下列来源。仅官方公开资料核验，未安装或测试兼容性。官方运营主体：智谱 / 北京智谱华章科技股份有限公司；沿用已有产品的稳定供应商分组。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-13 Logo 核验：沿用同产品已核验品牌 SVG，未新绘。",
     "sources": [
       {
         "url": "https://chatglm.cn/",
@@ -5867,7 +5927,7 @@
         "title": "官方使用规范禁止对服务算法/源码做反向工程；不等于发布了开源客户端许可证。未核实桌面本体源码仓库或官方独立 SVG logo URL。"
       }
     ],
-    "verified_at": "2026-10-09"
+    "verified_at": "2026-10-13"
   },
   "deepseek-harness-cli": {
     "notes": "当前为开发者/公开预览阶段，非稳定正式版。同厂商独立产品；不是 DeepSeek Chat 的别名。应作为有最终用户桌面和本地网页界面的 Agent 单独收录；可同时标记通用办公与编程用途，不能仅因 harness 一词降为纯框架，也不能并入 DeepSeek 聊天。官方桌面目前只核实 macOS Apple Silicon 和 Windows x64，未安装测试。源码 MIT 与官方模型付费服务分开；没有取得可可靠核实的 Harness 独立价格，商业状态保留 unknown，避免把开源误写为全程免费。 CLI/headless/ACP 是可操作任务的运行界面；此处 OS 仅列文档明确的 Windows 原生/WSL2 与 Linux，不从 Mac 桌面安装包推导独立 CLI 平台。 DeepSeek Harness npm / 源码运行版：版本/形态定位=Developer preview; self-hosted；官方平台限制=Node.js runtime、Windows native or WSL 2 (documented)、Linux runtime (documented)；接口=local Web UI、CLI、headless / ACP integration；源代码分类=open-source；许可证=MIT；商业状态=unknown；价格来源=未核实。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
@@ -6438,7 +6498,7 @@
     "verified_at": "2026-10-11"
   },
   "manus": {
-    "notes": "通过 Web 工作空间委派研究、网页构建和多步骤任务；浏览器操作能力属于工作空间功能。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "notes": "通过 Web 工作空间委派研究、网页构建和多步骤任务；浏览器操作能力属于工作空间功能。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。 2026-10-13：官方 Manus 2.0 博文确认 Web 仍可用；桌面形态已升级为 Manus Studio，见 manus-desktop。Cue 为独立应用，不并入本条。",
     "sources": [
       {
         "url": "https://manus.im/",
@@ -6447,9 +6507,17 @@
       {
         "url": "https://manus.im/icon.svg?icon.2kbcs13ndm9it.svg",
         "title": "Manus 官方原始 SVG 品牌素材"
+      },
+      {
+        "url": "https://manus.im/blog/introducing-manus-2-0",
+        "title": "官方博文：Manus 2.0 架构与 Manus Studio 桌面应用"
+      },
+      {
+        "url": "https://manus.im/desktop",
+        "title": "Manus 官方桌面应用下载页；本条仍只表示 Web"
       }
     ],
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-13"
   },
   "genspark": {
     "notes": "AI 工作空间聚合聊天、研究、演示文稿与多媒体创建；不把每个工作空间工具单列产品。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 未取得可靠可下载 Logo，保留空 icon。",
@@ -7883,6 +7951,222 @@
       {
         "url": "https://dev.meta.ai/resources/blog/muse-code-new-plans-and-features",
         "title": "官方博文：Muse Code out of beta（2026-08-31）"
+      }
+    ],
+    "verified_at": "2026-10-13"
+  },
+  "hermes-agent-desktop": {
+    "notes": "官方 Desktop 为独立 GUI：与 CLI/TUI/网关共用同一 Agent 核心与配置，但不是终端界面。官方文档写明运行于 macOS（Apple Silicon）、Windows、Linux；Windows 另有独立 MSIX / Microsoft Store 包，仍属同一桌面形态，不另建记录。官网提供 Desktop 下载入口。核验日 GitHub Releases 最新 CLI/源码标签为 v0.21.7，未把该标签直接当作独立桌面版本号。Logo 来自 Lobe Icons 纯矢量 SVG。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://hermes-agent.nousresearch.com/",
+        "title": "Hermes Agent 官网：Desktop App 下载入口与平台"
+      },
+      {
+        "url": "https://hermes-agent.nousresearch.com/docs/user-guide/desktop",
+        "title": "官方 Hermes Desktop 文档：独立 GUI，macOS / Windows / Linux"
+      },
+      {
+        "url": "https://hermes-agent.nousresearch.com/docs/user-guide/windows-native",
+        "title": "官方 Windows Native 指南：MSIX / Microsoft Store 为桌面发行，不同于源码安装脚本"
+      },
+      {
+        "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.7",
+        "title": "Hermes Agent GitHub Releases · v0.21.7（2026-10-12）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/hermesagent.svg",
+        "title": "LobeHub Icons — Hermes Agent 原始 SVG"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT 许可；商标归各自权利人"
+      }
+    ],
+    "verified_at": "2026-10-13"
+  },
+  "xxl-ai-web": {
+    "notes": "官方 README 明确云版为 B/S Web 应用（xxl-ai-api + xxl-ai-ui），可独立于 Desk 桌面端使用。GitHub Releases 核验日最新为 1.1.1（2026-10-08）。自托管部署，无统一公共应用域名。根 LICENSE 为 GNU GPL v3，README 写明 GPL v3 而非 GPL-3.0-or-later，故开源元数据记为 source-available。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。",
+    "sources": [
+      {
+        "url": "https://www.xuxueli.com/xxl-ai/",
+        "title": "XXL-AI 官方首页：云本结合 Agent 开发平台"
+      },
+      {
+        "url": "https://github.com/xuxueli/xxl-ai/blob/master/README.md",
+        "title": "官方 README：云版 Web 与 Desk 桌面端拆分"
+      },
+      {
+        "url": "https://github.com/xuxueli/xxl-ai/blob/master/LICENSE",
+        "title": "官方 LICENSE：GNU GPL v3"
+      },
+      {
+        "url": "https://github.com/xuxueli/xxl-ai/releases/tag/1.1.1",
+        "title": "GitHub Releases · XXL-AI v1.1.1（2026-10-08）"
+      }
+    ],
+    "verified_at": "2026-10-13"
+  },
+  "xxl-ai-desktop": {
+    "notes": "官方 README 明确本地版 Desk 为 Electron 桌面客户端，支持 macOS / Windows / Linux，数据仅落本地 SQLite。与云版 Web 同产品、不同形态。GitHub Releases 核验日最新为 1.1.1。根 LICENSE 为 GNU GPL v3（非 or-later）。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。",
+    "sources": [
+      {
+        "url": "https://www.xuxueli.com/xxl-ai/",
+        "title": "XXL-AI 官方首页：云本结合 Agent 开发平台"
+      },
+      {
+        "url": "https://github.com/xuxueli/xxl-ai/blob/master/README.md",
+        "title": "官方 README：Desk 桌面端平台与能力"
+      },
+      {
+        "url": "https://github.com/xuxueli/xxl-ai/blob/master/LICENSE",
+        "title": "官方 LICENSE：GNU GPL v3"
+      },
+      {
+        "url": "https://github.com/xuxueli/xxl-ai/releases/tag/1.1.1",
+        "title": "GitHub Releases · XXL-AI v1.1.1（2026-10-08）"
+      }
+    ],
+    "verified_at": "2026-10-13"
+  },
+  "jiuwen-agentos-web": {
+    "notes": "openJiuwen AgentOS Enterprise 官方 README 确认自托管集群启动后，浏览器访问 ingress:19000 进入 jiuwenswarm Web 前端；另有全平台 TUI 客户端，本条仅表示 Web 工作台。GitHub 许可证为 Apache-2.0。未把示例发布包日期 20260715 当作当前版本号；GitHub Releases 为空，版本发布记录指向 gitcode。Linux 服务器环境（openEuler/Ubuntu）不外推为本 Web 应用的用户桌面平台。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。",
+    "sources": [
+      {
+        "url": "https://github.com/openJiuwen-ai/agentos-enterprise",
+        "title": "AgentOS Enterprise 官方 GitHub 仓库"
+      },
+      {
+        "url": "https://github.com/openJiuwen-ai/agentos-enterprise/blob/main/README.zh.md",
+        "title": "官方中文 README：jiuwenswarm Web 前端与 TUI 客户端"
+      },
+      {
+        "url": "https://github.com/openJiuwen-ai/agentos-enterprise/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://gitcode.com/openJiuwen/agent-os/releases",
+        "title": "官方 README 指向的 gitcode 版本发布记录"
+      }
+    ],
+    "verified_at": "2026-10-13"
+  },
+  "openpilot-desktop": {
+    "notes": "官方站点确认本地 Electron 桌面 Agent，Windows 安装包与便携版已发布。GitHub Releases v1.0.5（2026-08-12）同时提供 Windows 安装包/便携版与 macOS arm64/x64 DMG。官网 FAQ 仍写 macOS coming soon，与 Releases 资产并存，平台按仓库发行资产记录 Windows 与 macOS，不把网站文案当作 macOS 未发布。仓库无 LICENSE 文件，尽管 README 与 package.json 写 MIT，本轮不写入 open-source.json。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。",
+    "sources": [
+      {
+        "url": "https://openpilot.in/",
+        "title": "OpenPilot 官方首页：本地桌面 Agent"
+      },
+      {
+        "url": "https://openpilot.in/faq",
+        "title": "官方 FAQ：Windows 现已发布；许可证自称 MIT"
+      },
+      {
+        "url": "https://github.com/ibmshaikh/OpenPilot/blob/main/README.md",
+        "title": "官方 README：Electron 桌面应用与发行说明"
+      },
+      {
+        "url": "https://github.com/ibmshaikh/OpenPilot/releases/tag/v1.0.5",
+        "title": "GitHub Releases · v1.0.5 Windows 与 macOS 发行资产（2026-08-12）"
+      }
+    ],
+    "verified_at": "2026-10-13"
+  },
+  "octo-web": {
+    "notes": "明略科技 Octo 官方产品页确认开源的人与 AI Agent 协作工作平台。octo-web 仓库 README 明确同一 React 代码库交付浏览器端（canonical chat surface）与 Electron 桌面端；本条仅表示自托管 Web。Apache-2.0。默认对接本地 octo-server，无统一公共应用域名。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。",
+    "sources": [
+      {
+        "url": "https://www.mininglamp.com/octo/",
+        "title": "明略科技 Octo 官方产品页"
+      },
+      {
+        "url": "https://github.com/Mininglamp-OSS/octo-web/blob/main/README.md",
+        "title": "octo-web 官方 README：Web 与 Electron PC 双形态"
+      },
+      {
+        "url": "https://github.com/Mininglamp-OSS/octo-web/blob/main/LICENSE",
+        "title": "octo-web 官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/Mininglamp-OSS/octo-server/blob/main/LICENSE",
+        "title": "octo-server 官方 LICENSE：Apache License 2.0"
+      }
+    ],
+    "verified_at": "2026-10-13"
+  },
+  "octo-desktop": {
+    "notes": "octo-web 官方 README 确认 Electron PC 客户端，构建目标覆盖 macOS / Windows / Linux，与浏览器端同源不同形态。Apache-2.0。官网产品页介绍开源协作平台，未另给独立桌面下载页，桌面形态以仓库 README 的 pc:package 说明为准。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。",
+    "sources": [
+      {
+        "url": "https://www.mininglamp.com/octo/",
+        "title": "明略科技 Octo 官方产品页"
+      },
+      {
+        "url": "https://github.com/Mininglamp-OSS/octo-web/blob/main/README.md",
+        "title": "octo-web 官方 README：pnpm pc:package 产出 macOS / Windows / Linux"
+      },
+      {
+        "url": "https://github.com/Mininglamp-OSS/octo-web/blob/main/LICENSE",
+        "title": "octo-web 官方 LICENSE：Apache License 2.0"
+      }
+    ],
+    "verified_at": "2026-10-13"
+  },
+  "teleagent-desktop": {
+    "notes": "中国电信天翼 AI 开放平台官方产品页确认星辰超级智能体桌面版 TeleAgent，系统要求为 Windows 10 64 位及以上、macOS 13 及以上、银河麒麟 V10 SP1 及以上、统信 UOS V20 及以上。Android 与「升级维护中」的网页版不在本条范围，且目录排除移动端。未在官方页读到可引用的桌面版本号，故不填写版本。官网资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。",
+    "sources": [
+      {
+        "url": "https://www.teleai.com.cn/product/teleagent",
+        "title": "星辰超级智能体 TeleAgent 官方产品页：桌面版系统要求与能力"
+      }
+    ],
+    "verified_at": "2026-10-13"
+  },
+  "guilds-web": {
+    "notes": "官方站点与安装文档确认自托管多 Agent 团队平台：Docker Compose 启动后浏览器访问 127.0.0.1:8080。GitHub 仓库 CigaleAI/guilds 许可证为 AGPL-3.0。核验日无 GitHub Release/tag，不编造版本号。自托管，无统一公共应用域名。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。",
+    "sources": [
+      {
+        "url": "https://www.guilds.run/",
+        "title": "guilds.run 官方首页：开源自托管多 Agent 团队"
+      },
+      {
+        "url": "https://docs.guilds.run/getting-started/install",
+        "title": "官方安装文档：Docker Compose 与本机 Web 入口"
+      },
+      {
+        "url": "https://github.com/CigaleAI/guilds",
+        "title": "CigaleAI/guilds 官方仓库"
+      },
+      {
+        "url": "https://github.com/CigaleAI/guilds/blob/main/LICENSE",
+        "title": "官方 LICENSE：GNU AGPL v3"
+      }
+    ],
+    "verified_at": "2026-10-13"
+  },
+  "manus-desktop": {
+    "notes": "官方桌面下载页与 Manus 2.0 博文确认桌面应用已升级为 Manus Studio，支持 macOS 与 Windows；与已有 Web 记录同产品、不同形态。Cue 为独立早期访问应用，不并入本条。移动端不在目录范围。沿用已核验的官方 Manus SVG。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://manus.im/desktop",
+        "title": "Manus 官方桌面应用下载页"
+      },
+      {
+        "url": "https://manus.im/blog/introducing-manus-2-0",
+        "title": "官方博文：Manus 2.0 将桌面应用升级为 Manus Studio"
+      },
+      {
+        "url": "https://manus.im/docs/features/desktop",
+        "title": "官方文档：Manus Desktop，macOS 与 Windows"
+      },
+      {
+        "url": "https://help.manus.im/en/articles/14089011-how-to-download-the-manus-desktop-app",
+        "title": "官方帮助中心：桌面应用下载与平台"
+      },
+      {
+        "url": "https://manus.im/icon.svg?icon.2kbcs13ndm9it.svg",
+        "title": "Manus 官方原始 SVG 品牌素材（沿用 Web 记录已核验文件）"
       }
     ],
     "verified_at": "2026-10-13"

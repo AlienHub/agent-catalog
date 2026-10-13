@@ -6202,10 +6202,10 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/openclaw.svg",
     "vendor_id": "openclaw",
     "product_id": "openclaw",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已核验SVG · Lobe Icons",
     "interfaces": [
       "CLI"
     ],
@@ -6229,10 +6229,10 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/openclaw.svg",
     "vendor_id": "openclaw",
     "product_id": "openclaw",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已核验SVG · Lobe Icons",
     "interfaces": [
       "Web"
     ],
@@ -6258,10 +6258,10 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/openclaw.svg",
     "vendor_id": "openclaw",
     "product_id": "openclaw",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已核验SVG · Lobe Icons",
     "interfaces": [
       "GUI"
     ],
@@ -6284,10 +6284,10 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/hermes-agent.svg",
     "vendor_id": "nous-research",
     "product_id": "hermes-agent",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已核验SVG · Lobe Icons",
     "interfaces": [
       "CLI"
     ],
@@ -6312,10 +6312,10 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/qwenpaw.svg",
     "vendor_id": "agentscope",
     "product_id": "qwenpaw",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已核验SVG · 官方来源",
     "interfaces": [
       "CLI"
     ],
@@ -6338,10 +6338,10 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/qwenpaw.svg",
     "vendor_id": "agentscope",
     "product_id": "qwenpaw",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已核验SVG · 官方来源",
     "interfaces": [
       "Web"
     ],
@@ -6414,10 +6414,10 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/agent-zero.svg",
     "vendor_id": "agent-zero",
     "product_id": "agent-zero",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已核验SVG · 官方来源",
     "interfaces": [
       "Web"
     ],
@@ -6909,10 +6909,10 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/bolt-diy.svg",
     "vendor_id": "stackblitz",
     "product_id": "bolt-diy",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已核验SVG · 官方来源",
     "interfaces": [
       "Web"
     ],
@@ -6935,10 +6935,10 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/bolt-diy.svg",
     "vendor_id": "stackblitz",
     "product_id": "bolt-diy",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已核验SVG · 官方来源",
     "interfaces": [
       "GUI"
     ],
@@ -8010,13 +8010,13 @@
       "macOS",
       "Windows"
     ],
-    "icon": "",
+    "icon": "icons/coze-cn.svg",
     "vendor_id": "bytedance",
     "product_id": "coze",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "沿用已核验官方品牌 SVG",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_url": "",
@@ -8039,13 +8039,13 @@
       "Windows",
       "macOS"
     ],
-    "icon": "",
+    "icon": "icons/qingyan.svg",
     "vendor_id": "zhipu",
     "product_id": "qingyan",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "沿用已核验官方品牌 SVG",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_url": "",
@@ -10564,5 +10564,278 @@
     "web_domains": [],
     "web_domain_status": "not-applicable",
     "web_domain_verified_at": ""
+  },
+  {
+    "aliases": [
+      "Hermes Desktop"
+    ],
+    "icon": "icons/hermes-agent.svg",
+    "svg_status": "已核验SVG · Lobe Icons",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": "",
+    "id": "hermes-agent-desktop",
+    "name": "Hermes Agent",
+    "vendor": "Nous Research",
+    "type": "通用任务 Agent",
+    "website": "https://hermes-agent.nousresearch.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "vendor_id": "nous-research",
+    "product_id": "hermes-agent",
+    "interfaces": [
+      "GUI"
+    ]
+  },
+  {
+    "aliases": [
+      "XXL-AI 云版"
+    ],
+    "icon": "",
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": "",
+    "id": "xxl-ai-web",
+    "name": "XXL-AI",
+    "vendor": "许雪里 / XXL 开源社区",
+    "type": "智能体与工作流",
+    "website": "https://www.xuxueli.com/xxl-ai/",
+    "platforms": [
+      "Web"
+    ],
+    "vendor_id": "xxl",
+    "product_id": "xxl-ai",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "aliases": [
+      "XXL-AI Desk",
+      "XXL-AI 本地版"
+    ],
+    "icon": "",
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": "",
+    "id": "xxl-ai-desktop",
+    "name": "XXL-AI",
+    "vendor": "许雪里 / XXL 开源社区",
+    "type": "智能体与工作流",
+    "website": "https://www.xuxueli.com/xxl-ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "vendor_id": "xxl",
+    "product_id": "xxl-ai",
+    "interfaces": [
+      "GUI"
+    ]
+  },
+  {
+    "aliases": [
+      "Jiuwen AgentOS",
+      "openJiuwen",
+      "JiuwenSwarm"
+    ],
+    "icon": "",
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": "",
+    "id": "jiuwen-agentos-web",
+    "name": "AgentOS Enterprise",
+    "vendor": "openJiuwen 社区",
+    "type": "智能体与工作流",
+    "website": "https://github.com/openJiuwen-ai/agentos-enterprise",
+    "platforms": [
+      "Web"
+    ],
+    "vendor_id": "openjiuwen",
+    "product_id": "jiuwen-agentos",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "aliases": [],
+    "icon": "",
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": "",
+    "id": "openpilot-desktop",
+    "name": "OpenPilot",
+    "vendor": "OpenPilot",
+    "type": "通用任务 Agent",
+    "website": "https://openpilot.in/",
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "vendor_id": "openpilot",
+    "product_id": "openpilot",
+    "interfaces": [
+      "GUI"
+    ]
+  },
+  {
+    "aliases": [
+      "章鱼 Octo"
+    ],
+    "icon": "",
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": "",
+    "id": "octo-web",
+    "name": "Octo",
+    "vendor": "明略科技 Mininglamp",
+    "type": "智能体与工作流",
+    "website": "https://www.mininglamp.com/octo/",
+    "platforms": [
+      "Web"
+    ],
+    "vendor_id": "mininglamp",
+    "product_id": "octo",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "aliases": [
+      "章鱼 Octo"
+    ],
+    "icon": "",
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": "",
+    "id": "octo-desktop",
+    "name": "Octo",
+    "vendor": "明略科技 Mininglamp",
+    "type": "智能体与工作流",
+    "website": "https://www.mininglamp.com/octo/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "vendor_id": "mininglamp",
+    "product_id": "octo",
+    "interfaces": [
+      "GUI"
+    ]
+  },
+  {
+    "aliases": [
+      "TeleAgent"
+    ],
+    "icon": "",
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": "",
+    "id": "teleagent-desktop",
+    "name": "星辰超级智能体",
+    "vendor": "中国电信 / 中电信人工智能科技（北京）有限公司",
+    "type": "办公智能体",
+    "website": "https://www.teleai.com.cn/product/teleagent",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "银河麒麟",
+      "统信UOS"
+    ],
+    "vendor_id": "chinatelecom",
+    "product_id": "teleagent",
+    "interfaces": [
+      "GUI"
+    ]
+  },
+  {
+    "aliases": [
+      "guilds"
+    ],
+    "icon": "",
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": "",
+    "id": "guilds-web",
+    "name": "guilds.run",
+    "vendor": "CigaleAI",
+    "type": "智能体与工作流",
+    "website": "https://www.guilds.run/",
+    "platforms": [
+      "Web"
+    ],
+    "vendor_id": "cigaleai",
+    "product_id": "guilds",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "aliases": [
+      "Manus Studio",
+      "Manus Desktop"
+    ],
+    "icon": "icons/web-manus.svg",
+    "svg_status": "沿用已核验官方品牌 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": "",
+    "id": "manus-desktop",
+    "name": "Manus",
+    "vendor": "Manus",
+    "type": "通用 AI Agent",
+    "website": "https://manus.im/desktop",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "vendor_id": "manus",
+    "product_id": "manus",
+    "interfaces": [
+      "GUI"
+    ]
   }
 ]

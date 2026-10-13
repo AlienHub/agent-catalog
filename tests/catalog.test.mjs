@@ -11,8 +11,8 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.18');
-  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code']) assert(catalog.getApp(id));
+  assert.equal(catalog.catalogMeta.dataVersion, '0.19');
+  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
 test('ESM and CommonJS core exports agree', () => {
@@ -219,6 +219,34 @@ test('2026-10-13 CLI additions and OpenCode version evidence', () => {
   assert.match(catalog.getEvidence('muse-code').notes, /1\.4\.6/);
   assert.match(catalog.getEvidence('opencode').notes, /v2\.0\.27/);
   assert(catalog.getEvidence('opencode').sources.some(source => source.url === 'https://opencode.ai/changelog'));
+});
+
+test('2026-10-13 daily candidates, Manus Studio and logo gap fill', async () => {
+  const source = JSON.parse(await readFile(new URL('../data/open-source.json', import.meta.url)));
+  const hermes = catalog.getApp('hermes-agent-desktop');
+  assert.equal(hermes.product_id, catalog.getApp('hermes-agent-cli').product_id);
+  assert.deepEqual(hermes.interfaces, ['GUI']);
+  assert.equal(hermes.icon, 'icons/hermes-agent.svg');
+  assert.equal(catalog.getApp('xxl-ai-web').product_id, catalog.getApp('xxl-ai-desktop').product_id);
+  assert.deepEqual(catalog.getApp('xxl-ai-web').interfaces, ['Web']);
+  assert.deepEqual(catalog.getApp('xxl-ai-desktop').interfaces, ['GUI']);
+  assert.equal(source['xxl-ai-web'].source_model, 'source-available');
+  assert.equal(source['xxl-ai-web'].license, 'GPL-3.0');
+  assert.equal(source['guilds-web'].license, 'AGPL-3.0');
+  assert.equal(source['warp-terminal'].license, 'AGPL-3.0');
+  assert.equal(source['openhands'].license, 'MIT');
+  assert.equal(source['tabby'].source_model, 'source-available');
+  const manus = catalog.getApp('manus-desktop');
+  assert.equal(manus.product_id, catalog.getApp('manus').product_id);
+  assert.deepEqual(manus.interfaces, ['GUI']);
+  assert.equal(manus.icon, catalog.getApp('manus').icon);
+  assert.equal(catalog.getApp('openclaw-cli').icon, 'icons/openclaw.svg');
+  assert.equal(catalog.getApp('coze-desktop-cn').icon, 'icons/coze-cn.svg');
+  assert.equal(catalog.getApp('astrbot-web').icon, '');
+  assert.equal(source['gpt4all'].maintenance.status, 'unknown');
+  assert.equal(source['roo-code-vscode'].maintenance.status, 'archived');
+  assert.match(catalog.getEvidence('openpilot-desktop').notes, /LICENSE/);
+  assert.equal(source['openpilot-desktop'], undefined);
 });
 
 test('Web entry hosts are searchable separately from marketing websites', () => {

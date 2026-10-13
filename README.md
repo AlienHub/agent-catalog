@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.18（2026-10-13），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.19（2026-10-13），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -383,3 +383,20 @@ SDK 支持 `findApps({ webDomain: 'firefly.adobe.com' })` 精确查找，搜索�
 - OpenCode CLI：证据更新为官方 changelog v2.0.27（2026-10-12）。已有桌面与 IDE 记录及稳定 ID 保留。
 
 仅核验公开官方资料，未做安装、运行或区域可用性测试。缺失 Logo 的记录保持空 `icon`。
+
+## v0.19 日更候选、Logo 补录与开源元数据
+
+新增 10 条应用、6 个产品，目录共 410 条应用、266 个产品。主 Schema 与已有稳定 ID 不变。Dropstone CLI、Muse Code、OpenCode 2.0 与 Manus Web 已在 v0.18 / 既有快照中，本轮去重后不再重复新增。
+
+- Hermes Agent Desktop（Nous Research）：官方独立 GUI，macOS / Windows / Linux；Windows Store / MSIX 为同一桌面形态。CLI 证据刷新至 v0.21.7。
+- XXL-AI 云版 Web 与 Desk 桌面端（许雪里 / XXL 开源社区）：v1.1.1。GPL-3.0 非 or-later，记 source-available。
+- AgentOS Enterprise Web（openJiuwen）：自托管 jiuwenswarm 工作台，Apache-2.0。
+- OpenPilot 桌面端：Windows 与 macOS 发行资产来自 GitHub Releases v1.0.5；仓库无 LICENSE 文件，不写入 open-source.json。
+- Octo Web 与桌面端（明略科技）：Apache-2.0 自托管人机协作平台。
+- 星辰超级智能体 TeleAgent 桌面端（中国电信）：Windows / macOS / 银河麒麟 / 统信 UOS。Android 与维护中的网页版未收录。
+- guilds.run Web（CigaleAI）：AGPL-3.0 自托管多 Agent 平台。
+- Manus Studio 桌面端：与已有 Manus Web 同产品；沿用已核验官方 SVG。
+
+Logo：OpenClaw / Hermes Agent 使用 Lobe Icons 纯矢量 SVG；Agent Zero / QwenPaw / bolt.diy 使用官方仓库 SVG；扣子 CN 桌面端与智谱清言桌面端沿用已有品牌 SVG。AstrBot 官方 SVG 含 foreignObject，未打包。
+
+开源元数据补录 Warp 客户端 AGPL-3.0、OpenHands、Ollama、LM Studio CLI、Pinokio、GPT4All、Cline CLI/桌面、OpenCode IDE、Qwen Code IDE、Jan CLI、AnythingLLM Web；Tabby 因 ee/ 记 source-available。全部 open-source.json 条目已用 GitHub API 刷新 `checked_at` / `last_push_at` / `github_archived`。
