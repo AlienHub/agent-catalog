@@ -2942,18 +2942,22 @@
     "verified_at": "2026-10-02"
   },
   "opencode": {
-    "notes": "",
+    "notes": "官方 changelog 于 2026-10-12 发布 v2.0.27，为核验日当前 CLI 版本。本条仅表示终端 CLI/TUI；桌面与 IDE 插件为同产品其他形态。官网资料核验，未做安装、运行或区域可用性测试。",
     "sources": [
       {
         "url": "https://opencode.ai",
         "title": "OpenCode | The open source AI coding agent"
       },
       {
+        "url": "https://opencode.ai/changelog",
+        "title": "OpenCode changelog · v2.0.27 (2026-10-12)"
+      },
+      {
         "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/opencode.svg",
         "title": "Lobe Icons · matching product icon"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-13"
   },
   "qwen-code-cli": {
     "sources": [
@@ -7834,5 +7838,53 @@
     ],
     "notes": "官方浏览器工作区支持 AI 应用、Agent 和工作流，登录路径由官网导航确认。 核验公开官方资料与入口，不代表已登录、地区可用性或实际功能测试。",
     "verified_at": "2026-10-12"
+  },
+  "dropstone-cli": {
+    "notes": "Blankline 出品的终端编码 Agent；官方产品名 Dropstone CLI，命令为 dropstone。官方 changelog API 核验日最新为 v1.0.59（2026-10-07，isLatest）；产品页示意终端仍写 v1.0.52，不作为当前发行版本。官方资料列明 macOS、Linux、Windows（PowerShell 或 WSL）。文档另提及 VS Code / Cursor / Windsurf 扩展与 Dashboard，本条仅表示 CLI，不另建未单独核验的形态记录。未找到可追溯官方 SVG。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.dropstone.io/products/dropstone-cli",
+        "title": "Dropstone CLI — coding in your terminal | Dropstone by Blankline"
+      },
+      {
+        "url": "https://docs.dropstone.io/cli/overview",
+        "title": "Dropstone CLI overview：终端 Agent、安装与系统说明"
+      },
+      {
+        "url": "https://docs.dropstone.io/getting-started/changelog",
+        "title": "Dropstone CLI changelog"
+      },
+      {
+        "url": "https://server.dropstone.io/api/changelog/cli",
+        "title": "官方 CLI changelog API：最新 v1.0.59（2026-10-07）"
+      },
+      {
+        "url": "https://docs.dropstone.io/getting-started/welcome",
+        "title": "Dropstone CLI 官方欢迎页：产品形态与安装"
+      }
+    ],
+    "verified_at": "2026-10-13"
+  },
+  "muse-code": {
+    "notes": "Meta 出品的终端编码 Agent；2026-08-31 官方博文宣布退出 beta。官方 changelog 核验日最新条目为 1.4.6，产品页未公布独立版本号。官方文档写明同一代码库支持 macOS、Linux 与 Windows；产品页安装区当前写 Available for MacOS and Windows。SDK、订阅与 Model API 不是独立应用。未找到可追溯官方 SVG。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://dev.meta.ai/products/muse-code",
+        "title": "Muse Code | Meta 官方产品页"
+      },
+      {
+        "url": "https://dev.meta.ai/docs/muse-code",
+        "title": "Muse Code 官方文档：终端/CI Agent 与平台支持"
+      },
+      {
+        "url": "https://dev.meta.ai/docs/muse-code/changelog",
+        "title": "Muse Code changelog：核验日最新 1.4.6"
+      },
+      {
+        "url": "https://dev.meta.ai/resources/blog/muse-code-new-plans-and-features",
+        "title": "官方博文：Muse Code out of beta（2026-08-31）"
+      }
+    ],
+    "verified_at": "2026-10-13"
   }
 }

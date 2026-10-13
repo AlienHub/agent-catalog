@@ -1395,5 +1395,31 @@
         "title": "CodeGPT官方套餐"
       }
     ]
+  },
+  "dropstone-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-13",
+    "notes": "官方定价页列明 Free 以外的 Pro、Max 与 Enterprise 付费套餐；不记录易变的具体价格，也不据此判断代码许可证。",
+    "sources": [
+      {
+        "url": "https://docs.dropstone.io/getting-started/pricing",
+        "title": "Dropstone CLI 官方定价与套餐"
+      }
+    ]
+  },
+  "muse-code": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-13",
+    "notes": "官方订阅页列明 Everyday / High / Power / Maximum Usage 月付套餐，另有按量计费；不记录易变的具体价格，也不据此判断代码许可证。",
+    "sources": [
+      {
+        "url": "https://dev.meta.ai/docs/muse-code/subscriptions",
+        "title": "Muse Code 官方订阅说明"
+      },
+      {
+        "url": "https://dev.meta.ai/products/muse-code",
+        "title": "Muse Code 官方产品页套餐"
+      }
+    ]
   }
 }
