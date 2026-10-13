@@ -10510,5 +10510,59 @@
     ],
     "web_domain_status": "verified",
     "web_domain_verified_at": "2026-10-12"
+  },
+  {
+    "id": "dropstone-cli",
+    "name": "Dropstone CLI",
+    "aliases": [
+      "Dropstone"
+    ],
+    "vendor": "Blankline",
+    "type": "AI 编程",
+    "website": "https://www.dropstone.io/products/dropstone-cli",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "blankline",
+    "product_id": "dropstone",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "muse-code",
+    "name": "Muse Code",
+    "aliases": [],
+    "vendor": "Meta",
+    "type": "AI 编程",
+    "website": "https://dev.meta.ai/products/muse-code",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "meta",
+    "product_id": "muse-code",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "未找到可核验SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]

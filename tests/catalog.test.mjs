@@ -11,8 +11,8 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.17');
-  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop']) assert(catalog.getApp(id));
+  assert.equal(catalog.catalogMeta.dataVersion, '0.18');
+  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
 test('ESM and CommonJS core exports agree', () => {
@@ -202,6 +202,23 @@ test('Web AI additions preserve original asset hashes, format and per-applicatio
   }
   assert.equal(catalog.getApp('scispace').icon, '');
   assert.equal(catalog.getApp('genspark').icon, '');
+});
+
+test('2026-10-13 CLI additions and OpenCode version evidence', () => {
+  const dropstone = catalog.getApp('dropstone-cli');
+  assert.equal(dropstone.vendor_id, 'blankline');
+  assert.equal(dropstone.product_id, 'dropstone');
+  assert.deepEqual(dropstone.interfaces, ['CLI']);
+  assert.equal(dropstone.icon, '');
+  assert.match(catalog.getEvidence('dropstone-cli').notes, /v1\.0\.59/);
+  const muse = catalog.getApp('muse-code');
+  assert.equal(muse.vendor_id, 'meta');
+  assert.equal(muse.product_id, 'muse-code');
+  assert.deepEqual(muse.interfaces, ['CLI']);
+  assert.notEqual(muse.product_id, catalog.getApp('meta-ai').product_id);
+  assert.match(catalog.getEvidence('muse-code').notes, /1\.4\.6/);
+  assert.match(catalog.getEvidence('opencode').notes, /v2\.0\.27/);
+  assert(catalog.getEvidence('opencode').sources.some(source => source.url === 'https://opencode.ai/changelog'));
 });
 
 test('Web entry hosts are searchable separately from marketing websites', () => {

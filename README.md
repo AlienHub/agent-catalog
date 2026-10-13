@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.17（2026-10-12），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.18（2026-10-13），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -373,3 +373,13 @@ node scripts/collect-openrouter-apps.mjs /tmp/openrouter-apps.html /tmp/openrout
 独立保留官网 `website` 与实际应用入口 `web_url`。`web_domains` 仅包含已核验的完整主机名；`web_domain_status` 区分 verified、unverified、self-hosted、not-applicable，`web_domain_verified_at` 单独记录核验日期。空数组不是“不存在域名”。自托管／本地 UI 没有统一公共域名；未核验域名不推测、不从官网直接生成。应用域名不等于 API、CDN、SSO 域名清单，也不自动匹配子域名。共享域名如 ChatGPT 与 Codex 需结合入口路径区分，不能仅按域名唯一识别产品。
 
 SDK 支持 `findApps({ webDomain: 'firefly.adobe.com' })` 精确查找，搜索与 CSV/JSON/ZIP 导出包含新字段。详情页显示核验状态、入口与日期。全部 Web 条目的审计、明确待核验清单及公开 HTTP 观察见 `docs/research/web-domain-review-2026-10-12.json`、`web-domain-http-audit-2026-10-12.json`；HTTP 403／超时不等于产品已停服。
+
+## v0.18 Dropstone CLI、Muse Code 与 OpenCode 版本核验
+
+新增 2 条 CLI 应用、2 个产品，目录共 400 条应用、260 个产品。主 Schema 与已有稳定 ID 不变。
+
+- Dropstone CLI（Blankline）：官方终端编码 Agent。changelog API 核验日最新为 v1.0.59（2026-10-07）；产品页示意界面仍显示 v1.0.52，不作为当前发行版本。未收录未单独核验的 VS Code 扩展或 Dashboard。无可靠 SVG。
+- Muse Code（Meta）：官方终端编码 Agent，2026-08-31 博文宣布退出 beta。changelog 核验日最新为 1.4.6。与已有 Meta AI 助手分产品。无可靠 SVG。
+- OpenCode CLI：证据更新为官方 changelog v2.0.27（2026-10-12）。已有桌面与 IDE 记录及稳定 ID 保留。
+
+仅核验公开官方资料，未做安装、运行或区域可用性测试。缺失 Logo 的记录保持空 `icon`。

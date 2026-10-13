@@ -1,8 +1,8 @@
 {
   "schemaVersion": 6,
-  "dataVersion": "0.17",
-  "snapshotDate": "2026-10-12",
-  "source": "Agent Atlas verified application catalog; Sentra gap review against sentra-lib 2cdefd26c0f5f1cebec0aeab33d0a9c84ae9558f",
+  "dataVersion": "0.18",
+  "snapshotDate": "2026-10-13",
+  "source": "Agent Atlas verified application catalog; Dropstone CLI and Muse Code additions plus OpenCode CLI v2.0.27 evidence refresh",
   "verificationScope": "Official website/source review; not an installation or availability test",
   "sourceCommit": "1f9ae8257dd368859c767349ed05db9c6ed87f1a",
   "openSourceMetadataScope": "Verified per record ID; missing metadata means unverified, not closed-source. Repository pushes do not prove maintenance.",
