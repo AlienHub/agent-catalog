@@ -1,5 +1,8 @@
 {
   "chinese_agents": [
+    "agency-orchestrator-cli",
+    "agency-orchestrator-desktop",
+    "agency-orchestrator-web",
     "autoclaw",
     "autoclaw-cn",
     "codearts-agent-cli",

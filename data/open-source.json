@@ -2602,5 +2602,129 @@
       }
     ],
     "classification": "application"
+  },
+  "xiryn-web": {
+    "repository_url": "https://github.com/SouravBeraAkaSpeed/xiryn",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/SouravBeraAkaSpeed/xiryn/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-14",
+      "github_archived": false,
+      "last_push_at": "2026-10-13T16:20:19Z"
+    },
+    "notes": "MIT 结论仅限已核查的公开仓库源码。自托管本机 Web UI；Telegram 为控制渠道。品牌与商标不在本判断内。",
+    "sources": [
+      {
+        "url": "https://github.com/SouravBeraAkaSpeed/xiryn/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/SouravBeraAkaSpeed/xiryn/blob/main/README.md",
+        "title": "Official README; self-hosted Web UI"
+      }
+    ],
+    "classification": "application"
+  },
+  "sugabots-web": {
+    "repository_url": "https://github.com/nitrictech/sugabots",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/nitrictech/sugabots/blob/main/LICENSE.md",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-14",
+      "github_archived": false,
+      "last_push_at": "2026-10-14T01:02:47Z"
+    },
+    "notes": "MIT 结论仅限已核查的公开仓库软件源码。官方声明 Sugabots 名称、Logo 与品牌资产不在 MIT 范围内。自托管 Docker 栈。",
+    "sources": [
+      {
+        "url": "https://github.com/nitrictech/sugabots/blob/main/LICENSE.md",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/nitrictech/sugabots/blob/main/packages/avatars/README.md",
+        "title": "Official brand-asset reservation; logo not MIT"
+      },
+      {
+        "url": "https://sugabots.ai/docs/quickstart",
+        "title": "Official self-hosted install documentation"
+      }
+    ],
+    "classification": "application"
+  },
+  "agency-orchestrator-cli": {
+    "repository_url": "https://github.com/jnMetaCode/agency-orchestrator",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-14",
+      "github_archived": false,
+      "last_push_at": "2026-10-13T12:49:08Z"
+    },
+    "classification": "application",
+    "notes": "Apache-2.0 结论仅限已核查的公开仓库源码。agency-agents-zh 为独立提示词库，不继承为本产品开源条目。",
+    "sources": [
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/LICENSE",
+        "title": "Official Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/README.md",
+        "title": "Official README; CLI install"
+      }
+    ]
+  },
+  "agency-orchestrator-web": {
+    "repository_url": "https://github.com/jnMetaCode/agency-orchestrator",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-14",
+      "github_archived": false,
+      "last_push_at": "2026-10-13T12:49:08Z"
+    },
+    "classification": "application",
+    "notes": "Apache-2.0 结论仅限已核查的公开仓库源码。本地 `ao web` / Docker Studio；官网演示不改变自托管形态判断。",
+    "sources": [
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/LICENSE",
+        "title": "Official Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/README.md",
+        "title": "Official README; ao web local Studio"
+      }
+    ]
+  },
+  "agency-orchestrator-desktop": {
+    "repository_url": "https://github.com/jnMetaCode/agency-orchestrator",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-14",
+      "github_archived": false,
+      "last_push_at": "2026-10-13T12:49:08Z"
+    },
+    "classification": "application",
+    "notes": "Apache-2.0 结论仅限已核查的公开仓库源码。桌面发行资产按 desktop-v0.4.12 实际文件核对，不由旧版 Windows 包推导。",
+    "sources": [
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/LICENSE",
+        "title": "Official Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/releases/tag/desktop-v0.4.12",
+        "title": "Official desktop release assets"
+      }
+    ]
   }
 }

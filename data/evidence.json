@@ -8170,5 +8170,223 @@
       }
     ],
     "verified_at": "2026-10-13"
+  },
+  "xiryn-web": {
+    "notes": "官方站点与 GitHub README 确认自托管个人 Agent：每名 agent 在本机 Docker 中获得独立 Linux 桌面；Telegram 为控制渠道，不单列形态。安装完成后本机 Web UI 为 http://127.0.0.1:6796，绑定回环地址。最新 GitHub Release 为 v0.4.1（2026-10-11）。LICENSE 为 MIT。自托管，无统一公共应用域名。收录官网 icon.svg 纯矢量 SVG；商标仍归权利人，未推定品牌授权。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://xiryn.com/",
+        "title": "Xiryn 官方首页：开源自托管个人 Agent"
+      },
+      {
+        "url": "https://github.com/SouravBeraAkaSpeed/xiryn",
+        "title": "SouravBeraAkaSpeed/xiryn 官方仓库"
+      },
+      {
+        "url": "https://github.com/SouravBeraAkaSpeed/xiryn/blob/main/README.md",
+        "title": "官方 README：本机 Web UI 127.0.0.1:6796 与 Telegram 渠道"
+      },
+      {
+        "url": "https://github.com/SouravBeraAkaSpeed/xiryn/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/SouravBeraAkaSpeed/xiryn/releases/tag/v0.4.1",
+        "title": "GitHub Releases · Xiryn v0.4.1（2026-10-11）"
+      },
+      {
+        "url": "https://xiryn.com/icon.svg",
+        "title": "Xiryn 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-14"
+  },
+  "kai-web": {
+    "notes": "Morgen 官方产品页确认 Kai 为 AI 行政助理（邮件、日历、会议、任务），自主工作流需人工确认后才会发送或改动。/get-started 官方重定向至 Web 应用 https://web.hirekai.ai/；Cookie 政策亦写明应用主机为 web.hirekai.ai。未在公开资料读到可引用的产品版本号，故不填写版本。收录官网 icon.svg 纯矢量 SVG；商标仍归权利人，未推定品牌授权。官网资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://hirekai.ai/",
+        "title": "Kai 官方首页：Morgen 出品的 AI 行政助理"
+      },
+      {
+        "url": "https://hirekai.ai/get-started",
+        "title": "官方开始页：重定向至 Kai Web 应用"
+      },
+      {
+        "url": "https://web.hirekai.ai/",
+        "title": "已核验实际应用 URL（不代表登录测试）"
+      },
+      {
+        "url": "https://hirekai.ai/cookies",
+        "title": "官方 Cookie 政策：Kai 应用主机为 web.hirekai.ai"
+      },
+      {
+        "url": "https://hirekai.ai/llms.txt",
+        "title": "官方 llms.txt：产品概述与 Morgen 归属"
+      },
+      {
+        "url": "https://hirekai.ai/icon.svg",
+        "title": "Kai 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-14"
+  },
+  "kai-desktop": {
+    "notes": "官方下载页 https://hirekai.ai/hire 确认桌面应用仅面向 macOS，提供 Apple silicon 与 Intel 两份 .dmg（download.hirekai.ai/mac/dmg/arm64 与 x64），以及 universal installer。页面写明其他设备使用 Web 应用。未发现 Windows 或 Linux 官方桌面发行，故不填写。移动端不在目录范围。未在公开资料读到可引用的桌面版本号，故不填写版本。与 Web 记录同产品、不同形态。收录官网 icon.svg 纯矢量 SVG；商标仍归权利人，未推定品牌授权。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://hirekai.ai/",
+        "title": "Kai 官方首页：Morgen 出品的 AI 行政助理"
+      },
+      {
+        "url": "https://hirekai.ai/hire",
+        "title": "官方 Mac 下载页：Apple silicon 与 Intel .dmg，仅 macOS"
+      },
+      {
+        "url": "https://download.hirekai.ai/mac/dmg/arm64",
+        "title": "官方 Apple silicon macOS .dmg 下载入口"
+      },
+      {
+        "url": "https://download.hirekai.ai/mac/dmg/x64",
+        "title": "官方 Intel macOS .dmg 下载入口"
+      },
+      {
+        "url": "https://hirekai.ai/icon.svg",
+        "title": "Kai 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-14"
+  },
+  "sugabots-web": {
+    "notes": "Nitric 官方站点与 Quickstart 确认可安装的自托管 Web 工作区：install.sh / install.ps1 以 Docker Compose 启动后浏览器访问 http://localhost:3000。GitHub Releases 最新为 v0.2.0（2026-10-08）。LICENSE.md 为 MIT；品牌 Logo 不在 MIT 范围内，本仓库仅作产品识别收录官方 SVG。自托管，无统一公共应用域名。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://sugabots.ai/",
+        "title": "Sugabots 官方首页：开源自托管人机协作工作区"
+      },
+      {
+        "url": "https://sugabots.ai/docs",
+        "title": "官方文档首页"
+      },
+      {
+        "url": "https://sugabots.ai/docs/quickstart",
+        "title": "官方 Quickstart：一键 Docker 安装与 localhost:3000"
+      },
+      {
+        "url": "https://github.com/nitrictech/sugabots",
+        "title": "nitrictech/sugabots 官方仓库"
+      },
+      {
+        "url": "https://github.com/nitrictech/sugabots/blob/main/LICENSE.md",
+        "title": "官方 LICENSE.md：MIT"
+      },
+      {
+        "url": "https://github.com/nitrictech/sugabots/releases/tag/v0.2.0",
+        "title": "GitHub Releases · Sugabots v0.2.0（2026-10-08）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/nitrictech/sugabots/main/packages/avatars/assets/sugabots-logo.svg",
+        "title": "官方仓库原始 SVG 品牌素材"
+      },
+      {
+        "url": "https://github.com/nitrictech/sugabots/blob/main/packages/avatars/README.md",
+        "title": "官方品牌资产声明：Logo 不在 MIT 范围内"
+      }
+    ],
+    "verified_at": "2026-10-14"
+  },
+  "agency-orchestrator-cli": {
+    "notes": "官方 README 与 npm 包 agency-orchestrator 确认 CLI：`npm i -g agency-orchestrator`，命令为 `ao compose` / `ao run` 等。npm latest 与 GitHub tag 均为 0.20.0；该版本无独立 GitHub Release 说明页。仓库 LICENSE 为 Apache-2.0。sibling 仓库 agency-agents-zh 仅为提示词库，不作为产品条目。收录官方 ao-mark.svg 纯矢量 SVG；商标仍归权利人，未推定品牌授权。官网/仓库/npm 资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://ao.aiolaola.com/",
+        "title": "Agency Orchestrator 官方首页"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator",
+        "title": "jnMetaCode/agency-orchestrator 官方仓库"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/README.md",
+        "title": "官方 README：CLI、ao web 本地 Studio、桌面端与 Docker"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jnMetaCode/agency-orchestrator/main/website/public/logo/ao-mark.svg",
+        "title": "官方仓库原始 SVG 品牌标记"
+      },
+      {
+        "url": "https://www.npmjs.com/package/agency-orchestrator",
+        "title": "npm 包 agency-orchestrator，latest 0.20.0"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/tree/v0.20.0",
+        "title": "GitHub tag v0.20.0（与 npm 0.20.0 对应；无独立 Release 说明页）"
+      }
+    ],
+    "verified_at": "2026-10-14"
+  },
+  "agency-orchestrator-web": {
+    "notes": "官方 README 确认本地 Web Studio：`ao web` 在本机浏览器运行，密钥只存本机；Docker/NAS 部署后访问 http://主机:8088。官网 https://ao.aiolaola.com 为演示体验，不是客户部署实例的统一公共应用域名，故记 self-hosted。与 CLI / 桌面端同产品、不同形态。收录官方 ao-mark.svg 纯矢量 SVG；商标仍归权利人，未推定品牌授权。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://ao.aiolaola.com/",
+        "title": "Agency Orchestrator 官方首页"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator",
+        "title": "jnMetaCode/agency-orchestrator 官方仓库"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/README.md",
+        "title": "官方 README：CLI、ao web 本地 Studio、桌面端与 Docker"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jnMetaCode/agency-orchestrator/main/website/public/logo/ao-mark.svg",
+        "title": "官方仓库原始 SVG 品牌标记"
+      }
+    ],
+    "verified_at": "2026-10-14"
+  },
+  "agency-orchestrator-desktop": {
+    "notes": "官方桌面下载入口为 GitHub Releases/latest，核验日指向 desktop-v0.4.12（2026-10-08）。该 tag 实际发行资产为 macOS Apple silicon/Intel DMG 与 ZIP、Linux AppImage；同 tag 未见 Windows Setup.exe（desktop-v0.4.11 曾有 Windows 安装包，但不据旧版推导当前平台）。故本条平台仅填 macOS 与 Linux，不填写 Windows。桌面端自带引擎与 Node，无需另装 CLI。收录官方 ao-mark.svg 纯矢量 SVG；商标仍归权利人，未推定品牌授权。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://ao.aiolaola.com/",
+        "title": "Agency Orchestrator 官方首页"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator",
+        "title": "jnMetaCode/agency-orchestrator 官方仓库"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/README.md",
+        "title": "官方 README：CLI、ao web 本地 Studio、桌面端与 Docker"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jnMetaCode/agency-orchestrator/main/website/public/logo/ao-mark.svg",
+        "title": "官方仓库原始 SVG 品牌标记"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/releases/latest",
+        "title": "官方桌面客户端下载入口（Releases/latest）"
+      },
+      {
+        "url": "https://github.com/jnMetaCode/agency-orchestrator/releases/tag/desktop-v0.4.12",
+        "title": "GitHub Releases · desktop-v0.4.12：macOS 与 Linux 发行资产"
+      }
+    ],
+    "verified_at": "2026-10-14"
   }
 }

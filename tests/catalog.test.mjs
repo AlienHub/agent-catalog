@@ -11,8 +11,8 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.19');
-  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop']) assert(catalog.getApp(id));
+  assert.equal(catalog.catalogMeta.dataVersion, '0.20');
+  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
 test('ESM and CommonJS core exports agree', () => {
@@ -247,6 +247,45 @@ test('2026-10-13 daily candidates, Manus Studio and logo gap fill', async () => 
   assert.equal(source['roo-code-vscode'].maintenance.status, 'archived');
   assert.match(catalog.getEvidence('openpilot-desktop').notes, /LICENSE/);
   assert.equal(source['openpilot-desktop'], undefined);
+});
+
+test('2026-10-14 daily candidates', async () => {
+  const source = JSON.parse(await readFile(new URL('../data/open-source.json', import.meta.url)));
+  const xiryn = catalog.getApp('xiryn-web');
+  assert.deepEqual(xiryn.interfaces, ['Web']);
+  assert.equal(xiryn.web_domain_status, 'self-hosted');
+  assert.equal(xiryn.icon, 'icons/xiryn.svg');
+  assert.equal(source['xiryn-web'].license, 'MIT');
+  assert.match(catalog.getEvidence('xiryn-web').notes, /v0\.4\.1/);
+  const kaiWeb = catalog.getApp('kai-web');
+  const kaiDesk = catalog.getApp('kai-desktop');
+  assert.equal(kaiWeb.product_id, kaiDesk.product_id);
+  assert.equal(kaiWeb.vendor_id, 'morgen');
+  assert.deepEqual(kaiWeb.interfaces, ['Web']);
+  assert.deepEqual(kaiDesk.interfaces, ['GUI']);
+  assert.deepEqual(kaiDesk.platforms, ['macOS']);
+  assert.equal(kaiWeb.web_url, 'https://web.hirekai.ai/');
+  assert.equal(kaiWeb.web_domain_status, 'verified');
+  assert.equal(source['kai-web'], undefined);
+  assert.equal(source['kai-desktop'], undefined);
+  const suga = catalog.getApp('sugabots-web');
+  assert.deepEqual(suga.interfaces, ['Web']);
+  assert.equal(suga.web_domain_status, 'self-hosted');
+  assert.equal(source['sugabots-web'].license, 'MIT');
+  assert.match(catalog.getEvidence('sugabots-web').notes, /v0\.2\.0/);
+  const aoCli = catalog.getApp('agency-orchestrator-cli');
+  const aoWeb = catalog.getApp('agency-orchestrator-web');
+  const aoDesk = catalog.getApp('agency-orchestrator-desktop');
+  assert.equal(aoCli.product_id, aoWeb.product_id);
+  assert.equal(aoDesk.product_id, aoCli.product_id);
+  assert.deepEqual(aoCli.interfaces, ['CLI']);
+  assert.deepEqual(aoWeb.interfaces, ['Web']);
+  assert.deepEqual(aoDesk.interfaces, ['GUI']);
+  assert.equal(aoWeb.web_domain_status, 'self-hosted');
+  assert.deepEqual(aoDesk.platforms, ['macOS', 'Linux']);
+  assert.equal(source['agency-orchestrator-cli'].license, 'Apache-2.0');
+  assert.match(catalog.getEvidence('agency-orchestrator-cli').notes, /0\.20\.0/);
+  assert.match(catalog.getEvidence('agency-orchestrator-desktop').notes, /desktop-v0\.4\.12/);
 });
 
 test('Web entry hosts are searchable separately from marketing websites', () => {
