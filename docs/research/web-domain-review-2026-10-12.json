@@ -5,7 +5,7 @@
   "counts": {
     "verified": 73,
     "unverified": 85,
-    "self-hosted": 15
+    "self-hosted": 19
   },
   "scope": "All Web records structurally audited. Verified means official public entry evidence, not authenticated use or network-dependency coverage. Unverified remains an explicit gap.",
   "records": [
@@ -3916,6 +3916,115 @@
           "title": "官方 AI Chat 文档"
         }
       ]
+    },
+    {
+      "id": "xxl-ai-web",
+      "name": "XXL-AI",
+      "website": "https://www.xuxueli.com/xxl-ai/",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.xuxueli.com/xxl-ai/",
+          "title": "XXL-AI 官方首页：云本结合 Agent 开发平台"
+        },
+        {
+          "url": "https://github.com/xuxueli/xxl-ai/blob/master/README.md",
+          "title": "官方 README：云版 Web 与 Desk 桌面端拆分"
+        },
+        {
+          "url": "https://github.com/xuxueli/xxl-ai/blob/master/LICENSE",
+          "title": "官方 LICENSE：GNU GPL v3"
+        },
+        {
+          "url": "https://github.com/xuxueli/xxl-ai/releases/tag/1.1.1",
+          "title": "GitHub Releases · XXL-AI v1.1.1（2026-10-08）"
+        }
+      ],
+      "notes": "2026-10-13 新增自托管 Web；无统一公共应用域名。"
+    },
+    {
+      "id": "jiuwen-agentos-web",
+      "name": "AgentOS Enterprise",
+      "website": "https://github.com/openJiuwen-ai/agentos-enterprise",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://github.com/openJiuwen-ai/agentos-enterprise",
+          "title": "AgentOS Enterprise 官方 GitHub 仓库"
+        },
+        {
+          "url": "https://github.com/openJiuwen-ai/agentos-enterprise/blob/main/README.zh.md",
+          "title": "官方中文 README：jiuwenswarm Web 前端与 TUI 客户端"
+        },
+        {
+          "url": "https://github.com/openJiuwen-ai/agentos-enterprise/blob/main/LICENSE",
+          "title": "官方 LICENSE：Apache License 2.0"
+        },
+        {
+          "url": "https://gitcode.com/openJiuwen/agent-os/releases",
+          "title": "官方 README 指向的 gitcode 版本发布记录"
+        }
+      ],
+      "notes": "2026-10-13 新增自托管 Web；无统一公共应用域名。"
+    },
+    {
+      "id": "octo-web",
+      "name": "Octo",
+      "website": "https://www.mininglamp.com/octo/",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.mininglamp.com/octo/",
+          "title": "明略科技 Octo 官方产品页"
+        },
+        {
+          "url": "https://github.com/Mininglamp-OSS/octo-web/blob/main/README.md",
+          "title": "octo-web 官方 README：Web 与 Electron PC 双形态"
+        },
+        {
+          "url": "https://github.com/Mininglamp-OSS/octo-web/blob/main/LICENSE",
+          "title": "octo-web 官方 LICENSE：Apache License 2.0"
+        },
+        {
+          "url": "https://github.com/Mininglamp-OSS/octo-server/blob/main/LICENSE",
+          "title": "octo-server 官方 LICENSE：Apache License 2.0"
+        }
+      ],
+      "notes": "2026-10-13 新增自托管 Web；无统一公共应用域名。"
+    },
+    {
+      "id": "guilds-web",
+      "name": "guilds.run",
+      "website": "https://www.guilds.run/",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.guilds.run/",
+          "title": "guilds.run 官方首页：开源自托管多 Agent 团队"
+        },
+        {
+          "url": "https://docs.guilds.run/getting-started/install",
+          "title": "官方安装文档：Docker Compose 与本机 Web 入口"
+        },
+        {
+          "url": "https://github.com/CigaleAI/guilds",
+          "title": "CigaleAI/guilds 官方仓库"
+        },
+        {
+          "url": "https://github.com/CigaleAI/guilds/blob/main/LICENSE",
+          "title": "官方 LICENSE：GNU AGPL v3"
+        }
+      ],
+      "notes": "2026-10-13 新增自托管 Web；无统一公共应用域名。"
     }
-  ]
+  ],
+  "added_web_records_20261013": 4
 }

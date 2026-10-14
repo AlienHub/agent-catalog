@@ -1,10 +1,10 @@
 {
   "schemaVersion": 6,
-  "dataVersion": "0.18",
+  "dataVersion": "0.19",
   "snapshotDate": "2026-10-13",
-  "source": "Agent Atlas verified application catalog; Dropstone CLI and Muse Code additions plus OpenCode CLI v2.0.27 evidence refresh",
+  "source": "Agent Atlas verified application catalog; 2026-10-13 daily candidates plus logo and open-source gap fill",
   "verificationScope": "Official website/source review; not an installation or availability test",
-  "sourceCommit": "1f9ae8257dd368859c767349ed05db9c6ed87f1a",
+  "sourceCommit": "197673585d362c5b1406873a69eceb0508010480",
   "openSourceMetadataScope": "Verified per record ID; missing metadata means unverified, not closed-source. Repository pushes do not prove maintenance.",
   "interactionModel": "One independent application record per interaction form: GUI, CLI, IDE 插件, Web, 浏览器插件, 小程序. IM is a channel; DingTalk embedded AI capabilities belong to its GUI application.",
   "applicationScope": "Desktop and browser applications; mobile-only records excluded. Existing mini programs retained.",

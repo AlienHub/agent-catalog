@@ -72,3 +72,17 @@ Reasonix 仓库素材随附原始 [MIT 文本](./licenses/reasonix-mit.txt)。Po
 OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别及URL来源保存于 `docs/research/openrouter-apps-2026-10-11.json`，没有下载或复用其第三方favicon代理缓存，也没有把选择公开追踪的用量当全市场统计。
 
 15份新增品牌素材均原样来自核验官网明确引用的SVG/PNG URL，原始URL、字节数、格式、SHA-256和应用关联见 `docs/research/openrouter-review-2026-10-11.json`。所有商标和品牌权利归权利人，不从代码许可推定品牌授权。GDevelop名称和Logo归Florian Rival；Letta代码许可排除的品牌素材未收录。
+
+## v0.19 Logo 补录（2026-10-13）
+
+本批 SVG 均原样保存，未重绘。Lobe Icons 素材继续适用随附 [MIT 文本](./licenses/lobehub.txt)；官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。AstrBot 官方 `icon-no-shadow.svg` 含 `foreignObject`，未收录。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/openclaw.svg` | [Lobe Icons `openclaw.svg`](https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openclaw.svg) | `1f0b18833ccb1c7c21ae998d237856975fc90eb8eafc14f8db05198628e8da4d` |
+| `assets/icons/hermes-agent.svg` | [Lobe Icons `hermesagent.svg`](https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/hermesagent.svg) | `02d43c0a91fc2ee41f2684fc39613ff6687de29a4b079665bace5303671dd63b` |
+| `assets/icons/agent-zero.svg` | [agent0ai/agent-zero `webui/public/icon.svg`](https://raw.githubusercontent.com/agent0ai/agent-zero/main/webui/public/icon.svg) | `c1938a2903529c6fe7d86fc768bd953f9864ea14d7b0fe95a714669f64c896fc` |
+| `assets/icons/qwenpaw.svg` | [agentscope-ai/QwenPaw `scripts/pack/assets/icon.svg`](https://raw.githubusercontent.com/agentscope-ai/QwenPaw/main/scripts/pack/assets/icon.svg) | `7fe3254bb6a25534937893688259602c12823e9c62fab0339af4259380492cf1` |
+| `assets/icons/bolt-diy.svg` | [stackblitz-labs/bolt.diy `icons/logo.svg`](https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/main/icons/logo.svg) | `244dc2cebe251a2b839ee09107308bbdfeeac4e2831f6f7c6ddffd96929eacbe` |
+
+扣子 CN 桌面端沿用 `icons/coze-cn.svg`，智谱清言桌面端沿用 `icons/qingyan.svg`，Manus Studio 桌面端沿用已核验的 `icons/web-manus.svg`。Pochi 本批按既有决定不改动。
