@@ -10837,5 +10837,187 @@
     "interfaces": [
       "GUI"
     ]
+  },
+  {
+    "aliases": [],
+    "icon": "icons/xiryn.svg",
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": "",
+    "id": "xiryn-web",
+    "name": "Xiryn",
+    "vendor": "Sourav Bera",
+    "type": "通用任务 Agent",
+    "website": "https://xiryn.com/",
+    "platforms": [
+      "Web"
+    ],
+    "vendor_id": "sourav-bera",
+    "product_id": "xiryn",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "aliases": [],
+    "icon": "icons/kai.svg",
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "https://web.hirekai.ai/",
+    "web_domains": [
+      "web.hirekai.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-14",
+    "id": "kai-web",
+    "name": "Kai",
+    "vendor": "Morgen",
+    "type": "办公智能体",
+    "website": "https://hirekai.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "vendor_id": "morgen",
+    "product_id": "kai",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "aliases": [],
+    "icon": "icons/kai.svg",
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": "",
+    "id": "kai-desktop",
+    "name": "Kai",
+    "vendor": "Morgen",
+    "type": "办公智能体",
+    "website": "https://hirekai.ai/",
+    "platforms": [
+      "macOS"
+    ],
+    "vendor_id": "morgen",
+    "product_id": "kai",
+    "interfaces": [
+      "GUI"
+    ]
+  },
+  {
+    "aliases": [],
+    "icon": "icons/sugabots.svg",
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": "",
+    "id": "sugabots-web",
+    "name": "Sugabots",
+    "vendor": "Nitric",
+    "type": "智能体与工作流",
+    "website": "https://sugabots.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "vendor_id": "nitric",
+    "product_id": "sugabots",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "aliases": [
+      "ao",
+      "AO"
+    ],
+    "icon": "icons/agency-orchestrator.svg",
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": "",
+    "id": "agency-orchestrator-cli",
+    "name": "Agency Orchestrator",
+    "vendor": "jnMetaCode",
+    "type": "智能体与工作流",
+    "website": "https://ao.aiolaola.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "vendor_id": "jnmetacode",
+    "product_id": "agency-orchestrator",
+    "interfaces": [
+      "CLI"
+    ]
+  },
+  {
+    "aliases": [
+      "ao",
+      "AO"
+    ],
+    "icon": "icons/agency-orchestrator.svg",
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": "",
+    "id": "agency-orchestrator-web",
+    "name": "Agency Orchestrator",
+    "vendor": "jnMetaCode",
+    "type": "智能体与工作流",
+    "website": "https://ao.aiolaola.com/",
+    "platforms": [
+      "Web"
+    ],
+    "vendor_id": "jnmetacode",
+    "product_id": "agency-orchestrator",
+    "interfaces": [
+      "Web"
+    ]
+  },
+  {
+    "aliases": [
+      "ao",
+      "AO"
+    ],
+    "icon": "icons/agency-orchestrator.svg",
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_url": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": "",
+    "id": "agency-orchestrator-desktop",
+    "name": "Agency Orchestrator",
+    "vendor": "jnMetaCode",
+    "type": "智能体与工作流",
+    "website": "https://ao.aiolaola.com/",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "vendor_id": "jnmetacode",
+    "product_id": "agency-orchestrator",
+    "interfaces": [
+      "GUI"
+    ]
   }
 ]

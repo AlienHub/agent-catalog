@@ -86,3 +86,14 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | `assets/icons/bolt-diy.svg` | [stackblitz-labs/bolt.diy `icons/logo.svg`](https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/main/icons/logo.svg) | `244dc2cebe251a2b839ee09107308bbdfeeac4e2831f6f7c6ddffd96929eacbe` |
 
 扣子 CN 桌面端沿用 `icons/coze-cn.svg`，智谱清言桌面端沿用 `icons/qingyan.svg`，Manus Studio 桌面端沿用已核验的 `icons/web-manus.svg`。Pochi 本批按既有决定不改动。
+
+## v0.20 Logo 收录（2026-10-14）
+
+本批 SVG 均原样保存，未重绘。官方站点或官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。Sugabots 官方声明品牌 Logo 不在其 MIT 软件许可范围内，本仓库仅作产品识别收录。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/xiryn.svg` | [Xiryn 官网 `icon.svg`](https://xiryn.com/icon.svg) | `e2df098b8f0c31b86858540bb6bfa4ec3141458d643aad6300e466e28bd098d8` |
+| `assets/icons/kai.svg` | [Kai 官网 `icon.svg`](https://hirekai.ai/icon.svg) | `2456f43a74656eaf69966411e8c0e07fa2bbe3b8600438b057fc7c9786721c25` |
+| `assets/icons/sugabots.svg` | [nitrictech/sugabots `packages/avatars/assets/sugabots-logo.svg`](https://raw.githubusercontent.com/nitrictech/sugabots/main/packages/avatars/assets/sugabots-logo.svg) | `6206c3b176dd1577eb43a19d3c9ca7850a88f4e2c061d0c9266ce01562f574b2` |
+| `assets/icons/agency-orchestrator.svg` | [jnMetaCode/agency-orchestrator `website/public/logo/ao-mark.svg`](https://raw.githubusercontent.com/jnMetaCode/agency-orchestrator/main/website/public/logo/ao-mark.svg) | `70c6adc54590a004cb4aa278aec64149bd8eabccf057c5b60c43c4710627ae4d` |

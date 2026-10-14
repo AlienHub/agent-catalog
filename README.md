@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.19（2026-10-13），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.20（2026-10-14），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -400,3 +400,16 @@ SDK 支持 `findApps({ webDomain: 'firefly.adobe.com' })` 精确查找，搜索�
 Logo：OpenClaw / Hermes Agent 使用 Lobe Icons 纯矢量 SVG；Agent Zero / QwenPaw / bolt.diy 使用官方仓库 SVG；扣子 CN 桌面端与智谱清言桌面端沿用已有品牌 SVG。AstrBot 官方 SVG 含 foreignObject，未打包。
 
 开源元数据补录 Warp 客户端 AGPL-3.0、OpenHands、Ollama、LM Studio CLI、Pinokio、GPT4All、Cline CLI/桌面、OpenCode IDE、Qwen Code IDE、Jan CLI、AnythingLLM Web；Tabby 因 ee/ 记 source-available。全部 open-source.json 条目已用 GitHub API 刷新 `checked_at` / `last_push_at` / `github_archived`。
+
+## v0.20 日更候选（2026-10-14）
+
+新增 7 条应用、4 个产品，目录共 417 条应用、270 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.19 / `catalog/daily-20261013`。
+
+- Xiryn Web（Sourav Bera）：MIT 自托管个人 Agent；本机 Web UI `127.0.0.1:6796`。GitHub Releases **v0.4.1**。Telegram 为控制渠道，不单列。
+- Kai Web 与 macOS 桌面端（Morgen）：官方行政助理。Web 入口 `web.hirekai.ai`；桌面下载页仅确认 Apple silicon / Intel .dmg，不填写 Windows/Linux。
+- Sugabots Web（Nitric）：MIT 自托管人机协作工作区；官方 Quickstart 一键 Docker，访问 `localhost:3000`。GitHub Releases **v0.2.0**。
+- Agency Orchestrator CLI / Web / 桌面端（jnMetaCode）：Apache-2.0。CLI 为 npm **0.20.0**；Web 为本地 `ao web` / Docker Studio；桌面端 **desktop-v0.4.12** 实际资产为 macOS 与 Linux，不据旧版填写 Windows。`agency-agents-zh` 仅为提示词库，不收录。
+
+Logo 均为官方原始 SVG：Xiryn 官网 `icon.svg`、Kai 官网 `icon.svg`、Sugabots 仓库 `sugabots-logo.svg`（品牌资产不在 MIT 范围内）、Agency Orchestrator 仓库 `ao-mark.svg`。
+
+仅核验公开官方资料，未做安装、运行或区域可用性测试。

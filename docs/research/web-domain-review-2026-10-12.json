@@ -3,9 +3,9 @@
   "original_web_records": 168,
   "added_web_records": 5,
   "counts": {
-    "verified": 73,
+    "verified": 74,
     "unverified": 85,
-    "self-hosted": 19
+    "self-hosted": 22
   },
   "scope": "All Web records structurally audited. Verified means official public entry evidence, not authenticated use or network-dependency coverage. Unverified remains an explicit gap.",
   "records": [
@@ -4024,7 +4024,114 @@
         }
       ],
       "notes": "2026-10-13 新增自托管 Web；无统一公共应用域名。"
+    },
+    {
+      "id": "xiryn-web",
+      "name": "Xiryn",
+      "website": "https://xiryn.com/",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://xiryn.com/",
+          "title": "Xiryn 官方首页：开源自托管个人 Agent"
+        },
+        {
+          "url": "https://github.com/SouravBeraAkaSpeed/xiryn/blob/main/README.md",
+          "title": "官方 README：本机 Web UI 127.0.0.1:6796"
+        },
+        {
+          "url": "https://github.com/SouravBeraAkaSpeed/xiryn/blob/main/LICENSE",
+          "title": "官方 LICENSE：MIT"
+        },
+        {
+          "url": "https://github.com/SouravBeraAkaSpeed/xiryn/releases/tag/v0.4.1",
+          "title": "GitHub Releases · Xiryn v0.4.1（2026-10-11）"
+        }
+      ],
+      "notes": "2026-10-14 新增自托管 Web；无统一公共应用域名。"
+    },
+    {
+      "id": "kai-web",
+      "name": "Kai",
+      "website": "https://hirekai.ai/",
+      "status": "verified",
+      "web_url": "https://web.hirekai.ai/",
+      "domains": [
+        "web.hirekai.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://hirekai.ai/",
+          "title": "Kai 官方首页：Morgen 出品的 AI 行政助理"
+        },
+        {
+          "url": "https://hirekai.ai/get-started",
+          "title": "官方开始页：重定向至 Kai Web 应用"
+        },
+        {
+          "url": "https://web.hirekai.ai/",
+          "title": "已核验实际应用 URL（不代表登录测试）"
+        },
+        {
+          "url": "https://hirekai.ai/cookies",
+          "title": "官方 Cookie 政策：Kai 应用主机为 web.hirekai.ai"
+        }
+      ],
+      "notes": "2026-10-14 新增已核验 Web 入口 web.hirekai.ai。"
+    },
+    {
+      "id": "sugabots-web",
+      "name": "Sugabots",
+      "website": "https://sugabots.ai/",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://sugabots.ai/",
+          "title": "Sugabots 官方首页：开源自托管人机协作工作区"
+        },
+        {
+          "url": "https://sugabots.ai/docs/quickstart",
+          "title": "官方 Quickstart：一键 Docker 安装与 localhost:3000"
+        },
+        {
+          "url": "https://github.com/nitrictech/sugabots/blob/main/LICENSE.md",
+          "title": "官方 LICENSE.md：MIT"
+        },
+        {
+          "url": "https://github.com/nitrictech/sugabots/releases/tag/v0.2.0",
+          "title": "GitHub Releases · Sugabots v0.2.0（2026-10-08）"
+        }
+      ],
+      "notes": "2026-10-14 新增自托管 Web；无统一公共应用域名。"
+    },
+    {
+      "id": "agency-orchestrator-web",
+      "name": "Agency Orchestrator",
+      "website": "https://ao.aiolaola.com/",
+      "status": "self-hosted",
+      "web_url": "",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://ao.aiolaola.com/",
+          "title": "Agency Orchestrator 官方首页"
+        },
+        {
+          "url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/README.md",
+          "title": "官方 README：ao web 本地 Studio"
+        },
+        {
+          "url": "https://github.com/jnMetaCode/agency-orchestrator/blob/main/LICENSE",
+          "title": "官方 LICENSE：Apache License 2.0"
+        }
+      ],
+      "notes": "2026-10-14 新增自托管 Web；官网演示不是统一公共应用域名。"
     }
   ],
-  "added_web_records_20261013": 4
+  "added_web_records_20261013": 4,
+  "added_web_records_20261014": 4
 }
