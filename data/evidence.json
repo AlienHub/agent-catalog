@@ -1510,11 +1510,15 @@
     "verified_at": "2026-10-02"
   },
   "iflywrite": {
-    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "notes": "未明确区分地区版本；不推断地域可用性。 2026-10-14 从官方 logo-xftj.svg 移除文字路径，仅保留原始图标路径、椭圆和渐变；画布裁为 19×24，图形未重绘。",
     "sources": [
       {
         "url": "https://huixie.iflyrec.com/",
         "title": "讯飞写作 官方网站"
+      },
+      {
+        "url": "https://huixie.iflyrec.com/images/logo-xftj.svg",
+        "title": "讯飞写作官方 SVG Logo（2026-10-14 提取图形标识）"
       }
     ],
     "verified_at": "2026-10-02"
