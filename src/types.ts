@@ -7,9 +7,7 @@ export interface CatalogApp {
   readonly vendor: string;
   readonly type: string;
   readonly website: string;
-  /** Actual user-facing Web entry; empty until verified. */
-  readonly web_url: string;
-  /** Exact hosts; shared hosts require web_url path context. Not API/CDN rules. */
+  /** Verified exact application hosts; shared hosts may match multiple applications. Not API/CDN rules. */
   readonly web_domains: readonly string[];
   readonly web_domain_status: 'verified' | 'unverified' | 'self-hosted' | 'not-applicable';
   readonly web_domain_verified_at: string;

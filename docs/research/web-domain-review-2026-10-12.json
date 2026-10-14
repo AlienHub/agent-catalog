@@ -14,7 +14,6 @@
       "name": "Adobe Firefly",
       "website": "https://www.adobe.com/products/firefly.html",
       "status": "verified",
-      "web_url": "https://firefly.adobe.com/",
       "domains": [
         "firefly.adobe.com"
       ],
@@ -46,7 +45,6 @@
       "name": "Air Teams",
       "website": "https://www.jetbrains.com/air/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -64,7 +62,6 @@
       "name": "Amp Web",
       "website": "https://ampcode.com",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -86,7 +83,6 @@
       "name": "AnythingLLM Cloud / 自托管",
       "website": "https://anythingllm.com",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -104,7 +100,6 @@
       "name": "Augment Code Cloud Agents",
       "website": "https://www.augmentcode.com",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -122,7 +117,6 @@
       "name": "Bolt",
       "website": "https://bolt.new",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -140,7 +134,6 @@
       "name": "Canva AI",
       "website": "https://www.canva.com/canva-ai/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -162,7 +155,6 @@
       "name": "ChatGPT",
       "website": "https://chatgpt.com/",
       "status": "verified",
-      "web_url": "https://chatgpt.com/",
       "domains": [
         "chatgpt.com"
       ],
@@ -186,7 +178,6 @@
       "name": "Claude",
       "website": "https://claude.ai/",
       "status": "verified",
-      "web_url": "https://claude.ai/",
       "domains": [
         "claude.ai"
       ],
@@ -214,7 +205,6 @@
       "name": "Claude Code Web",
       "website": "https://code.claude.com",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -232,7 +222,6 @@
       "name": "CodeRabbit",
       "website": "https://www.coderabbit.ai",
       "status": "verified",
-      "web_url": "https://app.coderabbit.ai/login",
       "domains": [
         "app.coderabbit.ai"
       ],
@@ -256,7 +245,6 @@
       "name": "Codex Cloud",
       "website": "https://openai.com/codex/",
       "status": "verified",
-      "web_url": "https://chatgpt.com/codex/",
       "domains": [
         "chatgpt.com"
       ],
@@ -288,7 +276,6 @@
       "name": "Copy.ai",
       "website": "https://www.copy.ai/",
       "status": "verified",
-      "web_url": "https://app.copy.ai/login",
       "domains": [
         "app.copy.ai"
       ],
@@ -312,7 +299,6 @@
       "name": "Coze",
       "website": "https://www.coze.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -330,7 +316,6 @@
       "name": "Cursor Web",
       "website": "https://cursor.com",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -352,7 +337,6 @@
       "name": "DeepSeek",
       "website": "https://chat.deepseek.com/",
       "status": "verified",
-      "web_url": "https://chat.deepseek.com/",
       "domains": [
         "chat.deepseek.com"
       ],
@@ -376,7 +360,6 @@
       "name": "Descript",
       "website": "https://www.descript.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -398,7 +381,6 @@
       "name": "Devin Cloud",
       "website": "https://devin.ai",
       "status": "verified",
-      "web_url": "https://app.devin.ai/login",
       "domains": [
         "app.devin.ai"
       ],
@@ -430,7 +412,6 @@
       "name": "Dify",
       "website": "https://dify.ai/",
       "status": "verified",
-      "web_url": "https://cloud.dify.ai/",
       "domains": [
         "cloud.dify.ai"
       ],
@@ -458,7 +439,6 @@
       "name": "Dola",
       "website": "https://www.dola.com/chat/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -480,7 +460,6 @@
       "name": "Dreamina",
       "website": "https://dreamina.capcut.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -498,7 +477,6 @@
       "name": "Duck.ai",
       "website": "https://duck.ai/",
       "status": "verified",
-      "web_url": "https://duck.ai/",
       "domains": [
         "duck.ai"
       ],
@@ -518,7 +496,6 @@
       "name": "ElevenLabs",
       "website": "https://elevenlabs.io/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -540,7 +517,6 @@
       "name": "Factory Web",
       "website": "https://factory.com",
       "status": "verified",
-      "web_url": "https://app.factory.ai/",
       "domains": [
         "app.factory.ai"
       ],
@@ -572,7 +548,6 @@
       "name": "FastGPT",
       "website": "https://fastgpt.cn/",
       "status": "verified",
-      "web_url": "https://cloud.fastgpt.cn/",
       "domains": [
         "cloud.fastgpt.cn"
       ],
@@ -600,7 +575,6 @@
       "name": "Fathom",
       "website": "https://www.fathom.ai/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -618,7 +592,6 @@
       "name": "Fireflies.ai",
       "website": "https://fireflies.ai/",
       "status": "verified",
-      "web_url": "https://app.fireflies.ai/",
       "domains": [
         "app.fireflies.ai"
       ],
@@ -642,7 +615,6 @@
       "name": "Gamma",
       "website": "https://gamma.app/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -664,7 +636,6 @@
       "name": "Gemini",
       "website": "https://gemini.google.com/",
       "status": "verified",
-      "web_url": "https://gemini.google.com/",
       "domains": [
         "gemini.google.com"
       ],
@@ -688,7 +659,6 @@
       "name": "Gemini Notebook",
       "website": "https://notebook.google/?hl=en-GB",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -710,7 +680,6 @@
       "name": "GitHub Copilot",
       "website": "https://github.com/features/copilot",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -728,7 +697,6 @@
       "name": "GitLab Duo Agent Platform",
       "website": "https://about.gitlab.com/gitlab-duo-agent-platform/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -746,7 +714,6 @@
       "name": "Grammarly",
       "website": "https://www.grammarly.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -772,7 +739,6 @@
       "name": "Greptile",
       "website": "https://www.greptile.com",
       "status": "verified",
-      "web_url": "https://app.greptile.com/signup",
       "domains": [
         "app.greptile.com"
       ],
@@ -796,7 +762,6 @@
       "name": "Grok",
       "website": "https://grok.com/",
       "status": "verified",
-      "web_url": "https://grok.com/",
       "domains": [
         "grok.com"
       ],
@@ -820,7 +785,6 @@
       "name": "HeyGen",
       "website": "https://www.heygen.com/",
       "status": "verified",
-      "web_url": "https://app.heygen.com/",
       "domains": [
         "app.heygen.com"
       ],
@@ -844,7 +808,6 @@
       "name": "Ideogram",
       "website": "https://ideogram.ai/",
       "status": "verified",
-      "web_url": "https://ideogram.ai/",
       "domains": [
         "ideogram.ai"
       ],
@@ -872,7 +835,6 @@
       "name": "ima",
       "website": "https://ima.qq.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -890,7 +852,6 @@
       "name": "Jasper",
       "website": "https://www.jasper.ai/",
       "status": "verified",
-      "web_url": "https://app.jasper.ai/",
       "domains": [
         "app.jasper.ai"
       ],
@@ -914,7 +875,6 @@
       "name": "Jules",
       "website": "https://jules.google",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -932,7 +892,6 @@
       "name": "Kagi Assistant",
       "website": "https://help.kagi.com/kagi/ai/assistant.html",
       "status": "verified",
-      "web_url": "https://assistant.kagi.com/",
       "domains": [
         "assistant.kagi.com"
       ],
@@ -960,7 +919,6 @@
       "name": "Kimi",
       "website": "https://www.kimi.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -982,7 +940,6 @@
       "name": "Kimi Code Web",
       "website": "https://www.kimi.com/code/docs/en/kimi-code-cli/guides/web.html",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1000,7 +957,6 @@
       "name": "Kiro Web",
       "website": "https://kiro.dev",
       "status": "verified",
-      "web_url": "https://app.kiro.dev/",
       "domains": [
         "app.kiro.dev"
       ],
@@ -1032,7 +988,6 @@
       "name": "Leonardo.Ai",
       "website": "https://leonardo.ai/",
       "status": "verified",
-      "web_url": "https://app.leonardo.ai/",
       "domains": [
         "app.leonardo.ai"
       ],
@@ -1052,7 +1007,6 @@
       "name": "LiblibAI",
       "website": "https://www.liblib.art/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1066,7 +1020,6 @@
       "name": "Lovable",
       "website": "https://lovable.dev",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1084,7 +1037,6 @@
       "name": "Luma Dream Machine",
       "website": "https://lumalabs.ai/dream-machine",
       "status": "verified",
-      "web_url": "https://dream-machine.lumalabs.ai/",
       "domains": [
         "dream-machine.lumalabs.ai"
       ],
@@ -1120,7 +1072,6 @@
       "name": "MaxClaw",
       "website": "https://agent.minimax.io/max-claw",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1138,7 +1089,6 @@
       "name": "MaxClaw CN",
       "website": "https://agent.minimaxi.com/max-claw",
       "status": "verified",
-      "web_url": "https://agent.minimax.cn/max-claw",
       "domains": [
         "agent.minimax.cn"
       ],
@@ -1162,7 +1112,6 @@
       "name": "Meta AI",
       "website": "https://www.meta.ai/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1192,7 +1141,6 @@
       "name": "Microsoft Copilot",
       "website": "https://copilot.microsoft.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1214,7 +1162,6 @@
       "name": "Midjourney",
       "website": "https://www.midjourney.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1236,7 +1183,6 @@
       "name": "MiniMax Agent",
       "website": "https://agent.minimax.io/",
       "status": "verified",
-      "web_url": "https://agent.minimax.io/",
       "domains": [
         "agent.minimax.io"
       ],
@@ -1264,7 +1210,6 @@
       "name": "MiniMax Agent CN",
       "website": "https://agent.minimaxi.com/",
       "status": "verified",
-      "web_url": "https://agent.minimax.cn/",
       "domains": [
         "agent.minimax.cn"
       ],
@@ -1292,7 +1237,6 @@
       "name": "Mistral Vibe",
       "website": "https://chat.mistral.ai/",
       "status": "verified",
-      "web_url": "https://chat.mistral.ai/",
       "domains": [
         "chat.mistral.ai"
       ],
@@ -1324,7 +1268,6 @@
       "name": "Napkin AI",
       "website": "https://www.napkin.ai/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1342,7 +1285,6 @@
       "name": "Notion AI",
       "website": "https://www.notion.com/product/ai",
       "status": "verified",
-      "web_url": "https://app.notion.com/chat",
       "domains": [
         "app.notion.com"
       ],
@@ -1374,7 +1316,6 @@
       "name": "Open WebUI",
       "website": "https://openwebui.com",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1392,7 +1333,6 @@
       "name": "OpenHands",
       "website": "https://www.openhands.dev",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1410,7 +1350,6 @@
       "name": "Otter.ai",
       "website": "https://otter.ai/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1428,7 +1367,6 @@
       "name": "Perplexity",
       "website": "https://www.perplexity.ai/",
       "status": "verified",
-      "web_url": "https://www.perplexity.ai/",
       "domains": [
         "www.perplexity.ai"
       ],
@@ -1452,7 +1390,6 @@
       "name": "Pika",
       "website": "https://pika.art/",
       "status": "verified",
-      "web_url": "https://create.pika.art/login",
       "domains": [
         "create.pika.art"
       ],
@@ -1480,7 +1417,6 @@
       "name": "PixVerse",
       "website": "https://pixverse.ai/",
       "status": "verified",
-      "web_url": "https://app.pixverse.ai/",
       "domains": [
         "app.pixverse.ai"
       ],
@@ -1504,7 +1440,6 @@
       "name": "Poe",
       "website": "https://poe.com/",
       "status": "verified",
-      "web_url": "https://poe.com/",
       "domains": [
         "poe.com"
       ],
@@ -1528,7 +1463,6 @@
       "name": "Qodo",
       "website": "https://www.qodo.ai",
       "status": "verified",
-      "web_url": "https://app.qodo.ai/home",
       "domains": [
         "app.qodo.ai"
       ],
@@ -1552,7 +1486,6 @@
       "name": "QuillBot",
       "website": "https://quillbot.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1570,7 +1503,6 @@
       "name": "Qwen Chat",
       "website": "https://chat.qwen.ai/",
       "status": "verified",
-      "web_url": "https://chat.qwen.ai/",
       "domains": [
         "chat.qwen.ai"
       ],
@@ -1590,7 +1522,6 @@
       "name": "Qwen Code Web UI",
       "website": "https://github.com/QwenLM/qwen-code",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1612,7 +1543,6 @@
       "name": "Recraft",
       "website": "https://www.recraft.ai/",
       "status": "verified",
-      "web_url": "https://www.recraft.ai/auth/login",
       "domains": [
         "www.recraft.ai"
       ],
@@ -1640,7 +1570,6 @@
       "name": "Replit",
       "website": "https://replit.com",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1658,7 +1587,6 @@
       "name": "Runway",
       "website": "https://runway.com/",
       "status": "verified",
-      "web_url": "https://app.runwayml.com/",
       "domains": [
         "app.runwayml.com"
       ],
@@ -1686,7 +1614,6 @@
       "name": "Skywork",
       "website": "https://skywork.ai/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1704,7 +1631,6 @@
       "name": "Suno",
       "website": "https://suno.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1726,7 +1652,6 @@
       "name": "Synthesia",
       "website": "https://www.synthesia.io/",
       "status": "verified",
-      "web_url": "https://app.synthesia.io/welcome",
       "domains": [
         "app.synthesia.io"
       ],
@@ -1750,7 +1675,6 @@
       "name": "TraeWork",
       "website": "https://www.trae.ai/work",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1776,7 +1700,6 @@
       "name": "TraeWork CN",
       "website": "https://work.trae.cn/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1802,7 +1725,6 @@
       "name": "Udio",
       "website": "https://www.udio.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1824,7 +1746,6 @@
       "name": "v0",
       "website": "https://v0.app",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1842,7 +1763,6 @@
       "name": "Vidu",
       "website": "https://www.vidu.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1860,7 +1780,6 @@
       "name": "Wordtune",
       "website": "https://www.wordtune.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1878,7 +1797,6 @@
       "name": "WPS AI",
       "website": "https://ai.wps.cn/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1892,7 +1810,6 @@
       "name": "Writesonic",
       "website": "https://writesonic.com/",
       "status": "verified",
-      "web_url": "https://app.writesonic.com/",
       "domains": [
         "app.writesonic.com"
       ],
@@ -1916,7 +1833,6 @@
       "name": "Z.ai Chat",
       "website": "https://chat.z.ai/",
       "status": "verified",
-      "web_url": "https://chat.z.ai/",
       "domains": [
         "chat.z.ai"
       ],
@@ -1936,7 +1852,6 @@
       "name": "万相",
       "website": "https://wan.video/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1950,7 +1865,6 @@
       "name": "千问",
       "website": "https://www.qianwen.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -1980,7 +1894,6 @@
       "name": "千问办公网页版",
       "website": "https://qwenwork.cn/signin",
       "status": "verified",
-      "web_url": "https://qwenwork.cn/signin",
       "domains": [
         "qwenwork.cn"
       ],
@@ -2016,7 +1929,6 @@
       "name": "即梦AI",
       "website": "https://jimeng.jianying.com/",
       "status": "verified",
-      "web_url": "https://jimeng.jianying.com/",
       "domains": [
         "jimeng.jianying.com"
       ],
@@ -2036,7 +1948,6 @@
       "name": "可灵AI",
       "website": "https://app.klingai.com/",
       "status": "verified",
-      "web_url": "https://klingai.com/app/",
       "domains": [
         "klingai.com"
       ],
@@ -2060,7 +1971,6 @@
       "name": "商汤秒画",
       "website": "https://miaohua.sensetime.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2082,7 +1992,6 @@
       "name": "天工",
       "website": "https://www.tiangong.cn/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2100,7 +2009,6 @@
       "name": "得到大脑",
       "website": "https://www.biji.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2122,7 +2030,6 @@
       "name": "扣子",
       "website": "https://www.coze.cn/",
       "status": "verified",
-      "web_url": "https://www.coze.cn/",
       "domains": [
         "www.coze.cn"
       ],
@@ -2142,7 +2049,6 @@
       "name": "文心",
       "website": "https://wenxin.baidu.com/",
       "status": "verified",
-      "web_url": "https://wenxin.baidu.com/",
       "domains": [
         "wenxin.baidu.com"
       ],
@@ -2162,7 +2068,6 @@
       "name": "智谱清言",
       "website": "https://chatglm.cn/",
       "status": "verified",
-      "web_url": "https://chatglm.cn/",
       "domains": [
         "chatglm.cn"
       ],
@@ -2182,7 +2087,6 @@
       "name": "海螺AI",
       "website": "https://hailuoai.video/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2200,7 +2104,6 @@
       "name": "百小医",
       "website": "https://yi.baichuan-ai.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2214,7 +2117,6 @@
       "name": "百度文库",
       "website": "https://wenku.baidu.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2232,7 +2134,6 @@
       "name": "秘塔AI搜索",
       "website": "https://metaso.cn/",
       "status": "verified",
-      "web_url": "https://metaso.cn/",
       "domains": [
         "metaso.cn"
       ],
@@ -2248,7 +2149,6 @@
       "name": "稿定AI",
       "website": "https://www.gaoding.com/ai",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2266,7 +2166,6 @@
       "name": "纳米AI",
       "website": "https://www.n.cn/",
       "status": "verified",
-      "web_url": "https://www.n.cn/",
       "domains": [
         "www.n.cn"
       ],
@@ -2286,7 +2185,6 @@
       "name": "美图设计室",
       "website": "https://www.designkit.cn/",
       "status": "verified",
-      "web_url": "https://www.designkit.cn/",
       "domains": [
         "www.designkit.cn"
       ],
@@ -2306,7 +2204,6 @@
       "name": "腾讯元宝",
       "website": "https://yuanbao.tencent.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2324,7 +2221,6 @@
       "name": "讯飞写作",
       "website": "https://huixie.iflyrec.com/",
       "status": "verified",
-      "web_url": "https://huixie.iflyrec.com/",
       "domains": [
         "huixie.iflyrec.com"
       ],
@@ -2340,7 +2236,6 @@
       "name": "讯飞听见",
       "website": "https://www.iflyrec.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2354,7 +2249,6 @@
       "name": "讯飞星火",
       "website": "https://xinghuo.xfyun.cn/",
       "status": "verified",
-      "web_url": "https://xinghuo.xfyun.cn/",
       "domains": [
         "xinghuo.xfyun.cn"
       ],
@@ -2374,7 +2268,6 @@
       "name": "豆包",
       "website": "https://www.doubao.com/",
       "status": "verified",
-      "web_url": "https://www.doubao.com/chat/",
       "domains": [
         "www.doubao.com"
       ],
@@ -2402,7 +2295,6 @@
       "name": "通义听悟",
       "website": "https://tingwu.aliyun.com/",
       "status": "verified",
-      "web_url": "https://tingwu.aliyun.com/",
       "domains": [
         "tingwu.aliyun.com"
       ],
@@ -2418,7 +2310,6 @@
       "name": "阶跃AI",
       "website": "https://chat.stepfun.com/",
       "status": "verified",
-      "web_url": "https://chat.stepfun.com/",
       "domains": [
         "chat.stepfun.com"
       ],
@@ -2438,7 +2329,6 @@
       "name": "OpenClaw Web",
       "website": "https://openclaw.ai",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2456,7 +2346,6 @@
       "name": "QwenPaw Web",
       "website": "http://qwenpaw.agentscope.io/",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2474,7 +2363,6 @@
       "name": "nanobot Web",
       "website": "https://nanobot.wiki",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2492,7 +2380,6 @@
       "name": "Agent Zero",
       "website": "https://agent-zero.ai",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2510,7 +2397,6 @@
       "name": "AionUi Web",
       "website": "https://www.aionui.com",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2528,7 +2414,6 @@
       "name": "LibreChat",
       "website": "https://librechat.ai/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2546,7 +2431,6 @@
       "name": "Agent TARS Web",
       "website": "https://agent-tars.com",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2564,7 +2448,6 @@
       "name": "DeerFlow Web",
       "website": "https://deerflow.tech",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2582,7 +2465,6 @@
       "name": "AstrBot",
       "website": "https://astrbot.app",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2600,7 +2482,6 @@
       "name": "LangBot",
       "website": "https://space.langbot.app/cloud",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2618,7 +2499,6 @@
       "name": "bolt.diy Web",
       "website": "https://stackblitz-labs.github.io/bolt.diy/",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2636,7 +2516,6 @@
       "name": "DeepSeek Harness Web Console",
       "website": "https://deepseek.com/en/harness/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2674,7 +2553,6 @@
       "name": "MonkeyCode",
       "website": "https://github.com/chaitin/MonkeyCode",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2704,7 +2582,6 @@
       "name": "QoderWake CN Web Console",
       "website": "https://docs.qoder.cn/en/qoderwake/installation",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2734,7 +2611,6 @@
       "name": "Ona",
       "website": "https://ona.com/stories/gitpod-is-now-ona",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2756,7 +2632,6 @@
       "name": "Coder Agents",
       "website": "https://coder.com/docs/about",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2818,7 +2693,6 @@
       "name": "LingCode Web",
       "website": "https://lingcode.dev/try.html",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2848,7 +2722,6 @@
       "name": "Loomy",
       "website": "https://loomy.xunfei.cn/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2866,7 +2739,6 @@
       "name": "Reasonix Web",
       "website": "https://reasonix.io/",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2908,7 +2780,6 @@
       "name": "Rovo Dev Code Reviewer",
       "website": "https://www.atlassian.com/software/rovo-dev",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2938,7 +2809,6 @@
       "name": "Consensus",
       "website": "https://consensus.app/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2956,7 +2826,6 @@
       "name": "Elicit",
       "website": "https://elicit.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2978,7 +2847,6 @@
       "name": "SciSpace",
       "website": "https://scispace.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -2992,7 +2860,6 @@
       "name": "ChatPDF",
       "website": "https://www.chatpdf.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3010,7 +2877,6 @@
       "name": "Manus",
       "website": "https://manus.im/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3028,7 +2894,6 @@
       "name": "Genspark",
       "website": "https://www.genspark.ai/genspark-landing.html",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3042,7 +2907,6 @@
       "name": "Felo",
       "website": "https://felo.ai/search",
       "status": "verified",
-      "web_url": "https://felo.ai/search",
       "domains": [
         "felo.ai"
       ],
@@ -3062,7 +2926,6 @@
       "name": "Jenni",
       "website": "https://jenni.ai/",
       "status": "verified",
-      "web_url": "https://app.jenni.ai/",
       "domains": [
         "app.jenni.ai"
       ],
@@ -3086,7 +2949,6 @@
       "name": "JotBot",
       "website": "https://myjotbot.com/",
       "status": "verified",
-      "web_url": "https://app.myjotbot.com/",
       "domains": [
         "app.myjotbot.com"
       ],
@@ -3110,7 +2972,6 @@
       "name": "DeepL Write",
       "website": "https://www.deepl.com/en/write",
       "status": "verified",
-      "web_url": "https://www.deepl.com/en/write",
       "domains": [
         "www.deepl.com"
       ],
@@ -3130,7 +2991,6 @@
       "name": "Google AI Studio",
       "website": "https://aistudio.google.com/welcome",
       "status": "verified",
-      "web_url": "https://aistudio.google.com/welcome",
       "domains": [
         "aistudio.google.com"
       ],
@@ -3154,7 +3014,6 @@
       "name": "Beautiful.ai",
       "website": "https://www.beautiful.ai/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3176,7 +3035,6 @@
       "name": "Slidesgo",
       "website": "https://slidesgo.com/ai/presentation-maker",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3194,7 +3052,6 @@
       "name": "Krea",
       "website": "https://www.krea.ai/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3216,7 +3073,6 @@
       "name": "fal",
       "website": "https://fal.ai/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3238,7 +3094,6 @@
       "name": "Higgsfield",
       "website": "https://higgsfield.ai/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3256,7 +3111,6 @@
       "name": "Fish Audio",
       "website": "https://fish.audio/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3274,7 +3128,6 @@
       "name": "AIVA",
       "website": "https://www.aiva.ai/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3292,7 +3145,6 @@
       "name": "SOUNDRAW",
       "website": "https://soundraw.io/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3310,7 +3162,6 @@
       "name": "Uizard",
       "website": "https://uizard.io/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3332,7 +3183,6 @@
       "name": "Relevance AI",
       "website": "https://relevanceai.com/",
       "status": "verified",
-      "web_url": "https://app.relevanceai.com/signup",
       "domains": [
         "app.relevanceai.com"
       ],
@@ -3356,7 +3206,6 @@
       "name": "Lindy",
       "website": "https://www.lindy.ai/",
       "status": "verified",
-      "web_url": "https://chat.lindy.ai/login",
       "domains": [
         "chat.lindy.ai"
       ],
@@ -3380,7 +3229,6 @@
       "name": "n8n",
       "website": "https://n8n.io/",
       "status": "verified",
-      "web_url": "https://app.n8n.cloud/login",
       "domains": [
         "app.n8n.cloud"
       ],
@@ -3404,7 +3252,6 @@
       "name": "Zapier Agents",
       "website": "https://zapier.com/agents",
       "status": "verified",
-      "web_url": "https://agents.zapier.com/login",
       "domains": [
         "agents.zapier.com"
       ],
@@ -3428,7 +3275,6 @@
       "name": "Gumloop",
       "website": "https://www.gumloop.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3446,7 +3292,6 @@
       "name": "Freebuff",
       "website": "https://freebuff.com/web",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3476,7 +3321,6 @@
       "name": "Strix",
       "website": "https://app.strix.ai/",
       "status": "verified",
-      "web_url": "https://app.strix.ai/",
       "domains": [
         "app.strix.ai"
       ],
@@ -3504,7 +3348,6 @@
       "name": "SillyTavern",
       "website": "https://sillytavern.app/",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3534,7 +3377,6 @@
       "name": "Lemonade",
       "website": "https://lemonade.gg/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3560,7 +3402,6 @@
       "name": "ISEKAI ZERO",
       "website": "https://www.isekaizero.ai/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3586,7 +3427,6 @@
       "name": "Craft",
       "website": "https://www.craftrpgs.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3608,7 +3448,6 @@
       "name": "Digen AI",
       "website": "https://agent.digen.ai/en",
       "status": "verified",
-      "web_url": "https://agent.digen.ai/en",
       "domains": [
         "agent.digen.ai"
       ],
@@ -3628,7 +3467,6 @@
       "name": "Framer",
       "website": "https://www.framer.com/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3650,7 +3488,6 @@
       "name": "GDevelop",
       "website": "https://editor.gdevelop.io/",
       "status": "verified",
-      "web_url": "https://editor.gdevelop.io/",
       "domains": [
         "editor.gdevelop.io"
       ],
@@ -3682,7 +3519,6 @@
       "name": "Rosebud AI",
       "website": "https://rosebud.ai/",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3708,7 +3544,6 @@
       "name": "Fliki",
       "website": "https://fliki.ai/",
       "status": "verified",
-      "web_url": "https://app.fliki.ai/",
       "domains": [
         "app.fliki.ai"
       ],
@@ -3736,7 +3571,6 @@
       "name": "Websim",
       "website": "https://websim.com/",
       "status": "verified",
-      "web_url": "https://websim.com/",
       "domains": [
         "websim.com"
       ],
@@ -3760,7 +3594,6 @@
       "name": "HighLevel",
       "website": "https://www.gohighlevel.com/ai",
       "status": "unverified",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3782,7 +3615,6 @@
       "name": "Letta",
       "website": "https://chat.letta.com/",
       "status": "verified",
-      "web_url": "https://chat.letta.com/",
       "domains": [
         "chat.letta.com"
       ],
@@ -3810,7 +3642,6 @@
       "name": "T3 Chat",
       "website": "https://t3.chat/",
       "status": "verified",
-      "web_url": "https://t3.chat/",
       "domains": [
         "t3.chat"
       ],
@@ -3830,7 +3661,6 @@
       "name": "ChatLLM",
       "website": "https://chatllm.abacus.ai/",
       "status": "verified",
-      "web_url": "https://apps.abacus.ai/chatllm/",
       "domains": [
         "apps.abacus.ai"
       ],
@@ -3850,7 +3680,6 @@
       "name": "Dust",
       "website": "https://dust.tt/",
       "status": "verified",
-      "web_url": "https://app.dust.tt/",
       "domains": [
         "app.dust.tt"
       ],
@@ -3874,7 +3703,6 @@
       "name": "Mem",
       "website": "https://get.mem.ai/",
       "status": "verified",
-      "web_url": "https://mem.ai/login",
       "domains": [
         "mem.ai"
       ],
@@ -3898,7 +3726,6 @@
       "name": "Taskade",
       "website": "https://www.taskade.com/",
       "status": "verified",
-      "web_url": "https://www.taskade.com/login",
       "domains": [
         "www.taskade.com"
       ],
@@ -3922,7 +3749,6 @@
       "name": "XXL-AI",
       "website": "https://www.xuxueli.com/xxl-ai/",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3949,7 +3775,6 @@
       "name": "AgentOS Enterprise",
       "website": "https://github.com/openJiuwen-ai/agentos-enterprise",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -3976,7 +3801,6 @@
       "name": "Octo",
       "website": "https://www.mininglamp.com/octo/",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -4003,7 +3827,6 @@
       "name": "guilds.run",
       "website": "https://www.guilds.run/",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -4030,7 +3853,6 @@
       "name": "Xiryn",
       "website": "https://xiryn.com/",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -4057,7 +3879,6 @@
       "name": "Kai",
       "website": "https://hirekai.ai/",
       "status": "verified",
-      "web_url": "https://web.hirekai.ai/",
       "domains": [
         "web.hirekai.ai"
       ],
@@ -4086,7 +3907,6 @@
       "name": "Sugabots",
       "website": "https://sugabots.ai/",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {
@@ -4113,7 +3933,6 @@
       "name": "Agency Orchestrator",
       "website": "https://ao.aiolaola.com/",
       "status": "self-hosted",
-      "web_url": "",
       "domains": [],
       "sources": [
         {

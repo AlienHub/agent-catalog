@@ -24,3 +24,11 @@ void [oneForm, combinedForms, legacyForm];
 const browserPluginForm: CatalogApp['interfaces'] = ['浏览器插件'];
 const miniProgramForm: CatalogApp['interfaces'] = ['小程序'];
 void [browserPluginForm, miniProgramForm];
+const webDomains: CatalogApp['web_domains'] = ['app.example.com', 'chat.example.com'];
+// @ts-expect-error domains must be an array, even for one hostname
+const singleDomain: CatalogApp['web_domains'] = 'app.example.com';
+// @ts-expect-error canonical domain arrays must be readonly
+apps[0]!.web_domains.push('app.example.com');
+// @ts-expect-error Web entry URL was removed in Schema v7
+const removedWebUrl = apps[0]!.web_url;
+void [webDomains, singleDomain, removedWebUrl];

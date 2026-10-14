@@ -87,7 +87,7 @@ test('filtered JSON/CSV and original SVG/ZIP downloads keep exact records and fi
  const t=await setup();try{
  const value=t.$('vendor').options[1].value;await t.change('vendor',value);const expected=apps.filter(a=>a.vendor_id===value);
  await t.click('jsonExport');assert.deepEqual(JSON.parse(t.downloads.at(-1).blob.parts[0]),expected);assert.equal(t.downloads.at(-1).name,'agent-atlas.json');
- await t.click('csvExport');const csv=t.downloads.at(-1).blob.parts[0];assert(csv.startsWith('\uFEFF'));assert.equal(csv.split('\r\n').length,expected.length+1);assert.equal(t.downloads.at(-1).name,'agent-atlas.csv');
+ await t.click('csvExport');const csv=t.downloads.at(-1).blob.parts[0];assert(csv.startsWith('\uFEFF'));assert.equal(csv.split('\r\n').length,expected.length+1);assert.equal(t.downloads.at(-1).name,'agent-atlas.csv');assert(!csv.split('\r\n')[0].includes('web_url'));assert(csv.split('\r\n')[0].includes('web_domains'));
  await t.click('reset');const svg=t.w.document.querySelector('.assetlink');assert(svg.getAttribute('href').endsWith('.svg'));assert(svg.download.endsWith('.svg'));assert(t.w.document.querySelector('.exports a[download]').getAttribute('href').endsWith('.zip'));assert(t.w.document.querySelector('footer a[href="dataset.csv"][download]'));
  }finally{t.dom.window.close()}
 });
@@ -200,13 +200,15 @@ test('PNG logos show the original format in cards and details and remain outside
  }finally{t.dom.window.close()}
 });
 
-test('Web domains find actual entries and detail distinguishes website, entry and unknown state',async()=>{
+test('Web domains remain searchable and details show domains, website and verification state',async()=>{
  const t=await setup();try{
   await t.change('search','firefly.adobe.com');assert.equal(t.count(),1);
   assert(t.w.document.querySelector('.web-domain').textContent.includes('firefly.adobe.com'));
   await t.click(t.w.document.querySelector('.appname'));
   const links=[...t.$('detailContent').querySelectorAll('a')];
-  assert(links.some(a=>a.textContent==='打开应用'&&a.href==='https://firefly.adobe.com/'));
+  assert(!links.some(a=>a.textContent==='打开应用'));
+  assert(![...t.$('detailContent').querySelectorAll('dt')].some(el=>el.textContent==='应用入口'));
+  assert(t.$('detailContent').textContent.includes('firefly.adobe.com'));
   assert(links.some(a=>a.textContent==='访问官网'&&a.href.includes('/products/firefly.html')));
   assert(t.$('detailContent').textContent.includes('已核验'));
   await t.click('closeDetails');await t.change('search','qwen-code-web');

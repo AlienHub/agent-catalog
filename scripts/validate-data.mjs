@@ -32,17 +32,13 @@ export async function validateData() {
     if (app.interfaces[0] !== 'Web') assert.equal(app.web_domain_status, 'not-applicable', `Web fields only belong to Web applications: ${app.id}`);
     else assert.notEqual(app.web_domain_status, 'not-applicable', `Web status missing: ${app.id}`);
     if (app.web_domain_status === 'verified') {
-      const entry = new URL(app.web_url);
-      assert.equal(entry.protocol, 'https:', `Web entry protocol: ${app.id}`);
-      assert(!entry.username && !entry.password && !entry.search && !entry.hash, `Canonical Web entry: ${app.id}`);
-      assert(app.web_domains.length && app.web_domains.includes(entry.hostname), `Web entry hostname: ${app.id}`);
+      assert(app.web_domains.length, `Verified Web domains missing: ${app.id}`);
       assert(/^\d{4}-\d{2}-\d{2}$/.test(app.web_domain_verified_at), `Web domain date: ${app.id}`);
       for (const domain of app.web_domains) {
         assert(/^(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z]{2,}$/.test(domain), `Exact Web hostname: ${app.id}/${domain}`);
         assert(evidence[app.id]?.sources.some(s => new URL(s.url).hostname === domain), `Missing Web domain evidence: ${app.id}/${domain}`);
       }
     } else {
-      assert.equal(app.web_url, '', `Unverified Web URL: ${app.id}`);
       assert.deepEqual(app.web_domains, [], `Unverified Web domains: ${app.id}`);
       assert.equal(app.web_domain_verified_at, '', `Unverified Web date: ${app.id}`);
     }
