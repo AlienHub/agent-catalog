@@ -503,9 +503,11 @@
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.canva.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "chatgpt",
@@ -1775,9 +1777,11 @@
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "gamma.app"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "gemini",
@@ -3084,9 +3088,11 @@
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.midjourney.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "minimax-agent",
@@ -3331,9 +3337,11 @@
     "svg_status": "available",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "app.napkin.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "notion-ai",
@@ -5699,7 +5707,7 @@
     ],
     "vendor": "稿定科技 Gaoding",
     "type": "设计创作",
-    "website": "https://www.gaoding.com/ai",
+    "website": "https://www.gaoding.art/",
     "platforms": [
       "Web"
     ],
@@ -5712,9 +5720,11 @@
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.gaoding.art"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "nami",
@@ -8561,9 +8571,11 @@
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.beautiful.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "slidesgo",
@@ -8584,9 +8596,11 @@
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "slidesgo.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "krea",
@@ -8607,9 +8621,11 @@
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.krea.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "fal",
@@ -8630,9 +8646,11 @@
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "fal.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "higgsfield",
@@ -8653,9 +8671,11 @@
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "higgsfield.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "fish-audio",
@@ -8745,9 +8765,11 @@
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "app.uizard.io"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "relevance-ai",
