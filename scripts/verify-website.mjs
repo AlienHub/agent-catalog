@@ -32,6 +32,9 @@ assert.equal(zip.readUInt32LE(zip.length - 22), 0x06054b50);
 assert.equal(zip.readUInt16LE(zip.length - 12), dataNames.length + 2 + 1 + (await readdir(resolve(root,'assets/icons'))).length + (await readdir(resolve(root,'licenses'))).length);
 for(const name of ['commercial.json','commercial-schema.json'])assert(zip.includes(Buffer.from(name)), `Missing ZIP entry: ${name}`);
 assert((await file('website-dist/dataset.csv')).toString().startsWith('\uFEFF'));
+const csvHeader = (await file('website-dist/dataset.csv')).toString().split('\r\n')[0];
+assert(!csvHeader.includes('"web_url"'), 'Removed Web entry URL must not be exported');
+assert(csvHeader.includes('"web_domains"'), 'Application domains must remain in CSV');
 console.log('PASS: website data, SVG and license source parity; CSV/ZIP exports, version, local links and DOM targets');
 
 assert((await file('website-dist/open-source.csv')).toString().startsWith('\uFEFF'));

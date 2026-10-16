@@ -1,15 +1,15 @@
 {
-  "schemaVersion": 6,
-  "dataVersion": "0.20",
+  "schemaVersion": 7,
+  "dataVersion": "0.21",
   "snapshotDate": "2026-10-14",
-  "source": "Agent Atlas verified application catalog; 2026-10-14 daily candidates",
+  "source": "Agent Atlas verified application catalog; domain-only Schema v7",
   "verificationScope": "Official website/source review; not an installation or availability test",
-  "sourceCommit": "8ad5023eb45d57c14e70203b35920221cb0bc327",
+  "sourceCommit": "ec80567e9981c00bffe8199eff1376cba004b15b",
   "openSourceMetadataScope": "Verified per record ID; missing metadata means unverified, not closed-source. Repository pushes do not prove maintenance.",
   "interactionModel": "One independent application record per interaction form: GUI, CLI, IDE 插件, Web, 浏览器插件, 小程序. IM is a channel; DingTalk embedded AI capabilities belong to its GUI application.",
   "applicationScope": "Desktop and browser applications; mobile-only records excluded. Existing mini programs retained.",
   "namingPolicy": "Use CN where needed in product names. Application names omit added interaction-form suffixes; interfaces and platforms distinguish records. No edition field.",
   "assetReview": "OpenRouter candidate discovery 2026-10-11: public page snapshot, independently verified application forms, original SVG/PNG sources and hashes in docs/research/openrouter-review-2026-10-11.json. OpenRouter categories and opt-in token usage do not determine catalog identity, licensing or total market popularity.",
   "logoPolicy": "Original SVG and PNG accepted. PNG is explicitly marked raster; hasSvg and SVG counts only include .svg assets.",
-  "webDomainPolicy": "Actual user-facing Web entry URL and exact verified hostnames, separate from official website; shared-domain apps require URL paths. No API/CDN inference; self-hosted/local instances have no universal public domain. Missing entries explicitly remain unverified."
+  "webDomainPolicy": "web_domains is an array of verified exact user-facing application hostnames, separate from the official website. Shared hostnames may match multiple applications. No API/CDN/SSO inference or implicit subdomain matching; self-hosted/local instances have no universal public domain. Missing domains explicitly remain unverified."
 }

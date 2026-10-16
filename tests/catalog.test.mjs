@@ -11,7 +11,7 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.20');
+  assert.equal(catalog.catalogMeta.dataVersion, '0.21');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
@@ -153,7 +153,7 @@ test('display names omit form suffixes and China editions use CN', () => {
 });
 
 test('edition field is removed from records and schema', () => {
- assert.equal(catalog.catalogMeta.schemaVersion,6);
+ assert.equal(catalog.catalogMeta.schemaVersion,7);
  assert(catalog.apps.every(a=>!Object.hasOwn(a,'edition')));
  assert(!catalog.schema.items.required.includes('edition'));
  assert(!Object.hasOwn(catalog.schema.items.properties,'edition'));
@@ -264,7 +264,7 @@ test('2026-10-14 daily candidates', async () => {
   assert.deepEqual(kaiWeb.interfaces, ['Web']);
   assert.deepEqual(kaiDesk.interfaces, ['GUI']);
   assert.deepEqual(kaiDesk.platforms, ['macOS']);
-  assert.equal(kaiWeb.web_url, 'https://web.hirekai.ai/');
+  assert.deepEqual(kaiWeb.web_domains, ['web.hirekai.ai']);
   assert.equal(kaiWeb.web_domain_status, 'verified');
   assert.equal(source['kai-web'], undefined);
   assert.equal(source['kai-desktop'], undefined);
@@ -288,26 +288,36 @@ test('2026-10-14 daily candidates', async () => {
   assert.match(catalog.getEvidence('agency-orchestrator-desktop').notes, /desktop-v0\.4\.12/);
 });
 
-test('Web entry hosts are searchable separately from marketing websites', () => {
+test('Domain-only schema removes Web entry URLs and keeps frozen hostname arrays', () => {
+  assert.equal(catalog.catalogMeta.schemaVersion, 7);
+  assert(!catalog.schema.items.required.includes('web_url'));
+  assert(!Object.hasOwn(catalog.schema.items.properties, 'web_url'));
+  assert.equal(catalog.schema.items.properties.web_domains.type, 'array');
+  assert.equal(catalog.schema.items.properties.web_domains.items.type, 'string');
+  for (const app of catalog.apps) {
+    assert(!Object.hasOwn(app, 'web_url'), app.id);
+    assert(Array.isArray(app.web_domains), app.id);
+    assert(Object.isFrozen(app.web_domains), app.id);
+  }
+});
+test('Application domains are searchable separately from marketing websites', () => {
   const firefly = catalog.getApp('adobe-firefly');
-  assert.equal(firefly.web_url, 'https://firefly.adobe.com/');
+  assert.deepEqual(firefly.web_domains, ['firefly.adobe.com']);
   assert.notEqual(new URL(firefly.website).hostname, firefly.web_domains[0]);
   assert.deepEqual(catalog.findApps({ webDomain: 'firefly.adobe.com' }), [firefly]);
   assert(catalog.searchApps('app.leonardo.ai').some(a => a.id === 'leonardo-ai'));
   assert.deepEqual(catalog.findApps({ webDomain: 'adobe.com' }), []);
   assert.deepEqual(catalog.findApps({ webDomain: 'www.adobe.com' }), []);
 });
-test('Shared hosts preserve application paths; self-hosted and unknown domains stay empty', () => {
+test('Shared hosts match multiple applications; self-hosted and unknown domains stay empty', () => {
   const shared = catalog.findApps({ webDomain: 'chatgpt.com' });
   assert(shared.some(a => a.id === 'chatgpt'));
   assert(shared.some(a => a.id === 'codex-web'));
-  assert.notEqual(catalog.getApp('chatgpt').web_url, catalog.getApp('codex-web').web_url);
   assert.equal(catalog.getApp('qwen-code-web').web_domain_status, 'self-hosted');
   assert.deepEqual(catalog.getApp('qwen-code-web').web_domains, []);
-  assert.equal(catalog.getApp('qwen-code-web').web_url, '');
   assert.equal(catalog.getApp('jetbrains-air-web').web_domain_status, 'unverified');
   assert.deepEqual(catalog.getApp('jetbrains-air-web').web_domains, []);
-  assert(catalog.apps.filter(a => a.interfaces[0] !== 'Web').every(a => a.web_domain_status === 'not-applicable' && !a.web_url && !a.web_domains.length));
+  assert(catalog.apps.filter(a => a.interfaces[0] !== 'Web').every(a => a.web_domain_status === 'not-applicable' && !a.web_domains.length));
 });
 test('Web audit accounts for every application and new entries have source evidence', async () => {
   const audit = JSON.parse(await readFile(new URL('../docs/research/web-domain-review-2026-10-12.json', import.meta.url)));

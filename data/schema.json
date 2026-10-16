@@ -20,7 +20,6 @@
       "interfaces",
       "chrome_extension_id",
       "edge_extension_id",
-      "web_url",
       "web_domains",
       "web_domain_status",
       "web_domain_verified_at"
@@ -101,10 +100,6 @@
         "pattern": "^$|^[a-p]{32}$",
         "description": "Verified official Microsoft Edge Add-ons extension ID; empty means unverified or not applicable"
       },
-      "web_url": {
-        "type": "string",
-        "description": "Verified actual Web application entry URL, distinct from marketing website; empty if unverified, self-hosted or not applicable"
-      },
       "web_domains": {
         "type": "array",
         "items": {
@@ -112,7 +107,7 @@
           "pattern": "^[a-z0-9.-]+$"
         },
         "uniqueItems": true,
-        "description": "Verified exact application hostnames, no wildcard, protocol, path, API or CDN domains. Shared hosts require URL path context."
+        "description": "Array of verified exact application hostnames, no wildcard, protocol, path, API or CDN domains. Shared hostnames may match multiple applications."
       },
       "web_domain_status": {
         "type": "string",
