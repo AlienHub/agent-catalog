@@ -74,6 +74,8 @@
     "test:trends": "npm --prefix services/trends test",
     "verify:all": "npm run verify && npm run test:trends && npm run test:cloudflare && npm run build:cloudflare",
     "build:cloudflare": "node scripts/build-cloudflare.mjs",
+    "build:cloudflare:ci": "node cloudflare/configure.mjs && npm run build:cloudflare",
+    "preview:cloudflare": "services/trends/node_modules/.bin/wrangler versions upload --config cloudflare/wrangler.jsonc",
     "deploy:cloudflare": "npm run build:cloudflare && services/trends/node_modules/.bin/wrangler deploy --config cloudflare/wrangler.jsonc --no-autoconfig",
     "test:cloudflare": "node --test cloudflare/*.test.mjs"
   },
