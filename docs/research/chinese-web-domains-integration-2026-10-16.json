@@ -1,0 +1,798 @@
+{
+  "reviewed_at": "2026-10-16",
+  "source_pr": "https://github.com/AlienHub/agent-catalog/pull/5",
+  "source_commit": "ff0701d2169b2776b6a5410066ac950751117c57",
+  "schemaVersion": 7,
+  "model": "web_domains: string[]; no entry URL or domain-object field",
+  "scope": "Review of original official sources and public pages; no login, installation, functionality or regional availability tests. HTTP success alone does not establish an application domain. Original 2026-10-13 source verification dates are retained except explicit 2026-10-16 corrections.",
+  "added_application_ids": [
+    "zhida",
+    "tongyi-farui",
+    "shangliang",
+    "biling",
+    "tusi"
+  ],
+  "updated_existing_application_count": 27,
+  "web_record_count": 186,
+  "counts": {
+    "verified": 102,
+    "unverified": 62,
+    "self-hosted": 22
+  },
+  "corrections": [
+    {
+      "id": "trae-work",
+      "excluded_host": "www.trae.ai",
+      "actual_host": "work.trae.ai",
+      "source_url": "https://www.trae.ai/work",
+      "reason": "Official product page links TRAE Web to work.trae.ai; marketing hostname is not the application hostname."
+    }
+  ],
+  "records": [
+    {
+      "id": "coze",
+      "name": "Coze",
+      "domains": [
+        "www.coze.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://www.coze.com/",
+        "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/coze.svg"
+      ]
+    },
+    {
+      "id": "dola",
+      "name": "Dola",
+      "domains": [
+        "www.dola.com",
+        "cici.com",
+        "www.ciciai.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://www.dola.com/chat/",
+        "https://www.dola.com/legal/privacy/en",
+        "https://sf-flow-web-cdn.ciciai.com/obj/ocean-flow-web-sg/favicon/new-dola/192x192.png",
+        "https://cici.com/",
+        "https://www.ciciai.com/"
+      ]
+    },
+    {
+      "id": "dreamina",
+      "name": "Dreamina",
+      "domains": [
+        "dreamina.capcut.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://dreamina.capcut.com/",
+        "https://p16-seeyou-useast5.capcutcdn-us.com/tos-useast5-i-2zwwjm3azk-tx/40fed40e0bd1411292155e446a0f3a30~tplv-2zwwjm3azk-compress:q90.image"
+      ]
+    },
+    {
+      "id": "ima",
+      "name": "ima",
+      "domains": [
+        "ima.qq.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://ima.qq.com/",
+        "https://fe-static.ima.myqcloud.com/ima/assets/chat/favicon.svg"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "domains": [
+        "www.kimi.com",
+        "kimi.moonshot.cn"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://www.kimi.com/",
+        "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/kimi-color.svg",
+        "https://www.kimi.com/en/products/download",
+        "https://kimi.moonshot.cn/"
+      ]
+    },
+    {
+      "id": "liblib",
+      "name": "LiblibAI",
+      "domains": [
+        "www.liblib.art"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://www.liblib.art/"
+      ]
+    },
+    {
+      "id": "maxclaw",
+      "name": "MaxClaw",
+      "domains": [
+        "agent.minimax.io"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://agent.minimax.io/max-claw",
+        "https://agent.minimaxi.com/activity/max-claw"
+      ]
+    },
+    {
+      "id": "skywork",
+      "name": "Skywork",
+      "domains": [
+        "skywork.ai"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://skywork.ai/",
+        "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/skywork-color.svg"
+      ]
+    },
+    {
+      "id": "trae-work",
+      "name": "TraeWork",
+      "domains": [
+        "work.trae.ai"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-16",
+      "source_urls": [
+        "https://www.trae.ai/work",
+        "https://www.trae.ai/download",
+        "https://docs.trae.cn/work_what-is-trae-work",
+        "https://docs.trae.cn/work_trae-work-web-and-desktop-quickstart",
+        "https://work.trae.ai/"
+      ]
+    },
+    {
+      "id": "trae-work-cn",
+      "name": "TraeWork CN",
+      "domains": [
+        "work.trae.cn"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://www.trae.ai/work",
+        "https://www.trae.ai/download",
+        "https://docs.trae.cn/work_what-is-trae-work",
+        "https://docs.trae.cn/work_trae-work-web-and-desktop-quickstart",
+        "https://work.trae.cn/"
+      ]
+    },
+    {
+      "id": "vidu",
+      "name": "Vidu",
+      "domains": [
+        "www.vidu.com",
+        "www.vidu.cn"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://www.vidu.com/",
+        "https://www.vidu.com/logo.svg",
+        "https://www.vidu.cn/"
+      ]
+    },
+    {
+      "id": "wps-ai",
+      "name": "WPS AI",
+      "domains": [
+        "ai.wps.cn"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://ai.wps.cn/"
+      ]
+    },
+    {
+      "id": "wan",
+      "name": "万相",
+      "domains": [
+        "wan.video"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://wan.video/"
+      ]
+    },
+    {
+      "id": "qianwen",
+      "name": "千问",
+      "domains": [
+        "www.qianwen.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://www.qianwen.com/",
+        "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/qwen-color.svg",
+        "https://www.qianwen.com/download",
+        "https://qwenwork.cn/",
+        "https://help.aliyun.com/zh/qwenwork/"
+      ]
+    },
+    {
+      "id": "kling",
+      "name": "可灵AI",
+      "domains": [
+        "klingai.com",
+        "kling.ai"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-16",
+      "source_urls": [
+        "https://app.klingai.com/",
+        "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/kling-color.svg",
+        "https://klingai.com/app/",
+        "https://kling.ai/",
+        "https://kling.ai/app"
+      ]
+    },
+    {
+      "id": "miaohua",
+      "name": "商汤秒画",
+      "domains": [
+        "miaohua.sensetime.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://miaohua.sensetime.com/",
+        "https://miaohua.sensetime.com/",
+        "https://bkmksh.oss-cn-shanghai.aliyuncs.com/assets1/homepage/m-favicon.png"
+      ]
+    },
+    {
+      "id": "tiangong",
+      "name": "天工",
+      "domains": [
+        "www.tiangong.cn"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://www.tiangong.cn/",
+        "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/tiangong-color.svg"
+      ]
+    },
+    {
+      "id": "get-biji",
+      "name": "得到大脑",
+      "domains": [
+        "www.biji.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-16",
+      "source_urls": [
+        "https://www.biji.com/",
+        "https://www.biji.com/docs/getnote/developer/index",
+        "https://doc.biji.com/docs/PydawiziAiDqxokurl4cSlyGnAu/",
+        "https://doc.biji.com/docs/PydawiziAiDqxokurl4cSlyGnAu"
+      ]
+    },
+    {
+      "id": "wenxin",
+      "name": "文心",
+      "domains": [
+        "wenxin.baidu.com",
+        "yiyan.baidu.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://wenxin.baidu.com/",
+        "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/wenxin-color.svg",
+        "https://yiyan.baidu.com/"
+      ]
+    },
+    {
+      "id": "qingyan",
+      "name": "智谱清言",
+      "domains": [
+        "chatglm.cn",
+        "www.chatglm.cn"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://chatglm.cn/",
+        "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/qingyan-color.svg",
+        "https://www.chatglm.cn/"
+      ]
+    },
+    {
+      "id": "hailuo",
+      "name": "海螺AI",
+      "domains": [
+        "hailuoai.video",
+        "hailuoai.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://hailuoai.video/",
+        "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/hailuo-color.svg",
+        "https://hailuoai.com/"
+      ]
+    },
+    {
+      "id": "baixiaoyi",
+      "name": "百小医",
+      "domains": [
+        "yi.baichuan-ai.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://yi.baichuan-ai.com/"
+      ]
+    },
+    {
+      "id": "baidu-wenku",
+      "name": "百度文库",
+      "domains": [
+        "wenku.baidu.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://wenku.baidu.com/",
+        "https://edu-wenku.bdimg.com/v1/pc/2026PC/favicon.svg"
+      ]
+    },
+    {
+      "id": "yuanbao",
+      "name": "腾讯元宝",
+      "domains": [
+        "yuanbao.tencent.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://yuanbao.tencent.com/",
+        "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/yuanbao-color.svg"
+      ]
+    },
+    {
+      "id": "iflyrec",
+      "name": "讯飞听见",
+      "domains": [
+        "www.iflyrec.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://www.iflyrec.com/"
+      ]
+    },
+    {
+      "id": "spark",
+      "name": "讯飞星火",
+      "domains": [
+        "xinghuo.xfyun.cn",
+        "spark.xfyun.cn"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://xinghuo.xfyun.cn/",
+        "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/spark-color.svg",
+        "https://spark.xfyun.cn/"
+      ]
+    },
+    {
+      "id": "loomy-web",
+      "name": "Loomy",
+      "domains": [
+        "loomy.xunfei.cn"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://loomy.xunfei.cn/",
+        "https://loomy.xunfei.cn/assets/images/bottom_loomy.svg"
+      ]
+    },
+    {
+      "id": "zhida",
+      "name": "知乎直答",
+      "domains": [
+        "zhida.zhihu.com",
+        "zhida.ai"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://zhida.zhihu.com/",
+        "https://zhida.ai/"
+      ]
+    },
+    {
+      "id": "tongyi-farui",
+      "name": "通义法睿",
+      "domains": [
+        "tongyi.aliyun.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://tongyi.aliyun.com/farui"
+      ]
+    },
+    {
+      "id": "shangliang",
+      "name": "商量",
+      "domains": [
+        "chat.sensetime.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://chat.sensetime.com/"
+      ]
+    },
+    {
+      "id": "biling",
+      "name": "笔灵AI",
+      "domains": [
+        "ibiling.cn"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://ibiling.cn/"
+      ]
+    },
+    {
+      "id": "tusi",
+      "name": "吐司",
+      "domains": [
+        "tusi.cn",
+        "tusiart.com"
+      ],
+      "status": "verified",
+      "domain_verified_at": "2026-10-13",
+      "source_urls": [
+        "https://tusi.cn/",
+        "https://tusiart.com/"
+      ]
+    }
+  ],
+  "http_observations": [
+    {
+      "id": "coze",
+      "url": "https://www.coze.com/",
+      "status": 200,
+      "final_host": "www.coze.com",
+      "title": "Coze-AI Agent Intelligent Office Platform-Coze Redefines Productivity and Efficiency with AI"
+    },
+    {
+      "id": "dola",
+      "url": "https://www.dola.com/chat/",
+      "status": 200,
+      "final_host": "www.dola.com",
+      "title": "Dola AI - Your everyday AI assistant"
+    },
+    {
+      "id": "dola",
+      "url": "https://cici.com/",
+      "status": 200,
+      "final_host": "www.dola.com",
+      "title": "Dola AI - Your everyday AI assistant"
+    },
+    {
+      "id": "dola",
+      "url": "https://www.ciciai.com/",
+      "status": 200,
+      "final_host": "www.dola.com",
+      "title": "Dola AI - Your everyday AI assistant"
+    },
+    {
+      "id": "dreamina",
+      "url": "https://dreamina.capcut.com/",
+      "status": 200,
+      "final_host": "dreamina.capcut.com",
+      "title": "Dreamina: Free AI Video &amp; Image Generator Powered by Multiple Models"
+    },
+    {
+      "id": "ima",
+      "url": "https://ima.qq.com/",
+      "status": 200,
+      "final_host": "ima.qq.com",
+      "title": "ima - 腾讯AI知识管家"
+    },
+    {
+      "id": "kimi",
+      "url": "https://www.kimi.com/",
+      "status": 200,
+      "final_host": "www.kimi.com",
+      "title": "Kimi AI 官网 - K3 上线，专为智能体编程与知识工作打造"
+    },
+    {
+      "id": "kimi",
+      "url": "https://kimi.moonshot.cn/",
+      "status": 200,
+      "final_host": "www.kimi.com",
+      "title": "Kimi AI 官网 - K3 上线，专为智能体编程与知识工作打造"
+    },
+    {
+      "id": "liblib",
+      "url": "https://www.liblib.art/",
+      "status": 200,
+      "final_host": "www.liblib.art",
+      "title": "LiblibAI-哩布哩布AI - 国内极具影响力的AI创作平台"
+    },
+    {
+      "id": "maxclaw",
+      "url": "https://agent.minimax.io/max-claw",
+      "status": 200,
+      "final_host": "agent.minimax.io",
+      "title": "MaxClaw - Build Your AI Agent with Skills &amp; Subagents | MiniMax OpenClaw"
+    },
+    {
+      "id": "skywork",
+      "url": "https://skywork.ai/",
+      "status": 200,
+      "final_host": "skywork.ai",
+      "title": "Skywork︱The Originator of AI Workspace Agents"
+    },
+    {
+      "id": "trae-work",
+      "url": "https://www.trae.ai/work",
+      "status": 200,
+      "final_host": "www.trae.ai",
+      "title": "TRAE | TRAE - Collaborate with Intelligence"
+    },
+    {
+      "id": "trae-work-cn",
+      "url": "https://work.trae.cn/",
+      "status": 200,
+      "final_host": "work.trae.cn",
+      "title": "TRAE - Ship Faster With TRAE（智能无限，协作无间）"
+    },
+    {
+      "id": "vidu",
+      "url": "https://www.vidu.com/",
+      "status": 200,
+      "final_host": "www.vidu.cn",
+      "title": "Vidu AI - Vidu AI - 全球领先的AI内容生产平台"
+    },
+    {
+      "id": "vidu",
+      "url": "https://www.vidu.cn/",
+      "status": 200,
+      "final_host": "www.vidu.cn",
+      "title": "Vidu AI - Vidu AI - 全球领先的AI内容生产平台"
+    },
+    {
+      "id": "wps-ai",
+      "url": "https://ai.wps.cn/",
+      "status": 200,
+      "final_host": "ai.wps.cn",
+      "title": "WPS AI - PPT一键生成 | AI写作文档 | AI表格处理"
+    },
+    {
+      "id": "wan",
+      "url": "https://wan.video/",
+      "status": 200,
+      "final_host": "wan.video",
+      "title": "Wan AI: Leading AI Video Generation Model"
+    },
+    {
+      "id": "qianwen",
+      "url": "https://www.qianwen.com/",
+      "status": 200,
+      "final_host": "www.qianwen.com",
+      "title": "千问-阿里 AI 助手"
+    },
+    {
+      "id": "kling",
+      "url": "https://klingai.com/app/",
+      "status": 200,
+      "final_host": "klingai.com",
+      "title": "Kling AI: Next-Generation AI Creative Studio"
+    },
+    {
+      "id": "kling",
+      "url": "https://kling.ai/",
+      "status": 200,
+      "final_host": "kling.ai",
+      "title": "Kling AI: Next-Gen AI Video &amp; Image Generator"
+    },
+    {
+      "id": "miaohua",
+      "url": "https://miaohua.sensetime.com/",
+      "status": 200,
+      "final_host": "miaohua.sensetime.com",
+      "title": "商汤秒画SenseMirage – AI作画，有手就行！还是免费的！"
+    },
+    {
+      "id": "tiangong",
+      "url": "https://www.tiangong.cn/",
+      "status": 200,
+      "final_host": "www.tiangong.cn",
+      "title": "AI办公智能体先行者"
+    },
+    {
+      "id": "get-biji",
+      "url": "https://www.biji.com/",
+      "status": 200,
+      "final_host": "www.biji.com",
+      "title": ""
+    },
+    {
+      "id": "wenxin",
+      "url": "https://wenxin.baidu.com/",
+      "status": 200,
+      "final_host": "wenxin.baidu.com",
+      "title": "百度文心助手 - 办公学习一站解决"
+    },
+    {
+      "id": "wenxin",
+      "url": "https://yiyan.baidu.com/",
+      "status": 200,
+      "final_host": "wenxin.baidu.com",
+      "title": "百度文心助手 - 办公学习一站解决"
+    },
+    {
+      "id": "qingyan",
+      "url": "https://chatglm.cn/",
+      "status": 200,
+      "final_host": "chatglm.cn",
+      "title": "智谱清言"
+    },
+    {
+      "id": "qingyan",
+      "url": "https://www.chatglm.cn/",
+      "status": 200,
+      "final_host": "www.chatglm.cn",
+      "title": "智谱清言"
+    },
+    {
+      "id": "hailuo",
+      "url": "https://hailuoai.video/",
+      "status": 200,
+      "final_host": "hailuoai.video",
+      "title": "Hailuo AI: MiniMax H3 LIVE NOW. Top-Tier Quality, Versatile References"
+    },
+    {
+      "id": "hailuo",
+      "url": "https://hailuoai.com/",
+      "status": 200,
+      "final_host": "hailuoai.com",
+      "title": "海螺视频：每个想法都是一部大片"
+    },
+    {
+      "id": "baixiaoyi",
+      "url": "https://yi.baichuan-ai.com/",
+      "status": 200,
+      "final_host": "yi.baichuan-ai.com",
+      "title": "百小医"
+    },
+    {
+      "id": "baidu-wenku",
+      "url": "https://wenku.baidu.com/",
+      "status": 200,
+      "final_host": "wenku.baidu.com",
+      "title": ""
+    },
+    {
+      "id": "yuanbao",
+      "url": "https://yuanbao.tencent.com/",
+      "status": 200,
+      "final_host": "yuanbao.tencent.com",
+      "title": ""
+    },
+    {
+      "id": "iflyrec",
+      "url": "https://www.iflyrec.com/",
+      "status": 200,
+      "final_host": "www.iflyrec.com",
+      "title": "讯飞听见-AI在线录音转文字-语音转文字-录音整理-语音翻译软件"
+    },
+    {
+      "id": "spark",
+      "url": "https://xinghuo.xfyun.cn/",
+      "status": 200,
+      "final_host": "xinghuo.xfyun.cn",
+      "title": "讯飞星火-懂我的AI助手"
+    },
+    {
+      "id": "spark",
+      "url": "https://spark.xfyun.cn/",
+      "status": 200,
+      "final_host": "spark.xfyun.cn",
+      "title": "讯飞星火-懂我的AI助手"
+    },
+    {
+      "id": "loomy-web",
+      "url": "https://loomy.xunfei.cn/",
+      "status": 200,
+      "final_host": "loomy.xunfei.cn",
+      "title": "Loomy-你的AI工作搭子"
+    },
+    {
+      "id": "zhida",
+      "url": "https://zhida.zhihu.com/",
+      "status": 200,
+      "final_host": "www.zhihu.com",
+      "title": "知乎 - 有问题，就会有答案"
+    },
+    {
+      "id": "zhida",
+      "url": "https://zhida.ai/",
+      "status": 200,
+      "final_host": "www.zhihu.com",
+      "title": "知乎 - 有问题，就会有答案"
+    },
+    {
+      "id": "tongyi-farui",
+      "url": "https://tongyi.aliyun.com/farui",
+      "status": 200,
+      "final_host": "tongyi.aliyun.com",
+      "title": "法睿 法律大模型 法律智能体 法律AI 人工智能-阿里云"
+    },
+    {
+      "id": "shangliang",
+      "url": "https://chat.sensetime.com/",
+      "status": 200,
+      "final_host": "chat.sensetime.com",
+      "title": "商量 - AI生活小帮手"
+    },
+    {
+      "id": "biling",
+      "url": "https://ibiling.cn/",
+      "status": 200,
+      "final_host": "ibiling.cn",
+      "title": "笔灵AI写作 - 国内领先的AI写作助手 | 官网、智能工具、免费改写"
+    },
+    {
+      "id": "wujieai",
+      "url": "https://www.wujieai.com/",
+      "status": 200,
+      "final_host": "www.wujieai.com",
+      "title": "无界AI - 你的全能工作助手"
+    },
+    {
+      "id": "tusi",
+      "url": "https://tusi.cn/",
+      "status": 200,
+      "final_host": "tusi.cn",
+      "title": "可在线生图的 AI 模型分享社区，还是免费的！ | 吐司 tusi.cn"
+    },
+    {
+      "id": "tusi",
+      "url": "https://tusiart.com/",
+      "status": 200,
+      "final_host": "tusi.cn",
+      "title": "可在线生图的 AI 模型分享社区，还是免费的！ | 吐司 tusi.cn"
+    }
+  ],
+  "deferred_candidates": [
+    {
+      "id": "wujieai",
+      "name": "无界AI",
+      "reason": "官网当前将无界AI链接到桌面助手页；另列的无界Harness与无界工作室不能直接当作同一产品的Web形态。缺少该产品实际Web使用入口的依据，本次不收录。",
+      "source_urls": [
+        "https://www.wujieai.com/",
+        "https://www.wujieai.com/desktop"
+      ]
+    }
+  ]
+}

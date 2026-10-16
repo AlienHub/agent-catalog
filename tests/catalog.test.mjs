@@ -11,7 +11,7 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.21');
+  assert.equal(catalog.catalogMeta.dataVersion, '0.22');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
@@ -292,10 +292,12 @@ test('Domain-only schema removes Web entry URLs and keeps frozen hostname arrays
   assert.equal(catalog.catalogMeta.schemaVersion, 7);
   assert(!catalog.schema.items.required.includes('web_url'));
   assert(!Object.hasOwn(catalog.schema.items.properties, 'web_url'));
+  assert(!Object.hasOwn(catalog.schema.items.properties, 'web_domain_entries'));
   assert.equal(catalog.schema.items.properties.web_domains.type, 'array');
   assert.equal(catalog.schema.items.properties.web_domains.items.type, 'string');
   for (const app of catalog.apps) {
     assert(!Object.hasOwn(app, 'web_url'), app.id);
+    assert(!Object.hasOwn(app, 'web_domain_entries'), app.id);
     assert(Array.isArray(app.web_domains), app.id);
     assert(Object.isFrozen(app.web_domains), app.id);
   }
@@ -319,9 +321,32 @@ test('Shared hosts match multiple applications; self-hosted and unknown domains 
   assert.deepEqual(catalog.getApp('jetbrains-air-web').web_domains, []);
   assert(catalog.apps.filter(a => a.interfaces[0] !== 'Web').every(a => a.web_domain_status === 'not-applicable' && !a.web_domains.length));
 });
+test('Chinese Web additions use hostname arrays and retain sourced alternate domains', () => {
+  for (const id of ['zhida', 'tongyi-farui', 'shangliang', 'biling', 'tusi']) {
+    const app = catalog.getApp(id);
+    assert.deepEqual(app.interfaces, ['Web']);
+    assert.equal(app.icon, '');
+    assert.equal(app.web_domain_status, 'verified');
+    for (const host of app.web_domains) {
+      assert(catalog.findApps({ webDomain: host }).includes(app));
+      assert(catalog.getEvidence(id).sources.some(s => new URL(s.url).hostname === host));
+    }
+  }
+  const kimi = catalog.getApp('kimi');
+  assert.deepEqual(kimi.web_domains, ['www.kimi.com', 'kimi.moonshot.cn']);
+  assert.deepEqual(catalog.findApps({ webDomain: 'kimi.moonshot.cn' }), [kimi]);
+  assert(catalog.searchApps('kimi.moonshot.cn').includes(kimi));
+  assert.deepEqual(catalog.getApp('tusi').web_domains, ['tusi.cn', 'tusiart.com']);
+  assert.deepEqual(catalog.getApp('trae-work').web_domains, ['work.trae.ai']);
+  assert(!catalog.findApps({ webDomain: 'www.trae.ai' }).some(a => a.id === 'trae-work'));
+  assert.equal(catalog.getApp('iflywrite').icon, 'icons/iflywrite.svg');
+});
 test('Web audit accounts for every application and new entries have source evidence', async () => {
   const audit = JSON.parse(await readFile(new URL('../docs/research/web-domain-review-2026-10-12.json', import.meta.url)));
-  assert.deepEqual(audit.records.map(a => a.id).sort(), catalog.findApps({ interface: 'Web' }).map(a => a.id).sort());
+  const integration = JSON.parse(await readFile(new URL('../docs/research/chinese-web-domains-integration-2026-10-16.json', import.meta.url)));
+  const covered = new Set([...audit.records, ...integration.records].map(a => a.id));
+  assert.deepEqual([...covered].sort(), catalog.findApps({ interface: 'Web' }).map(a => a.id).sort());
+  for (const record of integration.records) assert.deepEqual(catalog.getApp(record.id).web_domains, record.domains);
   for (const id of ['t3-chat-web','abacus-chatllm-web','dust-web','mem-web','taskade-web']) {
     const app = catalog.getApp(id);
     assert.equal(app.web_domain_status, 'verified');

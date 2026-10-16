@@ -218,3 +218,16 @@ test('Web domains remain searchable and details show domains, website and verifi
   assert(t.$('detailContent').textContent.includes('域名由部署实例决定'));
  }finally{t.dom.window.close()}
 });
+
+test('multiple application domains appear in details and each hostname finds the same record',async()=>{
+ const t=await setup();try{
+  for(const host of ['www.kimi.com','kimi.moonshot.cn']){
+   await t.change('search',host);assert.equal(t.count(),1);
+   await t.click(t.w.document.querySelector('.appname'));
+   const domains=[...t.$('detailContent').querySelectorAll('dl > div')].find(el=>el.querySelector('dt')?.textContent==='实际域名');
+   assert.equal(domains.querySelector('dd').textContent,'www.kimi.com、kimi.moonshot.cn');
+   assert(![...t.$('detailContent').querySelectorAll('dt')].some(el=>el.textContent==='应用入口'));
+   await t.click('closeDetails');
+  }
+ }finally{t.dom.window.close()}
+});
