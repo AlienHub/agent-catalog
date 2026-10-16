@@ -10,6 +10,24 @@ Use Node 24 and install dependencies with `npm ci`, `npm --prefix website ci`, `
 
 Use `npm run deploy:cloudflare` for subsequent deployments. This rebuilds the canonical catalog and compiled React client before uploading, uses the explicit unified Worker configuration, and disables automatic configuration. Do not pass `website/` as a positional argument to Wrangler: it uploads source files as a static-only site, leaving JSX imports, unresolved template placeholders and missing JSON downloads while removing the API/D1 bindings. After deployment, verify `/metadata.json`, `/dataset.json`, `/app.js`, `/health` and the versioned ZIP on the production hostname.
 
+## Cloudflare Workers Builds
+
+Use these commands in the Worker's Settings > Builds configuration, with `/` as the root directory and `main` as the production branch:
+
+- Build command: `npm ci --prefix website && npm ci --prefix services/trends && npm run build:cloudflare:ci`
+- Production deploy command: `npm run deploy:cloudflare`
+- Non-production command: `npm run check:cloudflare`
+
+The older `npm run preview:cloudflare` command remains an alias for the same dry-run validation because existing Cloudflare build triggers can retain that entry point. It does not upload or publish a preview.
+
+The build command generates the ignored `cloudflare/wrangler.jsonc` from build-time variables and builds the complete website with its canonical downloads. The root `npm run build` only builds the SDK and is insufficient for the hosted website. Both Wrangler commands use the repository's locked version and explicit unified Worker configuration. Non-production builds validate the Worker bundle and bindings with `deploy --dry-run`; they do not upload a version, publish a site, or enable public preview URLs. Production builds on `main` perform the actual upload and deployment. Do not use the default `npx wrangler preview`: this project has no `previews` block and does not use the separate Worker Previews model.
+
+The branch upload attempt on 2026-10-16 also failed the Workers Builds Worker-name/tag check even though the configured name and account matched production. A similar upstream report is tracked at https://github.com/cloudflare/workers-sdk/issues/15682. Do not unset `WRANGLER_CI_MATCH_TAG` to bypass that identity check. This pipeline requires build validation on branches and reserves real deployment for the production branch.
+
+Set `PUBLIC_ACCESS=true`, the existing `D1_DATABASE_ID`, `CLOUDFLARE_ACCOUNT_ID`, and `ATLAS_ORIGIN=https://agent-atlas.pindo.page` as build-time variables for both production and non-production builds. They can be saved as build variables or prefixed to the final `npm run build:cloudflare:ci` command. Keep `COLLECTION_ENABLED=false` unless collection has been explicitly enabled. These are configuration values; authentication tokens remain in Cloudflare's selected build token and Worker Secrets. Missing access mode or database identity fails configuration generation before upload.
+
+After changing these settings, trigger a new non-production build from a new commit to verify the build and dry-run, then verify an actual production build of the current `main` commit. Retrying an old build reuses its original command snapshot, including outdated commands. A successful branch build confirms validation only, not a cloud upload.
+
 Keep collection disabled until the public website and API are verified. Configure `GITHUB_TOKEN` through the Worker Secret UI or the hidden `wrangler secret put GITHUB_TOKEN --config cloudflare/wrangler.jsonc` prompt. Never put credential values in code, command arguments or logs. After verification, regenerate with `COLLECTION_ENABLED=true` and deploy; the daily seven-shard Cron is `17-23 3 * * *` (11:17–11:23 Asia/Shanghai). This generates genuine samples only, without fabricating historical data.
 
 The following private-mode reference is retained for optional private deployments; it is not the current production access requirement.
