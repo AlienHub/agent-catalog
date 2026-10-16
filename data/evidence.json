@@ -380,7 +380,7 @@
     "verified_at": "2026-10-02"
   },
   "canva-ai": {
-    "notes": "Canva international AI design product. Older /magic/ URL redirects to /canva-ai/. Counted once within the Canva product, not per Magic Studio feature. Uses Canva brand SVG from SVGL; no assertion about access in China.",
+    "notes": "Canva international AI design product. Older /magic/ URL redirects to /canva-ai/. Counted once within the Canva product, not per Magic Studio feature. Uses Canva brand SVG from SVGL; no assertion about access in China. 2026-10-16 AI 工作区 /ai/ 未登录时跳转 www.canva.com/login/?redirect=/ai/；官方 AI 助手指南说明可从首页或编辑器进入 Canva AI。 仅核验官方资料与公开入口，未登录测试内部功能或地域可用性。",
     "sources": [
       {
         "url": "https://www.canva.com/canva-ai/",
@@ -393,9 +393,17 @@
       {
         "url": "https://github.com/pheralb/svgl/blob/main/LICENSE",
         "title": "SVGL library MIT license; brand trademarks retained"
+      },
+      {
+        "url": "https://www.canva.com/ai/",
+        "title": "Canva AI 官方工作区入口及同域登录跳转"
+      },
+      {
+        "url": "https://www.canva.com/ai-assistant/",
+        "title": "Canva 官方 AI 助手使用指南"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-16"
   },
   "adobe-firefly": {
     "notes": "Adobe generative creative application for images and video; model versions are not separate apps.",
@@ -424,7 +432,7 @@
     "verified_at": "2026-10-02"
   },
   "midjourney": {
-    "notes": "Image-generation application. Individual model releases and plan tiers are not separate products.",
+    "notes": "Image-generation application. Individual model releases and plan tiers are not separate products. 2026-10-16 官网提供登录入口，官方 Creating on Web 指南确认 Create 页面用于生成图像。本次 /create 自动抓取返回 HTTP 403；以官网和官方文档交叉确认主机名，不宣称已登录或成功生成内容，也不将 Discord/Google 登录域名计入数组。 仅核验官方资料与公开入口，未登录测试内部功能或地域可用性。",
     "sources": [
       {
         "url": "https://www.midjourney.com/",
@@ -437,9 +445,17 @@
       {
         "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
         "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      },
+      {
+        "url": "https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web",
+        "title": "Midjourney 官方 Web 创作指南：Create 页面"
+      },
+      {
+        "url": "https://docs.midjourney.com/hc/en-us/articles/33390994570509-Logging-In-Connecting-Accounts",
+        "title": "Midjourney 官方 Web 登录与账号关联指南"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-16"
   },
   "leonardo-ai": {
     "notes": "Canva-owned generative image and video application. No trustworthy current SVG logo was obtained in this pass; no raster conversion supplied. 原来源主体名称：Leonardo.Ai / Canva；目录按供应商主体归组。",
@@ -728,7 +744,7 @@
     "verified_at": "2026-10-02"
   },
   "gamma": {
-    "notes": "AI presentation and website application at gamma.app. No verified genuine SVG obtained; unrelated Gamma hardware-store/telecom/crypto marks were rejected. 2026-10-11 补充官方站点原始 PNG 品牌标识；未推定额外品牌授权。",
+    "notes": "AI presentation and website application at gamma.app. No verified genuine SVG obtained; unrelated Gamma hardware-store/telecom/crypto marks were rejected. 2026-10-11 补充官方站点原始 PNG 品牌标识；未推定额外品牌授权。 2026-10-16 官网 Login 链接指向 gamma.app/signin，应用与官网共用 gamma.app；仅记录已确认的主机名。 仅核验官方资料与公开入口，未登录测试内部功能或地域可用性。",
     "sources": [
       {
         "url": "https://gamma.app/",
@@ -741,12 +757,16 @@
       {
         "url": "https://help.gamma.app/assets/favicon",
         "title": "Gamma 官方原始 PNG 品牌素材"
+      },
+      {
+        "url": "https://gamma.app/signin",
+        "title": "Gamma 官方登录入口"
       }
     ],
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-16"
   },
   "napkin-ai": {
-    "notes": "Text-to-visual diagram and presentation application. Official SVG wordmark supplied.",
+    "notes": "Text-to-visual diagram and presentation application. Official SVG wordmark supplied. 2026-10-16 app.napkin.ai 的官方登录索引显示 Google、邮箱和 SSO 登录，直接抓取返回依赖浏览器的应用壳或加载提示。仅确认应用主机名，不将页面壳视为登录后运行成功。 仅核验官方资料与公开入口，未登录测试内部功能或地域可用性。",
     "sources": [
       {
         "url": "https://www.napkin.ai/",
@@ -755,9 +775,13 @@
       {
         "url": "https://www.napkin.ai/assets/napkin-logo-2024.svg",
         "title": "Official website asset — original SVG asset"
+      },
+      {
+        "url": "https://app.napkin.ai/",
+        "title": "Napkin AI 官方应用与登录入口（依赖浏览器加载）"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-16"
   },
   "deepseek": {
     "notes": "仅统计 DeepSeek 聊天应用。官方另列 DeepSeek Harness 桌面产品，未混入本条。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / GUI。",
@@ -1204,7 +1228,7 @@
     "verified_at": "2026-10-13"
   },
   "gaoding": {
-    "notes": "未明确区分地区版本；不推断地域可用性。",
+    "notes": "未明确区分地区版本；不推断地域可用性。 2026-10-16 当前独立 AI 创作平台为 www.gaoding.art，公开页面提供 Agent、图片、视频与电商工具，页脚标注稿定（厦门）科技有限公司并链接回 www.gaoding.com 的协议和关于我们页面。原官网 /ai 来源保留作历史记录，不以旧页面推断当前应用域名。 仅核验官方资料与公开入口，未登录测试内部功能或地域可用性。",
     "sources": [
       {
         "url": "https://www.gaoding.com/ai",
@@ -1213,9 +1237,13 @@
       {
         "url": "https://www.gaoding.com/footer-logo.svg",
         "title": "稿定官网页尾品牌SVG"
+      },
+      {
+        "url": "https://www.gaoding.art/",
+        "title": "稿定AI 官方创作平台、公司主体及原官网交叉链接"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-16"
   },
   "meitu-design": {
     "notes": "未明确区分地区版本；不推断地域可用性。",
@@ -6692,7 +6720,7 @@
     "verified_at": "2026-10-11"
   },
   "beautiful-ai": {
-    "notes": "AI 演示文稿生成与团队演示编辑。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "notes": "AI 演示文稿生成与团队演示编辑。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。 2026-10-16 官网 Log in 链接指向 www.beautiful.ai/login；页面要求 JavaScript。官方 AI 创作指南说明从 My Presentations 进入 Create with AI，不推测 app 子域名。 仅核验官方资料与公开入口，未登录测试内部功能或地域可用性。",
     "sources": [
       {
         "url": "https://www.beautiful.ai/",
@@ -6705,12 +6733,16 @@
       {
         "url": "https://www.beautiful.ai/login",
         "title": "Beautiful.ai 官方浏览器应用入口（登录或模型交互）"
+      },
+      {
+        "url": "https://support.beautiful.ai/hc/en-us/articles/12885226948109-Creating-a-presentation-with-AI",
+        "title": "Beautiful.ai 官方 AI 演示文稿创作指南"
       }
     ],
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-16"
   },
   "slidesgo": {
-    "notes": "官方网站中的 AI 演示文稿创建与模板编辑；不将模板单列产品。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "notes": "官方网站中的 AI 演示文稿创建与模板编辑；不将模板单列产品。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。 2026-10-16 当前官方 AI Presentation Maker 在 slidesgo.com 上提供生成、调整内容和下载 PPTX 的流程；没有当前依据将旧版 Wepik、Google Slides 或 PowerPoint 作为本产品域名收录。 仅核验官方资料与公开入口，未登录测试内部功能或地域可用性。",
     "sources": [
       {
         "url": "https://slidesgo.com/ai/presentation-maker",
@@ -6721,10 +6753,10 @@
         "title": "Slidesgo 官方原始 PNG 品牌素材"
       }
     ],
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-16"
   },
   "krea": {
-    "notes": "Web AI 创作套件，提供图像、视频与 3D 创作。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "notes": "Web AI 创作套件，提供图像、视频与 3D 创作。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。 2026-10-16 www.krea.ai/login 提供 Google、Apple、SSO 和邮箱登录；实际应用与创作套件官网共用 www.krea.ai。 仅核验官方资料与公开入口，未登录测试内部功能或地域可用性。",
     "sources": [
       {
         "url": "https://www.krea.ai/",
@@ -6739,10 +6771,10 @@
         "title": "Krea 官方浏览器应用入口（登录或模型交互）"
       }
     ],
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-16"
   },
   "fal": {
-    "notes": "托管生成式媒体模型的浏览器 Playground；此条为可直接操作的 Web 界面，不将纯 API 或单个模型新增为应用。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "notes": "托管生成式媒体模型的浏览器 Playground；此条为可直接操作的 Web 界面，不将纯 API 或单个模型新增为应用。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。 2026-10-16 fal.ai 模型页面包含可视化 Playground 的 Prompt、Input、Result 和 Sign in to run；本条记录 Web 界面，不把模型单列为应用，也不加入 API 或媒体 CDN 域名。 仅核验官方资料与公开入口，未登录测试内部功能或地域可用性。",
     "sources": [
       {
         "url": "https://fal.ai/",
@@ -6755,12 +6787,16 @@
       {
         "url": "https://fal.ai/explore",
         "title": "fal 官方浏览器应用入口（登录或模型交互）"
+      },
+      {
+        "url": "https://fal.ai/models/fal-ai/flux/dev",
+        "title": "fal 官方 FLUX Playground：提示词表单与运行登录入口"
       }
     ],
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-16"
   },
   "higgsfield": {
-    "notes": "AI 创作工作空间，提供图像、视频与制作工具；模型和模板不单独建应用。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "notes": "AI 创作工作空间，提供图像、视频与制作工具；模型和模板不单独建应用。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。 2026-10-16 官方平台说明明确 higgsfield.ai 用于登录、生成和管理创作账号；open.higgsfield.ai 是独立 API 控制台，docs 和 MCP 主机也不计入本创作应用的域名数组。 仅核验官方资料与公开入口，未登录测试内部功能或地域可用性。",
     "sources": [
       {
         "url": "https://higgsfield.ai/",
@@ -6769,9 +6805,13 @@
       {
         "url": "https://static.higgsfield.ai/public/home/higgsfield-projects/higgs-icon.svg",
         "title": "Higgsfield 官方原始 SVG 品牌素材"
+      },
+      {
+        "url": "https://higgsfield.ai/creator-hub/help-center/getting-started/official-higgsfield-platforms",
+        "title": "Higgsfield 官方平台清单：创作网站与 API 控制台区分"
       }
     ],
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-16"
   },
   "fish-audio": {
     "notes": "浏览器语音合成、声音克隆与音频创作工作空间；不从模型仓库许可证推定托管服务开源。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
@@ -6816,7 +6856,7 @@
     "verified_at": "2026-10-11"
   },
   "uizard": {
-    "notes": "浏览器中的 AI 界面设计、原型与协作编辑。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "notes": "浏览器中的 AI 界面设计、原型与协作编辑。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。 2026-10-16 官网 Log in 与 Sign up 链接均指向 app.uizard.io；应用登录页为依赖 JavaScript 的浏览器界面，产品介绍主机 uizard.io 不作为编辑器主机记录。 仅核验官方资料与公开入口，未登录测试内部功能或地域可用性。",
     "sources": [
       {
         "url": "https://uizard.io/",
@@ -6831,7 +6871,7 @@
         "title": "Uizard 官方浏览器应用入口（登录或模型交互）"
       }
     ],
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-16"
   },
   "relevance-ai": {
     "notes": "Web 平台创建和运行专业 AI Agent 与工作流。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
