@@ -1,10 +1,10 @@
 {
   "schemaVersion": 7,
-  "dataVersion": "0.22",
+  "dataVersion": "0.23",
   "snapshotDate": "2026-10-16",
-  "source": "Agent Atlas verified application catalog; Chinese Web domain evidence integrated from PR #5 using hostname arrays",
+  "source": "Agent Atlas verified application catalog; seven app-building and automation Web application hostnames verified from official entry points",
   "verificationScope": "Official website/source review; not an installation or availability test",
-  "sourceCommit": "ae8cbd5ead7a8155ab4b8cedb8af24bb2656e23e",
+  "sourceCommit": "f60741f13c85508fc214712a9da1e5217129289f",
   "openSourceMetadataScope": "Verified per record ID; missing metadata means unverified, not closed-source. Repository pushes do not prove maintenance.",
   "interactionModel": "One independent application record per interaction form: GUI, CLI, IDE 插件, Web, 浏览器插件, 小程序. IM is a channel; DingTalk embedded AI capabilities belong to its GUI application.",
   "applicationScope": "Desktop and browser applications; mobile-only records excluded. Existing mini programs retained.",
