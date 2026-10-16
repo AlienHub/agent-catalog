@@ -1194,9 +1194,11 @@
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.coze.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "cursor",
@@ -1455,9 +1457,13 @@
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.dola.com",
+      "cici.com",
+      "www.ciciai.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "dreamina",
@@ -1480,9 +1486,11 @@
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "dreamina.capcut.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "duck-ai",
@@ -2294,9 +2302,11 @@
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "ima.qq.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "jan-cli",
@@ -2520,9 +2530,12 @@
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.kimi.com",
+      "kimi.moonshot.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "kimi-gui",
@@ -2785,9 +2798,11 @@
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.liblib.art"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "lm-studio",
@@ -2964,9 +2979,11 @@
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "agent.minimax.io"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "maxclaw-cn",
@@ -4388,9 +4405,11 @@
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "skywork.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "suno",
@@ -4546,9 +4565,11 @@
     "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "work.trae.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "trae-work-gui",
@@ -4601,9 +4622,11 @@
     "svg_status": "已核验SVG · Lobe Icons（TRAE 品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "work.trae.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "trae-work-cn-gui",
@@ -4702,9 +4725,12 @@
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.vidu.com",
+      "www.vidu.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "warp-cli",
@@ -4911,9 +4937,11 @@
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "ai.wps.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "writesonic",
@@ -5041,9 +5069,11 @@
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "wan.video"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "qianwen",
@@ -5069,9 +5099,11 @@
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.qianwen.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "qianwen-gui",
@@ -5318,10 +5350,11 @@
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [
-      "klingai.com"
+      "klingai.com",
+      "kling.ai"
     ],
     "web_domain_status": "verified",
-    "web_domain_verified_at": "2026-10-12"
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "miaohua",
@@ -5345,9 +5378,11 @@
     "svg_status": "未收录 SVG · 已收录 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "miaohua.sensetime.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "tiangong",
@@ -5370,9 +5405,11 @@
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.tiangong.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "get-biji",
@@ -5396,9 +5433,11 @@
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.biji.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "coze-cn",
@@ -5450,10 +5489,11 @@
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [
-      "wenxin.baidu.com"
+      "wenxin.baidu.com",
+      "yiyan.baidu.com"
     ],
     "web_domain_status": "verified",
-    "web_domain_verified_at": "2026-10-12"
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "comate",
@@ -5528,10 +5568,11 @@
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [
-      "chatglm.cn"
+      "chatglm.cn",
+      "www.chatglm.cn"
     ],
     "web_domain_status": "verified",
-    "web_domain_verified_at": "2026-10-12"
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "hailuo",
@@ -5554,9 +5595,12 @@
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "hailuoai.video",
+      "hailuoai.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "baixiaoyi",
@@ -5579,9 +5623,11 @@
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "yi.baichuan-ai.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "baidu-wenku",
@@ -5604,9 +5650,11 @@
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "wenku.baidu.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "metaso",
@@ -5736,9 +5784,11 @@
     "svg_status": "已核验SVG · Lobe Icons",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "yuanbao.tencent.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "iflywrite",
@@ -5788,9 +5838,11 @@
     "svg_status": "未找到可核验SVG",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.iflyrec.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "spark",
@@ -5814,10 +5866,11 @@
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [
-      "xinghuo.xfyun.cn"
+      "xinghuo.xfyun.cn",
+      "spark.xfyun.cn"
     ],
     "web_domain_status": "verified",
-    "web_domain_verified_at": "2026-10-12"
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "doubao",
@@ -7795,9 +7848,11 @@
     "svg_status": "已核验SVG · 官方来源",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "loomy.xunfei.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   },
   {
     "id": "vscode-desktop",
@@ -10602,5 +10657,148 @@
     "interfaces": [
       "GUI"
     ]
+  },
+  {
+    "id": "zhida",
+    "name": "知乎直答",
+    "aliases": [
+      "知乎直答",
+      "Zhida"
+    ],
+    "vendor": "知乎",
+    "type": "AI 搜索",
+    "website": "https://zhida.zhihu.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "zhihu",
+    "product_id": "zhida",
+    "svg_status": "未找到可核验SVG",
+    "interfaces": [
+      "Web"
+    ],
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "zhida.zhihu.com",
+      "zhida.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
+  },
+  {
+    "id": "tongyi-farui",
+    "name": "通义法睿",
+    "aliases": [
+      "法睿",
+      "Tongyi Farui"
+    ],
+    "vendor": "阿里巴巴 Alibaba",
+    "type": "办公助手",
+    "website": "https://tongyi.aliyun.com/farui",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "alibaba",
+    "product_id": "tongyi-farui",
+    "svg_status": "未找到可核验SVG",
+    "interfaces": [
+      "Web"
+    ],
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "tongyi.aliyun.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
+  },
+  {
+    "id": "shangliang",
+    "name": "商量",
+    "aliases": [
+      "商量",
+      "SenseChat"
+    ],
+    "vendor": "商汤科技 SenseTime",
+    "type": "通用助手",
+    "website": "https://chat.sensetime.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "sensetime",
+    "product_id": "shangliang",
+    "svg_status": "未找到可核验SVG",
+    "interfaces": [
+      "Web"
+    ],
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "chat.sensetime.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
+  },
+  {
+    "id": "biling",
+    "name": "笔灵AI",
+    "aliases": [
+      "笔灵",
+      "笔灵AI写作"
+    ],
+    "vendor": "笔灵",
+    "type": "AI 写作",
+    "website": "https://ibiling.cn/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "biling",
+    "product_id": "biling",
+    "svg_status": "未找到可核验SVG",
+    "interfaces": [
+      "Web"
+    ],
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "ibiling.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
+  },
+  {
+    "id": "tusi",
+    "name": "吐司",
+    "aliases": [
+      "吐司",
+      "tusi.cn",
+      "TusiArt"
+    ],
+    "vendor": "吐司",
+    "type": "图像生成",
+    "website": "https://tusi.cn/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "tusi",
+    "product_id": "tusi",
+    "svg_status": "未找到可核验SVG",
+    "interfaces": [
+      "Web"
+    ],
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "tusi.cn",
+      "tusiart.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-13"
   }
 ]
