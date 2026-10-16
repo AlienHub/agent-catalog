@@ -18,6 +18,8 @@ Use these commands in the Worker's Settings > Builds configuration, with `/` as 
 - Production deploy command: `npm run deploy:cloudflare`
 - Non-production command: `npm run check:cloudflare`
 
+The older `npm run preview:cloudflare` command remains an alias for the same dry-run validation because existing Cloudflare build triggers can retain that entry point. It does not upload or publish a preview.
+
 The build command generates the ignored `cloudflare/wrangler.jsonc` from build-time variables and builds the complete website with its canonical downloads. The root `npm run build` only builds the SDK and is insufficient for the hosted website. Both Wrangler commands use the repository's locked version and explicit unified Worker configuration. Non-production builds validate the Worker bundle and bindings with `deploy --dry-run`; they do not upload a version, publish a site, or enable public preview URLs. Production builds on `main` perform the actual upload and deployment. Do not use the default `npx wrangler preview`: this project has no `previews` block and does not use the separate Worker Previews model.
 
 The branch upload attempt on 2026-10-16 also failed the Workers Builds Worker-name/tag check even though the configured name and account matched production. A similar upstream report is tracked at https://github.com/cloudflare/workers-sdk/issues/15682. Do not unset `WRANGLER_CI_MATCH_TAG` to bypass that identity check. This pipeline requires build validation on branches and reserves real deployment for the production branch.

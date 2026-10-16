@@ -76,6 +76,7 @@
     "build:cloudflare": "node scripts/build-cloudflare.mjs",
     "build:cloudflare:ci": "node cloudflare/configure.mjs && npm run build:cloudflare",
     "check:cloudflare": "services/trends/node_modules/.bin/wrangler deploy --config cloudflare/wrangler.jsonc --no-autoconfig --dry-run",
+    "preview:cloudflare": "npm run check:cloudflare",
     "deploy:cloudflare": "npm run build:cloudflare && services/trends/node_modules/.bin/wrangler deploy --config cloudflare/wrangler.jsonc --no-autoconfig",
     "test:cloudflare": "node --test cloudflare/*.test.mjs"
   },
