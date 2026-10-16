@@ -1,0 +1,85 @@
+{
+  "reviewed_at": "2026-10-16",
+  "schemaVersion": 7,
+  "dataVersion": "0.23",
+  "base_commit": "f60741f13c85508fc214712a9da1e5217129289f",
+  "model": "web_domains: string[]; exact user-facing application hostnames",
+  "scope": "Official sources and public application/login entry points only; no authenticated functionality or regional availability testing. Entry URLs are evidence, not a new dataset field. No API, CDN, SSO, customer-published or whitelabel hostname inference.",
+  "counts": {
+    "web_records": 186,
+    "verified": 109,
+    "unverified": 55,
+    "self-hosted": 22
+  },
+  "records": [
+    {
+      "id": "bolt",
+      "domains": ["bolt.new"],
+      "entry_url": "https://bolt.new/",
+      "finding": "官方快速开始要求打开 bolt.new 输入需求并登录创建应用；实际应用与官网共用主机名。",
+      "sources": [
+        {"url": "https://support.bolt.new/building/quickstart", "title": "Bolt 官方快速开始：在 bolt.new 输入需求并创建应用"},
+        {"url": "https://bolt.new/login", "title": "Bolt 官方登录入口"}
+      ]
+    },
+    {
+      "id": "lovable-web",
+      "domains": ["lovable.dev"],
+      "entry_url": "https://lovable.dev/login",
+      "finding": "官网 Log in 链接指向 lovable.dev/login；仅记录实际应用主机名，不收录用户发布的 lovable.app 站点。",
+      "sources": [
+        {"url": "https://lovable.dev/login", "title": "Lovable 官方登录入口"}
+      ]
+    },
+    {
+      "id": "replit-web",
+      "domains": ["replit.com"],
+      "entry_url": "https://replit.com/~",
+      "finding": "工作区 /~ 未登录时跳转 replit.com/login?source=home&goto=/~；不将用户部署站点 replit.app 计为编辑器域名。",
+      "sources": [
+        {"url": "https://replit.com/~", "title": "Replit 官方工作区入口：未登录时跳转同域登录页"},
+        {"url": "https://replit.com/login", "title": "Replit 官方登录入口"}
+      ]
+    },
+    {
+      "id": "v0-web",
+      "domains": ["v0.app"],
+      "entry_url": "https://v0.app/",
+      "finding": "公开入口提供 New Chat、创建提示和登录操作；登录转到 Vercel OAuth，SSO 主机不计入实际应用域名。",
+      "sources": [
+        {"url": "https://v0.app/", "title": "v0 官方对话与应用构建入口"}
+      ]
+    },
+    {
+      "id": "framer-web",
+      "domains": ["framer.com"],
+      "entry_url": "https://framer.com/projects/",
+      "finding": "官网 Get started for free 最终转到 framer.com/login/，回跳工作区为 framer.com/projects/；不将 www.framer.com 介绍页或用户发布站点计为编辑器域名。",
+      "sources": [
+        {"url": "https://framer.com/projects/", "title": "Framer 官方项目工作区入口"},
+        {"url": "https://framer.com/login/?origin=framer-web&redirect=https://framer.com/projects/", "title": "Framer 官方工作区登录及回跳地址"}
+      ]
+    },
+    {
+      "id": "gumloop",
+      "domains": ["www.gumloop.com"],
+      "entry_url": "https://www.gumloop.com/personal/home",
+      "finding": "/hub 跳转至同域 /personal/home，公开页面包含 Create Agent、Most Used Agents 和 Upcoming Triggers；仅记录已确认的 www 主机，不推测 app 子域名。",
+      "sources": [
+        {"url": "https://www.gumloop.com/personal/home", "title": "Gumloop 官方工作区首页：Agent 与触发器"},
+        {"url": "https://www.gumloop.com/hub", "title": "Gumloop 旧 Hub 入口：跳转至 personal/home"}
+      ]
+    },
+    {
+      "id": "highlevel-web",
+      "domains": ["app.gohighlevel.com"],
+      "entry_url": "https://app.gohighlevel.com/",
+      "finding": "官方帮助明确 app.gohighlevel.com 是标准登录及应用入口；客户自定义白标域名不作全局枚举，官网 www.gohighlevel.com 不计为应用域名。",
+      "sources": [
+        {"url": "https://app.gohighlevel.com/", "title": "HighLevel 官方标准 Web 应用入口"},
+        {"url": "https://help.gohighlevel.com/support/solutions/articles/48000982207-how-to-set-up-a-whitelabel-domain-for-the-desktop-web-app", "title": "HighLevel 官方帮助：标准应用域名与客户白标域名区分"},
+        {"url": "https://help.gohighlevel.com/support/solutions/articles/48001207047", "title": "HighLevel 官方登录故障说明：app.gohighlevel.com"}
+      ]
+    }
+  ]
+}

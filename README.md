@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.22（2026-10-16），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.23（2026-10-16），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -423,3 +423,9 @@ Logo 均为官方原始 SVG：Xiryn 官网 `icon.svg`、Kai 官网 `icon.svg`、
 在 Schema v7 的 `web_domains: string[]` 模型下吸收 PR #5 的来源与数据，新增知乎直答、通义法睿、商量、笔灵AI、吐司 5 条 Web 应用，并补充 27 条既有应用的域名。共 422 条应用、186 条 Web 应用；其中 102 条域名已核验、62 条待核验、22 条本地或自托管。
 
 同一应用的多个域名直接保存在数组中，旧域名和地区入口的说明保留在证据记录里。TRAE Work 的实际 Web 域名纠正为 `work.trae.ai`，官网介绍页 `www.trae.ai/work` 不作为应用域名。无界AI 当前官网对应桌面助手，缺少该产品 Web 形态的依据，本次暂不收录。新增条目的 Logo 留空，既有图标与主线新增应用均保留。来源、公开页面复核结果和范围说明见 `docs/research/chinese-web-domains-integration-2026-10-16.json`；历史审计保留原始范围，复核未包含登录、安装或地区可用性测试。
+
+## v0.23 应用构建与自动化域名补齐
+
+补齐 Bolt、Lovable、Replit、v0、Framer、Gumloop、HighLevel 7 条既有 Web 应用的实际使用域名，并同步官方入口来源、核验日期与范围说明。域名已核验的 Web 应用由 102 条增至 109 条，待核验由 62 条降至 55 条；总数仍为 422 条应用、186 条 Web 应用，另有 22 条本地或自托管 Web 应用。
+
+Framer 使用 `framer.com` 项目工作区，Gumloop 使用 `www.gumloop.com` 工作区，HighLevel 使用 `app.gohighlevel.com` 标准入口。仅收录已确认的完整主机名，不推测 API、CDN、SSO、用户发布站点或客户白标域名。完整入口 URL 保存在来源与复核记录中，`web_domains` 继续为字符串数组。复核记录见 `docs/research/web-builder-domain-review-2026-10-16.json`；本轮未登录测试内部功能或地域可用性。

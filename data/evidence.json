@@ -2162,7 +2162,7 @@
     "verified_at": "2026-10-02"
   },
   "replit-web": {
-    "notes": "",
+    "notes": "2026-10-16 Web domain review: 工作区 /~ 未登录时跳转 replit.com/login?source=home&goto=/~；不将用户部署站点 replit.app 计为编辑器域名。 Official sources/public entry points only; no authenticated functionality or regional availability testing.",
     "sources": [
       {
         "url": "https://replit.com",
@@ -2171,9 +2171,17 @@
       {
         "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/replit-color.svg",
         "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://replit.com/~",
+        "title": "Replit 官方工作区入口：未登录时跳转同域登录页"
+      },
+      {
+        "url": "https://replit.com/login",
+        "title": "Replit 官方登录入口"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-16"
   },
   "replit-desktop": {
     "notes": "",
@@ -2194,7 +2202,7 @@
     "verified_at": "2026-10-02"
   },
   "bolt": {
-    "notes": "",
+    "notes": "2026-10-16 Web domain review: 官方快速开始要求打开 bolt.new 输入需求并登录创建应用；实际应用与官网共用主机名。 Official sources/public entry points only; no authenticated functionality or regional availability testing.",
     "sources": [
       {
         "url": "https://bolt.new",
@@ -2203,12 +2211,20 @@
       {
         "url": "https://bolt.new/static/favicon.svg",
         "title": "Official website favicon"
+      },
+      {
+        "url": "https://support.bolt.new/building/quickstart",
+        "title": "Bolt 官方快速开始：在 bolt.new 输入需求并创建应用"
+      },
+      {
+        "url": "https://bolt.new/login",
+        "title": "Bolt 官方登录入口"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-16"
   },
   "lovable-web": {
-    "notes": "",
+    "notes": "2026-10-16 Web domain review: 官网 Log in 链接指向 lovable.dev/login；仅记录实际应用主机名，不收录用户发布的 lovable.app 站点。 Official sources/public entry points only; no authenticated functionality or regional availability testing.",
     "sources": [
       {
         "url": "https://lovable.dev",
@@ -2217,9 +2233,13 @@
       {
         "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/lovable-color.svg",
         "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://lovable.dev/login",
+        "title": "Lovable 官方登录入口"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-16"
   },
   "lovable-desktop": {
     "notes": "",
@@ -2240,7 +2260,7 @@
     "verified_at": "2026-10-02"
   },
   "v0-web": {
-    "notes": "",
+    "notes": "2026-10-16 Web domain review: 公开入口提供 New Chat、创建提示和登录操作；登录转到 Vercel OAuth，SSO 主机不计入实际应用域名。 Official sources/public entry points only; no authenticated functionality or regional availability testing.",
     "sources": [
       {
         "url": "https://v0.app",
@@ -2249,9 +2269,13 @@
       {
         "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/v0.svg",
         "title": "Lobe Icons · matching product icon"
+      },
+      {
+        "url": "https://v0.app/",
+        "title": "v0 官方对话与应用构建入口"
       }
     ],
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-16"
   },
   "aider": {
     "notes": "开源终端结对编程工具；未发现停服/归档声明",
@@ -6882,7 +6906,7 @@
     "verified_at": "2026-10-11"
   },
   "gumloop": {
-    "notes": "在浏览器构建 AI Agent 和自动化工作流。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。",
+    "notes": "在浏览器构建 AI Agent 和自动化工作流。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 官方品牌资产归权利人，未推定商标许可。 2026-10-16 Web domain review: /hub 跳转至同域 /personal/home，公开页面包含 Create Agent、Most Used Agents 和 Upcoming Triggers；仅记录已确认的 www 主机，不推测 app 子域名。 Official sources/public entry points only; no authenticated functionality or regional availability testing.",
     "sources": [
       {
         "url": "https://www.gumloop.com/",
@@ -6891,9 +6915,17 @@
       {
         "url": "https://www.gumloop.com/brand/Wordmark.svg",
         "title": "Gumloop 官方原始 SVG 品牌素材"
+      },
+      {
+        "url": "https://www.gumloop.com/personal/home",
+        "title": "Gumloop 官方工作区首页：Agent 与触发器"
+      },
+      {
+        "url": "https://www.gumloop.com/hub",
+        "title": "Gumloop 旧 Hub 入口：跳转至 personal/home"
       }
     ],
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-16"
   },
   "sider-browser-extension": {
     "notes": "Sider / ChatGPT Sidebar；官网Chrome及Edge链接交叉核验。浏览器内聊天、网页总结、Hand网页自动化与Code网站定制属于同一扩展功能，不拆为重复应用。 商店ID按官网安装入口与发布者核验，空值表示未确认。资料核验不等于安装、安全或功能测试。品牌素材不推定额外商标授权。",
@@ -7670,7 +7702,7 @@
     "verified_at": "2026-10-11"
   },
   "framer-web": {
-    "notes": "官网当前AI design agent与网页设计工具；使用官网原始favicon，应用入口见官方页面。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "notes": "官网当前AI design agent与网页设计工具；使用官网原始favicon，应用入口见官方页面。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。 2026-10-16 Web domain review: 官网 Get started for free 最终转到 framer.com/login/，回跳工作区为 framer.com/projects/；不将 www.framer.com 介绍页或用户发布站点计为编辑器域名。 Official sources/public entry points only; no authenticated functionality or regional availability testing.",
     "sources": [
       {
         "url": "https://openrouter.ai/apps/framer",
@@ -7683,9 +7715,17 @@
       {
         "url": "https://framerusercontent.com/images/Io89FonxEaWg4nxvQQllVLwPUUI.png",
         "title": "官方原始 PNG 品牌素材"
+      },
+      {
+        "url": "https://framer.com/projects/",
+        "title": "Framer 官方项目工作区入口"
+      },
+      {
+        "url": "https://framer.com/login/?origin=framer-web&redirect=https://framer.com/projects/",
+        "title": "Framer 官方工作区登录及回跳地址"
       }
     ],
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-16"
   },
   "gdevelop-desktop": {
     "notes": "官方桌面下载页列出三个系统。AI助教与游戏生成属于本体功能；移动端不收录。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
@@ -7798,7 +7838,7 @@
     "verified_at": "2026-10-11"
   },
   "highlevel-web": {
-    "notes": "官方AI Employee、AI营销/销售与工作流平台。应用内能力不逐个生成产品。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "notes": "官方AI Employee、AI营销/销售与工作流平台。应用内能力不逐个生成产品。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。 2026-10-16 Web domain review: 官方帮助明确 app.gohighlevel.com 是标准登录及应用入口；客户自定义白标域名不作全局枚举，官网 www.gohighlevel.com 不计为应用域名。 Official sources/public entry points only; no authenticated functionality or regional availability testing.",
     "sources": [
       {
         "url": "https://openrouter.ai/apps",
@@ -7811,9 +7851,21 @@
       {
         "url": "https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/62b48689c85eccb36ca941fc.png",
         "title": "官方原始 PNG 品牌素材"
+      },
+      {
+        "url": "https://app.gohighlevel.com/",
+        "title": "HighLevel 官方标准 Web 应用入口"
+      },
+      {
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48000982207-how-to-set-up-a-whitelabel-domain-for-the-desktop-web-app",
+        "title": "HighLevel 官方帮助：标准应用域名与客户白标域名区分"
+      },
+      {
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48001207047",
+        "title": "HighLevel 官方登录故障说明：app.gohighlevel.com"
       }
     ],
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-16"
   },
   "letta-code-cli": {
     "notes": "CLI命令letta；本轮系统列表留空，不按Node可运行推断完整兼容性。 品牌素材被单独排除于代码许可，未收Logo。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",

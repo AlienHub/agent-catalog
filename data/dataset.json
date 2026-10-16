@@ -450,9 +450,11 @@
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "bolt.new"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "brave-leo",
@@ -2904,9 +2906,11 @@
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "lovable.dev"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "lovable-desktop",
@@ -4326,9 +4330,11 @@
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "replit.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "replit-desktop",
@@ -4700,9 +4706,11 @@
     "svg_status": "已验证 SVG · 图标库",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "v0.app"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "vidu",
@@ -8860,9 +8868,11 @@
     "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "www.gumloop.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "sider-browser-extension",
@@ -9822,9 +9832,11 @@
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "framer.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "gdevelop-desktop",
@@ -9970,9 +9982,11 @@
     "svg_status": "未收录 SVG · 已核验 PNG（位图）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
-    "web_domains": [],
-    "web_domain_status": "unverified",
-    "web_domain_verified_at": ""
+    "web_domains": [
+      "app.gohighlevel.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-16"
   },
   {
     "id": "letta-code-cli",
