@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="24" viewBox="0 0 19 24" fill="none" fill-rule="nonzero">
+  <title>讯飞写作图标</title>
+  <defs>
+        <linearGradient x1="1.55469055%" y1="61.9836119%" x2="98.274124%" y2="38.1082088%" id="linearGradient-1">
+            <stop stop-color="#0039FF" offset="0%"></stop>
+            <stop stop-color="#009BFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-26.7342081%" y1="87.9825354%" x2="329.507297%" y2="-88.2752155%" id="linearGradient-2">
+            <stop stop-color="#00FFE1" offset="0%"></stop>
+            <stop stop-color="#1FFFD8" offset="5.46798%"></stop>
+            <stop stop-color="#53FFC8" offset="15.55%"></stop>
+            <stop stop-color="#81FFBA" offset="26.09%"></stop>
+            <stop stop-color="#A8FFAF" offset="36.87%"></stop>
+            <stop stop-color="#C8FFA6" offset="47.94%"></stop>
+            <stop stop-color="#E0FF9E" offset="59.4%"></stop>
+            <stop stop-color="#F1FF99" offset="71.42%"></stop>
+            <stop stop-color="#FCFF96" offset="84.35%"></stop>
+            <stop stop-color="#FFFF95" offset="99.85%"></stop>
+        </linearGradient>
+        <linearGradient x1="-72.2262422%" y1="112.437182%" x2="116.179969%" y2="16.2655095%" id="linearGradient-3">
+            <stop stop-color="#0039FF" offset="0%"></stop>
+            <stop stop-color="#009BFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+  <g>
+    <path d="M14.4219227,0.253462077 C14.3595541,0.284598272 14.3075803,0.315734466 14.2452117,0.33649193 L2.2496492,5.25601071 C2.18728059,5.28714691 2.13530675,5.28714691 2.07293814,5.3182831 C0.36819616,6.02403685 -0.452990525,7.95448093 0.25385371,9.64621418 C0.960697946,11.3483262 2.89412483,12.168246 4.58847204,11.4624922 L16.9270619,6.39767119 C18.6318038,5.69191744 19.4529905,3.76147336 18.7461463,2.06974011 C18.0912759,0.367628125 16.1266647,-0.452291673 14.4219227,0.253462077 Z" id="路径" fill="url(#linearGradient-1)"></path>
+                    <path d="M10.8253329,8.88856678 L10.8253329,8.88856678 L10.8253329,8.88856678 L4.67163018,11.431356 C2.9668882,12.1371098 2.14570152,14.0675538 2.85254575,15.7592871 C3.55938999,17.4613991 5.49281687,18.2813189 7.18716408,17.5755651 C7.24953269,17.5444289 7.30150653,17.5132927 7.36387514,17.4925353 L13.1641558,15.0950483 C13.2265244,15.0639121 13.2784982,15.0639121 13.3408668,15.0327759 C15.0456088,14.3270221 15.8667955,12.3965781 15.1599513,10.7048448 C14.453107,9.01311156 12.5196802,8.19319176 10.8253329,8.88856678 Z" id="路径" fill="url(#linearGradient-2)"></path>
+                    <ellipse id="椭圆形" fill="url(#linearGradient-3)" cx="8.44493103" cy="20.6580484" rx="3.34711535" ry="3.34195158"></ellipse>
+  </g>
+</svg>

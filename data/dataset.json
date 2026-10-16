@@ -5974,13 +5974,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/iflywrite.svg",
     "vendor_id": "iflytek",
     "product_id": "iflywrite",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "官方 SVG（移除文字，仅保留图标）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_url": "https://huixie.iflyrec.com/",
