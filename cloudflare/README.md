@@ -24,7 +24,7 @@ The branch upload attempt on 2026-10-16 also failed the Workers Builds Worker-na
 
 Set `PUBLIC_ACCESS=true`, the existing `D1_DATABASE_ID`, `CLOUDFLARE_ACCOUNT_ID`, and `ATLAS_ORIGIN=https://agent-atlas.pindo.page` as build-time variables for both production and non-production builds. They can be saved as build variables or prefixed to the final `npm run build:cloudflare:ci` command. Keep `COLLECTION_ENABLED=false` unless collection has been explicitly enabled. These are configuration values; authentication tokens remain in Cloudflare's selected build token and Worker Secrets. Missing access mode or database identity fails configuration generation before upload.
 
-After changing these settings, retry a non-production build to verify the build and dry-run, then verify an actual production build of the current `main` commit. A successful branch build confirms validation only, not a cloud upload.
+After changing these settings, trigger a new non-production build from a new commit to verify the build and dry-run, then verify an actual production build of the current `main` commit. Retrying an old build reuses its original command snapshot, including outdated commands. A successful branch build confirms validation only, not a cloud upload.
 
 Keep collection disabled until the public website and API are verified. Configure `GITHUB_TOKEN` through the Worker Secret UI or the hidden `wrangler secret put GITHUB_TOKEN --config cloudflare/wrangler.jsonc` prompt. Never put credential values in code, command arguments or logs. After verification, regenerate with `COLLECTION_ENABLED=true` and deploy; the daily seven-shard Cron is `17-23 3 * * *` (11:17–11:23 Asia/Shanghai). This generates genuine samples only, without fabricating historical data.
 
