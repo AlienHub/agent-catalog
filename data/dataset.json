@@ -10836,5 +10836,354 @@
     ],
     "web_domain_status": "verified",
     "web_domain_verified_at": "2026-10-13"
+  },
+
+  {
+    "id": "orca-desktop",
+    "name": "Orca",
+    "aliases": [],
+    "vendor": "Stably AI / Lovecast Inc.",
+    "type": "AI 编程",
+    "website": "https://orca.dev",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "stably-ai",
+    "product_id": "orca",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "pilotdeck-cli",
+    "name": "PilotDeck",
+    "aliases": [],
+    "vendor": "OpenBMB / THUNLP / 面壁智能",
+    "type": "通用任务 Agent",
+    "website": "https://pilotdeck.openbmb.cn",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/pilotdeck.svg",
+    "vendor_id": "openbmb",
+    "product_id": "pilotdeck",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "pilotdeck-desktop",
+    "name": "PilotDeck",
+    "aliases": [],
+    "vendor": "OpenBMB / THUNLP / 面壁智能",
+    "type": "通用任务 Agent",
+    "website": "https://pilotdeck.openbmb.cn",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/pilotdeck.svg",
+    "vendor_id": "openbmb",
+    "product_id": "pilotdeck",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "pilotdeck-web",
+    "name": "PilotDeck",
+    "aliases": [],
+    "vendor": "OpenBMB / THUNLP / 面壁智能",
+    "type": "通用任务 Agent",
+    "website": "https://pilotdeck.openbmb.cn",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/pilotdeck.svg",
+    "vendor_id": "openbmb",
+    "product_id": "pilotdeck",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "openbitfun-desktop",
+    "name": "OpenBitFun",
+    "aliases": [],
+    "vendor": "CWing",
+    "type": "通用任务 Agent",
+    "website": "https://openbitfun.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "gcwing",
+    "product_id": "openbitfun",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "openbitfun-cli",
+    "name": "OpenBitFun",
+    "aliases": [],
+    "vendor": "CWing",
+    "type": "通用任务 Agent",
+    "website": "https://openbitfun.com",
+    "platforms": [
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "gcwing",
+    "product_id": "openbitfun",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "craft-agents-desktop",
+    "name": "Craft Agents",
+    "aliases": [],
+    "vendor": "Craft",
+    "type": "通用任务 Agent",
+    "website": "https://agents.craft.do",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/craft-agents.svg",
+    "vendor_id": "craft-do",
+    "product_id": "craft-agents",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "openharness-desktop",
+    "name": "Harness",
+    "aliases": [
+      "OpenHarness"
+    ],
+    "vendor": "Autonomous",
+    "type": "AI 编程",
+    "website": "https://www.autonomous.ai/harness",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "autonomous",
+    "product_id": "openharness",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "openharness-cli",
+    "name": "Harness",
+    "aliases": [
+      "OpenHarness",
+      "hn"
+    ],
+    "vendor": "Autonomous",
+    "type": "AI 编程",
+    "website": "https://www.autonomous.ai/harness",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "autonomous",
+    "product_id": "openharness",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "talorys-web",
+    "name": "Talorys",
+    "aliases": [],
+    "vendor": "Roc Yu",
+    "type": "通用任务 Agent",
+    "website": "https://rociiu.github.io/talorys/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/talorys.svg",
+    "vendor_id": "rociiu",
+    "product_id": "talorys",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "openmuse-web",
+    "name": "OpenMuse",
+    "aliases": [],
+    "vendor": "CopilotKit",
+    "type": "通用任务 Agent",
+    "website": "https://www.copilotkit.ai/openmuse",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "copilotkit",
+    "product_id": "openmuse",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "reason-agent-web",
+    "name": "Reason Agent",
+    "aliases": [
+      "Reason"
+    ],
+    "vendor": "Reason Machines / Ara Software, Inc.",
+    "type": "AI 编程",
+    "website": "https://reasonmachines.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/reason-agent.svg",
+    "vendor_id": "reason-machines",
+    "product_id": "reason-agent",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "reasonmachines.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-19"
+  },
+  {
+    "id": "reason-agent-desktop",
+    "name": "Reason Agent",
+    "aliases": [
+      "Reason",
+      "Reason for macOS"
+    ],
+    "vendor": "Reason Machines / Ara Software, Inc.",
+    "type": "AI 编程",
+    "website": "https://reasonmachines.com/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/reason-agent.svg",
+    "vendor_id": "reason-machines",
+    "product_id": "reason-agent",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "viktor-web",
+    "name": "Viktor",
+    "aliases": [],
+    "vendor": "Zeta AI, Inc.",
+    "type": "通用任务 Agent",
+    "website": "https://viktor.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "zeta-ai",
+    "product_id": "viktor",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.viktor.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-19"
   }
 ]

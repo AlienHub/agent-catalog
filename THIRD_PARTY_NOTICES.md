@@ -97,3 +97,14 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | `assets/icons/kai.svg` | [Kai 官网 `icon.svg`](https://hirekai.ai/icon.svg) | `2456f43a74656eaf69966411e8c0e07fa2bbe3b8600438b057fc7c9786721c25` |
 | `assets/icons/sugabots.svg` | [nitrictech/sugabots `packages/avatars/assets/sugabots-logo.svg`](https://raw.githubusercontent.com/nitrictech/sugabots/main/packages/avatars/assets/sugabots-logo.svg) | `6206c3b176dd1577eb43a19d3c9ca7850a88f4e2c061d0c9266ce01562f574b2` |
 | `assets/icons/agency-orchestrator.svg` | [jnMetaCode/agency-orchestrator `website/public/logo/ao-mark.svg`](https://raw.githubusercontent.com/jnMetaCode/agency-orchestrator/main/website/public/logo/ao-mark.svg) | `70c6adc54590a004cb4aa278aec64149bd8eabccf057c5b60c43c4710627ae4d` |
+
+## v0.25 Logo 收录（2026-10-19）
+
+本批 SVG 均原样保存，未重绘。官方站点或官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/pilotdeck.svg` | [OpenBMB/PilotDeck `ui/public/favicon.svg`](https://raw.githubusercontent.com/OpenBMB/PilotDeck/main/ui/public/favicon.svg) | `faf9bf99a84f4c71aa871787d8a943068fc63f2e9e18174de015382d7c4510b8` |
+| `assets/icons/craft-agents.svg` | [Craft Agents 官网 `favicon.svg`](https://agents.craft.do/favicon.svg) | `8034ba25c97ad91dab975f742be4638321e24488cba6733927ccd9f817efa655` |
+| `assets/icons/talorys.svg` | [Talorys 官网 `favicon.svg`](https://rociiu.github.io/talorys/favicon.svg) | `724567dcf4d2a34ed36eb83dc83858c87d7b26ce7ec07e6308cda80732ca4ee0` |
+| `assets/icons/reason-agent.svg` | [Reason 官网 `favicon.svg`](https://reasonmachines.com/favicon.svg) | `342a4a7f2f4ba9264d7359befd3cb1bc505bd979cc795f895dac085a6db06c1f` |

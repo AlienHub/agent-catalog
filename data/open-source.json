@@ -2726,5 +2726,270 @@
         "title": "Official desktop release assets"
       }
     ]
+  },
+
+  "orca-desktop": {
+    "repository_url": "https://github.com/stablyai/orca",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/stablyai/orca/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-19",
+      "github_archived": false,
+      "last_push_at": "2026-10-19T01:19:15Z"
+    },
+    "classification": "runnable-application-and-harness",
+    "notes": "LICENSE 正文为 MIT。结论仅限已核查的公开仓库源码；桌面发行与附带 CLI 同源。",
+    "sources": [
+      {
+        "url": "https://github.com/stablyai/orca/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/stablyai/orca/blob/main/README.md",
+        "title": "Official README; desktop application"
+      }
+    ]
+  },
+  "pilotdeck-cli": {
+    "repository_url": "https://github.com/OpenBMB/PilotDeck",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/OpenBMB/PilotDeck/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-19",
+      "github_archived": false,
+      "last_push_at": "2026-10-18T08:56:34Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 GNU AGPL v3.0。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck/blob/main/LICENSE",
+        "title": "Official GNU AGPL v3.0"
+      },
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck/blob/main/README.md",
+        "title": "Official README; Web / CLI / desktop"
+      }
+    ]
+  },
+  "pilotdeck-desktop": {
+    "repository_url": "https://github.com/OpenBMB/PilotDeck",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/OpenBMB/PilotDeck/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-19",
+      "github_archived": false,
+      "last_push_at": "2026-10-18T08:56:34Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 GNU AGPL v3.0。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck/blob/main/LICENSE",
+        "title": "Official GNU AGPL v3.0"
+      },
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck/blob/main/README.md",
+        "title": "Official README; Web / CLI / desktop"
+      }
+    ]
+  },
+  "pilotdeck-web": {
+    "repository_url": "https://github.com/OpenBMB/PilotDeck",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/OpenBMB/PilotDeck/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-19",
+      "github_archived": false,
+      "last_push_at": "2026-10-18T08:56:34Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 GNU AGPL v3.0。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck/blob/main/LICENSE",
+        "title": "Official GNU AGPL v3.0"
+      },
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck/blob/main/README.md",
+        "title": "Official README; Web / CLI / desktop"
+      }
+    ]
+  },
+  "openbitfun-desktop": {
+    "repository_url": "https://github.com/GCWing/OpenBitFun",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/GCWing/OpenBitFun/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-19",
+      "github_archived": false,
+      "last_push_at": "2026-10-19T01:10:33Z"
+    },
+    "classification": "runnable-application-and-harness",
+    "notes": "LICENSE 正文为 MIT。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/GCWing/OpenBitFun/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/GCWing/OpenBitFun/blob/main/README.md",
+        "title": "Official README; desktop and CLI"
+      }
+    ]
+  },
+  "openbitfun-cli": {
+    "repository_url": "https://github.com/GCWing/OpenBitFun",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/GCWing/OpenBitFun/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-19",
+      "github_archived": false,
+      "last_push_at": "2026-10-19T01:10:33Z"
+    },
+    "classification": "runnable-application-and-harness",
+    "notes": "LICENSE 正文为 MIT。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/GCWing/OpenBitFun/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/GCWing/OpenBitFun/blob/main/README.md",
+        "title": "Official README; desktop and CLI"
+      }
+    ]
+  },
+  "craft-agents-desktop": {
+    "repository_url": "https://github.com/craft-ai-agents/craft-agents-oss",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/craft-ai-agents/craft-agents-oss/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-19",
+      "github_archived": false,
+      "last_push_at": "2026-10-16T04:37:29Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 Apache License 2.0。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/craft-ai-agents/craft-agents-oss/blob/main/LICENSE",
+        "title": "Official Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/craft-ai-agents/craft-agents-oss/blob/main/README.md",
+        "title": "Official README; desktop application"
+      }
+    ]
+  },
+  "openharness-desktop": {
+    "repository_url": "https://github.com/autonomous-ai/openharness",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/autonomous-ai/openharness/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-19",
+      "github_archived": false,
+      "last_push_at": "2026-10-19T00:55:30Z"
+    },
+    "classification": "runnable-application-and-harness",
+    "notes": "LICENSE 正文为 MIT。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/autonomous-ai/openharness/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/autonomous-ai/openharness/blob/main/README.md",
+        "title": "Official README; desktop app and hn CLI"
+      }
+    ]
+  },
+  "openharness-cli": {
+    "repository_url": "https://github.com/autonomous-ai/openharness",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/autonomous-ai/openharness/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-19",
+      "github_archived": false,
+      "last_push_at": "2026-10-19T00:55:30Z"
+    },
+    "classification": "runnable-application-and-harness",
+    "notes": "LICENSE 正文为 MIT。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/autonomous-ai/openharness/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/autonomous-ai/openharness/blob/main/README.md",
+        "title": "Official README; desktop app and hn CLI"
+      }
+    ]
+  },
+  "talorys-web": {
+    "repository_url": "https://github.com/rociiu/talorys",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/rociiu/talorys/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-19",
+      "github_archived": false,
+      "last_push_at": "2026-10-19T00:20:10Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/rociiu/talorys/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/rociiu/talorys/blob/main/README.md",
+        "title": "Official README; self-hosted Web agent"
+      }
+    ]
+  },
+  "openmuse-web": {
+    "repository_url": "https://github.com/CopilotKit/openmuse",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/CopilotKit/openmuse/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-19",
+      "github_archived": false,
+      "last_push_at": "2026-10-15T23:55:54Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT。结论仅限已核查的公开仓库源码；CopilotKit Intelligence 为独立服务，不在该许可证内。",
+    "sources": [
+      {
+        "url": "https://github.com/CopilotKit/openmuse/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/CopilotKit/openmuse/blob/main/README.md",
+        "title": "Official README; self-hosted Web application"
+      }
+    ]
   }
 }

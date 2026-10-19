@@ -3949,8 +3949,123 @@
         }
       ],
       "notes": "2026-10-14 新增自托管 Web；官网演示不是统一公共应用域名。"
+    },
+    {
+      "id": "pilotdeck-web",
+      "name": "PilotDeck",
+      "website": "https://pilotdeck.openbmb.cn",
+      "status": "self-hosted",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://pilotdeck.openbmb.cn",
+          "title": "PilotDeck 官方网站"
+        },
+        {
+          "url": "https://github.com/OpenBMB/PilotDeck/blob/main/README.md",
+          "title": "官方 README：本机 Web UI localhost:3001"
+        },
+        {
+          "url": "https://github.com/OpenBMB/PilotDeck/blob/main/LICENSE",
+          "title": "官方 LICENSE：GNU AGPL v3.0"
+        }
+      ],
+      "notes": "2026-10-19 新增自托管 Web；官网不是统一公共应用域名。"
+    },
+    {
+      "id": "talorys-web",
+      "name": "Talorys",
+      "website": "https://rociiu.github.io/talorys/",
+      "status": "self-hosted",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://rociiu.github.io/talorys/",
+          "title": "Talorys 官方站点"
+        },
+        {
+          "url": "https://github.com/rociiu/talorys/blob/main/README.md",
+          "title": "官方 README：部署到使用者自己的 Cloudflare Pages"
+        },
+        {
+          "url": "https://github.com/rociiu/talorys/releases/tag/create-talorys%400.1.7",
+          "title": "GitHub Releases · create-talorys@0.1.7"
+        }
+      ],
+      "notes": "2026-10-19 新增自托管 Web；无统一公共应用域名。"
+    },
+    {
+      "id": "openmuse-web",
+      "name": "OpenMuse",
+      "website": "https://www.copilotkit.ai/openmuse",
+      "status": "self-hosted",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.copilotkit.ai/openmuse",
+          "title": "OpenMuse 官方产品页"
+        },
+        {
+          "url": "https://github.com/CopilotKit/openmuse/blob/main/README.md",
+          "title": "官方 README：localhost:8081 与 Render 自托管"
+        },
+        {
+          "url": "https://github.com/CopilotKit/openmuse/blob/main/LICENSE",
+          "title": "官方 LICENSE：MIT"
+        }
+      ],
+      "notes": "2026-10-19 新增自托管 Web；无统一公共应用域名。"
+    },
+    {
+      "id": "reason-agent-web",
+      "name": "Reason Agent",
+      "website": "https://reasonmachines.com/",
+      "status": "verified",
+      "domains": [
+        "reasonmachines.com"
+      ],
+      "sources": [
+        {
+          "url": "https://reasonmachines.com/",
+          "title": "Reason 官方首页"
+        },
+        {
+          "url": "https://reasonmachines.com/agents",
+          "title": "已核验实际 Web 应用 URL"
+        },
+        {
+          "url": "https://reasonmachines.com/blog/introducing-reason-agent-1-1",
+          "title": "官方博客：Reason Agent 1.1"
+        }
+      ],
+      "notes": "2026-10-19 新增已核验 Web 入口 reasonmachines.com/agents。"
+    },
+    {
+      "id": "viktor-web",
+      "name": "Viktor",
+      "website": "https://viktor.com/",
+      "status": "verified",
+      "domains": [
+        "app.viktor.com"
+      ],
+      "sources": [
+        {
+          "url": "https://viktor.com/",
+          "title": "Viktor 官方首页"
+        },
+        {
+          "url": "https://app.viktor.com/",
+          "title": "已核验实际 Web 应用 URL"
+        },
+        {
+          "url": "https://viktor.com/impressum",
+          "title": "官方 Impressum：Zeta AI, Inc."
+        }
+      ],
+      "notes": "2026-10-19 新增已核验 Web 入口 app.viktor.com。"
     }
   ],
   "added_web_records_20261013": 4,
-  "added_web_records_20261014": 4
+  "added_web_records_20261014": 4,
+  "added_web_records_20261019": 5
 }
