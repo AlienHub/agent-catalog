@@ -8594,5 +8594,386 @@
       }
     ],
     "verified_at": "2026-10-13"
+  },
+
+  "orca-desktop": {
+    "notes": "Stably AI / Lovecast Inc. 开源桌面 ADE：在隔离 git worktree 中并行运行 Claude Code、Codex、OpenCode 等 CLI Agent。官方 README 与 Releases 确认 macOS（arm64/x64 DMG、ZIP）、Windows（orca-windows-setup.exe）与 Linux（AppImage、deb、rpm）桌面发行资产。最新 GitHub Release 为 v1.4.229（2026-10-17）。LICENSE 正文为 MIT，版权 Lovecast Inc.。仓库描述含 mobile 与 remote runtime；移动端不在目录范围。官方 CLI 文档写明 `orca` 随桌面应用附带，用于脚本化正在运行的编辑器，不是独立发行形态，故不单列 CLI。未发现独立公共 Web 应用。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://orca.dev",
+        "title": "Orca 官方站点（GitHub homepage；重定向至 onorca.dev）"
+      },
+      {
+        "url": "https://github.com/stablyai/orca",
+        "title": "stablyai/orca 官方仓库"
+      },
+      {
+        "url": "https://github.com/stablyai/orca/blob/main/README.md",
+        "title": "官方 README：桌面安装与支持的 Agent"
+      },
+      {
+        "url": "https://github.com/stablyai/orca/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 Lovecast Inc."
+      },
+      {
+        "url": "https://github.com/stablyai/orca/releases/tag/v1.4.229",
+        "title": "GitHub Releases · Orca v1.4.229（2026-10-17）桌面资产"
+      },
+      {
+        "url": "https://www.onorca.dev/docs/cli/overview",
+        "title": "官方文档：Orca CLI 随桌面应用附带，不是独立发行"
+      }
+    ],
+    "verified_at": "2026-10-19"
+  },
+  "pilotdeck-cli": {
+    "notes": "OpenBMB / THUNLP / 面壁智能开源任务向 Agent OS。官方 README 写明前端为 Web / CLI / IM；一键安装后提供 `pilotdeck` 与 `pilotdeck status`，macOS / Linux 用 install.sh，Windows 用 install.ps1。IM 为渠道，不单列。最新桌面发行标签为 v2026.10.17（2026-10-16 发布）。LICENSE 正文为 GNU AGPL v3。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://pilotdeck.openbmb.cn",
+        "title": "PilotDeck 官方网站"
+      },
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck",
+        "title": "OpenBMB/PilotDeck 官方仓库"
+      },
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck/blob/main/README.md",
+        "title": "官方 README：Web / CLI / IM 前端与一键安装"
+      },
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck/blob/main/LICENSE",
+        "title": "官方 LICENSE：GNU AGPL v3.0"
+      },
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck/releases/tag/v2026.10.17",
+        "title": "GitHub Releases · v2026.10.17（2026-10-16）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/OpenBMB/PilotDeck/main/ui/public/favicon.svg",
+        "title": "官方仓库原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-19"
+  },
+  "pilotdeck-desktop": {
+    "notes": "官方网站提供 Windows 与 macOS 客户端下载；GitHub Releases v2026.10.17 实际资产含 macOS arm64/x64 DMG/ZIP、Windows arm64/x64 setup.exe、Linux arm64/x64 deb/rpm。故平台填 macOS、Windows、Linux。官网页面仍展示 v2026.10.13-r2，版本以 GitHub 最新稳定 Release 为准。LICENSE 为 AGPL-3.0。收录官方仓库 ui/public/favicon.svg 纯矢量 SVG；商标仍归权利人。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://pilotdeck.openbmb.cn",
+        "title": "PilotDeck 官方网站：Windows / macOS 客户端"
+      },
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck",
+        "title": "OpenBMB/PilotDeck 官方仓库"
+      },
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck/blob/main/README.md",
+        "title": "官方 README"
+      },
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck/blob/main/LICENSE",
+        "title": "官方 LICENSE：GNU AGPL v3.0"
+      },
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck/releases/tag/v2026.10.17",
+        "title": "GitHub Releases · v2026.10.17：macOS / Windows / Linux 桌面资产"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/OpenBMB/PilotDeck/main/ui/public/favicon.svg",
+        "title": "官方仓库原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-19"
+  },
+  "pilotdeck-web": {
+    "notes": "官方 README 确认自托管 Web UI：`pilotdeck` 启动后访问 http://localhost:3001；源码开发为 localhost:5173 / 3001；亦提供 Docker Compose。官网为介绍与客户端下载，不是用户部署实例的统一公共应用域名，故记 self-hosted。与 CLI / 桌面端同产品、不同形态。IM 不单列。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://pilotdeck.openbmb.cn",
+        "title": "PilotDeck 官方网站"
+      },
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck",
+        "title": "OpenBMB/PilotDeck 官方仓库"
+      },
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck/blob/main/README.md",
+        "title": "官方 README：本机 Web UI localhost:3001 与 Docker"
+      },
+      {
+        "url": "https://github.com/OpenBMB/PilotDeck/blob/main/LICENSE",
+        "title": "官方 LICENSE：GNU AGPL v3.0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/OpenBMB/PilotDeck/main/ui/public/favicon.svg",
+        "title": "官方仓库原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-19"
+  },
+  "openbitfun-desktop": {
+    "notes": "CWing 开源 Agent 工作区，Rust runtime + 桌面应用。官方 README 与 GitHub Releases v1.0.6（2026-10-15）确认桌面资产：macOS aarch64/x64 DMG 与 app.tar.gz、Windows x86_64 installer/setup.exe、Linux aarch64/x64 AppImage/deb/rpm。LICENSE 正文为 MIT，版权 CWing。移动端与手表/眼镜规划不在目录范围。未找到可核验纯矢量 SVG。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://openbitfun.com",
+        "title": "OpenBitFun 官方网站"
+      },
+      {
+        "url": "https://github.com/GCWing/OpenBitFun",
+        "title": "GCWing/OpenBitFun 官方仓库"
+      },
+      {
+        "url": "https://github.com/GCWing/OpenBitFun/blob/main/README.md",
+        "title": "官方 README：桌面应用与 Windows / macOS / Linux"
+      },
+      {
+        "url": "https://github.com/GCWing/OpenBitFun/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 CWing"
+      },
+      {
+        "url": "https://github.com/GCWing/OpenBitFun/releases/tag/v1.0.6",
+        "title": "GitHub Releases · OpenBitFun v1.0.6（2026-10-15）桌面资产"
+      }
+    ],
+    "verified_at": "2026-10-19"
+  },
+  "openbitfun-cli": {
+    "notes": "官方 README 写明桌面应用与 CLI 共享执行能力，并指向 CLI 指南。v1.0.6 实际 CLI 发行资产仅为 Linux aarch64 / x86_64 tar.gz，不见 macOS 或 Windows 稳定 CLI 包（nightly 曾有 darwin，不据预发行推导）。故本条平台仅填 Linux。LICENSE 为 MIT。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://openbitfun.com",
+        "title": "OpenBitFun 官方网站"
+      },
+      {
+        "url": "https://github.com/GCWing/OpenBitFun",
+        "title": "GCWing/OpenBitFun 官方仓库"
+      },
+      {
+        "url": "https://github.com/GCWing/OpenBitFun/blob/main/README.md",
+        "title": "官方 README：桌面与 CLI 共享执行能力"
+      },
+      {
+        "url": "https://github.com/GCWing/OpenBitFun/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/GCWing/OpenBitFun/releases/tag/v1.0.6",
+        "title": "GitHub Releases · v1.0.6：Linux CLI tarball"
+      }
+    ],
+    "verified_at": "2026-10-19"
+  },
+  "craft-agents-desktop": {
+    "notes": "Craft（craft.do / Lukilabs）开源本地桌面 Agent 界面，连接 MCP、API、本地文件、Skills 与自动化。官方站点与 README 提供 macOS/Linux 与 Windows 安装脚本；GitHub Releases 最新为 v0.15.3（2026-10-16），资产为 Craft-Agents-0.15.3-mac-arm64.dmg、linux-x64.AppImage、win-x64.exe。LICENSE 正文为 Apache License 2.0。不是目录中已有的 Craft RPGs（craftrpgs.com）。收录官网 favicon.svg 纯矢量 SVG；商标仍归权利人。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://agents.craft.do",
+        "title": "Craft Agents 官方产品页"
+      },
+      {
+        "url": "https://www.craft.do/blog/introducing-craft-agents",
+        "title": "Craft 官方博客：Introducing Craft Agents"
+      },
+      {
+        "url": "https://github.com/craft-ai-agents/craft-agents-oss",
+        "title": "craft-ai-agents/craft-agents-oss 官方仓库"
+      },
+      {
+        "url": "https://github.com/craft-ai-agents/craft-agents-oss/blob/main/README.md",
+        "title": "官方 README：桌面安装与功能"
+      },
+      {
+        "url": "https://github.com/craft-ai-agents/craft-agents-oss/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/craft-ai-agents/craft-agents-oss/releases/tag/v0.15.3",
+        "title": "GitHub Releases · Craft Agents v0.15.3（2026-10-16）"
+      },
+      {
+        "url": "https://agents.craft.do/favicon.svg",
+        "title": "Craft Agents 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-19"
+  },
+  "openharness-desktop": {
+    "notes": "Autonomous, Inc. 开源编码 Agent 指挥中心。官方 README 写明桌面应用面向 macOS 或 Linux，下载入口 harness.autonomous.ai/desktop；未声明 Windows 官方桌面发行，故不填写 Windows。最新桌面标签为 v1.2.90_desktop（2026-10-18）；该 tag 无附件资产，版本取自官方 Release 标签。LICENSE 正文为 MIT，版权 Autonomous, Inc.。仓库另有 web 与 device/mobile 发行；按目录范围与本次候选说明仅收录桌面与 CLI。未找到可核验纯矢量 SVG。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.autonomous.ai/harness",
+        "title": "Harness 官方产品页"
+      },
+      {
+        "url": "https://github.com/autonomous-ai/openharness",
+        "title": "autonomous-ai/openharness 官方仓库"
+      },
+      {
+        "url": "https://github.com/autonomous-ai/openharness/blob/main/README.md",
+        "title": "官方 README：macOS / Linux 桌面应用"
+      },
+      {
+        "url": "https://github.com/autonomous-ai/openharness/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 Autonomous, Inc."
+      },
+      {
+        "url": "https://github.com/autonomous-ai/openharness/releases/tag/v1.2.90_desktop",
+        "title": "GitHub Releases · v1.2.90_desktop（2026-10-18）"
+      },
+      {
+        "url": "https://harness.autonomous.ai/desktop",
+        "title": "官方桌面下载入口"
+      }
+    ],
+    "verified_at": "2026-10-19"
+  },
+  "openharness-cli": {
+    "notes": "官方 README 确认终端 CLI：install.sh 安装 `harness` 与 `hn`。最新 CLI 标签为 v0.4.19_cli（2026-10-18）；该 tag 无附件资产，版本取自官方 Release 标签。安装说明为 bash，未声明 Windows 官方 CLI，故平台仅填 macOS 与 Linux。LICENSE 为 MIT。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.autonomous.ai/harness",
+        "title": "Harness 官方产品页"
+      },
+      {
+        "url": "https://github.com/autonomous-ai/openharness",
+        "title": "autonomous-ai/openharness 官方仓库"
+      },
+      {
+        "url": "https://github.com/autonomous-ai/openharness/blob/main/README.md",
+        "title": "官方 README：`hn` / `harness` CLI"
+      },
+      {
+        "url": "https://github.com/autonomous-ai/openharness/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/autonomous-ai/openharness/releases/tag/v0.4.19_cli",
+        "title": "GitHub Releases · v0.4.19_cli（2026-10-18）"
+      },
+      {
+        "url": "https://harness.autonomous.ai/cli/install.sh",
+        "title": "官方 CLI 安装脚本入口"
+      }
+    ],
+    "verified_at": "2026-10-19"
+  },
+  "talorys-web": {
+    "notes": "Roc Yu（rociiu）开源自托管个人 Agent，部署在使用者自己的 Cloudflare 账户。官方 README 与站点确认 `npx create-talorys@latest` 后得到使用者自己的 `*.pages.dev` Web 应用。最新 GitHub Release 为 create-talorys@0.1.7（2026-10-19）。LICENSE 正文为 MIT。无统一公共应用域名，记 self-hosted。收录官方站点 favicon.svg 纯矢量 SVG；商标仍归权利人。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://rociiu.github.io/talorys/",
+        "title": "Talorys 官方站点"
+      },
+      {
+        "url": "https://github.com/rociiu/talorys",
+        "title": "rociiu/talorys 官方仓库"
+      },
+      {
+        "url": "https://github.com/rociiu/talorys/blob/main/README.md",
+        "title": "官方 README：Cloudflare 自托管 Web 个人 Agent"
+      },
+      {
+        "url": "https://github.com/rociiu/talorys/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/rociiu/talorys/releases/tag/create-talorys%400.1.7",
+        "title": "GitHub Releases · create-talorys@0.1.7（2026-10-19）"
+      },
+      {
+        "url": "https://rociiu.github.io/talorys/favicon.svg",
+        "title": "Talorys 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-19"
+  },
+  "openmuse-web": {
+    "notes": "CopilotKit 开源自托管个人 Agent，官方产品页与 README 确认 Web 应用（本地 `pnpm dev:web` 访问 localhost:8081）及 Render 部署；亦有 iOS/Android，移动端不在目录范围。LICENSE 正文为 MIT。GitHub 无 Release；仓库根 package.json 为 0.1.0，不把它当作已发布产品版本。自托管，无统一公共应用域名。未找到 OpenMuse 专属可核验 SVG（Lobe Icons 仅有 CopilotKit 厂商标识，不套用）。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.copilotkit.ai/openmuse",
+        "title": "OpenMuse 官方产品页"
+      },
+      {
+        "url": "https://github.com/CopilotKit/openmuse",
+        "title": "CopilotKit/openmuse 官方仓库"
+      },
+      {
+        "url": "https://github.com/CopilotKit/openmuse/blob/main/README.md",
+        "title": "官方 README：自托管 Web 与 Render 部署"
+      },
+      {
+        "url": "https://github.com/CopilotKit/openmuse/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      }
+    ],
+    "verified_at": "2026-10-19"
+  },
+  "reason-agent-web": {
+    "notes": "Reason Machines / Ara Software, Inc. 云端编码 Agent。官方首页写明使用者从 https://reasonmachines.com/agents 驱动 Web 应用。官方博客 Introducing Reason Agent 1.1（2026-10-10）给出当前版本 1.1。GitHub 仓库 reason-machines/reason-agent 体积很小、无程序语言、描述为用法/Release/基准文档，不作为开源产品源码，不写入 open-source.json。收录官网 favicon.svg 纯矢量 SVG。官网资料核验，未做登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://reasonmachines.com/",
+        "title": "Reason 官方首页：Web 应用入口"
+      },
+      {
+        "url": "https://reasonmachines.com/agents",
+        "title": "已核验实际 Web 应用 URL（不代表登录测试）"
+      },
+      {
+        "url": "https://reasonmachines.com/blog/introducing-reason-agent-1-1",
+        "title": "官方博客：Reason Agent 1.1（2026-10-10）"
+      },
+      {
+        "url": "https://reasonmachines.com/favicon.svg",
+        "title": "Reason 官方原始 SVG 品牌素材"
+      },
+      {
+        "url": "https://github.com/reason-machines/reason-agent",
+        "title": "reason-machines/reason-agent：文档/基准仓库，不是产品源码"
+      }
+    ],
+    "verified_at": "2026-10-19"
+  },
+  "reason-agent-desktop": {
+    "notes": "官方博客 Reason for macOS（2026-08-29）确认桌面应用：将云端会话连接到本机仓库、工具与端口。仅核实 macOS，不填写 Windows/Linux。本轮未在公开页读到可引用的桌面版本号或独立安装包 URL，故不填写版本。与 Web 记录同产品、不同形态。GitHub 文档仓不证明桌面端开源。收录官网 favicon.svg。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://reasonmachines.com/",
+        "title": "Reason 官方首页"
+      },
+      {
+        "url": "https://reasonmachines.com/blog/ara-for-macos",
+        "title": "官方博客：Reason for macOS 桌面应用（2026-08-29）"
+      },
+      {
+        "url": "https://reasonmachines.com/favicon.svg",
+        "title": "Reason 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-19"
+  },
+  "viktor-web": {
+    "notes": "Zeta AI, Inc.（官方 Impressum / 服务条款）出品的 AI coworker。官方 FAQ 确认可在 Web 应用 app.viktor.com 对话；Slack 与 Microsoft Teams 为 IM 渠道，不属于目录交互形态，不单列。未在公开资料读到可引用的产品版本号，故不填写版本。未找到可核验纯矢量 SVG。官网资料核验，未做登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://viktor.com/",
+        "title": "Viktor 官方首页"
+      },
+      {
+        "url": "https://app.viktor.com/",
+        "title": "已核验实际 Web 应用 URL（不代表登录测试）"
+      },
+      {
+        "url": "https://viktor.com/impressum",
+        "title": "官方 Impressum：服务提供者为 Zeta AI, Inc."
+      },
+      {
+        "url": "https://viktor.com/legal/general-terms",
+        "title": "官方服务条款：Zeta AI, Inc. d/b/a Viktor"
+      }
+    ],
+    "verified_at": "2026-10-19"
   }
 }

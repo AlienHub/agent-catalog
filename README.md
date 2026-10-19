@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.24（2026-10-16），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.25（2026-10-19），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -437,3 +437,23 @@ Framer 使用 `framer.com` 项目工作区，Gumloop 使用 `www.gumloop.com` �
 11 条均已有 Logo 文件：5 个 SVG，6 个 PNG；PNG 为 Gamma、Beautiful.ai、Slidesgo、Uizard、Krea、fal。已检查现有 SVG XML 和 PNG 文件签名，保持格式标识和素材来源。本轮不更换品牌资产，不把 PNG 标记为 SVG。
 
 域名核验依据官方资料和公开入口；Midjourney 创作页自动抓取返回 403，Napkin AI 等界面依赖浏览器加载，均不代表已登录或成功生成内容。来源、入口、限制与 Logo 清单见 `docs/research/design-web-domain-review-2026-10-16.json`。Schema v7 与 `web_domains: string[]` 保持一致，不加入 API、CDN、SSO 或外部编辑工具域名。
+
+## v0.25 日更候选（2026-10-19）
+
+新增 14 条应用、9 个产品，目录共 436 条应用、284 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.24 / `main` @ `c618839`。
+
+- Orca 桌面端（Stably AI / Lovecast Inc.）：MIT 桌面 ADE，隔离 git worktree 编排编码 Agent。GitHub Releases **v1.4.229**，macOS / Windows / Linux。附带 `orca` CLI 随桌面应用发行，不单列。移动端不收录。
+- PilotDeck CLI / Web / 桌面端（OpenBMB / THUNLP / 面壁智能）：AGPL-3.0 任务向 Agent OS。GitHub Releases **v2026.10.17**。Web 为本机/Docker 自托管。
+- OpenBitFun 桌面端与 CLI（CWing）：MIT。桌面 **v1.0.6** 为 macOS / Windows / Linux；稳定 CLI 资产仅 Linux。
+- Craft Agents 桌面端（Craft / craft.do）：Apache-2.0 本地桌面 Agent 界面。GitHub Releases **v0.15.3**，macOS / Windows / Linux。不是已有 Craft RPGs。
+- Harness 桌面端与 CLI（Autonomous）：MIT。桌面 **v1.2.90_desktop** 仅 macOS / Linux；CLI **v0.4.19_cli**（`hn` / `harness`）。按范围不收录 Web / 移动端。
+- Talorys Web（Roc Yu）：MIT 自托管 Cloudflare 个人 Agent。GitHub Releases **create-talorys@0.1.7**。
+- OpenMuse Web（CopilotKit）：MIT 自托管个人 Agent。无 GitHub Release，不填写发行版本。移动端不收录。
+- Reason Agent Web 与 macOS 桌面端（Reason Machines / Ara Software, Inc.）：Web 入口 `reasonmachines.com/agents`，官方博客版本 **1.1**。GitHub 仓为文档/基准，不开源收录。
+- Viktor Web（Zeta AI, Inc.）：官方 Web 应用 `app.viktor.com`。Slack / Teams 为 IM 渠道，不单列。
+
+Logo：PilotDeck / Craft Agents / Talorys / Reason 使用官方原始 SVG。其余缺失项保持空 `icon`。
+
+未收录：Junie Local（Junie 的 `/local` 模式，不是新形态）、Scout（npm 库而非最终用户应用）、Gemini agent（官方页未给出可核验的访问入口）、Agibot（等待名单，厂商主体未写明）、千问 Go（千问应用内功能，不是独立形态）。
+
+仅核验公开官方资料，未做安装、运行或区域可用性测试。
