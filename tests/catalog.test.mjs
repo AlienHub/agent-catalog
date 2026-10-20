@@ -11,8 +11,8 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.25');
-  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web']) assert(catalog.getApp(id));
+  assert.equal(catalog.catalogMeta.dataVersion, '0.26');
+  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
 test('ESM and CommonJS core exports agree', () => {
@@ -352,6 +352,49 @@ test('2026-10-19 daily candidates', async () => {
   assert.equal(catalog.getApp('junie-local-desktop'), undefined);
   assert.equal(catalog.getApp('scout-web'), undefined);
   assert.equal(catalog.getApp('agibot-desktop'), undefined);
+});
+
+test('2026-10-20 daily candidates', async () => {
+  const source = JSON.parse(await readFile(new URL('../data/open-source.json', import.meta.url)));
+  const octopWeb = catalog.getApp('octop-web');
+  const octopCli = catalog.getApp('octop-cli');
+  const octopDesk = catalog.getApp('octop-desktop');
+  assert.equal(octopWeb.product_id, octopCli.product_id);
+  assert.equal(octopDesk.product_id, octopWeb.product_id);
+  assert.notEqual(octopWeb.product_id, catalog.getApp('octo-web').product_id);
+  assert.notEqual(octopWeb.vendor_id, catalog.getApp('octo-web').vendor_id);
+  assert.deepEqual(octopWeb.interfaces, ['Web']);
+  assert.equal(octopWeb.web_domain_status, 'self-hosted');
+  assert.deepEqual(octopCli.interfaces, ['CLI']);
+  assert.deepEqual(octopDesk.interfaces, ['GUI']);
+  assert.deepEqual(octopDesk.platforms, ['macOS', 'Windows', 'Linux']);
+  assert.equal(octopWeb.icon, 'icons/octop.svg');
+  assert.equal(source['octop-web'].license, 'MIT');
+  assert.match(catalog.getEvidence('octop-desktop').notes, /v1\.0\.2/);
+  const lobster = catalog.getApp('lobsterai-desktop');
+  assert.deepEqual(lobster.interfaces, ['GUI']);
+  assert.deepEqual(lobster.platforms, ['macOS', 'Windows']);
+  assert.equal(lobster.icon, '');
+  assert.equal(source['lobsterai-desktop'].license, 'MIT');
+  assert.match(catalog.getEvidence('lobsterai-desktop').notes, /2026\.10\.16/);
+  const stark = catalog.getApp('starkomand-desktop');
+  assert.deepEqual(stark.interfaces, ['GUI']);
+  assert.deepEqual(stark.platforms, ['macOS']);
+  assert.equal(stark.icon, 'icons/starkomand.svg');
+  assert.equal(source['starkomand-desktop'], undefined);
+  assert.match(catalog.getEvidence('starkomand-desktop').notes, /v1\.0\.7/);
+  const fade = catalog.getApp('fade-cli');
+  assert.deepEqual(fade.interfaces, ['CLI']);
+  assert.equal(fade.icon, '');
+  assert.equal(source['fade-cli'].license, 'MIT');
+  assert.match(catalog.getEvidence('fade-cli').notes, /0\.5\.0/);
+  const ready = catalog.getApp('readywhen-web');
+  assert.deepEqual(ready.web_domains, ['app.readywhen.ai']);
+  assert.equal(ready.web_domain_status, 'verified');
+  assert.equal(ready.vendor_id, 'oliva-health');
+  assert.equal(ready.icon, 'icons/readywhen.svg');
+  assert.equal(source['readywhen-web'], undefined);
+  assert.equal(catalog.getApp('octop-ide'), undefined);
 });
 
 test('Domain-only schema removes Web entry URLs and keeps frozen hostname arrays', () => {

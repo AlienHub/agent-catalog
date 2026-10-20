@@ -11185,5 +11185,179 @@
     ],
     "web_domain_status": "verified",
     "web_domain_verified_at": "2026-10-19"
+  },
+  {
+    "id": "octop-web",
+    "name": "Octop",
+    "aliases": [],
+    "vendor": "腾讯云 Tencent Cloud",
+    "type": "通用任务 Agent",
+    "website": "https://octop.cloud",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/octop.svg",
+    "vendor_id": "tencent-cloud",
+    "product_id": "octop",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "octop-cli",
+    "name": "Octop",
+    "aliases": [],
+    "vendor": "腾讯云 Tencent Cloud",
+    "type": "通用任务 Agent",
+    "website": "https://octop.cloud",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/octop.svg",
+    "vendor_id": "tencent-cloud",
+    "product_id": "octop",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "octop-desktop",
+    "name": "Octop",
+    "aliases": [],
+    "vendor": "腾讯云 Tencent Cloud",
+    "type": "通用任务 Agent",
+    "website": "https://octop.cloud",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/octop.svg",
+    "vendor_id": "tencent-cloud",
+    "product_id": "octop",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "lobsterai-desktop",
+    "name": "LobsterAI",
+    "aliases": [
+      "有道龙虾"
+    ],
+    "vendor": "网易有道 NetEase Youdao",
+    "type": "办公智能体",
+    "website": "https://lobsterai.youdao.com/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "netease-youdao",
+    "product_id": "lobsterai",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "starkomand-desktop",
+    "name": "Starkomand",
+    "aliases": [],
+    "vendor": "Developer Timeline",
+    "type": "AI 编程",
+    "website": "https://starkomand.com/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/starkomand.svg",
+    "vendor_id": "developer-timeline",
+    "product_id": "starkomand",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "fade-cli",
+    "name": "Fade",
+    "aliases": [],
+    "vendor": "Muzaffer Mahi Can",
+    "type": "AI 编程",
+    "website": "https://github.com/muzaffermahi/Fade",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "muzaffermahi",
+    "product_id": "fade",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "readywhen-web",
+    "name": "readywhen",
+    "aliases": [
+      "ready when"
+    ],
+    "vendor": "Oliva Health Ltd",
+    "type": "办公智能体",
+    "website": "https://readywhen.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/readywhen.svg",
+    "vendor_id": "oliva-health",
+    "product_id": "readywhen",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.readywhen.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-20"
   }
 ]

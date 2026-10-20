@@ -8975,5 +8975,211 @@
       }
     ],
     "verified_at": "2026-10-19"
+  },
+  "octop-web": {
+    "notes": "腾讯云 TencentCloud 开源自托管多用户、多 Agent 助手。官方 README 与文档确认 Web 控制台随 `octop run` 提供，默认 http://127.0.0.1:8088；官网 octop.cloud 与文档站不是使用者部署实例的统一公共应用域名，故记 self-hosted。飞书、企微、钉钉、QQ、微信、Telegram、Discord 等为 IM 渠道，不单列。ACP（`octop acp`）为 IDE/终端协议入口，未见独立 IDE 插件商店形态，不单列。不是目录已有的明略科技 Octo（octo-web / octo-desktop）。LICENSE 正文为 MIT，版权 Octop。最新 GitHub Release 为 v1.0.2（2026-10-18）。收录官方文档站 favicon.svg 纯矢量 SVG；商标仍归权利人。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://octop.cloud",
+        "title": "Octop 官方网站"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop",
+        "title": "TencentCloud/Octop 官方仓库"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop/blob/main/README.md",
+        "title": "官方 README：Web 控制台、CLI、桌面客户端与 IM 渠道"
+      },
+      {
+        "url": "https://docs.octop.cloud/en/guide",
+        "title": "官方文档：自托管 Web UI、CLI 与消息集成"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 Octop"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop/releases/tag/v1.0.2",
+        "title": "GitHub Releases · Octop v1.0.2（2026-10-18）"
+      },
+      {
+        "url": "https://docs.octop.cloud/favicon.svg",
+        "title": "官方文档站原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-20"
+  },
+  "octop-cli": {
+    "notes": "官方 README 与 Quick Start 确认独立 CLI：一键安装或 `pip install octop` 后使用 `octop init` / `octop run` / `octop models config` 等命令，覆盖 macOS、Linux、Windows。IM 为渠道，不单列。LICENSE 为 MIT。版本取自最新稳定 GitHub Release v1.0.2（2026-10-18）。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://octop.cloud",
+        "title": "Octop 官方网站"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop",
+        "title": "TencentCloud/Octop 官方仓库"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop/blob/main/README.md",
+        "title": "官方 README：CLI 安装与 octop 命令"
+      },
+      {
+        "url": "https://docs.octop.cloud/en/guide/quickstart",
+        "title": "官方 Quick Start：octop init / octop run"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop/releases/tag/v1.0.2",
+        "title": "GitHub Releases · v1.0.2（含 Python wheel / sdist）"
+      }
+    ],
+    "verified_at": "2026-10-20"
+  },
+  "octop-desktop": {
+    "notes": "官方 README 写明 Desktop client：原生 Windows / macOS / Linux 应用，随 GitHub Releases 分发。v1.0.2 实际桌面资产含 Octop-desktop-darwin-arm64/amd64.dmg、windows-amd64/arm64.exe、linux-amd64/arm64.tar.gz。文档称桌面客户端捆绑便携运行时并在原生壳中打开 Web UI。FnOS NAS 包不在本目录平台范围。OctopPet 桌宠不是本条桌面 Agent 应用。LICENSE 为 MIT。收录官方文档站 favicon.svg。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://octop.cloud",
+        "title": "Octop 官方网站"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop",
+        "title": "TencentCloud/Octop 官方仓库"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop/blob/main/README.md",
+        "title": "官方 README：Desktop client 原生 Windows / macOS / Linux 应用"
+      },
+      {
+        "url": "https://docs.octop.cloud/guide/guides/macos-unsigned-app",
+        "title": "官方文档：macOS 桌面客户端安装"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop/releases/tag/v1.0.2",
+        "title": "GitHub Releases · v1.0.2：macOS / Windows / Linux 桌面资产"
+      },
+      {
+        "url": "https://docs.octop.cloud/favicon.svg",
+        "title": "官方文档站原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-20"
+  },
+  "lobsterai-desktop": {
+    "notes": "网易有道开源桌面办公 Agent（有道龙虾），基于 OpenClaw。官方网站 lobsterai.youdao.com 与 GitHub 组织 netease-youdao/LobsterAI 确认产品源码仓；LICENSE 正文为 MIT，版权 NetEase Youdao。最新 GitHub Release 为 2026.10.16（2026-10-16），资产为 LobsterAI--mac-arm64.dmg、LobsterAI--mac-x64.dmg、LobsterAI--win-x64.exe，故平台仅填 macOS 与 Windows；中文 README 提及 Linux，但本轮 Release 无 Linux 安装包，不填写。微信、飞书、钉钉、Telegram 等为 IM 远程触发渠道，不单列。官网 Logo 为 PNG；仓库内 lobster.svg 为 34×34 界面头像而非产品品牌标识，不收录。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://lobsterai.youdao.com/",
+        "title": "LobsterAI（有道龙虾）官方网站"
+      },
+      {
+        "url": "https://github.com/netease-youdao/LobsterAI",
+        "title": "netease-youdao/LobsterAI 官方仓库"
+      },
+      {
+        "url": "https://github.com/netease-youdao/LobsterAI/blob/main/README.md",
+        "title": "官方 README：桌面 Agent 与 macOS / Windows 安装"
+      },
+      {
+        "url": "https://github.com/netease-youdao/LobsterAI/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 NetEase Youdao"
+      },
+      {
+        "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.10.16",
+        "title": "GitHub Releases · LobsterAI 2026.10.16（2026-10-16）桌面资产"
+      }
+    ],
+    "verified_at": "2026-10-20"
+  },
+  "starkomand-desktop": {
+    "notes": "Developer Timeline 出品的 macOS（仅 Apple silicon）ADE：在无限画布的真实终端窗口中运行 Claude Code、Codex、Cursor、Gemini CLI、OpenCode 等编码 Agent CLI，并提供编排、交接与复核。官方首页与条款确认当前版本 v1.0.7；Windows 写明即将推出，现无 Linux / Intel Mac 下载，故平台仅填 macOS。官方条款写明闭源商业应用、禁止分发与逆向（法律或开源许可允许的除外），无产品源码仓，不写入 open-source.json。收录官网 favicon.svg 纯矢量 SVG；商标仍归权利人。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://starkomand.com/",
+        "title": "Starkomand 官方首页：v1.0.7 · Apple silicon"
+      },
+      {
+        "url": "https://starkomand.com/index.md",
+        "title": "官方产品说明：macOS ADE 与支持的 Agent CLI"
+      },
+      {
+        "url": "https://starkomand.com/agents/",
+        "title": "官方 Agent 页：可启动的编码 CLI 列表"
+      },
+      {
+        "url": "https://starkomand.com/terms/",
+        "title": "官方条款：由 Developer Timeline 提供，一次性授权"
+      },
+      {
+        "url": "https://starkomand.com/favicon.svg",
+        "title": "Starkomand 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-20"
+  },
+  "fade-cli": {
+    "notes": "Muzaffer Mahi Can 的终端双 Agent 编码工具：对话 Companion 与侧栏 Builder 并行，MIT。官方仓库 github.com/muzaffermahi/Fade（GitHub 组织/用户 muzaffermahi 与 LICENSE、README、src/、tests/ 一致）；npm 包 @muzaffermahi/fade 最新为 0.5.0，与仓库 package.json 版本一致。仓库无 GitHub Release/tag，版本取自 npm latest 与 package.json。Node.js 22.19+ 与 Git；未限制操作系统，按常规 CLI 填写 macOS / Windows / Linux。Logo 仅为 docs/assets/fade-logo.webp，未找到可核验纯矢量 SVG。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/muzaffermahi/Fade",
+        "title": "muzaffermahi/Fade 官方仓库"
+      },
+      {
+        "url": "https://github.com/muzaffermahi/Fade/blob/main/README.md",
+        "title": "官方 README：双 Agent 终端工作流与 npx @muzaffermahi/fade"
+      },
+      {
+        "url": "https://github.com/muzaffermahi/Fade/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 Fade contributors"
+      },
+      {
+        "url": "https://github.com/muzaffermahi/Fade/blob/main/package.json",
+        "title": "官方 package.json：name @muzaffermahi/fade，version 0.5.0，bin fade"
+      },
+      {
+        "url": "https://www.npmjs.com/package/@muzaffermahi/fade",
+        "title": "npm · @muzaffermahi/fade@0.5.0"
+      }
+    ],
+    "verified_at": "2026-10-20"
+  },
+  "readywhen-web": {
+    "notes": "Oliva Health Ltd 出品的小企业主个人助理。官方品牌页写明可在 WhatsApp、Web 或 Slack 发消息/语音；隐私声明确认产品由 Oliva Health Ltd 运营。已核验 Web 应用主机 app.readywhen.ai（登录页 Welcome back / Continue with Google）。WhatsApp 与 Slack 为 IM 渠道，不单列。未在公开资料读到可引用的产品版本号，故不填写版本。收录官方品牌页 app icon SVG。官网资料核验，未做登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://readywhen.ai/",
+        "title": "readywhen 官方首页"
+      },
+      {
+        "url": "https://app.readywhen.ai/",
+        "title": "已核验实际 Web 应用 URL（不代表登录测试）"
+      },
+      {
+        "url": "https://readywhen.ai/brand",
+        "title": "官方品牌页：可在 WhatsApp、Web 或 Slack 使用"
+      },
+      {
+        "url": "https://readywhen.ai/privacy",
+        "title": "官方隐私声明：产品由 Oliva Health Ltd 运营"
+      },
+      {
+        "url": "https://readywhen.ai/terms",
+        "title": "官方使用条款"
+      },
+      {
+        "url": "https://readywhen.ai/public/images/logos/readywhen-app-icon-on-light.svg",
+        "title": "官方品牌页原始 SVG 应用图标"
+      }
+    ],
+    "verified_at": "2026-10-20"
   }
 }

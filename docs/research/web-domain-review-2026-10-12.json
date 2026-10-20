@@ -4063,9 +4063,56 @@
         }
       ],
       "notes": "2026-10-19 新增已核验 Web 入口 app.viktor.com。"
+    },
+    {
+      "id": "octop-web",
+      "name": "Octop",
+      "website": "https://octop.cloud",
+      "status": "self-hosted",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://octop.cloud",
+          "title": "Octop 官方网站"
+        },
+        {
+          "url": "https://github.com/TencentCloud/Octop/blob/main/README.md",
+          "title": "官方 README：本机 Web 控制台 127.0.0.1:8088"
+        },
+        {
+          "url": "https://docs.octop.cloud/en/guide",
+          "title": "官方文档：自托管 Web UI"
+        }
+      ],
+      "notes": "2026-10-20 新增自托管 Web；官网不是统一公共应用域名。"
+    },
+    {
+      "id": "readywhen-web",
+      "name": "readywhen",
+      "website": "https://readywhen.ai/",
+      "status": "verified",
+      "domains": [
+        "app.readywhen.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://readywhen.ai/",
+          "title": "readywhen 官方首页"
+        },
+        {
+          "url": "https://app.readywhen.ai/",
+          "title": "已核验实际 Web 应用 URL"
+        },
+        {
+          "url": "https://readywhen.ai/privacy",
+          "title": "官方隐私声明：Oliva Health Ltd"
+        }
+      ],
+      "notes": "2026-10-20 新增已核验 Web 入口 app.readywhen.ai。"
     }
   ],
   "added_web_records_20261013": 4,
   "added_web_records_20261014": 4,
-  "added_web_records_20261019": 5
+  "added_web_records_20261019": 5,
+  "added_web_records_20261020": 2
 }
