@@ -52,6 +52,9 @@
     "./open-source-schema.json": "./data/open-source-schema.json",
     "./commercial.json": "./data/commercial.json",
     "./commercial-schema.json": "./data/commercial-schema.json",
+    "./providers.json": "./data/providers.json",
+    "./providers-schema.json": "./data/providers-schema.json",
+    "./provider-evidence.json": "./data/provider-evidence.json",
     "./icons/*.png": "./assets/icons/*.png"
   },
   "files": [

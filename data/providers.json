@@ -1,0 +1,2752 @@
+[
+  {
+    "id": "agicto",
+    "name": "AGICTO",
+    "aliases": [],
+    "operator": "AGICTO",
+    "type": "third-party-proxy",
+    "website": "https://api.agicto.cn",
+    "api_base_urls": [
+      "https://api.agicto.cn"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "CN",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.agicto.cn"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.agicto.cn",
+        "title": "AGICTO",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "ai302",
+    "name": "302.AI",
+    "aliases": [
+      "AI302"
+    ],
+    "operator": "302.AI",
+    "type": "third-party-proxy",
+    "website": "https://302.ai",
+    "api_base_urls": [
+      "https://api.302.ai",
+      "https://api.302ai.cn"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "token",
+      "ratio_note": "按用量付费（来自主页文案，未核价）"
+    },
+    "payment_methods": [
+      "pay-as-you-go"
+    ],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://302.ai"
+    },
+    "related_ids": [
+      "ai302-api",
+      "ai302-cn"
+    ],
+    "related_sites": [
+      "https://api.302.ai",
+      "https://api.302ai.cn"
+    ],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://302.ai",
+        "title": "企业级AI资源平台 - 302.AI | 按用量付费，全模型API接入，应用在线使用",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200"
+      },
+      {
+        "url": "https://api.302.ai",
+        "title": "企业级AI资源平台 - 302.AI | 按用量付费，全模型API接入，应用在线使用",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200"
+      }
+    ]
+  },
+  {
+    "id": "ai302-api",
+    "name": "AI302 API",
+    "aliases": [],
+    "operator": "302.AI",
+    "type": "third-party-proxy",
+    "website": "https://api.302.ai",
+    "api_base_urls": [
+      "https://api.302.ai"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.302.ai"
+    },
+    "related_ids": [
+      "ai302",
+      "ai302-cn"
+    ],
+    "related_sites": [
+      "https://302.ai",
+      "https://api.302ai.cn"
+    ],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.302.ai",
+        "title": "AI302 Api",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "401"
+      }
+    ]
+  },
+  {
+    "id": "ai302-cn",
+    "name": "AI302 API (cn)",
+    "aliases": [],
+    "operator": "302.AI",
+    "type": "third-party-proxy",
+    "website": "https://api.302ai.cn",
+    "api_base_urls": [
+      "https://api.302ai.cn"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "CN",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.302ai.cn"
+    },
+    "related_ids": [
+      "ai302",
+      "ai302-api"
+    ],
+    "related_sites": [
+      "https://302.ai",
+      "https://api.302.ai"
+    ],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.302ai.cn",
+        "title": "AI302 Api",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "401"
+      }
+    ]
+  },
+  {
+    "id": "aicore-api",
+    "name": "AiCore API",
+    "aliases": [
+      "One API",
+      "xty"
+    ],
+    "operator": "AiCore API",
+    "type": "community-relay",
+    "website": "https://api.xty.app",
+    "api_base_urls": [
+      "https://api.xty.app"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.xty.app"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.xty.app",
+        "title": "One API",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "AiCore API"
+      }
+    ]
+  },
+  {
+    "id": "aigc369",
+    "name": "AIGC369",
+    "aliases": [],
+    "operator": "AIGC369",
+    "type": "community-relay",
+    "website": "https://api.aigc369.com",
+    "api_base_urls": [
+      "https://api.aigc369.com"
+    ],
+    "api_compat": [],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "dead",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.aigc369.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "最近一次探测主机不可达。目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://api.aigc369.com",
+        "title": "AIGC369",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "555"
+      }
+    ]
+  },
+  {
+    "id": "aigcbest",
+    "name": "钱多多 API",
+    "aliases": [
+      "aigcbest"
+    ],
+    "operator": "钱多多 API",
+    "type": "community-relay",
+    "website": "https://api.aigcbest.top",
+    "api_base_urls": [
+      "https://api.aigcbest.top"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "0.7.0-rc.11",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.aigcbest.top"
+    },
+    "related_ids": [],
+    "related_sites": [
+      "https://api2.aigcbest.top"
+    ],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.aigcbest.top",
+        "title": "钱多多 API - OpenAI 兼容的大模型中转",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "钱多多 API 0.7.0-rc.11"
+      }
+    ]
+  },
+  {
+    "id": "aihubmix",
+    "name": "AIHubMix",
+    "aliases": [],
+    "operator": "AIHubMix",
+    "type": "third-party-proxy",
+    "website": "https://aihubmix.com",
+    "api_base_urls": [
+      "https://aihubmix.com"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://aihubmix.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://aihubmix.com",
+        "title": "AIHubMix - One API for Any Model",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "AIHubMix"
+      }
+    ]
+  },
+  {
+    "id": "aiproxy",
+    "name": "AIProxy",
+    "aliases": [],
+    "operator": "AIProxy",
+    "type": "third-party-proxy",
+    "website": "https://aiproxy.io",
+    "api_base_urls": [
+      "https://aiproxy.io"
+    ],
+    "api_compat": [],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "dead",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://aiproxy.io"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "最近一次探测主机不可达。目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://aiproxy.io",
+        "title": "AIProxy",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "UND_ERR_CONNECT_TIMEOUT"
+      }
+    ]
+  },
+  {
+    "id": "api2d",
+    "name": "API2D",
+    "aliases": [],
+    "operator": "API2D",
+    "type": "third-party-proxy",
+    "website": "https://api2d.com",
+    "api_base_urls": [
+      "https://api2d.com"
+    ],
+    "api_compat": [],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "unstable",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api2d.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api2d.com",
+        "title": "Just a moment...",
+        "checked_at": "2026-10-20",
+        "http": 403,
+        "api_status": "200"
+      }
+    ]
+  },
+  {
+    "id": "api88",
+    "name": "88API",
+    "aliases": [
+      "88API-Token聚合平台"
+    ],
+    "operator": "88API",
+    "type": "community-relay",
+    "website": "https://88api.ai",
+    "api_base_urls": [
+      "https://88api.ai"
+    ],
+    "api_compat": [
+      "openai",
+      "anthropic",
+      "gemini"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "v1.0.0-rc.44-88api.1",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "nav",
+      "url": "https://www.hvoyai.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://88api.ai",
+        "title": "AI API中转站｜Claude API、Codex API、Gemini统一接入 - 88API",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "88API-Token聚合平台 v1.0.0-rc.44-88api.1"
+      }
+    ]
+  },
+  {
+    "id": "apitiantian",
+    "name": "天天中转站",
+    "aliases": [],
+    "operator": "天天中转站",
+    "type": "community-relay",
+    "website": "https://apitiantian.com",
+    "api_base_urls": [
+      "https://apitiantian.com"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "token",
+      "ratio_note": "主页宣称国产大模型官方价格 2 折；未核价"
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "CN",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "nav",
+      "url": "https://www.hvoyai.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://apitiantian.com",
+        "title": "天天中转站｜国产大模型 API，官方价格 2 折",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "apiyi",
+    "name": "APIYI",
+    "aliases": [],
+    "operator": "APIYI",
+    "type": "third-party-proxy",
+    "website": "https://api.apiyi.com",
+    "api_base_urls": [
+      "https://api.apiyi.com"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "v32.7.5",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.apiyi.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.apiyi.com",
+        "title": "APIYI",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "APIYI v32.7.5"
+      }
+    ]
+  },
+  {
+    "id": "bigmodel",
+    "name": "智谱 BigModel",
+    "aliases": [
+      "Zhipu",
+      "GLM"
+    ],
+    "operator": "智谱 AI",
+    "type": "official",
+    "website": "https://open.bigmodel.cn",
+    "api_base_urls": [
+      "https://open.bigmodel.cn"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "CN",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://open.bigmodel.cn"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "官方模型平台；目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://open.bigmodel.cn",
+        "title": "智谱丨BigModel 平台",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200"
+      }
+    ]
+  },
+  {
+    "id": "bltcy",
+    "name": "柏拉图AI",
+    "aliases": [],
+    "operator": "柏拉图AI",
+    "type": "community-relay",
+    "website": "https://api.bltcy.ai",
+    "api_base_urls": [
+      "https://api.bltcy.ai"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "v4.9.61-v2",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.bltcy.ai"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.bltcy.ai",
+        "title": "柏拉图AI_API中转站",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "柏拉图AI v4.9.61-v2"
+      }
+    ]
+  },
+  {
+    "id": "burn-hair",
+    "name": "头顶冒火",
+    "aliases": [],
+    "operator": "头顶冒火",
+    "type": "community-relay",
+    "website": "https://burn.hair",
+    "api_base_urls": [
+      "https://burn.hair"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "v0.0.0",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://burn.hair"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://burn.hair",
+        "title": "头顶冒火 🤯",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "头顶冒火  v0.0.0"
+      }
+    ]
+  },
+  {
+    "id": "chatanywhere",
+    "name": "ChatAnywhere",
+    "aliases": [],
+    "operator": "ChatAnywhere",
+    "type": "community-relay",
+    "website": "https://chatanywhere.tech",
+    "api_base_urls": [
+      "https://api.chatanywhere.tech"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "github",
+      "url": "https://github.com/chatanywhere/GPT_API_free"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://chatanywhere.tech",
+        "title": "ChatAnywhere",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200"
+      },
+      {
+        "url": "https://api.chatanywhere.tech",
+        "title": "ChatAnywhere",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200"
+      }
+    ]
+  },
+  {
+    "id": "chatfire",
+    "name": "ChatfireAPI",
+    "aliases": [],
+    "operator": "ChatfireAPI",
+    "type": "community-relay",
+    "website": "https://api.chatfire.cn",
+    "api_base_urls": [
+      "https://api.chatfire.cn"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "5.14.18",
+      "detected_by": "GET /api/status"
+    },
+    "region": "CN",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.chatfire.cn"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.chatfire.cn",
+        "title": "ChatfireAPI",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "ChatfireAPI🔥 5.14.18"
+      }
+    ]
+  },
+  {
+    "id": "closeai-asia",
+    "name": "CloseAI Asia",
+    "aliases": [],
+    "operator": "CloseAI Asia",
+    "type": "third-party-proxy",
+    "website": "https://closeai-asia.com",
+    "api_base_urls": [
+      "https://closeai-asia.com"
+    ],
+    "api_compat": [],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "dead",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://closeai-asia.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "最近一次探测主机不可达。目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://closeai-asia.com",
+        "title": "CloseAI Asia",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "ENOTFOUND"
+      }
+    ]
+  },
+  {
+    "id": "cursorai-art",
+    "name": "CURSOR API",
+    "aliases": [],
+    "operator": "CURSOR API",
+    "type": "community-relay",
+    "website": "https://api.cursorai.art",
+    "api_base_urls": [
+      "https://api.cursorai.art"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "20261019-114428",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.cursorai.art"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.cursorai.art",
+        "title": "首页 - CURSOR API",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "CURSOR API 20261019-114428"
+      }
+    ]
+  },
+  {
+    "id": "dashscope",
+    "name": "阿里云百炼 DashScope",
+    "aliases": [
+      "DashScope",
+      "Qwen API"
+    ],
+    "operator": "阿里云",
+    "type": "official",
+    "website": "https://dashscope.aliyuncs.com",
+    "api_base_urls": [
+      "https://dashscope.aliyuncs.com"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "CN",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://dashscope.aliyuncs.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "官方模型平台；目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://dashscope.aliyuncs.com",
+        "title": "阿里云百炼 DashScope",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "deepinfra",
+    "name": "DeepInfra",
+    "aliases": [],
+    "operator": "DeepInfra",
+    "type": "official",
+    "website": "https://deepinfra.com",
+    "api_base_urls": [
+      "https://deepinfra.com"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "global",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://deepinfra.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "官方模型平台；目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://deepinfra.com",
+        "title": "Machine Learning Models and Infrastructure | DeepInfra",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek API",
+    "aliases": [],
+    "operator": "DeepSeek",
+    "type": "official",
+    "website": "https://api.deepseek.com",
+    "api_base_urls": [
+      "https://api.deepseek.com"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "CN",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.deepseek.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "官方模型平台；目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://api.deepseek.com",
+        "title": "DeepSeek API",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "401"
+      }
+    ]
+  },
+  {
+    "id": "dmxapi",
+    "name": "DMXAPI",
+    "aliases": [],
+    "operator": "DMXAPI",
+    "type": "third-party-proxy",
+    "website": "https://dmxapi.com",
+    "api_base_urls": [
+      "https://dmxapi.com"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://dmxapi.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://dmxapi.com",
+        "title": "DMXAPI - Global AI Model API Aggregation, OpenAI API Proxy with Discount",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "ephone",
+    "name": "ePhone AI",
+    "aliases": [],
+    "operator": "ePhone AI",
+    "type": "community-relay",
+    "website": "https://platform.ephone.ai",
+    "api_base_urls": [
+      "https://api.ephone.ai"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "6.5.28",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://platform.ephone.ai"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://platform.ephone.ai",
+        "title": "ePhone AI",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "ePhone AI 6.5.28"
+      },
+      {
+        "url": "https://api.ephone.ai",
+        "title": "ePhone AI",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "ePhone AI 6.5.28"
+      }
+    ]
+  },
+  {
+    "id": "fireworks",
+    "name": "Fireworks AI",
+    "aliases": [],
+    "operator": "Fireworks AI",
+    "type": "official",
+    "website": "https://fireworks.ai",
+    "api_base_urls": [
+      "https://fireworks.ai"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "global",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://fireworks.ai"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "官方模型平台；目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://fireworks.ai",
+        "title": "Own Your Specialized Intelligence | Fireworks",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "gpt-ai-live",
+    "name": "GPT AI Live",
+    "aliases": [],
+    "operator": "GPT AI Live",
+    "type": "community-relay",
+    "website": "https://api.gpt-ai.live",
+    "api_base_urls": [
+      "https://api.gpt-ai.live"
+    ],
+    "api_compat": [],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "dead",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.gpt-ai.live"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "最近一次探测主机不可达。目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://api.gpt-ai.live",
+        "title": "GPT AI Live",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "UND_ERR_CONNECT_TIMEOUT"
+      }
+    ]
+  },
+  {
+    "id": "gpt-ge",
+    "name": "V-API (gpt.ge)",
+    "aliases": [
+      "gpt.ge"
+    ],
+    "operator": "V-API",
+    "type": "community-relay",
+    "website": "https://api.gpt.ge",
+    "api_base_urls": [
+      "https://api.gpt.ge"
+    ],
+    "api_compat": [
+      "openai",
+      "anthropic",
+      "gemini"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "2.2.25",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.gpt.ge"
+    },
+    "related_ids": [
+      "v-api"
+    ],
+    "related_sites": [
+      "https://api.v3.cm"
+    ],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.gpt.ge",
+        "title": "V-API - 为您提供稳定可靠的Openai ChatGPT、Gemini、Claude、Deepseek、Grok、openclaw等API直连中转服务！",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "V-API 2.2.25"
+      }
+    ]
+  },
+  {
+    "id": "gptapi-us",
+    "name": "GPTAPI US",
+    "aliases": [],
+    "operator": "GPTAPI US",
+    "type": "community-relay",
+    "website": "https://api.gptapi.us",
+    "api_base_urls": [
+      "https://api.gptapi.us"
+    ],
+    "api_compat": [],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "dead",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.gptapi.us"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "最近一次探测主机不可达。目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://api.gptapi.us",
+        "title": "GPTAPI US",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "ENOTFOUND"
+      }
+    ]
+  },
+  {
+    "id": "gptgod",
+    "name": "GPTGod",
+    "aliases": [],
+    "operator": "GPTGod",
+    "type": "community-relay",
+    "website": "https://gptgod.online",
+    "api_base_urls": [
+      "https://api.gptgod.online"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://gptgod.online"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://gptgod.online",
+        "title": "GPTGod",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      },
+      {
+        "url": "https://api.gptgod.online",
+        "title": "GPTGod",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "gptsapi",
+    "name": "GPTSAPI",
+    "aliases": [],
+    "operator": "GPTSAPI",
+    "type": "community-relay",
+    "website": "https://api.gptsapi.net",
+    "api_base_urls": [
+      "https://api.gptsapi.net"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.gptsapi.net"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.gptsapi.net",
+        "title": "GPTSAPI",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "groq",
+    "name": "Groq",
+    "aliases": [],
+    "operator": "Groq",
+    "type": "official",
+    "website": "https://api.groq.com",
+    "api_base_urls": [
+      "https://api.groq.com"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "global",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.groq.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "官方模型平台；目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://api.groq.com",
+        "title": "Groq",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "lingsuan",
+    "name": "灵算",
+    "aliases": [],
+    "operator": "灵算",
+    "type": "community-relay",
+    "website": "https://www.lingsuan.si",
+    "api_base_urls": [
+      "https://lingsuan.si"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "nav",
+      "url": "https://www.hvoyai.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://www.lingsuan.si",
+        "title": "灵算 - AI API Gateway",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      },
+      {
+        "url": "https://lingsuan.si",
+        "title": "灵算 - AI API Gateway",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "minimax",
+    "name": "MiniMax API",
+    "aliases": [],
+    "operator": "MiniMax",
+    "type": "official",
+    "website": "https://api.minimaxi.com",
+    "api_base_urls": [
+      "https://api.minimaxi.com"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "CN",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.minimaxi.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "官方模型平台；目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://api.minimaxi.com",
+        "title": "404 Not Found",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "mjdjourney",
+    "name": "MJD Journey",
+    "aliases": [],
+    "operator": "MJD Journey",
+    "type": "community-relay",
+    "website": "https://api.mjdjourney.cn",
+    "api_base_urls": [
+      "https://api.mjdjourney.cn"
+    ],
+    "api_compat": [],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "CN",
+    "status": "dead",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.mjdjourney.cn"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "最近一次探测主机不可达。目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://api.mjdjourney.cn",
+        "title": "MJD Journey",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "ENOTFOUND"
+      }
+    ]
+  },
+  {
+    "id": "moonshot",
+    "name": "Moonshot API",
+    "aliases": [
+      "Kimi"
+    ],
+    "operator": "月之暗面",
+    "type": "official",
+    "website": "https://api.moonshot.cn",
+    "api_base_urls": [
+      "https://api.moonshot.cn"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "CN",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.moonshot.cn"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "官方模型平台；目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://api.moonshot.cn",
+        "title": "Moonshot API",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "nextapi",
+    "name": "NextAPI",
+    "aliases": [],
+    "operator": "NextAPI",
+    "type": "community-relay",
+    "website": "https://api.nextapi.fun",
+    "api_base_urls": [
+      "https://api.nextapi.fun"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.nextapi.fun"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.nextapi.fun",
+        "title": "NextAPI",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "novita",
+    "name": "Novita AI",
+    "aliases": [],
+    "operator": "Novita AI",
+    "type": "official",
+    "website": "https://novita.ai",
+    "api_base_urls": [
+      "https://novita.ai"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "global",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://novita.ai"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "官方模型平台；目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://novita.ai",
+        "title": "Novita AI - AI & Agent Cloud for Developers",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "oaipro",
+    "name": "OAIPRO",
+    "aliases": [],
+    "operator": "OAIPRO",
+    "type": "third-party-proxy",
+    "website": "https://api.oaipro.com",
+    "api_base_urls": [
+      "https://api.oaipro.com"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "unstable",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.oaipro.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.oaipro.com",
+        "title": "Just a moment...",
+        "checked_at": "2026-10-20",
+        "http": 403,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "ohmygpt",
+    "name": "OhMyGPT",
+    "aliases": [],
+    "operator": "OhMyGPT",
+    "type": "third-party-proxy",
+    "website": "https://ohmygpt.com",
+    "api_base_urls": [
+      "https://ohmygpt.com"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://ohmygpt.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://ohmygpt.com",
+        "title": "OhMyGPT - Enterprise AI Infrastructure | 100+ Global AI Models - OhMyGPT",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "oneabc",
+    "name": "OneABC",
+    "aliases": [],
+    "operator": "OneABC",
+    "type": "community-relay",
+    "website": "https://api.oneabc.org",
+    "api_base_urls": [
+      "https://api.oneabc.org"
+    ],
+    "api_compat": [],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "dead",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.oneabc.org"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "最近一次探测主机不可达。目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://api.oneabc.org",
+        "title": "OneABC",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "ENOTFOUND"
+      }
+    ]
+  },
+  {
+    "id": "openai-hk",
+    "name": "Openai-HK",
+    "aliases": [],
+    "operator": "Openai-HK",
+    "type": "third-party-proxy",
+    "website": "https://openai-hk.com",
+    "api_base_urls": [
+      "https://openai-hk.com"
+    ],
+    "api_compat": [
+      "openai",
+      "anthropic",
+      "gemini"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://openai-hk.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://openai-hk.com",
+        "title": "Suno Banana Midjourney GPT5 Claude Flux Gemini Openai-HK",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "openai-proxy",
+    "name": "OpenAI Proxy",
+    "aliases": [],
+    "operator": "openai-proxy.org",
+    "type": "third-party-proxy",
+    "website": "https://api.openai-proxy.org",
+    "api_base_urls": [
+      "https://api.openai-proxy.org"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.openai-proxy.org"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.openai-proxy.org",
+        "title": "API使用指南",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "openkey",
+    "name": "OpenKey",
+    "aliases": [],
+    "operator": "OpenKey",
+    "type": "community-relay",
+    "website": "https://openkey.cloud",
+    "api_base_urls": [
+      "https://openkey.cloud"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "v0.0.0",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://openkey.cloud"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://openkey.cloud",
+        "title": "OpenKey - 提供企业级专业稳定的 ChatGPT 接口集成分发服务",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "OpenKey v0.0.0"
+      }
+    ]
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "aliases": [],
+    "operator": "OpenRouter",
+    "type": "aggregator",
+    "website": "https://openrouter.ai",
+    "api_base_urls": [
+      "https://openrouter.ai"
+    ],
+    "api_compat": [
+      "openai",
+      "anthropic",
+      "gemini"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "global",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://openrouter.ai"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "官方模型平台；目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://openrouter.ai",
+        "title": "OpenRouter",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "poloai",
+    "name": "PoloAPI",
+    "aliases": [
+      "PoloAI"
+    ],
+    "operator": "PoloAPI",
+    "type": "community-relay",
+    "website": "https://poloai.top",
+    "api_base_urls": [
+      "https://poloai.top"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "v2026-06-15",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://poloai.top"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://poloai.top",
+        "title": "New API",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "PoloAPI v2026-06-15"
+      }
+    ]
+  },
+  {
+    "id": "ppinfra",
+    "name": "PPIO",
+    "aliases": [
+      "ppinfra",
+      "PPIO Cloud"
+    ],
+    "operator": "PPIO",
+    "type": "official",
+    "website": "https://ppio.com",
+    "api_base_urls": [
+      "https://ppinfra.com"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "CN",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://ppio.com"
+    },
+    "related_ids": [],
+    "related_sites": [
+      "https://ppinfra.com"
+    ],
+    "icon": "",
+    "risk_notes": "官方模型平台；目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://ppio.com",
+        "title": "PPIO｜中国领先的独立 Agentic Cloud 服务商",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      },
+      {
+        "url": "https://ppinfra.com",
+        "title": "PPIO｜中国领先的独立 Agentic Cloud 服务商",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "shannonapi",
+    "name": "Shannon API",
+    "aliases": [],
+    "operator": "Shannon API",
+    "type": "community-relay",
+    "website": "https://api.shannonapi.xyz",
+    "api_base_urls": [
+      "https://api.shannonapi.xyz"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "github",
+      "url": "https://api.shannonapi.xyz"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.shannonapi.xyz",
+        "title": "Shannon API - AI API Gateway",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "siliconflow",
+    "name": "硅基流动 SiliconFlow",
+    "aliases": [
+      "SiliconFlow"
+    ],
+    "operator": "硅基流动",
+    "type": "official",
+    "website": "https://www.siliconflow.cn",
+    "api_base_urls": [
+      "https://siliconflow.cn"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "CN",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://www.siliconflow.cn"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "官方模型平台；目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://www.siliconflow.cn",
+        "title": "硅基流动 SiliconFlow - 大模型 API 与 AI 云服务平台",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200"
+      },
+      {
+        "url": "https://siliconflow.cn",
+        "title": "硅基流动 SiliconFlow - 大模型 API 与 AI 云服务平台",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200"
+      }
+    ]
+  },
+  {
+    "id": "together-ai",
+    "name": "Together AI",
+    "aliases": [
+      "Together"
+    ],
+    "operator": "Together AI",
+    "type": "official",
+    "website": "https://api.together.ai",
+    "api_base_urls": [
+      "https://api.together.ai"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "global",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.together.ai"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "官方模型平台；目录收录不等于背书。",
+    "evidence": [
+      {
+        "url": "https://api.together.ai",
+        "title": "Together AI | The AI Native Cloud",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "uniapi",
+    "name": "UniAPI",
+    "aliases": [],
+    "operator": "UniAPI",
+    "type": "third-party-proxy",
+    "website": "https://uniapi.ai",
+    "api_base_urls": [
+      "https://uniapi.io"
+    ],
+    "api_compat": [
+      "openai",
+      "anthropic",
+      "gemini"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://uniapi.ai"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://uniapi.ai",
+        "title": "UniAPI - OpenAI/Claude/Gemini 企业级中转平台",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200"
+      },
+      {
+        "url": "https://uniapi.io",
+        "title": "UniAPI - OpenAI/Claude/Gemini 企业级中转平台",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200"
+      }
+    ]
+  },
+  {
+    "id": "v-api",
+    "name": "V-API",
+    "aliases": [],
+    "operator": "V-API",
+    "type": "third-party-proxy",
+    "website": "https://api.v3.cm",
+    "api_base_urls": [
+      "https://api.v3.cm"
+    ],
+    "api_compat": [
+      "openai",
+      "anthropic",
+      "gemini"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "2.2.25",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.v3.cm"
+    },
+    "related_ids": [
+      "gpt-ge"
+    ],
+    "related_sites": [
+      "https://api.gpt.ge"
+    ],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.v3.cm",
+        "title": "V-API - 为您提供稳定可靠的Openai ChatGPT、Gemini、Claude、Deepseek、Grok、openclaw等API直连中转服务！",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "V-API 2.2.25"
+      }
+    ]
+  },
+  {
+    "id": "vectrust",
+    "name": "Vectrust",
+    "aliases": [
+      "openai-next"
+    ],
+    "operator": "Vectrust",
+    "type": "community-relay",
+    "website": "https://api.openai-next.com",
+    "api_base_urls": [
+      "https://api.openai-next.com"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "v32.7.5",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.openai-next.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.openai-next.com",
+        "title": "Vectrust",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "Vectrust v32.7.5"
+      }
+    ]
+  },
+  {
+    "id": "whatai",
+    "name": "神马中转API",
+    "aliases": [
+      "WhatAI"
+    ],
+    "operator": "神马中转API",
+    "type": "community-relay",
+    "website": "https://api.whatai.cc",
+    "api_base_urls": [
+      "https://api.whatai.cc"
+    ],
+    "api_compat": [],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "unverified",
+    "status": "closed",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "github",
+      "url": "https://api.whatai.cc"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "运营方已公告关闭。目录收录不等于背书，也不表示仍可充值或调用。",
+    "evidence": [
+      {
+        "url": "https://api.whatai.cc",
+        "title": "Just a moment...",
+        "checked_at": "2026-10-20",
+        "http": 403,
+        "api_status": "404"
+      }
+    ]
+  },
+  {
+    "id": "wlai",
+    "name": "云雾 API (wlai.vip)",
+    "aliases": [
+      "YUNWU.AI"
+    ],
+    "operator": "云雾 API",
+    "type": "community-relay",
+    "website": "https://api.wlai.vip",
+    "api_base_urls": [
+      "https://api.wlai.vip"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "20261019-114428",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.wlai.vip"
+    },
+    "related_ids": [
+      "yunwu"
+    ],
+    "related_sites": [
+      "https://yunwu.ai"
+    ],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.wlai.vip",
+        "title": "YUNWU.AI (云雾 API) - 高速、稳定的 AI API 中转站",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "云雾 API 20261019-114428"
+      }
+    ]
+  },
+  {
+    "id": "yunwu",
+    "name": "云雾 API",
+    "aliases": [
+      "YUNWU.AI"
+    ],
+    "operator": "云雾 API",
+    "type": "community-relay",
+    "website": "https://yunwu.ai",
+    "api_base_urls": [
+      "https://yunwu.ai",
+      "https://api.wlai.vip"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "new-api/one-api",
+      "version": "20261019-114428",
+      "detected_by": "GET /api/status"
+    },
+    "region": "unverified",
+    "status": "active",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://yunwu.ai"
+    },
+    "related_ids": [
+      "wlai"
+    ],
+    "related_sites": [
+      "https://api.wlai.vip"
+    ],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://yunwu.ai",
+        "title": "YUNWU.AI (云雾 API) - 高速、稳定的 AI API 中转站",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "云雾 API 20261019-114428"
+      }
+    ]
+  },
+  {
+    "id": "zhizengzeng",
+    "name": "智增增",
+    "aliases": [],
+    "operator": "智增增",
+    "type": "third-party-proxy",
+    "website": "https://api.zhizengzeng.com",
+    "api_base_urls": [
+      "https://api.zhizengzeng.com"
+    ],
+    "api_compat": [
+      "openai"
+    ],
+    "models": [],
+    "pricing": {
+      "unit": "",
+      "ratio_note": ""
+    },
+    "payment_methods": [],
+    "backend": {
+      "software": "",
+      "version": "",
+      "detected_by": ""
+    },
+    "region": "CN",
+    "status": "unstable",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20",
+    "discovery_source": {
+      "channel": "known",
+      "url": "https://api.zhizengzeng.com"
+    },
+    "related_ids": [],
+    "related_sites": [],
+    "icon": "",
+    "risk_notes": "目录收录不等于推荐或背书。第三方代理与社区中转可能与上游服务条款或当地法规冲突。",
+    "evidence": [
+      {
+        "url": "https://api.zhizengzeng.com",
+        "title": "智增增",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "502"
+      }
+    ]
+  }
+]

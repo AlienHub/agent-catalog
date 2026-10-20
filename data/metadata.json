@@ -1,7 +1,9 @@
 {
   "schemaVersion": 7,
-  "dataVersion": "0.27",
+  "dataVersion": "0.28",
   "snapshotDate": "2026-10-20",
+  "provider_count": 57,
+  "providerCatalogScope": "Operating LLM API provider and relay-station sites only. Listing is not endorsement. Open-source backends such as one-api/new-api are detected attributes, not catalog entries.",
   "source": "Agent Atlas verified application catalog; 2026-10-20 logo fill (59 records / 45 products; 187 SVG files / 83 PNG files after update)",
   "verificationScope": "Official website/source review; not an installation or availability test",
   "sourceCommit": "0c6491358e20cceaf5d0c498956972040cba4324",
