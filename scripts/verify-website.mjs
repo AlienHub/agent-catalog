@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const file = path => readFile(resolve(root,path));
-const dataNames=['dataset','evidence','schema','collections','metadata','open-source','open-source-schema','commercial','commercial-schema'];
+const dataNames=['dataset','evidence','schema','collections','metadata','open-source','open-source-schema','commercial','commercial-schema','providers','providers-schema','provider-evidence'];
 for (const name of dataNames) assert.deepEqual(await file(`website-dist/${name}.json`), await file(`data/${name}.json`), `${name} source parity`);
 for (const name of await readdir(resolve(root,'assets/icons'))) assert.deepEqual(await file(`website-dist/icons/${name}`), await file(`assets/icons/${name}`), `${name} source parity`);
 for (const name of await readdir(resolve(root,'licenses'))) assert.deepEqual(await file(`website-dist/licenses/${name}`), await file(`licenses/${name}`), `${name} notice parity`);
@@ -29,8 +29,8 @@ for (const match of appJs.matchAll(/\$\(['"]([^'"]+)['"]\)/g)) assert(html.inclu
 const zip = await file(`website-dist/agent-atlas-v${metadata.dataVersion}.zip`);
 assert.equal(zip.readUInt32LE(0), 0x04034b50);
 assert.equal(zip.readUInt32LE(zip.length - 22), 0x06054b50);
-assert.equal(zip.readUInt16LE(zip.length - 12), dataNames.length + 2 + 1 + (await readdir(resolve(root,'assets/icons'))).length + (await readdir(resolve(root,'licenses'))).length);
-for(const name of ['commercial.json','commercial-schema.json'])assert(zip.includes(Buffer.from(name)), `Missing ZIP entry: ${name}`);
+assert.equal(zip.readUInt16LE(zip.length - 12), dataNames.length + 3 + 1 + (await readdir(resolve(root,'assets/icons'))).length + (await readdir(resolve(root,'licenses'))).length);
+for(const name of ['commercial.json','commercial-schema.json','providers.json','providers-schema.json','provider-evidence.json'])assert(zip.includes(Buffer.from(name)), `Missing ZIP entry: ${name}`);
 assert((await file('website-dist/dataset.csv')).toString().startsWith('\uFEFF'));
 const csvHeader = (await file('website-dist/dataset.csv')).toString().split('\r\n')[0];
 assert(!csvHeader.includes('"web_url"'), 'Removed Web entry URL must not be exported');
@@ -38,6 +38,7 @@ assert(csvHeader.includes('"web_domains"'), 'Application domains must remain in 
 console.log('PASS: website data, SVG and license source parity; CSV/ZIP exports, version, local links and DOM targets');
 
 assert((await file('website-dist/open-source.csv')).toString().startsWith('\uFEFF'));
+assert((await file('website-dist/providers.csv')).toString().startsWith('\uFEFF'));
 
 const trendConfig = JSON.parse((await file('website-dist/trends-config.json')).toString());
 assert.deepEqual(trendConfig, JSON.parse((await file('website/trends-config.json')).toString()), 'Trend config source parity');

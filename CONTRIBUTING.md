@@ -7,8 +7,9 @@
 - 应用元数据：`data/dataset.json`
 - 来源、核验日期与限制说明：`data/evidence.json`
 - 集合成员：`data/collections.json`
-- 快照版本、日期与来源提交：`data/metadata.json`
-- 字段约束：`data/schema.json`
+- 快照版本、日期、来源提交与 `provider_count`：`data/metadata.json`
+- 字段约束：`data/schema.json`（不要为供应商目录改动此文件）
+- 模型供应商 / 中转站：`data/providers.json`、`data/providers-schema.json`、`data/provider-evidence.json`
 - SVG：`assets/icons/`
 - 原始第三方许可：`licenses/`
 - 浏览界面：`website/`
@@ -59,8 +60,8 @@ npm run build:website
 - 非空 `icon` 路径都能找到实际 SVG，缺失 SVG 的回退行为明确
 - 核心入口不引入 React 或其他运行时依赖；React 用法限于可选 `/react` 入口
 - 搜索、筛选、未知 ID、未知集合、数组筛选、空值及运行时只读行为有相应测试
-- 包导出包含核心、`/react`、`/icons`、五个原始 JSON 与 SVG 子路径
-- `website-dist/` 中的五份 JSON 与 `data/` 一致，SVG 来自 `assets/icons/`，原始许可文本随构建保留
+- 包导出包含核心、`/react`、`/icons`、原始 JSON（含 providers）与 SVG 子路径
+- `website-dist/` 中的 JSON 与 `data/` 一致，SVG 来自 `assets/icons/`，原始许可文本随构建保留
 - 完整 ZIP 下载由规范数据自动生成，包含 JSON、CSV、SVG、来源、集合和许可；原始数据、Schema 与来源链接可用
 
 可用以下命令本地预览网站：

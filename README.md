@@ -161,6 +161,9 @@ export function Example() {
 @alienhub/agent-atlas/schema.json
 @alienhub/agent-atlas/collections.json
 @alienhub/agent-atlas/metadata.json
+@alienhub/agent-atlas/providers.json
+@alienhub/agent-atlas/providers-schema.json
+@alienhub/agent-atlas/provider-evidence.json
 @alienhub/agent-atlas/icons/<filename>.svg
 @alienhub/agent-atlas/icons/<filename>.png
 ```
@@ -175,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.27（2026-10-20），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.28（2026-10-20），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -479,3 +482,12 @@ Logo：Octop / Starkomand / readywhen 使用官方原始 SVG。LobsterAI 官网�
 为缺 logo 的目录条目补官方或认可图标库素材：59 条记录 / 45 个产品。同一产品的多形态共用一份文件。PNG 标注「未收录 SVG」。厂商品牌仅在产品无独立标识时使用，并写入 `svg_status`。
 
 仍缺 26 条 / 20 个产品：官网仅 ico、反爬、GitHub identicon/JPEG 头像、或仅有过于泛化的集团母品牌（Leonardo、ChatGPT Atlas、Muse Code、DeerFlow、Agent TARS 等）。
+
+## v0.28 模型供应商 / 中转站目录（2026-10-20）
+
+新增并列数据集 `data/providers.json`（`providers-schema.json`、`provider-evidence.json`），收录正在运营的模型 API 站点与中转站，不改动 `dataset.json` / `schema.json`。网站顶部增加「Agent 应用 | 模型供应商/中转站」切换。
+
+- 种子来自 2026-10-20 样本：排除导航站 hvoyai.com；神马中转（whatai）标为 closed；不可达主机标为 dead。
+- 只记录服务站点 / API 地址。one-api / new-api 等开源项目不是条目，仅作为 `backend` 探测属性。
+- 探测范围：HTTPS 首页、`GET /api/status` 指纹、`GET /v1/models` 只看状态码。不注册、不付费、不用 API key。
+- **收录不等于背书。** 详见 `website/README.md`。

@@ -1,0 +1,2412 @@
+{
+  "agicto": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 200。 页面标题：AGICTO",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.agicto.cn",
+        "title": "AGICTO 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.agicto.cn/",
+        "title": "AGICTO",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 200,
+        "error": "",
+        "final_url": "https://api.agicto.cn/"
+      },
+      {
+        "url": "https://api.agicto.cn/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.agicto.cn/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "",
+        "models_http": 200,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "ai302": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200；GET /v1/models 仅看状态码 200。 页面标题：企业级AI资源平台 - 302.AI | 按用量付费，全模型API接入，应用在线使用",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://302.ai",
+        "title": "302.AI 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://302.ai/",
+        "title": "企业级AI资源平台 - 302.AI | 按用量付费，全模型API接入，应用在线使用",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200",
+        "models_http": 200,
+        "error": "",
+        "final_url": "https://302.ai/"
+      },
+      {
+        "url": "https://302.ai/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://302.ai/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "",
+        "models_http": 200,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "ai302-api": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 401；GET /v1/models 仅看状态码 401。 页面标题：AI302 Api",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.302.ai",
+        "title": "AI302 API 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.302.ai/",
+        "title": "AI302 Api",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "401",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.302.ai/"
+      },
+      {
+        "url": "https://api.302.ai/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "401",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.302.ai/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "ai302-cn": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 401；GET /v1/models 仅看状态码 401。 页面标题：AI302 Api",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.302ai.cn",
+        "title": "AI302 API (cn) 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.302ai.cn/",
+        "title": "AI302 Api",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "401",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.302ai.cn/"
+      },
+      {
+        "url": "https://api.302ai.cn/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "401",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.302ai.cn/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "aicore-api": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · AiCore API；GET /v1/models 仅看状态码 401。 页面标题：One API",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.xty.app",
+        "title": "AiCore API 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.xty.app/",
+        "title": "One API",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "AiCore API",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.xty.app/"
+      },
+      {
+        "url": "https://api.xty.app/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "AiCore API",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.xty.app/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "aigc369": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 0 (UND_ERR_SOCKET)；GET /api/status HTTP 555；GET /v1/models 仅看状态码 0 (UND_ERR_SOCKET)。 页面标题：AIGC369",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.aigc369.com",
+        "title": "AIGC369 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.aigc369.com/",
+        "title": "AIGC369",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "555",
+        "models_http": 0,
+        "error": "UND_ERR_SOCKET",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.aigc369.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 555,
+        "api_status": "555",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.aigc369.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "",
+        "models_http": 0,
+        "error": "UND_ERR_SOCKET",
+        "final_url": ""
+      }
+    ]
+  },
+  "aigcbest": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · 钱多多 API 0.7.0-rc.11；GET /v1/models 仅看状态码 401。 页面标题：钱多多 API - OpenAI 兼容的大模型中转",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.aigcbest.top",
+        "title": "钱多多 API 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.aigcbest.top/",
+        "title": "钱多多 API - OpenAI 兼容的大模型中转",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "钱多多 API 0.7.0-rc.11",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api2.aigcbest.top/"
+      },
+      {
+        "url": "https://api.aigcbest.top/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "钱多多 API 0.7.0-rc.11",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.aigcbest.top/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "aihubmix": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · AIHubMix；GET /v1/models 仅看状态码 200。 页面标题：AIHubMix - One API for Any Model",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://aihubmix.com",
+        "title": "AIHubMix 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://aihubmix.com/",
+        "title": "AIHubMix - One API for Any Model",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "AIHubMix",
+        "models_http": 200,
+        "error": "",
+        "final_url": "https://aihubmix.com/"
+      },
+      {
+        "url": "https://aihubmix.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "AIHubMix",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://aihubmix.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "",
+        "models_http": 200,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "aiproxy": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 0 (UND_ERR_CONNECT_TIMEOUT)；GET /api/status HTTP 0 (UND_ERR_CONNECT_TIMEOUT)；GET /v1/models 仅看状态码 0 (timeout)。 页面标题：AIProxy",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://aiproxy.io",
+        "title": "AIProxy 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://aiproxy.io/",
+        "title": "AIProxy",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "UND_ERR_CONNECT_TIMEOUT",
+        "models_http": 0,
+        "error": "UND_ERR_CONNECT_TIMEOUT",
+        "final_url": ""
+      },
+      {
+        "url": "https://aiproxy.io/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "UND_ERR_CONNECT_TIMEOUT",
+        "models_http": null,
+        "error": "UND_ERR_CONNECT_TIMEOUT",
+        "final_url": ""
+      },
+      {
+        "url": "https://aiproxy.io/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "",
+        "models_http": 0,
+        "error": "timeout",
+        "final_url": ""
+      }
+    ]
+  },
+  "api2d": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 403；GET /api/status HTTP 200；GET /v1/models 仅看状态码 200。 页面标题：Just a moment...",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api2d.com",
+        "title": "API2D 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api2d.com/",
+        "title": "Just a moment...",
+        "checked_at": "2026-10-20",
+        "http": 403,
+        "api_status": "200",
+        "models_http": 200,
+        "error": "",
+        "final_url": "https://api2d.com/"
+      },
+      {
+        "url": "https://api2d.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api2d.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "",
+        "models_http": 200,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "api88": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · 88API-Token聚合平台 v1.0.0-rc.44-88api.1；GET /v1/models 仅看状态码 401。 页面标题：AI API中转站｜Claude API、Codex API、Gemini统一接入 - 88API",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://88api.ai",
+        "title": "88API 站点"
+      },
+      {
+        "url": "https://www.hvoyai.com",
+        "title": "发现渠道 nav"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://88api.ai/",
+        "title": "AI API中转站｜Claude API、Codex API、Gemini统一接入 - 88API",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "88API-Token聚合平台 v1.0.0-rc.44-88api.1",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://88api.ai/"
+      },
+      {
+        "url": "https://88api.ai/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "88API-Token聚合平台 v1.0.0-rc.44-88api.1",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://88api.ai/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "apitiantian": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 401。 页面标题：天天中转站｜国产大模型 API，官方价格 2 折",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://apitiantian.com",
+        "title": "天天中转站 站点"
+      },
+      {
+        "url": "https://www.hvoyai.com",
+        "title": "发现渠道 nav"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://apitiantian.com/",
+        "title": "天天中转站｜国产大模型 API，官方价格 2 折",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://apitiantian.com/"
+      },
+      {
+        "url": "https://apitiantian.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://apitiantian.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "apiyi": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · APIYI v32.7.5；GET /v1/models 仅看状态码 401。 页面标题：APIYI",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.apiyi.com",
+        "title": "APIYI 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.apiyi.com/",
+        "title": "APIYI",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "APIYI v32.7.5",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.apiyi.com/"
+      },
+      {
+        "url": "https://api.apiyi.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "APIYI v32.7.5",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.apiyi.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "bigmodel": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200；GET /v1/models 仅看状态码 200。 页面标题：智谱丨BigModel 平台",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://open.bigmodel.cn",
+        "title": "智谱 BigModel 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://open.bigmodel.cn/",
+        "title": "智谱丨BigModel 平台",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200",
+        "models_http": 200,
+        "error": "",
+        "final_url": "https://open.bigmodel.cn/"
+      },
+      {
+        "url": "https://open.bigmodel.cn/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://open.bigmodel.cn/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "",
+        "models_http": 200,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "bltcy": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · 柏拉图AI v4.9.61-v2；GET /v1/models 仅看状态码 401。 页面标题：柏拉图AI_API中转站",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.bltcy.ai",
+        "title": "柏拉图AI 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.bltcy.ai/",
+        "title": "柏拉图AI_API中转站",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "柏拉图AI v4.9.61-v2",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.bltcy.ai/"
+      },
+      {
+        "url": "https://api.bltcy.ai/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "柏拉图AI v4.9.61-v2",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.bltcy.ai/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "burn-hair": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · 头顶冒火  v0.0.0；GET /v1/models 仅看状态码 401。 页面标题：头顶冒火 🤯",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://burn.hair",
+        "title": "头顶冒火 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://burn.hair/",
+        "title": "头顶冒火 🤯",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "头顶冒火  v0.0.0",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://burn.hair/"
+      },
+      {
+        "url": "https://burn.hair/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "头顶冒火  v0.0.0",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://burn.hair/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "chatanywhere": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200；GET /v1/models 仅看状态码 401。 页面标题：ChatAnywhere",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://chatanywhere.tech",
+        "title": "ChatAnywhere 站点"
+      },
+      {
+        "url": "https://github.com/chatanywhere/GPT_API_free",
+        "title": "发现渠道 github"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.chatanywhere.tech/",
+        "title": "ChatAnywhere",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://chatanywhere.tech/"
+      },
+      {
+        "url": "https://api.chatanywhere.tech/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.chatanywhere.tech/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "chatfire": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · ChatfireAPI🔥 5.14.18；GET /v1/models 仅看状态码 401。 页面标题：ChatfireAPI",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.chatfire.cn",
+        "title": "ChatfireAPI 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.chatfire.cn/",
+        "title": "ChatfireAPI",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "ChatfireAPI🔥 5.14.18",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.chatfire.cn/"
+      },
+      {
+        "url": "https://api.chatfire.cn/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "ChatfireAPI🔥 5.14.18",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.chatfire.cn/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "closeai-asia": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 0 (ENOTFOUND)；GET /api/status HTTP 0 (ENOTFOUND)；GET /v1/models 仅看状态码 0 (ENOTFOUND)。 页面标题：CloseAI Asia",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://closeai-asia.com",
+        "title": "CloseAI Asia 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://closeai-asia.com/",
+        "title": "CloseAI Asia",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "ENOTFOUND",
+        "models_http": 0,
+        "error": "ENOTFOUND",
+        "final_url": ""
+      },
+      {
+        "url": "https://closeai-asia.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "ENOTFOUND",
+        "models_http": null,
+        "error": "ENOTFOUND",
+        "final_url": ""
+      },
+      {
+        "url": "https://closeai-asia.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "",
+        "models_http": 0,
+        "error": "ENOTFOUND",
+        "final_url": ""
+      }
+    ]
+  },
+  "cursorai-art": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · CURSOR API 20261019-114428；GET /v1/models 仅看状态码 401。 页面标题：首页 - CURSOR API",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.cursorai.art",
+        "title": "CURSOR API 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.cursorai.art/",
+        "title": "首页 - CURSOR API",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "CURSOR API 20261019-114428",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.cursorai.art/"
+      },
+      {
+        "url": "https://api.cursorai.art/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "CURSOR API 20261019-114428",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.cursorai.art/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "dashscope": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 404；GET /api/status HTTP 404；GET /v1/models 仅看状态码 404。 页面标题：阿里云百炼 DashScope",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://dashscope.aliyuncs.com",
+        "title": "阿里云百炼 DashScope 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://dashscope.aliyuncs.com/",
+        "title": "阿里云百炼 DashScope",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": 404,
+        "error": "",
+        "final_url": "https://dashscope.aliyuncs.com/"
+      },
+      {
+        "url": "https://dashscope.aliyuncs.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://dashscope.aliyuncs.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "",
+        "models_http": 404,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "deepinfra": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 404。 页面标题：Machine Learning Models and Infrastructure | DeepInfra",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://deepinfra.com",
+        "title": "DeepInfra 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://deepinfra.com/",
+        "title": "Machine Learning Models and Infrastructure | DeepInfra",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 404,
+        "error": "",
+        "final_url": "https://deepinfra.com/"
+      },
+      {
+        "url": "https://deepinfra.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://deepinfra.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "",
+        "models_http": 404,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "deepseek": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 401；GET /api/status HTTP 401；GET /v1/models 仅看状态码 401。 页面标题：DeepSeek API",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.deepseek.com",
+        "title": "DeepSeek API 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.deepseek.com/",
+        "title": "DeepSeek API",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "401",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.deepseek.com/"
+      },
+      {
+        "url": "https://api.deepseek.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "401",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.deepseek.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "dmxapi": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 404。 页面标题：DMXAPI - Global AI Model API Aggregation, OpenAI API Proxy with Discount",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://dmxapi.com",
+        "title": "DMXAPI 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://dmxapi.com/",
+        "title": "DMXAPI - Global AI Model API Aggregation, OpenAI API Proxy with Discount",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 404,
+        "error": "",
+        "final_url": "https://dmxapi.com/"
+      },
+      {
+        "url": "https://dmxapi.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://dmxapi.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "",
+        "models_http": 404,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "ephone": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · ePhone AI 6.5.28；GET /v1/models 仅看状态码 401。 页面标题：ePhone AI",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://platform.ephone.ai",
+        "title": "ePhone AI 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.ephone.ai/",
+        "title": "ePhone AI",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "ePhone AI 6.5.28",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://platform.ephone.ai/"
+      },
+      {
+        "url": "https://api.ephone.ai/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "ePhone AI 6.5.28",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.ephone.ai/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "fireworks": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 404。 页面标题：Own Your Specialized Intelligence | Fireworks",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://fireworks.ai",
+        "title": "Fireworks AI 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://fireworks.ai/",
+        "title": "Own Your Specialized Intelligence | Fireworks",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 404,
+        "error": "",
+        "final_url": "https://fireworks.ai/"
+      },
+      {
+        "url": "https://fireworks.ai/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://fireworks.ai/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "",
+        "models_http": 404,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "gpt-ai-live": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 0 (UND_ERR_CONNECT_TIMEOUT)；GET /api/status HTTP 0 (UND_ERR_CONNECT_TIMEOUT)；GET /v1/models 仅看状态码 0 (timeout)。 页面标题：GPT AI Live",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.gpt-ai.live",
+        "title": "GPT AI Live 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.gpt-ai.live/",
+        "title": "GPT AI Live",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "UND_ERR_CONNECT_TIMEOUT",
+        "models_http": 0,
+        "error": "UND_ERR_CONNECT_TIMEOUT",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.gpt-ai.live/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "UND_ERR_CONNECT_TIMEOUT",
+        "models_http": null,
+        "error": "UND_ERR_CONNECT_TIMEOUT",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.gpt-ai.live/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "",
+        "models_http": 0,
+        "error": "timeout",
+        "final_url": ""
+      }
+    ]
+  },
+  "gpt-ge": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · V-API 2.2.25；GET /v1/models 仅看状态码 401。 页面标题：V-API - 为您提供稳定可靠的Openai ChatGPT、Gemini、Claude、Deepseek、Grok、openclaw等API直连中转服务！",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.gpt.ge",
+        "title": "V-API (gpt.ge) 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.gpt.ge/",
+        "title": "V-API - 为您提供稳定可靠的Openai ChatGPT、Gemini、Claude、Deepseek、Grok、openclaw等API直连中转服务！",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "V-API 2.2.25",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.gpt.ge/"
+      },
+      {
+        "url": "https://api.gpt.ge/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "V-API 2.2.25",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.gpt.ge/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "gptapi-us": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 0 (ENOTFOUND)；GET /api/status HTTP 0 (ENOTFOUND)；GET /v1/models 仅看状态码 0 (ENOTFOUND)。 页面标题：GPTAPI US",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.gptapi.us",
+        "title": "GPTAPI US 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.gptapi.us/",
+        "title": "GPTAPI US",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "ENOTFOUND",
+        "models_http": 0,
+        "error": "ENOTFOUND",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.gptapi.us/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "ENOTFOUND",
+        "models_http": null,
+        "error": "ENOTFOUND",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.gptapi.us/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "",
+        "models_http": 0,
+        "error": "ENOTFOUND",
+        "final_url": ""
+      }
+    ]
+  },
+  "gptgod": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 200。 页面标题：GPTGod",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://gptgod.online",
+        "title": "GPTGod 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.gptgod.online/",
+        "title": "GPTGod",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 200,
+        "error": "",
+        "final_url": "https://gptgod.online/"
+      },
+      {
+        "url": "https://api.gptgod.online/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.gptgod.online/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "",
+        "models_http": 200,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "gptsapi": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 401。 页面标题：GPTSAPI",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.gptsapi.net",
+        "title": "GPTSAPI 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.gptsapi.net/",
+        "title": "GPTSAPI",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.gptsapi.net/"
+      },
+      {
+        "url": "https://api.gptsapi.net/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.gptsapi.net/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "groq": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 404。 页面标题：Groq",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.groq.com",
+        "title": "Groq 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.groq.com/",
+        "title": "Groq",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 404,
+        "error": "",
+        "final_url": "https://api.groq.com/"
+      },
+      {
+        "url": "https://api.groq.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.groq.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "",
+        "models_http": 404,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "lingsuan": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 401。 页面标题：灵算 - AI API Gateway",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://www.lingsuan.si",
+        "title": "灵算 站点"
+      },
+      {
+        "url": "https://www.hvoyai.com",
+        "title": "发现渠道 nav"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://lingsuan.si/",
+        "title": "灵算 - AI API Gateway",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://www.lingsuan.si/"
+      },
+      {
+        "url": "https://lingsuan.si/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://lingsuan.si/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "minimax": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 404；GET /api/status HTTP 404；GET /v1/models 仅看状态码 401。 页面标题：404 Not Found",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.minimaxi.com",
+        "title": "MiniMax API 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.minimaxi.com/",
+        "title": "404 Not Found",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.minimaxi.com/"
+      },
+      {
+        "url": "https://api.minimaxi.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.minimaxi.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "mjdjourney": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 0 (ENOTFOUND)；GET /api/status HTTP 0 (ENOTFOUND)；GET /v1/models 仅看状态码 0 (ENOTFOUND)。 页面标题：MJD Journey",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.mjdjourney.cn",
+        "title": "MJD Journey 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.mjdjourney.cn/",
+        "title": "MJD Journey",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "ENOTFOUND",
+        "models_http": 0,
+        "error": "ENOTFOUND",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.mjdjourney.cn/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "ENOTFOUND",
+        "models_http": null,
+        "error": "ENOTFOUND",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.mjdjourney.cn/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "",
+        "models_http": 0,
+        "error": "ENOTFOUND",
+        "final_url": ""
+      }
+    ]
+  },
+  "moonshot": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 401。 页面标题：Moonshot API",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.moonshot.cn",
+        "title": "Moonshot API 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.moonshot.cn/",
+        "title": "Moonshot API",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.moonshot.cn/"
+      },
+      {
+        "url": "https://api.moonshot.cn/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.moonshot.cn/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "nextapi": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 404；GET /api/status HTTP 404；GET /v1/models 仅看状态码 401。 页面标题：NextAPI",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.nextapi.fun",
+        "title": "NextAPI 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.nextapi.fun/",
+        "title": "NextAPI",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.nextapi.fun/"
+      },
+      {
+        "url": "https://api.nextapi.fun/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.nextapi.fun/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "novita": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 404。 页面标题：Novita AI - AI & Agent Cloud for Developers",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://novita.ai",
+        "title": "Novita AI 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://novita.ai/",
+        "title": "Novita AI - AI & Agent Cloud for Developers",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 404,
+        "error": "",
+        "final_url": "https://novita.ai/"
+      },
+      {
+        "url": "https://novita.ai/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://novita.ai/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "",
+        "models_http": 404,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "oaipro": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 403；GET /api/status HTTP 404；GET /v1/models 仅看状态码 401。 页面标题：Just a moment...",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.oaipro.com",
+        "title": "OAIPRO 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.oaipro.com/",
+        "title": "Just a moment...",
+        "checked_at": "2026-10-20",
+        "http": 403,
+        "api_status": "404",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.oaipro.com/"
+      },
+      {
+        "url": "https://api.oaipro.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.oaipro.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "ohmygpt": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 404。 页面标题：OhMyGPT - Enterprise AI Infrastructure | 100+ Global AI Models - OhMyGPT",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://ohmygpt.com",
+        "title": "OhMyGPT 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://ohmygpt.com/",
+        "title": "OhMyGPT - Enterprise AI Infrastructure | 100+ Global AI Models - OhMyGPT",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 404,
+        "error": "",
+        "final_url": "https://www.ohmygpt.com/"
+      },
+      {
+        "url": "https://ohmygpt.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://ohmygpt.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "",
+        "models_http": 404,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "oneabc": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 0 (ENOTFOUND)；GET /api/status HTTP 0 (ENOTFOUND)；GET /v1/models 仅看状态码 0 (ENOTFOUND)。 页面标题：OneABC",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.oneabc.org",
+        "title": "OneABC 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.oneabc.org/",
+        "title": "OneABC",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "ENOTFOUND",
+        "models_http": 0,
+        "error": "ENOTFOUND",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.oneabc.org/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "ENOTFOUND",
+        "models_http": null,
+        "error": "ENOTFOUND",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.oneabc.org/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 0,
+        "api_status": "",
+        "models_http": 0,
+        "error": "ENOTFOUND",
+        "final_url": ""
+      }
+    ]
+  },
+  "openai-hk": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 404。 页面标题：Suno Banana Midjourney GPT5 Claude Flux Gemini Openai-HK",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://openai-hk.com",
+        "title": "Openai-HK 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://openai-hk.com/",
+        "title": "Suno Banana Midjourney GPT5 Claude Flux Gemini Openai-HK",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 404,
+        "error": "",
+        "final_url": "https://openai-hk.com/open/index"
+      },
+      {
+        "url": "https://openai-hk.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://openai-hk.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "",
+        "models_http": 404,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "openai-proxy": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 404；GET /api/status HTTP 404；GET /v1/models 仅看状态码 401。 页面标题：API使用指南",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.openai-proxy.org",
+        "title": "OpenAI Proxy 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.openai-proxy.org/",
+        "title": "API使用指南",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.openai-proxy.org/"
+      },
+      {
+        "url": "https://api.openai-proxy.org/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.openai-proxy.org/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "openkey": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · OpenKey v0.0.0；GET /v1/models 仅看状态码 401。 页面标题：OpenKey - 提供企业级专业稳定的 ChatGPT 接口集成分发服务",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://openkey.cloud",
+        "title": "OpenKey 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://openkey.cloud/",
+        "title": "OpenKey - 提供企业级专业稳定的 ChatGPT 接口集成分发服务",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "OpenKey v0.0.0",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://openkey.cloud/"
+      },
+      {
+        "url": "https://openkey.cloud/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "OpenKey v0.0.0",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://openkey.cloud/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "openrouter": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 404。 页面标题：OpenRouter",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://openrouter.ai",
+        "title": "OpenRouter 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://openrouter.ai/",
+        "title": "OpenRouter",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 404,
+        "error": "",
+        "final_url": "https://openrouter.ai/"
+      },
+      {
+        "url": "https://openrouter.ai/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://openrouter.ai/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "",
+        "models_http": 404,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "poloai": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · PoloAPI v2026-06-15；GET /v1/models 仅看状态码 401。 页面标题：New API",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://poloai.top",
+        "title": "PoloAPI 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://poloai.top/",
+        "title": "New API",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "PoloAPI v2026-06-15",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://poloai.top/"
+      },
+      {
+        "url": "https://poloai.top/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "PoloAPI v2026-06-15",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://poloai.top/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "ppinfra": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 404。 页面标题：PPIO｜中国领先的独立 Agentic Cloud 服务商",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://ppio.com",
+        "title": "PPIO 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://ppinfra.com/",
+        "title": "PPIO｜中国领先的独立 Agentic Cloud 服务商",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 404,
+        "error": "",
+        "final_url": "https://ppio.com/?from=ppinfra"
+      },
+      {
+        "url": "https://ppinfra.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://ppinfra.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "",
+        "models_http": 404,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "shannonapi": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 401。 页面标题：Shannon API - AI API Gateway",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.shannonapi.xyz",
+        "title": "Shannon API 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.shannonapi.xyz/",
+        "title": "Shannon API - AI API Gateway",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.shannonapi.xyz/"
+      },
+      {
+        "url": "https://api.shannonapi.xyz/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.shannonapi.xyz/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "siliconflow": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200；GET /v1/models 仅看状态码 200。 页面标题：硅基流动 SiliconFlow - 大模型 API 与 AI 云服务平台",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://www.siliconflow.cn",
+        "title": "硅基流动 SiliconFlow 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://siliconflow.cn/",
+        "title": "硅基流动 SiliconFlow - 大模型 API 与 AI 云服务平台",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200",
+        "models_http": 200,
+        "error": "",
+        "final_url": "https://www.siliconflow.cn/"
+      },
+      {
+        "url": "https://siliconflow.cn/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://siliconflow.cn/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "",
+        "models_http": 200,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "together-ai": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 404；GET /v1/models 仅看状态码 401。 页面标题：Together AI | The AI Native Cloud",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.together.ai",
+        "title": "Together AI 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.together.ai/",
+        "title": "Together AI | The AI Native Cloud",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "404",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.together.ai/"
+      },
+      {
+        "url": "https://api.together.ai/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.together.ai/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "uniapi": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200；GET /v1/models 仅看状态码 200。 页面标题：UniAPI - OpenAI/Claude/Gemini 企业级中转平台",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://uniapi.ai",
+        "title": "UniAPI 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://uniapi.io/",
+        "title": "UniAPI - OpenAI/Claude/Gemini 企业级中转平台",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200",
+        "models_http": 200,
+        "error": "",
+        "final_url": "https://uniapi.ai/"
+      },
+      {
+        "url": "https://uniapi.io/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "200",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://uniapi.io/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "",
+        "models_http": 200,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "v-api": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · V-API 2.2.25；GET /v1/models 仅看状态码 401。 页面标题：V-API - 为您提供稳定可靠的Openai ChatGPT、Gemini、Claude、Deepseek、Grok、openclaw等API直连中转服务！",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.v3.cm",
+        "title": "V-API 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.v3.cm/",
+        "title": "V-API - 为您提供稳定可靠的Openai ChatGPT、Gemini、Claude、Deepseek、Grok、openclaw等API直连中转服务！",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "V-API 2.2.25",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.v3.cm/"
+      },
+      {
+        "url": "https://api.v3.cm/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "V-API 2.2.25",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.v3.cm/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "vectrust": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · Vectrust v32.7.5；GET /v1/models 仅看状态码 401。 页面标题：Vectrust",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.openai-next.com",
+        "title": "Vectrust 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.openai-next.com/",
+        "title": "Vectrust",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "Vectrust v32.7.5",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.openai-next.com/"
+      },
+      {
+        "url": "https://api.openai-next.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "Vectrust v32.7.5",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.openai-next.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "whatai": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 403；GET /api/status HTTP 404；GET /v1/models 仅看状态码 404。 样本备注：站点公告关闭/退款 样本标题曾显示关闭及退款说明；本轮首页为 Cloudflare 拦截。 页面标题：Just a moment...",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.whatai.cc",
+        "title": "神马中转API 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.whatai.cc/",
+        "title": "Just a moment...",
+        "checked_at": "2026-10-20",
+        "http": 403,
+        "api_status": "404",
+        "models_http": 404,
+        "error": "",
+        "final_url": "https://api.whatai.cc/"
+      },
+      {
+        "url": "https://api.whatai.cc/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "404",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.whatai.cc/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 404,
+        "api_status": "",
+        "models_http": 404,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "wlai": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · 云雾 API 20261019-114428；GET /v1/models 仅看状态码 401。 页面标题：YUNWU.AI (云雾 API) - 高速、稳定的 AI API 中转站",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.wlai.vip",
+        "title": "云雾 API (wlai.vip) 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.wlai.vip/",
+        "title": "YUNWU.AI (云雾 API) - 高速、稳定的 AI API 中转站",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "云雾 API 20261019-114428",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://api.wlai.vip/"
+      },
+      {
+        "url": "https://api.wlai.vip/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "云雾 API 20261019-114428",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.wlai.vip/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "yunwu": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 200 · 云雾 API 20261019-114428；GET /v1/models 仅看状态码 401。 页面标题：YUNWU.AI (云雾 API) - 高速、稳定的 AI API 中转站",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://yunwu.ai",
+        "title": "云雾 API 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://yunwu.ai/",
+        "title": "YUNWU.AI (云雾 API) - 高速、稳定的 AI API 中转站",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "云雾 API 20261019-114428",
+        "models_http": 401,
+        "error": "",
+        "final_url": "https://yunwu.ai/"
+      },
+      {
+        "url": "https://yunwu.ai/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "云雾 API 20261019-114428",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://yunwu.ai/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 401,
+        "api_status": "",
+        "models_http": 401,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  },
+  "zhizengzeng": {
+    "notes": "2026-10-20 无登录、无付费、无 API key 探测。首页 HTTP 200；GET /api/status HTTP 502；GET /v1/models 仅看状态码 200。 页面标题：智增增",
+    "checked_at": "2026-10-20",
+    "sources": [
+      {
+        "url": "https://api.zhizengzeng.com",
+        "title": "智增增 站点"
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://api.zhizengzeng.com/",
+        "title": "智增增",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "502",
+        "models_http": 200,
+        "error": "",
+        "final_url": "https://api.zhizengzeng.com/"
+      },
+      {
+        "url": "https://api.zhizengzeng.com/api/status",
+        "title": "/api/status",
+        "checked_at": "2026-10-20",
+        "http": 502,
+        "api_status": "502",
+        "models_http": null,
+        "error": "",
+        "final_url": ""
+      },
+      {
+        "url": "https://api.zhizengzeng.com/v1/models",
+        "title": "/v1/models 状态码",
+        "checked_at": "2026-10-20",
+        "http": 200,
+        "api_status": "",
+        "models_http": 200,
+        "error": "",
+        "final_url": ""
+      }
+    ]
+  }
+}
