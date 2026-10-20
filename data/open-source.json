@@ -2991,5 +2991,125 @@
         "title": "Official README; self-hosted Web application"
       }
     ]
+  },
+  "octop-web": {
+    "repository_url": "https://github.com/TencentCloud/Octop",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/TencentCloud/Octop/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-20",
+      "github_archived": false,
+      "last_push_at": "2026-10-19T13:16:10Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/TencentCloud/Octop/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop/blob/main/README.md",
+        "title": "Official README; self-hosted Web / CLI / desktop"
+      }
+    ]
+  },
+  "octop-cli": {
+    "repository_url": "https://github.com/TencentCloud/Octop",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/TencentCloud/Octop/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-20",
+      "github_archived": false,
+      "last_push_at": "2026-10-19T13:16:10Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/TencentCloud/Octop/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop/blob/main/README.md",
+        "title": "Official README; self-hosted Web / CLI / desktop"
+      }
+    ]
+  },
+  "octop-desktop": {
+    "repository_url": "https://github.com/TencentCloud/Octop",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/TencentCloud/Octop/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-20",
+      "github_archived": false,
+      "last_push_at": "2026-10-19T13:16:10Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/TencentCloud/Octop/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/TencentCloud/Octop/blob/main/README.md",
+        "title": "Official README; self-hosted Web / CLI / desktop"
+      }
+    ]
+  },
+  "lobsterai-desktop": {
+    "repository_url": "https://github.com/netease-youdao/LobsterAI",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/netease-youdao/LobsterAI/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-20",
+      "github_archived": false,
+      "last_push_at": "2026-10-19T13:59:32Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/netease-youdao/LobsterAI/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/netease-youdao/LobsterAI/blob/main/README.md",
+        "title": "Official README; desktop application"
+      }
+    ]
+  },
+  "fade-cli": {
+    "repository_url": "https://github.com/muzaffermahi/Fade",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/muzaffermahi/Fade/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-20",
+      "github_archived": false,
+      "last_push_at": "2026-10-15T18:16:39Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/muzaffermahi/Fade/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/muzaffermahi/Fade/blob/main/README.md",
+        "title": "Official README; terminal coding agent CLI"
+      }
+    ]
   }
 }

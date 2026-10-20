@@ -108,3 +108,13 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | `assets/icons/craft-agents.svg` | [Craft Agents 官网 `favicon.svg`](https://agents.craft.do/favicon.svg) | `8034ba25c97ad91dab975f742be4638321e24488cba6733927ccd9f817efa655` |
 | `assets/icons/talorys.svg` | [Talorys 官网 `favicon.svg`](https://rociiu.github.io/talorys/favicon.svg) | `724567dcf4d2a34ed36eb83dc83858c87d7b26ce7ec07e6308cda80732ca4ee0` |
 | `assets/icons/reason-agent.svg` | [Reason 官网 `favicon.svg`](https://reasonmachines.com/favicon.svg) | `342a4a7f2f4ba9264d7359befd3cb1bc505bd979cc795f895dac085a6db06c1f` |
+
+## v0.26 Logo 收录（2026-10-20）
+
+本批 SVG 均原样保存，未重绘。官方站点或官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/octop.svg` | [Octop 官方文档 `favicon.svg`](https://docs.octop.cloud/favicon.svg) | `c2a9114966e16370b4d33fab2f7519c9029942142f69102cf9f298d588a82895` |
+| `assets/icons/starkomand.svg` | [Starkomand 官网 `favicon.svg`](https://starkomand.com/favicon.svg) | `9bde3499b872fd86912d3602d16391b07e4b4f26766c440391a5a401684e99a7` |
+| `assets/icons/readywhen.svg` | [readywhen 官方品牌页 `readywhen-app-icon-on-light.svg`](https://readywhen.ai/public/images/logos/readywhen-app-icon-on-light.svg) | `c9d71ca429a76870ee8deb8fdd5fafe76caddf98c701a10a97c765a1343c5617` |

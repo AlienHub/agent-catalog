@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.25（2026-10-19），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.26（2026-10-20），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -455,5 +455,21 @@ Framer 使用 `framer.com` 项目工作区，Gumloop 使用 `www.gumloop.com` �
 Logo：PilotDeck / Craft Agents / Talorys / Reason 使用官方原始 SVG。其余缺失项保持空 `icon`。
 
 未收录：Junie Local（Junie 的 `/local` 模式，不是新形态）、Scout（npm 库而非最终用户应用）、Gemini agent（官方页未给出可核验的访问入口）、Agibot（等待名单，厂商主体未写明）、千问 Go（千问应用内功能，不是独立形态）。
+
+仅核验公开官方资料，未做安装、运行或区域可用性测试。
+
+## v0.26 日更候选（2026-10-20）
+
+新增 7 条应用、5 个产品，目录共 443 条应用、289 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.25 / `main` @ `fef2b4a`。
+
+- Octop Web / CLI / 桌面端（腾讯云 Tencent Cloud）：MIT 自托管多用户多 Agent 助手。GitHub Releases **v1.0.2**。Web 为本机控制台（默认 `127.0.0.1:8088`）。桌面端为官方 macOS / Windows / Linux 安装包。IM 与 ACP 不单列。不是已有明略科技 Octo。
+- LobsterAI 桌面端（网易有道 / 有道龙虾）：MIT。GitHub Releases **2026.10.16**，macOS（arm64/x64）与 Windows。IM 远程触发不单列。
+- Starkomand 桌面端（Developer Timeline）：闭源 macOS ADE（仅 Apple silicon）。官方首页 **v1.0.7**。
+- Fade CLI（Muzaffer Mahi Can）：MIT 终端双 Agent 编码工具。npm **@muzaffermahi/fade@0.5.0**；无 GitHub Release。
+- readywhen Web（Oliva Health Ltd）：官方 Web 应用 `app.readywhen.ai`。WhatsApp / Slack 为 IM 渠道，不单列。未找到产品版本号。
+
+Logo：Octop / Starkomand / readywhen 使用官方原始 SVG。LobsterAI 官网为 PNG、Fade 为 WebP，保持空 `icon`。
+
+未收录：XXL-AI Desk 桌面 v1.1.1（已有 `xxl-ai-desktop`）、Notion Agent 基础设施更新（已有 Notion AI）、WisdomAI Owls / Binance AI Pro / Calix Subscriber Agent（垂直企业或金融 Agent）、Beam.win、Kai Resolve、walkai-talkai、buddylist、Lancetta、shim-cli（Agent 周边工具）、Claude Managed Agents Dynamic Workflows（平台功能）、Google Harness²、HKUDS CLI-Anything（框架/插件）。Octop 的 IM 渠道、ACP 与 OctopPet 桌宠不单列。Starkomand / readywhen 无产品源码仓，不写入 open-source.json。
 
 仅核验公开官方资料，未做安装、运行或区域可用性测试。
