@@ -1060,11 +1060,15 @@
     "verified_at": "2026-10-02"
   },
   "baixiaoyi": {
-    "notes": "未明确区分地区版本；不推断地域可用性。 原百小应网址现跳转百小医；仅收录产品，不提供医疗建议。 2026-10-13 核验公开 Web 入口 yi.baichuan-ai.com。",
+    "notes": "未明确区分地区版本；不推断地域可用性。 原百小应网址现跳转百小医；仅收录产品，不提供医疗建议。 2026-10-13 核验公开 Web 入口 yi.baichuan-ai.com。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://yi.baichuan-ai.com/",
         "title": "百小医 官方网站"
+      },
+      {
+        "url": "https://yi.baichuan-ai.com/android-chrome-512x512.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-13"
@@ -1550,9 +1554,17 @@
       {
         "url": "https://comate.baidu.com/docs/IDE功能/智能体/概览/",
         "title": "文心快码官方Agent概览：自动规划执行、端到端代码任务"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/wenxin-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
       }
     ],
-    "notes": "文心快码提供Zulu等编程智能体，官方文档明确支持代码库检索、端到端生成、技术规划、测试、评审和问题修复；适合中国厂商Agent筛选。原聚合记录现按独立 GUI 应用和 IDE 插件拆分；支持平台仅保留原有来源，不新增推断。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IDE 扩展。",
+    "notes": "文心快码提供Zulu等编程智能体，官方文档明确支持代码库检索、端到端生成、技术规划、测试、评审和问题修复；适合中国厂商Agent筛选。原聚合记录现按独立 GUI 应用和 IDE 插件拆分；支持平台仅保留原有来源，不新增推断。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IDE 扩展。 2026-10-20 补充核验 Logo。",
     "verified_at": "2026-10-02"
   },
   "codeflicker": {
@@ -2758,7 +2770,7 @@
     "verified_at": "2026-10-02"
   },
   "jan-desktop": {
-    "notes": "官网和官方仓库所见 Jan logo SVG 内嵌 raster image，未将其伪装为纯矢量图标；开源本地模型桌面聊天，也可连接在线模型",
+    "notes": "官网和官方仓库所见 Jan logo SVG 内嵌 raster image，未将其伪装为纯矢量图标；开源本地模型桌面聊天，也可连接在线模型 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://www.jan.ai/",
@@ -2767,12 +2779,16 @@
       {
         "url": "https://www.jan.ai/docs/desktop/quickstart",
         "title": "QuickStart"
+      },
+      {
+        "url": "https://github.com/janhq.png?size=460",
+        "title": "Official GitHub organization avatar — original PNG asset"
       }
     ],
     "verified_at": "2026-10-02"
   },
   "jan-cli": {
-    "notes": "官网和官方仓库所见 Jan logo SVG 内嵌 raster image，未将其伪装为纯矢量图标；Nightly preview；该 CLI 调用远程模型提供商，不自带本地推理引擎",
+    "notes": "官网和官方仓库所见 Jan logo SVG 内嵌 raster image，未将其伪装为纯矢量图标；Nightly preview；该 CLI 调用远程模型提供商，不自带本地推理引擎 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://www.jan.ai/",
@@ -2785,6 +2801,10 @@
       {
         "url": "https://www.jan.ai/docs/agent/quickstart",
         "title": "QuickStart"
+      },
+      {
+        "url": "https://github.com/janhq.png?size=460",
+        "title": "Official GitHub organization avatar — original PNG asset"
       }
     ],
     "verified_at": "2026-10-02"
@@ -2868,7 +2888,7 @@
     "verified_at": "2026-10-02"
   },
   "pinokio": {
-    "notes": "一键安装和管理本地 AI 应用；未找到经验证的官方纯矢量 logo，留空",
+    "notes": "一键安装和管理本地 AI 应用；未找到经验证的官方纯矢量 logo，留空 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://pinokio.co/",
@@ -2877,6 +2897,10 @@
       {
         "url": "https://desktop.pinokio.co",
         "title": "Pinokio: Universal One-Click Launcher"
+      },
+      {
+        "url": "https://pinokio.co/logo.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-02"
@@ -3238,9 +3262,17 @@
       {
         "url": "https://support.huaweicloud.com/productdesc-codeartsagent/codeartsagent_pd_0001.html",
         "title": "官方产品介绍及形态划分（2026-09-29更新）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/huaweicloud-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
       }
     ],
-    "notes": "华为云CodeArts代码智能体（码道）可自主规划执行研发任务，不等同于通用CodeArts DevOps平台。IDE/CLI/插件属于同一产品的不同入口，不重复计数。当前官方公开下载存在，未查到可比活跃用户数。未发现可核验产品SVG，留空而不用厂商品牌图冒充。 官方下载页确认macOS Apple Silicon、Windows x64、Linux ARM64与鸿蒙PC。",
+    "notes": "华为云CodeArts代码智能体（码道）可自主规划执行研发任务，不等同于通用CodeArts DevOps平台。IDE/CLI/插件属于同一产品的不同入口，不重复计数。当前官方公开下载存在，未查到可比活跃用户数。未发现可核验产品SVG，留空而不用厂商品牌图冒充。 官方下载页确认macOS Apple Silicon、Windows x64、Linux ARM64与鸿蒙PC。 2026-10-20 补充核验 Logo。",
     "verified_at": "2026-10-02"
   },
   "codearts-agent-cli": {
@@ -3260,9 +3292,17 @@
       {
         "url": "https://codearts.huaweicloud.com/changelog.html",
         "title": "码道官方更新日志：CLI/TUI平台及能力"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/huaweicloud-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
       }
     ],
-    "notes": "华为云CodeArts代码智能体（码道）可自主规划执行研发任务，不等同于通用CodeArts DevOps平台。IDE/CLI/插件属于同一产品的不同入口，不重复计数。当前官方公开下载存在，未查到可比活跃用户数。未发现可核验产品SVG，留空而不用厂商品牌图冒充。 CLI/TUI可完成代码生成、文件搜索修改、Git操作与测试任务。",
+    "notes": "华为云CodeArts代码智能体（码道）可自主规划执行研发任务，不等同于通用CodeArts DevOps平台。IDE/CLI/插件属于同一产品的不同入口，不重复计数。当前官方公开下载存在，未查到可比活跃用户数。未发现可核验产品SVG，留空而不用厂商品牌图冒充。 CLI/TUI可完成代码生成、文件搜索修改、Git操作与测试任务。 2026-10-20 补充核验 Logo。",
     "verified_at": "2026-10-02"
   },
   "codearts-agent-ide-extension": {
@@ -3278,9 +3318,17 @@
       {
         "url": "https://support.huaweicloud.com/productdesc-codeartsagent/codeartsagent_pd_0001.html",
         "title": "官方产品介绍及形态划分（2026-09-29更新）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/huaweicloud-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
       }
     ],
-    "notes": "华为云CodeArts代码智能体（码道）可自主规划执行研发任务，不等同于通用CodeArts DevOps平台。IDE/CLI/插件属于同一产品的不同入口，不重复计数。当前官方公开下载存在，未查到可比活跃用户数。未发现可核验产品SVG，留空而不用厂商品牌图冒充。 本条是官方VS Code/JetBrains插件，使用宿主IDE；不将插件名称列为操作系统。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：IDE 扩展。",
+    "notes": "华为云CodeArts代码智能体（码道）可自主规划执行研发任务，不等同于通用CodeArts DevOps平台。IDE/CLI/插件属于同一产品的不同入口，不重复计数。当前官方公开下载存在，未查到可比活跃用户数。未发现可核验产品SVG，留空而不用厂商品牌图冒充。 本条是官方VS Code/JetBrains插件，使用宿主IDE；不将插件名称列为操作系统。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：IDE 扩展。 2026-10-20 补充核验 Logo。",
     "verified_at": "2026-10-02"
   },
   "minimax-code-desktop": {
@@ -3544,9 +3592,13 @@
       {
         "url": "https://static.www.tencent.com/uploads/2026/03/23/3bf86ccec6c79fe625b93ad20bbfc31a.pdf",
         "title": "腾讯官方投资者材料：QClaw 本地 AI Agent"
+      },
+      {
+        "url": "https://cdn.qclaw.qq.com/qclaw/website/image/apple-touch-icon.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
-    "notes": "生命周期警示：官方 2026-09-24 公告已停止新用户注册及订阅购买/续费；既有注册及付费用户仍可正常使用至 2026-12-24 00:00，之后仅保留备份迁移。官方提供迁移至 WorkBuddy。保留用于存量资产识别，不表示推荐新部署。官网品牌素材为 PNG；发现的国际站社交 SVG 仅含文字/emoji，不作为产品图标。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM。 IM 是接入渠道，不额外计为独立应用。",
+    "notes": "生命周期警示：官方 2026-09-24 公告已停止新用户注册及订阅购买/续费；既有注册及付费用户仍可正常使用至 2026-12-24 00:00，之后仅保留备份迁移。官方提供迁移至 WorkBuddy。保留用于存量资产识别，不表示推荐新部署。官网品牌素材为 PNG；发现的国际站社交 SVG 仅含文字/emoji，不作为产品图标。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM。 IM 是接入渠道，不额外计为独立应用。 2026-10-20 补充核验 Logo。",
     "verified_at": "2026-10-02"
   },
   "qclaw": {
@@ -3558,9 +3610,13 @@
       {
         "url": "https://qclawsg.qq.com/",
         "title": "QClaw 国际官网：本地任务、消息应用控制与邀请内测"
+      },
+      {
+        "url": "https://cdn.qclaw.qq.com/qclaw/website/image/apple-touch-icon.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
-    "notes": "国际官网核验时仍显示 20,000 名额邀请内测，可由 IM 远程执行电脑任务。CN另有 2026-12-24 停运公告；现有官方材料未明确该停运安排是否适用于国际版，不能推断其全球停运。仅核验产品与页面状态，未登录验证账号可用性。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM。 IM 是接入渠道，不额外计为独立应用。",
+    "notes": "国际官网核验时仍显示 20,000 名额邀请内测，可由 IM 远程执行电脑任务。CN另有 2026-12-24 停运公告；现有官方材料未明确该停运安排是否适用于国际版，不能推断其全球停运。仅核验产品与页面状态，未登录验证账号可用性。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM。 IM 是接入渠道，不额外计为独立应用。 2026-10-20 补充核验 Logo。",
     "verified_at": "2026-10-02"
   },
   "minimax-agent": {
@@ -3620,9 +3676,17 @@
       {
         "url": "https://agent.minimax.cn/max-claw",
         "title": "官方应用入口核验：官网链接／文档／直接应用界面"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/minimax-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
       }
     ],
-    "notes": "MiniMax 官方一键部署云端个人智能体，基于 OpenClaw，支持定时任务、浏览器、代码执行及文件处理。作为可直接使用的托管应用收录，不把 OpenClaw 框架本身复制为该应用。独立产品 SVG 未找到，不用厂商标志冒充。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / IM。 IM 是接入渠道，不额外计为独立应用。",
+    "notes": "MiniMax 官方一键部署云端个人智能体，基于 OpenClaw，支持定时任务、浏览器、代码执行及文件处理。作为可直接使用的托管应用收录，不把 OpenClaw 框架本身复制为该应用。独立产品 SVG 未找到，不用厂商标志冒充。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / IM。 IM 是接入渠道，不额外计为独立应用。 2026-10-20 补充核验 Logo。",
     "verified_at": "2026-10-02"
   },
   "maxclaw": {
@@ -3634,9 +3698,17 @@
       {
         "url": "https://agent.minimaxi.com/activity/max-claw",
         "title": "MiniMax 官方 MaxClaw 能力说明"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/minimax-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
       }
     ],
-    "notes": "国际入口为云端常驻个人智能体，官方页面列出 Telegram 等 IM 入口。与中国入口并列；未声称已验证每一种聊天平台在各地区可用。独立产品 SVG 未找到。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / IM。 IM 是接入渠道，不额外计为独立应用。 2026-10-13 核验公开 Web 入口 agent.minimax.io/max-claw。共享主机需结合路径，与 MiniMax Agent 国际站分列。",
+    "notes": "国际入口为云端常驻个人智能体，官方页面列出 Telegram 等 IM 入口。与中国入口并列；未声称已验证每一种聊天平台在各地区可用。独立产品 SVG 未找到。 2026-10-11 形态规范迁移：本条仅表示Web应用。原交互标签：Web / IM。 IM 是接入渠道，不额外计为独立应用。 2026-10-13 核验公开 Web 入口 agent.minimax.io/max-claw。共享主机需结合路径，与 MiniMax Agent 国际站分列。 2026-10-20 补充核验 Logo。",
     "verified_at": "2026-10-13"
   },
   "autoclaw-cn": {
@@ -3648,9 +3720,13 @@
       {
         "url": "https://autoclaw.zhipuai.cn/blog/product/",
         "title": "AutoClaw 官方产品动态"
+      },
+      {
+        "url": "https://autoclaw.z.ai/apple-touch-icon.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
-    "notes": "智谱正式桌面智能体，直接调用浏览器、本地文件及工具完成多步骤办公任务。中国站列出 iOS/Android 任务查看与触发入口；国际站当前提供 Linux 下载入口，平台按各站证据分别记录。官方 logo 为内嵌 PNG；未找到独立可核验产品 SVG，不用 AutoGLM 标志代替。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM。 IM 是接入渠道，不额外计为独立应用。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。",
+    "notes": "智谱正式桌面智能体，直接调用浏览器、本地文件及工具完成多步骤办公任务。中国站列出 iOS/Android 任务查看与触发入口；国际站当前提供 Linux 下载入口，平台按各站证据分别记录。官方 logo 为内嵌 PNG；未找到独立可核验产品 SVG，不用 AutoGLM 标志代替。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM。 IM 是接入渠道，不额外计为独立应用。 2026-10-11 目录范围调整：本条仅收录桌面应用平台，移动端不在收录范围；不表示该产品不存在移动端。 2026-10-20 补充核验 Logo。",
     "verified_at": "2026-10-11"
   },
   "autoclaw": {
@@ -3662,9 +3738,13 @@
       {
         "url": "https://autoclaw.zhipuai.cn/blog/product/",
         "title": "AutoClaw 官方产品动态"
+      },
+      {
+        "url": "https://autoclaw.z.ai/apple-touch-icon.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
-    "notes": "智谱正式桌面智能体，直接调用浏览器、本地文件及工具完成多步骤办公任务。中国站列出 iOS/Android 任务查看与触发入口；国际站当前提供 Linux 下载入口，平台按各站证据分别记录。官方 logo 为内嵌 PNG；未找到独立可核验产品 SVG，不用 AutoGLM 标志代替。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM。 IM 是接入渠道，不额外计为独立应用。",
+    "notes": "智谱正式桌面智能体，直接调用浏览器、本地文件及工具完成多步骤办公任务。中国站列出 iOS/Android 任务查看与触发入口；国际站当前提供 Linux 下载入口，平台按各站证据分别记录。官方 logo 为内嵌 PNG；未找到独立可核验产品 SVG，不用 AutoGLM 标志代替。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IM。 IM 是接入渠道，不额外计为独立应用。 2026-10-20 补充核验 Logo。",
     "verified_at": "2026-10-02"
   },
   "dingtalk-wukong": {
@@ -3680,9 +3760,13 @@
       {
         "url": "https://wukong.dingtalk.com/docs/faq/",
         "title": "悟空官方 FAQ：独立应用与钉钉设备调度"
+      },
+      {
+        "url": "https://gw.alicdn.com/imgextra/i2/O1CN0119ZCOS25Pl9Co9sxe_!!6000000007519-2-tps-300-300.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
-    "notes": "企业级 AI 工作平台，可自主规划任务并调用工具；独立桌面 App 操作本机，钉钉入口用于统一调度。阿里旗舰级正式发布产品，未用钉钉总用户数冒充悟空用户数。下载页仍有 Beta 标识，官网当前图标为 PNG。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / 钉钉内嵌。 钉钉内嵌表示钉钉 GUI 应用具有的 AI 能力，不另立插件形态。",
+    "notes": "企业级 AI 工作平台，可自主规划任务并调用工具；独立桌面 App 操作本机，钉钉入口用于统一调度。阿里旗舰级正式发布产品，未用钉钉总用户数冒充悟空用户数。下载页仍有 Beta 标识，官网当前图标为 PNG。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / 钉钉内嵌。 钉钉内嵌表示钉钉 GUI 应用具有的 AI 能力，不另立插件形态。 2026-10-20 补充核验 Logo。",
     "verified_at": "2026-10-02"
   },
   "qoder-desktop": {
@@ -4044,7 +4128,7 @@
     "verified_at": "2026-10-13"
   },
   "nanobot-cli": {
-    "notes": "有可安装CLI/TUI/WebUI、工具/记忆/IM网关；虽然自称framework，但可直接使用，不等于纯SDK。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "notes": "有可安装CLI/TUI/WebUI、工具/记忆/IM网关；虽然自称framework，但可直接使用，不等于纯SDK。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://github.com/HKUDS/nanobot/blob/main/README.md",
@@ -4053,12 +4137,16 @@
       {
         "url": "https://github.com/HKUDS/nanobot/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://nanobot.wiki/assets/nanobot_apple_touch.png?v=20260406d",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-04"
   },
   "nanobot-web": {
-    "notes": "有可安装CLI/TUI/WebUI、工具/记忆/IM网关；虽然自称framework，但可直接使用，不等于纯SDK。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。",
+    "notes": "有可安装CLI/TUI/WebUI、工具/记忆/IM网关；虽然自称framework，但可直接使用，不等于纯SDK。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://github.com/HKUDS/nanobot/blob/main/README.md",
@@ -4067,6 +4155,10 @@
       {
         "url": "https://github.com/HKUDS/nanobot/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://nanobot.wiki/assets/nanobot_apple_touch.png?v=20260406d",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-04"
@@ -4144,7 +4236,7 @@
     "verified_at": "2026-10-11"
   },
   "eigent-desktop": {
-    "notes": "有实际macOS/Windows/Linux release安装包；本地部署应用与需注册的云连接模式区分。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "notes": "有实际macOS/Windows/Linux release安装包；本地部署应用与需注册的云连接模式区分。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://github.com/eigent-ai/eigent/blob/main/README.md",
@@ -4153,12 +4245,16 @@
       {
         "url": "https://github.com/eigent-ai/eigent/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://www.eigent.ai/apple-icon.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-04"
   },
   "aionui-desktop": {
-    "notes": "多Agent桌面工作台+可独立运行HTTP WebUI；依赖/集成其他CLI，不应把其上游CLI重复算为自有Agent引擎。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "notes": "多Agent桌面工作台+可独立运行HTTP WebUI；依赖/集成其他CLI，不应把其上游CLI重复算为自有Agent引擎。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://github.com/iOfficeAI/AionUi/blob/main/readme.md",
@@ -4167,12 +4263,16 @@
       {
         "url": "https://github.com/iOfficeAI/AionUi/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://www.aionui.com/favicon.svg",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-04"
   },
   "aionui-web": {
-    "notes": "多Agent桌面工作台+可独立运行HTTP WebUI；依赖/集成其他CLI，不应把其上游CLI重复算为自有Agent引擎。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。",
+    "notes": "多Agent桌面工作台+可独立运行HTTP WebUI；依赖/集成其他CLI，不应把其上游CLI重复算为自有Agent引擎。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://github.com/iOfficeAI/AionUi/blob/main/readme.md",
@@ -4181,12 +4281,16 @@
       {
         "url": "https://github.com/iOfficeAI/AionUi/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://www.aionui.com/favicon.svg",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-04"
   },
   "openwork-desktop": {
-    "notes": "仅桌面/core目录为MIT；ee/是OpenWork EE source-available，不能把整个仓库或托管服务归为MIT。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "notes": "仅桌面/core目录为MIT；ee/是OpenWork EE source-available，不能把整个仓库或托管服务归为MIT。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://github.com/different-ai/openwork/blob/dev/README.md",
@@ -4195,12 +4299,16 @@
       {
         "url": "https://github.com/different-ai/openwork/blob/dev/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://openworklabs.com/openwork-mark.svg",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-04"
   },
   "librechat-web": {
-    "notes": "自托管Web应用，含Agents/Subagents/MCP；非官方Mac wrapper不算本产品桌面版。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "notes": "自托管Web应用，含Agents/Subagents/MCP；非官方Mac wrapper不算本产品桌面版。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://github.com/LibreChat-AI/LibreChat/blob/main/README.md",
@@ -4209,6 +4317,10 @@
       {
         "url": "https://github.com/LibreChat-AI/LibreChat/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://librechat.ai/apple-touch-icon.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-04"
@@ -4302,7 +4414,7 @@
     "verified_at": "2026-10-04"
   },
   "astrbot-web": {
-    "notes": "可部署IM个人助手+ChatUI/管理面板；AstrBot-desktop为独立repo，本轮不继承其许可或OS。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。",
+    "notes": "可部署IM个人助手+ChatUI/管理面板；AstrBot-desktop为独立repo，本轮不继承其许可或OS。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md",
@@ -4311,12 +4423,16 @@
       {
         "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/AstrBotDevs/AstrBot/master/dashboard/public/favicon.svg",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-04"
   },
   "langbot-web": {
-    "notes": "可部署IM Agent应用平台，有可视化配置；lbctl仅管理CLI，不应当独立终端对话Agent录入。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "notes": "可部署IM Agent应用平台，有可视化配置；lbctl仅管理CLI，不应当独立终端对话Agent录入。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://github.com/langbot-app/LangBot/blob/master/README.md",
@@ -4325,12 +4441,16 @@
       {
         "url": "https://github.com/langbot-app/LangBot/blob/master/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://langbot.app/logo-blue.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-04"
   },
   "openmanus-cli": {
-    "notes": "有main.py可运行终端Agent，但仍偏开发者部署/实验工作台，成熟度低于前列；不将其RL训练仓库当应用。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。",
+    "notes": "有main.py可运行终端Agent，但仍偏开发者部署/实验工作台，成熟度低于前列；不将其RL训练仓库当应用。 平台/形态以官方资料为依据；未做安装、运行或可访问性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://github.com/FoundationAgents/OpenManus/blob/main/README.md",
@@ -4339,6 +4459,10 @@
       {
         "url": "https://github.com/FoundationAgents/OpenManus/blob/main/LICENSE",
         "title": "Official license"
+      },
+      {
+        "url": "https://github.com/FoundationAgents.png?size=460",
+        "title": "Official GitHub organization avatar — original PNG asset"
       }
     ],
     "verified_at": "2026-10-04"
@@ -4728,7 +4852,7 @@
     "verified_at": "2026-10-11"
   },
   "ibm-bob-ide": {
-    "notes": "IBM 官方 Bob 页面与文档明确区分 IDE 和 Bob Shell；同名普通 Bob 软件不能作为来源。  对应 Sentra 注册 ID：bob；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "IBM 官方 Bob 页面与文档明确区分 IDE 和 Bob Shell；同名普通 Bob 软件不能作为来源。  对应 Sentra 注册 ID：bob；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://bob.ibm.com/",
@@ -4749,12 +4873,16 @@
       {
         "url": "https://bob.ibm.com/docs/shell/getting-started/install-and-setup",
         "title": "IBM Bob — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://bob.ibm.com/icon.svg?v=1",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-10"
   },
   "ibm-bob-cli": {
-    "notes": "IBM 官方 Bob 页面与文档明确区分 IDE 和 Bob Shell；同名普通 Bob 软件不能作为来源。  对应 Sentra 注册 ID：bob；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "IBM 官方 Bob 页面与文档明确区分 IDE 和 Bob Shell；同名普通 Bob 软件不能作为来源。  对应 Sentra 注册 ID：bob；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://bob.ibm.com/",
@@ -4775,6 +4903,10 @@
       {
         "url": "https://bob.ibm.com/docs/shell/getting-started/install-and-setup",
         "title": "IBM Bob — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://bob.ibm.com/icon.svg?v=1",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-10"
@@ -4878,7 +5010,7 @@
     "verified_at": "2026-10-10"
   },
   "snowflake-cortex-code-cli": {
-    "notes": "官方 CLI 参考文档使用 cortex 命令和 .snowflake/cortex/conversations，匹配 Sentra 注册目录；不是泛指 Cortex 模型 API。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：cortex；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "官方 CLI 参考文档使用 cortex 命令和 .snowflake/cortex/conversations，匹配 Sentra 注册目录；不是泛指 Cortex 模型 API。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：cortex；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://docs.snowflake.com/en/user-guide/cortex-code/cli-reference",
@@ -4887,6 +5019,10 @@
       {
         "url": "https://www.snowflake.com/en/developers/guides/coco-foundations/",
         "title": "Snowflake Cortex Code / CoCo CLI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://docs.snowflake.com/images/favicon/favicon.svg",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-10"
@@ -4996,17 +5132,21 @@
     "verified_at": "2026-10-11"
   },
   "iflow-cli": {
-    "notes": "官方仓库公告写明 2026-04-17（UTC+8）关停。源码/旧包仍可存在，公告不等于所有本地 BYOK 用法必然不能运行。 历史项目：官方公告 2026-04-17（UTC+8）关停；本地源码/BYOK 是否继续可运行未经测试，不能将公告解读为所有本地功能都不可用。 本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：iflow-cli；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "官方仓库公告写明 2026-04-17（UTC+8）关停。源码/旧包仍可存在，公告不等于所有本地 BYOK 用法必然不能运行。 历史项目：官方公告 2026-04-17（UTC+8）关停；本地源码/BYOK 是否继续可运行未经测试，不能将公告解读为所有本地功能都不可用。 本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：iflow-cli；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://github.com/iflow-ai/iflow-cli",
         "title": "iFlow CLI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/iflow-ai.png?size=460",
+        "title": "Official GitHub organization avatar — original PNG asset"
       }
     ],
     "verified_at": "2026-10-10"
   },
   "jazz-cli": {
-    "notes": "官方仓库与项目文档描述通用自主 Agent；文档使用 .jazz/agents/<id>.json，能对应检测目录。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：jazz；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 PR #1（2026-10-09）补充核验：按本批最终用户 Agent 范围，可新增 lvndry 的 Jazz CLI，并明确官网/仓库避免与 jazz.tools 数据库框架同名误合并。保留模型费用说明；聊天机器人是自托管入口，不推定存在原生手机或桌面 GUI 应用。官方 SVG 未核实，保持 null。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。 Windows 需 WSL2，没有原生 Windows 支持；IM 是自托管聊天入口而非原生移动 App。实验 computer-use 只限 Apple Silicon Mac 的受监督终端会话。 Jazz（本地 Agent CLI）：版本/形态定位=Local CLI; optional self-hosted Telegram/Discord/WhatsApp and other chat surfaces；官方平台限制=macOS、Linux、Windows via WSL2 (no native Windows support)；接口=CLI、terminal REPL、headless CLI、scheduled workflows、self-hosted chat integrations；源代码分类=open-source；许可证=MIT；商业状态=verified-free；价格来源=https://jazz-cli.vercel.app/。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。",
+    "notes": "官方仓库与项目文档描述通用自主 Agent；文档使用 .jazz/agents/<id>.json，能对应检测目录。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：jazz；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 PR #1（2026-10-09）补充核验：按本批最终用户 Agent 范围，可新增 lvndry 的 Jazz CLI，并明确官网/仓库避免与 jazz.tools 数据库框架同名误合并。保留模型费用说明；聊天机器人是自托管入口，不推定存在原生手机或桌面 GUI 应用。官方 SVG 未核实，保持 null。 去重范围说明：未对现有仓库逐项去重；仅按本候选核实身份及官方形态。 Windows 需 WSL2，没有原生 Windows 支持；IM 是自托管聊天入口而非原生移动 App。实验 computer-use 只限 Apple Silicon Mac 的受监督终端会话。 Jazz（本地 Agent CLI）：版本/形态定位=Local CLI; optional self-hosted Telegram/Discord/WhatsApp and other chat surfaces；官方平台限制=macOS、Linux、Windows via WSL2 (no native Windows support)；接口=CLI、terminal REPL、headless CLI、scheduled workflows、self-hosted chat integrations；源代码分类=open-source；许可证=MIT；商业状态=verified-free；价格来源=https://jazz-cli.vercel.app/。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://github.com/lvndry/jazz",
@@ -5035,6 +5175,10 @@
       {
         "url": "https://jazz.tools/",
         "title": "同名 Jazz 是同步数据库/开发工具，与 lvndry 的通用 Agent 无官方关联；不可混用 logo、厂商或许可。"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lvndry/jazz/main/.github/assets/jazz-icon.svg",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-10"
@@ -5224,7 +5368,7 @@
     "verified_at": "2026-10-11"
   },
   "tabnine-cli": {
-    "notes": "Tabnine 官方 CLI 文档与平台页明确为独立终端编码入口；不是 Tabby，同名近似也不能合并。 官方安装文档说明自 6.6 起进入维护模式，只接收关键更新至 2026-12-31，随后弃用；迁移目标为 Tabnine Plugin for OpenCode，安装新插件后旧命令改为 tabnine-legacy。尚未到弃用日期。 对应 Sentra 注册 ID：tabnine-cli；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "Tabnine 官方 CLI 文档与平台页明确为独立终端编码入口；不是 Tabby，同名近似也不能合并。 官方安装文档说明自 6.6 起进入维护模式，只接收关键更新至 2026-12-31，随后弃用；迁移目标为 Tabnine Plugin for OpenCode，安装新插件后旧命令改为 tabnine-legacy。尚未到弃用日期。 对应 Sentra 注册 ID：tabnine-cli；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://docs.tabnine.com/main/getting-started/tabnine-cli",
@@ -5237,16 +5381,24 @@
       {
         "url": "https://docs.tabnine.com/main/getting-started/tabnine-cli/getting-started/installation",
         "title": "Tabnine CLI — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://github.com/codota.png?size=460",
+        "title": "Official GitHub organization avatar — original PNG asset"
       }
     ],
     "verified_at": "2026-10-10"
   },
   "tinycloud-cli": {
-    "notes": "tinycloud.sh 给出 @cloudglue/tinycloud 包与 ~/.tinycloud/versions 路径，是视频工作 Agent；不是 tinycloud.io 同名机构。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：tinycloud；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "tinycloud.sh 给出 @cloudglue/tinycloud 包与 ~/.tinycloud/versions 路径，是视频工作 Agent；不是 tinycloud.io 同名机构。  本记录操作系统支持尚未充分核实，platforms 留空；IDE 宿主支持系统不自动代表该插件已验证。 对应 Sentra 注册 ID：tinycloud；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://www.tinycloud.sh/",
         "title": "TinyCloud — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://www.tinycloud.sh/icon.svg",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-10"
@@ -5316,7 +5468,7 @@
     "verified_at": "2026-10-10"
   },
   "zenflow-desktop": {
-    "notes": "Zencoder 官方 Zenflow 页面与下载页定位为规格驱动的 Agent 编排产品；不是 zenflow.sh 框架或其他同名仓库。  对应 Sentra 注册 ID：zenflow；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "Zencoder 官方 Zenflow 页面与下载页定位为规格驱动的 Agent 编排产品；不是 zenflow.sh 框架或其他同名仓库。  对应 Sentra 注册 ID：zenflow；注册适配器 generic 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://zencoder.ai/zenflow",
@@ -5325,6 +5477,10 @@
       {
         "url": "https://zencoder.ai/download/all",
         "title": "Zenflow Code（by Zencoder） — 官方产品/文档或上游仓库"
+      },
+      {
+        "url": "https://zencoder.ai/hubfs/Logo-dark-1.svg",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-10"
@@ -5810,9 +5966,17 @@
       {
         "url": "https://comate.baidu.com/docs/IDE功能/智能体/概览/",
         "title": "文心快码官方Agent概览：自动规划执行、端到端代码任务"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/wenxin-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
       }
     ],
-    "notes": "文心快码提供Zulu等编程智能体，官方文档明确支持代码库检索、端到端生成、技术规划、测试、评审和问题修复；适合中国厂商Agent筛选。原聚合记录现按独立 GUI 应用和 IDE 插件拆分；支持平台仅保留原有来源，不新增推断。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IDE 扩展。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：GUI / IDE 扩展。",
+    "notes": "文心快码提供Zulu等编程智能体，官方文档明确支持代码库检索、端到端生成、技术规划、测试、评审和问题修复；适合中国厂商Agent筛选。原聚合记录现按独立 GUI 应用和 IDE 插件拆分；支持平台仅保留原有来源，不新增推断。 2026-10-11 形态规范迁移：本条仅表示GUI应用。原交互标签：GUI / IDE 扩展。 2026-10-11 形态规范迁移：本条仅表示IDE 插件应用。原交互标签：GUI / IDE 扩展。 2026-10-20 补充核验 Logo。",
     "verified_at": "2026-10-02"
   },
   "workbuddy-cn-mini-program": {
@@ -5922,7 +6086,7 @@
     "verified_at": "2026-10-11"
   },
   "lingcode-baby-desktop": {
-    "notes": "官方单独的 Baby 下载与收费页描述轻量跨平台桌面编辑器，与完整 Mac IDE 为同厂产品族的独立 sibling app，因此单独 product_id。支持 macOS 11+ Apple Silicon、Windows 10/11 x64/ARM64、Linux x86-64；Claude Code 聊天可读写/创建文件、执行命令，并提供 Web deploy UI。免费试用后 $20/月，不能套用主 LingCode 产品的 Free 方案。未核实此应用独立源码仓库/准确许可证，保持未知。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "官方单独的 Baby 下载与收费页描述轻量跨平台桌面编辑器，与完整 Mac IDE 为同厂产品族的独立 sibling app，因此单独 product_id。支持 macOS 11+ Apple Silicon、Windows 10/11 x64/ARM64、Linux x86-64；Claude Code 聊天可读写/创建文件、执行命令，并提供 Web deploy UI。免费试用后 $20/月，不能套用主 LingCode 产品的 Free 方案。未核实此应用独立源码仓库/准确许可证，保持未知。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://lingcode.dev/baby.html",
@@ -5931,6 +6095,10 @@
       {
         "url": "https://lingcode.dev/",
         "title": "主官网将 Windows/Linux 用户引导至 LingCodeBaby，完整Mac IDE并非跨平台。"
+      },
+      {
+        "url": "https://lingcode.dev/baby-assets/icon.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-09"
@@ -6262,7 +6430,7 @@
     "verified_at": "2026-10-11"
   },
   "moxby-desktop": {
-    "notes": "独立产品；Chat/Mods/Missions/Bridge 是同一产品功能/形态。应作为浏览器/电脑通用 Agent 收录；免费层不能标成免费 AI Agent，因为 Chat 与自主 Missions 不在免费层。桌面是可选 Bridge/companion，不能把历史整合浏览器 UI 宣传直接变成另一个现行产品。官方 SVG 未取得，保留 null。 桌面 Bridge/companion 为浏览器连接本地电脑的可选伴随，不是另一个独立品牌或完整自主桌面应用。 Moxby Desktop Bridge / companion：版本/形态定位=optional companion to browser extension; paid feature；官方平台限制=macOS (Intel and Apple Silicon documented)、Windows；接口=desktop companion、browser-to-local computer bridge；源代码分类=unknown；许可证=Moxby proprietary Terms of Service；商业状态=verified-paid；价格来源=https://moxby.com/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。",
+    "notes": "独立产品；Chat/Mods/Missions/Bridge 是同一产品功能/形态。应作为浏览器/电脑通用 Agent 收录；免费层不能标成免费 AI Agent，因为 Chat 与自主 Missions 不在免费层。桌面是可选 Bridge/companion，不能把历史整合浏览器 UI 宣传直接变成另一个现行产品。官方 SVG 未取得，保留 null。 桌面 Bridge/companion 为浏览器连接本地电脑的可选伴随，不是另一个独立品牌或完整自主桌面应用。 Moxby Desktop Bridge / companion：版本/形态定位=optional companion to browser extension; paid feature；官方平台限制=macOS (Intel and Apple Silicon documented)、Windows；接口=desktop companion、browser-to-local computer bridge；源代码分类=unknown；许可证=Moxby proprietary Terms of Service；商业状态=verified-paid；价格来源=https://moxby.com/pricing。 核验日 2026-10-09；仅官方公开资料、源码/发布信息核验，未安装、执行或做兼容性、安全、地区可用性测试。价格层不另建产品。缺少源码元信息表示尚未核验，不表示闭源。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://moxby.com/terms",
@@ -6275,6 +6443,10 @@
       {
         "url": "https://moxby.com/changelog/",
         "title": "官方发布记录明确 macOS Intel/Apple Silicon 安装器和 Windows 安装/运行修复；页尾列 Mac & Windows。未核实 Linux。"
+      },
+      {
+        "url": "https://moxby.com/favicon.svg",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-09"
@@ -6582,11 +6754,15 @@
     "verified_at": "2026-10-11"
   },
   "scispace": {
-    "notes": "论文检索、文献综述、PDF 问答与学术写作；各工具是同一 Web 工作空间的功能。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 未取得可靠可下载 Logo，保留空 icon。",
+    "notes": "论文检索、文献综述、PDF 问答与学术写作；各工具是同一 Web 工作空间的功能。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 未取得可靠可下载 Logo，保留空 icon。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://scispace.com/",
         "title": "SciSpace 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://scispace.com/favicon.ico",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-11"
@@ -6628,11 +6804,15 @@
     "verified_at": "2026-10-13"
   },
   "genspark": {
-    "notes": "AI 工作空间聚合聊天、研究、演示文稿与多媒体创建；不把每个工作空间工具单列产品。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 未取得可靠可下载 Logo，保留空 icon。",
+    "notes": "AI 工作空间聚合聊天、研究、演示文稿与多媒体创建；不把每个工作空间工具单列产品。 本轮核对官方资料与素材，不代表登录、安装、运行或地域可用性测试。 未取得可靠可下载 Logo，保留空 icon。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://www.genspark.ai/genspark-landing.html",
         "title": "Genspark 官方产品及 Web 入口"
+      },
+      {
+        "url": "https://www.genspark.ai/gen_avatar512.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-11"
@@ -7430,7 +7610,7 @@
     ]
   },
   "step-code-cli": {
-    "notes": "终端代理；Windows原生PowerShell为beta，推荐WSL。Step Plan不同地区登录配置不另拆应用。源自Pi但为独立产品。未确认专属Logo，不冒用Pi标识。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "notes": "终端代理；Windows原生PowerShell为beta，推荐WSL。Step Plan不同地区登录配置不另拆应用。源自Pi但为独立产品。未确认专属Logo，不冒用Pi标识。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fgithub.com%2Fstepfun-ai%2FStep-Code",
@@ -7447,6 +7627,14 @@
       {
         "url": "https://github.com/stepfun-ai/Step-Code/blob/main/LICENSE-STATUS.md",
         "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/stepfun-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
       }
     ],
     "verified_at": "2026-10-11"
@@ -7908,7 +8096,7 @@
     "verified_at": "2026-10-16"
   },
   "letta-code-cli": {
-    "notes": "CLI命令letta；本轮系统列表留空，不按Node可运行推断完整兼容性。 品牌素材被单独排除于代码许可，未收Logo。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "notes": "CLI命令letta；本轮系统列表留空，不按Node可运行推断完整兼容性。 品牌素材被单独排除于代码许可，未收Logo。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://openrouter.ai/apps/letta",
@@ -7921,12 +8109,16 @@
       {
         "url": "https://github.com/letta-ai/letta-code",
         "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://docs.letta.com/favicon.svg",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-11"
   },
   "letta-desktop": {
-    "notes": "当前发行文档仅提供Apple Silicon macOS下载；README称更多平台，保守采用当前可核验下载，不列Windows/Linux。 品牌素材被单独排除于代码许可，未收Logo。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "notes": "当前发行文档仅提供Apple Silicon macOS下载；README称更多平台，保守采用当前可核验下载，不列Windows/Linux。 品牌素材被单独排除于代码许可，未收Logo。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://openrouter.ai/apps/letta",
@@ -7935,12 +8127,16 @@
       {
         "url": "https://docs.letta.com/platform/desktop-app",
         "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://docs.letta.com/favicon.svg",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-11"
   },
   "letta-web": {
-    "notes": "官方CLI文档与README明确浏览器入口；登录后可用范围未经实测。 品牌素材被单独排除于代码许可，未收Logo。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。",
+    "notes": "官方CLI文档与README明确浏览器入口；登录后可用范围未经实测。 品牌素材被单独排除于代码许可，未收Logo。 仅核验公开资料，未安装或登录运行；榜单类别不作为应用形态或许可依据。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://openrouter.ai/apps/letta",
@@ -7957,6 +8153,10 @@
       {
         "url": "https://github.com/letta-ai/letta-code",
         "title": "官方应用形态、功能及发行依据"
+      },
+      {
+        "url": "https://docs.letta.com/favicon.svg",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-11"
@@ -7970,9 +8170,13 @@
       {
         "url": "https://t3.chat/",
         "title": "官方应用入口（域名核验）"
+      },
+      {
+        "url": "https://t3.chat/apple-touch-icon.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
-    "notes": "多模型浏览器聊天应用；按独立 Web 应用建档。 核验公开官方资料与入口，不代表已登录、地区可用性或实际功能测试。",
+    "notes": "多模型浏览器聊天应用；按独立 Web 应用建档。 核验公开官方资料与入口，不代表已登录、地区可用性或实际功能测试。 2026-10-20 补充核验 Logo。",
     "verified_at": "2026-10-12"
   },
   "abacus-chatllm-web": {
@@ -7984,9 +8188,13 @@
       {
         "url": "https://apps.abacus.ai/chatllm/",
         "title": "官方应用入口（域名核验）"
+      },
+      {
+        "url": "https://abacus.ai/static/h23c4bfa0/icon2/favicon-192.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
-    "notes": "官方多模型助手，含研究、内容创作及 Agent 能力；官网与应用域名不同，不将套餐拆为产品。 核验公开官方资料与入口，不代表已登录、地区可用性或实际功能测试。",
+    "notes": "官方多模型助手，含研究、内容创作及 Agent 能力；官网与应用域名不同，不将套餐拆为产品。 核验公开官方资料与入口，不代表已登录、地区可用性或实际功能测试。 2026-10-20 补充核验 Logo。",
     "verified_at": "2026-10-12"
   },
   "dust-web": {
@@ -8056,7 +8264,7 @@
     "verified_at": "2026-10-12"
   },
   "dropstone-cli": {
-    "notes": "Blankline 出品的终端编码 Agent；官方产品名 Dropstone CLI，命令为 dropstone。官方 changelog API 核验日最新为 v1.0.59（2026-10-07，isLatest）；产品页示意终端仍写 v1.0.52，不作为当前发行版本。官方资料列明 macOS、Linux、Windows（PowerShell 或 WSL）。文档另提及 VS Code / Cursor / Windsurf 扩展与 Dashboard，本条仅表示 CLI，不另建未单独核验的形态记录。未找到可追溯官方 SVG。官网资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "Blankline 出品的终端编码 Agent；官方产品名 Dropstone CLI，命令为 dropstone。官方 changelog API 核验日最新为 v1.0.59（2026-10-07，isLatest）；产品页示意终端仍写 v1.0.52，不作为当前发行版本。官方资料列明 macOS、Linux、Windows（PowerShell 或 WSL）。文档另提及 VS Code / Cursor / Windsurf 扩展与 Dashboard，本条仅表示 CLI，不另建未单独核验的形态记录。未找到可追溯官方 SVG。官网资料核验，未做安装、运行或区域可用性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://www.dropstone.io/products/dropstone-cli",
@@ -8077,6 +8285,10 @@
       {
         "url": "https://docs.dropstone.io/getting-started/welcome",
         "title": "Dropstone CLI 官方欢迎页：产品形态与安装"
+      },
+      {
+        "url": "https://www.dropstone.io/android-chrome-512x512.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-13"
@@ -8200,7 +8412,7 @@
     "verified_at": "2026-10-13"
   },
   "openpilot-desktop": {
-    "notes": "官方站点确认本地 Electron 桌面 Agent，Windows 安装包与便携版已发布。GitHub Releases v1.0.5（2026-08-12）同时提供 Windows 安装包/便携版与 macOS arm64/x64 DMG。官网 FAQ 仍写 macOS coming soon，与 Releases 资产并存，平台按仓库发行资产记录 Windows 与 macOS，不把网站文案当作 macOS 未发布。仓库无 LICENSE 文件，尽管 README 与 package.json 写 MIT，本轮不写入 open-source.json。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。",
+    "notes": "官方站点确认本地 Electron 桌面 Agent，Windows 安装包与便携版已发布。GitHub Releases v1.0.5（2026-08-12）同时提供 Windows 安装包/便携版与 macOS arm64/x64 DMG。官网 FAQ 仍写 macOS coming soon，与 Releases 资产并存，平台按仓库发行资产记录 Windows 与 macOS，不把网站文案当作 macOS 未发布。仓库无 LICENSE 文件，尽管 README 与 package.json 写 MIT，本轮不写入 open-source.json。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://openpilot.in/",
@@ -8217,12 +8429,16 @@
       {
         "url": "https://github.com/ibmshaikh/OpenPilot/releases/tag/v1.0.5",
         "title": "GitHub Releases · v1.0.5 Windows 与 macOS 发行资产（2026-08-12）"
+      },
+      {
+        "url": "https://openpilot.in/assets/favicon.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-13"
   },
   "octo-web": {
-    "notes": "明略科技 Octo 官方产品页确认开源的人与 AI Agent 协作工作平台。octo-web 仓库 README 明确同一 React 代码库交付浏览器端（canonical chat surface）与 Electron 桌面端；本条仅表示自托管 Web。Apache-2.0。默认对接本地 octo-server，无统一公共应用域名。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。",
+    "notes": "明略科技 Octo 官方产品页确认开源的人与 AI Agent 协作工作平台。octo-web 仓库 README 明确同一 React 代码库交付浏览器端（canonical chat surface）与 Electron 桌面端；本条仅表示自托管 Web。Apache-2.0。默认对接本地 octo-server，无统一公共应用域名。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://www.mininglamp.com/octo/",
@@ -8239,12 +8455,16 @@
       {
         "url": "https://github.com/Mininglamp-OSS/octo-server/blob/main/LICENSE",
         "title": "octo-server 官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://www.mininglamp.com/wp-content/uploads/2024/08/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-13"
   },
   "octo-desktop": {
-    "notes": "octo-web 官方 README 确认 Electron PC 客户端，构建目标覆盖 macOS / Windows / Linux，与浏览器端同源不同形态。Apache-2.0。官网产品页介绍开源协作平台，未另给独立桌面下载页，桌面形态以仓库 README 的 pc:package 说明为准。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。",
+    "notes": "octo-web 官方 README 确认 Electron PC 客户端，构建目标覆盖 macOS / Windows / Linux，与浏览器端同源不同形态。Apache-2.0。官网产品页介绍开源协作平台，未另给独立桌面下载页，桌面形态以仓库 README 的 pc:package 说明为准。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://www.mininglamp.com/octo/",
@@ -8257,6 +8477,10 @@
       {
         "url": "https://github.com/Mininglamp-OSS/octo-web/blob/main/LICENSE",
         "title": "octo-web 官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://www.mininglamp.com/wp-content/uploads/2024/08/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-13"
@@ -8272,7 +8496,7 @@
     "verified_at": "2026-10-13"
   },
   "guilds-web": {
-    "notes": "官方站点与安装文档确认自托管多 Agent 团队平台：Docker Compose 启动后浏览器访问 127.0.0.1:8080。GitHub 仓库 CigaleAI/guilds 许可证为 AGPL-3.0。核验日无 GitHub Release/tag，不编造版本号。自托管，无统一公共应用域名。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。",
+    "notes": "官方站点与安装文档确认自托管多 Agent 团队平台：Docker Compose 启动后浏览器访问 127.0.0.1:8080。GitHub 仓库 CigaleAI/guilds 许可证为 AGPL-3.0。核验日无 GitHub Release/tag，不编造版本号。自托管，无统一公共应用域名。官网/仓库资料核验，未做安装、运行或区域可用性测试。未找到可核验纯矢量 SVG。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://www.guilds.run/",
@@ -8289,6 +8513,10 @@
       {
         "url": "https://github.com/CigaleAI/guilds/blob/main/LICENSE",
         "title": "官方 LICENSE：GNU AGPL v3"
+      },
+      {
+        "url": "https://www.guilds.run/icon.svg",
+        "title": "Official website asset — original SVG asset"
       }
     ],
     "verified_at": "2026-10-13"
@@ -8538,7 +8766,7 @@
     "verified_at": "2026-10-14"
   },
   "zhida": {
-    "notes": "知乎官方 AI 搜索/问答 Web 产品。主域 zhida.zhihu.com，发布时独立域名 zhida.ai 仍指向同一产品。公开页可能先展示登录墙。无可靠 SVG，不发明 Logo。仅核验公开官方入口，未登录使用。",
+    "notes": "知乎官方 AI 搜索/问答 Web 产品。主域 zhida.zhihu.com，发布时独立域名 zhida.ai 仍指向同一产品。公开页可能先展示登录墙。无可靠 SVG，不发明 Logo。仅核验公开官方入口，未登录使用。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://zhida.zhihu.com/",
@@ -8547,16 +8775,32 @@
       {
         "url": "https://zhida.ai/",
         "title": "知乎直答发布时独立域名 zhida.ai"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/zhihu.svg",
+        "title": "Simple Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+        "title": "Simple Icons CC0 license; brand trademarks retained"
       }
     ],
     "verified_at": "2026-10-13"
   },
   "tongyi-farui": {
-    "notes": "阿里云通义法律 AI Web 产品，入口为 tongyi.aliyun.com/farui。共享通义门户主机，需结合路径与千问、万相等区分。与 qianwen、qwen-chat、wan 分产品。无可靠 SVG。仅核验公开官方入口，未登录使用。",
+    "notes": "阿里云通义法律 AI Web 产品，入口为 tongyi.aliyun.com/farui。共享通义门户主机，需结合路径与千问、万相等区分。与 qianwen、qwen-chat、wan 分产品。无可靠 SVG。仅核验公开官方入口，未登录使用。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://tongyi.aliyun.com/farui",
         "title": "通义法睿官方产品与使用入口"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/qwen-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
       }
     ],
     "verified_at": "2026-10-13"
@@ -8572,17 +8816,21 @@
     "verified_at": "2026-10-13"
   },
   "biling": {
-    "notes": "笔灵官方 AI 写作 Web 应用。无可靠 SVG，不发明 Logo。仅核验公开官方入口，未登录使用。",
+    "notes": "笔灵官方 AI 写作 Web 应用。无可靠 SVG，不发明 Logo。仅核验公开官方入口，未登录使用。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://ibiling.cn/",
         "title": "笔灵AI写作官方网站"
+      },
+      {
+        "url": "https://static.ibiling.cn/static/logo-block.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-13"
   },
   "tusi": {
-    "notes": "吐司官方在线生图社区。主域 tusi.cn，备用 tusiart.com。无可靠 SVG。仅核验公开官方入口，未登录使用。",
+    "notes": "吐司官方在线生图社区。主域 tusi.cn，备用 tusiart.com。无可靠 SVG。仅核验公开官方入口，未登录使用。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://tusi.cn/",
@@ -8591,13 +8839,16 @@
       {
         "url": "https://tusiart.com/",
         "title": "吐司 tusiart.com 官方网站"
+      },
+      {
+        "url": "https://tusi.cn/tusiart_logo_square_version.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-13"
   },
-
   "orca-desktop": {
-    "notes": "Stably AI / Lovecast Inc. 开源桌面 ADE：在隔离 git worktree 中并行运行 Claude Code、Codex、OpenCode 等 CLI Agent。官方 README 与 Releases 确认 macOS（arm64/x64 DMG、ZIP）、Windows（orca-windows-setup.exe）与 Linux（AppImage、deb、rpm）桌面发行资产。最新 GitHub Release 为 v1.4.229（2026-10-17）。LICENSE 正文为 MIT，版权 Lovecast Inc.。仓库描述含 mobile 与 remote runtime；移动端不在目录范围。官方 CLI 文档写明 `orca` 随桌面应用附带，用于脚本化正在运行的编辑器，不是独立发行形态，故不单列 CLI。未发现独立公共 Web 应用。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "Stably AI / Lovecast Inc. 开源桌面 ADE：在隔离 git worktree 中并行运行 Claude Code、Codex、OpenCode 等 CLI Agent。官方 README 与 Releases 确认 macOS（arm64/x64 DMG、ZIP）、Windows（orca-windows-setup.exe）与 Linux（AppImage、deb、rpm）桌面发行资产。最新 GitHub Release 为 v1.4.229（2026-10-17）。LICENSE 正文为 MIT，版权 Lovecast Inc.。仓库描述含 mobile 与 remote runtime；移动端不在目录范围。官方 CLI 文档写明 `orca` 随桌面应用附带，用于脚本化正在运行的编辑器，不是独立发行形态，故不单列 CLI。未发现独立公共 Web 应用。官网/仓库资料核验，未做安装、运行或区域可用性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://orca.dev",
@@ -8622,6 +8873,10 @@
       {
         "url": "https://www.onorca.dev/docs/cli/overview",
         "title": "官方文档：Orca CLI 随桌面应用附带，不是独立发行"
+      },
+      {
+        "url": "https://www.onorca.dev/icon.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-19"
@@ -8799,7 +9054,7 @@
     "verified_at": "2026-10-19"
   },
   "openharness-desktop": {
-    "notes": "Autonomous, Inc. 开源编码 Agent 指挥中心。官方 README 写明桌面应用面向 macOS 或 Linux，下载入口 harness.autonomous.ai/desktop；未声明 Windows 官方桌面发行，故不填写 Windows。最新桌面标签为 v1.2.90_desktop（2026-10-18）；该 tag 无附件资产，版本取自官方 Release 标签。LICENSE 正文为 MIT，版权 Autonomous, Inc.。仓库另有 web 与 device/mobile 发行；按目录范围与本次候选说明仅收录桌面与 CLI。未找到可核验纯矢量 SVG。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "Autonomous, Inc. 开源编码 Agent 指挥中心。官方 README 写明桌面应用面向 macOS 或 Linux，下载入口 harness.autonomous.ai/desktop；未声明 Windows 官方桌面发行，故不填写 Windows。最新桌面标签为 v1.2.90_desktop（2026-10-18）；该 tag 无附件资产，版本取自官方 Release 标签。LICENSE 正文为 MIT，版权 Autonomous, Inc.。仓库另有 web 与 device/mobile 发行；按目录范围与本次候选说明仅收录桌面与 CLI。未找到可核验纯矢量 SVG。官网/仓库资料核验，未做安装、运行或区域可用性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://www.autonomous.ai/harness",
@@ -8824,12 +9079,16 @@
       {
         "url": "https://harness.autonomous.ai/desktop",
         "title": "官方桌面下载入口"
+      },
+      {
+        "url": "https://cdn.autonomous.ai/assets/icons/apple-touch-icon.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-19"
   },
   "openharness-cli": {
-    "notes": "官方 README 确认终端 CLI：install.sh 安装 `harness` 与 `hn`。最新 CLI 标签为 v0.4.19_cli（2026-10-18）；该 tag 无附件资产，版本取自官方 Release 标签。安装说明为 bash，未声明 Windows 官方 CLI，故平台仅填 macOS 与 Linux。LICENSE 为 MIT。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "官方 README 确认终端 CLI：install.sh 安装 `harness` 与 `hn`。最新 CLI 标签为 v0.4.19_cli（2026-10-18）；该 tag 无附件资产，版本取自官方 Release 标签。安装说明为 bash，未声明 Windows 官方 CLI，故平台仅填 macOS 与 Linux。LICENSE 为 MIT。官网/仓库资料核验，未做安装、运行或区域可用性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://www.autonomous.ai/harness",
@@ -8854,6 +9113,10 @@
       {
         "url": "https://harness.autonomous.ai/cli/install.sh",
         "title": "官方 CLI 安装脚本入口"
+      },
+      {
+        "url": "https://cdn.autonomous.ai/assets/icons/apple-touch-icon.png",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-19"
@@ -8889,7 +9152,7 @@
     "verified_at": "2026-10-19"
   },
   "openmuse-web": {
-    "notes": "CopilotKit 开源自托管个人 Agent，官方产品页与 README 确认 Web 应用（本地 `pnpm dev:web` 访问 localhost:8081）及 Render 部署；亦有 iOS/Android，移动端不在目录范围。LICENSE 正文为 MIT。GitHub 无 Release；仓库根 package.json 为 0.1.0，不把它当作已发布产品版本。自托管，无统一公共应用域名。未找到 OpenMuse 专属可核验 SVG（Lobe Icons 仅有 CopilotKit 厂商标识，不套用）。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "CopilotKit 开源自托管个人 Agent，官方产品页与 README 确认 Web 应用（本地 `pnpm dev:web` 访问 localhost:8081）及 Render 部署；亦有 iOS/Android，移动端不在目录范围。LICENSE 正文为 MIT。GitHub 无 Release；仓库根 package.json 为 0.1.0，不把它当作已发布产品版本。自托管，无统一公共应用域名。未找到 OpenMuse 专属可核验 SVG（Lobe Icons 仅有 CopilotKit 厂商标识，不套用）。官网/仓库资料核验，未做安装、运行或区域可用性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://www.copilotkit.ai/openmuse",
@@ -8906,6 +9169,14 @@
       {
         "url": "https://github.com/CopilotKit/openmuse/blob/main/LICENSE",
         "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/copilotkit-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
       }
     ],
     "verified_at": "2026-10-19"
@@ -8955,7 +9226,7 @@
     "verified_at": "2026-10-19"
   },
   "viktor-web": {
-    "notes": "Zeta AI, Inc.（官方 Impressum / 服务条款）出品的 AI coworker。官方 FAQ 确认可在 Web 应用 app.viktor.com 对话；Slack 与 Microsoft Teams 为 IM 渠道，不属于目录交互形态，不单列。未在公开资料读到可引用的产品版本号，故不填写版本。未找到可核验纯矢量 SVG。官网资料核验，未做登录、运行或区域可用性测试。",
+    "notes": "Zeta AI, Inc.（官方 Impressum / 服务条款）出品的 AI coworker。官方 FAQ 确认可在 Web 应用 app.viktor.com 对话；Slack 与 Microsoft Teams 为 IM 渠道，不属于目录交互形态，不单列。未在公开资料读到可引用的产品版本号，故不填写版本。未找到可核验纯矢量 SVG。官网资料核验，未做登录、运行或区域可用性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://viktor.com/",
@@ -8972,6 +9243,10 @@
       {
         "url": "https://viktor.com/legal/general-terms",
         "title": "官方服务条款：Zeta AI, Inc. d/b/a Viktor"
+      },
+      {
+        "url": "https://viktor.com/webclip.png?v=2",
+        "title": "官方品牌素材原始 PNG"
       }
     ],
     "verified_at": "2026-10-19"
@@ -9075,7 +9350,7 @@
     "verified_at": "2026-10-20"
   },
   "lobsterai-desktop": {
-    "notes": "网易有道开源桌面办公 Agent（有道龙虾），基于 OpenClaw。官方网站 lobsterai.youdao.com 与 GitHub 组织 netease-youdao/LobsterAI 确认产品源码仓；LICENSE 正文为 MIT，版权 NetEase Youdao。最新 GitHub Release 为 2026.10.16（2026-10-16），资产为 LobsterAI--mac-arm64.dmg、LobsterAI--mac-x64.dmg、LobsterAI--win-x64.exe，故平台仅填 macOS 与 Windows；中文 README 提及 Linux，但本轮 Release 无 Linux 安装包，不填写。微信、飞书、钉钉、Telegram 等为 IM 远程触发渠道，不单列。官网 Logo 为 PNG；仓库内 lobster.svg 为 34×34 界面头像而非产品品牌标识，不收录。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "notes": "网易有道开源桌面办公 Agent（有道龙虾），基于 OpenClaw。官方网站 lobsterai.youdao.com 与 GitHub 组织 netease-youdao/LobsterAI 确认产品源码仓；LICENSE 正文为 MIT，版权 NetEase Youdao。最新 GitHub Release 为 2026.10.16（2026-10-16），资产为 LobsterAI--mac-arm64.dmg、LobsterAI--mac-x64.dmg、LobsterAI--win-x64.exe，故平台仅填 macOS 与 Windows；中文 README 提及 Linux，但本轮 Release 无 Linux 安装包，不填写。微信、飞书、钉钉、Telegram 等为 IM 远程触发渠道，不单列。官网 Logo 为 PNG；仓库内 lobster.svg 为 34×34 界面头像而非产品品牌标识，不收录。官网/仓库资料核验，未做安装、运行或区域可用性测试。 2026-10-20 补充核验 Logo。",
     "sources": [
       {
         "url": "https://lobsterai.youdao.com/",
@@ -9096,6 +9371,10 @@
       {
         "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.10.16",
         "title": "GitHub Releases · LobsterAI 2026.10.16（2026-10-16）桌面资产"
+      },
+      {
+        "url": "https://github.com/netease-youdao.png?size=460",
+        "title": "Official GitHub organization avatar — original PNG asset"
       }
     ],
     "verified_at": "2026-10-20"

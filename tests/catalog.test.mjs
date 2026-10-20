@@ -11,7 +11,7 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.26');
+  assert.equal(catalog.catalogMeta.dataVersion, '0.27');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
@@ -200,8 +200,8 @@ test('Web AI additions preserve original asset hashes, format and per-applicatio
       assert.equal(icons.getAppLogo(id).format, asset.format);
     }
   }
-  assert.equal(catalog.getApp('scispace').icon, '');
-  assert.equal(catalog.getApp('genspark').icon, '');
+  assert.equal(catalog.getApp('scispace').icon, 'icons/scispace.svg');
+  assert.equal(catalog.getApp('genspark').icon, 'icons/genspark.png');
 });
 
 test('2026-10-13 CLI additions and OpenCode version evidence', () => {
@@ -209,7 +209,7 @@ test('2026-10-13 CLI additions and OpenCode version evidence', () => {
   assert.equal(dropstone.vendor_id, 'blankline');
   assert.equal(dropstone.product_id, 'dropstone');
   assert.deepEqual(dropstone.interfaces, ['CLI']);
-  assert.equal(dropstone.icon, '');
+  assert.equal(dropstone.icon, 'icons/dropstone.png');
   assert.match(catalog.getEvidence('dropstone-cli').notes, /v1\.0\.59/);
   const muse = catalog.getApp('muse-code');
   assert.equal(muse.vendor_id, 'meta');
@@ -242,7 +242,7 @@ test('2026-10-13 daily candidates, Manus Studio and logo gap fill', async () => 
   assert.equal(manus.icon, catalog.getApp('manus').icon);
   assert.equal(catalog.getApp('openclaw-cli').icon, 'icons/openclaw.svg');
   assert.equal(catalog.getApp('coze-desktop-cn').icon, 'icons/coze-cn.svg');
-  assert.equal(catalog.getApp('astrbot-web').icon, '');
+  assert.equal(catalog.getApp('astrbot-web').icon, 'icons/astrbot.svg');
   assert.equal(source['gpt4all'].maintenance.status, 'unknown');
   assert.equal(source['roo-code-vscode'].maintenance.status, 'archived');
   assert.match(catalog.getEvidence('openpilot-desktop').notes, /LICENSE/);
@@ -293,7 +293,7 @@ test('2026-10-19 daily candidates', async () => {
   const orca = catalog.getApp('orca-desktop');
   assert.deepEqual(orca.interfaces, ['GUI']);
   assert.deepEqual(orca.platforms, ['macOS', 'Windows', 'Linux']);
-  assert.equal(orca.icon, '');
+  assert.equal(orca.icon, 'icons/orca.png');
   assert.equal(source['orca-desktop'].license, 'MIT');
   assert.match(catalog.getEvidence('orca-desktop').notes, /v1\.4\.229/);
   assert.equal(catalog.getApp('orca-cli'), undefined);
@@ -374,7 +374,7 @@ test('2026-10-20 daily candidates', async () => {
   const lobster = catalog.getApp('lobsterai-desktop');
   assert.deepEqual(lobster.interfaces, ['GUI']);
   assert.deepEqual(lobster.platforms, ['macOS', 'Windows']);
-  assert.equal(lobster.icon, '');
+  assert.equal(lobster.icon, 'icons/lobsterai.png');
   assert.equal(source['lobsterai-desktop'].license, 'MIT');
   assert.match(catalog.getEvidence('lobsterai-desktop').notes, /2026\.10\.16/);
   const stark = catalog.getApp('starkomand-desktop');
@@ -434,7 +434,6 @@ test('Chinese Web additions use hostname arrays and retain sourced alternate dom
   for (const id of ['zhida', 'tongyi-farui', 'shangliang', 'biling', 'tusi']) {
     const app = catalog.getApp(id);
     assert.deepEqual(app.interfaces, ['Web']);
-    assert.equal(app.icon, '');
     assert.equal(app.web_domain_status, 'verified');
     for (const host of app.web_domains) {
       assert(catalog.findApps({ webDomain: host }).includes(app));
@@ -448,6 +447,11 @@ test('Chinese Web additions use hostname arrays and retain sourced alternate dom
   assert.deepEqual(catalog.getApp('tusi').web_domains, ['tusi.cn', 'tusiart.com']);
   assert.deepEqual(catalog.getApp('trae-work').web_domains, ['work.trae.ai']);
   assert(!catalog.findApps({ webDomain: 'www.trae.ai' }).some(a => a.id === 'trae-work'));
+  assert.equal(catalog.getApp('zhida').icon, 'icons/zhida.svg');
+  assert.equal(catalog.getApp('tongyi-farui').icon, 'icons/qianwen.svg');
+  assert.equal(catalog.getApp('shangliang').icon, '');
+  assert.equal(catalog.getApp('biling').icon, 'icons/biling.png');
+  assert.equal(catalog.getApp('tusi').icon, 'icons/tusi.png');
   assert.equal(catalog.getApp('iflywrite').icon, 'icons/iflywrite.svg');
 });
 test('Web audit accounts for every application and new entries have source evidence', async () => {
