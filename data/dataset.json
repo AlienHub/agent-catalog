@@ -362,13 +362,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/autoclaw.png",
     "vendor_id": "zhipu",
     "product_id": "autoclaw",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -389,13 +389,13 @@
       "macOS",
       "Windows"
     ],
-    "icon": "",
+    "icon": "icons/autoclaw.png",
     "vendor_id": "zhipu",
     "product_id": "autoclaw",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -2326,13 +2326,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/jan.png",
     "vendor_id": "menlo-research",
     "product_id": "jan",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方 GitHub 组织头像",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -2351,13 +2351,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/jan.png",
     "vendor_id": "menlo-research",
     "product_id": "jan",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方 GitHub 组织头像",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -2978,13 +2978,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/minimax.svg",
     "vendor_id": "minimax",
     "product_id": "maxclaw",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已核验SVG · Lobe Icons（MiniMax 厂商品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [
@@ -3003,13 +3003,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/minimax.svg",
     "vendor_id": "minimax",
     "product_id": "maxclaw",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已核验SVG · Lobe Icons（MiniMax 厂商品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [
@@ -3740,13 +3740,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/pinokio.png",
     "vendor_id": "pinokio",
     "product_id": "pinokio",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -3816,13 +3816,13 @@
       "macOS",
       "Windows"
     ],
-    "icon": "",
+    "icon": "icons/qclaw.png",
     "vendor_id": "tencent",
     "product_id": "qclaw",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -3842,13 +3842,13 @@
       "macOS",
       "Windows"
     ],
-    "icon": "",
+    "icon": "icons/qclaw.png",
     "vendor_id": "tencent",
     "product_id": "qclaw",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -5250,13 +5250,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/codearts-agent.svg",
     "vendor_id": "huawei",
     "product_id": "codearts-agent",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已核验SVG · Lobe Icons（华为云厂商品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -5280,13 +5280,13 @@
       "Linux",
       "HarmonyOS PC"
     ],
-    "icon": "",
+    "icon": "icons/codearts-agent.svg",
     "vendor_id": "huawei",
     "product_id": "codearts-agent",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已核验SVG · Lobe Icons（华为云厂商品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -5304,13 +5304,13 @@
       "VS Code",
       "JetBrains"
     ],
-    "icon": "",
+    "icon": "icons/codearts-agent.svg",
     "vendor_id": "huawei",
     "product_id": "codearts-agent",
     "interfaces": [
       "IDE 插件"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已核验SVG · Lobe Icons（华为云厂商品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -5522,13 +5522,13 @@
     "type": "AI 编程",
     "website": "https://comate.baidu.com/",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/wenxin.svg",
     "vendor_id": "baidu",
     "product_id": "comate",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已核验SVG · Lobe Icons（文心厂商品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -5548,13 +5548,13 @@
     "platforms": [
       "IDE"
     ],
-    "icon": "",
+    "icon": "icons/wenxin.svg",
     "vendor_id": "baidu",
     "product_id": "comate",
     "interfaces": [
       "IDE 插件"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已核验SVG · Lobe Icons（文心厂商品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -5630,13 +5630,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/baixiaoyi.png",
     "vendor_id": "baichuan",
     "product_id": "baixiaoyi",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [
@@ -5987,13 +5987,13 @@
       "macOS",
       "Windows"
     ],
-    "icon": "",
+    "icon": "icons/dingtalk-wukong.png",
     "vendor_id": "alibaba",
     "product_id": "dingtalk-wukong",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -6199,10 +6199,10 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/nanobot.png",
     "vendor_id": "hkuds",
     "product_id": "nanobot",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "interfaces": [
       "CLI"
     ],
@@ -6222,10 +6222,10 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/nanobot.png",
     "vendor_id": "hkuds",
     "product_id": "nanobot",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "interfaces": [
       "Web"
     ],
@@ -6354,10 +6354,10 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/eigent.png",
     "vendor_id": "eigent",
     "product_id": "eigent",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "interfaces": [
       "GUI"
     ],
@@ -6381,10 +6381,10 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/aionui.svg",
     "vendor_id": "iofficeai",
     "product_id": "aionui",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "interfaces": [
       "GUI"
     ],
@@ -6406,10 +6406,10 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/aionui.svg",
     "vendor_id": "iofficeai",
     "product_id": "aionui",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "interfaces": [
       "Web"
     ],
@@ -6431,10 +6431,10 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/openwork.svg",
     "vendor_id": "different-ai",
     "product_id": "openwork",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "interfaces": [
       "GUI"
     ],
@@ -6454,10 +6454,10 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/librechat.png",
     "vendor_id": "librechat",
     "product_id": "librechat",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "interfaces": [
       "Web"
     ],
@@ -6627,10 +6627,10 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/astrbot.svg",
     "vendor_id": "astrbot",
     "product_id": "astrbot",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "interfaces": [
       "Web"
     ],
@@ -6650,10 +6650,10 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/langbot.png",
     "vendor_id": "langbot",
     "product_id": "langbot",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "interfaces": [
       "Web"
     ],
@@ -6675,10 +6675,10 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/openmanus.png",
     "vendor_id": "foundationagents",
     "product_id": "openmanus",
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方 GitHub 组织头像",
     "interfaces": [
       "CLI"
     ],
@@ -7045,13 +7045,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/ibm-bob.svg",
     "vendor_id": "ibm",
     "product_id": "ibm-bob",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -7072,13 +7072,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/ibm-bob.svg",
     "vendor_id": "ibm",
     "product_id": "ibm-bob",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -7209,13 +7209,13 @@
     "type": "AI 编程",
     "website": "https://docs.snowflake.com/en/user-guide/cortex-code/cli-reference",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/snowflake-cortex-code.svg",
     "vendor_id": "snowflake",
     "product_id": "snowflake-cortex-code",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材（Snowflake 厂商品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -7325,13 +7325,13 @@
     "type": "AI 编程",
     "website": "https://github.com/iflow-ai/iflow-cli",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/iflow.png",
     "vendor_id": "iflow-ai",
     "product_id": "iflow",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方 GitHub 组织头像",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -7346,13 +7346,13 @@
     "type": "通用智能体",
     "website": "https://github.com/lvndry/jazz",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/jazz.svg",
     "vendor_id": "lvndry",
     "product_id": "jazz",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -7559,13 +7559,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/tabnine.png",
     "vendor_id": "tabnine",
     "product_id": "tabnine",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方 GitHub 组织头像",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -7582,13 +7582,13 @@
     "type": "图像与视频生成",
     "website": "https://www.tinycloud.sh/",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/tinycloud.svg",
     "vendor_id": "cloudglue",
     "product_id": "tinycloud",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -7651,13 +7651,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/zencoder.svg",
     "vendor_id": "zencoder",
     "product_id": "zenflow",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可靠 SVG，待补充",
+    "svg_status": "已核验SVG · 官方来源（Zencoder 厂商品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -7728,13 +7728,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/lingcode-baby.png",
     "vendor_id": "lingcode",
     "product_id": "lingcode-baby",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -8043,13 +8043,13 @@
       "macOS",
       "Windows"
     ],
-    "icon": "",
+    "icon": "icons/moxby.svg",
     "vendor_id": "moxby",
     "product_id": "moxby",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -8345,13 +8345,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/scispace.svg",
     "vendor_id": "pubgenius",
     "product_id": "scispace",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未收录 SVG · 官方 Logo 仍待核验",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -8414,13 +8414,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/genspark.png",
     "vendor_id": "genspark",
     "product_id": "genspark",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未收录 SVG · 官方 Logo 仍待核验",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -9513,13 +9513,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/stepfun.svg",
     "vendor_id": "stepfun",
     "product_id": "step-code",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未收录 SVG · Logo 待补充",
+    "svg_status": "已核验SVG · Lobe Icons（StepFun 厂商品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -10018,13 +10018,13 @@
     "type": "通用任务 Agent",
     "website": "https://docs.letta.com/platform/cli",
     "platforms": [],
-    "icon": "",
+    "icon": "icons/letta.svg",
     "vendor_id": "letta",
     "product_id": "letta",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未收录 SVG · Logo 待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -10041,13 +10041,13 @@
     "platforms": [
       "macOS"
     ],
-    "icon": "",
+    "icon": "icons/letta.svg",
     "vendor_id": "letta",
     "product_id": "letta",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "未收录 SVG · Logo 待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -10064,13 +10064,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/letta.svg",
     "vendor_id": "letta",
     "product_id": "letta",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未收录 SVG · Logo 待补充",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [
@@ -10089,13 +10089,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/t3-chat.png",
     "vendor_id": "t3-chat",
     "product_id": "t3-chat",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未找到可靠 Logo，待补充",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [
@@ -10114,13 +10114,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/abacus-chatllm.png",
     "vendor_id": "abacus-ai",
     "product_id": "abacus-chatllm",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "未找到可靠 Logo，待补充",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [
@@ -10218,13 +10218,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/dropstone.png",
     "vendor_id": "blankline",
     "product_id": "dropstone",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -10365,8 +10365,8 @@
   },
   {
     "aliases": [],
-    "icon": "",
-    "svg_status": "未找到可核验SVG",
+    "icon": "icons/openpilot.png",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -10391,8 +10391,8 @@
     "aliases": [
       "章鱼 Octo"
     ],
-    "icon": "",
-    "svg_status": "未找到可核验SVG",
+    "icon": "icons/octo.png",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 明略科技厂商品牌",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -10416,8 +10416,8 @@
     "aliases": [
       "章鱼 Octo"
     ],
-    "icon": "",
-    "svg_status": "未找到可核验SVG",
+    "icon": "icons/octo.png",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 明略科技厂商品牌",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -10471,8 +10471,8 @@
     "aliases": [
       "guilds"
     ],
-    "icon": "",
-    "svg_status": "未找到可核验SVG",
+    "icon": "icons/guilds.svg",
+    "svg_status": "已验证 SVG · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -10707,10 +10707,10 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/zhida.svg",
     "vendor_id": "zhihu",
     "product_id": "zhida",
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已验证 SVG · 图标库（知乎母品牌）",
     "interfaces": [
       "Web"
     ],
@@ -10736,10 +10736,10 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/qianwen.svg",
     "vendor_id": "alibaba",
     "product_id": "tongyi-farui",
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "已核验SVG · Lobe Icons（通义/千问厂商品牌）",
     "interfaces": [
       "Web"
     ],
@@ -10792,10 +10792,10 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/biling.png",
     "vendor_id": "biling",
     "product_id": "biling",
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "interfaces": [
       "Web"
     ],
@@ -10821,10 +10821,10 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/tusi.png",
     "vendor_id": "tusi",
     "product_id": "tusi",
-    "svg_status": "未找到可核验SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "interfaces": [
       "Web"
     ],
@@ -10837,7 +10837,6 @@
     "web_domain_status": "verified",
     "web_domain_verified_at": "2026-10-13"
   },
-
   {
     "id": "orca-desktop",
     "name": "Orca",
@@ -10850,13 +10849,13 @@
       "Windows",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/orca.png",
     "vendor_id": "stably-ai",
     "product_id": "orca",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -11022,13 +11021,13 @@
       "macOS",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/openharness.png",
     "vendor_id": "autonomous",
     "product_id": "openharness",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · Autonomous 厂商品牌",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -11049,13 +11048,13 @@
       "macOS",
       "Linux"
     ],
-    "icon": "",
+    "icon": "icons/openharness.png",
     "vendor_id": "autonomous",
     "product_id": "openharness",
     "interfaces": [
       "CLI"
     ],
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · Autonomous 厂商品牌",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -11095,13 +11094,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/openmuse.svg",
     "vendor_id": "copilotkit",
     "product_id": "openmuse",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "已核验SVG · Lobe Icons（CopilotKit 厂商品牌）",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],
@@ -11171,13 +11170,13 @@
     "platforms": [
       "Web"
     ],
-    "icon": "",
+    "icon": "icons/viktor.png",
     "vendor_id": "zeta-ai",
     "product_id": "viktor",
     "interfaces": [
       "Web"
     ],
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [
@@ -11272,13 +11271,13 @@
       "macOS",
       "Windows"
     ],
-    "icon": "",
+    "icon": "icons/lobsterai.png",
     "vendor_id": "netease-youdao",
     "product_id": "lobsterai",
     "interfaces": [
       "GUI"
     ],
-    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 有道母品牌",
     "chrome_extension_id": "",
     "edge_extension_id": "",
     "web_domains": [],

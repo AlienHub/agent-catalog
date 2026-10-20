@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.26（2026-10-20），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.27（2026-10-20），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -473,3 +473,9 @@ Logo：Octop / Starkomand / readywhen 使用官方原始 SVG。LobsterAI 官网�
 未收录：XXL-AI Desk 桌面 v1.1.1（已有 `xxl-ai-desktop`）、Notion Agent 基础设施更新（已有 Notion AI）、WisdomAI Owls / Binance AI Pro / Calix Subscriber Agent（垂直企业或金融 Agent）、Beam.win、Kai Resolve、walkai-talkai、buddylist、Lancetta、shim-cli（Agent 周边工具）、Claude Managed Agents Dynamic Workflows（平台功能）、Google Harness²、HKUDS CLI-Anything（框架/插件）。Octop 的 IM 渠道、ACP 与 OctopPet 桌宠不单列。Starkomand / readywhen 无产品源码仓，不写入 open-source.json。
 
 仅核验公开官方资料，未做安装、运行或区域可用性测试。
+
+## v0.27 Logo 补齐（2026-10-20）
+
+为缺 logo 的目录条目补官方或认可图标库素材：59 条记录 / 45 个产品。同一产品的多形态共用一份文件。PNG 标注「未收录 SVG」。厂商品牌仅在产品无独立标识时使用，并写入 `svg_status`。
+
+仍缺 26 条 / 20 个产品：官网仅 ico、反爬、GitHub identicon/JPEG 头像、或仅有过于泛化的集团母品牌（Leonardo、ChatGPT Atlas、Muse Code、DeerFlow、Agent TARS 等）。

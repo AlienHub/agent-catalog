@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- BrandMark: signal square behind and low-left, plum square in front and high-right -->
+  <rect x="0" y="10" width="22" height="22" rx="3" fill="#1fafd1"/>
+  <rect x="10" y="0" width="22" height="22" rx="3" fill="#573646"/>
+</svg>

@@ -118,3 +118,24 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | `assets/icons/octop.svg` | [Octop 官方文档 `favicon.svg`](https://docs.octop.cloud/favicon.svg) | `c2a9114966e16370b4d33fab2f7519c9029942142f69102cf9f298d588a82895` |
 | `assets/icons/starkomand.svg` | [Starkomand 官网 `favicon.svg`](https://starkomand.com/favicon.svg) | `9bde3499b872fd86912d3602d16391b07e4b4f26766c440391a5a401684e99a7` |
 | `assets/icons/readywhen.svg` | [readywhen 官方品牌页 `readywhen-app-icon-on-light.svg`](https://readywhen.ai/public/images/logos/readywhen-app-icon-on-light.svg) | `c9d71ca429a76870ee8deb8fdd5fafe76caddf98c701a10a97c765a1343c5617` |
+
+## v0.27 Logo 补齐（2026-10-20）
+
+本批新增 SVG 均原样保存，未重绘。Lobe Icons 继续适用随附 [MIT 文本](./licenses/lobehub.txt)；Simple Icons 适用随附 [CC0 文本](./licenses/simple-icons.txt)。官方站点、官方仓库与官方 GitHub 组织头像以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。PNG 原样保存为位图，未转换成 SVG。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/aionui.svg` | [AionUi 官网 `favicon.svg`](https://www.aionui.com/favicon.svg) | `5c2b76de3a10d48acc11f34675a4159d371f5981d4044b3696b6741ef1ca7a01` |
+| `assets/icons/scispace.svg` | [SciSpace 官网 favicon（实为 SVG）](https://scispace.com/favicon.ico) | `fee02038267cb67732982e47550c42bf0aaebfde568c1254c0224ca21e4c3578` |
+| `assets/icons/ibm-bob.svg` | [IBM Bob 官网 `icon.svg`](https://bob.ibm.com/icon.svg?v=1) | `2d0239059a21146a37f2b1c365ae83724b564e078b78e1f57990537712ca01a6` |
+| `assets/icons/tinycloud.svg` | [TinyCloud 官网 `icon.svg`](https://www.tinycloud.sh/icon.svg) | `ba5f83cd1633e40d72dbf99b409067160fa68742cb73b838526857e8c54a1486` |
+| `assets/icons/letta.svg` | [Letta 文档站 `favicon.svg`](https://docs.letta.com/favicon.svg) | `5439e5ee0c214bca60f46451682caf4a274f56c9367bd87efa4435e5fcadac80` |
+| `assets/icons/moxby.svg` | [Moxby 官网 `favicon.svg`](https://moxby.com/favicon.svg) | `e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7` |
+| `assets/icons/guilds.svg` | [guilds.run 官网 `icon.svg`](https://www.guilds.run/icon.svg) | `d391c70feaecbb79a46229e4df9750050978bf2225f9af35866c47b37333adab` |
+| `assets/icons/openwork.svg` | [OpenWork 官网 `openwork-mark.svg`](https://openworklabs.com/openwork-mark.svg) | `c963967234ea1a9f90a4aa172309e12315ab7aa70de11e677eb90f4ee266479e` |
+| `assets/icons/jazz.svg` | [lvndry/jazz `.github/assets/jazz-icon.svg`](https://raw.githubusercontent.com/lvndry/jazz/main/.github/assets/jazz-icon.svg) | `a111a33924ca630dd6dc8534d536a8dd7e52010aeb21533362aa2c1e31f2481e` |
+| `assets/icons/astrbot.svg` | [AstrBot 仓库 `dashboard/public/favicon.svg`](https://raw.githubusercontent.com/AstrBotDevs/AstrBot/master/dashboard/public/favicon.svg) | `5f17f2a86bbee1f6e0751c138f4b4bf7eed65ecef93a4bfecdf14982224e26cb` |
+| `assets/icons/snowflake-cortex-code.svg` | [Snowflake 文档 favicon（厂商品牌）](https://docs.snowflake.com/images/favicon/favicon.svg) | `239c3c8a8b300f19589dfcb8754603d8b8a4451c06e009529a76c1f8dc4b2fec` |
+| `assets/icons/openmuse.svg` | [Lobe Icons `copilotkit-color.svg`（CopilotKit 厂商品牌）](https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/copilotkit-color.svg) | `2fd67f304ee2f4659be9a5304870b5bf6c0c3989f0d0420875595216a15fc17b` |
+| `assets/icons/codearts-agent.svg` | [Lobe Icons `huaweicloud-color.svg`（华为云厂商品牌）](https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/huaweicloud-color.svg) | `8a5e4cb6452046ecaf3a500e3a89955efdf54bfd0bed46a9c364fbd5f13290e4` |
+| `assets/icons/zhida.svg` | [Simple Icons `zhihu.svg`（知乎母品牌）](https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/zhihu.svg) | `3c8d91d4f30d220a8655f17aa4e119f5be8c0d66f5fcf939aecaed8699c628ce` |
