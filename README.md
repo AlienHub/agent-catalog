@@ -161,6 +161,9 @@ export function Example() {
 @alienhub/agent-atlas/schema.json
 @alienhub/agent-atlas/collections.json
 @alienhub/agent-atlas/metadata.json
+@alienhub/agent-atlas/providers.json
+@alienhub/agent-atlas/providers-schema.json
+@alienhub/agent-atlas/provider-evidence.json
 @alienhub/agent-atlas/icons/<filename>.svg
 @alienhub/agent-atlas/icons/<filename>.png
 ```
@@ -175,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.33（2026-10-27），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.34（2026-10-27），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -561,3 +564,12 @@ Logo：ThinkRail / Cindy / Junior / ShogunAI 使用官网原始 SVG。
 - Botnow Web（灵快科技）：企业级智能体工作平台 3.0。已核验 `cowork.botnow.cn` 与 `console.botnow.cn`。无可靠官方 SVG。
 
 未收录：Scout（仍为 `@outcrawl/scout` npm 库）；Paradev iOS/SDK/MCP；VibeiDE / ManyAgents 移动端；Botnow 私有化实例。#21 / #22 已合入产品不重复。PR #17 提供商目录不改。
+
+## v0.34 模型供应商 / 中转站目录（2026-10-27 rebase）
+
+本分支 rebase 到最新 `main`（#21 / #22 / #23 已合入，应用目录保持 v0.33 的 483 条应用、319 个产品）。新增并列数据集 `data/providers.json`（`providers-schema.json`、`provider-evidence.json`），收录正在运营的模型 API 站点与中转站，不改动 `dataset.json` / `schema.json`。网站顶部增加「Agent 应用 | 模型供应商/中转站」切换。共享 `dataVersion` 为 0.34。
+
+- 种子来自 2026-10-20 样本：排除导航站 hvoyai.com；神马中转（whatai）标为 closed；不可达主机标为 dead。
+- 只记录服务站点 / API 地址。one-api / new-api 等开源项目不是条目，仅作为 `backend` 探测属性。
+- 探测范围：HTTPS 首页、`GET /api/status` 指纹、`GET /v1/models` 只看状态码。不注册、不付费、不用 API key。
+- **收录不等于背书。** 详见 `website/README.md`。

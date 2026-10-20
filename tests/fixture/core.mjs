@@ -15,6 +15,9 @@ assert((await readFile(require.resolve('@alienhub/agent-atlas/icons/chatgpt.svg'
 
 assert.equal(require('@alienhub/agent-atlas/open-source.json')['openclaw-cli'].source_model, 'open-source');
 assert.equal(require('@alienhub/agent-atlas/open-source-schema.json').type, 'object');
+assert(Array.isArray(require('@alienhub/agent-atlas/providers.json')));
+assert.equal(require('@alienhub/agent-atlas/providers-schema.json').type, 'array');
+assert.equal(typeof require('@alienhub/agent-atlas/provider-evidence.json'), 'object');
 
 assert.equal(getAppLogo('crush-cli').format, 'PNG');
 assert(getAppLogo('crush-cli').dataUri.startsWith('data:image/png;base64,'));
