@@ -2727,7 +2727,6 @@
       }
     ]
   },
-
   "orca-desktop": {
     "repository_url": "https://github.com/stablyai/orca",
     "source_model": "open-source",
@@ -3109,6 +3108,210 @@
       {
         "url": "https://github.com/muzaffermahi/Fade/blob/main/README.md",
         "title": "Official README; terminal coding agent CLI"
+      }
+    ]
+  },
+  "rea-cli": {
+    "repository_url": "https://github.com/morluto/rea",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/morluto/rea/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-21",
+      "github_archived": false,
+      "last_push_at": "2026-10-21T00:19:03Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT，版权 2026 morluto。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/morluto/rea/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/morluto/rea/blob/main/README.md",
+        "title": "Official README"
+      }
+    ]
+  },
+  "openfilm-cli": {
+    "repository_url": "https://github.com/openfilm/openfilm",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/openfilm/openfilm/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-21",
+      "github_archived": false,
+      "last_push_at": "2026-10-20T16:39:54Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT，版权 2026 OpenFilm contributors。TRADEMARK.md 明确名称与 Logo 不在软件许可范围内。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/README.md",
+        "title": "Official README"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/TRADEMARK.md",
+        "title": "Official trademark notice"
+      }
+    ]
+  },
+  "openfilm-web": {
+    "repository_url": "https://github.com/openfilm/openfilm",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/openfilm/openfilm/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-21",
+      "github_archived": false,
+      "last_push_at": "2026-10-20T16:39:54Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT，版权 2026 OpenFilm contributors。TRADEMARK.md 明确名称与 Logo 不在软件许可范围内。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/README.md",
+        "title": "Official README"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/TRADEMARK.md",
+        "title": "Official trademark notice"
+      }
+    ]
+  },
+  "openfilm-desktop": {
+    "repository_url": "https://github.com/openfilm/openfilm",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/openfilm/openfilm/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-21",
+      "github_archived": false,
+      "last_push_at": "2026-10-20T16:39:54Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT，版权 2026 OpenFilm contributors。TRADEMARK.md 明确名称与 Logo 不在软件许可范围内。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/README.md",
+        "title": "Official README"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/TRADEMARK.md",
+        "title": "Official trademark notice"
+      }
+    ]
+  },
+  "craig-cli": {
+    "repository_url": "https://github.com/hallsamuel90/craig",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/hallsamuel90/craig/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-21",
+      "github_archived": false,
+      "last_push_at": "2026-10-20T23:29:40Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT，版权 2026 Sam Hall。README 写明开源但不是社区维护项目。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/hallsamuel90/craig/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/hallsamuel90/craig/blob/main/README.md",
+        "title": "Official README"
+      }
+    ]
+  },
+  "halis-code-cli": {
+    "repository_url": "https://github.com/binhdzs1tg/halis-code",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/binhdzs1tg/halis-code/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-21",
+      "github_archived": false,
+      "last_push_at": "2026-10-20T11:51:21Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT，版权 2026 binhdzs1tg。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/binhdzs1tg/halis-code/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/binhdzs1tg/halis-code/blob/main/README.md",
+        "title": "Official README"
+      }
+    ]
+  },
+  "halis-code-desktop": {
+    "repository_url": "https://github.com/binhdzs1tg/halis-code",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/binhdzs1tg/halis-code/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-21",
+      "github_archived": false,
+      "last_push_at": "2026-10-20T11:51:21Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT，版权 2026 binhdzs1tg。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/binhdzs1tg/halis-code/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/binhdzs1tg/halis-code/blob/main/README.md",
+        "title": "Official README"
+      }
+    ]
+  },
+  "emdash-desktop": {
+    "repository_url": "https://github.com/generalaction/emdash",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/generalaction/emdash/blob/main/LICENSE.md",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-21",
+      "github_archived": false,
+      "last_push_at": "2026-10-20T03:13:21Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE.md 正文为 Apache License 2.0，版权 2026 General Action, Inc.。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/generalaction/emdash/blob/main/LICENSE.md",
+        "title": "Official Apache-2.0 license"
+      },
+      {
+        "url": "https://github.com/generalaction/emdash/blob/main/README.md",
+        "title": "Official README"
       }
     ]
   }

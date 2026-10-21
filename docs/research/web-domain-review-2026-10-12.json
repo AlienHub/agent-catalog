@@ -4109,10 +4109,29 @@
         }
       ],
       "notes": "2026-10-20 新增已核验 Web 入口 app.readywhen.ai。"
+    },
+    {
+      "id": "openfilm-web",
+      "name": "OpenFilm",
+      "website": "https://openfilm.dev",
+      "status": "self-hosted",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://openfilm.dev",
+          "title": "OpenFilm 官方网站"
+        },
+        {
+          "url": "https://github.com/openfilm/openfilm/blob/main/README.md",
+          "title": "官方 README：Studio 为本机浏览器编辑器"
+        }
+      ],
+      "notes": "2026-10-21 新增自托管 Web；官网不是统一公共应用域名。"
     }
   ],
   "added_web_records_20261013": 4,
   "added_web_records_20261014": 4,
   "added_web_records_20261019": 5,
-  "added_web_records_20261020": 2
+  "added_web_records_20261020": 2,
+  "added_web_records_20261021": 1
 }

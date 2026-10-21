@@ -11358,5 +11358,212 @@
     ],
     "web_domain_status": "verified",
     "web_domain_verified_at": "2026-10-20"
+  },
+  {
+    "id": "rea-cli",
+    "name": "REA",
+    "aliases": [
+      "rea-agents"
+    ],
+    "vendor": "morluto",
+    "type": "AI 编程",
+    "website": "https://rea.tools",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/rea.svg",
+    "vendor_id": "morluto",
+    "product_id": "rea",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "openfilm-cli",
+    "name": "OpenFilm",
+    "aliases": [],
+    "vendor": "OpenFilm",
+    "type": "视频生成",
+    "website": "https://openfilm.dev",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/openfilm.svg",
+    "vendor_id": "openfilm",
+    "product_id": "openfilm",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "openfilm-web",
+    "name": "OpenFilm",
+    "aliases": [
+      "OpenFilm Studio"
+    ],
+    "vendor": "OpenFilm",
+    "type": "视频生成",
+    "website": "https://openfilm.dev",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openfilm.svg",
+    "vendor_id": "openfilm",
+    "product_id": "openfilm",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "openfilm-desktop",
+    "name": "OpenFilm",
+    "aliases": [],
+    "vendor": "OpenFilm",
+    "type": "视频生成",
+    "website": "https://openfilm.dev",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/openfilm.svg",
+    "vendor_id": "openfilm",
+    "product_id": "openfilm",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "craig-cli",
+    "name": "Craig",
+    "aliases": [
+      "craig-cli"
+    ],
+    "vendor": "Sam Hall",
+    "type": "AI 编程",
+    "website": "https://craig-cli.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/craig.svg",
+    "vendor_id": "hallsamuel90",
+    "product_id": "craig",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "halis-code-cli",
+    "name": "Halis Code",
+    "aliases": [
+      "halis"
+    ],
+    "vendor": "binhdzs1tg",
+    "type": "AI 编程",
+    "website": "https://github.com/binhdzs1tg/halis-code",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/halis-code.png",
+    "vendor_id": "binhdzs1tg",
+    "product_id": "halis-code",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "halis-code-desktop",
+    "name": "Halis Code",
+    "aliases": [
+      "halis"
+    ],
+    "vendor": "binhdzs1tg",
+    "type": "AI 编程",
+    "website": "https://github.com/binhdzs1tg/halis-code",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/halis-code.png",
+    "vendor_id": "binhdzs1tg",
+    "product_id": "halis-code",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "emdash-desktop",
+    "name": "Emdash",
+    "aliases": [],
+    "vendor": "General Action, Inc.",
+    "type": "AI 编程",
+    "website": "https://emdash.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/emdash.png",
+    "vendor_id": "general-action",
+    "product_id": "emdash",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]
