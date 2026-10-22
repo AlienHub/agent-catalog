@@ -161,3 +161,11 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | `assets/icons/pandacode.svg` | [aicodeking/pandacode `website/public/favicon.svg`](https://raw.githubusercontent.com/aicodeking/pandacode/main/website/public/favicon.svg) | `5bc10316aaa64079a9eecbc3adf41d32b30efc7283b2f6e936c1cf90b593a68d` |
 | `assets/icons/band.svg` | [BAND 官网 `favicon.svg`](https://www.band.ai/favicon.svg) | `f2210d2032d181763f72b20ce55bc7d27307a6060ff8615415b32bb4eac215ce` |
 | `assets/icons/aulos.png` | [Steve-pixel-cpu/aulos `static/icon-default.png`](https://raw.githubusercontent.com/Steve-pixel-cpu/aulos/main/static/icon-default.png) | `7a5264eacc56f55ac25632424a8e4042f5cadd860857b9d0330c23950c7106a0` |
+
+## v0.30 百智办公 MonkeyAI Logo（2026-10-23）
+
+未找到可核验官方 SVG。下列 PNG 原样保存为位图，未转换成 SVG。商标与品牌权利归北京长亭科技有限公司；仓库 AGPL-3.0 源码许可不自动授予品牌授权。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/monkeyai.png` | [百智办公官网 `monkeyai-logo.png`](https://work.baizhi.cloud/monkeyai-logo.png) | `fd0812ed97ec7e4f057ae37978a85884bcbf65388f40907377af06139de1fdec` |

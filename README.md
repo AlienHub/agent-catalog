@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.29（2026-10-22），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.30（2026-10-23），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -507,3 +507,13 @@ Logo：REA / OpenFilm / Craig 使用官方原始 SVG。Halis Code / Emdash 仅�
 Logo：Claude Duet 沿用已核验 Lobe Icons Claude 厂商品牌。PandaCode / BAND 使用官方原始 SVG。Aulos 使用官方 PNG。Maka 主题 PNG 不是单一品牌 SVG，保持空 `icon`。
 
 未收录：Claude Duet 移动端；PandaCode / BAND / Aulos 的非独立形态；Maka Eval 与托管 Web；getband.app 的另一款仅 macOS Band；Scout（仍为 `@outcrawl/scout` npm 库与 API 基础设施，不是最终用户 CLI/Web/桌面/IDE 应用）。#18 已合入的 REA / OpenFilm / Craig / Halis Code / Emdash 不重复。PR #17 提供商目录不改。
+
+## v0.30 百智办公 MonkeyAI（2026-10-23）
+
+新增 2 条应用、1 个产品，目录共 460 条应用、300 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.29 / `main` @ `24d959a`（#18 / #19 已合入）。
+
+官方资料**不支持**把已有 MonkeyCode 整产品更名为百智办公。`monkeycode-web` / `monkeycode-work-desktop` 名称与 ID 保持不变；证据补充 2026-10-22 复核：MonkeyCode 仍是独立 AI 开发平台，文档将 MonkeyCode 列为相关产品。
+
+- 百智办公 Web / 桌面端（北京长亭科技有限公司 / Chaitin）：官方中文名百智办公，英文/产品代号 MonkeyAI。源码在 `github.com/chaitin/MonkeyCode` 的 `monkeyai/` 目录，根 LICENSE **AGPL-3.0**。Web 应用主机 `demo.monkeycode-ai.com`；官网 `work.baizhi.cloud`。桌面端官方清单 **26.1021.5**（Windows / macOS / Linux x64）。自托管发布清单 **v26102201**。Logo 为官网 256×256 PNG。
+
+未收录：CLI、IDE 插件（未见已发布形态）；浏览器扩展（仅桌面客户端旁路加载，无商店 ID）；Android / iOS / Linux ARM / 鸿蒙桌面（官网「敬请期待」，且目录不含移动端）。不把 MonkeyCode / MonkeyWork 并入本产品。#18 / #19 已合入条目不重复。

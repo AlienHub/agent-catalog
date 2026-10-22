@@ -4151,6 +4151,30 @@
         }
       ],
       "notes": "2026-10-22 新增已核验 Web 入口 claude.ai；与已有 claude Web 共享主机，产品独立。"
+    },
+    {
+      "id": "monkeyai-web",
+      "name": "百智办公",
+      "website": "https://work.baizhi.cloud/",
+      "status": "verified",
+      "domains": [
+        "demo.monkeycode-ai.com"
+      ],
+      "sources": [
+        {
+          "url": "https://work.baizhi.cloud/",
+          "title": "百智办公官网；Web 在线体验指向 demo.monkeycode-ai.com"
+        },
+        {
+          "url": "https://demo.monkeycode-ai.com/",
+          "title": "已核验实际 Web 应用 URL"
+        },
+        {
+          "url": "https://work.docs.baizhi.cloud/node/01a14440-f426-72fc-82fd-417386794cec",
+          "title": "官方文档：百智办公（MonkeyAI）介绍"
+        }
+      ],
+      "notes": "2026-10-22 新增已核验 Web 入口 demo.monkeycode-ai.com。官网 work.baizhi.cloud 不是应用主机。自托管实例无统一公共域名。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4158,5 +4182,6 @@
   "added_web_records_20261019": 5,
   "added_web_records_20261020": 2,
   "added_web_records_20261021": 1,
-  "added_web_records_20261022": 1
+  "added_web_records_20261022": 1,
+  "added_web_records_20261023": 1
 }

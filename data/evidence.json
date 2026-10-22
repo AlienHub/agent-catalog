@@ -4642,7 +4642,7 @@
     "verified_at": "2026-10-11"
   },
   "monkeycode-web": {
-    "notes": "长亭官方仓库明确为团队 AI 开发平台，包含 desktop 目录，发布记录出现桌面客户端下载；平台仓库标注 AGPL-3.0。另有官方 monkeycode-cli 仓库，不能把它的许可自动套到平台。 本条为 Web 平台（在线/自托管）；长亭官方平台源码 AGPL-3.0 不自动延伸为在线服务许可。桌面安装包与 monkeycode-cli 留待单独核验后补。 对应 Sentra 注册 ID：monkeycode；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 PR #1（2026-10-09）补充核验：长亭 MonkeyCode 是现成 AI 开发平台；当前仓库首页以 monkeycode-ai.net 为入口，文档仍链接 monkeycode-ai.com，两个官方域名并存，迁移日期未核实。MonkeyCode-AI 是已核实关联名称，不与 MonkeysCode 混淆。当前主 README 不支持本地 IDE 插件/CLI/代码补全；chaitin/monkeycode-cli 仍为 Codex fork 且 README 安装 @openai/codex，不足以新增独立已发布 CLI；历史插件未据此擅自判停服。 官方支持私有化与离线部署，公开源码根 LICENSE 为 AGPL-3.0。部署、模型调用和商业支持成本未核实，不从开源推导免费。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。 2026-10-11 Logo 核验：保存官方原始 PNG 位图，不转换或冒充 SVG；原始 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。",
+    "notes": "长亭官方仓库明确为团队 AI 开发平台，包含 desktop 目录，发布记录出现桌面客户端下载；平台仓库标注 AGPL-3.0。另有官方 monkeycode-cli 仓库，不能把它的许可自动套到平台。 本条为 Web 平台（在线/自托管）；长亭官方平台源码 AGPL-3.0 不自动延伸为在线服务许可。桌面安装包与 monkeycode-cli 留待单独核验后补。 对应 Sentra 注册 ID：monkeycode；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。 PR #1（2026-10-09）补充核验：长亭 MonkeyCode 是现成 AI 开发平台；当前仓库首页以 monkeycode-ai.net 为入口，文档仍链接 monkeycode-ai.com，两个官方域名并存，迁移日期未核实。MonkeyCode-AI 是已核实关联名称，不与 MonkeysCode 混淆。当前主 README 不支持本地 IDE 插件/CLI/代码补全；chaitin/monkeycode-cli 仍为 Codex fork 且 README 安装 @openai/codex，不足以新增独立已发布 CLI；历史插件未据此擅自判停服。 官方支持私有化与离线部署，公开源码根 LICENSE 为 AGPL-3.0。部署、模型调用和商业支持成本未核实，不从开源推导免费。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。 2026-10-11 Logo 核验：保存官方原始 PNG 位图，不转换或冒充 SVG；原始 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。 2026-10-12 域名审计：本地／自托管 Web UI 没有统一的公共应用域名；不得用项目官网识别客户部署实例。 2026-10-22 复核：官方仓库 README、https://monkeycode-ai.net/ 与 https://baizhi.cloud/landing/monkeycode 仍使用 MonkeyCode / MonkeyWork。百智办公（MonkeyAI）官方文档将 MonkeyCode 列为相关产品，不是本条更名；已另录 monkeyai-web / monkeyai-desktop。",
     "sources": [
       {
         "url": "https://github.com/chaitin/MonkeyCode",
@@ -4665,7 +4665,7 @@
         "title": "Official project PNG Logo — original raster asset"
       }
     ],
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-22"
   },
   "loomy-desktop": {
     "notes": "正确官方入口为 loomy.xunfei.cn，是工作助手而非同名照片应用；下载页列 Apple Silicon macOS 14+ 和 Windows 10+ x64 Beta。 macOS：Apple Silicon、14+；Windows：x64、10+、Beta。官网主体为合肥科讯创想软件开发有限公司。 对应 Sentra 注册 ID：loomy；注册适配器 dedicated 不代表所有检测能力均可用。官网/上游资料核验，未做安装、运行或区域可用性测试。",
@@ -6104,7 +6104,7 @@
     "verified_at": "2026-10-09"
   },
   "monkeycode-work-desktop": {
-    "notes": "长亭 MonkeyCode 是现成 AI 开发平台；当前仓库首页以 monkeycode-ai.net 为入口，文档仍链接 monkeycode-ai.com，两个官方域名并存，迁移日期未核实。MonkeyCode-AI 是已核实关联名称，不与 MonkeysCode 混淆。当前主 README 不支持本地 IDE 插件/CLI/代码补全；chaitin/monkeycode-cli 仍为 Codex fork 且 README 安装 @openai/codex，不足以新增独立已发布 CLI；历史插件未据此擅自判停服。 Work 为同产品桌面 GUI，支持本地代码/文件任务、云端同步、独立对话及浏览器操作。官方 v26072801 发布确认 macOS arm64/x86 DMG 与 Windows EXE；Linux 只核实 desktop/README.md 的源码构建支持，未核实已发布 Linux 安装包。云任务沿用 SaaS 权益，本地模型费用取决于提供商；不虚构独立会员体系。desktop 未见另行许可，根 AGPL 认定限该源码，未做二进制审计。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-11 Logo 核验：保存官方原始 PNG 位图，不转换或冒充 SVG；原始 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。",
+    "notes": "长亭 MonkeyCode 是现成 AI 开发平台；当前仓库首页以 monkeycode-ai.net 为入口，文档仍链接 monkeycode-ai.com，两个官方域名并存，迁移日期未核实。MonkeyCode-AI 是已核实关联名称，不与 MonkeysCode 混淆。当前主 README 不支持本地 IDE 插件/CLI/代码补全；chaitin/monkeycode-cli 仍为 Codex fork 且 README 安装 @openai/codex，不足以新增独立已发布 CLI；历史插件未据此擅自判停服。 Work 为同产品桌面 GUI，支持本地代码/文件任务、云端同步、独立对话及浏览器操作。官方 v26072801 发布确认 macOS arm64/x86 DMG 与 Windows EXE；Linux 只核实 desktop/README.md 的源码构建支持，未核实已发布 Linux 安装包。云任务沿用 SaaS 权益，本地模型费用取决于提供商；不虚构独立会员体系。desktop 未见另行许可，根 AGPL 认定限该源码，未做二进制审计。 核验范围：官方公开资料与源码/发布清单，不代表安装、运行、安全、性能或地区可用性测试。订阅档位不另计产品或形态。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-11 Logo 核验：保存官方原始 PNG 位图，不转换或冒充 SVG；原始 SHA-256 见 docs/research/coding-logo-assets-2026-10-11.json。 2026-10-22 复核：官方仓库 README、https://monkeycode-ai.net/ 与 https://baizhi.cloud/landing/monkeycode 仍使用 MonkeyCode / MonkeyWork。百智办公（MonkeyAI）官方文档将 MonkeyCode 列为相关产品，不是本条更名；已另录 monkeyai-web / monkeyai-desktop。",
     "sources": [
       {
         "url": "https://monkeycode.docs.baizhi.cloud/node/019fa346-8636-7ee6-9a35-1e014d087297",
@@ -6131,7 +6131,7 @@
         "title": "Official project PNG Logo — original raster asset"
       }
     ],
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-22"
   },
   "coze-desktop-cn": {
     "notes": "已有扣子CN Web 服务的官方桌面客户端；同账号同步项目、会话、文件和任务。CN核验不得自动外推 coze.com 国际版。 为已有扣子CN补 Desktop GUI，明确 macOS Apple/Intel 与 Windows，保留 Web。不要把 GitHub 上 Coze Studio、SDK、工作流引擎或第三方桌面封装的许可证转移到本客户端。本轮未获得 coze.com 国际版桌面发行证据，国际版平台字段保持原有已核实值；这不构成国际版桌面不存在的结论。 核验的具体形态：扣子桌面端（CN）。系统边界：macOS (Apple Silicon)；macOS (Intel)；Windows（架构与最低版本未核实）。版本定位：China desktop; personal / team / enterprise service plans。源码状态：unknown；许可证说明：扣子用户协议（专有服务条款；未核实桌面客户端本体的开源许可证）；商业状态：verified-paid。价格和下载限制见逐字段研究及下列来源。仅官方公开资料核验，未安装或测试兼容性。官方运营主体：北京春田知韵科技有限公司及关联方；沿用已有产品的稳定供应商分组。 2026-10-11 从 PR #1 增量吸收；按现行单形态、桌面/浏览器范围、CN命名与无edition字段规范转换。 2026-10-13 Logo 核验：沿用同产品已核验品牌 SVG，未新绘。",
@@ -9951,6 +9951,86 @@
       {
         "url": "https://raw.githubusercontent.com/Steve-pixel-cpu/aulos/main/static/icon-default.png",
         "title": "官方仓库 static/icon-default.png 原始 PNG"
+      }
+    ],
+    "verified_at": "2026-10-22"
+  },
+  "monkeyai-web": {
+    "notes": "官方中文名百智办公，英文/产品代号 MonkeyAI（文档标题「百智办公（MonkeyAI）」）。厂商为北京长亭科技有限公司（长亭科技 / 长亭百智云）。官方资料未将 MonkeyCode 更名为百智办公：MonkeyCode 仍是独立 AI 开发平台，文档页脚把 MonkeyCode 列为相关产品；二者同属长亭、源码同仓 github.com/chaitin/MonkeyCode 的 monkeyai/ 目录，安装包托管在 release.monkeycode-ai.com。本条为官方在线体验 Web（demo.monkeycode-ai.com，标题 MonkeyAI | AI Workbench）；官网 work.baizhi.cloud 为产品站而非应用主机。另支持私有化部署（官方安装脚本读取 latest.json 当前为 v26102201），自托管实例无统一公共域名。桌面客户端为同产品独立形态。浏览器能力是桌面客户端旁路加载的 Chrome/Edge 扩展文件夹，无 Chrome Web Store / Edge Add-ons 上架 ID，不单列浏览器插件。未见已发布 CLI 或 IDE 插件。Android / iOS / Linux ARM / 鸿蒙桌面官网标「敬请期待」，且目录不含移动端。开源根 LICENSE 为 AGPL-3.0，结论仅限已核查源码，不外推 SaaS/演示站或二进制。未找到可核验官方 SVG，收录官网 256×256 PNG。官网资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://work.baizhi.cloud/",
+        "title": "百智办公官网：团队 AI 办公工作台；JSON-LD SoftwareApplication 名称为百智办公；Web 在线体验指向 demo.monkeycode-ai.com"
+      },
+      {
+        "url": "https://demo.monkeycode-ai.com/",
+        "title": "已核验实际 Web 应用入口：标题 MonkeyAI | AI Workbench（不代表登录测试）"
+      },
+      {
+        "url": "https://work.docs.baizhi.cloud/node/01a14440-f426-72fc-82fd-417386794cec",
+        "title": "官方文档：百智办公（MonkeyAI）介绍；页脚将 MonkeyCode 列为相关产品"
+      },
+      {
+        "url": "https://baizhi.cloud/landing/baizhi-work",
+        "title": "长亭百智云落地页：浏览器与桌面客户端、私有化部署"
+      },
+      {
+        "url": "https://github.com/chaitin/MonkeyCode",
+        "title": "官方源码仓仍名 MonkeyCode；monkeyai/ 目录为百智办公后端、管理后台与落地页"
+      },
+      {
+        "url": "https://github.com/chaitin/MonkeyCode/blob/main/LICENSE",
+        "title": "仓库根 LICENSE 为 GNU AGPL v3；monkeyai/ 未见独立许可证"
+      },
+      {
+        "url": "https://release.monkeycode-ai.com/public/monkeyai/server/latest.json",
+        "title": "官方自托管发布清单：version v26102201（2026-10-22）"
+      },
+      {
+        "url": "https://work.baizhi.cloud/monkeyai-logo.png",
+        "title": "官方原始 PNG Logo，256×256，未转换 SVG"
+      },
+      {
+        "url": "https://work.baizhi.cloud/user-agreement/",
+        "title": "百智办公用户协议：北京长亭科技有限公司开发并开源"
+      }
+    ],
+    "verified_at": "2026-10-22"
+  },
+  "monkeyai-desktop": {
+    "notes": "官方中文名百智办公，英文/产品代号 MonkeyAI。本条为官方桌面 GUI。官网与 downloads.json 提供 Windows x64 EXE、macOS arm64/x64 DMG、Linux x64 AppImage；Linux ARM 与鸿蒙桌面标「敬请期待」，未列入 platforms。官方 electron-builder 清单 latest.yml / latest-mac.yml / latest-linux.yml 当前版本 26.1021.5（发布物 Last-Modified 2026-10-22）。与 monkeycode-work-desktop（MonkeyWork）不是同一客户端：本条安装包名为 MonkeyAI-26.1021.5-*，入口为 work.baizhi.cloud。浏览器扩展为客户端旁路加载，无商店上架 ID，不单列。未见独立桌面许可证，源码在同一 AGPL-3.0 仓库 monkeyai/ 与 desktop 相关目录；许可结论仅限已核查源码，未做二进制审计。官网资料与发布清单核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://work.baizhi.cloud/",
+        "title": "官网桌面下载：Windows x64、macOS Apple/Intel、Linux x64 AppImage"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/chaitin/MonkeyCode/main/monkeyai/landing/public/downloads.json",
+        "title": "官方下载清单：windows / macos_arm64 / macos_x64 / linux_x64；android、ios、linux_arm64、harmony_desktop 为空"
+      },
+      {
+        "url": "https://release.monkeycode-ai.com/public/monkeyai/desktop/win/x64/latest.yml",
+        "title": "官方 Windows 发布清单：MonkeyAI 26.1021.5"
+      },
+      {
+        "url": "https://release.monkeycode-ai.com/public/monkeyai/desktop/mac/arm64/latest-mac.yml",
+        "title": "官方 macOS arm64 发布清单：MonkeyAI 26.1021.5"
+      },
+      {
+        "url": "https://release.monkeycode-ai.com/public/monkeyai/desktop/linux/x64/latest-linux.yml",
+        "title": "官方 Linux x64 发布清单：MonkeyAI 26.1021.5 AppImage / deb"
+      },
+      {
+        "url": "https://work.docs.baizhi.cloud/node/01a14442-25b2-7c57-80f6-9436f2f5387d",
+        "title": "官方文档：安装与第一个任务"
+      },
+      {
+        "url": "https://github.com/chaitin/MonkeyCode/blob/main/LICENSE",
+        "title": "仓库根 LICENSE 为 GNU AGPL v3；未对桌面安装包做二进制审计"
+      },
+      {
+        "url": "https://work.baizhi.cloud/monkeyai-logo.png",
+        "title": "官方原始 PNG Logo，256×256，未转换 SVG"
       }
     ],
     "verified_at": "2026-10-22"

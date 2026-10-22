@@ -11,8 +11,8 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.29');
-  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop']) assert(catalog.getApp(id));
+  assert.equal(catalog.catalogMeta.dataVersion, '0.30');
+  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop', 'monkeyai-web', 'monkeyai-desktop']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
 test('ESM and CommonJS core exports agree', () => {
@@ -494,6 +494,37 @@ test('2026-10-22 daily candidates', async () => {
   assert.match(catalog.getEvidence('aulos-desktop').notes, /v5\.5\.0/);
   assert.equal(catalog.getApp('scout-web'), undefined);
   assert.equal(catalog.getApp('aulos-web'), undefined);
+});
+
+test('2026-10-23 百智办公 MonkeyAI is a sibling product, not a MonkeyCode rename', async () => {
+  const source = JSON.parse(await readFile(new URL('../data/open-source.json', import.meta.url)));
+  const web = catalog.getApp('monkeyai-web');
+  const desk = catalog.getApp('monkeyai-desktop');
+  assert.equal(web.product_id, desk.product_id);
+  assert.equal(web.product_id, 'monkeyai');
+  assert.notEqual(web.product_id, catalog.getApp('monkeycode-web').product_id);
+  assert.equal(web.vendor_id, 'chaitin');
+  assert.equal(web.name, '百智办公');
+  assert.equal(desk.name, '百智办公');
+  assert(web.aliases.includes('MonkeyAI'));
+  assert.equal(web.aliases.includes('MonkeyCode'), false);
+  assert.deepEqual(web.interfaces, ['Web']);
+  assert.deepEqual(web.web_domains, ['demo.monkeycode-ai.com']);
+  assert.equal(web.web_domain_status, 'verified');
+  assert.deepEqual(desk.interfaces, ['GUI']);
+  assert.deepEqual(desk.platforms, ['macOS', 'Windows', 'Linux']);
+  assert.equal(web.icon, 'icons/monkeyai.png');
+  assert.equal(desk.icon, 'icons/monkeyai.png');
+  assert.equal(catalog.getApp('monkeycode-web').name, 'MonkeyCode');
+  assert.equal(catalog.getApp('monkeycode-work-desktop').name, 'MonkeyCode Work');
+  assert.equal(source['monkeyai-web'].license, 'AGPL-3.0');
+  assert.equal(source['monkeyai-desktop'].license, 'AGPL-3.0');
+  assert.match(catalog.getEvidence('monkeyai-web').notes, /v26102201/);
+  assert.match(catalog.getEvidence('monkeyai-desktop').notes, /26\.1021\.5/);
+  assert(catalog.searchApps('百智办公').some(app => app.id === 'monkeyai-web'));
+  assert(catalog.searchApps('MonkeyAI').some(app => app.id === 'monkeyai-desktop'));
+  assert.equal(catalog.getApp('monkeyai-cli'), undefined);
+  assert.equal(catalog.getApp('monkeyai-ide'), undefined);
 });
 
 test('Domain-only schema removes Web entry URLs and keeps frozen hostname arrays', () => {
