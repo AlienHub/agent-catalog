@@ -151,3 +151,13 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | `assets/icons/craig.svg` | [Craig 官网 `favicon.svg`](https://craig-cli.com/favicon.svg) | `5582889afda3afd32aae209494f6b40ef9e4b2804f830a3e98d5fbb8da3a73d5` |
 | `assets/icons/halis-code.png` | [binhdzs1tg/halis-code `apps/desktop/resources/icon.png`](https://raw.githubusercontent.com/binhdzs1tg/halis-code/main/apps/desktop/resources/icon.png) | `037c8b4c3c6133a412ce46c4f95118674d438b1f925cc2a3dab0d8b589c795f3` |
 | `assets/icons/emdash.png` | [generalaction/emdash `apps/emdash-desktop/src/assets/images/emdash/icon-light.png`](https://raw.githubusercontent.com/generalaction/emdash/main/apps/emdash-desktop/src/assets/images/emdash/icon-light.png) | `8985ef02c5bb7ee17447c16fbc63c1fe5eb4a98e2cce9bb1b4ec252935ca73c2` |
+
+## v0.29 Logo 收录（2026-10-22）
+
+本批 SVG 均原样保存，未重绘。官方站点或官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。PNG 原样保存为位图，未转换成 SVG。Claude Duet 沿用已核验的 `icons/claude.svg`（Lobe Icons Claude 厂商品牌）。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/pandacode.svg` | [aicodeking/pandacode `website/public/favicon.svg`](https://raw.githubusercontent.com/aicodeking/pandacode/main/website/public/favicon.svg) | `5bc10316aaa64079a9eecbc3adf41d32b30efc7283b2f6e936c1cf90b593a68d` |
+| `assets/icons/band.svg` | [BAND 官网 `favicon.svg`](https://www.band.ai/favicon.svg) | `f2210d2032d181763f72b20ce55bc7d27307a6060ff8615415b32bb4eac215ce` |
+| `assets/icons/aulos.png` | [Steve-pixel-cpu/aulos `static/icon-default.png`](https://raw.githubusercontent.com/Steve-pixel-cpu/aulos/main/static/icon-default.png) | `7a5264eacc56f55ac25632424a8e4042f5cadd860857b9d0330c23950c7106a0` |

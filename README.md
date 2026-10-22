@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.28（2026-10-21），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.29（2026-10-22），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -493,3 +493,17 @@ Logo：Octop / Starkomand / readywhen 使用官方原始 SVG。LobsterAI 官网�
 Logo：REA / OpenFilm / Craig 使用官方原始 SVG。Halis Code / Emdash 仅有官方 PNG，标注「未收录 SVG」。
 
 未收录：REA MCP/skills 与 rea.tools 演示页（不是独立最终用户形态）；OpenFilm Linux 桌面（Release 无 Linux 安装包）；Craig / Halis / Emdash 未提供的 Web 或未核验形态；workspace-server 不是独立产品。
+
+## v0.29 日更候选（2026-10-22）
+
+新增 7 条应用、5 个产品，目录共 458 条应用、299 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.28 / `main` @ `256e0e5`（#18 已合入）。
+
+- Claude Duet Web（Anthropic）：独立主动式 Agent，研究预览，美国 Pro/Max 候补。官方 Web 入口 `claude.ai`，与已有 Claude Web 共享主机、分产品。无公开版本号。iOS/Android 独立应用不收录。
+- PandaCode 桌面端（aicodeking）：PandaCode License（MIT 加 fork 署名，记 source-available）。GitHub Releases **v0.3.16**，macOS（Apple silicon）/ Windows / Linux。附带本机网页聊天与即时通讯 bots 不单列。
+- Apache Maka 桌面端与 CLI（Apache Software Foundation）：Apache-2.0。官方 Apache 发行 **0.2.0 incubating**（2026-10-08）为签名源码包。Desktop Nightly 与 `maka-agent@nightly` 为 **0.2.2-dev.92.20261019** 便利/开发快照。TUI 与非交互 CLI 合并为一条 CLI。
+- BAND 桌面端（THENVOI AI LTD.）：闭源 BAND for Developers。官方下载页 macOS / Windows / Linux。未找到可引用版本号。附带 CLI / Claude Code 插件不单列。
+- Aulos CLI 与桌面端（steve-pixel-cpu）：MIT。GitHub Releases **v5.5.0**。仓库自述为学习项目且 star 很少，但有三平台安装包。本机桌面壳不是托管 Web。
+
+Logo：Claude Duet 沿用已核验 Lobe Icons Claude 厂商品牌。PandaCode / BAND 使用官方原始 SVG。Aulos 使用官方 PNG。Maka 主题 PNG 不是单一品牌 SVG，保持空 `icon`。
+
+未收录：Claude Duet 移动端；PandaCode / BAND / Aulos 的非独立形态；Maka Eval 与托管 Web；getband.app 的另一款仅 macOS Band；Scout（仍为 `@outcrawl/scout` npm 库与 API 基础设施，不是最终用户 CLI/Web/桌面/IDE 应用）。#18 已合入的 REA / OpenFilm / Craig / Halis Code / Emdash 不重复。PR #17 提供商目录不改。

@@ -11565,5 +11565,192 @@
     "web_domains": [],
     "web_domain_status": "not-applicable",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "claude-duet-web",
+    "name": "Claude Duet",
+    "aliases": [
+      "Duet"
+    ],
+    "vendor": "Anthropic",
+    "type": "通用任务 Agent",
+    "website": "https://claude.com/product/claude-duet",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/claude.svg",
+    "vendor_id": "anthropic",
+    "product_id": "claude-duet",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · Lobe Icons",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "claude.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-22"
+  },
+  {
+    "id": "pandacode-desktop",
+    "name": "PandaCode",
+    "aliases": [],
+    "vendor": "aicodeking",
+    "type": "AI 编程",
+    "website": "https://github.com/aicodeking/pandacode",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/pandacode.svg",
+    "vendor_id": "aicodeking",
+    "product_id": "pandacode",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "maka-desktop",
+    "name": "Apache Maka",
+    "aliases": [
+      "Maka",
+      "Apache Maka (Incubating)"
+    ],
+    "vendor": "Apache Software Foundation",
+    "type": "AI 编程",
+    "website": "https://maka.apache.org/en/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "apache",
+    "product_id": "maka",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "maka-cli",
+    "name": "Apache Maka",
+    "aliases": [
+      "Maka",
+      "Apache Maka (Incubating)",
+      "maka-agent"
+    ],
+    "vendor": "Apache Software Foundation",
+    "type": "AI 编程",
+    "website": "https://maka.apache.org/en/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "apache",
+    "product_id": "maka",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "band-desktop",
+    "name": "BAND",
+    "aliases": [
+      "BAND for Developers",
+      "BAND Desktop"
+    ],
+    "vendor": "THENVOI AI LTD.",
+    "type": "AI 编程",
+    "website": "https://www.band.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/band.svg",
+    "vendor_id": "thenvoi",
+    "product_id": "band",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "aulos-cli",
+    "name": "Aulos",
+    "aliases": [],
+    "vendor": "steve-pixel-cpu",
+    "type": "AI 编程",
+    "website": "https://github.com/Steve-pixel-cpu/aulos",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/aulos.png",
+    "vendor_id": "steve-pixel-cpu",
+    "product_id": "aulos",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "aulos-desktop",
+    "name": "Aulos",
+    "aliases": [],
+    "vendor": "steve-pixel-cpu",
+    "type": "AI 编程",
+    "website": "https://github.com/Steve-pixel-cpu/aulos",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/aulos.png",
+    "vendor_id": "steve-pixel-cpu",
+    "product_id": "aulos",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]
