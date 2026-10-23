@@ -3434,5 +3434,61 @@
         "title": "Official README; Tauri 2 desktop"
       }
     ]
+  },
+  "monkeyai-web": {
+    "repository_url": "https://github.com/chaitin/MonkeyCode",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/chaitin/MonkeyCode/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-22",
+      "github_archived": false,
+      "last_push_at": "2026-10-22T11:29:46Z"
+    },
+    "classification": "application",
+    "notes": "AGPL-3.0 结论仅限已核查的公开仓库相应源码目录（含 monkeyai/）。托管 SaaS、在线体验、桌面安装包、第三方组件和服务合同不继承本判断。维护状态参考官方发布、现行文档及公开代码，非仅依据 push 时间。仓库根仍名为 MonkeyCode，不因此把百智办公与 MonkeyCode 平台视为同一产品。",
+    "sources": [
+      {
+        "url": "https://github.com/chaitin/MonkeyCode",
+        "title": "官方源码仓：monkeyai/ 为百智办公后端、管理后台与落地页"
+      },
+      {
+        "url": "https://github.com/chaitin/MonkeyCode/blob/main/LICENSE",
+        "title": "根 LICENSE 为 GNU AGPL v3；monkeyai/ 未见独立许可证"
+      },
+      {
+        "url": "https://work.baizhi.cloud/user-agreement/",
+        "title": "用户协议：由北京长亭科技有限公司开发并开源，开源部分以仓库许可证为准"
+      }
+    ]
+  },
+  "monkeyai-desktop": {
+    "repository_url": "https://github.com/chaitin/MonkeyCode",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/chaitin/MonkeyCode/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-22",
+      "github_archived": false,
+      "last_push_at": "2026-10-22T11:29:46Z"
+    },
+    "classification": "application",
+    "notes": "AGPL-3.0 结论仅限已核查的公开仓库相应源码目录（含 monkeyai/）。托管 SaaS、在线体验、桌面安装包、第三方组件和服务合同不继承本判断。维护状态参考官方发布、现行文档及公开代码，非仅依据 push 时间。仓库根仍名为 MonkeyCode，不因此把百智办公与 MonkeyCode 平台视为同一产品。",
+    "sources": [
+      {
+        "url": "https://github.com/chaitin/MonkeyCode",
+        "title": "官方源码仓：monkeyai/ 与桌面发布同属该仓库"
+      },
+      {
+        "url": "https://github.com/chaitin/MonkeyCode/blob/main/LICENSE",
+        "title": "根 LICENSE 为 GNU AGPL v3；未对桌面安装包做二进制审计"
+      },
+      {
+        "url": "https://work.baizhi.cloud/user-agreement/",
+        "title": "用户协议：开源部分以仓库许可证为准"
+      }
+    ]
   }
 }

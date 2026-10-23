@@ -11752,5 +11752,65 @@
     "web_domains": [],
     "web_domain_status": "not-applicable",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "monkeyai-web",
+    "name": "百智办公",
+    "aliases": [
+      "MonkeyAI",
+      "Monkey AI",
+      "百智办公 Monkey AI",
+      "百智办公（MonkeyAI）"
+    ],
+    "vendor": "北京长亭科技有限公司（Chaitin）",
+    "type": "办公智能体",
+    "website": "https://work.baizhi.cloud/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/monkeyai.png",
+    "vendor_id": "chaitin",
+    "product_id": "monkeyai",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "demo.monkeycode-ai.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-22"
+  },
+  {
+    "id": "monkeyai-desktop",
+    "name": "百智办公",
+    "aliases": [
+      "MonkeyAI",
+      "Monkey AI",
+      "百智办公 Monkey AI",
+      "百智办公（MonkeyAI）"
+    ],
+    "vendor": "北京长亭科技有限公司（Chaitin）",
+    "type": "办公智能体",
+    "website": "https://work.baizhi.cloud/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/monkeyai.png",
+    "vendor_id": "chaitin",
+    "product_id": "monkeyai",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]
