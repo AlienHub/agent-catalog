@@ -169,3 +169,17 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | 文件 | 来源 | SHA-256 |
 | --- | --- | --- |
 | `assets/icons/monkeyai.png` | [百智办公官网 `monkeyai-logo.png`](https://work.baizhi.cloud/monkeyai-logo.png) | `fd0812ed97ec7e4f057ae37978a85884bcbf65388f40907377af06139de1fdec` |
+
+## v0.31 Logo 收录（2026-10-23）
+
+本批 SVG/PNG 均原样保存，未重绘或位图矢量化。官方站点或官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/fx.svg` | [fx 官网 `icon.svg`](https://fx.sh/icon.svg) | `689d7edf25cae50654704708810779be44e91b4ebd3cef78bc5ffaa5e749dcb5` |
+| `assets/icons/bits.svg` | [Bits 官网演示 `favicon.svg`](https://bits.interfacesforhuman.com/demo/favicon.svg) | `c1720a3e84efb9df614d896df8f6bb6c557c66a72724cbcb2d7534ae82b8bd11` |
+| `assets/icons/heal.svg` | [heal 官网 `icon.svg`](https://www.heal.dev/icon.svg) | `8dafd6fff28cdc86a13c0c46cd29540ee4bb8a16f4cebf08fc37e6a6f558c30c` |
+| `assets/icons/offrun.svg` | [Offrun 官网 `favicon.svg`](https://offrun.dev/favicon.svg) | `0416f484f7b89e4d20ee83e8096fece8acaca3fbed0f00a0d8a4c60af41b4773` |
+| `assets/icons/whiteboard.svg` | [dev.fast 官网 `favicon.svg`](https://dev.fast/favicon.svg) | `296a1ccd394025e7c854440f692b1dbe1d5010312f032df9e9940350d8ae492d` |
+| `assets/icons/dumate.png` | [百度搭子下载站 `favicon.png`](https://now.bdstatic.com/store/v2/d33e0f5/qianfan-desktop-h5/e14364f/favicon.png) | `02e8924440fddc11aff3574eeb6f74aec55a6a21d154b86d6fd81eb21a1dd3a2` |
+| `assets/icons/breken.png` | [breken 官网 `favicon-64.png`](https://breken.ai/assets/favicon-64.png) | `ba2d7f43911909528158da14914596efe2fdf3f658254fb59dd0532f8ba15c2b` |

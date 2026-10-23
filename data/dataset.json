@@ -11812,5 +11812,243 @@
     "web_domains": [],
     "web_domain_status": "not-applicable",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "fx-cli",
+    "name": "fx",
+    "aliases": [],
+    "vendor": "Vercel Labs",
+    "type": "AI 编程",
+    "website": "https://fx.sh",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "icon": "icons/fx.svg",
+    "vendor_id": "vercel-labs",
+    "product_id": "fx",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "bits-web",
+    "name": "Bits",
+    "aliases": [],
+    "vendor": "harsh071",
+    "type": "通用任务 Agent",
+    "website": "https://bits.interfacesforhuman.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/bits.svg",
+    "vendor_id": "harsh071",
+    "product_id": "bits",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "cutbay-web",
+    "name": "CutBay",
+    "aliases": [
+      "CutBay Agent"
+    ],
+    "vendor": "PearlMountain Limited",
+    "type": "视频生成",
+    "website": "https://www.cutbay.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "pearlmountain",
+    "product_id": "cutbay",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.cutbay.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-23"
+  },
+  {
+    "id": "heal-web",
+    "name": "Heal",
+    "aliases": [
+      "heal",
+      "heal.dev"
+    ],
+    "vendor": "MYIA SAS",
+    "type": "AI 安全测试",
+    "website": "https://heal.dev/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/heal.svg",
+    "vendor_id": "myia",
+    "product_id": "heal",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.heal.dev"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-23"
+  },
+  {
+    "id": "offrun-desktop",
+    "name": "Offrun",
+    "aliases": [],
+    "vendor": "Founderly, Inc.",
+    "type": "AI 编程",
+    "website": "https://offrun.dev/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/offrun.svg",
+    "vendor_id": "founderly",
+    "product_id": "offrun",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "dumate-web",
+    "name": "百度搭子",
+    "aliases": [
+      "DuMate",
+      "Dumate",
+      "百度搭子企业版",
+      "DuMate 企业版",
+      "百度办公搭子"
+    ],
+    "vendor": "百度 Baidu",
+    "type": "办公智能体",
+    "website": "https://www.dumate.cn/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/dumate.png",
+    "vendor_id": "baidu",
+    "product_id": "dumate",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "dumate.baidu.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-23"
+  },
+  {
+    "id": "dumate-desktop",
+    "name": "百度搭子",
+    "aliases": [
+      "DuMate",
+      "Dumate",
+      "百度搭子企业版",
+      "DuMate 企业版",
+      "百度办公搭子"
+    ],
+    "vendor": "百度 Baidu",
+    "type": "办公智能体",
+    "website": "https://www.dumate.cn/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/dumate.png",
+    "vendor_id": "baidu",
+    "product_id": "dumate",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "whiteboard-desktop",
+    "name": "Whiteboard",
+    "aliases": [],
+    "vendor": "dev.fast",
+    "type": "AI 编程",
+    "website": "https://dev.fast",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/whiteboard.svg",
+    "vendor_id": "devdotfast",
+    "product_id": "whiteboard",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "breken-web",
+    "name": "breken",
+    "aliases": [
+      "Breken"
+    ],
+    "vendor": "Breken",
+    "type": "AI 安全测试",
+    "website": "https://breken.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/breken.png",
+    "vendor_id": "breken",
+    "product_id": "breken",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "breken.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-23"
   }
 ]
