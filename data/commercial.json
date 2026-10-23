@@ -1432,5 +1432,35 @@
         "title": "Claude Duet 官方产品页：Available in Pro and Max plans in the US"
       }
     ]
+  },
+  "dumate-web": {
+    "offer": "enterprise-service",
+    "verified_at": "2026-10-23",
+    "notes": "百度智能云企业版产品页列明企业坐席与资源点增量包售卖；个人官网另有个人 Pro / Max 付费档。按已核验官方付费/企业服务记录，不记录易变价格，也不据此判断代码许可证或地区可用性。",
+    "sources": [
+      {
+        "url": "https://cloud.baidu.com/product/dumate.html",
+        "title": "百度智能云：DuMate 企业版席位与增量包"
+      },
+      {
+        "url": "https://www.dumate.cn/",
+        "title": "百度搭子官网价格方案：个人体验 / Pro / Max 与企业版咨询"
+      }
+    ]
+  },
+  "dumate-desktop": {
+    "offer": "enterprise-service",
+    "verified_at": "2026-10-23",
+    "notes": "百度智能云企业版产品页列明企业坐席与资源点增量包售卖；个人官网另有个人 Pro / Max 付费档。按已核验官方付费/企业服务记录，不记录易变价格，也不据此判断代码许可证或地区可用性。",
+    "sources": [
+      {
+        "url": "https://cloud.baidu.com/product/dumate.html",
+        "title": "百度智能云：DuMate 企业版席位与增量包"
+      },
+      {
+        "url": "https://www.dumate.cn/",
+        "title": "百度搭子官网价格方案：个人体验 / Pro / Max 与企业版咨询"
+      }
+    ]
   }
 }

@@ -3490,5 +3490,53 @@
         "title": "用户协议：开源部分以仓库许可证为准"
       }
     ]
+  },
+  "fx-cli": {
+    "repository_url": "https://github.com/vercel-labs/fx",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/vercel-labs/fx/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-23",
+      "github_archived": false,
+      "last_push_at": "2026-10-23T00:30:47Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 Apache License 2.0。结论仅限已核查的公开仓库源码；libfx npm 包与官网试用页不外推本判断。维护状态参考现行文档与 Release，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/vercel-labs/fx/blob/main/LICENSE",
+        "title": "Official Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/vercel-labs/fx/blob/main/README.md",
+        "title": "Official README"
+      }
+    ]
+  },
+  "whiteboard-desktop": {
+    "repository_url": "https://github.com/devdotfast/whiteboard",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/devdotfast/whiteboard/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-23",
+      "github_archived": false,
+      "last_push_at": "2026-10-22T23:00:04Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT，版权 2026 dev.fast。vendored Code-OSS 分叉保留 Microsoft MIT 与第三方声明。结论仅限已核查的公开仓库源码；计划中的托管 Web 不外推本判断。维护状态参考现行文档与 Release，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/devdotfast/whiteboard/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/devdotfast/whiteboard/blob/main/README.md",
+        "title": "Official README"
+      }
+    ]
   }
 }

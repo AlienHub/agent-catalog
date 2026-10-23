@@ -11,8 +11,8 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.30');
-  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop', 'monkeyai-web', 'monkeyai-desktop']) assert(catalog.getApp(id));
+  assert.equal(catalog.catalogMeta.dataVersion, '0.31');
+  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop', 'monkeyai-web', 'monkeyai-desktop', 'fx-cli', 'bits-web', 'cutbay-web', 'heal-web', 'offrun-desktop', 'dumate-web', 'dumate-desktop', 'whiteboard-desktop', 'breken-web']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
 test('ESM and CommonJS core exports agree', () => {
@@ -525,6 +525,65 @@ test('2026-10-23 百智办公 MonkeyAI is a sibling product, not a MonkeyCode re
   assert(catalog.searchApps('MonkeyAI').some(app => app.id === 'monkeyai-desktop'));
   assert.equal(catalog.getApp('monkeyai-cli'), undefined);
   assert.equal(catalog.getApp('monkeyai-ide'), undefined);
+});
+
+test('2026-10-23 daily candidates', async () => {
+  const source = JSON.parse(await readFile(new URL('../data/open-source.json', import.meta.url)));
+  const fx = catalog.getApp('fx-cli');
+  assert.equal(fx.vendor_id, 'vercel-labs');
+  assert.deepEqual(fx.interfaces, ['CLI']);
+  assert.deepEqual(fx.platforms, ['macOS', 'Linux']);
+  assert.equal(fx.icon, 'icons/fx.svg');
+  assert.equal(source['fx-cli'].license, 'Apache-2.0');
+  assert.match(catalog.getEvidence('fx-cli').notes, /v0\.0\.14/);
+  assert.equal(catalog.getApp('fx-web'), undefined);
+  const bits = catalog.getApp('bits-web');
+  assert.deepEqual(bits.interfaces, ['Web']);
+  assert.equal(bits.web_domain_status, 'self-hosted');
+  assert.equal(bits.icon, 'icons/bits.svg');
+  assert.equal(source['bits-web'], undefined);
+  assert.equal(catalog.getApp('bits-desktop'), undefined);
+  const cutbay = catalog.getApp('cutbay-web');
+  assert.deepEqual(cutbay.web_domains, ['app.cutbay.ai']);
+  assert.equal(cutbay.web_domain_status, 'verified');
+  assert.equal(cutbay.vendor_id, 'pearlmountain');
+  assert.equal(cutbay.icon, '');
+  assert.equal(source['cutbay-web'], undefined);
+  const heal = catalog.getApp('heal-web');
+  assert.equal(heal.vendor_id, 'myia');
+  assert.deepEqual(heal.web_domains, ['app.heal.dev']);
+  assert.equal(heal.icon, 'icons/heal.svg');
+  assert.equal(source['heal-web'], undefined);
+  const offrun = catalog.getApp('offrun-desktop');
+  assert.deepEqual(offrun.interfaces, ['GUI']);
+  assert.deepEqual(offrun.platforms, ['macOS']);
+  assert.equal(offrun.icon, 'icons/offrun.svg');
+  assert.match(catalog.getEvidence('offrun-desktop').notes, /6\.5\.1/);
+  assert.equal(source['offrun-desktop'], undefined);
+  const dumateWeb = catalog.getApp('dumate-web');
+  const dumateDesk = catalog.getApp('dumate-desktop');
+  assert.equal(dumateWeb.product_id, dumateDesk.product_id);
+  assert.equal(dumateWeb.vendor_id, 'baidu');
+  assert.equal(dumateWeb.name, '百度搭子');
+  assert(dumateWeb.aliases.includes('DuMate'));
+  assert.deepEqual(dumateWeb.interfaces, ['Web']);
+  assert.deepEqual(dumateWeb.web_domains, ['dumate.baidu.com']);
+  assert.deepEqual(dumateDesk.interfaces, ['GUI']);
+  assert.deepEqual(dumateDesk.platforms, ['macOS', 'Windows']);
+  assert.equal(dumateWeb.icon, 'icons/dumate.png');
+  const whiteboard = catalog.getApp('whiteboard-desktop');
+  assert.deepEqual(whiteboard.interfaces, ['GUI']);
+  assert.deepEqual(whiteboard.platforms, ['macOS', 'Windows', 'Linux']);
+  assert.equal(whiteboard.icon, 'icons/whiteboard.svg');
+  assert.equal(source['whiteboard-desktop'].license, 'MIT');
+  assert.match(catalog.getEvidence('whiteboard-desktop').notes, /v0\.3\.4/);
+  assert.equal(catalog.getApp('whiteboard-web'), undefined);
+  const breken = catalog.getApp('breken-web');
+  assert.deepEqual(breken.web_domains, ['breken.ai']);
+  assert.equal(breken.icon, 'icons/breken.png');
+  assert.equal(source['breken-web'], undefined);
+  assert.equal(catalog.getApp('scout-web'), undefined);
+  assert.equal(catalog.getApp('agibot-desktop'), undefined);
 });
 
 test('Domain-only schema removes Web entry URLs and keeps frozen hostname arrays', () => {
