@@ -4127,11 +4127,36 @@
         }
       ],
       "notes": "2026-10-21 新增自托管 Web；官网不是统一公共应用域名。"
+    },
+    {
+      "id": "claude-duet-web",
+      "name": "Claude Duet",
+      "website": "https://claude.com/product/claude-duet",
+      "status": "verified",
+      "domains": [
+        "claude.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://claude.com/product/claude-duet",
+          "title": "Claude Duet 官方产品页：On a computer, you can open it on the web at claude.ai"
+        },
+        {
+          "url": "https://claude.ai/",
+          "title": "已核验实际应用主机 claude.ai（不代表登录或候补开通）"
+        },
+        {
+          "url": "https://claude.com/resources/articles/claude-duet",
+          "title": "官方公告：available as a standalone app on iOS and Android, and on claude.ai"
+        }
+      ],
+      "notes": "2026-10-22 新增已核验 Web 入口 claude.ai；与已有 claude Web 共享主机，产品独立。"
     }
   ],
   "added_web_records_20261013": 4,
   "added_web_records_20261014": 4,
   "added_web_records_20261019": 5,
   "added_web_records_20261020": 2,
-  "added_web_records_20261021": 1
+  "added_web_records_20261021": 1,
+  "added_web_records_20261022": 1
 }

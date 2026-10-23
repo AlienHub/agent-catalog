@@ -3314,5 +3314,125 @@
         "title": "Official README"
       }
     ]
+  },
+  "pandacode-desktop": {
+    "repository_url": "https://github.com/aicodeking/pandacode",
+    "source_model": "source-available",
+    "license": "LicenseRef-PandaCode",
+    "license_url": "https://github.com/aicodeking/pandacode/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-22",
+      "github_archived": false,
+      "last_push_at": "2026-10-21T17:31:58Z"
+    },
+    "classification": "runnable-application-and-harness",
+    "notes": "LICENSE 自称 PandaCode License，正文为 MIT 加一项：商业或公开发布的 fork 须声明 This is a fork of PandaCode 并链接本仓库。额外限制使当前文本不能记为 OSI MIT，故 source-available。结论仅限已核查的公开仓库源码，不外推所连接的第三方 Agent CLI 或模型服务。",
+    "sources": [
+      {
+        "url": "https://github.com/aicodeking/pandacode/blob/main/LICENSE",
+        "title": "Official PandaCode License (MIT plus fork attribution)"
+      },
+      {
+        "url": "https://github.com/aicodeking/pandacode/blob/main/README.md",
+        "title": "Official README; desktop workspace for coding-agent CLIs"
+      }
+    ]
+  },
+  "maka-desktop": {
+    "repository_url": "https://github.com/apache/maka",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/apache/maka/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-22",
+      "github_archived": false,
+      "last_push_at": "2026-10-21T22:46:40Z"
+    },
+    "classification": "runnable-application-and-harness",
+    "notes": "LICENSE 正文为 Apache License 2.0。官方 Apache 发行是签名源码包；Desktop Nightly 安装包为便利制品，不是获批 Apache 发行。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/apache/maka/blob/main/LICENSE",
+        "title": "Official Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/apache/maka/blob/main/README.md",
+        "title": "Official README; Desktop / TUI / CLI"
+      }
+    ]
+  },
+  "maka-cli": {
+    "repository_url": "https://github.com/apache/maka",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/apache/maka/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-22",
+      "github_archived": false,
+      "last_push_at": "2026-10-21T22:46:40Z"
+    },
+    "classification": "runnable-application-and-harness",
+    "notes": "LICENSE 正文为 Apache License 2.0。TUI 与非交互 CLI 同源 CLI 包。结论仅限已核查的公开仓库源码，不把 npm latest 占位包或无关 maka 包当成此发行。",
+    "sources": [
+      {
+        "url": "https://github.com/apache/maka/blob/main/LICENSE",
+        "title": "Official Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/apache/maka/blob/main/packages/cli/README.md",
+        "title": "Official CLI README; maka-agent@nightly"
+      }
+    ]
+  },
+  "aulos-cli": {
+    "repository_url": "https://github.com/Steve-pixel-cpu/aulos",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/Steve-pixel-cpu/aulos/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-22",
+      "github_archived": false,
+      "last_push_at": "2026-10-21T16:03:43Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT，版权 steve-pixel-cpu。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/Steve-pixel-cpu/aulos/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/Steve-pixel-cpu/aulos/blob/main/README.md",
+        "title": "Official README; terminal REPL coding agent"
+      }
+    ]
+  },
+  "aulos-desktop": {
+    "repository_url": "https://github.com/Steve-pixel-cpu/aulos",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/Steve-pixel-cpu/aulos/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-22",
+      "github_archived": false,
+      "last_push_at": "2026-10-21T16:03:43Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT。桌面壳与 CLI 同源仓库。结论仅限已核查的公开仓库源码。",
+    "sources": [
+      {
+        "url": "https://github.com/Steve-pixel-cpu/aulos/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/Steve-pixel-cpu/aulos/blob/main/README.md",
+        "title": "Official README; Tauri 2 desktop"
+      }
+    ]
   }
 }

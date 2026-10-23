@@ -1421,5 +1421,16 @@
         "title": "Muse Code 官方产品页套餐"
       }
     ]
+  },
+  "claude-duet-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-22",
+    "notes": "官方产品页写明研究预览期间 Claude Duet 包含在美国 Claude Pro 与 Max 套餐中，无额外费用；Team/Enterprise 尚未包含。按该付费套餐核验，不据此判断代码许可证或地区可用性。",
+    "sources": [
+      {
+        "url": "https://claude.com/product/claude-duet",
+        "title": "Claude Duet 官方产品页：Available in Pro and Max plans in the US"
+      }
+    ]
   }
 }

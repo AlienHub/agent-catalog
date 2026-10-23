@@ -9752,5 +9752,207 @@
       }
     ],
     "verified_at": "2026-10-21"
+  },
+  "claude-duet-web": {
+    "notes": "Anthropic 于 2026-10-21 宣布的独立主动式 Agent 产品 Claude Duet，研究预览，美国 Pro/Max 候补名单；Team/Enterprise 尚未包含。官方产品页写明与主 Claude 应用不同：Claude 等待用户打开对话，Duet 主动简报、后台执行并在需批准时联系用户。独立 iOS/Android 应用不在目录范围。计算机端官方写明可在 claude.ai 打开 Web 形态，故单独收录 Web，product_id=claude-duet，不并入已有 claude。共享主机 claude.ai 允许对应多条应用。研究预览无公开产品版本号。沿用已核验的 Lobe Icons Claude 厂商品牌 SVG，未找到独立 Duet 矢量 Logo。官网资料核验，未做登录、候补开通、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://claude.com/product/claude-duet",
+        "title": "Claude Duet 官方产品页：主动式 Agent、Pro/Max 研究预览、Web 在 claude.ai"
+      },
+      {
+        "url": "https://claude.com/resources/articles/claude-duet",
+        "title": "官方公告 Introducing Claude Duet（2026-10-21）"
+      },
+      {
+        "url": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet",
+        "title": "官方帮助中心：Claude Duet 入门、候补与限制"
+      },
+      {
+        "url": "https://claude.ai/",
+        "title": "官方写明的计算机端 Web 入口 claude.ai（不代表已登录或已获候补）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/claude-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-22"
+  },
+  "pandacode-desktop": {
+    "notes": "aicodeking/pandacode 原生桌面工作区（Tauri 2 / Rust），并排运行 Claude Code、Codex、OpenCode 等已有编码 Agent CLI。无账号、无遥测。最新 GitHub Release 为 v0.3.16（2026-10-21），资产为 PandaCode-macOS-arm64.dmg、PandaCode-Windows-x64-setup.exe、PandaCode-Linux-x86_64.AppImage，故平台填 macOS / Windows / Linux；macOS 仅见 Apple silicon 资产，不声称 Intel Mac。LICENSE 自称 PandaCode License（MIT 加一项：商业或公开发布的 fork 须声明 This is a fork of PandaCode 并链接本仓库），GitHub 许可探测为 Other/NOASSERTION，故记 source-available，不称 OSI MIT。public/icon.svg 内嵌 PNG <image>，校验器拒绝；收录 website/public/favicon.svg 纯矢量。仓库 Bots 的本机网页聊天与 Telegram 等渠道不是独立最终用户形态。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/aicodeking/pandacode",
+        "title": "aicodeking/pandacode 官方仓库"
+      },
+      {
+        "url": "https://github.com/aicodeking/pandacode/blob/main/README.md",
+        "title": "官方 README：桌面工作区、支持的 harness 与三平台下载"
+      },
+      {
+        "url": "https://github.com/aicodeking/pandacode/blob/main/LICENSE",
+        "title": "官方 LICENSE：PandaCode License（MIT 加 fork 署名条款）"
+      },
+      {
+        "url": "https://github.com/aicodeking/pandacode/releases/tag/v0.3.16",
+        "title": "GitHub Releases · PandaCode v0.3.16（2026-10-21）桌面资产"
+      },
+      {
+        "url": "https://github.com/aicodeking/pandacode/blob/main/docs/brand-assets.md",
+        "title": "官方品牌说明：app icon 与 website favicon 为 PandaCode 原创矢量"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/aicodeking/pandacode/main/website/public/favicon.svg",
+        "title": "官方仓库 website/public/favicon.svg 纯矢量 SVG"
+      }
+    ],
+    "verified_at": "2026-10-22"
+  },
+  "maka-desktop": {
+    "notes": "Apache Maka（Incubating）本地优先 Agent 工作区。Desktop / TUI / CLI / Eval 共用一个 Runtime Host。官方 Apache 发行是 0.2.0 incubating（2026-10-08）签名源码包；官网写明安装包为便利制品，开发构建不是获批 Apache 发行。GitHub Desktop Nightly 最新为 Maka Desktop Nightly 0.2.2-dev.92.20261019（prerelease），含 macOS arm64/x64、Windows x64、Linux amd64/arm64 便利资产。README 平台徽章为 macOS · Windows preview · Linux preview，故平台填三者并注明 Windows/Linux 为 preview。桌面图标集 apps/desktop/assets/app-icons/*.png 为多主题应用图标，不是单一可核验品牌 SVG，保持空 icon。未发现独立公共托管 Web。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://maka.apache.org/en/",
+        "title": "Apache Maka 官方网站：0.2.0 incubating 与 Desktop/TUI/CLI 共用 Runtime Host"
+      },
+      {
+        "url": "https://maka.apache.org/en/downloads/",
+        "title": "官方下载页：Latest release 0.2.0 · 2026-10-08 签名源码包"
+      },
+      {
+        "url": "https://github.com/apache/maka",
+        "title": "apache/maka 官方仓库"
+      },
+      {
+        "url": "https://github.com/apache/maka/blob/main/README.md",
+        "title": "官方 README：Desktop / TUI / CLI 与 Apache 0.2.0 发行"
+      },
+      {
+        "url": "https://github.com/apache/maka/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/apache/maka/releases",
+        "title": "GitHub Releases：Desktop Nightly 便利制品（非 Apache 发行）"
+      }
+    ],
+    "verified_at": "2026-10-22"
+  },
+  "maka-cli": {
+    "notes": "同一 Apache Maka Runtime Host 的终端形态：交互 TUI 与非交互 CLI 由官方 CLI 包一并提供，目录按单形态规范合并为一条 CLI，不单列 TUI。官方 CLI 指南写明公共命令为 maka，npm 包 maka-agent：nightly 为完整 CLI（核验日 maka-agent@nightly = 0.2.2-dev.92.20261019，开发快照，不是 Apache 发行）；latest 为早期 alpha/占位，且 npm 根 description 曾指向无关仓库 M4n5ter/maka-agent，不得把 latest 当作本产品版本。官方发布门禁列出 Linux x64、macOS arm64、Windows x64。官方 Apache 发行仍为 0.2.0 incubating 源码包。Eval 为实验/评分客户端，不单列。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://maka.apache.org/en/",
+        "title": "Apache Maka 官方网站：Desktop / TUI / CLI 共用 Runtime Host"
+      },
+      {
+        "url": "https://maka.apache.org/en/downloads/",
+        "title": "官方下载页：Latest release 0.2.0 · 2026-10-08"
+      },
+      {
+        "url": "https://github.com/apache/maka/blob/main/packages/cli/README.md",
+        "title": "官方 CLI README：maka-agent@nightly、TUI 与非交互 CLI、命令 maka"
+      },
+      {
+        "url": "https://www.npmjs.com/package/maka-agent",
+        "title": "npm · maka-agent（nightly 为完整 CLI；latest 不是完整发行）"
+      },
+      {
+        "url": "https://github.com/apache/maka/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/apache/maka/blob/main/README.md",
+        "title": "官方 README：从源码运行 TUI/CLI"
+      }
+    ],
+    "verified_at": "2026-10-22"
+  },
+  "band-desktop": {
+    "notes": "THENVOI AI LTD. d/b/a BAND 的 BAND for Developers 桌面应用：把本地与中心管理的编码 Agent（Claude Code、Codex、GitHub Copilot、OpenCode 等）放进同一房间协作。官方下载页写明 Free to start · macOS, Windows & Linux。官方条款主体为 THENVOI AI LTD.。产品页写明 BAND Desktop 会安装附带 CLI 与 Claude Code 插件，一条命令把会话带入团队；附带 CLI/插件随桌面分发，未找到独立最终用户 CLI 或 IDE 商店条目，故不单列。未找到可引用的桌面版本号，故不填写版本。不是 getband.app 那个仅 macOS、本机 :3456 看板的 Band。无产品源码仓，不写入 open-source.json。收录官网 favicon.svg 纯矢量。官网资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.band.ai/",
+        "title": "BAND 官方网站"
+      },
+      {
+        "url": "https://www.band.ai/use-cases/band-desktop",
+        "title": "官方 BAND for Developers / BAND Desktop 产品页"
+      },
+      {
+        "url": "https://www.band.ai/download",
+        "title": "官方下载页：Free to start · macOS, Windows & Linux"
+      },
+      {
+        "url": "https://www.band.ai/terms-of-service",
+        "title": "官方条款：THENVOI AI LTD. d/b/a BAND"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/band-launches-band-for-developers-to-support-the-transformation-of-sdlc-collaboration-and-control-of-multiple-coding-agents-302909844.html",
+        "title": "厂商 2026-10-15 新闻稿：BAND for Developers 发布"
+      },
+      {
+        "url": "https://www.band.ai/favicon.svg",
+        "title": "BAND 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-22"
+  },
+  "aulos-cli": {
+    "notes": "steve-pixel-cpu/aulos 开源本地编码 Agent：终端 REPL / 免交互 JSON 与 Tauri 2 桌面双入口。仓库自述为完整学习项目（基于 MiniCC 扩展），核验日 3 star / 0 fork，但有持续 GitHub Release 与 CI。最新 Release 为 v5.5.0（2026-10-21）。LICENSE 正文为 MIT，版权 steve-pixel-cpu。本条仅终端 CLI（main.py 交互与 -p/--output-format json 免交互）。未找到纯矢量 SVG；收录官方 static/icon-default.png。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/Steve-pixel-cpu/aulos",
+        "title": "Steve-pixel-cpu/aulos 官方仓库"
+      },
+      {
+        "url": "https://github.com/Steve-pixel-cpu/aulos/blob/main/README.md",
+        "title": "官方 README：终端 REPL 与桌面双入口"
+      },
+      {
+        "url": "https://github.com/Steve-pixel-cpu/aulos/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 steve-pixel-cpu"
+      },
+      {
+        "url": "https://github.com/Steve-pixel-cpu/aulos/releases/tag/v5.5.0",
+        "title": "GitHub Releases · Aulos v5.5.0（2026-10-21）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Steve-pixel-cpu/aulos/main/static/icon-default.png",
+        "title": "官方仓库 static/icon-default.png 原始 PNG"
+      }
+    ],
+    "verified_at": "2026-10-22"
+  },
+  "aulos-desktop": {
+    "notes": "同一 aulos 产品的 Tauri 2 桌面形态。最新 GitHub Release v5.5.0（2026-10-21）资产为 aulos_5.5.0_aarch64.dmg、Aulos_5.5.0_x64-setup.exe、Aulos_5.5.0_amd64.deb，故平台填 macOS / Windows / Linux；macOS 仅见 aarch64，不声称 Intel Mac。桌面壳经 WebSocket/REST 连接本机 FastAPI，不是独立公共托管 Web，不单列 Web。LICENSE MIT。未找到纯矢量 SVG，收录官方 PNG。仓库自述为学习项目且 star 很少，但有三平台安装包。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/Steve-pixel-cpu/aulos",
+        "title": "Steve-pixel-cpu/aulos 官方仓库"
+      },
+      {
+        "url": "https://github.com/Steve-pixel-cpu/aulos/blob/main/README.md",
+        "title": "官方 README：Tauri 2 桌面端"
+      },
+      {
+        "url": "https://github.com/Steve-pixel-cpu/aulos/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 steve-pixel-cpu"
+      },
+      {
+        "url": "https://github.com/Steve-pixel-cpu/aulos/releases/tag/v5.5.0",
+        "title": "GitHub Releases · Aulos v5.5.0（2026-10-21）桌面资产"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Steve-pixel-cpu/aulos/main/static/icon-default.png",
+        "title": "官方仓库 static/icon-default.png 原始 PNG"
+      }
+    ],
+    "verified_at": "2026-10-22"
   }
 }
