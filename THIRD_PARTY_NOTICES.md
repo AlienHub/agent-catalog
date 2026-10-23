@@ -139,3 +139,15 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | `assets/icons/openmuse.svg` | [Lobe Icons `copilotkit-color.svg`（CopilotKit 厂商品牌）](https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/copilotkit-color.svg) | `2fd67f304ee2f4659be9a5304870b5bf6c0c3989f0d0420875595216a15fc17b` |
 | `assets/icons/codearts-agent.svg` | [Lobe Icons `huaweicloud-color.svg`（华为云厂商品牌）](https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/huaweicloud-color.svg) | `8a5e4cb6452046ecaf3a500e3a89955efdf54bfd0bed46a9c364fbd5f13290e4` |
 | `assets/icons/zhida.svg` | [Simple Icons `zhihu.svg`（知乎母品牌）](https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/zhihu.svg) | `3c8d91d4f30d220a8655f17aa4e119f5be8c0d66f5fcf939aecaed8699c628ce` |
+
+## v0.28 Logo 收录（2026-10-21）
+
+本批 SVG/PNG 均原样保存，未重绘或位图矢量化。官方站点或官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。OpenFilm [TRADEMARK.md](https://github.com/openfilm/openfilm/blob/main/TRADEMARK.md) 明确名称与 Logo 不在 MIT 软件许可范围内，本仓库仅作产品识别收录。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/rea.svg` | [REA 官网 `favicon.svg`](https://rea.tools/assets/favicon.svg) | `08a51733fcb21788e8a2c554e694760c385f3aa89a62a1407108839428b724ae` |
+| `assets/icons/openfilm.svg` | [OpenFilm 官网 `favicon.svg`](https://openfilm.dev/favicon.svg) | `d00791289a21116fa6930f3901902fcf1122016bb37135177499e0618ff164ac` |
+| `assets/icons/craig.svg` | [Craig 官网 `favicon.svg`](https://craig-cli.com/favicon.svg) | `5582889afda3afd32aae209494f6b40ef9e4b2804f830a3e98d5fbb8da3a73d5` |
+| `assets/icons/halis-code.png` | [binhdzs1tg/halis-code `apps/desktop/resources/icon.png`](https://raw.githubusercontent.com/binhdzs1tg/halis-code/main/apps/desktop/resources/icon.png) | `037c8b4c3c6133a412ce46c4f95118674d438b1f925cc2a3dab0d8b589c795f3` |
+| `assets/icons/emdash.png` | [generalaction/emdash `apps/emdash-desktop/src/assets/images/emdash/icon-light.png`](https://raw.githubusercontent.com/generalaction/emdash/main/apps/emdash-desktop/src/assets/images/emdash/icon-light.png) | `8985ef02c5bb7ee17447c16fbc63c1fe5eb4a98e2cce9bb1b4ec252935ca73c2` |

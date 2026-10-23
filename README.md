@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.27（2026-10-20），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.28（2026-10-21），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -479,3 +479,17 @@ Logo：Octop / Starkomand / readywhen 使用官方原始 SVG。LobsterAI 官网�
 为缺 logo 的目录条目补官方或认可图标库素材：59 条记录 / 45 个产品。同一产品的多形态共用一份文件。PNG 标注「未收录 SVG」。厂商品牌仅在产品无独立标识时使用，并写入 `svg_status`。
 
 仍缺 26 条 / 20 个产品：官网仅 ico、反爬、GitHub identicon/JPEG 头像、或仅有过于泛化的集团母品牌（Leonardo、ChatGPT Atlas、Muse Code、DeerFlow、Agent TARS 等）。
+
+## v0.28 日更候选（2026-10-21）
+
+新增 8 条应用、5 个产品，目录共 451 条应用、294 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.27 / `main` @ `02063c9`。
+
+- REA CLI（morluto）：MIT 终端/MCP 逆向工程工具。GitHub Releases **rea-agents v6.7.0**，npm `rea-agents@6.7.0`。MCP / skills 与官网案例页不单列。
+- OpenFilm CLI / Studio Web / 桌面端（OpenFilm）：MIT 开源 AI 视频 Agent。GitHub Releases **v0.2.4**，npm `openfilm@0.2.4`。Studio 为本机浏览器编辑器（自托管）。桌面端官方资产仅 macOS / Windows。
+- Craig CLI（Sam Hall）：MIT 本地优先 TUI，在 worktree 中并行运行编码 Agent。npm **craig-cli@0.17.5**；无 GitHub Release。
+- Halis Code CLI / 桌面端（binhdzs1tg）：MIT 编码 Agent。GitHub Releases 与 npm **v1.0.0**。仓库小，但有发布资产、CI 与文档，按已维护产品收录。
+- Emdash 桌面端（General Action, Inc.）：Apache-2.0 开源 ADE。GitHub Releases **v1.2.8**，macOS / Windows / Linux。
+
+Logo：REA / OpenFilm / Craig 使用官方原始 SVG。Halis Code / Emdash 仅有官方 PNG，标注「未收录 SVG」。
+
+未收录：REA MCP/skills 与 rea.tools 演示页（不是独立最终用户形态）；OpenFilm Linux 桌面（Release 无 Linux 安装包）；Craig / Halis / Emdash 未提供的 Web 或未核验形态；workspace-server 不是独立产品。

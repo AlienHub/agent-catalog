@@ -9460,5 +9460,297 @@
       }
     ],
     "verified_at": "2026-10-20"
+  },
+  "rea-cli": {
+    "notes": "morluto 出品的终端/MCP 逆向工程工具，供编码 Agent 检查应用、网站与原生二进制。官方产品名 REA，npm 包 rea-agents，命令 rea / rea-agents。GitHub Releases 最新非预发布 rea-agents: v6.7.0（tag rea-agents-6.7.0，2026-10-18），与仓库 package.json / npm latest 6.7.0 一致。README 要求 Node.js 22.x（>=22.19）、24.x（>=24.11）或 26+；未限制操作系统，按常规 CLI 填写 macOS / Windows / Linux。部分分析能力另需 Hopper/Ghidra/IDA 等调用方工具，不据此另建形态。MCP 注册与 skills.sh 技能不是独立目录形态；rea.tools 为官网/指南/案例，不是托管 Web 应用。收录官网与仓库一致的 favicon SVG。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://rea.tools",
+        "title": "REA 官方网站"
+      },
+      {
+        "url": "https://github.com/morluto/rea",
+        "title": "morluto/rea 官方仓库"
+      },
+      {
+        "url": "https://github.com/morluto/rea/blob/main/README.md",
+        "title": "官方 README：npx rea-agents setup / CLI / MCP"
+      },
+      {
+        "url": "https://github.com/morluto/rea/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 2026 morluto"
+      },
+      {
+        "url": "https://github.com/morluto/rea/blob/main/package.json",
+        "title": "官方 package.json：name rea-agents，version 6.7.0，bin rea / rea-agents"
+      },
+      {
+        "url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.7.0",
+        "title": "GitHub Releases · rea-agents: v6.7.0（2026-10-18）"
+      },
+      {
+        "url": "https://www.npmjs.com/package/rea-agents",
+        "title": "npm · rea-agents@6.7.0"
+      },
+      {
+        "url": "https://rea.tools/assets/favicon.svg",
+        "title": "官方网站原始 SVG favicon"
+      }
+    ],
+    "verified_at": "2026-10-21"
+  },
+  "openfilm-cli": {
+    "notes": "OpenFilm 开源 AI 视频 Agent：把任意编码 Agent 变成视频 Agent。本条仅表示终端 CLI（npx / npm 全局 openfilm）。GitHub Releases 最新非预发布 v0.2.4（2026-10-20），与 npm latest 一致。README 要求 Node 22.2+ 与 ffmpeg，系统为 macOS、Windows 或 Linux。skills 安装与 MCP 不是独立目录形态。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://openfilm.dev",
+        "title": "OpenFilm 官方网站"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm",
+        "title": "openfilm/openfilm 官方仓库"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/README.md",
+        "title": "官方 README：CLI、本机 Studio、桌面应用"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 2026 OpenFilm contributors"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/TRADEMARK.md",
+        "title": "官方商标说明：名称与 Logo 不在 MIT 覆盖范围"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/releases/tag/v0.2.4",
+        "title": "GitHub Releases · OpenFilm 0.2.4（2026-10-20）"
+      },
+      {
+        "url": "https://www.npmjs.com/package/openfilm",
+        "title": "npm · openfilm@0.2.4，bin openfilm"
+      },
+      {
+        "url": "https://openfilm.dev/favicon.svg",
+        "title": "官方网站原始 SVG favicon"
+      }
+    ],
+    "verified_at": "2026-10-21"
+  },
+  "openfilm-web": {
+    "notes": "OpenFilm Studio 是本机浏览器编辑器，由 `openfilm open` 打开；官方写明在 Chromium 系浏览器中运行。没有统一的公共托管应用域名，不得用 openfilm.dev 识别本机实例。web_domain_status=self-hosted。版本与发行见 v0.2.4。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://openfilm.dev",
+        "title": "OpenFilm 官方网站"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm",
+        "title": "openfilm/openfilm 官方仓库"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/README.md",
+        "title": "官方 README：CLI、本机 Studio、桌面应用"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 2026 OpenFilm contributors"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/TRADEMARK.md",
+        "title": "官方商标说明：名称与 Logo 不在 MIT 覆盖范围"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/releases/tag/v0.2.4",
+        "title": "GitHub Releases · OpenFilm 0.2.4（2026-10-20）"
+      },
+      {
+        "url": "https://www.npmjs.com/package/openfilm",
+        "title": "npm · openfilm@0.2.4，bin openfilm"
+      },
+      {
+        "url": "https://openfilm.dev/favicon.svg",
+        "title": "官方网站原始 SVG favicon"
+      }
+    ],
+    "verified_at": "2026-10-21"
+  },
+  "openfilm-desktop": {
+    "notes": "OpenFilm 桌面应用为 Electron：Studio 旁加编码 Agent 聊天。官方 README 与 v0.2.4 Release 资产仅有 macOS（arm64/x64 DMG 与 zip）和 Windows x64 Setup.exe；未发现 Linux 桌面安装包，不填写 Linux。版本 v0.2.4（2026-10-20）。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://openfilm.dev",
+        "title": "OpenFilm 官方网站"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm",
+        "title": "openfilm/openfilm 官方仓库"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/README.md",
+        "title": "官方 README：CLI、本机 Studio、桌面应用"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 2026 OpenFilm contributors"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/TRADEMARK.md",
+        "title": "官方商标说明：名称与 Logo 不在 MIT 覆盖范围"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/releases/tag/v0.2.4",
+        "title": "GitHub Releases · OpenFilm 0.2.4（2026-10-20）"
+      },
+      {
+        "url": "https://www.npmjs.com/package/openfilm",
+        "title": "npm · openfilm@0.2.4，bin openfilm"
+      },
+      {
+        "url": "https://openfilm.dev/favicon.svg",
+        "title": "官方网站原始 SVG favicon"
+      },
+      {
+        "url": "https://github.com/openfilm/openfilm/blob/main/apps/desktop/README.md",
+        "title": "官方桌面 README：Electron Studio + agent chat"
+      }
+    ],
+    "verified_at": "2026-10-21"
+  },
+  "craig-cli": {
+    "notes": "Sam Hall 出品的本地优先 TUI，在独立 Git worktree 中并行运行 Claude Code、Codex、Cursor 等编码 Agent CLI。官方产品名 Craig，npm 包 craig-cli，命令 craig。官网与 README 标明 Node.js 22+、MIT、无需 Craig 账号。仓库无 GitHub Release/tag，版本取自 npm latest 与 packages/cli/package.json 0.17.5（2026-10-19 发布）。未限制操作系统，按常规 CLI 填写 macOS / Windows / Linux。TUI 背后的 craig 命令同属 CLI，不另建形态。官网 craig-cli.com 为产品站，不是托管控制面。收录官网与仓库一致的 favicon SVG。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://craig-cli.com/",
+        "title": "Craig 官方网站"
+      },
+      {
+        "url": "https://github.com/hallsamuel90/craig",
+        "title": "hallsamuel90/craig 官方仓库"
+      },
+      {
+        "url": "https://github.com/hallsamuel90/craig/blob/main/README.md",
+        "title": "官方 README：npm i -g craig-cli，Node 22+，MIT"
+      },
+      {
+        "url": "https://github.com/hallsamuel90/craig/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 2026 Sam Hall"
+      },
+      {
+        "url": "https://github.com/hallsamuel90/craig/blob/main/packages/cli/package.json",
+        "title": "官方 packages/cli/package.json：name craig-cli，version 0.17.5，bin craig"
+      },
+      {
+        "url": "https://www.npmjs.com/package/craig-cli",
+        "title": "npm · craig-cli@0.17.5"
+      },
+      {
+        "url": "https://craig-cli.com/favicon.svg",
+        "title": "官方网站原始 SVG favicon"
+      }
+    ],
+    "verified_at": "2026-10-21"
+  },
+  "halis-code-cli": {
+    "notes": "binhdzs1tg 出品的编码 Agent：终端 Ink TUI。官方产品名 Halis Code，命令 halis，npm 包 halis-code。GitHub Releases 与 npm latest 为 v1.0.0（2026-10-20）；CHANGELOG 同日记录 1.0.0。仓库 packages/cli/package.json 在 v1.0.0 标签仍写 0.2.0，版本以发布资产与 npm 为准，不把工作区字段当作已发布版本。README 要求 Node 20+，平台 macOS / Linux / Windows。仓库体量小（核验日 2 star），但有 monorepo、CI/CodeQL/Scorecard、CHANGELOG、三平台桌面安装包与 npm 包，按已维护产品收录。未找到可核验纯矢量 SVG，收录官方桌面 PNG。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/binhdzs1tg/halis-code",
+        "title": "binhdzs1tg/halis-code 官方仓库"
+      },
+      {
+        "url": "https://github.com/binhdzs1tg/halis-code/blob/main/README.md",
+        "title": "官方 README：Ink TUI 与 Electron 桌面，macOS / Linux / Windows"
+      },
+      {
+        "url": "https://github.com/binhdzs1tg/halis-code/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 2026 binhdzs1tg"
+      },
+      {
+        "url": "https://github.com/binhdzs1tg/halis-code/blob/main/CHANGELOG.md",
+        "title": "官方 CHANGELOG：[1.0.0] — 2026-10-20"
+      },
+      {
+        "url": "https://github.com/binhdzs1tg/halis-code/releases/tag/v1.0.0",
+        "title": "GitHub Releases · v1.0.0（2026-10-20）"
+      },
+      {
+        "url": "https://www.npmjs.com/package/halis-code",
+        "title": "npm · halis-code@1.0.0，bin halis"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/binhdzs1tg/halis-code/main/apps/desktop/resources/icon.png",
+        "title": "官方桌面应用原始 PNG 图标"
+      }
+    ],
+    "verified_at": "2026-10-21"
+  },
+  "halis-code-desktop": {
+    "notes": "Halis Code Electron 桌面应用，与 CLI 同产品。v1.0.0 Release 资产含 Halis.Code-1.0.0.dmg / arm64.dmg、Setup-1.0.0.exe、amd64.deb、x86_64.AppImage，对应 macOS / Windows / Linux。README 写明安装包目前未签名。版本 v1.0.0（2026-10-20）。未找到可核验纯矢量 SVG，收录官方桌面 PNG。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/binhdzs1tg/halis-code",
+        "title": "binhdzs1tg/halis-code 官方仓库"
+      },
+      {
+        "url": "https://github.com/binhdzs1tg/halis-code/blob/main/README.md",
+        "title": "官方 README：Ink TUI 与 Electron 桌面，macOS / Linux / Windows"
+      },
+      {
+        "url": "https://github.com/binhdzs1tg/halis-code/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 2026 binhdzs1tg"
+      },
+      {
+        "url": "https://github.com/binhdzs1tg/halis-code/blob/main/CHANGELOG.md",
+        "title": "官方 CHANGELOG：[1.0.0] — 2026-10-20"
+      },
+      {
+        "url": "https://github.com/binhdzs1tg/halis-code/releases/tag/v1.0.0",
+        "title": "GitHub Releases · v1.0.0（2026-10-20）"
+      },
+      {
+        "url": "https://www.npmjs.com/package/halis-code",
+        "title": "npm · halis-code@1.0.0，bin halis"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/binhdzs1tg/halis-code/main/apps/desktop/resources/icon.png",
+        "title": "官方桌面应用原始 PNG 图标"
+      }
+    ],
+    "verified_at": "2026-10-21"
+  },
+  "emdash-desktop": {
+    "notes": "General Action, Inc. 出品的开源 Agentic Development Environment 桌面应用（YC W26），在独立 Git worktree 中并行运行 Claude Code、Codex、OpenCode、Amp 等编码 Agent CLI。GitHub 组织 homepage 与官网为 emdash.com；文档/下载亦使用 emdash.sh，二者落地页内容一致。GitHub Releases 最新稳定 v1.2.8（2026-10-10，非预发布），资产含 macOS arm64/x64 DMG 与 zip、Windows x64 exe/msi、Linux x64/arm64 AppImage/deb/rpm。LICENSE.md 为 Apache-2.0，版权 2026 General Action, Inc.。workspace-server 为仓库内部组件，不是独立最终用户形态。未找到可核验纯矢量产品 SVG，收录官方桌面 icon-light.png。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://emdash.com",
+        "title": "Emdash 官方网站"
+      },
+      {
+        "url": "https://emdash.sh/download",
+        "title": "官方下载页"
+      },
+      {
+        "url": "https://github.com/generalaction/emdash",
+        "title": "generalaction/emdash 官方仓库"
+      },
+      {
+        "url": "https://github.com/generalaction/emdash/blob/main/README.md",
+        "title": "官方 README：桌面 ADE，macOS / Windows / Linux"
+      },
+      {
+        "url": "https://github.com/generalaction/emdash/blob/main/LICENSE.md",
+        "title": "官方 LICENSE.md：Apache-2.0，版权 2026 General Action, Inc."
+      },
+      {
+        "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.8",
+        "title": "GitHub Releases · v1.2.8（2026-10-10）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/generalaction/emdash/main/apps/emdash-desktop/src/assets/images/emdash/icon-light.png",
+        "title": "官方桌面应用原始 PNG 图标"
+      }
+    ],
+    "verified_at": "2026-10-21"
   }
 }
