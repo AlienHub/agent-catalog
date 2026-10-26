@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.31（2026-10-23），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.32（2026-10-26），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -534,3 +534,16 @@ Logo：Claude Duet 沿用已核验 Lobe Icons Claude 厂商品牌。PandaCode / 
 Logo：fx / Bits / Heal / Offrun / Whiteboard 使用官方原始 SVG。百度搭子 / breken 使用官方 PNG。CutBay 仅 ico，保持空 `icon`。
 
 未收录：Scout（仍为 `@outcrawl/scout` npm 库与 API，不是最终用户 CLI/Web/GUI）；Agibot（候补名单，未公开可取得）；Bits / fx / Whiteboard / Heal 的未独立发行形态；Claude Duet、BAND、PandaCode、Apache Maka、Aulos、百智办公 MonkeyAI 等已在 main 的条目；以及 SuperCMO Skills、Agent Pets、Needle、Fastlane/Senna、UseIt Studio、DeepCell、Vortex Code、Google Agent Compute Engine 等明确跳过项。PR #17 提供商目录不改。
+
+## v0.32 日更候选（2026-10-26）
+
+新增 5 条应用、4 个产品，目录共 474 条应用、312 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.31 / `main` @ `19b42b6`（#21 已合入）。本分支已 rebase 到最新 main，保留 #21 的 9 条应用。
+
+- ThinkRail CLI 与桌面端（JetBrains）：Apache-2.0。独立于 Junie / Air / pi-cli。官方两种附加形态；CLI 在浏览器打开同一应用，不单列本地 Web。GitHub Releases **v0.3.0-nightly.6**（2026-10-25，prerelease）。桌面端无 Intel Mac 构建。
+- Cindy 桌面端（Cindy / makecindy）：Apache-2.0 通用任务 Agent。GitHub Releases **v0.1.115**（2026-10-23），macOS / Windows / Linux。不收录 iOS / Android。
+- Junior 桌面端（usejunior-sh）：macOS 本地初级工程师 Agent。GitHub Releases **v1.0.6**（2026-10-24）。Show HN 2026-10-25。官网声称 MIT，但仓库无 LICENSE 文件，不写入 open-source.json。曾用名 Triage。
+- ShogunAI 桌面端：闭源 macOS 个人工作 Agent。Product Hunt **2026-10-23** 上线，无公开 semver，7 日试用。Windows 候补，不收录。
+
+Logo：ThinkRail / Cindy / Junior / ShogunAI 使用官网原始 SVG。
+
+未收录：Ovren（2026-04 已上线，周末报道为 Live Preview 功能而非新产品）；Scout / Agibot（既有积压：库 / 候补）；AgentValley、AgentGrid、Corgi、MOVO、Moli、Llama Windows 及配套/基础设施；Qwen Code / Codex 功能更新；PR #17 提供商目录不改。

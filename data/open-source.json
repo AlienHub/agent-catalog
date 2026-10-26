@@ -3538,5 +3538,89 @@
         "title": "Official README"
       }
     ]
+  },
+  "thinkrail-cli": {
+    "repository_url": "https://github.com/JetBrains/thinkrail",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/JetBrains/thinkrail/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-26",
+      "github_archived": false,
+      "last_push_at": "2026-10-26T01:21:06Z"
+    },
+    "notes": "Apache-2.0 结论仅限已核查的 JetBrains/thinkrail 公开源码。桌面/CLI 安装包签名与商标不在本判断内。不是 Junie、JetBrains Air 或独立 pi-cli。维护状态参考公开 Release 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/JetBrains/thinkrail",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/JetBrains/thinkrail/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md",
+        "title": "官方 README：Apache-2.0 与 Desktop/CLI 形态"
+      }
+    ],
+    "classification": "application"
+  },
+  "thinkrail-desktop": {
+    "repository_url": "https://github.com/JetBrains/thinkrail",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/JetBrains/thinkrail/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-26",
+      "github_archived": false,
+      "last_push_at": "2026-10-26T01:21:06Z"
+    },
+    "notes": "Apache-2.0 结论仅限已核查的 JetBrains/thinkrail 公开源码。桌面/CLI 安装包签名与商标不在本判断内。不是 Junie、JetBrains Air 或独立 pi-cli。维护状态参考公开 Release 与现行文档，非仅依据 push 时间。 本条对应原生桌面安装包；未对二进制做审计。",
+    "sources": [
+      {
+        "url": "https://github.com/JetBrains/thinkrail",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/JetBrains/thinkrail/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md",
+        "title": "官方 README：Apache-2.0 与 Desktop/CLI 形态"
+      }
+    ],
+    "classification": "application"
+  },
+  "cindy-desktop": {
+    "repository_url": "https://github.com/makecindy/cindy",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/makecindy/cindy/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-26",
+      "github_archived": false,
+      "last_push_at": "2026-10-25T20:26:51Z"
+    },
+    "notes": "Apache-2.0 结论仅限已核查的 makecindy/cindy 公开源码。托管模型服务、团队 Gateway 与移动端二进制不继承本判断。维护状态参考公开 Release 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/makecindy/cindy",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/makecindy/cindy/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://cindy.app",
+        "title": "官网：客户端 Apache-2.0"
+      }
+    ],
+    "classification": "application"
   }
 }
