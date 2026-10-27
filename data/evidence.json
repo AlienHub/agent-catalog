@@ -10034,5 +10034,247 @@
       }
     ],
     "verified_at": "2026-10-22"
+  },
+  "fx-cli": {
+    "notes": "Vercel Labs 开源的 Zig 原生编码 Agent CLI，亦可作为 libfx 嵌入。官方 README 标明 Experimental。最新 GitHub Release 为 v0.0.14（2026-10-16），资产仅 macOS / Linux 的 x86_64 与 aarch64 压缩包，无 Windows，故平台只填二者。官网安装为 curl -fsSL https://fx.sh/setup.sh | bash。交互会话与 fx ask 非交互同属一条 CLI；fx acp 是 Agent Client Protocol 接入，不是已上架 IDE 插件商店条目，不单列。libfx（含实验 WebAssembly）为嵌入库，不是最终用户应用形态。fx.sh/try 为无需安装的浏览器试用页，不是独立已发行 Web 应用，按本次只收录 CLI。不是同名终端 JSON 查看器 fx（Homebrew 公式已占用）。LICENSE 正文为 Apache License 2.0。收录官网 icon.svg 纯矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://fx.sh",
+        "title": "fx 官方网站：Tiny, open, native coding agent；安装与文档"
+      },
+      {
+        "url": "https://github.com/vercel-labs/fx",
+        "title": "vercel-labs/fx 官方仓库"
+      },
+      {
+        "url": "https://github.com/vercel-labs/fx/blob/main/README.md",
+        "title": "官方 README：CLI、fx ask、ACP、libfx 与 Experimental 状态"
+      },
+      {
+        "url": "https://github.com/vercel-labs/fx/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/vercel-labs/fx/releases/tag/v0.0.14",
+        "title": "GitHub Releases · fx v0.0.14（2026-10-16）macOS/Linux 资产"
+      },
+      {
+        "url": "https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/",
+        "title": "InfoQ 2026-10-22：Vercel Labs 开源 fx"
+      },
+      {
+        "url": "https://fx.sh/icon.svg",
+        "title": "fx 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-23"
+  },
+  "bits-web": {
+    "notes": "harsh071/bits 本地优先个人 Agent：daemon 监听 :7077，Web 应用监听 :5320。官网写 MIT licensed，README 许可节亦写 MIT，但仓库无 LICENSE / LICENSE.md、GitHub license 字段为空、根 package.json 无 license 字段，故不写入 open-source.json。无 GitHub Release；官方安装是 clone 后 pnpm install && pnpm dev。可选 pnpm dev:desktop 为 Electron 托盘与 ⌥Space 浮层，package.json 版本 0.1.0，无独立安装包或 Release 资产，不单列 GUI。官网 bits.interfacesforhuman.com 为介绍与 /demo 演示，应用跑在本机，无统一公共应用域名，记 self-hosted。Product Hunt 2026-10-22 上线。收录官网演示 favicon.svg。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://bits.interfacesforhuman.com",
+        "title": "Bits 官方网站：local-first daemon + web，可选 desktop"
+      },
+      {
+        "url": "https://github.com/harsh071/bits",
+        "title": "harsh071/bits 官方仓库"
+      },
+      {
+        "url": "https://github.com/harsh071/bits/blob/main/README.md",
+        "title": "官方 README：pnpm dev 启动 daemon :7077 与 web :5320；许可节写 MIT 但无 LICENSE 文件"
+      },
+      {
+        "url": "https://bits.interfacesforhuman.com/demo/favicon.svg",
+        "title": "官网演示页官方原始 SVG"
+      }
+    ],
+    "verified_at": "2026-10-23"
+  },
+  "cutbay-web": {
+    "notes": "PearlMountain Limited 的对话式 AI 视频 Agent：从提示、文档、链接与素材生成并聊天修改视频。条款写明 Services are owned and operated by PearlMountain Limited。已核验 Web 应用主机 app.cutbay.ai，页面标题 CutBay Agent。官网 www.cutbay.ai 为产品站。Product Hunt 2026-10-22 上线。未找到可引用的公开版本号，故不填写版本。仅见 favicon.ico，未找到可核验纯矢量 SVG 或官方 PNG，保持空 icon。无产品源码仓，不写入 open-source.json。官网资料核验，未做登录、生成或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.cutbay.ai/",
+        "title": "CutBay 官方网站：AI Video Agent"
+      },
+      {
+        "url": "https://app.cutbay.ai/",
+        "title": "已核验实际 Web 应用入口：标题 CutBay Agent（不代表登录测试）"
+      },
+      {
+        "url": "https://www.cutbay.ai/terms",
+        "title": "官方条款：PearlMountain Limited 拥有并运营 CutBay"
+      },
+      {
+        "url": "https://www.cutbay.ai/about",
+        "title": "官方 About：CutBay is developed by PearlMountain"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/introducing-cutbay-the-ai-video-agent-transforming-video-creation-with-chat-based-workflows-302908185.html",
+        "title": "PearlMountain Limited 2026-10-14 新闻稿：CutBay 发布"
+      }
+    ],
+    "verified_at": "2026-10-23"
+  },
+  "heal-web": {
+    "notes": "MYIA SAS 的运行时 QA / 漏洞猎取 Agent：在生产类似沙箱中跑产品，复现缺陷并附失败测试。官网 heal.dev；法律页 publisher / 主体为 MYIA SAS。已核验 Web 应用主机 app.heal.dev（/home，标题 Heal）。Product Hunt 2026-10-22 上线，官方说明 beta 免费。未在公开页找到可引用版本号，故不填写版本。文档与历史 CLI / Studio 未作为本次独立最终用户形态核验，本条仅 Web。收录官网 icon.svg 纯矢量。无产品应用源码仓，不写入 open-source.json。官网资料核验，未做登录、跑测或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://heal.dev/",
+        "title": "heal 官方网站：find bugs and vulns code review misses"
+      },
+      {
+        "url": "https://app.heal.dev/home",
+        "title": "已核验实际 Web 应用入口：标题 Heal（不代表登录测试）"
+      },
+      {
+        "url": "https://www.heal.dev/legals/legal-notice",
+        "title": "官方法律声明：publisher 为 MYIA SAS"
+      },
+      {
+        "url": "https://docs.heal.dev/",
+        "title": "官方文档站"
+      },
+      {
+        "url": "https://www.heal.dev/icon.svg",
+        "title": "heal 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-23"
+  },
+  "offrun-desktop": {
+    "notes": "Founderly, Inc. 的免费 macOS 工作区：在本地 git worktree 中并行运行用户已有的 Claude Code、Codex、AGY（Antigravity CLI）、Grok Build、Muse Code。官方下载页 Latest release 6.5.1（2026-10-14），提供 Offrun-v6.5.1.dmg（Apple Silicon）与 Offrun-v6.5.1-intel.dmg（Intel），需 macOS 14 Sonoma 或更高。不替代各编码 CLI，也不单列 CLI。Dictation 需 Apple silicon 与 macOS 26，不改变平台填写。无产品源码仓，不写入 open-source.json。收录官网 favicon.svg 纯矢量。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://offrun.dev/",
+        "title": "Offrun 官方网站：Run Claude Code and Codex agents in parallel on Mac"
+      },
+      {
+        "url": "https://offrun.dev/download/",
+        "title": "官方下载页：Founderly, Inc. 发布 Offrun 6.5.1（2026-10-14）Apple Silicon / Intel DMG"
+      },
+      {
+        "url": "https://offrun.dev/changelog/",
+        "title": "官方 changelog：6.5.1 发布于 14 October 2026"
+      },
+      {
+        "url": "https://offrun.dev/docs/install/",
+        "title": "官方安装文档：macOS 14+，Apple silicon 或 Intel"
+      },
+      {
+        "url": "https://offrun.dev/favicon.svg",
+        "title": "Offrun 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-23"
+  },
+  "dumate-web": {
+    "notes": "百度搭子（DuMate）。官网 www.dumate.cn；已核验 Web 应用主机 dumate.baidu.com（/app，标题 百度搭子）。企业版产品页 cloud.baidu.com/product/dumate.html，席位售卖与组织管控面向企业；个人版与企业版共用同一客户端/Web 能力，企业成员另用 {前缀}.dumate.cn 专属入口，无统一公共企业应用主机，故不把 dumate.cn 租户域写入 web_domains。2026-10-21 杭州发布会为能力升级（电脑/手机操作、工作看板、Agent 安全中心等），不是新产品。未见已发布独立 CLI 或 IDE 插件。移动端/小程序不在目录范围。未找到可核验官方 SVG，收录官方下载页 favicon PNG。官网资料核验，未做登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.dumate.cn/",
+        "title": "百度搭子官网"
+      },
+      {
+        "url": "https://dumate.baidu.com/app",
+        "title": "已核验实际 Web 应用入口：标题 百度搭子（不代表登录测试）"
+      },
+      {
+        "url": "https://cloud.baidu.com/product/dumate.html",
+        "title": "百度智能云：百度搭子 DuMate·企业版产品页"
+      },
+      {
+        "url": "https://cloud.baidu.com/doc/Dumate/s/hmqj7xxje",
+        "title": "官方文档：企业成员客户端登录；企业访问域名为 前缀.dumate.cn"
+      },
+      {
+        "url": "https://zj.chinadaily.com.cn/a/202610/21/WS6ad8a443e4b09a165c790b7e.html",
+        "title": "2026-10-21 杭州发布会能力升级报道"
+      },
+      {
+        "url": "https://now.bdstatic.com/store/v2/d33e0f5/qianfan-desktop-h5/e14364f/favicon.png",
+        "title": "官方下载站 favicon PNG，144×144，未转换 SVG"
+      }
+    ],
+    "verified_at": "2026-10-23"
+  },
+  "dumate-desktop": {
+    "notes": "同一百度搭子产品的官方桌面客户端。官网与 www.dumate.cn/download 提供 macOS / Windows 下载；官方文档写明目前支持 macOS（M 系列）及 Windows（X86），未列出 Linux，故平台只填二者。企业成员在客户端选择企业员工登录。公开文档更新动态曾列个人版 v1.0.78（2026-09-11），并写明企业账号登录需客户端 v1.0.51 及以上；核验日下载页为前端应用、未打印当前安装包版本号，故不填写版本。与 Web 同产品、不同形态。未找到可核验官方 SVG，收录官方 favicon PNG。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.dumate.cn/",
+        "title": "百度搭子官网：客户端下载入口"
+      },
+      {
+        "url": "https://www.dumate.cn/download",
+        "title": "官方下载页：标题 百度搭子"
+      },
+      {
+        "url": "https://cloud.baidu.com/doc/Dumate/s/hmqj7xxje",
+        "title": "官方快速开始：下载 macOS 或 Windows 客户端"
+      },
+      {
+        "url": "https://cloud.baidu.com/doc/Dumate/s/6mr4dii1s",
+        "title": "官方入门指引：企业版管理平台与客户端两套账号"
+      },
+      {
+        "url": "https://now.bdstatic.com/store/v2/d33e0f5/qianfan-desktop-h5/e14364f/favicon.png",
+        "title": "官方下载站 favicon PNG，144×144，未转换 SVG"
+      }
+    ],
+    "verified_at": "2026-10-23"
+  },
+  "whiteboard-desktop": {
+    "notes": "dev.fast（YC W26）开源桌面画布，用于审阅编码 Agent 的设计与 diff。LICENSE 为 MIT，版权 2026 dev.fast。最新 GitHub Release v0.3.4（2026-10-20）含 Whiteboard-darwin-arm64/x64 DMG、Windows Setup.exe / zip、Linux deb/rpm/nix 等，故平台填 macOS / Windows / Linux。官网写 whiteboard runs on macOS, Windows, and Linux；Hosted Whiteboard 标 Coming soon，不单列 Web。Release 中的 whiteboard-remote-*-linux-*.tar.xz 是 SSH 远程主机服务端，不是独立最终用户 Web。收录官网 favicon.svg 纯矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://dev.fast",
+        "title": "Whiteboard 官方网站：open source, mit licensed；macOS / Windows / Linux"
+      },
+      {
+        "url": "https://github.com/devdotfast/whiteboard",
+        "title": "devdotfast/whiteboard 官方仓库"
+      },
+      {
+        "url": "https://github.com/devdotfast/whiteboard/blob/main/README.md",
+        "title": "官方 README：桌面应用；Hosted 产品计划中且保持可自托管"
+      },
+      {
+        "url": "https://github.com/devdotfast/whiteboard/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT，版权 2026 dev.fast"
+      },
+      {
+        "url": "https://github.com/devdotfast/whiteboard/releases/tag/v0.3.4",
+        "title": "GitHub Releases · Whiteboard v0.3.4（2026-10-20）三平台资产"
+      },
+      {
+        "url": "https://dev.fast/favicon.svg",
+        "title": "dev.fast 官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-23"
+  },
+  "breken-web": {
+    "notes": "Breken 在自有机器上重建整套软件，用合成用户/Agent 与故障注入搜索失败，复现后开 draft fix PR。官网 breken.ai 同时承载介绍与登录（/?signin=1 标题 Welcome. You pick the repositories），故应用主机记 breken.ai。app.breken.ai / console.breken.ai 在核验日 TLS 握手失败，不以它们为应用域名。2026-10-21 公开推出；未找到可引用版本号，故不填写版本。仅见官方 favicon-64.png，未找到纯矢量 SVG。无产品源码仓，不写入 open-source.json。官网资料核验，未做登录、跑测或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://breken.ai/",
+        "title": "breken 官方网站"
+      },
+      {
+        "url": "https://breken.ai/?signin=1",
+        "title": "已核验登录入口：Welcome. You pick the repositories（不代表登录测试）"
+      },
+      {
+        "url": "https://breken.ai/inside",
+        "title": "官方 inside：重建环境、合成用户、故障注入与 draft PR"
+      },
+      {
+        "url": "https://breken.ai/assets/favicon-64.png",
+        "title": "官方 favicon PNG，64×64，未转换 SVG"
+      }
+    ],
+    "verified_at": "2026-10-23"
   }
 }

@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.30（2026-10-23），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.31（2026-10-23），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -517,3 +517,20 @@ Logo：Claude Duet 沿用已核验 Lobe Icons Claude 厂商品牌。PandaCode / 
 - 百智办公 Web / 桌面端（北京长亭科技有限公司 / Chaitin）：官方中文名百智办公，英文/产品代号 MonkeyAI。源码在 `github.com/chaitin/MonkeyCode` 的 `monkeyai/` 目录，根 LICENSE **AGPL-3.0**。Web 应用主机 `demo.monkeycode-ai.com`；官网 `work.baizhi.cloud`。桌面端官方清单 **26.1021.5**（Windows / macOS / Linux x64）。自托管发布清单 **v26102201**。Logo 为官网 256×256 PNG。
 
 未收录：CLI、IDE 插件（未见已发布形态）；浏览器扩展（仅桌面客户端旁路加载，无商店 ID）；Android / iOS / Linux ARM / 鸿蒙桌面（官网「敬请期待」，且目录不含移动端）。不把 MonkeyCode / MonkeyWork 并入本产品。#18 / #19 已合入条目不重复。
+
+## v0.31 日更候选（2026-10-23）
+
+新增 9 条应用、8 个产品，目录共 469 条应用、308 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.30 / `main` @ `a62cbdd`（#18 / #19 / #20 已合入）。
+
+- fx CLI（Vercel Labs）：Apache-2.0，Zig 原生编码 Agent。GitHub Releases **v0.0.14**（2026-10-16），仅 macOS / Linux。libfx、ACP 与 fx.sh/try 不单列。
+- Bits Web（harsh071）：本地优先个人 Agent，本机 `pnpm dev` 提供 Web（self-hosted）。README 写 MIT，但仓库无 LICENSE 文件，不写入 open-source.json。无桌面安装包，不单列 GUI。
+- CutBay Web（PearlMountain Limited）：对话式 AI 视频 Agent。已核验 `app.cutbay.ai`。无公开版本号。无可靠 SVG。
+- Heal Web（MYIA SAS）：运行时 QA / 漏洞猎取 Agent。已核验 `app.heal.dev`。无公开版本号。
+- Offrun 桌面端（Founderly, Inc.）：免费 macOS 工作区，并行运行已有编码 CLI。官方下载 **6.5.1**（2026-10-14）。
+- 百度搭子 Web / 桌面端（百度 Baidu）：办公智能体。Web 应用主机 `dumate.baidu.com`；桌面端官方 macOS / Windows。企业版为同产品组织层，租户域名为 `{前缀}.dumate.cn`。下载页未打印当前安装包版本。
+- Whiteboard 桌面端（dev.fast）：MIT 开源画布，审阅编码 Agent 工作。GitHub Releases **v0.3.4**（2026-10-20），macOS / Windows / Linux。Hosted Web 为 Coming soon。
+- breken Web：云端重建应用并做合成用户 / 故障注入。已核验登录在 `breken.ai`。无公开版本号。
+
+Logo：fx / Bits / Heal / Offrun / Whiteboard 使用官方原始 SVG。百度搭子 / breken 使用官方 PNG。CutBay 仅 ico，保持空 `icon`。
+
+未收录：Scout（仍为 `@outcrawl/scout` npm 库与 API，不是最终用户 CLI/Web/GUI）；Agibot（候补名单，未公开可取得）；Bits / fx / Whiteboard / Heal 的未独立发行形态；Claude Duet、BAND、PandaCode、Apache Maka、Aulos、百智办公 MonkeyAI 等已在 main 的条目；以及 SuperCMO Skills、Agent Pets、Needle、Fastlane/Senna、UseIt Studio、DeepCell、Vortex Code、Google Agent Compute Engine 等明确跳过项。PR #17 提供商目录不改。

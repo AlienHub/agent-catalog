@@ -4175,6 +4175,104 @@
         }
       ],
       "notes": "2026-10-22 新增已核验 Web 入口 demo.monkeycode-ai.com。官网 work.baizhi.cloud 不是应用主机。自托管实例无统一公共域名。"
+    },
+    {
+      "id": "bits-web",
+      "name": "Bits",
+      "website": "https://bits.interfacesforhuman.com",
+      "status": "self-hosted",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://bits.interfacesforhuman.com",
+          "title": "Bits 官方网站"
+        },
+        {
+          "url": "https://github.com/harsh071/bits/blob/main/README.md",
+          "title": "官方 README：本机 web :5320"
+        }
+      ],
+      "notes": "2026-10-23 新增自托管 Web；官网不是统一公共应用域名。"
+    },
+    {
+      "id": "cutbay-web",
+      "name": "CutBay",
+      "website": "https://www.cutbay.ai/",
+      "status": "verified",
+      "domains": [
+        "app.cutbay.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cutbay.ai/",
+          "title": "CutBay 官方网站"
+        },
+        {
+          "url": "https://app.cutbay.ai/",
+          "title": "已核验实际 Web 应用 URL"
+        }
+      ],
+      "notes": "2026-10-23 新增已核验 Web 入口 app.cutbay.ai。"
+    },
+    {
+      "id": "heal-web",
+      "name": "Heal",
+      "website": "https://heal.dev/",
+      "status": "verified",
+      "domains": [
+        "app.heal.dev"
+      ],
+      "sources": [
+        {
+          "url": "https://heal.dev/",
+          "title": "heal 官方网站"
+        },
+        {
+          "url": "https://app.heal.dev/home",
+          "title": "已核验实际 Web 应用 URL"
+        }
+      ],
+      "notes": "2026-10-23 新增已核验 Web 入口 app.heal.dev。"
+    },
+    {
+      "id": "dumate-web",
+      "name": "百度搭子",
+      "website": "https://www.dumate.cn/",
+      "status": "verified",
+      "domains": [
+        "dumate.baidu.com"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dumate.cn/",
+          "title": "百度搭子官网"
+        },
+        {
+          "url": "https://dumate.baidu.com/app",
+          "title": "已核验实际 Web 应用 URL"
+        }
+      ],
+      "notes": "2026-10-23 新增已核验 Web 入口 dumate.baidu.com。官网 www.dumate.cn 不是应用主机。企业租户域名为 {前缀}.dumate.cn，无统一公共域名。"
+    },
+    {
+      "id": "breken-web",
+      "name": "breken",
+      "website": "https://breken.ai/",
+      "status": "verified",
+      "domains": [
+        "breken.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://breken.ai/",
+          "title": "breken 官方网站"
+        },
+        {
+          "url": "https://breken.ai/?signin=1",
+          "title": "已核验登录入口"
+        }
+      ],
+      "notes": "2026-10-23 新增已核验 Web 入口 breken.ai（营销站与登录同主机）。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4183,5 +4281,5 @@
   "added_web_records_20261020": 2,
   "added_web_records_20261021": 1,
   "added_web_records_20261022": 1,
-  "added_web_records_20261023": 1
+  "added_web_records_20261023": 6
 }
