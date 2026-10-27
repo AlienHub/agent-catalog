@@ -12050,5 +12050,130 @@
     ],
     "web_domain_status": "verified",
     "web_domain_verified_at": "2026-10-23"
+  },
+  {
+    "id": "thinkrail-cli",
+    "name": "ThinkRail",
+    "aliases": [],
+    "vendor": "JetBrains",
+    "type": "AI 编程",
+    "website": "https://thinkrail.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/thinkrail.svg",
+    "vendor_id": "jetbrains",
+    "product_id": "thinkrail",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "thinkrail-desktop",
+    "name": "ThinkRail",
+    "aliases": [],
+    "vendor": "JetBrains",
+    "type": "AI 编程",
+    "website": "https://thinkrail.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/thinkrail.svg",
+    "vendor_id": "jetbrains",
+    "product_id": "thinkrail",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "cindy-desktop",
+    "name": "Cindy",
+    "aliases": [],
+    "vendor": "Cindy",
+    "type": "通用任务 Agent",
+    "website": "https://cindy.app",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/cindy.svg",
+    "vendor_id": "makecindy",
+    "product_id": "cindy",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "junior-desktop",
+    "name": "Junior",
+    "aliases": [
+      "Triage"
+    ],
+    "vendor": "usejunior-sh",
+    "type": "AI 编程",
+    "website": "https://usejunior.sh/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/junior.svg",
+    "vendor_id": "usejunior-sh",
+    "product_id": "junior",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "shogunai-desktop",
+    "name": "ShogunAI",
+    "aliases": [
+      "Shogun AI"
+    ],
+    "vendor": "ShogunAI",
+    "type": "通用任务 Agent",
+    "website": "https://shogunai.si/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/shogunai.svg",
+    "vendor_id": "shogunai",
+    "product_id": "shogunai",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]

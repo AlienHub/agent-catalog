@@ -183,3 +183,14 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | `assets/icons/whiteboard.svg` | [dev.fast 官网 `favicon.svg`](https://dev.fast/favicon.svg) | `296a1ccd394025e7c854440f692b1dbe1d5010312f032df9e9940350d8ae492d` |
 | `assets/icons/dumate.png` | [百度搭子下载站 `favicon.png`](https://now.bdstatic.com/store/v2/d33e0f5/qianfan-desktop-h5/e14364f/favicon.png) | `02e8924440fddc11aff3574eeb6f74aec55a6a21d154b86d6fd81eb21a1dd3a2` |
 | `assets/icons/breken.png` | [breken 官网 `favicon-64.png`](https://breken.ai/assets/favicon-64.png) | `ba2d7f43911909528158da14914596efe2fdf3f658254fb59dd0532f8ba15c2b` |
+
+## v0.32 Logo 收录（2026-10-26）
+
+本批 SVG 均原样保存，未重绘。官方站点素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。ThinkRail 品牌标识归 JetBrains s.r.o.。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/thinkrail.svg` | [ThinkRail 官网 `favicon.svg`](https://thinkrail.ai/favicon.svg) | `9627e654ad4fdcaa47915c8358b6cacde20f44bf6becf451cc282180faf34604` |
+| `assets/icons/cindy.svg` | [Cindy 官网 `icon.svg`](https://cindy.app/icon.svg) | `d7a7566c13f2ccc5a0d0d256262599c262d947e4ef9feadfb515ed21626d2a40` |
+| `assets/icons/junior.svg` | [Junior 官网 `icon.svg`](https://usejunior.sh/icon.svg) | `9ebb6e9316b2a3d3d614539e3b6b3e5e604cec86d35534c4bff402bc1c40799d` |
+| `assets/icons/shogunai.svg` | [ShogunAI 官网 `shogun-logo.svg`](https://shogunai.si/shogun-logo.svg) | `f9ca41d1e1e18d256c756a725cb0ec33c10cdd9f46c4cf0fec93a01485131127` |

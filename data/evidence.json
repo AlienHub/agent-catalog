@@ -10276,5 +10276,155 @@
       }
     ],
     "verified_at": "2026-10-23"
+  },
+  "thinkrail-cli": {
+    "notes": "JetBrains InnovationHub 开源 agentic IDE，围绕进程内 pi coding agent，以 git worktree 工作区与 spec 图运作。与已有 junie / jetbrains-air / pi-cli 分产品：独立 product_id thinkrail。官方 README 写明两种附加形态：原生桌面安装包与自包含 thinkrail CLI；CLI 在浏览器打开同一应用，状态在 ~/.thinkrail。本条仅 CLI。官网安装文案为 Browser UI via command line，但官方按 Desktop + CLI 计数，不把本地浏览器 UI 单列为公共 Web/SaaS。最新已核验标签 v0.3.0-nightly.6（2026-10-25，prerelease）；v0.2.0（2026-10-18）亦为 prerelease。CLI 预构建：macOS Apple Silicon、Windows x64、Linux x64/ARM64；macOS Intel CLI 官方写明无预构建、需源码编译，platforms 仍列 macOS 并在此注明。核验日仓库约 1767★，Apache-2.0。Logo 为官网 favicon.svg 原样矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://thinkrail.ai/",
+        "title": "ThinkRail 官网：agentic IDE；CLI 启动本地浏览器 UI，另提供原生桌面安装包"
+      },
+      {
+        "url": "https://github.com/JetBrains/thinkrail",
+        "title": "JetBrains/thinkrail 官方仓库"
+      },
+      {
+        "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md",
+        "title": "官方 README：Desktop 与 CLI 两种附加形态；CLI 在浏览器打开同一应用"
+      },
+      {
+        "url": "https://github.com/JetBrains/thinkrail/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.6",
+        "title": "GitHub Releases · Nightly v0.3.0-nightly.6（2026-10-25，prerelease）"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=50219186",
+        "title": "Hacker News：ThinkRail from JetBrains（2026-10-24）"
+      },
+      {
+        "url": "https://thinkrail.ai/favicon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-26"
+  },
+  "thinkrail-desktop": {
+    "notes": "同一 ThinkRail 产品的原生桌面 GUI（Electrobun）。官方 README 与 Releases 提供 thinkrail-desktop-*：macOS Apple Silicon DMG、Windows x64 setup ZIP、Linux x64/ARM64 setup tarball。无 Intel Mac 桌面构建，不声称 Intel Mac。Linux 桌面需 glibc 2.38+ 与 GTK/WebKitGTK 等。最新已核验标签 v0.3.0-nightly.6（2026-10-25，prerelease）。不单列本地浏览器 UI 为 Web：由 CLI 打开，无统一公共应用域名。与 Junie / Air / Pi 不是同一产品。Logo 与 CLI 条共用官网 SVG。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://thinkrail.ai/",
+        "title": "ThinkRail 官网：agentic IDE；CLI 启动本地浏览器 UI，另提供原生桌面安装包"
+      },
+      {
+        "url": "https://github.com/JetBrains/thinkrail",
+        "title": "JetBrains/thinkrail 官方仓库"
+      },
+      {
+        "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md",
+        "title": "官方 README：Desktop 与 CLI 两种附加形态；CLI 在浏览器打开同一应用"
+      },
+      {
+        "url": "https://github.com/JetBrains/thinkrail/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.6",
+        "title": "GitHub Releases · v0.3.0-nightly.6 桌面资产 thinkrail-desktop-*（2026-10-25）"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=50219186",
+        "title": "Hacker News：ThinkRail from JetBrains（2026-10-24）"
+      },
+      {
+        "url": "https://thinkrail.ai/favicon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-26"
+  },
+  "cindy-desktop": {
+    "notes": "makecindy/cindy 开源通用 AI Agent，Electron 桌面端，多 harness（Claude Code / Codex / Pi），本地优先。官网与仓库定位为开箱即用的通用 Agent，故类型记通用任务 Agent，不因支持编码 harness 改记 AI 编程。本条仅桌面 GUI。v0.1.115（2026-10-23）发布资产含 macOS arm64/x64、Windows x64、Linux x64 的 cn/global 安装包，platforms 填三者。iOS / Android / iPadOS 官网与 Release 均有移动端，但目录不含移动应用，不收录。Slack / 飞书等 IM 为桌面 Agent 的委托通道，不单列。未见已发布独立公共 Web 应用形态。根 LICENSE 为 Apache-2.0。核验日仓库约 4893★。Logo 为官网 /icon.svg 原样矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://cindy.app",
+        "title": "Cindy 官网：开源通用 AI Agent；桌面下载与多 harness 说明"
+      },
+      {
+        "url": "https://github.com/makecindy/cindy",
+        "title": "makecindy/cindy 官方仓库"
+      },
+      {
+        "url": "https://github.com/makecindy/cindy/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.115",
+        "title": "GitHub Releases · Desktop v0.1.115（2026-10-23）；含 macOS / Windows / Linux 安装包"
+      },
+      {
+        "url": "https://cindy.app/icon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-26"
+  },
+  "junior-desktop": {
+    "notes": "usejunior-sh/junior 本地 macOS 自主初级工程师 Agent：监视 GitHub / Slack / Linear / MCP，在外发 push/PR/评论/消息前需人工批准；运行于用户已有 Claude Code 或 Codex 计划。本条仅桌面 GUI（Junior.app）。安装脚本同时放入 junior / junior-mcp 控制命令，属于同一桌面产品的本机控制入口，不单列 CLI。GitHub Releases 最新 v1.0.6（2026-10-24）；package.json 亦为 1.0.6。无公开 semver 频道说明。Show HN 2026-10-25。曾用名 Triage（2026-10 更名），保留别名。官网与 README 声称 MIT，但仓库无 LICENSE 文件、GitHub API license 为 null、package.json 无 license 字段，故不写入 open-source.json。核验日约 11★。Logo 为官网 /icon.svg 原样矢量（与仓库 assets/brand 标记一致）。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://usejunior.sh/",
+        "title": "Junior 官网 / 安装页：macOS 本地 junior engineer Agent"
+      },
+      {
+        "url": "https://github.com/usejunior-sh/junior",
+        "title": "usejunior-sh/junior 官方仓库"
+      },
+      {
+        "url": "https://github.com/usejunior-sh/junior/blob/main/README.md",
+        "title": "官方 README：Junior.app、曾用名 Triage、声称 MIT（仓库无 LICENSE 文件）"
+      },
+      {
+        "url": "https://github.com/usejunior-sh/junior/releases/tag/v1.0.6",
+        "title": "GitHub Releases · v1.0.6（2026-10-24）"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=50233491",
+        "title": "Show HN: Junior（2026-10-25）"
+      },
+      {
+        "url": "https://usejunior.sh/icon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-26"
+  },
+  "shogunai-desktop": {
+    "notes": "ShogunAI 本机优先的 macOS 个人工作 Agent：被动工作记忆、会议纪要、Option 键续写、草稿与跟进；外发邮件/消息/事件需明确批准。Product Hunt 2026-10-23 上线（日榜约 #6，约 156 票）。本条仅桌面 GUI。官网要求 Apple Silicon + macOS 14 Sonoma 或更新；无刘海 Mac / 外接屏时面板出现在菜单栏中央。Windows 为候补名单，不列入 platforms。无公开 GitHub、无公开 semver；付费计划含 7 日完整试用。并行站点 shogunaios.com。Logo 为官网 shogun-logo.svg 原样矢量。闭源专有产品，不写入 open-source.json。官网/PH/博客资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://shogunai.si/",
+        "title": "ShogunAI 官网：Mac 工作记忆与会议准备助手；Apple Silicon / macOS 14+"
+      },
+      {
+        "url": "https://shogunaios.com/en/blog/welcome-to-shogunai",
+        "title": "官方博客 Welcome to ShogunAI：记忆层与执行层；7 日试用；外发需批准"
+      },
+      {
+        "url": "https://www.producthunt.com/products/shogunai",
+        "title": "Product Hunt · ShogunAI（2026-10-23 上线）"
+      },
+      {
+        "url": "https://shogunai.si/windows",
+        "title": "官方 Windows 候补页：Windows 尚未发布"
+      },
+      {
+        "url": "https://shogunai.si/shogun-logo.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-26"
   }
 }
