@@ -11,7 +11,7 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.33');
+  assert.equal(catalog.catalogMeta.dataVersion, '0.34');
   for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop', 'monkeyai-web', 'monkeyai-desktop', 'fx-cli', 'bits-web', 'cutbay-web', 'heal-web', 'offrun-desktop', 'dumate-web', 'dumate-desktop', 'whiteboard-desktop', 'breken-web', 'thinkrail-cli', 'thinkrail-desktop', 'cindy-desktop', 'junior-desktop', 'shogunai-desktop', 'vibeide-desktop', 'manyagents-desktop', 'aibridge-desktop', 'paradev-desktop', 'paradev-cli', 'tabsh-cli', 'tabsh-web', 'hob-desktop', 'botnow-web']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });

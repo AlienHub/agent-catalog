@@ -8,7 +8,7 @@ import { buildWebsiteClient } from '../website/build.mjs';
 import { createDialogController } from '../website/dialog-controller.js';
 const root=new URL('../',import.meta.url),read=name=>readFile(new URL(name,root),'utf8');
 const apps=JSON.parse(await read('data/dataset.json'));
-const files=Object.fromEntries(await Promise.all(['dataset','evidence','collections','open-source','commercial'].map(async k=>[k+'.json',JSON.parse(await read('data/'+k+'.json'))])));
+const files=Object.fromEntries(await Promise.all(['dataset','evidence','collections','open-source','commercial','providers','provider-evidence','providers-schema'].map(async k=>[k+'.json',JSON.parse(await read('data/'+k+'.json'))])));
 const dir=await mkdtemp(path.join(tmpdir(),'catalog-ui-'));await buildWebsiteClient(path.join(dir,'app.js'));const bundle=await readFile(path.join(dir,'app.js'),'utf8');await rm(dir,{recursive:true});
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 async function setup(failure=false, trendResponses={}){
@@ -229,5 +229,45 @@ test('multiple application domains appear in details and each hostname finds the
    assert(![...t.$('detailContent').querySelectorAll('dt')].some(el=>el.textContent==='应用入口'));
    await t.click('closeDetails');
   }
+ }finally{t.dom.window.close()}
+});
+
+test('provider catalog toggle lists seed records, filters, disclaimer and returns to apps', async () => {
+ const t=await setup();try{
+  assert.equal(t.$('catalogViewApps').getAttribute('aria-pressed'),'true');
+  assert.equal(t.$('catalogViewProviders').textContent.includes('模型供应商/中转站'), true);
+  await t.click('catalogViewProviders');
+  for(let i=0;i<50&&!t.w.document.querySelector('.provider-row');i++)await wait(10);
+  const records=files['providers.json'];
+  assert.equal(t.w.document.querySelectorAll('.provider-row').length, records.length);
+  assert.equal(t.count(), 0);
+  assert(!t.w.document.body.textContent.includes('hvoyai'));
+  assert(t.$('providerDisclaimer').textContent.includes('不等于推荐'));
+  assert.equal(Number(t.$('providerTotal').textContent), records.length);
+  await t.change('providerStatus','closed');
+  assert.equal(t.w.document.querySelectorAll('.provider-row').length, records.filter(p=>p.status==='closed').length);
+  assert(t.w.document.body.textContent.includes('神马中转API'));
+  await t.click('providerReset');
+  assert.equal(t.w.document.querySelectorAll('.provider-row').length, records.length);
+  await t.change('providerType','official');
+  assert.equal(t.w.document.querySelectorAll('.provider-row').length, records.filter(p=>p.type==='official').length);
+  await t.click('providerReset');
+  await t.change('providerCompat','anthropic');
+  assert.equal(t.w.document.querySelectorAll('.provider-row').length, records.filter(p=>p.api_compat.includes('anthropic')).length);
+  await t.click('providerReset');
+  await t.change('providerBackend','new-api/one-api');
+  assert.equal(t.w.document.querySelectorAll('.provider-row').length, records.filter(p=>p.backend.software==='new-api/one-api').length);
+  await t.click('providerReset');
+  await t.change('providerSearch','hvoyai');
+  assert.equal(t.w.document.querySelectorAll('.provider-row').length, 0);
+  assert(!t.$('providerEmpty').hidden);
+  await t.click('providerEmptyReset');
+  await t.click(t.w.document.querySelector('.provider-row .appname'));
+  assert(t.$('providerDetails').open);
+  assert(t.$('providerDetailContent').textContent.includes('收录不等于'));
+  await t.click('closeProviderDetails');
+  await t.click('catalogViewApps');
+  for(let i=0;i<50&&!t.w.document.querySelector('.app-card');i++)await wait(10);
+  assert.equal(t.count(), apps.length);
  }finally{t.dom.window.close()}
 });

@@ -1,5 +1,6 @@
 import { validateCommercial } from './validate-commercial.mjs';
 import { validateOpenSource } from './validate-open-source.mjs';
+import { validateProviders } from './validate-providers.mjs';
 import { readFile, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { resolve, relative } from 'node:path';
@@ -96,9 +97,10 @@ export async function validateData() {
   assert(/^\d{4}-\d{2}-\d{2}$/.test(metadata.snapshotDate));
   await validateOpenSource(apps);
   await validateCommercial(apps);
-  return { apps, evidence, collections, metadata, svgs, pngs };
+  const { providers } = await validateProviders();
+  return { apps, evidence, collections, metadata, svgs, pngs, providers };
 }
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  const { apps, svgs, pngs } = await validateData();
-  console.log(`Validated ${apps.length} records, ${new Set(apps.map(app => app.product_id)).size} products, ${Object.keys(svgs).length} SVG / ${Object.keys(pngs).length} PNG assets`);
+  const { apps, svgs, pngs, providers } = await validateData();
+  console.log(`Validated ${apps.length} records, ${new Set(apps.map(app => app.product_id)).size} products, ${Object.keys(svgs).length} SVG / ${Object.keys(pngs).length} PNG assets, ${providers.length} providers`);
 }
