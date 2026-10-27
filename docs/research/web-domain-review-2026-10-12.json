@@ -4273,6 +4273,49 @@
         }
       ],
       "notes": "2026-10-23 新增已核验 Web 入口 breken.ai（营销站与登录同主机）。"
+    },
+    {
+      "id": "tabsh-web",
+      "name": "tabsh",
+      "website": "https://tabsh.cc/",
+      "status": "self-hosted",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://tabsh.cc/",
+          "title": "tabsh 官网：本机守护进程打开 localhost Web UI"
+        },
+        {
+          "url": "https://github.com/Blaise1030/tabsh/blob/main/README.md",
+          "title": "官方仓库：本地 daemon + 浏览器标签 UI"
+        }
+      ],
+      "notes": "2026-10-27 新增自托管 Web；应用跑在 127.0.0.1:7681 / tabsh.localhost，无统一公共应用域名。"
+    },
+    {
+      "id": "botnow-web",
+      "name": "Botnow",
+      "website": "https://botnow.cn/",
+      "status": "verified",
+      "domains": [
+        "console.botnow.cn",
+        "cowork.botnow.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://botnow.cn/",
+          "title": "Botnow 官网：企业级 AI 智能体工作平台"
+        },
+        {
+          "url": "https://cowork.botnow.cn/login",
+          "title": "已核验 Cowork 工作台登录"
+        },
+        {
+          "url": "https://console.botnow.cn/",
+          "title": "已核验开发者控制台"
+        }
+      ],
+      "notes": "2026-10-27 新增已核验 Web 入口 cowork.botnow.cn 与 console.botnow.cn。官网 botnow.cn 不是应用主机。私有化实例无统一公共域名。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4281,5 +4324,6 @@
   "added_web_records_20261020": 2,
   "added_web_records_20261021": 1,
   "added_web_records_20261022": 1,
-  "added_web_records_20261023": 6
+  "added_web_records_20261023": 6,
+  "added_web_records_20261027": 2
 }
