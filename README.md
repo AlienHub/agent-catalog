@@ -175,7 +175,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.32（2026-10-26），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
+当前导入快照为 v0.33（2026-10-27），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交及核验范围。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -547,3 +547,17 @@ Logo：fx / Bits / Heal / Offrun / Whiteboard 使用官方原始 SVG。百度搭
 Logo：ThinkRail / Cindy / Junior / ShogunAI 使用官网原始 SVG。
 
 未收录：Ovren（2026-04 已上线，周末报道为 Live Preview 功能而非新产品）；Scout / Agibot（既有积压：库 / 候补）；AgentValley、AgentGrid、Corgi、MOVO、Moli、Llama Windows 及配套/基础设施；Qwen Code / Codex 功能更新；PR #17 提供商目录不改。
+
+## v0.33 日更（2026-10-27）
+
+新增 9 条应用、7 个产品，目录共 483 条应用、319 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.32 / `main` @ `0ab6adb`（#21 / #22 已合入）。本分支已 rebase 到最新 main，保留 #21 与 #22 的全部条目。
+
+- VibeiDE 桌面端（Crowie s.r.o.）：并行排队 Claude Code / Codex / OpenCode。官方 changelog **0.8.21**（2026-10-23）。macOS / Windows；Linux 为 beta。官网 SVG。
+- ManyAgents 桌面端（AILOGY LLC）：macOS 14+，编排 Claude Code + 可选 Codex。官网 **1.3.5**。官方 PNG。
+- AI Bridge 桌面端（CyberNucleus Pty Ltd）：macOS 14+，编排 Claude Code / Codex / Grok / OpenCode。无公开 semver。官网 SVG。
+- Paradev 桌面端与 CLI（Paradev / 原 Superset）：agentic IDE。GitHub **desktop-v2.0.0**（2026-10-26）。macOS + 实验性 Linux；Windows 未提供。源码 **ELv2**（source-available）。无可靠官方产品 SVG。
+- tabsh CLI 与本机 Web（Blaise Tiong）：守护进程 + localhost 浏览器 UI。GitHub **v1.5.0**（2026-10-25），**MIT**。macOS / Linux。官网 SVG。
+- Hob 桌面端（Frigade）：本机开权通用助手。GitHub **v0.2.1**（2026-10-26），**MIT**。macOS（Apple silicon）/ Windows / Linux。官网 SVG。不是 hob.dev。
+- Botnow Web（灵快科技）：企业级智能体工作平台 3.0。已核验 `cowork.botnow.cn` 与 `console.botnow.cn`。无可靠官方 SVG。
+
+未收录：Scout（仍为 `@outcrawl/scout` npm 库）；Paradev iOS/SDK/MCP；VibeiDE / ManyAgents 移动端；Botnow 私有化实例。#21 / #22 已合入产品不重复。PR #17 提供商目录不改。
