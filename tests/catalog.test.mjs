@@ -11,8 +11,8 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.32');
-  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop', 'monkeyai-web', 'monkeyai-desktop', 'fx-cli', 'bits-web', 'cutbay-web', 'heal-web', 'offrun-desktop', 'dumate-web', 'dumate-desktop', 'whiteboard-desktop', 'breken-web', 'thinkrail-cli', 'thinkrail-desktop', 'cindy-desktop', 'junior-desktop', 'shogunai-desktop']) assert(catalog.getApp(id));
+  assert.equal(catalog.catalogMeta.dataVersion, '0.33');
+  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop', 'monkeyai-web', 'monkeyai-desktop', 'fx-cli', 'bits-web', 'cutbay-web', 'heal-web', 'offrun-desktop', 'dumate-web', 'dumate-desktop', 'whiteboard-desktop', 'breken-web', 'thinkrail-cli', 'thinkrail-desktop', 'cindy-desktop', 'junior-desktop', 'shogunai-desktop', 'vibeide-desktop', 'manyagents-desktop', 'aibridge-desktop', 'paradev-desktop', 'paradev-cli', 'tabsh-cli', 'tabsh-web', 'hob-desktop', 'botnow-web']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
 test('ESM and CommonJS core exports agree', () => {
@@ -630,6 +630,71 @@ test('2026-10-26 daily candidates', async () => {
   assert.equal(catalog.getApp('ovren-web'), undefined);
   assert.equal(catalog.getApp('scout-web'), undefined);
   assert.equal(catalog.getApp('agibot-desktop'), undefined);
+});
+
+test('2026-10-27 daily additions keep distinct products and verified forms', async () => {
+  const source = JSON.parse(await readFile(new URL('../data/open-source.json', import.meta.url)));
+  const vibe = catalog.getApp('vibeide-desktop');
+  assert.equal(vibe.vendor_id, 'crowie');
+  assert.deepEqual(vibe.interfaces, ['GUI']);
+  assert.deepEqual(vibe.platforms, ['macOS', 'Windows', 'Linux']);
+  assert.equal(vibe.icon, 'icons/vibeide.svg');
+  assert.match(catalog.getEvidence('vibeide-desktop').notes, /0\.8\.21/);
+  assert.equal(source['vibeide-desktop'], undefined);
+
+  const many = catalog.getApp('manyagents-desktop');
+  assert.equal(many.vendor_id, 'ailogy');
+  assert.deepEqual(many.platforms, ['macOS']);
+  assert.equal(many.icon, 'icons/manyagents.png');
+  assert.match(many.svg_status, /PNG/);
+  assert.match(catalog.getEvidence('manyagents-desktop').notes, /1\.3\.5/);
+
+  const bridge = catalog.getApp('aibridge-desktop');
+  assert.equal(bridge.vendor, 'CyberNucleus Pty Ltd');
+  assert.equal(bridge.icon, 'icons/aibridge.svg');
+
+  const paradevDesk = catalog.getApp('paradev-desktop');
+  const paradevCli = catalog.getApp('paradev-cli');
+  assert.equal(paradevDesk.product_id, paradevCli.product_id);
+  assert.equal(paradevDesk.product_id, 'paradev');
+  assert(paradevDesk.aliases.includes('Superset'));
+  assert.deepEqual(paradevDesk.interfaces, ['GUI']);
+  assert.deepEqual(paradevCli.interfaces, ['CLI']);
+  assert.deepEqual(paradevDesk.platforms, ['macOS', 'Linux']);
+  assert.equal(paradevDesk.icon, '');
+  assert.equal(source['paradev-desktop'].source_model, 'source-available');
+  assert.equal(source['paradev-desktop'].license, 'ELv2');
+  assert.match(catalog.getEvidence('paradev-desktop').notes, /desktop-v2\.0\.0/);
+  assert.equal(catalog.getApp('paradev-web'), undefined);
+
+  const tabshCli = catalog.getApp('tabsh-cli');
+  const tabshWeb = catalog.getApp('tabsh-web');
+  assert.equal(tabshCli.product_id, tabshWeb.product_id);
+  assert.deepEqual(tabshCli.interfaces, ['CLI']);
+  assert.deepEqual(tabshWeb.interfaces, ['Web']);
+  assert.equal(tabshWeb.web_domain_status, 'self-hosted');
+  assert.deepEqual(tabshWeb.web_domains, []);
+  assert.equal(source['tabsh-cli'].license, 'MIT');
+  assert.equal(source['tabsh-web'].license, 'MIT');
+  assert.match(catalog.getEvidence('tabsh-cli').notes, /v1\.5\.0/);
+
+  const hob = catalog.getApp('hob-desktop');
+  assert.equal(hob.vendor_id, 'frigadehq');
+  assert.equal(hob.type, '通用助手');
+  assert.equal(hob.icon, 'icons/hob.svg');
+  assert.equal(source['hob-desktop'].license, 'MIT');
+  assert.match(catalog.getEvidence('hob-desktop').notes, /hob\.dev/);
+  assert.equal(catalog.searchApps('hob.dev').some(app => app.id === 'hob-desktop'), false);
+
+  const botnow = catalog.getApp('botnow-web');
+  assert.equal(botnow.vendor_id, 'lingkuai');
+  assert.deepEqual(botnow.interfaces, ['Web']);
+  assert.deepEqual(botnow.web_domains, ['console.botnow.cn', 'cowork.botnow.cn']);
+  assert.equal(botnow.web_domain_status, 'verified');
+  assert.equal(botnow.icon, '');
+  assert(catalog.collections.chinese_agents.includes('botnow-web'));
+  assert.equal(catalog.getApp('botnow-desktop'), undefined);
+  assert.equal(catalog.getApp('scout-web'), undefined);
 });
 
 test('Domain-only schema removes Web entry URLs and keeps frozen hostname arrays', () => {

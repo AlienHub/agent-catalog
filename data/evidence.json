@@ -10426,5 +10426,235 @@
       }
     ],
     "verified_at": "2026-10-26"
+  },
+  "vibeide-desktop": {
+    "notes": "Crowie s.r.o. 出品的本机桌面工作区，排队并并行运行已安装的 Claude Code、Codex、OpenCode，完成后进入审阅。产品指南写明维护方为 Crowie s.r.o.。本条仅桌面 GUI。官方平台：macOS 与 Windows 为支持发行；Linux 为实验/beta（AppImage，更新需手动），仍列入 platforms 并在此注明。可选手机控制只驱动已开机的桌面端，不收录移动应用。未见公开 GitHub 产品仓。官方 changelog 最新桌面版本 0.8.21（2026-10-23）。Logo 为官网 marketing/logo.svg 原样矢量（64×64 品牌标记，非字标）。闭源专有产品，不写入 open-source.json。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://vibeide.dev/",
+        "title": "VibeiDE 官网：本机桌面工作区，并行运行 Claude Code / Codex / OpenCode"
+      },
+      {
+        "url": "https://vibeide.dev/docs/product-facts/",
+        "title": "官方产品指南：厂商 Crowie s.r.o.；macOS/Windows 支持，Linux 实验"
+      },
+      {
+        "url": "https://vibeide.dev/changelog/",
+        "title": "官方 changelog：最新桌面版本 0.8.21（2026-10-23）"
+      },
+      {
+        "url": "https://vibeide.dev/docs/quick-start/",
+        "title": "官方快速开始：macOS DMG、Windows Setup、Linux AppImage（beta）"
+      },
+      {
+        "url": "https://vibeide.dev/marketing/logo.svg",
+        "title": "官方原始 SVG 品牌标记"
+      }
+    ],
+    "verified_at": "2026-10-27"
+  },
+  "manyagents-desktop": {
+    "notes": "AILOGY LLC 出品的 macOS 原生应用，在同一窗口编排 Claude Code 与可选 Codex 团队（Orchestrator / Worker / Thinker / Reviewer），任务走 git worktree。官网页眉写明 Version 1.3.5；要求 macOS 14+，需已有 Claude Code（Pro/Max 或 Anthropic API key）。本条仅桌面 GUI。隐私政策另提 iPhone companion，目录不含移动端，不收录。无公开产品源码仓。联系域 ailogy.co。未找到可核验官方 SVG，收录官网 icon-512.png 位图。闭源专有产品，不写入 open-source.json。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://manyagents.app/",
+        "title": "ManyAgents 官网：macOS 应用，Version 1.3.5；Claude Code + 可选 Codex"
+      },
+      {
+        "url": "https://manyagents.app/privacy",
+        "title": "官方隐私政策：厂商 AILOGY LLC；更新检查 manyagents.app/download/appcast.xml"
+      },
+      {
+        "url": "https://ailogy.co/manyagents",
+        "title": "厂商站 ManyAgents 产品页：macOS 14+，hello@ailogy.co"
+      },
+      {
+        "url": "https://manyagents.app/icon-512.png",
+        "title": "官方应用图标 PNG（未找到可核验 SVG）"
+      }
+    ],
+    "verified_at": "2026-10-27"
+  },
+  "aibridge-desktop": {
+    "notes": "CyberNucleus Pty Ltd（创始人 Stas Berezin）出品的 macOS 应用，把已安装的 Claude Code、Codex、Grok、OpenCode 按项目/工作区编成团队。要求 macOS 14+，Apple silicon 或 Intel。本条仅桌面 GUI。官网提供免费试用整应用，工作区配置为本机 ~/Bridge 下的 YAML/Markdown。无公开产品源码仓，无公开 semver。Logo 为官网 favicon.svg 原样矢量。闭源专有产品，不写入 open-source.json。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://aibridge.sh/",
+        "title": "AI Bridge 官网：Mac 应用，编排 Claude Code / Codex / Grok / OpenCode"
+      },
+      {
+        "url": "https://aibridge.sh/about",
+        "title": "官方 About：厂商 CyberNucleus，创始人 Stas Berezin"
+      },
+      {
+        "url": "https://aibridge.sh/privacy",
+        "title": "官方隐私政策：CyberNucleus Pty Ltd（ACN 662 475 381）"
+      },
+      {
+        "url": "https://aibridge.sh/favicon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-27"
+  },
+  "paradev-desktop": {
+    "notes": "Paradev（2026-10-26 由 Superset / superset.sh 更名）是并行 CLI 编程代理的 agentic IDE / 桌面应用。与 Apache Superset 无关。本条仅桌面 GUI。官方 README 与 FAQ：桌面端支持 macOS（Apple Silicon 与 Intel）；Linux AppImage/deb 为实验；Windows 尚未提供，不列入 platforms。iPhone/iPad 应用不收录。GitHub Releases 最新桌面标签 desktop-v2.0.0（2026-10-26），资产仍多以 Superset-2.0.0-* 命名。核验日仓库约 15591★。源码公开但 LICENSE.md 为 Elastic License 2.0（ELv2），记 source-available，不是 OSI 开源。未找到可核验官方产品 SVG（站点 favicon 为 ico；页面 SVG 多为第三方代理图标），icon 留空。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://paradev.com/",
+        "title": "Paradev 官网：并行编程代理 IDE；原名 Superset"
+      },
+      {
+        "url": "https://paradev.com/blog/superset-is-now-paradev",
+        "title": "官方博客：Superset 更名为 Paradev（2026-10-26）；CLI 命令 superset 保留，paradev 为别名"
+      },
+      {
+        "url": "https://github.com/ParadevAI/Paradev",
+        "title": "ParadevAI/Paradev 官方仓库"
+      },
+      {
+        "url": "https://github.com/ParadevAI/Paradev/blob/main/README.md",
+        "title": "官方 README：macOS 桌面、实验性 Linux、Windows 未提供；CLI/SDK/MCP 另列"
+      },
+      {
+        "url": "https://github.com/ParadevAI/Paradev/blob/main/LICENSE.md",
+        "title": "官方 LICENSE.md：Elastic License 2.0（ELv2）"
+      },
+      {
+        "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.0",
+        "title": "GitHub Releases · Paradev Desktop desktop-v2.0.0（2026-10-26）"
+      }
+    ],
+    "verified_at": "2026-10-27"
+  },
+  "paradev-cli": {
+    "notes": "同一 Paradev 产品的独立 CLI 形态。官方文档称 CLI 为 Beta；命令名为 `superset`，`paradev` 为别名。可随桌面应用附带，或独立安装：`curl https://paradev.com/cli/install.sh` / `brew install paradevai/tap/superset`。文档写明独立安装覆盖 macOS（Apple Silicon/Intel）与 Linux（x64/arm64），未写 Windows。TypeScript SDK 与 MCP Server 是库/协议入口，不单列应用。最新同仓桌面发行 desktop-v2.0.0（2026-10-26）；CLI 本身无单独 semver 频道说明。许可与桌面条相同，见 open-source.json。官网/仓库/文档核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://docs.paradev.com/cli/getting-started",
+        "title": "官方 CLI 入门：superset/paradev 二进制；独立安装覆盖 macOS 与 Linux；状态为 Beta"
+      },
+      {
+        "url": "https://github.com/ParadevAI/Paradev/blob/main/README.md",
+        "title": "官方 README：CLI 可独立安装；brew install paradevai/tap/superset"
+      },
+      {
+        "url": "https://paradev.com/blog/superset-is-now-paradev",
+        "title": "更名说明：superset 命令继续可用，paradev 为别名"
+      },
+      {
+        "url": "https://github.com/ParadevAI/Paradev/blob/main/LICENSE.md",
+        "title": "官方 LICENSE.md：Elastic License 2.0（ELv2）"
+      },
+      {
+        "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.0",
+        "title": "同仓最新发行 desktop-v2.0.0（2026-10-26）"
+      }
+    ],
+    "verified_at": "2026-10-27"
+  },
+  "tabsh-cli": {
+    "notes": "Blaise Tiong 的本机守护进程 + 命令 `tabsh`：在浏览器标签中管理 shell 与编程代理（Claude Code、Codex、Cursor CLI、OpenCode 或任意接受 prompt 的 CLI）。本条仅 CLI/守护进程安装形态。官网与 Release 提供 macOS 与 Linux 预构建，无 Windows。GitHub Releases 最新 v1.5.0（2026-10-25）。仓库 LICENSE 为 MIT，GitHub API 亦为 MIT，写入 open-source.json。核验日约 2★。本地 Web UI 另列为同产品 Web 条。Logo 为官网 favicon.svg 原样矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://tabsh.cc/",
+        "title": "tabsh 官网：本机守护进程 + 浏览器标签 UI；macOS/Linux；声称 MIT"
+      },
+      {
+        "url": "https://github.com/Blaise1030/tabsh",
+        "title": "Blaise1030/tabsh 官方仓库"
+      },
+      {
+        "url": "https://github.com/Blaise1030/tabsh/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/Blaise1030/tabsh/releases/tag/v1.5.0",
+        "title": "GitHub Releases · v1.5.0（2026-10-25）；macOS/Linux 预构建"
+      },
+      {
+        "url": "https://tabsh.cc/favicon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-27"
+  },
+  "tabsh-web": {
+    "notes": "同一 tabsh 产品的本机 Web UI：守护进程在 127.0.0.1 提供页面（常见入口 http://127.0.0.1:7681 或 http://tabsh.localhost:7681）；官网演示页不是用户实例。无统一公共应用域名，记 self-hosted。本条仅 Web 形态。Windows 无构建。最新已核验版本 v1.5.0（2026-10-25）。许可见 open-source.json。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://tabsh.cc/",
+        "title": "tabsh 官网：应用是与守护进程通信的本机网页；演示跑在页面内假装守护进程"
+      },
+      {
+        "url": "https://github.com/Blaise1030/tabsh",
+        "title": "Blaise1030/tabsh 官方仓库"
+      },
+      {
+        "url": "https://github.com/Blaise1030/tabsh/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/Blaise1030/tabsh/releases/tag/v1.5.0",
+        "title": "GitHub Releases · v1.5.0（2026-10-25）"
+      },
+      {
+        "url": "https://tabsh.cc/favicon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-27"
+  },
+  "hob-desktop": {
+    "notes": "Frigade（FrigadeHQ）出品的本机开权桌面助手，定位为 Claude / ChatGPT 的免费开源替代：在本机运行 Gemma、gpt-oss 等开权模型，可脱机处理本地文件。本条仅桌面 GUI。官网与 Release 提供 Apple Silicon Mac、Windows x64、Linux x64；未见 Intel Mac 构建，platforms 仍列 macOS 并在此注明。GitHub Releases 最新 v0.2.1 / Hob 0.2.1（2026-10-26）。仓库 LICENSE 为 MIT。核验日约 121★。Show HN 2026-10-26。不是商业产品 hob.dev。Logo 为官网 marketing/assets/hob-favicon.svg 原样矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://hob.chat/",
+        "title": "Hob 官网：本机开权桌面助手；Mac Apple silicon / Windows / Linux"
+      },
+      {
+        "url": "https://github.com/FrigadeHQ/hob",
+        "title": "FrigadeHQ/hob 官方仓库"
+      },
+      {
+        "url": "https://github.com/FrigadeHQ/hob/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/FrigadeHQ/hob/releases/tag/v0.2.1",
+        "title": "GitHub Releases · Hob 0.2.1（2026-10-26）；macOS arm64 / Windows x64 / Linux x64"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=50246238",
+        "title": "Show HN: Hob（2026-10-26）"
+      },
+      {
+        "url": "https://hob.chat/marketing/assets/hob-favicon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-27"
+  },
+  "botnow-web": {
+    "notes": "灵快科技企业级 AI 智能体工作平台 Botnow。官网描述公有云「注册即可使用」，以及私有化标准版/全量版。IT之家 2026-10-26 报道 Botnow 3.0 发布。本条仅公共 Web：已核验应用主机 cowork.botnow.cn（企业级 Cowork 工作台登录）与 console.botnow.cn（开发者控制台，核验日落到 /resource-market）。官网 botnow.cn 为产品站，不记入 web_domains。私有化部署无统一公共主机。未见已发布桌面/CLI/IDE 插件形态。未找到可核验官方 SVG（仅 favicon.ico），icon 留空。无公开产品源码仓，不写入 open-source.json。官网与新闻核验，未做注册、登录、安装或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://botnow.cn/",
+        "title": "Botnow 官网：企业级 AI 智能体工作平台；公有云注册即可使用"
+      },
+      {
+        "url": "https://cowork.botnow.cn/login",
+        "title": "已核验 Web 应用主机 cowork.botnow.cn：Cowork 工作台登录"
+      },
+      {
+        "url": "https://console.botnow.cn/",
+        "title": "已核验 Web 应用主机 console.botnow.cn：开发者控制台"
+      },
+      {
+        "url": "https://www.ithome.com/1/017/865.htm",
+        "title": "IT之家：灵快科技发布 Botnow 3.0（2026-10-26）"
+      }
+    ],
+    "verified_at": "2026-10-27"
   }
 }

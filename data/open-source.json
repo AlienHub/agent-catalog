@@ -3622,5 +3622,145 @@
       }
     ],
     "classification": "application"
+  },
+  "paradev-desktop": {
+    "repository_url": "https://github.com/ParadevAI/Paradev",
+    "source_model": "source-available",
+    "license": "ELv2",
+    "license_url": "https://github.com/ParadevAI/Paradev/blob/main/LICENSE.md",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-27",
+      "github_archived": false,
+      "last_push_at": "2026-10-27T01:15:43Z"
+    },
+    "notes": "LICENSE.md 为 Elastic License 2.0（ELv2），禁止把实质功能作为托管服务提供给第三方；官网亦写明不是 OSI 开源。结论仅限已核查的公开仓库源码，不外推托管云工作区、移动端二进制或商标。维护状态参考公开 Release 与现行文档，非仅依据 push 时间。不是 Apache Superset。",
+    "sources": [
+      {
+        "url": "https://github.com/ParadevAI/Paradev",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/ParadevAI/Paradev/blob/main/LICENSE.md",
+        "title": "官方 LICENSE.md：Elastic License 2.0"
+      },
+      {
+        "url": "https://paradev.com/",
+        "title": "官网 FAQ：source-available / ELv2，非 OSI 开源"
+      }
+    ],
+    "classification": "application"
+  },
+  "paradev-cli": {
+    "repository_url": "https://github.com/ParadevAI/Paradev",
+    "source_model": "source-available",
+    "license": "ELv2",
+    "license_url": "https://github.com/ParadevAI/Paradev/blob/main/LICENSE.md",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-27",
+      "github_archived": false,
+      "last_push_at": "2026-10-27T01:15:43Z"
+    },
+    "notes": "与桌面条同一仓库与 ELv2 文本。结论仅限已核查的公开仓库源码，不外推独立安装脚本所拉取的预构建二进制。CLI 官方标 Beta。",
+    "sources": [
+      {
+        "url": "https://github.com/ParadevAI/Paradev",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/ParadevAI/Paradev/blob/main/LICENSE.md",
+        "title": "官方 LICENSE.md：Elastic License 2.0"
+      },
+      {
+        "url": "https://docs.paradev.com/cli/getting-started",
+        "title": "官方 CLI 文档"
+      }
+    ],
+    "classification": "application"
+  },
+  "tabsh-cli": {
+    "repository_url": "https://github.com/Blaise1030/tabsh",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/Blaise1030/tabsh/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-27",
+      "github_archived": false,
+      "last_push_at": "2026-10-25T12:24:18Z"
+    },
+    "notes": "MIT 结论仅限已核查的 Blaise1030/tabsh 公开源码。预构建二进制与商标不在本判断内。维护状态参考公开 Release 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/Blaise1030/tabsh",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/Blaise1030/tabsh/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://tabsh.cc/",
+        "title": "官网：声称 MIT 开源"
+      }
+    ],
+    "classification": "application"
+  },
+  "tabsh-web": {
+    "repository_url": "https://github.com/Blaise1030/tabsh",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/Blaise1030/tabsh/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-27",
+      "github_archived": false,
+      "last_push_at": "2026-10-25T12:24:18Z"
+    },
+    "notes": "与 CLI 条同一仓库与 MIT 文本。结论仅限已核查源码，不外推官网托管演示页。",
+    "sources": [
+      {
+        "url": "https://github.com/Blaise1030/tabsh",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/Blaise1030/tabsh/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://tabsh.cc/",
+        "title": "官网：本机 Web UI 与守护进程"
+      }
+    ],
+    "classification": "application"
+  },
+  "hob-desktop": {
+    "repository_url": "https://github.com/FrigadeHQ/hob",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/FrigadeHQ/hob/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-27",
+      "github_archived": false,
+      "last_push_at": "2026-10-27T01:13:44Z"
+    },
+    "notes": "MIT 结论仅限已核查的 FrigadeHQ/hob 公开源码。桌面安装包签名、所下载的开权模型权重与可选外部连接器不继承本判断。不是 hob.dev。维护状态参考公开 Release 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/FrigadeHQ/hob",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/FrigadeHQ/hob/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://hob.chat/",
+        "title": "官网：声称 MIT 开源"
+      }
+    ],
+    "classification": "application"
   }
 }

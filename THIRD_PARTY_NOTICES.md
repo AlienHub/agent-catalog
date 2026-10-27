@@ -171,7 +171,6 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | `assets/icons/monkeyai.png` | [百智办公官网 `monkeyai-logo.png`](https://work.baizhi.cloud/monkeyai-logo.png) | `fd0812ed97ec7e4f057ae37978a85884bcbf65388f40907377af06139de1fdec` |
 
 ## v0.31 Logo 收录（2026-10-23）
-
 本批 SVG/PNG 均原样保存，未重绘或位图矢量化。官方站点或官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。
 
 | 文件 | 来源 | SHA-256 |
@@ -194,3 +193,15 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | `assets/icons/cindy.svg` | [Cindy 官网 `icon.svg`](https://cindy.app/icon.svg) | `d7a7566c13f2ccc5a0d0d256262599c262d947e4ef9feadfb515ed21626d2a40` |
 | `assets/icons/junior.svg` | [Junior 官网 `icon.svg`](https://usejunior.sh/icon.svg) | `9ebb6e9316b2a3d3d614539e3b6b3e5e604cec86d35534c4bff402bc1c40799d` |
 | `assets/icons/shogunai.svg` | [ShogunAI 官网 `shogun-logo.svg`](https://shogunai.si/shogun-logo.svg) | `f9ca41d1e1e18d256c756a725cb0ec33c10cdd9f46c4cf0fec93a01485131127` |
+
+## v0.33 Logo 收录（2026-10-27）
+
+本批 SVG/PNG 均原样保存，未重绘或位图矢量化。官方站点素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。Paradev 与 Botnow 未找到可核验官方产品 SVG，保持空 `icon`。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/vibeide.svg` | [VibeiDE 官网 `marketing/logo.svg`](https://vibeide.dev/marketing/logo.svg) | `1bf9e2a5637548776d11b61945feff311daee7abba69bf68cedee570fc59d7aa` |
+| `assets/icons/manyagents.png` | [ManyAgents 官网 `icon-512.png`](https://manyagents.app/icon-512.png) | `7016a5cc1de5b74eea0d9eacdac13019143ecd001d9b483b61ba37beacc8cf48` |
+| `assets/icons/aibridge.svg` | [AI Bridge 官网 `favicon.svg`](https://aibridge.sh/favicon.svg) | `da59b00b2f22fda682d3605c8b1cba3c5681d7e1587d12c1af671df47c83a2eb` |
+| `assets/icons/tabsh.svg` | [tabsh 官网 `favicon.svg`](https://tabsh.cc/favicon.svg) | `1edbbb6a04b7ddaf66130114151b186558b4a4b1c58867655cdab7a7816d1719` |
+| `assets/icons/hob.svg` | [Hob 官网 `hob-favicon.svg`](https://hob.chat/marketing/assets/hob-favicon.svg) | `26e97f7372e5cc49a67c46861b5285bb7358854767c2922d8ffd2b1a62dcc139` |

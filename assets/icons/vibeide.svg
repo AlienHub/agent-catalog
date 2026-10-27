@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="title">
+  <title id="title">VibeiDE mark</title>
+  <rect width="64" height="64" rx="14" fill="#151b18"/>
+  <g transform="translate(4 4) scale(.875)">
+    <path fill="#f2efe8" d="M4 8H18L32 38L39 23H53L37 56H25Z"/>
+    <path fill="#7fd8a0" d="M46 8H60L55 19H41Z"/>
+  </g>
+</svg>

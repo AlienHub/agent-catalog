@@ -12175,5 +12175,226 @@
     "web_domains": [],
     "web_domain_status": "not-applicable",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "vibeide-desktop",
+    "name": "VibeiDE",
+    "aliases": [],
+    "vendor": "Crowie s.r.o.",
+    "type": "AI 编程",
+    "website": "https://vibeide.dev/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/vibeide.svg",
+    "vendor_id": "crowie",
+    "product_id": "vibeide",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "manyagents-desktop",
+    "name": "ManyAgents",
+    "aliases": [],
+    "vendor": "AILOGY LLC",
+    "type": "AI 编程",
+    "website": "https://manyagents.app/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/manyagents.png",
+    "vendor_id": "ailogy",
+    "product_id": "manyagents",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "aibridge-desktop",
+    "name": "AI Bridge",
+    "aliases": [],
+    "vendor": "CyberNucleus Pty Ltd",
+    "type": "AI 编程",
+    "website": "https://aibridge.sh/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/aibridge.svg",
+    "vendor_id": "cybernucleus",
+    "product_id": "aibridge",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "paradev-desktop",
+    "name": "Paradev",
+    "aliases": [
+      "Superset"
+    ],
+    "vendor": "Paradev",
+    "type": "AI IDE",
+    "website": "https://paradev.com/",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "paradevai",
+    "product_id": "paradev",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "paradev-cli",
+    "name": "Paradev",
+    "aliases": [
+      "Superset"
+    ],
+    "vendor": "Paradev",
+    "type": "AI IDE",
+    "website": "https://paradev.com/",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "paradevai",
+    "product_id": "paradev",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "tabsh-cli",
+    "name": "tabsh",
+    "aliases": [],
+    "vendor": "Blaise Tiong",
+    "type": "AI 编程",
+    "website": "https://tabsh.cc/",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "icon": "icons/tabsh.svg",
+    "vendor_id": "blaise1030",
+    "product_id": "tabsh",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "tabsh-web",
+    "name": "tabsh",
+    "aliases": [],
+    "vendor": "Blaise Tiong",
+    "type": "AI 编程",
+    "website": "https://tabsh.cc/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/tabsh.svg",
+    "vendor_id": "blaise1030",
+    "product_id": "tabsh",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "hob-desktop",
+    "name": "Hob",
+    "aliases": [],
+    "vendor": "Frigade",
+    "type": "通用助手",
+    "website": "https://hob.chat/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/hob.svg",
+    "vendor_id": "frigadehq",
+    "product_id": "hob",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "botnow-web",
+    "name": "Botnow",
+    "aliases": [],
+    "vendor": "灵快科技",
+    "type": "智能体与工作流",
+    "website": "https://botnow.cn/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "lingkuai",
+    "product_id": "botnow",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "console.botnow.cn",
+      "cowork.botnow.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-27"
   }
 ]
