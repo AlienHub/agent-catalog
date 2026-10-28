@@ -4316,6 +4316,52 @@
         }
       ],
       "notes": "2026-10-27 新增已核验 Web 入口 cowork.botnow.cn 与 console.botnow.cn。官网 botnow.cn 不是应用主机。私有化实例无统一公共域名。"
+    },
+    {
+      "id": "openduet-web",
+      "name": "OpenDuet",
+      "website": "https://www.copilotkit.ai/openduet",
+      "status": "self-hosted",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://www.copilotkit.ai/openduet",
+          "title": "OpenDuet 官方产品页"
+        },
+        {
+          "url": "https://github.com/CopilotKit/OpenDuet/blob/main/README.md",
+          "title": "官方 README：自托管 Web"
+        },
+        {
+          "url": "https://github.com/CopilotKit/OpenDuet/blob/main/LICENSE",
+          "title": "官方 LICENSE：MIT"
+        }
+      ],
+      "notes": "2026-10-28 新增自托管 Web；无统一公共应用域名。"
+    },
+    {
+      "id": "meta-muse-web",
+      "name": "Muse",
+      "website": "https://ai.meta.com/muse/",
+      "status": "verified",
+      "domains": [
+        "muse.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://ai.meta.com/muse/",
+          "title": "Meta Muse 官方产品页"
+        },
+        {
+          "url": "https://muse.ai/",
+          "title": "已核验实际 Web 应用主机 muse.ai"
+        },
+        {
+          "url": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/",
+          "title": "Meta 新闻室：muse.ai 为上线入口之一"
+        }
+      ],
+      "notes": "2026-10-28 新增已核验 Web 入口 muse.ai。产品站 ai.meta.com 不是应用主机。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4325,5 +4371,6 @@
   "added_web_records_20261021": 1,
   "added_web_records_20261022": 1,
   "added_web_records_20261023": 6,
-  "added_web_records_20261027": 2
+  "added_web_records_20261027": 2,
+  "added_web_records_20261028": 2
 }

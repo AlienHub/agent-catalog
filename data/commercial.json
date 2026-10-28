@@ -1462,5 +1462,38 @@
         "title": "百度搭子官网价格方案：个人体验 / Pro / Max 与企业版咨询"
       }
     ]
+  },
+  "meta-muse-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-28",
+    "notes": "官方产品页 FAQ 写明 Muse 免费档有用量上限，超出后可升级付费订阅或等待额度刷新。按该付费套餐核验，不记录易变价格，也不据此判断代码许可证或地区可用性。",
+    "sources": [
+      {
+        "url": "https://ai.meta.com/muse/",
+        "title": "Meta Muse 官方产品页 FAQ：免费用量上限与付费订阅"
+      }
+    ]
+  },
+  "meta-muse-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-28",
+    "notes": "与 Web 条同一产品付费：官方 FAQ 写明免费档有用量上限，可升级付费订阅。按该付费套餐核验，不记录易变价格，也不据此判断代码许可证或地区可用性。",
+    "sources": [
+      {
+        "url": "https://ai.meta.com/muse/",
+        "title": "Meta Muse 官方产品页 FAQ：免费用量上限与付费订阅"
+      }
+    ]
+  },
+  "strawberry-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-28",
+    "notes": "官方定价页列明 Free / Intern / Part-Time / Full-Time 个人档及 Team / Enterprise。按已核验官方付费服务记录，不记录易变价格，也不据此判断代码许可证。",
+    "sources": [
+      {
+        "url": "https://strawberrybrowser.com/pricing",
+        "title": "Strawberry 官方定价：Free 与付费档"
+      }
+    ]
   }
 }

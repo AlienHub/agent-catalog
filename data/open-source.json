@@ -3762,5 +3762,29 @@
       }
     ],
     "classification": "application"
+  },
+  "openduet-web": {
+    "repository_url": "https://github.com/CopilotKit/OpenDuet",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/CopilotKit/OpenDuet/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-28",
+      "github_archived": false,
+      "last_push_at": "2026-10-27T20:13:15Z"
+    },
+    "classification": "application",
+    "notes": "LICENSE 正文为 MIT。结论仅限已核查的公开仓库源码；CopilotKit Intelligence 为独立服务，不在该许可证内。仓库内嵌 OpenBot 平台副本，不把它当作单独产品源码条目。",
+    "sources": [
+      {
+        "url": "https://github.com/CopilotKit/OpenDuet/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenDuet/blob/main/README.md",
+        "title": "Official README; self-hosted Web application built on OpenBot"
+      }
+    ]
   }
 }

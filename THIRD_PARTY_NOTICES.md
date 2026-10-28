@@ -205,3 +205,13 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | `assets/icons/aibridge.svg` | [AI Bridge 官网 `favicon.svg`](https://aibridge.sh/favicon.svg) | `da59b00b2f22fda682d3605c8b1cba3c5681d7e1587d12c1af671df47c83a2eb` |
 | `assets/icons/tabsh.svg` | [tabsh 官网 `favicon.svg`](https://tabsh.cc/favicon.svg) | `1edbbb6a04b7ddaf66130114151b186558b4a4b1c58867655cdab7a7816d1719` |
 | `assets/icons/hob.svg` | [Hob 官网 `hob-favicon.svg`](https://hob.chat/marketing/assets/hob-favicon.svg) | `26e97f7372e5cc49a67c46861b5285bb7358854767c2922d8ffd2b1a62dcc139` |
+
+## v0.35 Logo 收录（2026-10-28）
+
+本批 SVG 均原样保存，未重绘。官方站点或 Lobe Icons 素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。Lobe Icons 为 MIT，商标仍归权利人。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/openduet.svg` | [Lobe Icons `copilotkit-color.svg`（CopilotKit 厂商品牌）](https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/copilotkit-color.svg) | `2fd67f304ee2f4659be9a5304870b5bf6c0c3989f0d0420875595216a15fc17b` |
+| `assets/icons/meta-muse.svg` | [Lobe Icons `muse-color.svg`](https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/muse-color.svg) | `c39c74b14ec4c5be771f75a45bf9d34c2e5fd99fe7aefedcb0fd409c3e6ac621` |
+| `assets/icons/strawberry.svg` | [Strawberry 官网 `favicon.svg`](https://strawberrybrowser.com/favicon.svg) | `d094899755c44f1ffde95091537cd342c08a7a093caa114961f0ac918316dbb0` |

@@ -12396,5 +12396,108 @@
     ],
     "web_domain_status": "verified",
     "web_domain_verified_at": "2026-10-27"
+  },
+  {
+    "id": "openduet-web",
+    "name": "OpenDuet",
+    "aliases": [
+      "Open Duet"
+    ],
+    "vendor": "CopilotKit",
+    "type": "通用任务 Agent",
+    "website": "https://www.copilotkit.ai/openduet",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/openduet.svg",
+    "vendor_id": "copilotkit",
+    "product_id": "openduet",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · Lobe Icons（CopilotKit 厂商品牌）",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "meta-muse-web",
+    "name": "Muse",
+    "aliases": [
+      "Meta Muse"
+    ],
+    "vendor": "Meta",
+    "type": "通用任务 Agent",
+    "website": "https://ai.meta.com/muse/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/meta-muse.svg",
+    "vendor_id": "meta",
+    "product_id": "meta-muse",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · Lobe Icons",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "muse.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-28"
+  },
+  {
+    "id": "meta-muse-desktop",
+    "name": "Muse",
+    "aliases": [
+      "Meta Muse"
+    ],
+    "vendor": "Meta",
+    "type": "通用任务 Agent",
+    "website": "https://ai.meta.com/muse/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/meta-muse.svg",
+    "vendor_id": "meta",
+    "product_id": "meta-muse",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · Lobe Icons",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "strawberry-desktop",
+    "name": "Strawberry",
+    "aliases": [
+      "Strawberry Browser"
+    ],
+    "vendor": "Dendrite Systems, Inc.",
+    "type": "AI 浏览器",
+    "website": "https://strawberrybrowser.com/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/strawberry.svg",
+    "vendor_id": "dendrite-systems",
+    "product_id": "strawberry",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]
