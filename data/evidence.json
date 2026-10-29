@@ -10656,5 +10656,113 @@
       }
     ],
     "verified_at": "2026-10-27"
+  },
+  "openduet-web": {
+    "notes": "CopilotKit 于 2026-10-27 发布的开源自托管主动式个人/工作 Agent。官方产品页与博客写明自托管 Web 应用（另有 iOS/Android 与 Slack/Teams 渠道；移动端与 IM 渠道不在目录范围）。基于 OpenBot 平台，需 CopilotKit Intelligence 密钥（线程与记忆）；与已收录 OpenMuse、Anthropic Claude Duet 分产品。LICENSE 正文为 MIT。GitHub 无 Release；仓库根 package.json 为 0.1.0，不把它当作已发布产品版本。自托管，无统一公共应用域名。未找到 OpenDuet 专属可核验 SVG，沿用 Lobe Icons CopilotKit 厂商品牌。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.copilotkit.ai/openduet",
+        "title": "OpenDuet 官方产品页：开源自托管主动式 Agent"
+      },
+      {
+        "url": "https://www.copilotkit.ai/blog/introducing-openduet",
+        "title": "官方博客 Introducing OpenDuet（2026-10-27）"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenDuet",
+        "title": "CopilotKit/OpenDuet 官方仓库"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenDuet/blob/main/README.md",
+        "title": "官方 README：自托管 Web / 移动 / Slack / Teams；需 Intelligence 密钥"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenDuet/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/copilotkit-color.svg",
+        "title": "LobeHub Icons — CopilotKit 厂商品牌 SVG"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-28"
+  },
+  "meta-muse-web": {
+    "notes": "Meta 个人 AI Agent Muse 的 Web 形态。官方关于页面（2026-10-27）写明新加坡已在 iOS、Android 与 muse.ai 上线；ai.meta.com/muse 产品页与 muse.ai 登录页确认 muse.ai 为面向用户的应用主机，不是纯营销站。本条仅 Web；iOS/Android 不在目录范围；WhatsApp 为渠道不单列。与已收录 Muse Code（product_id=muse-code）及 CopilotKit OpenMuse 分产品。无公开产品版本号。Logo 为 Lobe Icons Muse 彩色 SVG。官网资料核验，未做登录、订阅开通、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://ai.meta.com/muse/",
+        "title": "Meta Muse 官方产品页"
+      },
+      {
+        "url": "https://muse.ai/",
+        "title": "已核验实际 Web 应用主机 muse.ai（登录/创建账户，不代表登录测试）"
+      },
+      {
+        "url": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/",
+        "title": "Meta 新闻室：Muse 新加坡上线 iOS / Android / muse.ai（2026-10-27）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/muse-color.svg",
+        "title": "LobeHub Icons — Muse 彩色 SVG"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-28"
+  },
+  "meta-muse-desktop": {
+    "notes": "同一 Muse 产品的 macOS 桌面形态。官方产品页与下载页提供 Download Muse for Mac；帮助中心说明 Mac 应用可在授权后使用本机文件与 Messages / Calendar / Notes / Mail。本条仅 GUI；未见 Windows / Linux 官方桌面发行。无公开产品版本号。iOS/Android 不收录。Logo 与 Web 条共用 Lobe Icons Muse 彩色 SVG。官网资料核验，未做下载、安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://ai.meta.com/muse/",
+        "title": "Meta Muse 官方产品页：Download Muse for Mac"
+      },
+      {
+        "url": "https://ai.meta.com/muse/download/",
+        "title": "官方下载页：Muse for Mac OS"
+      },
+      {
+        "url": "https://www.meta.com/help/superintelligence/1126304576638594/",
+        "title": "Meta 帮助中心：Muse Mac 应用的本机文件与应用权限"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/muse-color.svg",
+        "title": "LobeHub Icons — Muse 彩色 SVG"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-10-28"
+  },
+  "strawberry-desktop": {
+    "notes": "Dendrite Systems, Inc.（d/b/a Strawberry；欧盟设立地 Strawberry Browser AB，原 Dendrite Systems AB，斯德哥尔摩）出品的桌面 agentic 浏览器。官网 FAQ 写明 macOS 与 Windows；安装桌面应用，可导入 Chrome 扩展/书签/密码。官方更新页 Strawberry 1.0 发布于 2026-10-26。未见独立公共 Web 应用主机，不单列 Web。无公开源码仓，不写入 open-source.json。Logo 为官网 favicon.svg 原样矢量。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://strawberrybrowser.com/",
+        "title": "Strawberry 官网：桌面 agentic 浏览器，macOS / Windows"
+      },
+      {
+        "url": "https://strawberrybrowser.com/updates/strawberry-1-0",
+        "title": "官方更新：Strawberry 1.0（2026-10-26）"
+      },
+      {
+        "url": "https://strawberrybrowser.com/legal/privacy-policy",
+        "title": "隐私政策：Dendrite Systems, Inc.；欧盟设立地 Strawberry Browser AB"
+      },
+      {
+        "url": "https://strawberrybrowser.com/favicon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-28"
   }
 }

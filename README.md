@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.34（2026-10-27），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.35（2026-10-28），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -573,3 +573,15 @@ Logo：ThinkRail / Cindy / Junior / ShogunAI 使用官网原始 SVG。
 - 只记录服务站点 / API 地址。one-api / new-api 等开源项目不是条目，仅作为 `backend` 探测属性。
 - 探测范围：HTTPS 首页、`GET /api/status` 指纹、`GET /v1/models` 只看状态码。不注册、不付费、不用 API key。
 - **收录不等于背书。** 详见 `website/README.md`。
+
+## v0.35 日更（2026-10-28）
+
+新增 4 条应用、3 个产品，目录共 487 条应用、322 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.34 / `main` @ `25ce0f3`（#17 / #21 / #22 / #23 已合入）。
+
+- OpenDuet Web（CopilotKit）：开源自托管主动式个人/工作 Agent，基于 OpenBot。官方博客 **2026-10-27**。**MIT**。无 GitHub Release；不把仓库 `0.1.0` 当作已发布产品版本。需 CopilotKit Intelligence 密钥。与 OpenMuse、Claude Duet 分产品。不收录移动端与 Slack/Teams 渠道。
+- Muse Web 与 macOS 桌面端（Meta）：个人 AI Agent。已核验应用主机 `muse.ai`；官方下载页提供 Mac 应用。无公开 semver。与 Muse Code / OpenMuse 分产品。不收录 iOS / Android。
+- Strawberry 桌面端（Dendrite Systems, Inc.）：macOS + Windows agentic 浏览器。官方更新 **1.0**（2026-10-26）。欧盟设立地 Strawberry Browser AB（斯德哥尔摩）。不单列 Web。
+
+Logo：OpenDuet 使用 Lobe Icons CopilotKit 厂商品牌。Muse 使用 Lobe Icons Muse 彩色 SVG。Strawberry 使用官网 `favicon.svg`。
+
+未收录：Scout（仍为 `@outcrawl/scout` npm SDK / Outcrawl 托管 API，不是最终用户 CLI/Web/GUI）；OpenBot（官方 README 写明 “A template, not a product”，OpenDuet 已覆盖该自托管栈的最终用户形态）；PulseDev、Spacesheep、Agent Quest、Overmind、Akamai Agent Sandbox、Sprinklr Marketing Agents、Entire、Pomerado、灵光 2.0、Genie Master、Claude Duet（已在 main）、Agibot（候补）。PR #17 提供商目录不改。
