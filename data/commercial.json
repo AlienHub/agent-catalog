@@ -1495,5 +1495,38 @@
         "title": "Strawberry 官方定价：Free 与付费档"
       }
     ]
+  },
+  "openbot-desktop": {
+    "offer": "enterprise-service",
+    "verified_at": "2026-10-29",
+    "notes": "官网除免费本机应用外，另提供 OpenBot for Teams：由厂商在托管服务器上运行 OpenBot 并做团队环境/集成/实施支持。按已核验官方企业服务记录，不记录价格，也不据此判断源码许可证。",
+    "sources": [
+      {
+        "url": "https://openbot.run/",
+        "title": "OpenBot 官网 OpenBot for Teams 托管服务说明"
+      }
+    ]
+  },
+  "cusp-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-29",
+    "notes": "官网定价含 Free（自备密钥每月 2500 actions）以及 Pro / Max / Team / Enterprise 付费档。按已核验官方付费服务记录，不记录易变价格，也不据此判断源码状态。",
+    "sources": [
+      {
+        "url": "https://cusp.run/",
+        "title": "Cusp 官网定价：Free / Pro / Max / Team / Enterprise"
+      }
+    ]
+  },
+  "cusp-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-29",
+    "notes": "与桌面条同一官方定价；Free 方案写明含 Desktop app and CLI。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://cusp.run/",
+        "title": "Cusp 官网定价：Free 含 Desktop app and CLI"
+      }
+    ]
   }
 }

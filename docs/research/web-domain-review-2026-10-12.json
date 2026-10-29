@@ -4362,6 +4362,30 @@
         }
       ],
       "notes": "2026-10-28 新增已核验 Web 入口 muse.ai。产品站 ai.meta.com 不是应用主机。"
+    },
+    {
+      "id": "t3-code-web",
+      "name": "T3 Code",
+      "website": "https://t3.codes",
+      "status": "verified",
+      "domains": [
+        "app.t3.codes"
+      ],
+      "sources": [
+        {
+          "url": "https://t3.codes",
+          "title": "T3 Code 官网"
+        },
+        {
+          "url": "https://app.t3.codes",
+          "title": "已核验 Web 应用主机 app.t3.codes"
+        },
+        {
+          "url": "https://github.com/pingdotgg/t3code/blob/main/README.md",
+          "title": "官方 README：web app https://app.t3.codes"
+        }
+      ],
+      "notes": "2026-10-29 新增已核验 Web 入口 app.t3.codes。营销站 t3.codes 不是应用主机。本机 localhost 不记入 web_domains。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4372,5 +4396,6 @@
   "added_web_records_20261022": 1,
   "added_web_records_20261023": 6,
   "added_web_records_20261027": 2,
-  "added_web_records_20261028": 2
+  "added_web_records_20261028": 2,
+  "added_web_records_20261029": 1
 }

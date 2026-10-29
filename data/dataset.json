@@ -12499,5 +12499,163 @@
     "web_domains": [],
     "web_domain_status": "not-applicable",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "openbot-desktop",
+    "name": "OpenBot",
+    "aliases": [],
+    "vendor": "Nightly Labs",
+    "type": "通用任务 Agent",
+    "website": "https://openbot.run/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/openbot.svg",
+    "vendor_id": "nightly-labs",
+    "product_id": "openbot",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "t3-code-desktop",
+    "name": "T3 Code",
+    "aliases": [
+      "T3Code"
+    ],
+    "vendor": "T3 Tools Inc.",
+    "type": "AI 编程",
+    "website": "https://t3.codes",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "t3-tools",
+    "product_id": "t3-code",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "t3-code-web",
+    "name": "T3 Code",
+    "aliases": [
+      "T3Code"
+    ],
+    "vendor": "T3 Tools Inc.",
+    "type": "AI 编程",
+    "website": "https://t3.codes",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "t3-tools",
+    "product_id": "t3-code",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.t3.codes"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-29"
+  },
+  {
+    "id": "cusp-desktop",
+    "name": "Cusp",
+    "aliases": [],
+    "vendor": "Wex Labs Limited",
+    "type": "AI 编程",
+    "website": "https://cusp.run/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/cusp.svg",
+    "vendor_id": "wex-labs",
+    "product_id": "cusp",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "cusp-cli",
+    "name": "Cusp",
+    "aliases": [],
+    "vendor": "Wex Labs Limited",
+    "type": "AI 编程",
+    "website": "https://cusp.run/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/cusp.svg",
+    "vendor_id": "wex-labs",
+    "product_id": "cusp",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "switch-desktop",
+    "name": "Switch",
+    "aliases": [
+      "Switch Console",
+      "Agent Switch",
+      "Switch AI"
+    ],
+    "vendor": "SB Technology, Inc. dba SandboxAQ",
+    "type": "通用任务 Agent",
+    "website": "https://www.switchagents.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "sandboxaq",
+    "product_id": "switch-agents",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]

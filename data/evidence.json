@@ -10764,5 +10764,193 @@
       }
     ],
     "verified_at": "2026-10-28"
+  },
+  "openbot-desktop": {
+    "notes": "Nightly Labs 出品的本机优先桌面工作区 OpenBot，用于持久 AI 队友：连接已有 Codex / Claude Code / Grok / OpenCode / Gemini / Cursor / Cline 等，支持 agent-to-agent、文件共享与内置浏览器。本条仅桌面 GUI。官网提供 macOS 13+（Apple silicon / Intel）、Windows 10+ x64、Linux x64/arm64 AppImage。iOS / Android 仅连接本机桌面主机，按目录范围不收录。官网 Electron 渲染器不作为公共网站暴露，不单列 Web。不是 CopilotKit 模板仓库 CopilotKit/openbot（该模板官方写明 “A template, not a product”，PR #24 已据此跳过并收录 OpenDuet）。GitHub Releases 最新非 draft **v0.53.2**（2026-10-28）。源码公开，许可证为 PolyForm Noncommercial 1.0.0：非商业可用，商业使用需另获许可；见 open-source.json。另有 OpenBot for Teams 托管服务。Logo 取自官方仓库 build/icon.svg 原样矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://openbot.run/",
+        "title": "OpenBot 官网：本机优先桌面工作区；macOS / Windows / Linux 下载"
+      },
+      {
+        "url": "https://github.com/nightly-labs/openbot",
+        "title": "nightly-labs/openbot 官方仓库（勿与 CopilotKit/openbot 模板混淆）"
+      },
+      {
+        "url": "https://github.com/nightly-labs/openbot/blob/main/README.md",
+        "title": "官方 README：桌面工作区、平台与开发预览安全说明"
+      },
+      {
+        "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.53.2",
+        "title": "GitHub Releases · OpenBot v0.53.2（2026-10-28）"
+      },
+      {
+        "url": "https://github.com/nightly-labs/openbot/blob/main/LICENSE",
+        "title": "官方 LICENSE：PolyForm Noncommercial 1.0.0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/nightly-labs/openbot/main/build/icon.svg",
+        "title": "官方仓库原始 SVG 品牌素材 build/icon.svg"
+      }
+    ],
+    "verified_at": "2026-10-29"
+  },
+  "t3-code-desktop": {
+    "notes": "T3 Tools Inc.（pingdotgg / Theo）出品的开源编码 Agent 控制面 T3 Code：编排本机已有 Claude Code、Codex、Antigravity、OpenCode、Cursor、Grok 等，自带订阅。本条仅桌面 Electron GUI。官网与 GitHub Releases 提供 macOS / Windows / Linux 安装包（含 Intel Mac 桌面构建）。`t3` 命令用于启动本机服务并打开 Web/桌面客户端，不是独立编码 CLI，不单列。iOS / Android 远程端不收录。不是已有产品 T3 Chat（t3.chat / t3-chat-web）。产品仍早期：最新非 prerelease **v0.1.3**（2026-10-27）；核验日最新非 draft Release 为 nightly **v0.1.4-nightly.20261028.3841**（prerelease，2026-10-28）。不虚构稳定 semver。仓库 LICENSE 为 MIT。未找到可核验官方纯矢量 SVG（仅 ico/png favicon 与第三方 harness 图标），icon 留空。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://t3.codes",
+        "title": "T3 Code 官网：开源编码 Agent 控制面"
+      },
+      {
+        "url": "https://github.com/pingdotgg/t3code",
+        "title": "pingdotgg/t3code 官方仓库"
+      },
+      {
+        "url": "https://github.com/pingdotgg/t3code/blob/main/README.md",
+        "title": "官方 README：桌面 / Web / 移动端与 BYO 订阅"
+      },
+      {
+        "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.3",
+        "title": "GitHub Releases · T3 Code v0.1.3（2026-10-27，非 prerelease）"
+      },
+      {
+        "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.4-nightly.20261028.3841",
+        "title": "GitHub Releases · 最新 nightly v0.1.4-nightly.20261028.3841（prerelease，2026-10-28）"
+      },
+      {
+        "url": "https://github.com/pingdotgg/t3code/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 T3 Tools Inc.）"
+      }
+    ],
+    "verified_at": "2026-10-29"
+  },
+  "t3-code-web": {
+    "notes": "同一 T3 Code 产品的官方 Web 客户端。README 列出已发布 web app https://app.t3.codes，用于从浏览器连接本机 T3 Code 主机（T3 Connect / 局域网配对）。本条仅 Web。已核验应用主机 app.t3.codes；营销站 t3.codes 不记入 web_domains。本机 `t3` 打开的 localhost 页面无统一公共域名，不另建 self-hosted 条。版本与桌面条相同：最新非 prerelease v0.1.3；最新 nightly v0.1.4-nightly.20261028.3841。与 T3 Chat 分产品。无可靠官方 SVG。官网/仓库资料核验，未做登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://t3.codes",
+        "title": "T3 Code 官网"
+      },
+      {
+        "url": "https://app.t3.codes",
+        "title": "已核验 Web 应用主机 app.t3.codes"
+      },
+      {
+        "url": "https://github.com/pingdotgg/t3code/blob/main/README.md",
+        "title": "官方 README：列出 web app https://app.t3.codes"
+      },
+      {
+        "url": "https://github.com/pingdotgg/t3code/blob/main/docs/user/remote-access.md",
+        "title": "官方文档：T3 Connect / 浏览器远程访问"
+      },
+      {
+        "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.4-nightly.20261028.3841",
+        "title": "GitHub Releases · 最新 nightly v0.1.4-nightly.20261028.3841"
+      },
+      {
+        "url": "https://github.com/pingdotgg/t3code/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      }
+    ],
+    "verified_at": "2026-10-29"
+  },
+  "cusp-desktop": {
+    "notes": "Wex Labs Limited 出品的编码 Agent Cusp：按模型族适配工具（Edit / ApplyPatch / EditLines）。本条仅桌面 GUI（Tauri 2）。官网下载页提供 macOS 12+ Universal、Windows 10 1809+、Linux glibc 2.35+ x64。官方 changelog 与博文将首个公开预览定为 **v0.1.0 / Cusp 0.1**（2026-10-21）；无公开 GitHub 仓库或 Release 标签可核验，不另造 semver。Web / 云同步官网标明 Coming soon，不单列。VS Code / ACP / SDK / GitHub Action 标 Preview，不收录。法律页确认运营主体 Wex Labs Limited。Logo 取自官网 /icon.svg 原样矢量。无公开产品源码仓，不写入 open-source.json。官网资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://cusp.run/",
+        "title": "Cusp 官网：桌面 + CLI；Web 即将推出"
+      },
+      {
+        "url": "https://cusp.run/download",
+        "title": "官方下载页：macOS / Windows / Linux 桌面端"
+      },
+      {
+        "url": "https://cusp.run/changelog",
+        "title": "官方 changelog：v0.1.0 Cusp 0.1 preview（2026-10-21）"
+      },
+      {
+        "url": "https://cusp.run/blog/introducing-cusp",
+        "title": "官方博文：发布 Cusp 0.1 首个公开预览（2026-10-21）"
+      },
+      {
+        "url": "https://cusp.run/docs",
+        "title": "官方文档：桌面 Preview；Web Coming soon"
+      },
+      {
+        "url": "https://cusp.run/legal",
+        "title": "法律页：Cusp 是 Wex Labs Limited 产品"
+      },
+      {
+        "url": "https://cusp.run/icon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-29"
+  },
+  "cusp-cli": {
+    "notes": "同一 Cusp 产品的终端形态。官方 changelog v0.1.0（2026-10-21）将 `cusp` CLI（交互 TUI + 无头 `-p`）列为该预览的新增表面；文档 Surfaces 表标 Preview。下载页另写 “The CLI … isn't published yet; it comes with a later release”，故按 changelog/文档记为已宣布的 Preview CLI，而不是可从下载页取得的独立安装包。本条仅 CLI。Web Coming soon，不单列。无公开 GitHub 仓库。版本记官方 **v0.1.0 / 0.1 preview**，无公开 semver 标签。Logo 与桌面条相同。官网资料核验，未做安装或运行测试。",
+    "sources": [
+      {
+        "url": "https://cusp.run/",
+        "title": "Cusp 官网：Free 方案含 Desktop app and CLI"
+      },
+      {
+        "url": "https://cusp.run/changelog",
+        "title": "官方 changelog v0.1.0：新增 cusp CLI"
+      },
+      {
+        "url": "https://cusp.run/docs",
+        "title": "官方文档 Surfaces：CLI Preview"
+      },
+      {
+        "url": "https://cusp.run/download",
+        "title": "下载页：写明 CLI 尚未作为独立发布提供"
+      },
+      {
+        "url": "https://cusp.run/blog/introducing-cusp",
+        "title": "官方博文：CLI 与桌面共用运行时"
+      },
+      {
+        "url": "https://cusp.run/legal",
+        "title": "法律页：Wex Labs Limited"
+      },
+      {
+        "url": "https://cusp.run/icon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-29"
+  },
+  "switch-desktop": {
+    "notes": "SB Technology, Inc. dba SandboxAQ（GitHub sandbox-quantum）出品的开源自托管 AI 队友产品 Switch。Slack / Teams / Discord / Telegram / Mattermost 为 IM 渠道，按目录规范不单列。本条仅已发布桌面端 Switch Console（安装、跑本地/连接团队服务器、运行本机 agent）。官网与 README 提供 macOS（Apple silicon / Intel）、Windows、Linux x64/ARM64。GitHub latest Release 为 **Switch Console 0.40.1** / `switch-console-v0.40.1`（2026-10-21，非 prerelease）。其后另有 `v0.41.0-canary.1` 与大量 `switch-agent-controller-v0.31.1-dev.*` prerelease，不把 controller-dev 当作产品版本。许可证为 Apache 2.0 + Commons Clause（禁止出售软件或其衍生），记 source-available，见 open-source.json。仓库有字标 SVG，但是横向 wordmark 而非可核验产品图标；官网仅 PNG favicon。Lobe / Simple Icons / svgl 无对应条目，icon 留空。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.switchagents.ai",
+        "title": "Switch AI 官网"
+      },
+      {
+        "url": "https://github.com/sandbox-quantum/switch",
+        "title": "sandbox-quantum/switch 官方仓库"
+      },
+      {
+        "url": "https://github.com/sandbox-quantum/switch/blob/main/README.md",
+        "title": "官方 README：Switch Console 桌面安装与 IM 渠道说明"
+      },
+      {
+        "url": "https://github.com/sandbox-quantum/switch/releases/tag/switch-console-v0.40.1",
+        "title": "GitHub Releases · Switch Console 0.40.1（2026-10-21）"
+      },
+      {
+        "url": "https://docs.switchagents.ai/switch-rooms/getting-started",
+        "title": "官方文档：用 Switch Console 安装并连接房间"
+      },
+      {
+        "url": "https://github.com/sandbox-quantum/switch/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache 2.0 + Commons Clause"
+      }
+    ],
+    "verified_at": "2026-10-29"
   }
 }
