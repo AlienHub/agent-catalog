@@ -3786,5 +3786,121 @@
         "title": "Official README; self-hosted Web application built on OpenBot"
       }
     ]
+  },
+  "openbot-desktop": {
+    "repository_url": "https://github.com/nightly-labs/openbot",
+    "source_model": "source-available",
+    "license": "PolyForm-Noncommercial-1.0.0",
+    "license_url": "https://github.com/nightly-labs/openbot/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-29",
+      "github_archived": false,
+      "last_push_at": "2026-10-29T01:14:41Z"
+    },
+    "notes": "根 LICENSE 为 PolyForm Noncommercial 1.0.0：源码公开，非商业（个人/研究等）可用，商业使用需另获许可。不在本目录 open-source 允许的 OSI 表达式内，故记 source-available。结论仅限已核查的 nightly-labs/openbot 公开源码，不外推 OpenBot for Teams 托管服务或所连接的第三方 Agent CLI。维护状态参考公开 Release 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/nightly-labs/openbot/blob/main/LICENSE",
+        "title": "官方 LICENSE：PolyForm Noncommercial 1.0.0"
+      },
+      {
+        "url": "https://polyformproject.org/licenses/noncommercial/1.0.0",
+        "title": "PolyForm Noncommercial 1.0.0 文本"
+      },
+      {
+        "url": "https://openbot.run/",
+        "title": "官网：源码公开；非商业免费，商业需另获许可"
+      },
+      {
+        "url": "https://github.com/nightly-labs/openbot/blob/main/README.md",
+        "title": "官方 README 许可证徽章"
+      }
+    ],
+    "classification": "agent-client-application"
+  },
+  "t3-code-desktop": {
+    "repository_url": "https://github.com/pingdotgg/t3code",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/pingdotgg/t3code/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-29",
+      "github_archived": false,
+      "last_push_at": "2026-10-29T01:18:09Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "MIT 结论仅限已核查的 pingdotgg/t3code 公开源码。预构建桌面二进制、所连接的第三方 Agent CLI 与 T3 Connect 托管通道不继承本判断。不是 T3 Chat。维护状态参考公开 Release 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/pingdotgg/t3code",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/pingdotgg/t3code/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://t3.codes",
+        "title": "官网：声称开源，可 fork"
+      }
+    ]
+  },
+  "t3-code-web": {
+    "repository_url": "https://github.com/pingdotgg/t3code",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/pingdotgg/t3code/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-29",
+      "github_archived": false,
+      "last_push_at": "2026-10-29T01:18:09Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "与桌面条同一仓库与 MIT 文本。结论仅限已核查源码，不外推 app.t3.codes 托管客户端或 T3 Connect 账户服务。",
+    "sources": [
+      {
+        "url": "https://github.com/pingdotgg/t3code",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/pingdotgg/t3code/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/pingdotgg/t3code/blob/main/README.md",
+        "title": "官方 README：web app 为同一产品表面"
+      }
+    ]
+  },
+  "switch-desktop": {
+    "repository_url": "https://github.com/sandbox-quantum/switch",
+    "source_model": "source-available",
+    "license": "Apache-2.0 WITH Commons-Clause",
+    "license_url": "https://github.com/sandbox-quantum/switch/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-29",
+      "github_archived": false,
+      "last_push_at": "2026-10-28T20:27:24Z"
+    },
+    "notes": "LICENSE 正文为 Apache 2.0 加上修改版 Commons Clause：禁止出售本软件或其衍生（含收费托管）。额外限制使其不能记为 OSI Apache-2.0 开源，故 source-available。结论仅限已核查的 sandbox-quantum/switch 公开源码，不外推 Switch Trust / ROI 商业产品或所连接的第三方 Agent。维护状态参考 Switch Console 公开 Release，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/sandbox-quantum/switch/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache 2.0 + Commons Clause"
+      },
+      {
+        "url": "https://github.com/sandbox-quantum/switch/blob/main/README.md",
+        "title": "官方 README 许可证徽章：Apache 2.0 + Commons Clause"
+      },
+      {
+        "url": "https://github.com/sandbox-quantum/switch",
+        "title": "官方仓库"
+      }
+    ],
+    "classification": "application"
   }
 }

@@ -215,3 +215,12 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | `assets/icons/openduet.svg` | [Lobe Icons `copilotkit-color.svg`（CopilotKit 厂商品牌）](https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/copilotkit-color.svg) | `2fd67f304ee2f4659be9a5304870b5bf6c0c3989f0d0420875595216a15fc17b` |
 | `assets/icons/meta-muse.svg` | [Lobe Icons `muse-color.svg`](https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/muse-color.svg) | `c39c74b14ec4c5be771f75a45bf9d34c2e5fd99fe7aefedcb0fd409c3e6ac621` |
 | `assets/icons/strawberry.svg` | [Strawberry 官网 `favicon.svg`](https://strawberrybrowser.com/favicon.svg) | `d094899755c44f1ffde95091537cd342c08a7a093caa114961f0ac918316dbb0` |
+
+## v0.36 Logo 收录（2026-10-29）
+
+本批 SVG 均原样保存，未重绘。官方站点或官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。T3 Code 与 Switch 未找到可核验官方产品 SVG（仅 ico/png 或横向 wordmark），保持空 `icon`。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/openbot.svg` | [nightly-labs/openbot `build/icon.svg`](https://raw.githubusercontent.com/nightly-labs/openbot/main/build/icon.svg) | `b1ebeacfa21feda7c148e0c3f7e99dcfa9f0d42e646ecc402d730b316862a7c7` |
+| `assets/icons/cusp.svg` | [Cusp 官网 `icon.svg`](https://cusp.run/icon.svg) | `b5d172d27d8b137a4e4ae7e41a63d4bb29321f0dce9ca0f5bf6ecbd645779c1d` |

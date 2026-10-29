@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.35（2026-10-28），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.36（2026-10-29），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -585,3 +585,16 @@ Logo：ThinkRail / Cindy / Junior / ShogunAI 使用官网原始 SVG。
 Logo：OpenDuet 使用 Lobe Icons CopilotKit 厂商品牌。Muse 使用 Lobe Icons Muse 彩色 SVG。Strawberry 使用官网 `favicon.svg`。
 
 未收录：Scout（仍为 `@outcrawl/scout` npm SDK / Outcrawl 托管 API，不是最终用户 CLI/Web/GUI）；OpenBot（官方 README 写明 “A template, not a product”，OpenDuet 已覆盖该自托管栈的最终用户形态）；PulseDev、Spacesheep、Agent Quest、Overmind、Akamai Agent Sandbox、Sprinklr Marketing Agents、Entire、Pomerado、灵光 2.0、Genie Master、Claude Duet（已在 main）、Agibot（候补）。PR #17 提供商目录不改。
+
+## v0.36 日更（2026-10-29）
+
+新增 6 条应用、4 个产品，目录共 493 条应用、326 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.35 / `main` @ `c519ac8`（#24 已合入）。本分支已 rebase 到最新 main，保留 #24 的全部条目。
+
+- OpenBot 桌面端（Nightly Labs）：本机优先 AI 队友工作区。GitHub **v0.53.2**（2026-10-28）。源码 **PolyForm Noncommercial 1.0.0**（source-available）。不是 CopilotKit/openbot 模板，也不是 #24 的 OpenDuet。不收录仅连接桌面主机的 iOS / Android。
+- T3 Code 桌面端与 Web（T3 Tools Inc. / pingdotgg）：开源编码 Agent 控制面，**MIT**。与已有 T3 Chat 分产品。最新非 prerelease **v0.1.3**；最新 nightly **v0.1.4-nightly.20261028.3841**。已核验 `app.t3.codes`。不单列 `t3` 启动器 CLI 与移动端。
+- Cusp 桌面端与 CLI（Wex Labs Limited）：按模型适配工具的编码 Agent。官方 **v0.1.0 / 0.1 preview**（2026-10-21）。无公开 GitHub 仓库。Web Coming soon，不收录。
+- Switch 桌面端（SandboxAQ）：Switch Console。GitHub **switch-console-v0.40.1**（2026-10-21）。源码 **Apache-2.0 + Commons Clause**（source-available）。IM 渠道不单列。
+
+Logo：OpenBot 使用官方仓库 `build/icon.svg`。Cusp 使用官网 `icon.svg`。T3 Code / Switch 无可靠官方产品 SVG，保持空 `icon`。
+
+未收录：CopilotKit OpenBot 模板（#24 已说明并跳过）；Capri（仓库近空）；Octopus-SI-OS（研究预览框架）；OpenShell、design-agent、Magpie、Copilot Fusion / Agent Skills、Cake Agents、Instinct、Moonfold/Croo、Scout（SDK）、Agibot（候补）；#24 已合入产品（OpenDuet / Muse / Strawberry）不重复。PR #17 提供商目录不改。
