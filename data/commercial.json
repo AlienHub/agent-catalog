@@ -1528,5 +1528,76 @@
         "title": "Cusp 官网定价：Free 含 Desktop app and CLI"
       }
     ]
+  },
+  "mao-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-30",
+    "notes": "官网与下载页：7 天免费试用（邮箱登录、无需银行卡、每台电脑一次），之后 $20 一次性买断许可（含无限工作区、跨画布连接、远程工作区与 headless server）。按已核验官方付费产品记录，不记录易变价格细节，也不据此判断源码状态。",
+    "sources": [
+      {
+        "url": "https://trymao.dev/download",
+        "title": "MAO 官方下载页：7-day free trial；$20, once"
+      },
+      {
+        "url": "https://trymao.dev/",
+        "title": "MAO 官网 Pricing：Try it free for 7 days. Then $20, once."
+      }
+    ]
+  },
+  "zest-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-30",
+    "notes": "官网与条款：14 天免费试用（无账户、无银行卡），之后 Zest Pro 一次性许可（发布价 $19，原价 $29，最多 3 台 Mac，含全部 1.x 更新，14 天退款）。按已核验官方付费产品记录，不记录易变价格细节。",
+    "sources": [
+      {
+        "url": "https://zest.dashovia.app/",
+        "title": "Zest 官网定价：$0 for 14 days；zest pro $19 once"
+      },
+      {
+        "url": "https://zest.dashovia.app/terms.html",
+        "title": "官方条款：Free trial 与 Your license"
+      }
+    ]
+  },
+  "jimmy-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-30",
+    "notes": "官方定价页：Monthly $9.99/月（3 天免费试用）或 Founder lifetime $29 一次性（限前 100 名），均含 7 天退款。安装包需登录账户获取。按已核验官方付费产品记录，不记录易变价格细节。",
+    "sources": [
+      {
+        "url": "https://jimmy.vedanshh.dev/pricing",
+        "title": "JIMMY 官方定价：$9.99 a Month or $29 Founder Lifetime"
+      }
+    ]
+  },
+  "empacer-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-30",
+    "notes": "官方定价页写明 Empacer 为付费订阅、无免费档，方案按时长分档，具体金额以结账时展示为准；条款含自动续订说明。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://www.empacer.com/pricing/",
+        "title": "Empacer 官方定价说明：Is Empacer free? No."
+      },
+      {
+        "url": "https://legal.empacer.com/terms",
+        "title": "官方条款：Auto-renewing subscriptions"
+      }
+    ]
+  },
+  "intrascope-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-10-30",
+    "notes": "官方定价：Starter $59/月、Business $159/月、Growth $369/月、Enterprise 定制；7 天免费试用、无需银行卡；AI 用量走托管余额或自带 API Key。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://intrascope.app/pricing",
+        "title": "Intrascope 官方定价"
+      },
+      {
+        "url": "https://intrascope.app/intrascope-ai-get-started",
+        "title": "官方 Get Started：7 days free · No credit card required"
+      }
+    ]
   }
 }

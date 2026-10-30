@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.36（2026-10-29），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.37（2026-10-30），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -598,3 +598,21 @@ Logo：OpenDuet 使用 Lobe Icons CopilotKit 厂商品牌。Muse 使用 Lobe Ico
 Logo：OpenBot 使用官方仓库 `build/icon.svg`。Cusp 使用官网 `icon.svg`。T3 Code / Switch 无可靠官方产品 SVG，保持空 `icon`。
 
 未收录：CopilotKit OpenBot 模板（#24 已说明并跳过）；Capri（仓库近空）；Octopus-SI-OS（研究预览框架）；OpenShell、design-agent、Magpie、Copilot Fusion / Agent Skills、Cake Agents、Instinct、Moonfold/Croo、Scout（SDK）、Agibot（候补）；#24 已合入产品（OpenDuet / Muse / Strawberry）不重复。PR #17 提供商目录不改。
+
+## v0.37 日更（2026-10-30）
+
+新增 10 条应用、9 个产品，目录共 503 条应用、335 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.36 / `main` @ `fff1917`（#25 已合入）。
+
+- Herdr 桌面端（herdrdev / herdr-app）：原生编码 Agent 工作区，Agent 运行在 herdr-core 中、关窗不停；界面文件可由 Agent 改写。官方发布清单 **0.1.9**（GitHub 标签 v0.1.9）。源码 **Apache-2.0**。macOS Apple silicon / Linux x86_64+arm64 / Windows x86_64。官方 FAQ 写明与 Herdr TUI 为独立程序、不共享 Agent，故分 `product_id`。herdr-core 运行时不单列。
+- Herdr TUI（herdrdev / herdr）：补录此前从未收录的终端多路复用器 / Agent 运行时（约 46.7k stars）。GitHub **v0.9.5**（2026-10-14）。源码 **Apache-2.0**。
+- MAO 桌面端（trymao.dev）：GPUI 画布上的多 Agent 编排，Claude Code / Codex / Gemini / Grok / OpenCode / shell 作为真实终端，含 worktree Layers、Portals、远程工作区。官方 changelog **0.12.1**（2026-10-29）。7 天试用后 $20 买断。无公开源码。应用内 `mao` bridge 不单列。
+- Yardlet 桌面端（zzunkie）：开源 Swift 原生 Mac 工作台，并排运行已登录的 Codex / Claude Code 等 CLI。GitHub **v0.11.4**（2026-10-29）。**MIT**。macOS 15+ Apple silicon。
+- Mudroom 桌面端与 CLI（Kernel-Hunter）：在 Linux 微虚拟机 + APFS 克隆中运行编码 Agent，PR 式审查应用。GitHub **v0.3.0**（2026-10-20）。**MIT**。应用仅 macOS 26 Apple silicon；CLI 另支持 Linux / Windows（Docker / Podman）。星数少但为已发布真实应用。
+- Zest 桌面端（Dashovia）：⌥Space 径向命令轮启动 Claude Code / Codex / Gemini / Ghostty / shell，支持 worktree race。官方 appcast **1.1.0**（2026-10-29）。14 天试用后一次性买断。macOS 26+。无公开源码。
+- JIMMY 桌面端（Vedansh Danot）：Windows 本机个人 Agent，经 WhatsApp 自聊下达任务，YES / PIN 审批。官方 changelog **0.3.1**（2026-10-25）。订阅或终身买断；安装包需登录获取。WhatsApp 为渠道、浏览器扩展商店 ID 未核验，均不单列。
+- Empacer Web（Empacer Ltd.，塞浦路斯）：语音优先中小企业 AI 助手。已核验 `app.empacer.com`。付费订阅。Android 不收录。
+- Intrascope Web（Intrascope AI LLC）：团队多模型 AI 工作区，**Intrascope 2.0** 加入 Agentic chat 与 1,650+ 连接器。已核验 `platform.intrascope.app`。Starter $59/月起，7 天试用。
+
+Logo：Herdr 桌面端使用官方仓库 `assets/icons/herdr-ui-icon-clean.svg`，Herdr TUI 使用官方仓库 `assets/logo.svg`，MAO 使用官网 `favicon.svg`，Yardlet 使用官网 `assets/favicon.svg`，Empacer 使用官网 `icon.svg`，Intrascope 使用官网 `favicon.svg`。Mudroom / Zest / JIMMY 仅 icns / ico / png，保持空 `icon`。
+
+未收录：Scout（仍为 `@outcrawl/scout` npm SDK；Outcrawl 为 API 基础设施，`outcrawl` CLI 不是最终用户 Agent）；herdr-core（后台运行时）；MAO `mao` bridge、JIMMY 浏览器扩展（商店 ID 未核验）、Empacer Android、Yardlet / OpenBot 式手机远程端；Intrascope 管理后台与成员应用同一 Web 产品不拆分。Product Hunt 页面本次返回 403，版本与形态均以官网 / GitHub 为准。PR #17 提供商目录不改。
