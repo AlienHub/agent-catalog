@@ -11,8 +11,8 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.36');
-  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop', 'monkeyai-web', 'monkeyai-desktop', 'fx-cli', 'bits-web', 'cutbay-web', 'heal-web', 'offrun-desktop', 'dumate-web', 'dumate-desktop', 'whiteboard-desktop', 'breken-web', 'thinkrail-cli', 'thinkrail-desktop', 'cindy-desktop', 'junior-desktop', 'shogunai-desktop', 'vibeide-desktop', 'manyagents-desktop', 'aibridge-desktop', 'paradev-desktop', 'paradev-cli', 'tabsh-cli', 'tabsh-web', 'hob-desktop', 'botnow-web', 'openduet-web', 'meta-muse-web', 'meta-muse-desktop', 'strawberry-desktop', 'openbot-desktop', 't3-code-desktop', 't3-code-web', 'cusp-desktop', 'cusp-cli', 'switch-desktop']) assert(catalog.getApp(id));
+  assert.equal(catalog.catalogMeta.dataVersion, '0.37');
+  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop', 'monkeyai-web', 'monkeyai-desktop', 'fx-cli', 'bits-web', 'cutbay-web', 'heal-web', 'offrun-desktop', 'dumate-web', 'dumate-desktop', 'whiteboard-desktop', 'breken-web', 'thinkrail-cli', 'thinkrail-desktop', 'cindy-desktop', 'junior-desktop', 'shogunai-desktop', 'vibeide-desktop', 'manyagents-desktop', 'aibridge-desktop', 'paradev-desktop', 'paradev-cli', 'tabsh-cli', 'tabsh-web', 'hob-desktop', 'botnow-web', 'openduet-web', 'meta-muse-web', 'meta-muse-desktop', 'strawberry-desktop', 'openbot-desktop', 't3-code-desktop', 't3-code-web', 'cusp-desktop', 'cusp-cli', 'switch-desktop', 'herdr-desktop', 'herdr-cli', 'mao-desktop', 'yardlet-desktop', 'mudroom-desktop', 'mudroom-cli', 'zest-desktop', 'jimmy-desktop', 'empacer-web', 'intrascope-web']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
 test('ESM and CommonJS core exports agree', () => {
@@ -804,6 +804,90 @@ test('2026-10-29 daily candidates', async () => {
   assert.match(catalog.getEvidence('switch-desktop').notes, /0\.40\.1/);
   assert.equal(catalog.getApp('switch-web'), undefined);
   assert.notEqual(sw.product_id, catalog.getApp('strawberry-desktop').product_id);
+});
+
+test('2026-10-30 daily candidates', async () => {
+  const source = JSON.parse(await readFile(new URL('../data/open-source.json', import.meta.url)));
+  const commercial = JSON.parse(await readFile(new URL('../data/commercial.json', import.meta.url)));
+
+  const herdrDesk = catalog.getApp('herdr-desktop');
+  const herdrCli = catalog.getApp('herdr-cli');
+  assert.equal(herdrDesk.vendor_id, herdrCli.vendor_id);
+  assert.notEqual(herdrDesk.product_id, herdrCli.product_id);
+  assert.deepEqual(herdrDesk.interfaces, ['GUI']);
+  assert.deepEqual(herdrCli.interfaces, ['CLI']);
+  assert.deepEqual(herdrDesk.platforms, ['macOS', 'Linux', 'Windows']);
+  assert.equal(herdrDesk.icon, 'icons/herdr-app.svg');
+  assert.equal(herdrCli.icon, 'icons/herdr.svg');
+  assert.equal(source['herdr-desktop'].license, 'Apache-2.0');
+  assert.equal(source['herdr-cli'].license, 'Apache-2.0');
+  assert.match(catalog.getEvidence('herdr-desktop').notes, /0\.1\.9/);
+  assert.match(catalog.getEvidence('herdr-cli').notes, /v0\.9\.5/);
+  assert.equal(catalog.getApp('herdr-core-cli'), undefined);
+  assert.equal(catalog.getApp('herdr-web'), undefined);
+
+  const mao = catalog.getApp('mao-desktop');
+  assert.deepEqual(mao.interfaces, ['GUI']);
+  assert.deepEqual(mao.platforms, ['macOS', 'Windows', 'Linux']);
+  assert.equal(mao.icon, 'icons/mao.svg');
+  assert.equal(source['mao-desktop'], undefined);
+  assert.equal(commercial['mao-desktop'].offer, 'paid-service');
+  assert.match(catalog.getEvidence('mao-desktop').notes, /0\.12\.1/);
+  assert.equal(catalog.getApp('mao-cli'), undefined);
+
+  const yardlet = catalog.getApp('yardlet-desktop');
+  assert.deepEqual(yardlet.platforms, ['macOS']);
+  assert.deepEqual(yardlet.interfaces, ['GUI']);
+  assert.equal(yardlet.icon, 'icons/yardlet.svg');
+  assert.equal(source['yardlet-desktop'].license, 'MIT');
+  assert.match(catalog.getEvidence('yardlet-desktop').notes, /v0\.11\.4/);
+
+  const mudDesk = catalog.getApp('mudroom-desktop');
+  const mudCli = catalog.getApp('mudroom-cli');
+  assert.equal(mudDesk.product_id, mudCli.product_id);
+  assert.deepEqual(mudDesk.platforms, ['macOS']);
+  assert.deepEqual(mudCli.platforms, ['macOS', 'Linux', 'Windows']);
+  assert.deepEqual(mudDesk.interfaces, ['GUI']);
+  assert.deepEqual(mudCli.interfaces, ['CLI']);
+  assert.equal(mudDesk.icon, '');
+  assert.equal(source['mudroom-desktop'].license, 'MIT');
+  assert.equal(source['mudroom-cli'].source_model, 'open-source');
+  assert.match(catalog.getEvidence('mudroom-desktop').notes, /v0\.3\.0/);
+
+  const zest = catalog.getApp('zest-desktop');
+  assert.deepEqual(zest.platforms, ['macOS']);
+  assert.deepEqual(zest.interfaces, ['GUI']);
+  assert.equal(zest.icon, '');
+  assert.equal(source['zest-desktop'], undefined);
+  assert.equal(commercial['zest-desktop'].offer, 'paid-service');
+  assert.match(catalog.getEvidence('zest-desktop').notes, /1\.1\.0/);
+
+  const jimmy = catalog.getApp('jimmy-desktop');
+  assert.deepEqual(jimmy.platforms, ['Windows']);
+  assert.deepEqual(jimmy.interfaces, ['GUI']);
+  assert.equal(jimmy.icon, '');
+  assert.equal(commercial['jimmy-desktop'].offer, 'paid-service');
+  assert.match(catalog.getEvidence('jimmy-desktop').notes, /0\.3\.1/);
+  assert.equal(catalog.getApp('jimmy-browser-extension'), undefined);
+
+  const empacer = catalog.getApp('empacer-web');
+  assert.deepEqual(empacer.interfaces, ['Web']);
+  assert.deepEqual(empacer.web_domains, ['app.empacer.com']);
+  assert.equal(empacer.web_domain_status, 'verified');
+  assert.equal(empacer.icon, 'icons/empacer.svg');
+  assert.equal(commercial['empacer-web'].offer, 'paid-service');
+  assert.equal(catalog.getApp('empacer-android'), undefined);
+
+  const intra = catalog.getApp('intrascope-web');
+  assert.deepEqual(intra.interfaces, ['Web']);
+  assert.deepEqual(intra.web_domains, ['platform.intrascope.app']);
+  assert.equal(intra.web_domain_status, 'verified');
+  assert.equal(intra.icon, 'icons/intrascope.svg');
+  assert.equal(commercial['intrascope-web'].offer, 'paid-service');
+  assert.match(catalog.getEvidence('intrascope-web').notes, /2\.0/);
+
+  assert.equal(catalog.getApp('scout-cli'), undefined);
+  assert.equal(catalog.getApp('scout-web'), undefined);
 });
 
 test('Domain-only schema removes Web entry URLs and keeps frozen hostname arrays', () => {

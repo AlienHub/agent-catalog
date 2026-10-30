@@ -12,7 +12,7 @@ test('provider catalog count, unique IDs and metadata', async () => {
   const validated = await validateProviders();
   assert.equal(validated.providers.length, providers.length);
   assert.equal(metadata.provider_count, providers.length);
-  assert.equal(metadata.dataVersion, '0.36');
+  assert.equal(metadata.dataVersion, '0.37');
   assert.equal(new Set(providers.map(p => p.id)).size, providers.length);
   assert(providers.length >= 50, 'seed should include reachable sample stations');
 });

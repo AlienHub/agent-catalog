@@ -4386,6 +4386,46 @@
         }
       ],
       "notes": "2026-10-29 新增已核验 Web 入口 app.t3.codes。营销站 t3.codes 不是应用主机。本机 localhost 不记入 web_domains。"
+    },
+    {
+      "id": "empacer-web",
+      "name": "Empacer",
+      "website": "https://empacer.com/",
+      "status": "verified",
+      "domains": [
+        "app.empacer.com"
+      ],
+      "sources": [
+        {
+          "url": "https://www.empacer.com/login/",
+          "title": "官方登录页：Go to app.empacer.com"
+        },
+        {
+          "url": "https://app.empacer.com/",
+          "title": "已核验 Web 应用主机 app.empacer.com"
+        }
+      ],
+      "notes": "2026-10-30 新增已核验 Web 入口 app.empacer.com。营销站 www.empacer.com、support / legal / quiz 子域不是应用主机。Android 应用不收录。"
+    },
+    {
+      "id": "intrascope-web",
+      "name": "Intrascope",
+      "website": "https://intrascope.app/",
+      "status": "verified",
+      "domains": [
+        "platform.intrascope.app"
+      ],
+      "sources": [
+        {
+          "url": "https://intrascope.app/",
+          "title": "Intrascope 官网：Try Intrascope 指向 platform.intrascope.app"
+        },
+        {
+          "url": "https://platform.intrascope.app/",
+          "title": "已核验 Web 应用主机 platform.intrascope.app"
+        }
+      ],
+      "notes": "2026-10-30 新增已核验 Web 入口 platform.intrascope.app。营销站 intrascope.app 不是应用主机。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4397,5 +4437,6 @@
   "added_web_records_20261023": 6,
   "added_web_records_20261027": 2,
   "added_web_records_20261028": 2,
-  "added_web_records_20261029": 1
+  "added_web_records_20261029": 1,
+  "added_web_records_20261030": 2
 }
