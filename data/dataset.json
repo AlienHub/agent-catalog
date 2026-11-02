@@ -12914,5 +12914,423 @@
     ],
     "web_domain_status": "verified",
     "web_domain_verified_at": "2026-10-30"
+  },
+  {
+    "id": "mo-desktop",
+    "name": "Mo",
+    "aliases": [
+      "Apps by Mo"
+    ],
+    "vendor": "Apps by Mo",
+    "type": "通用助手",
+    "website": "https://appsbymo.app/mo/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "apps-by-mo",
+    "product_id": "mo",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "pluto-door-desktop",
+    "name": "Pluto Door",
+    "aliases": [
+      "Ori",
+      "Pluto XOS"
+    ],
+    "vendor": "Pluto Door",
+    "type": "通用任务 Agent",
+    "website": "https://www.plutodoor.com/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "pluto-door",
+    "product_id": "pluto-door",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "clawsgo-science-web",
+    "name": "ClawsGO Science",
+    "aliases": [
+      "ClawsGO"
+    ],
+    "vendor": "BitMiracle Technology Limited",
+    "type": "AI 搜索与研究",
+    "website": "https://clawsgo.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "bitmiracle",
+    "product_id": "clawsgo-science",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "clawsgo.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-02"
+  },
+  {
+    "id": "clawsgo-science-desktop",
+    "name": "ClawsGO Science",
+    "aliases": [
+      "ClawsGO"
+    ],
+    "vendor": "BitMiracle Technology Limited",
+    "type": "AI 搜索与研究",
+    "website": "https://clawsgo.ai/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "bitmiracle",
+    "product_id": "clawsgo-science",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "fluent-desktop",
+    "name": "Fluent",
+    "aliases": [
+      "Fluent 2",
+      "Fluent for Mac"
+    ],
+    "vendor": "Epic Bits",
+    "type": "通用助手",
+    "website": "https://fluentmac.app/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "epic-bits",
+    "product_id": "fluent",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "agentmash-web",
+    "name": "agentmash",
+    "aliases": [
+      "AgentMash"
+    ],
+    "vendor": "agentmash",
+    "type": "AI 编程",
+    "website": "https://agentmash.dev/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "agentmash-dev",
+    "product_id": "agentmash",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "agentmash.dev"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-02"
+  },
+  {
+    "id": "agentmash-cli",
+    "name": "agentmash",
+    "aliases": [
+      "AgentMash",
+      "agentmash-cli"
+    ],
+    "vendor": "agentmash",
+    "type": "AI 编程",
+    "website": "https://agentmash.dev/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "agentmash-dev",
+    "product_id": "agentmash",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "termy-desktop",
+    "name": "Termy",
+    "aliases": [],
+    "vendor": "Yasarcan Kasal",
+    "type": "AI 编程",
+    "website": "https://apptermy.com/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "yasarcan-kasal",
+    "product_id": "termy",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "aura-autopilot-ide",
+    "name": "Aura Autopilot",
+    "aliases": [
+      "Autopilot"
+    ],
+    "vendor": "Ramen",
+    "type": "通用任务 Agent",
+    "website": "https://tryaura.dev/autopilot",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "ramen",
+    "product_id": "aura-autopilot",
+    "interfaces": [
+      "IDE 插件"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "craft-anything-desktop",
+    "name": "Craft Anything",
+    "aliases": [],
+    "vendor": "ArtCraft",
+    "type": "AI 编程",
+    "website": "https://getartcraft.com/apps/craft-anything",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "artcraft",
+    "product_id": "craft-anything",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "craft-anything-cli",
+    "name": "Craft Anything",
+    "aliases": [
+      "craft-anything-cli"
+    ],
+    "vendor": "ArtCraft",
+    "type": "AI 编程",
+    "website": "https://getartcraft.com/apps/craft-anything",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "artcraft",
+    "product_id": "craft-anything",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "craft-anything-web",
+    "name": "Craft Anything",
+    "aliases": [],
+    "vendor": "ArtCraft",
+    "type": "AI 编程",
+    "website": "https://getartcraft.com/apps/craft-anything",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "artcraft",
+    "product_id": "craft-anything",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "fastbrowse-cli",
+    "name": "fastbrowse",
+    "aliases": [
+      "Fastbrowse"
+    ],
+    "vendor": "Agent Labs",
+    "type": "AI 浏览器",
+    "website": "https://fastbrowse.ai",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "agent-labs",
+    "product_id": "fastbrowse",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "fastbrowse-web",
+    "name": "fastbrowse",
+    "aliases": [
+      "Fastbrowse",
+      "fastbrowse hosted"
+    ],
+    "vendor": "Agent Labs",
+    "type": "AI 浏览器",
+    "website": "https://fastbrowse.ai",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "agent-labs",
+    "product_id": "fastbrowse",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "console.fastbrowse.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-02"
+  },
+  {
+    "id": "vaani-web",
+    "name": "Vaani",
+    "aliases": [
+      "Vaani Voice",
+      "Vaani Developer Platform"
+    ],
+    "vendor": "Vaani",
+    "type": "智能体与工作流",
+    "website": "https://www.vaani.dev/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "vaani",
+    "product_id": "vaani",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "platform.vaani.dev",
+      "app.vaanivoice.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-02"
+  },
+  {
+    "id": "embage-web",
+    "name": "Embage",
+    "aliases": [],
+    "vendor": "Embage",
+    "type": "智能体与工作流",
+    "website": "https://embage.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/embage.svg",
+    "vendor_id": "embage",
+    "product_id": "embage",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.embage.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-02"
   }
 ]

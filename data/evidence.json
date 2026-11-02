@@ -11248,5 +11248,317 @@
       }
     ],
     "verified_at": "2026-10-30"
+  },
+  "mo-desktop": {
+    "notes": "Apps by Mo（独立开发者 Abdulmohsen Al Tulaihi，support@appsbymo.app）出品的 macOS 屏幕助手 Mo：住在屏幕边缘或刘海，按自然语言执行文件、邮件、日历、例程等任务，先预览再改动并支持撤销。本条仅桌面 GUI。官网写明 macOS 15+，一次买断，无账户、无分析。版本历史：**1.0.2**（2026-11-01）；首发 **1.0.0**（2026-10-29）；1.0.1 同日。无公开 GitHub。官网 favicon 非独立纯矢量 SVG，Lobe / Simple Icons / svgl 无对应条目，icon 留空。无独立 Web 应用主机，web_domains 不适用。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://appsbymo.app/mo/",
+        "title": "Mo 官方产品页：macOS 屏幕助手与版本历史"
+      },
+      {
+        "url": "https://appsbymo.app/",
+        "title": "Apps by Mo 工作室站点：开发者与 support@appsbymo.app"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "pluto-door-desktop": {
+    "notes": "Pluto Door 是 macOS SSH 客户端，内建服务器 Agent Ori（读日志、跑命令、批准后改动）以及 Pluto XOS 每台服务器桌面。本条仅桌面 GUI，不单列 Ori。官网写明仅 Mac，密钥留在本机 Keychain。官方博文 **2026-10-22** 介绍 Ori；站点未公布可核验的当前 semver，不虚构版本号。Product Hunt 历史讨论出现过 v0.1.1，不作当前版本。官网 /favicon.svg 为 PNG 包在 SVG 内；/logo.svg 为横向字标。无可靠官方产品图标 SVG，icon 留空。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.plutodoor.com/",
+        "title": "Pluto Door 官网：macOS SSH 客户端与 Ori Agent"
+      },
+      {
+        "url": "https://www.plutodoor.com/blog/introducing-ori-ai-server-agent",
+        "title": "官方博文：Introducing Ori（2026-10-22）"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "clawsgo-science-web": {
+    "notes": "ClawsGO Science（运营主体 BitMiracle Technology Limited，contact@clawsgo.ai）云端科研 Agent：文献检索、读论文、跑代码、出图、起草带引用稿件。本条仅 Web。官网 clawsgo.ai 同时承载产品界面；已核验应用主机 clawsgo.ai，不把营销路径单独拆出。站点展示模型线 **ClawsGO 1.5 Titanium**，这是运行模型名，不是客户端 semver。手机端不收录。中国站 clawsgo.cn 未在本条另建 CN 形态。无可靠官方纯矢量 SVG，icon 留空。官网资料核验，未做登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://clawsgo.ai/",
+        "title": "ClawsGO Science 官网 / Web 工作台"
+      },
+      {
+        "url": "https://clawsgo.ai/terms",
+        "title": "官方条款：主体 BitMiracle Technology Limited"
+      },
+      {
+        "url": "https://clawsgo.ai/privacy",
+        "title": "官方隐私政策：数据控制者 BitMiracle Technology Limited"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "clawsgo-science-desktop": {
+    "notes": "同一 ClawsGO Science 产品的官方桌面端。下载页提供 **v1.1.4** macOS DMG（Apple silicon / Intel）与 Windows x64 EXE，可把任务跑在本机或云主机。本条仅 GUI。手机端不收录。版本与 Web 条的 1.5 Titanium 模型线区分：客户端安装包为 v1.1.4。无可靠官方 SVG。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://clawsgo.ai/",
+        "title": "ClawsGO Science 官网"
+      },
+      {
+        "url": "https://clawsgo.ai/download",
+        "title": "官方下载页：桌面端 v1.1.4 macOS / Windows"
+      },
+      {
+        "url": "https://clawsgo.ai/terms",
+        "title": "官方条款：主体 BitMiracle Technology Limited"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "fluent-desktop": {
+    "notes": "Epic Bits（条款写明 Fluent 知识产权归 Epic Bits；Imprint 负责人 Vadim Ermolin，support@epicbits.net）出品的原生 macOS AI 助手 Fluent。本条仅桌面 GUI。官网要求 **macOS 14.2+**。官方 changelog 最新条目 **Fluent 2.3.3**（核验日页面写 2 days ago，对应约 2026-10-31）；2.3.0（2026-10-25）引入 Team/teammates。changelog 提到可选 Chrome 扩展，但未核验官方商店 32 位 ID，不单列浏览器插件。无公开 GitHub。官网 favicon.svg 为 PNG 位图包在 SVG 内，不是纯矢量；Lobe / Simple Icons / svgl 无对应条目，icon 留空。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://fluentmac.app/",
+        "title": "Fluent 官网：macOS AI 助手"
+      },
+      {
+        "url": "https://fluentmac.app/changelog",
+        "title": "官方 changelog：Fluent 2.3.3 / 2.3.0 Team"
+      },
+      {
+        "url": "https://fluentmac.app/terms",
+        "title": "官方条款：知识产权归 Epic Bits"
+      },
+      {
+        "url": "https://fluentmac.app/imprint",
+        "title": "官方 Imprint：Vadim Ermolin / support@epicbits.net"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "agentmash-web": {
+    "notes": "agentmash（AgentMash）团队编码 Agent 协调产品的官方 Web：在 agentmash.dev 连接 GitHub 仓库、房间与登录（/install、/auth/github、/rooms）。本条仅 Web。已核验应用主机 agentmash.dev；营销页与应用同主机，不另推子域。CLI 另条。无 GitHub Releases；托管控制面不写入 open-source.json。无可靠官方纯矢量 SVG（仅 png/ico），icon 留空。官网资料核验，未做登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://agentmash.dev/",
+        "title": "agentmash 官网：团队编码 Agent 协调"
+      },
+      {
+        "url": "https://agentmash.dev/install",
+        "title": "已核验 Web 安装/连接仓库页 agentmash.dev/install"
+      },
+      {
+        "url": "https://agentmash.dev/docs",
+        "title": "官方文档：协调服务器与 hooks"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "agentmash-cli": {
+    "notes": "同一 agentmash 产品的开源 CLI。官方安装：`npx agentmash login`（Node 18.12+）。仓库 github.com/agentmash-dev/agentmash-cli，**MIT**（Copyright 2026 Alim Dauletbek and Damir Iskakov），创建于 2026-10-29。npm 包 agentmash 最新 **0.13.5**（2026-10-26）；公开 GitHub 仓库无 Releases 标签，不把未发布的 git SHA 当作 semver。本条仅 CLI。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://agentmash.dev/",
+        "title": "agentmash 官网"
+      },
+      {
+        "url": "https://github.com/agentmash-dev/agentmash-cli",
+        "title": "官方 CLI 仓库"
+      },
+      {
+        "url": "https://github.com/agentmash-dev/agentmash-cli/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://www.npmjs.com/package/agentmash",
+        "title": "npm agentmash 最新 0.13.5（2026-10-26）"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "termy-desktop": {
+    "notes": "Termy 是 macOS 刘海/菜单栏终端工作台，承载 Claude Code 与 Codex（亦跑 Gemini CLI、OpenCode、Amp）。本条仅桌面 GUI。Product Hunt 出站与公司栏给出官网 **apptermy.com**（www.apptermy.com）；**不是** SSH 产品 termyapp.com。官网写明 **macOS 26+**，可用 `brew tap ycankasal/termy && brew install --cask termy`。制作者 Yasarcan Kasal 在 PH 说明 Pro 新功能于 **1.4.5**；官网未另列当前 semver，版本依据该制作者说明，不另造号。无公开 GitHub。无可靠官方纯矢量 SVG，icon 留空。官网/PH 资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://apptermy.com/",
+        "title": "Termy 官网：刘海终端（Claude Code / Codex）"
+      },
+      {
+        "url": "https://www.producthunt.com/products/termy-6ded6eb5-533c-4df5-a4f6-94b97ed8ca62",
+        "title": "Product Hunt：出站官网 apptermy.com；制作者说明 1.4.5"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "aura-autopilot-ide": {
+    "notes": "Aura Autopilot（厂商 Ramen / GitHub ramenvr，产品页 tryaura.dev/autopilot）是开源游戏实机试玩 Agent。官方主安装面是 **Unreal Engine 5 / Unity 6 / Godot 4 编辑器插件**（Windows 与 macOS），按目录形态记为 IDE 插件，不是独立桌面 GUI。GitHub Releases 最新非 draft **v1.0.0-848084e** / Autopilot 1.0.0（848084e）（2026-10-30）；另有 v1.0.0-b143178。仓库 LICENSE 为 **Apache-2.0**；pyproject 版本字段 0.1.0，产品版本以 Release 为准。Aura 桌面订阅是另一产品，不单列；`autopilot connect` 仅为连接 Claude Code/Codex 的辅助命令，不单列 CLI。MCP/skills 不是目录形态。官网 logo 为 PNG。无可靠官方纯矢量 SVG，icon 留空。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://tryaura.dev/autopilot",
+        "title": "Aura Autopilot 官方产品页"
+      },
+      {
+        "url": "https://www.tryaura.dev/documentation/autopilot/",
+        "title": "官方文档：Autopilot 安装"
+      },
+      {
+        "url": "https://github.com/ramenvr/autopilot",
+        "title": "ramenvr/autopilot 官方仓库"
+      },
+      {
+        "url": "https://github.com/ramenvr/autopilot/releases/tag/v1.0.0-848084e",
+        "title": "GitHub Releases · Autopilot 1.0.0 (848084e)（2026-10-30）"
+      },
+      {
+        "url": "https://github.com/ramenvr/autopilot/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "craft-anything-desktop": {
+    "notes": "ArtCraft / storytold 出品的开源 Craft Anything：先用取证工具研究软件，再与编码 Agent 重建并对照。本条仅桌面 GUI。产品页提供 macOS Universal / Windows x64 / Linux Flatpak 等独立安装包；页面仍展示 **v0.1.0** 文件名，GitHub 最新非 prerelease 为 **v0.2.0**（2026-11-01）与 v0.1.0（2026-10-31）。双许可 MIT OR Apache-2.0，open-source.json 按允许清单记 Apache-2.0 并在 notes 写明双许可。MCP 不是目录形态。应用图标为 PNG，ArtCraft 字标不是本产品图标，icon 留空。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://getartcraft.com/apps/craft-anything",
+        "title": "Craft Anything 官方产品/下载页"
+      },
+      {
+        "url": "https://github.com/storytold/craft-anything",
+        "title": "storytold/craft-anything 官方仓库"
+      },
+      {
+        "url": "https://github.com/storytold/craft-anything/releases/tag/v0.2.0",
+        "title": "GitHub Releases · Craft Anything v0.2.0（2026-11-01）"
+      },
+      {
+        "url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-APACHE",
+        "title": "官方 LICENSE-APACHE：Apache-2.0"
+      },
+      {
+        "url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-MIT",
+        "title": "官方 LICENSE-MIT：MIT（双许可另一侧）"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "craft-anything-cli": {
+    "notes": "同一 Craft Anything 产品的无头 CLI。产品页提供 Command-line tool 下载（页面示例文件名仍带 0.1.0）；源码 `cargo run --release -p craft-anything`。本条仅 CLI。版本与桌面条相同：GitHub **v0.2.0**。双许可见桌面条。官网/仓库资料核验，未做安装或运行测试。",
+    "sources": [
+      {
+        "url": "https://getartcraft.com/apps/craft-anything",
+        "title": "官方下载页：Command-line tool"
+      },
+      {
+        "url": "https://github.com/storytold/craft-anything",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/storytold/craft-anything/releases/tag/v0.2.0",
+        "title": "GitHub Releases · v0.2.0"
+      },
+      {
+        "url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-APACHE",
+        "title": "官方 LICENSE-APACHE：Apache-2.0"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "craft-anything-web": {
+    "notes": "同一 Craft Anything 产品的官方 WebAssembly 构建，产品页写明 “to host yourself”。本条仅自托管 Web；无统一公共应用域名，web_domains 为空。MCP 不收录。版本与桌面条相同：GitHub **v0.2.0**。官网/仓库资料核验，未做托管或运行测试。",
+    "sources": [
+      {
+        "url": "https://getartcraft.com/apps/craft-anything",
+        "title": "官方下载页：Web build / WebAssembly，自托管"
+      },
+      {
+        "url": "https://github.com/storytold/craft-anything",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/storytold/craft-anything/releases/tag/v0.2.0",
+        "title": "GitHub Releases · v0.2.0"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "fastbrowse-cli": {
+    "notes": "Agent Labs（LICENSE Copyright 2026 Agent Labs）开源浏览器 Agent fastbrowse：从页面真实控件选动作，答案引用原文。本条仅 CLI（uvx/npm）。GitHub 最新非 prerelease **v0.9.1**（2026-10-30）。官网演示文案仍写 0.7.2 录制，不把它当作当前发布。LICENSE **MIT**。MCP / Python / JS SDK 不是独立最终用户形态，不单列。无可靠官方产品图标 SVG（仓库 wordmark 为横向字标），icon 留空。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://fastbrowse.ai",
+        "title": "fastbrowse 官网：CLI / hosted / 架构说明"
+      },
+      {
+        "url": "https://github.com/agent-labs-dev/fastbrowse",
+        "title": "agent-labs-dev/fastbrowse 官方仓库"
+      },
+      {
+        "url": "https://github.com/agent-labs-dev/fastbrowse/releases/tag/v0.9.1",
+        "title": "GitHub Releases · v0.9.1（2026-10-30）"
+      },
+      {
+        "url": "https://github.com/agent-labs-dev/fastbrowse/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "fastbrowse-web": {
+    "notes": "同一 fastbrowse 产品的官方托管控制台。官网 “Run it hosted” 指向 **console.fastbrowse.ai** 提交与跟踪任务；api.fastbrowse.ai 是 API，不记入 web_domains。本条仅 Web。托管控制台不写入 open-source.json。版本与 CLI 条相同：GitHub **v0.9.1**。官网资料核验，未做登录或付费测试。",
+    "sources": [
+      {
+        "url": "https://fastbrowse.ai",
+        "title": "fastbrowse 官网：hosted console 说明"
+      },
+      {
+        "url": "https://console.fastbrowse.ai/",
+        "title": "已核验托管控制台主机 console.fastbrowse.ai"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "vaani-web": {
+    "notes": "Vaani（官网亦称 Vaani Voice / Product Hunt Vaani Developer Platform）语音通话 Agent 构建与运行平台。官网不是候补名单：首页链到 **platform.vaani.dev** 与 **app.vaanivoice.ai**，并有 Platform 介绍页。本条仅 Web。已核验上述两台应用主机；docs.vaani.dev 为文档，不记入 web_domains。无公开 GitHub。站点未给出可核验客户端 semver，不虚构版本。无可靠官方纯矢量 SVG，icon 留空。官网资料核验，未做登录、外呼或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.vaani.dev/",
+        "title": "Vaani 官网：语音 Agent 平台"
+      },
+      {
+        "url": "https://www.vaani.dev/platform",
+        "title": "官方 Platform 介绍页"
+      },
+      {
+        "url": "https://platform.vaani.dev/",
+        "title": "已核验应用主机 platform.vaani.dev"
+      },
+      {
+        "url": "https://app.vaanivoice.ai/",
+        "title": "官网首页链接的应用主机 app.vaanivoice.ai"
+      }
+    ],
+    "verified_at": "2026-11-02"
+  },
+  "embage-web": {
+    "notes": "Embage 无代码多渠道（网站聊天/浏览器语音、Telegram）客服与接待 Agent 构建器。站点写明 early access，但提供免信用卡 Free 方案与 **app.embage.com** 登录，不是纯候补名单。本条仅 Web。已核验应用主机 app.embage.com；营销站 embage.com 不记入 web_domains。官方 changelog 最近条目 **2026-10-28**，无公开 semver，不虚构版本。Logo 取自官网 /favicon.svg 原样矢量。官网资料核验，未做登录、嵌入或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://embage.com",
+        "title": "Embage 官网：定价与产品说明"
+      },
+      {
+        "url": "https://app.embage.com/",
+        "title": "已核验应用主机 app.embage.com"
+      },
+      {
+        "url": "https://embage.com/changelog",
+        "title": "官方 changelog：最近条目 2026-10-28"
+      },
+      {
+        "url": "https://embage.com/favicon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-11-02"
   }
 }

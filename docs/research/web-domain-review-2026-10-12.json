@@ -4426,6 +4426,129 @@
         }
       ],
       "notes": "2026-10-30 新增已核验 Web 入口 platform.intrascope.app。营销站 intrascope.app 不是应用主机。"
+    },
+    {
+      "id": "clawsgo-science-web",
+      "name": "ClawsGO Science",
+      "website": "https://clawsgo.ai/",
+      "status": "verified",
+      "domains": [
+        "clawsgo.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://clawsgo.ai/",
+          "title": "ClawsGO Science 官网 / Web 工作台"
+        },
+        {
+          "url": "https://clawsgo.ai/terms",
+          "title": "官方条款"
+        }
+      ],
+      "notes": "2026-11-02 新增已核验 Web 入口 clawsgo.ai。"
+    },
+    {
+      "id": "agentmash-web",
+      "name": "agentmash",
+      "website": "https://agentmash.dev/",
+      "status": "verified",
+      "domains": [
+        "agentmash.dev"
+      ],
+      "sources": [
+        {
+          "url": "https://agentmash.dev/",
+          "title": "agentmash 官网"
+        },
+        {
+          "url": "https://agentmash.dev/install",
+          "title": "已核验安装/连接页"
+        }
+      ],
+      "notes": "2026-11-02 新增已核验 Web 入口 agentmash.dev（与营销站同主机）。"
+    },
+    {
+      "id": "craft-anything-web",
+      "name": "Craft Anything",
+      "website": "https://getartcraft.com/apps/craft-anything",
+      "status": "self-hosted",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://getartcraft.com/apps/craft-anything",
+          "title": "官方 WebAssembly 自托管构建"
+        },
+        {
+          "url": "https://github.com/storytold/craft-anything",
+          "title": "官方仓库"
+        }
+      ],
+      "notes": "2026-11-02 新增自托管 WebAssembly；无统一公共应用域名。"
+    },
+    {
+      "id": "fastbrowse-web",
+      "name": "fastbrowse",
+      "website": "https://fastbrowse.ai",
+      "status": "verified",
+      "domains": [
+        "console.fastbrowse.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://fastbrowse.ai",
+          "title": "fastbrowse 官网 hosted 说明"
+        },
+        {
+          "url": "https://console.fastbrowse.ai/",
+          "title": "已核验控制台主机"
+        }
+      ],
+      "notes": "2026-11-02 新增已核验 Web 入口 console.fastbrowse.ai。api.fastbrowse.ai 不记入。"
+    },
+    {
+      "id": "vaani-web",
+      "name": "Vaani",
+      "website": "https://www.vaani.dev/",
+      "status": "verified",
+      "domains": [
+        "platform.vaani.dev",
+        "app.vaanivoice.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vaani.dev/",
+          "title": "Vaani 官网（链到上述主机）"
+        },
+        {
+          "url": "https://platform.vaani.dev/",
+          "title": "已核验 platform.vaani.dev"
+        },
+        {
+          "url": "https://app.vaanivoice.ai/",
+          "title": "已核验 app.vaanivoice.ai"
+        }
+      ],
+      "notes": "2026-11-02 新增已核验 Web 入口 platform.vaani.dev 与 app.vaanivoice.ai。文档站不记入。"
+    },
+    {
+      "id": "embage-web",
+      "name": "Embage",
+      "website": "https://embage.com",
+      "status": "verified",
+      "domains": [
+        "app.embage.com"
+      ],
+      "sources": [
+        {
+          "url": "https://embage.com",
+          "title": "Embage 官网"
+        },
+        {
+          "url": "https://app.embage.com/",
+          "title": "已核验应用主机 app.embage.com"
+        }
+      ],
+      "notes": "2026-11-02 新增已核验 Web 入口 app.embage.com。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4438,5 +4561,6 @@
   "added_web_records_20261027": 2,
   "added_web_records_20261028": 2,
   "added_web_records_20261029": 1,
-  "added_web_records_20261030": 2
+  "added_web_records_20261030": 2,
+  "added_web_records_20261102": 6
 }

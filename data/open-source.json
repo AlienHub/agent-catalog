@@ -4042,5 +4042,165 @@
         "title": "官方 README：CLI 平台与安装"
       }
     ]
+  },
+  "agentmash-cli": {
+    "repository_url": "https://github.com/agentmash-dev/agentmash-cli",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/agentmash-dev/agentmash-cli/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-02",
+      "github_archived": false,
+      "last_push_at": "2026-11-01T03:10:28Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "MIT 结论仅限已核查的 agentmash-dev/agentmash-cli 公开源码。托管协调服务器、agentmash.dev 控制面与付费房间不继承本判断。维护状态参考公开仓库与 npm 发布，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/agentmash-dev/agentmash-cli",
+        "title": "官方 CLI 仓库"
+      },
+      {
+        "url": "https://github.com/agentmash-dev/agentmash-cli/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://agentmash.dev/",
+        "title": "官网"
+      }
+    ]
+  },
+  "aura-autopilot-ide": {
+    "repository_url": "https://github.com/ramenvr/autopilot",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/ramenvr/autopilot/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-02",
+      "github_archived": false,
+      "last_push_at": "2026-11-01T04:15:54Z"
+    },
+    "classification": "application",
+    "notes": "Apache-2.0 结论仅限已核查的 ramenvr/autopilot 公开源码。Aura 桌面订阅二进制、云端 Agent 服务与预构建引擎插件包不继承本判断。维护状态参考公开 Release 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/ramenvr/autopilot",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/ramenvr/autopilot/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://tryaura.dev/autopilot",
+        "title": "官网：开源并可随 Aura 订阅使用"
+      }
+    ]
+  },
+  "craft-anything-desktop": {
+    "repository_url": "https://github.com/storytold/craft-anything",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-APACHE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-02",
+      "github_archived": false,
+      "last_push_at": "2026-11-02T01:10:17Z"
+    },
+    "classification": "application",
+    "notes": "仓库同时提供 LICENSE-MIT 与 LICENSE-APACHE（README 写 MIT OR Apache-2.0）。本条按校验允许清单记 Apache-2.0，不否认另一侧 MIT。结论仅限已核查公开源码；预构建安装包与商标不继承本判断。",
+    "sources": [
+      {
+        "url": "https://github.com/storytold/craft-anything",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-APACHE",
+        "title": "官方 LICENSE-APACHE：Apache-2.0"
+      },
+      {
+        "url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-MIT",
+        "title": "官方 LICENSE-MIT：双许可另一侧"
+      }
+    ]
+  },
+  "craft-anything-cli": {
+    "repository_url": "https://github.com/storytold/craft-anything",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-APACHE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-02",
+      "github_archived": false,
+      "last_push_at": "2026-11-02T01:10:17Z"
+    },
+    "classification": "application",
+    "notes": "与桌面条同一仓库与双许可文本。结论仅限已核查源码。",
+    "sources": [
+      {
+        "url": "https://github.com/storytold/craft-anything",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-APACHE",
+        "title": "官方 LICENSE-APACHE：Apache-2.0"
+      }
+    ]
+  },
+  "craft-anything-web": {
+    "repository_url": "https://github.com/storytold/craft-anything",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-APACHE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-02",
+      "github_archived": false,
+      "last_push_at": "2026-11-02T01:10:17Z"
+    },
+    "classification": "application",
+    "notes": "与桌面条同一仓库。结论仅限已核查源码，不外推第三方托管该 WASM 构建的站点。",
+    "sources": [
+      {
+        "url": "https://github.com/storytold/craft-anything",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/storytold/craft-anything/blob/main/LICENSE-APACHE",
+        "title": "官方 LICENSE-APACHE：Apache-2.0"
+      }
+    ]
+  },
+  "fastbrowse-cli": {
+    "repository_url": "https://github.com/agent-labs-dev/fastbrowse",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/agent-labs-dev/fastbrowse/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-02",
+      "github_archived": false,
+      "last_push_at": "2026-11-01T22:39:54Z"
+    },
+    "classification": "application",
+    "notes": "MIT 结论仅限已核查的 agent-labs-dev/fastbrowse 公开源码。托管控制台、cloud browser 与付费 run 不继承本判断。维护状态参考公开 Release，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/agent-labs-dev/fastbrowse",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/agent-labs-dev/fastbrowse/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://fastbrowse.ai",
+        "title": "官网：MIT licensed"
+      }
+    ]
   }
 }

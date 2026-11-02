@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" width="140" height="140" fill="none">
+  <defs>
+    <linearGradient id="favBadgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a53e8"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+  </defs>
+  <!-- Purple Container Badge -->
+  <rect width="140" height="140" rx="30" fill="url(#favBadgeGrad)"/>
+  <!-- Scaled-up White Bot 'e' (fills 88% of badge) -->
+  <g transform="translate(5, 2) scale(0.88)">
+    <g transform="translate(0, 172) scale(0.1, -0.1)">
+      <!-- Inverted: Crisp White Bot Helmet -->
+      <path fill="#ffffff" d="M755 1346 c-200 -47 -346 -154 -421 -311 -43 -88 -58 -168 -51 -269 11 -159 126 -322 280 -394 108 -51 176 -64 332 -65 162 0 258 17 352 64 107 52 145 135 87 190 -25 24 -29 24 -252 29 -125 3 -234 9 -243 13 -26 13 -50 64 -43 91 11 47 36 58 151 67 191 14 315 58 381 134 49 55 65 93 65 159 1 133 -98 229 -288 282 -81 22 -273 28 -350 10z"/>
+      <!-- Dark Visor Screen -->
+      <path fill="#16122a" d="M1213 1180 c37 -11 80 -32 96 -46 56 -47 66 -148 18 -191 -34 -32 -54 -40 -183 -72 -264 -67 -389 -122 -457 -201 -33 -39 -57 -97 -57 -137 0 -41 34 -116 67 -149 41 -42 32 -43 -29 -5 -51 33 -78 66 -113 144 -55 120 -53 271 5 395 59 125 203 234 354 267 95 21 223 18 299 -5z"/>
+      <!-- Pure White Glowing Eyes -->
+      <path fill="#ffffff" d="M896 1061 c-22 -25 -32 -92 -17 -120 15 -28 62 -28 87 0 23 25 26 98 5 122 -18 23 -54 21 -75 -2z"/>
+      <path fill="#ffffff" d="M1156 1078 c-19 -27 -21 -89 -4 -106 34 -34 68 -1 68 65 0 61 -35 83 -64 41z"/>
+    </g>
+    <line x1="106" y1="36" x2="106" y2="28" stroke="#ffffff" stroke-width="2.8" stroke-linecap="round"/>
+    <circle cx="106" cy="24" r="5" fill="#ffffff"/>
+  </g>
+</svg>
