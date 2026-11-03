@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.38（2026-11-02），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.39（2026-11-03），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -636,3 +636,17 @@ Logo：Herdr 桌面端使用官方仓库 `assets/icons/herdr-ui-icon-clean.svg`�
 Logo：仅 Embage 使用官网纯矢量 SVG。其余未找到可核验纯矢量产品图标（含 PNG-in-SVG、横向字标），保持空 `icon`。
 
 未收录：DeepSeek Super-agent prototype（已有 Harness 的研究包）；Vercel agent-desktop / Scout SDK / Factory Droid / Copilot Fusion / Pane；SpeakON Agent（仅移动端+硬件）；候补名单与纯 SDK；#26 已列产品。PR #17 提供商目录不改。
+
+## v0.39 日更（2026-11-03）
+
+新增 5 条应用、5 个产品，目录共 524 条应用、351 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.38 / `main` @ `95cee0c`（#27 已合入）。#26 / #27 已列产品不重复。
+
+- Coincide 桌面端（Apoorv Darshan）：原生 AppKit macOS 编码 Agent 工作区。GitHub **v0.1.0**（2026-11-01）。**MIT**。是 T3 Code 的原生移植，与已有 T3 Code 分产品。不单列安装器 / 本机控制命令，不收录即将推出的其他平台。
+- Caprock 桌面端（Cybrix LLC）：本机 ADE，macOS + Windows + Linux。GitHub **v0.170.1**（2026-11-02）。**Apache-2.0**。不单列守护进程 CLI 与手机配对浏览器。
+- AI CodeOps Web（TechInnoHub）：浏览器端编码 Agent 平台，带合并门禁。开放 beta。已核验 `console.aicodeops.dev`。无公开产品源码仓。原名 CodeOps Studio（至 2026-10-06）。
+- Mercury CLI（Waleed Al Qusous, trading as Mercury CLI）：终端原生编码 Agent。GitHub **v1.0.3**（2026-11-02）。**Apache-2.0**。不单列编辑器桥与 SDK。
+- Friday 桌面端（Arun Dass / Friday Work）：本机多 Agent 编码 harness。官网 changelog 与 GitHub **v0.2.8**（2026-11-02）。**MIT**。不单列 npx 启动器与托管 Friday Team。
+
+Logo：Caprock 使用官方仓库 `ui/public/favicon.svg`。AI CodeOps 使用官方新闻资料 `aicodeops-mark.svg`。Mercury CLI 使用官网 `favicon.svg`。Friday 使用官方仓库 `public/favicon.svg`。Coincide 无可靠官方产品 SVG，保持空 `icon`。
+
+未收录：Hera（创意画布营销站，未见可核验独立 Agent 产品入口）；UnleashX（企业 workforce，本轮不收录）；Hyperresearch / Cedric / MultiCC；Scout（仍为 SDK）；#26 / #27 已覆盖条目不重复。PR #17 提供商目录不改。

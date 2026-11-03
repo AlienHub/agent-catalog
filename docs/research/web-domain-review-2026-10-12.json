@@ -4549,6 +4549,34 @@
         }
       ],
       "notes": "2026-11-02 新增已核验 Web 入口 app.embage.com。"
+    },
+    {
+      "id": "ai-codeops-web",
+      "name": "AI CodeOps",
+      "website": "https://aicodeops.dev/",
+      "status": "verified",
+      "domains": [
+        "console.aicodeops.dev"
+      ],
+      "sources": [
+        {
+          "url": "https://aicodeops.dev/",
+          "title": "AI CodeOps 官网"
+        },
+        {
+          "url": "https://console.aicodeops.dev/",
+          "title": "已核验 Web 应用主机 console.aicodeops.dev"
+        },
+        {
+          "url": "https://aicodeops.dev/docs/sso",
+          "title": "官方文档：控制台主机 console.aicodeops.dev"
+        },
+        {
+          "url": "https://aicodeops.dev/press/logo/aicodeops-mark.svg",
+          "title": "官方新闻资料原始 SVG 品牌标记"
+        }
+      ],
+      "notes": "2026-11-03 新增已核验 Web 入口 console.aicodeops.dev。营销站 aicodeops.dev 不是应用主机；/auth 301 至 console.aicodeops.dev/auth。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4562,5 +4590,6 @@
   "added_web_records_20261028": 2,
   "added_web_records_20261029": 1,
   "added_web_records_20261030": 2,
-  "added_web_records_20261102": 6
+  "added_web_records_20261102": 6,
+  "added_web_records_20261103": 1
 }

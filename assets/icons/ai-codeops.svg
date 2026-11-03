@@ -1,0 +1,21 @@
+<!-- AI CodeOps mark (master): a near-black rounded badge, white code brackets,
+     and the soft-blue AI spark between them ("AI inside code"). Source of truth
+     for public/favicon-v4.svg, the PNG/ICO set (scripts/generate-favicons.ts),
+     IconWorkspaceLogo, and the sign-in page icon. Colours follow the console
+     theme: #161616 base, soft-blue accent #a2bcff. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="aic-badge" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2b2d35"/>
+      <stop offset="1" stop-color="#121317"/>
+    </linearGradient>
+    <linearGradient id="aic-spark" x1="180" y1="180" x2="332" y2="332" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#dfe8ff"/>
+      <stop offset="1" stop-color="#7f9cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#aic-badge)"/>
+  <rect x="8" y="8" width="496" height="496" rx="104" stroke="#ffffff" stroke-opacity="0.09" stroke-width="16"/>
+  <path d="M168 168 80 256 168 344M344 168 432 256 344 344" stroke="#ffffff" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M256 176Q269 243 336 256Q269 269 256 336Q243 269 176 256Q243 243 256 176Z" fill="url(#aic-spark)"/>
+</svg>
