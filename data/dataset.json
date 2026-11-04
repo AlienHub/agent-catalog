@@ -12657,5 +12657,262 @@
     "web_domains": [],
     "web_domain_status": "not-applicable",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "herdr-desktop",
+    "name": "Herdr",
+    "aliases": [
+      "Herdr App",
+      "herdr-app"
+    ],
+    "vendor": "herdrdev",
+    "type": "AI 编程",
+    "website": "https://herdr.dev/",
+    "platforms": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ],
+    "icon": "icons/herdr-app.svg",
+    "vendor_id": "herdrdev",
+    "product_id": "herdr-app",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "herdr-cli",
+    "name": "Herdr TUI",
+    "aliases": [
+      "herdr",
+      "Herdr"
+    ],
+    "vendor": "herdrdev",
+    "type": "AI 编程",
+    "website": "https://herdr.dev/tui",
+    "platforms": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ],
+    "icon": "icons/herdr.svg",
+    "vendor_id": "herdrdev",
+    "product_id": "herdr",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "mao-desktop",
+    "name": "MAO",
+    "aliases": [
+      "Multi-Agent Orchestration",
+      "trymao"
+    ],
+    "vendor": "MAO",
+    "type": "AI 编程",
+    "website": "https://trymao.dev/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/mao.svg",
+    "vendor_id": "mao",
+    "product_id": "mao",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "yardlet-desktop",
+    "name": "Yardlet",
+    "aliases": [],
+    "vendor": "zzunkie",
+    "type": "AI 编程",
+    "website": "https://yardlet.app/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/yardlet.svg",
+    "vendor_id": "zzunkie",
+    "product_id": "yardlet",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "mudroom-desktop",
+    "name": "Mudroom",
+    "aliases": [],
+    "vendor": "Kernel-Hunter（Karim Masmoudi）",
+    "type": "AI 编程",
+    "website": "https://kernel-hunter.github.io/mudroom/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "kernel-hunter",
+    "product_id": "mudroom",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "mudroom-cli",
+    "name": "Mudroom",
+    "aliases": [],
+    "vendor": "Kernel-Hunter（Karim Masmoudi）",
+    "type": "AI 编程",
+    "website": "https://kernel-hunter.github.io/mudroom/",
+    "platforms": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "kernel-hunter",
+    "product_id": "mudroom",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "zest-desktop",
+    "name": "Zest",
+    "aliases": [
+      "zest"
+    ],
+    "vendor": "Dashovia",
+    "type": "AI 编程",
+    "website": "https://zest.dashovia.app/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "dashovia",
+    "product_id": "zest",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "jimmy-desktop",
+    "name": "JIMMY",
+    "aliases": [
+      "Jimmy"
+    ],
+    "vendor": "Vedansh Danot",
+    "type": "通用任务 Agent",
+    "website": "https://jimmy.vedanshh.dev/",
+    "platforms": [
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "vedansh-danot",
+    "product_id": "jimmy",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "empacer-web",
+    "name": "Empacer",
+    "aliases": [],
+    "vendor": "Empacer Ltd.",
+    "type": "办公智能体",
+    "website": "https://empacer.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/empacer.svg",
+    "vendor_id": "empacer",
+    "product_id": "empacer",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.empacer.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-30"
+  },
+  {
+    "id": "intrascope-web",
+    "name": "Intrascope",
+    "aliases": [
+      "Intrascope 2.0"
+    ],
+    "vendor": "Intrascope AI LLC",
+    "type": "通用助手",
+    "website": "https://intrascope.app/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/intrascope.svg",
+    "vendor_id": "intrascope-ai",
+    "product_id": "intrascope",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "platform.intrascope.app"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-10-30"
   }
 ]

@@ -10952,5 +10952,301 @@
       }
     ],
     "verified_at": "2026-10-29"
+  },
+  "herdr-desktop": {
+    "notes": "herdrdev 出品的本机优先桌面应用 Herdr（仓库 herdr-app）：面向终端与编码 Agent 的原生工作区，连接已有 Claude Code / Codex 等，支持 Agent 状态（working / blocked / done）、SSH 远程机器、Agent 互相启动与汇报；界面布局与 mods 均为 ~/.config/herdr-app 下可由 Agent 改写的普通文件。本条仅桌面 GUI。官网下载页提供 macOS Apple silicon .dmg，以及 macOS / Linux（x86_64、arm64）/ Windows x86_64 一键安装脚本；Intel Mac 需自行构建。官方 FAQ 写明本应用是“新的、独立的程序”，终端运行在 herdr-core 中，与 Herdr TUI 不共享 Agent，故与 herdr-cli 分 product_id。herdr-core 为后台运行时（含 hc 命令），面向服务器或自建客户端，不作为最终用户表面单列。官方发布清单 releases.herdr.dev/app/latest.json 当前版本 **0.1.9**（core_min 0.1.11），GitHub 最新标签 v0.1.9；GitHub Releases 页无发布说明。源码 Apache-2.0，见 open-source.json。Logo 取自官方仓库 assets/icons/herdr-ui-icon-clean.svg 原样矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://herdr.dev/",
+        "title": "Herdr 官网：原生 Agent 工作区；FAQ 说明与 Herdr TUI 为独立程序"
+      },
+      {
+        "url": "https://herdr.dev/download/",
+        "title": "官方下载页：macOS Apple silicon / Linux x86_64+arm64 / Windows x86_64"
+      },
+      {
+        "url": "https://github.com/herdrdev/herdr-app",
+        "title": "herdrdev/herdr-app 官方仓库"
+      },
+      {
+        "url": "https://github.com/herdrdev/herdr-app/blob/master/README.md",
+        "title": "官方 README：安装、平台与 herdr-core 关系"
+      },
+      {
+        "url": "https://releases.herdr.dev/app/latest.json",
+        "title": "官方发布清单：version 0.1.9"
+      },
+      {
+        "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.9",
+        "title": "GitHub 标签 v0.1.9"
+      },
+      {
+        "url": "https://github.com/herdrdev/herdr-app/blob/master/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/herdrdev/herdr-app/master/assets/icons/herdr-ui-icon-clean.svg",
+        "title": "官方仓库原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-30"
+  },
+  "herdr-cli": {
+    "notes": "herdrdev 出品的终端多路复用器 / 编码 Agent 运行时 Herdr TUI（仓库 herdrdev/herdr，单个 Rust 二进制）：每个 Agent 一个终端，关闭客户端或 SSH 断开后后台 server 继续运行，支持多机器、Agent 状态标记、插件市场与 socket API。本条仅 CLI/TUI。官网 herdr.dev/tui 与 README 提供 curl 安装脚本、Homebrew、mise、Windows PowerShell 与 GitHub 二进制（Linux x86_64/aarch64、macOS x86_64/aarch64、Windows x86_64）。GitHub 最新非 prerelease Release **v0.9.5**（2026-10-14）；其后仅 preview 预发布。约 46.7k GitHub stars。官网将其定位为“原始的 Herdr”，与新桌面应用为独立程序、不共享 Agent，故单独 product_id。此前日更从未收录，本次补录。源码 Apache-2.0，见 open-source.json。Logo 取自官方仓库 assets/logo.svg 原样矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://herdr.dev/tui",
+        "title": "Herdr TUI 官方页：安装与平台"
+      },
+      {
+        "url": "https://github.com/herdrdev/herdr",
+        "title": "herdrdev/herdr 官方仓库"
+      },
+      {
+        "url": "https://github.com/herdrdev/herdr/blob/master/README.md",
+        "title": "官方 README：安装方式与功能"
+      },
+      {
+        "url": "https://github.com/herdrdev/herdr/releases/tag/v0.9.5",
+        "title": "GitHub Releases · v0.9.5（2026-10-14，非 prerelease）"
+      },
+      {
+        "url": "https://herdr.dev/",
+        "title": "Herdr 官网 FAQ：Herdr TUI 与桌面应用为独立程序"
+      },
+      {
+        "url": "https://github.com/herdrdev/herdr/blob/master/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/herdrdev/herdr/master/assets/logo.svg",
+        "title": "官方仓库原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-30"
+  },
+  "mao-desktop": {
+    "notes": "MAO（Multi-Agent Orchestration，trymao.dev）：原生桌面多 Agent 画布，把 Claude Code、Codex、Gemini CLI、Grok、OpenCode、Antigravity 与 shell 作为真实终端放在同一画布上，支持 Agent 间任务交接、git worktree “Layers”、浏览器 / Android / iOS 模拟器 Portals、定时 Routines 与 SSH 远程工作区。本条仅桌面 GUI。官方下载页提供 Windows 64 位、macOS Apple silicon / Intel 与 Linux 安装脚本。`mao` 命令是应用内连接 Agent 终端使用的本地 bridge（mao list / recruit / layer 等），不是独立编码 CLI，不单列。官方 changelog 最新 **MAO 0.12.1**（2026-10-29）；无公开 GitHub 仓库或 Release 标签。7 天免费试用（邮箱登录，无需银行卡），之后 $20 一次性买断，见 commercial.json。官网版权署名 “© 2026 MAO”，联系邮箱域为 miguer.com，未公开法律实体名，vendor 按官网品牌记 MAO。Logo 取自官网 favicon.svg 原样矢量。官网资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://trymao.dev/",
+        "title": "MAO 官网：原生应用 macOS / Windows / Linux；定价与隐私说明"
+      },
+      {
+        "url": "https://trymao.dev/download",
+        "title": "官方下载页：Windows / Mac Apple silicon / Mac Intel / Linux；7 天试用与 $20 买断"
+      },
+      {
+        "url": "https://trymao.dev/changelog",
+        "title": "官方 changelog：MAO 0.12.1（2026-10-29）"
+      },
+      {
+        "url": "https://trymao.dev/docs",
+        "title": "官方文档：83 篇指南，含 Orchestration & the mao CLI"
+      },
+      {
+        "url": "https://trymao.dev/docs/connections-orchestration-mao-cli/peer-discovery",
+        "title": "官方文档：mao bridge 在已连接 Agent 终端内使用"
+      },
+      {
+        "url": "https://trymao.dev/privacy",
+        "title": "官方隐私政策"
+      },
+      {
+        "url": "https://trymao.dev/favicon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-30"
+  },
+  "yardlet-desktop": {
+    "notes": "zzunkie 出品的开源 macOS 原生工作台 Yardlet（Swift / SwiftUI，非 Web 视图）：用已登录的 Agent CLI（Codex、Claude Code、OpenCode、Cursor Agent、Antigravity CLI、Kimi Code、Grok Build、Hermes Agent、Muse Code、Pi）并排运行任务，共享侧栏、对话视图、composer 与审批卡片，支持任务间交接、diff / PR 审查、多账号额度、内置浏览器与 MCP 连接器。本条仅桌面 GUI。官网与 README 写明 macOS 15+、Apple silicon；提供公证 .dmg 与 `brew install --cask zzunkie/tap/yardlet`，Sparkle 自更新。GitHub 最新产品 Release **v0.11.4**（2026-10-29），官网同为 0.11.4；其后仅 CEF 构建输入标签，不是产品版本。仓库现为 Swift 应用（候选线索提到的 TUI crate README 已不适用）。“From your phone” 远程访问不收录移动端。源码 MIT，见 open-source.json。Logo 取自官网 assets/favicon.svg 原样矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://yardlet.app/",
+        "title": "Yardlet 官网：Mac 应用，版本 0.11.4，macOS 15+ Apple silicon"
+      },
+      {
+        "url": "https://github.com/zzunkie/yardlet",
+        "title": "zzunkie/yardlet 官方仓库（Swift）"
+      },
+      {
+        "url": "https://github.com/zzunkie/yardlet/blob/main/README.md",
+        "title": "官方 README：要求、安装、Homebrew cask、Sparkle 更新"
+      },
+      {
+        "url": "https://github.com/zzunkie/yardlet/releases/tag/v0.11.4",
+        "title": "GitHub Releases · Yardlet 0.11.4（2026-10-29）"
+      },
+      {
+        "url": "https://github.com/zzunkie/yardlet/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://yardlet.app/assets/favicon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-30"
+  },
+  "mudroom-desktop": {
+    "notes": "Kernel-Hunter（LICENSE 署名 Karim Masmoudi）出品的开源沙箱工作台 Mudroom：在 Linux 微虚拟机中以项目的 APFS 写时复制克隆运行 Claude Code、Codex、Gemini CLI、opencode、Aider 或任意命令，网络仅放行白名单主机，完成后像 PR 一样按文件 / hunk 审查并应用、可撤销。本条仅 macOS 原生 SwiftUI 应用。官网与 README 写明应用仅支持 Apple silicon + macOS 26，通过安装脚本或 `brew install --cask kernel-hunter/tap/mudroom` 安装，ad-hoc 签名未公证。GitHub 最新 Release **v0.3.0**（2026-10-20）。README 自述 “early prototype”；GitHub 约 14 stars，按 Product Hunt / Show HN 已发布的真实最终用户应用收录。源码 MIT，见 open-source.json。仓库仅 AppIcon.icns / .png，无可核验官方 SVG，icon 留空。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://kernel-hunter.github.io/mudroom/",
+        "title": "Mudroom 官网：macOS 应用与 CLI；Apple silicon + macOS 26"
+      },
+      {
+        "url": "https://github.com/Kernel-Hunter/mudroom",
+        "title": "Kernel-Hunter/mudroom 官方仓库"
+      },
+      {
+        "url": "https://github.com/Kernel-Hunter/mudroom/blob/main/README.md",
+        "title": "官方 README：要求表、安装、early prototype 状态"
+      },
+      {
+        "url": "https://github.com/Kernel-Hunter/mudroom/releases/tag/v0.3.0",
+        "title": "GitHub Releases · Mudroom 0.3.0（2026-10-20）"
+      },
+      {
+        "url": "https://github.com/Kernel-Hunter/mudroom/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Karim Masmoudi）"
+      }
+    ],
+    "verified_at": "2026-10-30"
+  },
+  "mudroom-cli": {
+    "notes": "同一 Mudroom 产品的终端形态 `mudroom` 命令（run / diff / network log / apply / undo / setup），与应用执行相同命令。README 要求表：macOS 26+ Apple silicon 随应用安装；macOS Intel 与 Linux x86_64/arm64 仅 CLI、需 Docker 或 Podman 且自行构建；Windows 10/11 x86_64/arm64 仅 CLI，提供 Scoop bucket 与 Release zip（mudroom-0.3.0-windows-x86_64 / arm64.zip）。本条仅 CLI。版本与桌面条相同 **v0.3.0**（2026-10-20）。源码 MIT。无可核验官方 SVG。官网/仓库资料核验，未做安装或运行测试。",
+    "sources": [
+      {
+        "url": "https://kernel-hunter.github.io/mudroom/",
+        "title": "Mudroom 官网：“From the terminal” 命令示例；Linux / Windows / Intel Mac 为 CLI"
+      },
+      {
+        "url": "https://github.com/Kernel-Hunter/mudroom/blob/main/README.md",
+        "title": "官方 README：平台要求表与 Install on Windows"
+      },
+      {
+        "url": "https://github.com/Kernel-Hunter/mudroom/releases/tag/v0.3.0",
+        "title": "GitHub Releases · v0.3.0 含 Windows x86_64 / arm64 zip"
+      },
+      {
+        "url": "https://github.com/Kernel-Hunter/mudroom/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      }
+    ],
+    "verified_at": "2026-10-30"
+  },
+  "zest-desktop": {
+    "notes": "Zest（zest.dashovia.app）：macOS 菜单键 ⌥Space 唤出的径向“命令轮”，在任意项目中按 slice 启动 Claude Code、Codex、Gemini CLI、Ghostty 或任意 shell 命令，支持按 .zest.yml 自定义轮盘、git worktree 并行“race”与 diff 合并。本条仅桌面 GUI。官网要求 macOS 26+，直接分发（Apple 签名公证，Sparkle 自更新，不上架 Mac App Store）。官方 appcast.xml 最新 **1.1.0**（2026-10-29），下载链接 Zest.dmg?v=1.1.0。14 天免费试用（无账户），之后 Zest Pro 一次性买断（发布价 $19，原价 $29），见 commercial.json。官网版权署名 “© 2026 zest”，未公开法律实体名，vendor 按站点域名记 Dashovia。无公开源码仓库。仅 favicon.ico / png，无可核验官方 SVG，icon 留空。官网资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://zest.dashovia.app/",
+        "title": "Zest 官网：macOS 26+、下载、定价与 FAQ"
+      },
+      {
+        "url": "https://zest.dashovia.app/appcast.xml",
+        "title": "官方 Sparkle appcast：1.1.0（2026-10-29）"
+      },
+      {
+        "url": "https://zest.dashovia.app/terms.html",
+        "title": "官方条款：14 天试用、一次性许可、最多 3 台 Mac"
+      },
+      {
+        "url": "https://zest.dashovia.app/privacy.html",
+        "title": "官方隐私政策：本机运行，仅许可与更新检查联网"
+      }
+    ],
+    "verified_at": "2026-10-30"
+  },
+  "jimmy-desktop": {
+    "notes": "Vedansh Danot 出品的 Windows 本机个人 Agent JIMMY：常驻任务栏托盘，监听用户自己的 WhatsApp 自聊消息，在允许的文件夹 / 应用 / 浏览器 / 终端 / GitHub / Gmail 中执行任务，涉及改动需回复 YES、敏感操作需 PIN，支持撤销、定时任务与可审查的 skills。本条仅 Windows 桌面 GUI（设置窗口 + 仪表盘 + 托盘）；WhatsApp 为 IM 渠道，不单列。官方帮助页写明 Windows 10/11 64 位、安装器尚未代码签名。官方 changelog 最新 **0.3.1**（2026-10-25）；0.3.0 新增浏览器扩展配对（Chrome / Brave / Edge），商店 ID 未核验，不单列浏览器插件。安装包需登录账户后获取，官网自述 “early software”。$9.99/月（3 天试用）或 $29 创始人终身，见 commercial.json。无公开源码仓库。仅 PNG 图标，无可核验官方 SVG，icon 留空。官网资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://jimmy.vedanshh.dev/",
+        "title": "JIMMY 官网：Windows 10/11；WhatsApp 控制"
+      },
+      {
+        "url": "https://jimmy.vedanshh.dev/changelog",
+        "title": "官方 changelog：0.3.1（2026-10-25）"
+      },
+      {
+        "url": "https://jimmy.vedanshh.dev/help",
+        "title": "官方帮助：安装、托盘 / 仪表盘、更新机制"
+      },
+      {
+        "url": "https://jimmy.vedanshh.dev/blogs/introducing-jimmy",
+        "title": "官方博文 Introducing JIMMY（2026-10-22，Vedansh Danot）"
+      },
+      {
+        "url": "https://jimmy.vedanshh.dev/about",
+        "title": "官方 About：本机运行，账户仅保存方案与许可证"
+      },
+      {
+        "url": "https://jimmy.vedanshh.dev/pricing",
+        "title": "官方定价：$9.99/月或 $29 终身"
+      }
+    ],
+    "verified_at": "2026-10-30"
+  },
+  "empacer-web": {
+    "notes": "Empacer Ltd.（塞浦路斯利马索尔，HE 497961；美国由 Empacer Sky Corp. 分销）出品的语音优先中小企业 AI 助手 Empacer：口述任务后，基于“业务记忆”起草营销内容、客户回复、文档与报表，由用户审批后发送，并接入日常应用。本条仅 Web。官方登录页写明 Web 应用入口为 app.empacer.com，已核验该主机响应；营销站 www.empacer.com 不记入 web_domains。另有 Android 应用，按目录范围不收录。付费订阅、无免费档（定价页写明），见 commercial.json。Product Hunt 2026-10-29 发布（官网挂有 PH 徽章；PH 页面本次未能直接抓取）。不是编码 Agent；按办公智能体归类。Logo 取自官网 icon.svg 原样矢量。官网资料核验，未做注册、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://empacer.com/",
+        "title": "Empacer 官网：语音优先业务助手"
+      },
+      {
+        "url": "https://www.empacer.com/login/",
+        "title": "官方登录页：Web 应用入口 app.empacer.com；Android 应用"
+      },
+      {
+        "url": "https://app.empacer.com/",
+        "title": "已核验 Web 应用主机 app.empacer.com"
+      },
+      {
+        "url": "https://www.empacer.com/pricing/",
+        "title": "官方定价说明：付费订阅，无免费档"
+      },
+      {
+        "url": "https://legal.empacer.com/terms",
+        "title": "官方条款：Empacer Ltd.（Limassol, Cyprus）"
+      },
+      {
+        "url": "https://www.empacer.com/icon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-30"
+  },
+  "intrascope-web": {
+    "notes": "Intrascope AI LLC（特拉华州）出品的团队 AI 工作区 Intrascope：一个界面接入 GPT / Claude / Gemini / DeepSeek / Grok / Mistral 等 120+ 模型，含项目、manifests、以 / 调用的 Skills，管理员控制模型权限、预算与用量。官网写明 **Intrascope 2.0** 已上线：Agentic chat、1,650+ MCP 连接器、文档导出与团队管理。本条仅 Web。已核验团队应用主机 platform.intrascope.app；营销站 intrascope.app 不记入 web_domains。Starter $59/月起、7 天免费试用、BYOK 或托管用量，见 commercial.json。既是治理控制层也是面向成员的多模型对话 / Agent 工作台，按通用助手归类。Logo 取自官网 favicon.svg 原样矢量。官网资料核验，未做注册、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://intrascope.app/",
+        "title": "Intrascope 官网：团队 AI 工作区；Intrascope 2.0 已上线"
+      },
+      {
+        "url": "https://intrascope.app/intrascope-ai-get-started",
+        "title": "官方 Get Started：方案、7 天试用、团队应用入口"
+      },
+      {
+        "url": "https://platform.intrascope.app/",
+        "title": "已核验 Web 应用主机 platform.intrascope.app"
+      },
+      {
+        "url": "https://intrascope.app/pricing",
+        "title": "官方定价：Starter / Business / Growth / Enterprise"
+      },
+      {
+        "url": "https://intrascope.app/terms-of-service",
+        "title": "官方条款：Intrascope AI LLC（Delaware）"
+      },
+      {
+        "url": "https://intrascope.app/favicon.svg",
+        "title": "官方原始 SVG 品牌素材"
+      }
+    ],
+    "verified_at": "2026-10-30"
   }
 }

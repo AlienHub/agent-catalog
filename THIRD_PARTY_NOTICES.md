@@ -224,3 +224,16 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | --- | --- | --- |
 | `assets/icons/openbot.svg` | [nightly-labs/openbot `build/icon.svg`](https://raw.githubusercontent.com/nightly-labs/openbot/main/build/icon.svg) | `b1ebeacfa21feda7c148e0c3f7e99dcfa9f0d42e646ecc402d730b316862a7c7` |
 | `assets/icons/cusp.svg` | [Cusp 官网 `icon.svg`](https://cusp.run/icon.svg) | `b5d172d27d8b137a4e4ae7e41a63d4bb29321f0dce9ca0f5bf6ecbd645779c1d` |
+
+## v0.37 Logo 收录（2026-10-30）
+
+本批 SVG 均原样保存，未重绘。官方站点或官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。Mudroom、Zest 与 JIMMY 未找到可核验官方产品 SVG（仅 icns / ico / png），保持空 `icon`。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/herdr-app.svg` | [herdrdev/herdr-app `assets/icons/herdr-ui-icon-clean.svg`](https://raw.githubusercontent.com/herdrdev/herdr-app/master/assets/icons/herdr-ui-icon-clean.svg) | `8408cbea998f7f4260052f7605869aaa9de2997824ae67773d2069a26aa672f7` |
+| `assets/icons/herdr.svg` | [herdrdev/herdr `assets/logo.svg`](https://raw.githubusercontent.com/herdrdev/herdr/master/assets/logo.svg) | `f4a8400d515fcf50112a952a5b48f5fa6e6b02b4dcb0b483ca92be39f7d7f7a1` |
+| `assets/icons/mao.svg` | [MAO 官网 `favicon.svg`](https://trymao.dev/favicon.svg) | `b9049fe7e03682f191a1d531d9060d36a1e7d9cb752768ba3e215e8e93536782` |
+| `assets/icons/yardlet.svg` | [Yardlet 官网 `assets/favicon.svg`](https://yardlet.app/assets/favicon.svg) | `354635b97c282efa8367f9bd62bd0dd6656458b29e7d6054ed7ad7197d6969ea` |
+| `assets/icons/empacer.svg` | [Empacer 官网 `icon.svg`](https://www.empacer.com/icon.svg) | `804f3d883264763445c650f1d0bddd946d08f6d1938c4c596d4ad8d3926aa27d` |
+| `assets/icons/intrascope.svg` | [Intrascope 官网 `favicon.svg`](https://intrascope.app/favicon.svg) | `61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66` |

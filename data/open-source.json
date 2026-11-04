@@ -3902,5 +3902,145 @@
       }
     ],
     "classification": "application"
+  },
+  "herdr-desktop": {
+    "repository_url": "https://github.com/herdrdev/herdr-app",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/herdrdev/herdr-app/blob/master/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-30",
+      "github_archived": false,
+      "last_push_at": "2026-10-30T01:51:27Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "Apache-2.0 结论仅限已核查的 herdrdev/herdr-app 公开源码。预构建安装包、herdr-core 运行时与所连接的第三方 Agent CLI 不继承本判断。维护状态参考官方发布清单 0.1.9 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/herdrdev/herdr-app",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/herdrdev/herdr-app/blob/master/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://herdr.dev/",
+        "title": "官网：应用、herdr-core 与 Herdr TUI 均为 Apache 2.0 开源"
+      }
+    ]
+  },
+  "herdr-cli": {
+    "repository_url": "https://github.com/herdrdev/herdr",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/herdrdev/herdr/blob/master/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-30",
+      "github_archived": false,
+      "last_push_at": "2026-10-29T12:57:41Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "Apache-2.0 结论仅限已核查的 herdrdev/herdr 公开源码。预构建二进制、Homebrew 包与所运行的第三方 Agent CLI 不继承本判断。维护状态参考公开 Release v0.9.5 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/herdrdev/herdr",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/herdrdev/herdr/blob/master/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://github.com/herdrdev/herdr/blob/master/README.md",
+        "title": "官方 README 许可证徽章"
+      }
+    ]
+  },
+  "yardlet-desktop": {
+    "repository_url": "https://github.com/zzunkie/yardlet",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/zzunkie/yardlet/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-30",
+      "github_archived": false,
+      "last_push_at": "2026-10-30T03:58:50Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "MIT 结论仅限已核查的 zzunkie/yardlet 公开源码。公证 .dmg、Homebrew cask 与所启动的第三方 Agent CLI 不继承本判断。维护状态参考公开 Release v0.11.4 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/zzunkie/yardlet",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/zzunkie/yardlet/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://yardlet.app/",
+        "title": "官网：Free and open source, MIT License"
+      }
+    ]
+  },
+  "mudroom-desktop": {
+    "repository_url": "https://github.com/Kernel-Hunter/mudroom",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/Kernel-Hunter/mudroom/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-30",
+      "github_archived": false,
+      "last_push_at": "2026-10-28T14:43:37Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "MIT 结论仅限已核查的 Kernel-Hunter/mudroom 公开源码。预构建应用、Homebrew cask、Apple container 运行时与沙箱内运行的第三方 Agent 不继承本判断。README 自述 early prototype；维护状态参考公开 Release v0.3.0 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/Kernel-Hunter/mudroom",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/Kernel-Hunter/mudroom/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://kernel-hunter.github.io/mudroom/",
+        "title": "官网：Free, MIT licensed"
+      }
+    ]
+  },
+  "mudroom-cli": {
+    "repository_url": "https://github.com/Kernel-Hunter/mudroom",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/Kernel-Hunter/mudroom/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-10-30",
+      "github_archived": false,
+      "last_push_at": "2026-10-28T14:43:37Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "与桌面条同一仓库与 MIT 文本。结论仅限已核查源码；Windows Release zip、Scoop 包与 Docker / Podman 后端不继承本判断。",
+    "sources": [
+      {
+        "url": "https://github.com/Kernel-Hunter/mudroom",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/Kernel-Hunter/mudroom/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/Kernel-Hunter/mudroom/blob/main/README.md",
+        "title": "官方 README：CLI 平台与安装"
+      }
+    ]
   }
 }
