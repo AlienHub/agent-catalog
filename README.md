@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.37（2026-10-30），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.38（2026-11-02），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -616,3 +616,23 @@ Logo：OpenBot 使用官方仓库 `build/icon.svg`。Cusp 使用官网 `icon.svg
 Logo：Herdr 桌面端使用官方仓库 `assets/icons/herdr-ui-icon-clean.svg`，Herdr TUI 使用官方仓库 `assets/logo.svg`，MAO 使用官网 `favicon.svg`，Yardlet 使用官网 `assets/favicon.svg`，Empacer 使用官网 `icon.svg`，Intrascope 使用官网 `favicon.svg`。Mudroom / Zest / JIMMY 仅 icns / ico / png，保持空 `icon`。
 
 未收录：Scout（仍为 `@outcrawl/scout` npm SDK；Outcrawl 为 API 基础设施，`outcrawl` CLI 不是最终用户 Agent）；herdr-core（后台运行时）；MAO `mao` bridge、JIMMY 浏览器扩展（商店 ID 未核验）、Empacer Android、Yardlet / OpenBot 式手机远程端；Intrascope 管理后台与成员应用同一 Web 产品不拆分。Product Hunt 页面本次返回 403，版本与形态均以官网 / GitHub 为准。PR #17 提供商目录不改。
+
+## v0.38 日更（2026-11-02）
+
+新增 16 条应用、11 个产品，目录共 519 条应用、346 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.37 / `main` @ `95170bc`（#26 已合入）。#26 已列产品不重复。
+
+- Mo 桌面端（Apps by Mo）：macOS 15+ 屏幕助手。官网 **1.0.2**（2026-11-01）。无 GitHub。
+- Pluto Door 桌面端：macOS SSH 客户端，内建 Ori Agent。不单列 Ori。站点无当前 semver。
+- ClawsGO Science Web 与桌面端（BitMiracle Technology Limited）：科研 Agent。Web 主机 `clawsgo.ai`；桌面 **v1.1.4**。
+- Fluent 桌面端（Epic Bits）：macOS 14.2+ 通用助手。changelog **2.3.3**。未核验扩展商店 ID，不单列插件。
+- agentmash Web 与 CLI：团队编码 Agent 协调。CLI 仓库 **MIT**；npm **0.13.5**。已核验 `agentmash.dev`。
+- Termy 桌面端（Yasarcan Kasal）：官网 **apptermy.com**（不是 termyapp.com）。制作者说明 **1.4.5**。
+- Aura Autopilot 编辑器插件（Ramen）：Unreal/Unity/Godot。GitHub **v1.0.0-848084e**。**Apache-2.0**。不单列 Aura 桌面。
+- Craft Anything 桌面 / CLI / 自托管 Web（ArtCraft）：GitHub **v0.2.0**。双许可记 **Apache-2.0**。不是已有 Craft Agents / Craft RPGs。
+- fastbrowse CLI 与托管 Web（Agent Labs）：GitHub **v0.9.1**。CLI **MIT**；已核验 `console.fastbrowse.ai`。
+- Vaani Web：语音 Agent 平台。已核验 `platform.vaani.dev`、`app.vaanivoice.ai`。
+- Embage Web：无代码客服 Agent。已核验 `app.embage.com`。官方 `favicon.svg`。
+
+Logo：仅 Embage 使用官网纯矢量 SVG。其余未找到可核验纯矢量产品图标（含 PNG-in-SVG、横向字标），保持空 `icon`。
+
+未收录：DeepSeek Super-agent prototype（已有 Harness 的研究包）；Vercel agent-desktop / Scout SDK / Factory Droid / Copilot Fusion / Pane；SpeakON Agent（仅移动端+硬件）；候补名单与纯 SDK；#26 已列产品。PR #17 提供商目录不改。

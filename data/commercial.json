@@ -1599,5 +1599,141 @@
         "title": "官方 Get Started：7 days free · No credit card required"
       }
     ]
+  },
+  "mo-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-02",
+    "notes": "官网写明一次买断，另有限时优惠码。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://appsbymo.app/mo/",
+        "title": "Mo 官方产品页：定价与一次买断说明"
+      }
+    ]
+  },
+  "pluto-door-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-02",
+    "notes": "官网提供月付 / 年付 / 终身许可，以及试用。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://www.plutodoor.com/",
+        "title": "Pluto Door 官网定价"
+      }
+    ]
+  },
+  "clawsgo-science-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-02",
+    "notes": "条款含订阅与积分计费；计划到期后回到免费档。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://clawsgo.ai/terms",
+        "title": "ClawsGO 条款：Subscriptions, credits, and payment"
+      }
+    ]
+  },
+  "clawsgo-science-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-02",
+    "notes": "与 Web 条同一官方计费；桌面客户端登录同一账户。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://clawsgo.ai/terms",
+        "title": "ClawsGO 条款：Subscriptions, credits, and payment"
+      }
+    ]
+  },
+  "fluent-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-02",
+    "notes": "官网提供一次买断档（Basic / Team 等）与教育折扣。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://fluentmac.app/",
+        "title": "Fluent 官网定价"
+      }
+    ]
+  },
+  "agentmash-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-02",
+    "notes": "官网与 README 写明免费档有人数上限，并提供付费/企业自托管。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://agentmash.dev/",
+        "title": "agentmash 官网"
+      },
+      {
+        "url": "https://agentmash.dev/pricing",
+        "title": "官方定价页"
+      }
+    ]
+  },
+  "agentmash-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-02",
+    "notes": "与 Web 条同一官方商业服务；CLI 本身 MIT，此标签不表示客户端必须付费。",
+    "sources": [
+      {
+        "url": "https://agentmash.dev/",
+        "title": "agentmash 官网：Free for 2 developers"
+      }
+    ]
+  },
+  "termy-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-02",
+    "notes": "官网写明免费可用，Pro 为一次买断。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://apptermy.com/",
+        "title": "Termy 官网：Free 与 Pro"
+      }
+    ]
+  },
+  "aura-autopilot-ide": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-02",
+    "notes": "Autopilot 开源可自用；产品页同时写明包含在 Aura 订阅中。按已核验官方付费服务记录，不表示插件必须付费。",
+    "sources": [
+      {
+        "url": "https://tryaura.dev/autopilot",
+        "title": "Aura Autopilot 产品页：开源并包含在 Aura 订阅"
+      }
+    ]
+  },
+  "fastbrowse-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-02",
+    "notes": "官网 hosted 提供 Free / Starter / Pro / Scale / Enterprise 档。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://fastbrowse.ai",
+        "title": "fastbrowse 官网 hosted 定价"
+      }
+    ]
+  },
+  "vaani-web": {
+    "offer": "enterprise-service",
+    "verified_at": "2026-11-02",
+    "notes": "官网提供企业级语音 Agent 平台与实施。按已核验官方企业/付费服务记录，不记录价格。",
+    "sources": [
+      {
+        "url": "https://www.vaani.dev/",
+        "title": "Vaani 官网：Enterprise-grade solutions"
+      }
+    ]
+  },
+  "embage-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-02",
+    "notes": "官网提供 Free（自备密钥）以及 Starter / Pro / Enterprise 付费档。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://embage.com",
+        "title": "Embage 官网定价"
+      }
+    ]
   }
 }

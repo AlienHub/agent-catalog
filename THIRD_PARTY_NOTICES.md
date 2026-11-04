@@ -237,3 +237,11 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | `assets/icons/yardlet.svg` | [Yardlet 官网 `assets/favicon.svg`](https://yardlet.app/assets/favicon.svg) | `354635b97c282efa8367f9bd62bd0dd6656458b29e7d6054ed7ad7197d6969ea` |
 | `assets/icons/empacer.svg` | [Empacer 官网 `icon.svg`](https://www.empacer.com/icon.svg) | `804f3d883264763445c650f1d0bddd946d08f6d1938c4c596d4ad8d3926aa27d` |
 | `assets/icons/intrascope.svg` | [Intrascope 官网 `favicon.svg`](https://intrascope.app/favicon.svg) | `61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66` |
+
+## v0.38 Logo 收录（2026-11-02）
+
+本批 SVG 均原样保存，未重绘。官方站点素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。Mo、Pluto Door、ClawsGO Science、Fluent、agentmash、Termy、Aura Autopilot、Craft Anything、fastbrowse、Vaani 未找到可核验官方纯矢量产品图标，保持空 `icon`。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/embage.svg` | [Embage 官网 `favicon.svg`](https://embage.com/favicon.svg) | `1686726c7f224f9807089d298aaf13a29ef6429da2049238a589d1238254236a` |
