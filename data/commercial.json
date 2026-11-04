@@ -1780,5 +1780,71 @@
         "title": "关于页：Friday Team 为托管版本"
       }
     ]
+  },
+  "teamily-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-04",
+    "notes": "官方定价/升级页提供付费订阅（含年付）。按已核验官方付费服务记录，不记录易变价格，也不据此判断源码状态。",
+    "sources": [
+      {
+        "url": "https://teamily.ai/pricing",
+        "title": "Teamily AI 官方定价与订阅说明"
+      }
+    ]
+  },
+  "teamily-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-04",
+    "notes": "与 Web 条同一官方订阅；服务条款写明功能依订阅方案而定。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://teamily.ai/pricing",
+        "title": "Teamily AI 官方定价与订阅说明"
+      }
+    ]
+  },
+  "looper-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-04",
+    "notes": "官网写明可用自备 ChatGPT/Grok 免费使用，付费档含 Claude。按已核验官方付费服务记录，不记录易变价格，也不据此判断 MIT 许可证。",
+    "sources": [
+      {
+        "url": "https://hirelooper.com",
+        "title": "Looper 官网：免费自备密钥或付费含 Claude"
+      }
+    ]
+  },
+  "prism-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-04",
+    "notes": "官方定价页提供按席位订阅，另有 Forward deployed engineering / Simulation engagements。下载本身免费，登录后按套餐计费。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://www.navier.ai/pricing",
+        "title": "Navier / Prism 官方定价：席位订阅与工程服务"
+      }
+    ]
+  },
+  "testifly-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-04",
+    "notes": "官方定价页提供付费月度方案与试用。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://testifly.dev/pricing",
+        "title": "Testifly 官方定价"
+      }
+    ]
+  },
+  "momentic-mo-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-04",
+    "notes": "官方定价含 Free 额度与其后按用量计费的付费档；Mo 使用同一套 credits。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://momentic.ai/pricing",
+        "title": "Momentic 官方定价：Free 额度与付费 credits"
+      }
+    ]
   }
 }

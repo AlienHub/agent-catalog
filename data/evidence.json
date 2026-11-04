@@ -11722,5 +11722,213 @@
       }
     ],
     "verified_at": "2026-11-03"
+  },
+  "wavefunction-desktop": {
+    "notes": "Morphologic AI Inc.（制作者 Stoyan Stoyanov）出品的开源 macOS 桌面编码 Agent Wavefunction（Tauri）。本条仅桌面 GUI。官网与 GitHub Releases 提供 Apple silicon macOS 11+ 安装包 Wavefunction-0.2.0-macos-arm64.dmg / zip；需 Docker Desktop 才能使用容器内 computer use。支持并行会话/worktree、MCP 连接器、ChatGPT 登录或自备密钥/本地模型。不提供 Windows / Linux 客户端，不单列 CLI 或 Web。GitHub Releases 最新非 prerelease **v0.2.0**（2026-10-29）。LICENSE 为 MIT。Logo 取自官方仓库 assets/branding/wavefunction-mark.svg 原样矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.wavefunction.si/",
+        "title": "Wavefunction 官网：开源 macOS 桌面编码 Agent"
+      },
+      {
+        "url": "https://github.com/stoyan-stoyanov/wavefunction",
+        "title": "stoyan-stoyanov/wavefunction 官方仓库"
+      },
+      {
+        "url": "https://github.com/stoyan-stoyanov/wavefunction/blob/main/README.md",
+        "title": "官方 README：macOS 桌面、并行会话、MCP、Docker computer use"
+      },
+      {
+        "url": "https://github.com/stoyan-stoyanov/wavefunction/releases/tag/v0.2.0",
+        "title": "GitHub Releases · Wavefunction v0.2.0（2026-10-29）"
+      },
+      {
+        "url": "https://github.com/stoyan-stoyanov/wavefunction/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Morphologic AI Inc.）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/stoyan-stoyanov/wavefunction/main/assets/branding/wavefunction-mark.svg",
+        "title": "官方仓库原始 SVG 品牌素材 assets/branding/wavefunction-mark.svg"
+      }
+    ],
+    "verified_at": "2026-11-04"
+  },
+  "nana-desktop": {
+    "notes": "Areshkew 出品的 Windows 原生终端复用器 nana，用于并排运行 Claude Code、Codex、OpenCode 等已有编码 Agent（各用独立 git worktree）。本条仅桌面 GUI。官网与 GitHub Releases 提供 Windows 10+ x86_64 MSI / zip（Nana-0.1.0-beta.6-x86_64.msi）。最新 **v0.1.0-beta.6**（2026-11-02，prerelease）。免费 beta，源码不公开（releases-only 仓，LICENSE 为 Other/NOASSERTION），不写入 open-source.json。页脚 © 2026 nana · Areshk。Linux tar.gz 与 install-nana.sh 是 nana-server / `nana` 管理 CLI（远程机上的服务端与会话控制），不是独立最终用户编码 Agent 产品，不单列 CLI。未找到可核验官方纯矢量 SVG。官网/发布页资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://nana.areshk.dev/",
+        "title": "nana 官网：Windows 原生 Agent 终端复用器；免费 beta"
+      },
+      {
+        "url": "https://github.com/Areshkew/nana",
+        "title": "Areshkew/nana 发布与议题仓（源码不公开）"
+      },
+      {
+        "url": "https://github.com/Areshkew/nana/releases/tag/v0.1.0-beta.6",
+        "title": "GitHub Releases · nana v0.1.0-beta.6（2026-11-02，prerelease）"
+      },
+      {
+        "url": "https://nana.areshk.dev/llms-full.txt",
+        "title": "官方文档合集：桌面客户端与 nana CLI / nana-server 分工"
+      }
+    ],
+    "verified_at": "2026-11-04"
+  },
+  "teamily-web": {
+    "notes": "Teamily, Inc. 出品的人机 Agent 信使 / Agent OS Teamily AI。本条仅 Web。官网与登录页同主机：已核验 https://teamily.ai/login（标题 Sign in to Teamily AI），故 web_domains 记 teamily.ai；营销落地页与应用共用该主机。服务条款确认主体 Teamily, Inc.，并写明服务覆盖 iOS / Android / macOS / Windows / Web。无公开产品源码仓，不写入 open-source.json。无公开产品 semver；前端资源戳 release-20261103-132351-328 不是发行版本，不填写版本号。未找到可核验官方纯矢量 SVG。官网资料核验，未做登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://teamily.ai/",
+        "title": "Teamily AI 官网：人机 Agent 平台"
+      },
+      {
+        "url": "https://teamily.ai/login",
+        "title": "已核验 Web 应用登录入口（标题 Sign in to Teamily AI；不代表登录测试）"
+      },
+      {
+        "url": "https://teamily.ai/download",
+        "title": "官方下载页：Web / iOS / Android / macOS / Windows"
+      },
+      {
+        "url": "https://teamily.ai/about/terms-of-service",
+        "title": "服务条款：运营主体 Teamily, Inc.；多平台含 Web"
+      }
+    ],
+    "verified_at": "2026-11-04"
+  },
+  "teamily-desktop": {
+    "notes": "同一 Teamily AI 产品的桌面 GUI。官方下载页列出 macOS（Apple Silicon / Intel）与 Windows；官方博文给出 Mac App Store（id 6761445638）与 Microsoft Store（xp8jlw167vq01c）安装入口，核验日两店页面 HTTP 200。本条仅桌面。iOS / Android / APK 按目录范围不收录。无公开产品 semver。无公开产品源码仓。未找到可核验官方纯矢量 SVG。官网/商店页资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://teamily.ai/download",
+        "title": "官方下载页：macOS Apple Silicon / Intel 与 Windows"
+      },
+      {
+        "url": "https://blog.teamily.ai/cross-platform/",
+        "title": "官方博文：Web / iOS / Android / macOS / Windows 同步；给出商店链接"
+      },
+      {
+        "url": "https://apps.apple.com/us/app/teamily-ai-human-ai-team/id6761445638",
+        "title": "Mac / iOS App Store 产品页（核验日 HTTP 200）"
+      },
+      {
+        "url": "https://apps.microsoft.com/detail/xp8jlw167vq01c",
+        "title": "Microsoft Store 产品页（核验日 HTTP 200）"
+      },
+      {
+        "url": "https://teamily.ai/about/terms-of-service",
+        "title": "服务条款：Teamily, Inc.；服务含 macOS / Windows"
+      }
+    ],
+    "verified_at": "2026-11-04"
+  },
+  "looper-web": {
+    "notes": "Pavel Kucherbaev（HireLooper）出品的开源 Web Agent：每个 Looper 负责一项业务指标，看板推进，发送/发布/付款/删除需人工批准。本条仅 Web。已核验托管应用主机 app.hirelooper.com（/login）。也可一键部署到自有 Vercel；自托管实例无统一公共域名，不另建 self-hosted 条。无 GitHub Release；不把仓库 package.json 的 0.1.0 当作已发布产品版本，故不填写版本号。LICENSE.md 为 MIT。public/ 仅有 Next/Vercel 通用图标，无产品 SVG，icon 留空。官网/仓库资料核验，未做登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://hirelooper.com",
+        "title": "Looper 官网：按业务指标雇用 AI teammate；可托管或自托管"
+      },
+      {
+        "url": "https://app.hirelooper.com/",
+        "title": "已核验 Web 应用主机 app.hirelooper.com（登录页；不代表登录测试）"
+      },
+      {
+        "url": "https://github.com/hirelooper/looper",
+        "title": "hirelooper/looper 官方仓库"
+      },
+      {
+        "url": "https://github.com/hirelooper/looper/blob/main/README.md",
+        "title": "官方 README：托管 hirelooper.com 或 Vercel 自托管；Kanban / 人工批准"
+      },
+      {
+        "url": "https://github.com/hirelooper/looper/blob/main/LICENSE.md",
+        "title": "官方 LICENSE.md：MIT（Copyright 2026 Pavel Kucherbaev (HireLooper)）"
+      }
+    ],
+    "verified_at": "2026-11-04"
+  },
+  "prism-desktop": {
+    "notes": "Navier AI Corp. 出品的硬件工程桌面 Agent Prism（CAD / 仿真 / 代码 / 报告）。本条仅桌面 GUI。官方文档写明 Prism 是本机工作站，与托管 CFD Web（app.navier.ai）不同，故不单列 Web。官方 changelog 最新 **v0.6.0**（2026-11-02）；releases.navier.ai 可下载 Prism-0.6.0-macos-aarch64.dmg、PrismSetup-0.6.0-windows-x86_64.exe、Prism-0.6.0-linux-x86_64.tar.gz（核验日 HTTP 200）。营销下载页仍展示 0.5.11 安装包，版本以 changelog 与 0.6.0 产物为准。平台：macOS Apple silicon、Windows x86-64、Linux x86-64。无公开产品源码仓（Navier-AI GitHub 仅有无关仓库），不写入 open-source.json。品牌 SVG 为 Navier 公司标识/横向 lockup，不是 Prism 产品标，icon 留空。官网/文档/发布桶资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.navier.ai/prism",
+        "title": "Prism 产品页：硬件工程 AI 平台；提供 Download Prism"
+      },
+      {
+        "url": "https://www.navier.ai/prism/download",
+        "title": "官方下载页：macOS / Windows / Linux 安装包"
+      },
+      {
+        "url": "https://docs.navier.ai/prism",
+        "title": "官方文档：Prism 为本机桌面工作站，区别于托管 Web CFD"
+      },
+      {
+        "url": "https://docs.navier.ai/prism/changelog",
+        "title": "官方 changelog：最新 v0.6.0（2026-11-02）"
+      },
+      {
+        "url": "https://docs.navier.ai/prism/install",
+        "title": "官方安装文档：平台与 releases.navier.ai 产物"
+      },
+      {
+        "url": "https://releases.navier.ai/prism/prism-v0.6.0/Prism-0.6.0-macos-aarch64.dmg",
+        "title": "官方发布桶：Prism v0.6.0 macOS Apple silicon DMG"
+      }
+    ],
+    "verified_at": "2026-11-04"
+  },
+  "testifly-web": {
+    "notes": "Testifly Ltd. 出品的 Web 应用自主 QA Agent：连接 URL 后自动发现流程、生成/运行测试并自愈。本条仅 Web。已核验应用主机 app.testifly.dev（重定向到 /login）。与已收录 Heal（heal-web，安全/漏洞猎取）分产品、分厂商。服务条款确认主体 Testifly Ltd.（以色列海法）。无公开产品源码仓，不写入 open-source.json。未在公开页找到可引用客户端 semver，不填写版本号。未找到可核验官方纯矢量 SVG。官网资料核验，未做登录、跑测或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://testifly.dev/",
+        "title": "Testifly 官网：自主 AI QA，连接 Web 应用即可"
+      },
+      {
+        "url": "https://app.testifly.dev/",
+        "title": "已核验 Web 应用主机 app.testifly.dev（登录页；不代表登录测试）"
+      },
+      {
+        "url": "https://testifly.dev/about",
+        "title": "About：自主 AI QA 说明；页脚 © 2026 TESTIFLY"
+      },
+      {
+        "url": "https://testifly.dev/pricing",
+        "title": "官方定价：付费月度方案（不记录易变价格）"
+      },
+      {
+        "url": "https://testifly.dev/TestifyTermsOfService.html",
+        "title": "服务条款：运营主体 Testifly Ltd."
+      }
+    ],
+    "verified_at": "2026-11-04"
+  },
+  "momentic-mo-web": {
+    "notes": "Momentic Inc. 出品的托管 QA Agent Mo：给定 URL 或移动构建后由大量 Agent 探索并产出缺陷报告。本条仅 Web。已核验应用主机 app.momentic.ai（未登录重定向至 auth.momentic.ai；SSO 主机不记入 web_domains）。官方博文 2026-11-03 宣布 Mo；changelog 写 Mo generally available。与 draft #27 的 Mo（Apps by Mo，macOS 桌面）分产品、分厂商，故 id 用 momentic-mo-web。Momentic 测试平台 CLI / MCP / YAML 套件是另一套验证工具，不是本条形态，不单列。无公开产品客户端 semver，不填写版本号。无公开产品源码仓。未找到可核验官方纯矢量 SVG。官网资料核验，未做登录、跑测或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://momentic.ai",
+        "title": "Momentic 官网：Mo is an AI QA engineer"
+      },
+      {
+        "url": "https://momentic.ai/blog/mo-launch",
+        "title": "官方博文：Mo 发布（Launch；给定 URL 即跑 bug bash）"
+      },
+      {
+        "url": "https://app.momentic.ai/",
+        "title": "已核验 Web 应用主机 app.momentic.ai（未登录走 SSO；不代表登录测试）"
+      },
+      {
+        "url": "https://momentic.ai/legal/tos",
+        "title": "Terms of Use：运营主体 Momentic Inc."
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=50339913",
+        "title": "Launch HN 线索页（版本与形态以官网为准）"
+      }
+    ],
+    "verified_at": "2026-11-04"
   }
 }

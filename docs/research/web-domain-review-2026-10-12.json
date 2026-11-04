@@ -4577,6 +4577,86 @@
         }
       ],
       "notes": "2026-11-03 新增已核验 Web 入口 console.aicodeops.dev。营销站 aicodeops.dev 不是应用主机；/auth 301 至 console.aicodeops.dev/auth。"
+    },
+    {
+      "id": "teamily-web",
+      "name": "Teamily AI",
+      "website": "https://teamily.ai/",
+      "status": "verified",
+      "domains": [
+        "teamily.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://teamily.ai/",
+          "title": "Teamily AI 官网"
+        },
+        {
+          "url": "https://teamily.ai/login",
+          "title": "已核验 Web 应用登录入口"
+        }
+      ],
+      "notes": "2026-11-04 新增已核验 Web 入口 teamily.ai。营销落地页与应用登录共用该主机。"
+    },
+    {
+      "id": "looper-web",
+      "name": "Looper",
+      "website": "https://hirelooper.com",
+      "status": "verified",
+      "domains": [
+        "app.hirelooper.com"
+      ],
+      "sources": [
+        {
+          "url": "https://hirelooper.com",
+          "title": "Looper 官网"
+        },
+        {
+          "url": "https://app.hirelooper.com/",
+          "title": "已核验 Web 应用主机 app.hirelooper.com"
+        }
+      ],
+      "notes": "2026-11-04 新增已核验 Web 入口 app.hirelooper.com。营销站 hirelooper.com 不是应用主机。自托管 Vercel 实例无统一公共域名。"
+    },
+    {
+      "id": "testifly-web",
+      "name": "Testifly",
+      "website": "https://testifly.dev/",
+      "status": "verified",
+      "domains": [
+        "app.testifly.dev"
+      ],
+      "sources": [
+        {
+          "url": "https://testifly.dev/",
+          "title": "Testifly 官网"
+        },
+        {
+          "url": "https://app.testifly.dev/",
+          "title": "已核验 Web 应用主机 app.testifly.dev"
+        }
+      ],
+      "notes": "2026-11-04 新增已核验 Web 入口 app.testifly.dev。营销站 testifly.dev 不是应用主机。"
+    },
+    {
+      "id": "momentic-mo-web",
+      "name": "Mo",
+      "website": "https://momentic.ai",
+      "status": "verified",
+      "domains": [
+        "app.momentic.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://momentic.ai",
+          "title": "Momentic 官网"
+        },
+        {
+          "url": "https://app.momentic.ai/",
+          "title": "已核验 Web 应用主机 app.momentic.ai"
+        }
+      ],
+      "notes": "2026-11-04 新增已核验 Web 入口 app.momentic.ai。SSO 主机 auth.momentic.ai 不记入 web_domains。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4591,5 +4671,6 @@
   "added_web_records_20261029": 1,
   "added_web_records_20261030": 2,
   "added_web_records_20261102": 6,
-  "added_web_records_20261103": 1
+  "added_web_records_20261103": 1,
+  "added_web_records_20261104": 4
 }

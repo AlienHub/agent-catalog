@@ -4314,5 +4314,53 @@
         "title": "关于页：MIT，无账户"
       }
     ]
+  },
+  "wavefunction-desktop": {
+    "repository_url": "https://github.com/stoyan-stoyanov/wavefunction",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/stoyan-stoyanov/wavefunction/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-04",
+      "github_archived": false,
+      "last_push_at": "2026-11-03T13:18:55Z"
+    },
+    "notes": "本次核验上游主分支应用源码许可为 MIT。结论仅限 stoyan-stoyanov/wavefunction 桌面应用，不外推所连接的模型供应商或 MCP 服务。维护状态参考公开 Release v0.2.0，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/stoyan-stoyanov/wavefunction",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/stoyan-stoyanov/wavefunction/blob/main/LICENSE",
+        "title": "上游主分支 LICENSE：MIT"
+      }
+    ],
+    "classification": "application"
+  },
+  "looper-web": {
+    "repository_url": "https://github.com/hirelooper/looper",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/hirelooper/looper/blob/main/LICENSE.md",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-04",
+      "github_archived": false,
+      "last_push_at": "2026-11-02T15:15:26Z"
+    },
+    "notes": "本次核验上游主分支应用源码许可为 MIT。托管计费（Stripe / 含 Claude 额度）只作用于官方托管，不改变仓库许可证。结论不外推 Composio 等第三方连接器。无 GitHub Release；不把 package.json 0.1.0 当作产品版本。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/hirelooper/looper",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/hirelooper/looper/blob/main/LICENSE.md",
+        "title": "上游主分支 LICENSE.md：MIT"
+      }
+    ],
+    "classification": "application"
   }
 }
