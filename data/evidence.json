@@ -11930,5 +11930,91 @@
       }
     ],
     "verified_at": "2026-11-04"
+  },
+  "digpool-desktop": {
+    "notes": "斗象科技（漏洞盒子）出品的原生 AI 白帽工作台「蛙池AI」桌面客户端：对话式挖洞、内置/自定义智能体与 MCP 扩展。官网写明 macOS（Intel/Apple Silicon，macOS 11.0+）与 Windows 10+，提供立即下载。官方版本接口 gapi.vulbox.com/whats-ai/system/version/latest 当前 **2.3.17**（darwin arm64/x64 DMG 与 win32 x64 EXE 文件名均带 2.3.17）；官方社区「产品更新日志（20261029）」亦写 10.29 日功能迭代更新（蛙池 V2.3.17版本）。本条仅桌面 GUI；未见独立最终用户 CLI/Web 客户端，不单列。无公开产品应用源码仓，不写入 open-source.json。仅见官网 PNG Logo（/_nuxt/logo.*.png）与 favicon.png，未找到纯矢量 SVG。官网资料核验，未做安装、运行、登录或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.digpool.cn/",
+        "title": "蛙池AI 官网：原生AI白帽工作台；macOS 11.0+ 与 Windows 10+"
+      },
+      {
+        "url": "https://gapi.vulbox.com/whats-ai/system/version/latest",
+        "title": "官方 latest 版本接口：darwin/win32 当前 2.3.17 与安装包文件名"
+      },
+      {
+        "url": "https://www.digpool.cn/community",
+        "title": "官方社区产品更新日志（20261029）：蛙池 V2.3.17"
+      },
+      {
+        "url": "https://www.vulbox.com/activity",
+        "title": "漏洞盒子动态：蛙池AI Desktop 版本更新"
+      },
+      {
+        "url": "https://www.tophant.com/dynamicDetail?id=364",
+        "title": "斗象科技动态：自研 AI 原生白帽工作台「蛙池AI Desktop」"
+      },
+      {
+        "url": "https://www.digpool.cn/_nuxt/logo.4b-ytXBW.png",
+        "title": "蛙池AI 官网页头 PNG Logo（位图；无纯矢量 SVG）"
+      }
+    ],
+    "verified_at": "2026-11-04"
+  },
+  "aipy-pro-desktop": {
+    "notes": "北京知道创宇信息技术股份有限公司出品的商业桌面助手 AiPy Pro（爱派）：自然语言驱动本机 Python 执行环境，覆盖办公自动化、数据分析、浏览器采集与本机软件控制。官网 www.aipyaipy.com 提供 Mac Apple/Intel、Windows、Linux 信创 x86_64/ARM64 下载；英文站 www.aipy.app 为同一产品介绍。官方 downloads/release.json 当前 Win/Mac/Linux 首条均为 **2.1.1**（安装包 aipy-pro-2.1.1-*，releaseDate 2026-10-22）。本条仅商业桌面 GUI。同厂开源 CLI 见 aipyapp-cli（knownsec/aipyapp，pip `aipy`）；仓库另有可选 `aipyw` GUI 脚本，但无独立桌面安装包，不单列 OSS GUI。无产品应用源码仓，不把 Pro 安装包写入 open-source.json。官网 Logo 为 WebP/AVIF/ICO；GitHub README 横幅为 ASCII 字标 SVG，不是可核验产品图标，故 icon 留空。官网资料核验，未做安装、运行、登录或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.aipyaipy.com/",
+        "title": "AiPy Pro 官网：爱派桌面助手；Win/Mac/信创 Linux 下载"
+      },
+      {
+        "url": "https://www.aipy.app/",
+        "title": "AiPy 英文介绍站：同一桌面助手产品"
+      },
+      {
+        "url": "https://www.aipyaipy.com/downloads/release.json",
+        "title": "官方 release.json：Win/Mac/Linux 当前 2.1.1（2026-10-22）"
+      },
+      {
+        "url": "https://www.aipyaipy.com/manual/",
+        "title": "AiPy Pro 使用指南：官方下载与 Win/macOS/信创安装"
+      },
+      {
+        "url": "https://github.com/knownsec/aipyapp",
+        "title": "同厂开源 CLI 仓库 knownsec/aipyapp（不推定 Pro 桌面开源）"
+      }
+    ],
+    "verified_at": "2026-11-04"
+  },
+  "aipyapp-cli": {
+    "notes": "知道创宇 knownsec/aipyapp 的 pip 发行 CLI：`pip install aipyapp` 后运行 `aipy`（任务模式）或 `aipy --python`。GitHub 主页 https://aipy.app；PyPI 与 GitHub latest Release 均为 **v0.5.0**（2026-02-15）。LICENSE 自称 GPL 3.0，并额外禁止未经许可将本项目作为 SaaS 提供给第三方、或集成到商业产品中销售/赠送，故记 source-available，不标 OSI GPL-3.0 开源。结论仅限已核查的 knownsec/aipyapp CLI 源码，不外推 AiPy Pro 商业桌面安装包。仓库 pyproject 另有 `aipyw` GUI 脚本，未见独立桌面安装包，不单列 GUI。维护状态参考公开 Release v0.5.0，非仅依据 push 时间。官网/仓库资料核验，未做安装或运行测试。",
+    "sources": [
+      {
+        "url": "https://github.com/knownsec/aipyapp",
+        "title": "官方仓库：pip install aipyapp；命令 aipy"
+      },
+      {
+        "url": "https://github.com/knownsec/aipyapp/blob/main/README.md",
+        "title": "官方 README：Task Mode / Python Mode 与 aipy.app"
+      },
+      {
+        "url": "https://github.com/knownsec/aipyapp/blob/main/LICENSE",
+        "title": "官方 LICENSE：GPL 3.0 加 SaaS/商业集成额外限制"
+      },
+      {
+        "url": "https://github.com/knownsec/aipyapp/releases/tag/v0.5.0",
+        "title": "GitHub latest Release v0.5.0（2026-02-15）"
+      },
+      {
+        "url": "https://pypi.org/project/aipyapp/",
+        "title": "PyPI aipyapp 当前 0.5.0"
+      },
+      {
+        "url": "https://www.aipy.app/",
+        "title": "仓库 homepage / 官方介绍站"
+      }
+    ],
+    "verified_at": "2026-11-04"
   }
 }

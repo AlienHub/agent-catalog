@@ -264,3 +264,11 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | 文件 | 来源 | SHA-256 |
 | --- | --- | --- |
 | `assets/icons/wavefunction.svg` | [stoyan-stoyanov/wavefunction `assets/branding/wavefunction-mark.svg`](https://raw.githubusercontent.com/stoyan-stoyanov/wavefunction/main/assets/branding/wavefunction-mark.svg) | `6a53bcfb7c7cb71522d2a2f5606158fb274edb99ae4e14f8e3721f07560d723c` |
+
+## v0.42 Logo 收录（2026-11-04）
+
+PNG 原样保存，未改后缀、未矢量化。官方站点素材以其来源与权利人规则为准，公开可下载不授予商标或背书授权。AiPy Pro / aipyapp 未找到可核验官方产品纯矢量 SVG 或 PNG（仅 WebP/AVIF/ICO 与 README ASCII 字标），保持空 `icon`。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/digpool.png` | [蛙池AI 官网 Logo PNG](https://www.digpool.cn/_nuxt/logo.4b-ytXBW.png) | `4e754fa12d7f64a88d8f24589c7f3ddc8023246c71101e624b069206fb98fe61` |
