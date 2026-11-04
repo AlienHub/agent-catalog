@@ -4362,5 +4362,33 @@
       }
     ],
     "classification": "application"
+  },
+  "aipyapp-cli": {
+    "repository_url": "https://github.com/knownsec/aipyapp",
+    "source_model": "source-available",
+    "license": "GPL-3.0 WITH additional-restrictions",
+    "license_url": "https://github.com/knownsec/aipyapp/blob/main/LICENSE",
+    "maintenance": {
+      "status": "unknown",
+      "checked_at": "2026-11-04",
+      "github_archived": false,
+      "last_push_at": "2026-02-15T22:56:49Z"
+    },
+    "notes": "LICENSE 正文为 GPL 3.0，另加禁止未经许可提供 SaaS、以及禁止未经许可将项目或代码集成到商业产品中销售或赠送。额外限制使其不能记为 OSI GPL-3.0 开源，故 source-available。结论仅限已核查的 knownsec/aipyapp CLI 源码与 pip `aipy` 入口，不外推 AiPy Pro 商业桌面安装包。维护状态参考公开 Release v0.5.0，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/knownsec/aipyapp/blob/main/LICENSE",
+        "title": "官方 LICENSE：GPL 3.0 + 额外限制"
+      },
+      {
+        "url": "https://github.com/knownsec/aipyapp",
+        "title": "官方仓库与 pip CLI 入口"
+      },
+      {
+        "url": "https://pypi.org/project/aipyapp/",
+        "title": "PyPI 发行 aipyapp 0.5.0"
+      }
+    ],
+    "classification": "application"
   }
 }

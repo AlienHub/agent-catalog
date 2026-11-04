@@ -13670,5 +13670,92 @@
     ],
     "web_domain_status": "verified",
     "web_domain_verified_at": "2026-11-04"
+  },
+  {
+    "id": "digpool-desktop",
+    "name": "蛙池AI",
+    "aliases": [
+      "蛙池",
+      "蛙池 AI",
+      "蛙池AI Desktop",
+      "DigPool"
+    ],
+    "vendor": "斗象科技 Tophant",
+    "type": "AI 安全测试",
+    "website": "https://www.digpool.cn/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/digpool.png",
+    "vendor_id": "tophant",
+    "product_id": "digpool",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "aipy-pro-desktop",
+    "name": "AiPy Pro",
+    "aliases": [
+      "爱派",
+      "爱派AiPy",
+      "AiPy"
+    ],
+    "vendor": "北京知道创宇 Knownsec",
+    "type": "办公智能体",
+    "website": "https://www.aipyaipy.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "knownsec",
+    "product_id": "aipy",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "aipyapp-cli",
+    "name": "AiPy",
+    "aliases": [
+      "aipyapp",
+      "爱派",
+      "Python-Use"
+    ],
+    "vendor": "北京知道创宇 Knownsec",
+    "type": "办公智能体",
+    "website": "https://www.aipy.app/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "knownsec",
+    "product_id": "aipy",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]

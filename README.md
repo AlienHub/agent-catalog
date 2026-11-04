@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.41（2026-11-04），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.42（2026-11-04），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -689,3 +689,15 @@ Logo：仅 Wavefunction 使用官方仓库 `assets/branding/wavefunction-mark.sv
 | relay | 32 | 24 | 56 |
 
 未改 `data/schema.json` / `dataset.json`。供应商 Logo 本轮未收录（空 `icon`）。探测：HTTPS 首页、`GET /api/status`、`GET /v1/models` 只看状态码；不注册、不付费、不用 API key。
+
+## v0.42 蛙池AI 与 AiPy Pro（2026-11-04）
+
+新增 3 条应用、2 个产品，目录共 535 条应用、360 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.41 / `main` @ `8c433d0`（#30 已合入）。未改 `schema.json` 与供应商分类。
+
+- 蛙池AI 桌面端（斗象科技 Tophant / 漏洞盒子）：白帽 / AI 安全测试 Agent。官网 macOS 11.0+ 与 Windows 10+。官方版本接口与社区更新日志 **2.3.17**（2026-10-29）。闭源；仅桌面 GUI。
+- AiPy Pro 桌面端（北京知道创宇 Knownsec）：办公智能体，Win / Mac / 信创 Linux。官方 `release.json` **2.1.1**（2026-10-22）。商业桌面闭源。
+- aipyapp CLI：同产品开源客户端 `pip install aipyapp` / `aipy`。GitHub / PyPI **v0.5.0**。LICENSE 为 GPL 3.0 加 SaaS/商业集成限制，记 **source-available**。不单列仓库内 `aipyw` GUI 脚本。
+
+Logo：蛙池AI 使用官网 PNG（无纯矢量 SVG）。AiPy 仅 WebP/AVIF/ICO 与 README ASCII 字标 SVG，保持空 `icon`。
+
+未收录：娃池（错误名）；AiPy 未独立发行的 OSS GUI；供应商目录不改。
