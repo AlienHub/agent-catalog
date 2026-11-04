@@ -249,8 +249,8 @@ test('provider catalog toggle lists seed records, filters, disclaimer and return
   assert(t.w.document.body.textContent.includes('神马中转API'));
   await t.click('providerReset');
   assert.equal(t.w.document.querySelectorAll('.provider-row').length, records.length);
-  await t.change('providerType','official');
-  assert.equal(t.w.document.querySelectorAll('.provider-row').length, records.filter(p=>p.type==='official').length);
+  await t.change('providerType','model-vendor');
+  assert.equal(t.w.document.querySelectorAll('.provider-row').length, records.filter(p=>p.type==='model-vendor').length);
   await t.click('providerReset');
   await t.change('providerCompat','anthropic');
   assert.equal(t.w.document.querySelectorAll('.provider-row').length, records.filter(p=>p.api_compat.includes('anthropic')).length);

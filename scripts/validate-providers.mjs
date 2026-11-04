@@ -5,9 +5,11 @@ import { resolve } from 'node:path';
 
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const ID = /^[a-z][a-z0-9-]*$/;
-const TYPES = ['official', 'aggregator', 'third-party-proxy', 'community-relay'];
+const TYPES = ['model-vendor', 'third-party', 'relay'];
+const TRUST_LEVELS = ['high', 'medium', 'low'];
 const STATUSES = ['active', 'unstable', 'dead', 'closed'];
 const COMPAT = ['openai', 'anthropic', 'gemini'];
+const OPTIONAL = ['models_dev_id', 'ccswitch_preset_id'];
 const BLOCKED_PROJECTS = [
   'github.com/songquanpeng/one-api',
   'github.com/calcium-ion/new-api',
@@ -41,7 +43,10 @@ export async function validateProviders() {
   const ids = new Set();
   const websites = new Set();
   for (const provider of providers) {
-    assert.deepEqual(Object.keys(provider).sort(), [...required].sort(), `Provider fields: ${provider.id}`);
+    const keys = Object.keys(provider);
+    const extra = keys.filter(key => !required.includes(key) && !OPTIONAL.includes(key));
+    assert.equal(extra.length, 0, `Unknown provider fields ${extra.join(', ')}: ${provider.id}`);
+    for (const key of required) assert(keys.includes(key), `Missing ${key}: ${provider.id}`);
     assert(ID.test(provider.id), `Invalid provider ID: ${provider.id}`);
     assert(!ids.has(provider.id), `Duplicate provider ID: ${provider.id}`);
     ids.add(provider.id);
@@ -49,6 +54,13 @@ export async function validateProviders() {
     assert(typeof provider.operator === 'string' && provider.operator.trim(), `Operator: ${provider.id}`);
     uniqueStrings(provider.aliases, `Aliases: ${provider.id}`);
     assert(TYPES.includes(provider.type), `Type: ${provider.id}`);
+    assert(TRUST_LEVELS.includes(provider.trust_level), `trust_level: ${provider.id}`);
+    if (provider.models_dev_id !== undefined) {
+      assert(typeof provider.models_dev_id === 'string' && /^[a-z0-9][a-z0-9._-]*$/.test(provider.models_dev_id), `models_dev_id: ${provider.id}`);
+    }
+    if (provider.ccswitch_preset_id !== undefined) {
+      assert(typeof provider.ccswitch_preset_id === 'string' && /^[a-z0-9][a-z0-9-]*$/.test(provider.ccswitch_preset_id), `ccswitch_preset_id: ${provider.id}`);
+    }
     httpsUrl(provider.website, `Website: ${provider.id}`);
     websites.add(new URL(provider.website).hostname.replace(/^www\./, ''));
     uniqueStrings(provider.api_base_urls, `API URLs: ${provider.id}`);

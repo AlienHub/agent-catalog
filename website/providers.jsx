@@ -4,15 +4,17 @@ import { ActionButton as Button } from './action-button.jsx';
 import { createDialogController } from './dialog-controller.js';
 
 const emptyFilters = { search: '', type: '', compat: '', status: '', backend: '' };
-const typeLabels = { official: '官方平台', aggregator: '聚合平台', 'third-party-proxy': '第三方代理', 'community-relay': '社区中转' };
+const typeLabels = { 'model-vendor': '模型厂商', 'third-party': '三方供应商', relay: '中转站' };
 const statusLabels = { active: '运营中', unstable: '不稳定', dead: '不可达', closed: '已关闭' };
+const trustLabels = { high: '高', medium: '中', low: '低' };
 const compatLabels = { openai: 'OpenAI', anthropic: 'Anthropic', gemini: 'Gemini' };
 const fieldDefs = {
   id: ['唯一 ID', '供应商目录内稳定、唯一的站点标识'],
   name: ['名称', '对外展示名称'],
   aliases: ['别名', '确认使用过的别名；未知时为空数组'],
   operator: ['运营方', '同一运营方的多个域名用 related_ids / related_sites 关联'],
-  type: ['类型', '官方平台 / 聚合平台 / 第三方代理 / 社区中转'],
+  type: ['类型', '模型厂商 / 三方供应商 / 中转站'],
+  trust_level: ['信任度', 'high 高 / medium 中 / low 低；中转站默认低。收录不等于推荐'],
   website: ['站点', '正在运营的服务站点或文档入口'],
   api_base_urls: ['API 地址', '探测到的 API 主机；不代表已鉴权可用'],
   api_compat: ['兼容协议', 'openai / anthropic / gemini；空数组表示尚未核验'],
@@ -48,6 +50,7 @@ function ProviderDetail({ provider, evidence }) {
     <div className="detailactions"><External href={provider.website}>访问站点</External></div>
     <dl>
       <div><dt>类型</dt><dd>{typeLabels[provider.type]}</dd></div>
+      <div><dt>信任度</dt><dd>{trustLabels[provider.trust_level] || provider.trust_level}</dd></div>
       <div><dt>状态</dt><dd>{statusLabels[provider.status]}</dd></div>
       <div><dt>兼容协议</dt><dd>{provider.api_compat.length ? provider.api_compat.map(value => compatLabels[value]).join('、') : '未核验'}</dd></div>
       <div><dt>API 地址</dt><dd>{provider.api_base_urls.length ? provider.api_base_urls.map(url => <div key={url}><External href={url}>{url}</External></div>) : '未单独记录'}</dd></div>
@@ -98,7 +101,9 @@ export function ProvidersView() {
   const counts = useMemo(() => ({
     total: providers.length,
     active: providers.filter(p => p.status === 'active').length,
-    official: providers.filter(p => p.type === 'official').length,
+    modelVendor: providers.filter(p => p.type === 'model-vendor').length,
+    thirdParty: providers.filter(p => p.type === 'third-party').length,
+    relay: providers.filter(p => p.type === 'relay').length,
   }), [providers]);
   const meta = document.documentElement.dataset;
   return <>
@@ -108,8 +113,8 @@ export function ProvidersView() {
           <Button id="providerJsonExport" disabled={!data} aria-label="导出当前筛选结果 JSON" onClick={() => download(JSON.stringify(list, null, 2), 'application/json', 'agent-atlas-providers.json')}>JSON</Button>
           <Button id="providerCsvExport" disabled={!data} aria-label="导出当前筛选结果 CSV" onClick={csv}>CSV</Button>
         </div></section>
-      <p id="providerDisclaimer" className="disclaimer">收录公开可访问的服务站点与 API 地址，<strong>不等于推荐、合作、担保或法律意见</strong>。开源后端（one-api / new-api 等）只作为探测属性，不作为目录条目。第三方代理与社区中转可能与上游服务条款或当地法规冲突；状态变化很快，请以各站当前公示为准。</p>
-      <div className="summary" aria-label="供应商目录概况"><span><strong id="providerTotal">{data ? counts.total : '—'}</strong> 站点</span><span><strong id="providerActiveCount">{data ? counts.active : '—'}</strong> 运营中</span><span><strong id="providerOfficialCount">{data ? counts.official : '—'}</strong> 官方平台</span><span className="version"><strong>v{meta.version}</strong> · {meta.snapshot}</span></div>
+      <p id="providerDisclaimer" className="disclaimer">收录公开可访问的服务站点与 API 地址，<strong>不等于推荐、合作、担保或法律意见</strong>。分类为模型厂商、三方供应商（商业聚合 / 云 MaaS / 推理托管，不是中转站）与中转站。开源后端（one-api / new-api 等）只作为探测属性，不作为目录条目。中转站信任度低，可能与上游服务条款或当地法规冲突；状态变化很快，请以各站当前公示为准。</p>
+      <div className="summary" aria-label="供应商目录概况"><span><strong id="providerTotal">{data ? counts.total : '—'}</strong> 站点</span><span><strong id="providerActiveCount">{data ? counts.active : '—'}</strong> 运营中</span><span><strong id="providerModelVendorCount">{data ? counts.modelVendor : '—'}</strong> 模型厂商</span><span><strong id="providerThirdPartyCount">{data ? counts.thirdParty : '—'}</strong> 三方供应商</span><span><strong id="providerRelayCount">{data ? counts.relay : '—'}</strong> 中转站</span><span className="version"><strong>v{meta.version}</strong> · {meta.snapshot}</span></div>
       <section className="workspace">
         <div className="tools provider-tools">
           <label className="search"><span aria-hidden="true">⌕</span><input id="providerSearch" type="search" value={filters.search} onChange={e => update('search', e.target.value)} placeholder="搜索名称、运营方、域名或 ID…" aria-label="搜索供应商"/></label>
