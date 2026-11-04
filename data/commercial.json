@@ -1735,5 +1735,50 @@
         "title": "Embage 官网定价"
       }
     ]
+  },
+  "caprock-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-03",
+    "notes": "官网与新闻资料除免费 Community Edition 桌面端外，另提供 Premium（年付或买断，增加预算暂停等）以及 Teams 自托管团队账本。按已核验官方付费服务记录，不记录易变价格，也不据此判断源码许可证。",
+    "sources": [
+      {
+        "url": "https://caprock.dev/",
+        "title": "Caprock 官网：Premium 与 Teams 定价说明"
+      },
+      {
+        "url": "https://caprock.dev/press",
+        "title": "新闻资料：Community / Premium / Teams"
+      }
+    ]
+  },
+  "ai-codeops-web": {
+    "offer": "enterprise-service",
+    "verified_at": "2026-11-03",
+    "notes": "开放 beta 期间产品本身免费；官网已提供按席位销售的 Enterprise（SSO、审计、治理、按需自托管）。Individual / Team 付费档写明将在 beta 结束后公布。按已核验官方企业服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://aicodeops.dev/pricing",
+        "title": "官方定价：开放 beta 免费；Enterprise 按席位"
+      },
+      {
+        "url": "https://aicodeops.dev/about",
+        "title": "关于页：Enterprise 经销售按席位提供"
+      }
+    ]
+  },
+  "friday-desktop": {
+    "offer": "enterprise-service",
+    "verified_at": "2026-11-03",
+    "notes": "本机开源应用免费、无需账户。官网另提供托管 Friday Team（团队同会话），仅通过联系表单/邮件洽谈，无公开自助结账。按已核验官方企业服务记录，不记录价格。",
+    "sources": [
+      {
+        "url": "https://www.tryfridaywork.com/teams",
+        "title": "Friday Team 托管版说明与联系页"
+      },
+      {
+        "url": "https://www.tryfridaywork.com/about",
+        "title": "关于页：Friday Team 为托管版本"
+      }
+    ]
   }
 }

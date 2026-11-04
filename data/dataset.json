@@ -13332,5 +13332,135 @@
     ],
     "web_domain_status": "verified",
     "web_domain_verified_at": "2026-11-02"
+  },
+  {
+    "id": "coincide-desktop",
+    "name": "Coincide",
+    "aliases": [],
+    "vendor": "Apoorv Darshan",
+    "type": "AI 编程",
+    "website": "https://coincide.dev/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "apoorvdarshan",
+    "product_id": "coincide",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "caprock-desktop",
+    "name": "Caprock",
+    "aliases": [],
+    "vendor": "Cybrix LLC",
+    "type": "AI 编程",
+    "website": "https://caprock.dev/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/caprock.svg",
+    "vendor_id": "cybrix",
+    "product_id": "caprock",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "ai-codeops-web",
+    "name": "AI CodeOps",
+    "aliases": [
+      "CodeOps Studio",
+      "AICodeOps"
+    ],
+    "vendor": "TechInnoHub",
+    "type": "AI 编程",
+    "website": "https://aicodeops.dev/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/ai-codeops.svg",
+    "vendor_id": "techinnohub",
+    "product_id": "ai-codeops",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "console.aicodeops.dev"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-03"
+  },
+  {
+    "id": "mercury-cli",
+    "name": "Mercury CLI",
+    "aliases": [
+      "Mercury"
+    ],
+    "vendor": "Waleed Al Qusous, trading as Mercury CLI",
+    "type": "AI 编程",
+    "website": "https://mercury-cli.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/mercury.svg",
+    "vendor_id": "mercury-cli",
+    "product_id": "mercury-cli",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "friday-desktop",
+    "name": "Friday",
+    "aliases": [
+      "Friday Work"
+    ],
+    "vendor": "Arun Dass",
+    "type": "AI 编程",
+    "website": "https://www.tryfridaywork.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/friday.svg",
+    "vendor_id": "arun-dass",
+    "product_id": "friday",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]

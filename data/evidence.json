@@ -11560,5 +11560,167 @@
       }
     ],
     "verified_at": "2026-11-02"
+  },
+  "coincide-desktop": {
+    "notes": "Apoorv Darshan 出品的原生 macOS（AppKit）编码 Agent 工作区 Coincide：在同一窗口驱动本机已登录的 Claude Code、Codex、Cursor、Grok Build、OpenCode、Antigravity，可中途切换 Agent。官网与 README 写明它是 T3 Code 的原生移植，与已收录的 T3 Code（Electron，T3 Tools Inc.）分产品、分厂商。本条仅桌面 GUI。官网与 GitHub Releases 提供 Coincide.dmg；Homebrew cask `apoorvdarshan/tap/coincide`；`npx coincide-dev` 是安装器，不是独立编码 CLI。捆绑的 `coincide` 命令用于本机控制线程（列项目/发消息/批准），与 `t3` 启动器同类，不单列 CLI。Windows / Linux / Android 官网标明即将推出，不收录。iPhone/iPad Remote 为移动端，不收录。最新 GitHub Release **v0.1.0 / Coincide 0.1.0**（2026-11-01，非 prerelease）。官网结构化数据 softwareVersion 亦为 0.1.0。仓库 LICENSE 为 MIT（Copyright 2026 Apoorv Darshan）。未找到可核验官方纯矢量 SVG（官网仅 PNG favicon / icon-tight-96.png / icon-512.png），icon 留空。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://coincide.dev/",
+        "title": "Coincide 官网：原生 Mac 编码 Agent 工作区"
+      },
+      {
+        "url": "https://github.com/apoorvdarshan/coincide",
+        "title": "apoorvdarshan/coincide 官方仓库"
+      },
+      {
+        "url": "https://github.com/apoorvdarshan/coincide/blob/main/README.md",
+        "title": "官方 README：AppKit 移植 T3 Code；安装与平台"
+      },
+      {
+        "url": "https://github.com/apoorvdarshan/coincide/releases/tag/v0.1.0",
+        "title": "GitHub Releases · Coincide 0.1.0（2026-11-01）"
+      },
+      {
+        "url": "https://github.com/apoorvdarshan/coincide/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Apoorv Darshan）"
+      }
+    ],
+    "verified_at": "2026-11-03"
+  },
+  "caprock-desktop": {
+    "notes": "Cybrix LLC（制作者 Dmitriy Solodukha / dspv）出品的本机优先桌面 ADE Caprock：在 macOS / Windows / Linux 上并排运行并记账 Claude Code、Codex、OpenCode、Gemini CLI、Hermes Agent 等会话，跟踪 PR 到发布的 Agent 成本。本条仅桌面 GUI。官网提供 Mac 下载、`brew install --cask dspv/tap/caprock-app` 以及 Windows / Linux 安装脚本。手机通过二维码配对在浏览器中打开桌面端，不是独立 Web 产品，不单列。`caprock` 守护进程命令（up/down/hooks）是后台控制面，不是独立编码 CLI，不单列。最新 GitHub Release **v0.170.1**（2026-11-02，非 prerelease）；官方 changelog 同日记录该版本。仓库 SPDX 与官网均为 Apache-2.0。Logo 取自官方仓库 `ui/public/favicon.svg` 原样矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://caprock.dev/",
+        "title": "Caprock 官网：本机桌面 ADE，macOS / Windows / Linux"
+      },
+      {
+        "url": "https://github.com/dspv/caprock",
+        "title": "dspv/caprock 官方仓库"
+      },
+      {
+        "url": "https://github.com/dspv/caprock/releases/tag/v0.170.1",
+        "title": "GitHub Releases · Caprock v0.170.1（2026-11-02）"
+      },
+      {
+        "url": "https://caprock.dev/changelog",
+        "title": "官方 changelog：v0.170.1（2026-11-02）"
+      },
+      {
+        "url": "https://github.com/dspv/caprock/blob/master/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://caprock.dev/press",
+        "title": "官方新闻资料：Cybrix LLC / 制作者与平台"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/dspv/caprock/master/ui/public/favicon.svg",
+        "title": "官方仓库原始 SVG 品牌素材 ui/public/favicon.svg"
+      }
+    ],
+    "verified_at": "2026-11-03"
+  },
+  "ai-codeops-web": {
+    "notes": "TechInnoHub 出品的浏览器端编码 Agent 平台 AI CodeOps：用户在 Web 控制台让专用 Agent 规划、编写、审查、测试代码，合并前需质量门禁与人工批准。这是最终用户可登录使用的 Agent 产品表面，不是仅 CI 基础设施。官网写明无 CLI / 桌面端 / IDE 插件。2026-10-06 由 CodeOps Studio 更名为 AI CodeOps，域名从 codeopsstudio.dev 迁至 aicodeops.dev；与 Android 开源 IDE CodeOps Studio 及 CodeOps.ai 无关。开放 beta 期间免费（平台模型每月 2M token，或自带密钥）。已核验应用主机 console.aicodeops.dev（营销站 /auth 301 至 console.aicodeops.dev/auth）；营销站 aicodeops.dev 不记入 web_domains。无公开产品 semver，不虚构版本。无公开产品源码仓，不写入 open-source.json。Logo 取自官方新闻资料 `press/logo/aicodeops-mark.svg` 原样矢量。官网资料核验，未做登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://aicodeops.dev/",
+        "title": "AI CodeOps 官网：浏览器端编码 Agent 与质量门禁"
+      },
+      {
+        "url": "https://aicodeops.dev/about",
+        "title": "关于页：TechInnoHub 运营；原名 CodeOps Studio（至 2026-10-06）"
+      },
+      {
+        "url": "https://console.aicodeops.dev/",
+        "title": "已核验 Web 应用主机 console.aicodeops.dev 登录页"
+      },
+      {
+        "url": "https://aicodeops.dev/docs/sso",
+        "title": "官方文档：控制台地址为 console.aicodeops.dev"
+      },
+      {
+        "url": "https://aicodeops.dev/pricing",
+        "title": "官方定价：开放 beta 免费；Enterprise 按席位"
+      },
+      {
+        "url": "https://aicodeops.dev/press",
+        "title": "官方新闻资料：厂商 TechInnoHub 与 Logo"
+      },
+      {
+        "url": "https://aicodeops.dev/press/logo/aicodeops-mark.svg",
+        "title": "官方新闻资料原始 SVG 品牌标记"
+      }
+    ],
+    "verified_at": "2026-11-03"
+  },
+  "mercury-cli": {
+    "notes": "Waleed Al Qusous（trading as Mercury CLI；GitHub Whq02）出品的终端原生 AI 编码 Agent CLI：多会话、crewmates、git worktree、本机/托管模型、内置调试器与 LSP。本条仅 CLI。官网与文档提供 macOS / Linux / Windows 安装（curl、PowerShell、npm `mercury-tech-cli`、Homebrew `Whq02/mercury/mercury`）。VS Code / ACP 编辑器桥、Unity/Blender/Godot/Aseprite 桥与 TypeScript/Python SDK 是伴生集成，不是独立目录形态，不单列。桌面 driver 是让模型看见并操作本机窗口的能力，不是独立 GUI 应用。最新 GitHub Release **v1.0.3 / Mercury v1.0.3**（2026-11-02，非 prerelease）；官方文档 https://mercury-cli.ai/docs/releases/1-0-3/ 同日发布。此前 1.0.2 于 2026-11-01 发布；开源公告为 2026-10-26（1.0.0-beta.44）。LICENSE.md / NOTICE 为 Apache-2.0（Copyright 2026 Waleed Al Qusous, trading as Mercury CLI）。Logo 取自官网 `favicon.svg` 原样矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://mercury-cli.ai/",
+        "title": "Mercury CLI 官网：终端原生编码 Agent"
+      },
+      {
+        "url": "https://github.com/Whq02/MercuryCLI",
+        "title": "Whq02/MercuryCLI 官方仓库"
+      },
+      {
+        "url": "https://github.com/Whq02/MercuryCLI/releases/tag/v1.0.3",
+        "title": "GitHub Releases · Mercury v1.0.3（2026-11-02）"
+      },
+      {
+        "url": "https://mercury-cli.ai/docs/releases/1-0-3/",
+        "title": "官方发布说明：1.0.3（2026-11-02）"
+      },
+      {
+        "url": "https://mercury-cli.ai/notes/mercury-cli-goes-open-source/",
+        "title": "官方笔记：2026-10-26 以 Apache-2.0 开源"
+      },
+      {
+        "url": "https://github.com/Whq02/MercuryCLI/blob/main/LICENSE.md",
+        "title": "官方 LICENSE.md：Apache License 2.0"
+      },
+      {
+        "url": "https://mercury-cli.ai/favicon.svg",
+        "title": "官网原始 SVG 品牌素材 favicon.svg"
+      }
+    ],
+    "verified_at": "2026-11-03"
+  },
+  "friday-desktop": {
+    "notes": "Arun Dass（GitHub splashxmoon）出品的开源多 Agent 编码 harness Friday（站点品牌 Friday Work）：在本机协调 Claude Code、Codex、Cursor、Gemini CLI、Copilot 等，负责任务板、消息与额度用尽后的交接。本条仅桌面 GUI。官网与 GitHub Releases 提供 macOS（Apple silicon / Intel）、Windows、Linux AppImage。官网写明可用一条 npx + Node.js 22 命令运行，该命令是桌面端启动/安装路径，不是独立编码 CLI，不单列。Friday Team 为面向团队的托管版本，仅联系销售、无公开应用主机，不单列 Web。最新官网 changelog 与 GitHub Release 均为 **v0.2.8**（2026-11-02，非 prerelease）。仓库 LICENSE 为 MIT（Copyright 2026 Arun Dass）。Logo 取自官方仓库 `public/favicon.svg` 原样矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.tryfridaywork.com",
+        "title": "Friday 官网：本机多 Agent 编码 harness"
+      },
+      {
+        "url": "https://www.tryfridaywork.com/about",
+        "title": "关于页：Arun Dass；MIT；无账户"
+      },
+      {
+        "url": "https://www.tryfridaywork.com/changelog",
+        "title": "官方 changelog：v0.2.8（2026-11-02）"
+      },
+      {
+        "url": "https://github.com/splashxmoon/friday",
+        "title": "splashxmoon/friday 官方仓库"
+      },
+      {
+        "url": "https://github.com/splashxmoon/friday/releases/tag/v0.2.8",
+        "title": "GitHub Releases · Friday v0.2.8（2026-11-02）"
+      },
+      {
+        "url": "https://github.com/splashxmoon/friday/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Arun Dass）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/splashxmoon/friday/main/public/favicon.svg",
+        "title": "官方仓库原始 SVG 品牌素材 public/favicon.svg"
+      }
+    ],
+    "verified_at": "2026-11-03"
   }
 }

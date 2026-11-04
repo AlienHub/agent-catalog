@@ -4202,5 +4202,117 @@
         "title": "官网：MIT licensed"
       }
     ]
+  },
+  "coincide-desktop": {
+    "repository_url": "https://github.com/apoorvdarshan/coincide",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/apoorvdarshan/coincide/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-03",
+      "github_archived": false,
+      "last_push_at": "2026-11-02T17:58:34Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "MIT 结论仅限已核查的 apoorvdarshan/coincide 公开源码。预构建 dmg、所连接的第三方 Agent CLI 与即将推出的其他平台不继承本判断。不是 T3 Code。维护状态参考公开 Release 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/apoorvdarshan/coincide",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/apoorvdarshan/coincide/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://coincide.dev/",
+        "title": "官网：声称免费开源"
+      }
+    ]
+  },
+  "caprock-desktop": {
+    "repository_url": "https://github.com/dspv/caprock",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/dspv/caprock/blob/master/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-03",
+      "github_archived": false,
+      "last_push_at": "2026-11-02T10:46:12Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "Apache-2.0 结论仅限已核查的 dspv/caprock 公开源码。预构建桌面二进制、所连接的第三方 Agent CLI、可选 Premium 许可与 Teams 自托管服务不继承本判断。维护状态参考公开 Release 与官方 changelog，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/dspv/caprock",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/dspv/caprock/blob/master/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://caprock.dev/",
+        "title": "官网：Apache-2.0，开源"
+      }
+    ]
+  },
+  "mercury-cli": {
+    "repository_url": "https://github.com/Whq02/MercuryCLI",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/Whq02/MercuryCLI/blob/main/LICENSE.md",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-03",
+      "github_archived": false,
+      "last_push_at": "2026-11-02T15:08:04Z"
+    },
+    "classification": "application",
+    "notes": "Apache-2.0 结论仅限已核查的 Whq02/MercuryCLI 公开源码（含 NOTICE 所载 CLI、发布归档、VS Code 扩展与 SDK）。预构建安装包与所连接的第三方模型提供商账户不继承本判断。维护状态参考公开 Release 与官方文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/Whq02/MercuryCLI",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/Whq02/MercuryCLI/blob/main/LICENSE.md",
+        "title": "官方 LICENSE.md：Apache-2.0"
+      },
+      {
+        "url": "https://mercury-cli.ai/notes/mercury-cli-goes-open-source/",
+        "title": "官方笔记：2026-10-26 开源"
+      }
+    ]
+  },
+  "friday-desktop": {
+    "repository_url": "https://github.com/splashxmoon/friday",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/splashxmoon/friday/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-03",
+      "github_archived": false,
+      "last_push_at": "2026-11-02T23:42:09Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "MIT 结论仅限已核查的 splashxmoon/friday 公开源码。预构建桌面二进制、所连接的第三方 Agent CLI 与托管 Friday Team 不继承本判断。官网写明 Friday Team 源码不属于开源应用。维护状态参考公开 Release 与官方 changelog，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/splashxmoon/friday",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/splashxmoon/friday/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://www.tryfridaywork.com/about",
+        "title": "关于页：MIT，无账户"
+      }
+    ]
   }
 }
