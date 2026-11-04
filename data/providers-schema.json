@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "LLM model API providers and relay stations",
-  "description": "Operating service sites and API endpoints only. Open-source backend projects such as one-api/new-api are attributes, not catalog entries. Listing is not endorsement.",
+  "description": "Operating service sites and API endpoints only, classified as model-vendor (模型厂商), third-party (三方供应商), or relay (中转站). Open-source backend projects such as one-api/new-api are attributes, not catalog entries. Listing is not endorsement.",
   "type": "array",
   "minItems": 1,
   "items": {
@@ -13,6 +13,7 @@
       "aliases",
       "operator",
       "type",
+      "trust_level",
       "website",
       "api_base_urls",
       "api_compat",
@@ -54,11 +55,25 @@
       },
       "type": {
         "enum": [
-          "official",
-          "aggregator",
-          "third-party-proxy",
-          "community-relay"
+          "model-vendor",
+          "third-party",
+          "relay"
         ]
+      },
+      "trust_level": {
+        "enum": [
+          "high",
+          "medium",
+          "low"
+        ]
+      },
+      "models_dev_id": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9._-]*$"
+      },
+      "ccswitch_preset_id": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]*$"
       },
       "website": {
         "type": "string",

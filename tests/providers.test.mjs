@@ -12,22 +12,33 @@ test('provider catalog count, unique IDs and metadata', async () => {
   const validated = await validateProviders();
   assert.equal(validated.providers.length, providers.length);
   assert.equal(metadata.provider_count, providers.length);
-  assert.equal(metadata.dataVersion, '0.40');
+  assert.equal(metadata.dataVersion, '0.41');
   assert.equal(new Set(providers.map(p => p.id)).size, providers.length);
-  assert(providers.length >= 50, 'seed should include reachable sample stations');
+  assert(providers.length >= 100, 'taxonomy expansion should keep a substantial operating catalog');
 });
 
 test('provider URLs, type and status enumerations', () => {
   const types = schema.items.properties.type.enum;
   const statuses = schema.items.properties.status.enum;
+  const trust = schema.items.properties.trust_level.enum;
+  assert.deepEqual(types, ['model-vendor', 'third-party', 'relay']);
+  assert.deepEqual(trust, ['high', 'medium', 'low']);
+  const counts = { 'model-vendor': 0, 'third-party': 0, relay: 0 };
   for (const provider of providers) {
     assert(types.includes(provider.type), provider.id);
+    assert(trust.includes(provider.trust_level), provider.id);
+    counts[provider.type]++;
     assert(statuses.includes(provider.status), provider.id);
     assert.equal(new URL(provider.website).protocol, 'https:');
     for (const url of provider.api_base_urls) assert.equal(new URL(url).protocol, 'https:');
     for (const url of provider.related_sites) assert.equal(new URL(url).protocol, 'https:');
     assert.equal(new URL(provider.discovery_source.url).protocol, 'https:');
   }
+  assert.equal(Object.values(counts).reduce((a, b) => a + b, 0), providers.length);
+  assert(counts['model-vendor'] >= 20, 'model-vendor coverage');
+  assert(counts['third-party'] >= 50, 'third-party is the expanded majority class');
+  assert(counts.relay >= 40, 'relay coverage from legacy community-relay plus greylist');
+  assert(!providers.some(p => ['official', 'aggregator', 'third-party-proxy', 'community-relay'].includes(p.type)));
 });
 
 test('seed policy: no discovery index, closed whatai, no open-source backends as entries', () => {

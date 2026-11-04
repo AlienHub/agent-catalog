@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.40（2026-11-04），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.41（2026-11-04），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -666,3 +666,26 @@ Logo：Caprock 使用官方仓库 `ui/public/favicon.svg`。AI CodeOps 使用官
 Logo：仅 Wavefunction 使用官方仓库 `assets/branding/wavefunction-mark.svg`。其余空 `icon`。
 
 未收录：HiRoute（路由基础设施）；SpaceApp（与 #28 Caprock/Friday 同类多 CLI 工作区，且略早于窗口）；Scout / Agibot / 灵光 / Gemini agent 预览；beacon.sh 等周边工具；#26/#27/#28 已列条目。PR #17 提供商目录不改。
+
+## v0.41 供应商三分类与扩库（2026-11-04）
+
+应用目录保持 v0.40：532 条应用 / 358 个产品。主 Schema 与已有应用稳定 ID 不变。供应商目录从四值 `type` 迁到三类：**`model-vendor`（模型厂商）**、**`third-party`（三方供应商）**、**`relay`（中转站）**。新增必填 `trust_level`（high / medium / low），以及可选 `models_dev_id` / `ccswitch_preset_id`。共享 `dataVersion` **0.41**（#26–#29 日更已合入 v0.37–v0.40）。
+
+存量 57 条迁移：
+
+| 旧 type | 条数 | 新 type |
+| --- | --- | --- |
+| official | 12 | 4 → `model-vendor`（智谱 / DeepSeek / MiniMax / Moonshot）；8 → `third-party`（百炼、SiliconFlow、Groq、Fireworks、DeepInfra、Novita、Together、PPIO） |
+| aggregator | 1 | OpenRouter → `third-party` |
+| third-party-proxy | 17 | 多数商业站 → `third-party`；CloseAI Asia / AIProxy / OAIPRO / Openai-HK / OpenAI Proxy → `relay` |
+| community-relay | 27 | 全部 → `relay` |
+
+扩库后 **170** 条（+113）。种子：models.dev `api.json`（235 providers）与 CC Switch presets。跳过本地-only（Ollama / LM Studio 等）、纯 SDK、one-api/new-api 仓库条目、以及 Clarifai（探测超时未解析）。**收录不等于推荐**；中转站默认 `trust_level=low`。
+
+| 新 type | 迁移后存量 | 新增 | 合计 |
+| --- | --- | --- | --- |
+| model-vendor | 4 | 25 | 29 |
+| third-party | 21 | 64 | 85 |
+| relay | 32 | 24 | 56 |
+
+未改 `data/schema.json` / `dataset.json`。供应商 Logo 本轮未收录（空 `icon`）。探测：HTTPS 首页、`GET /api/status`、`GET /v1/models` 只看状态码；不注册、不付费、不用 API key。

@@ -77,7 +77,7 @@ await writeFile(path.join(output, 'dataset.csv'), csv);
 const sourceKeys = ['id','repository_url','source_model','license','license_url','classification','maintenance_status','checked_at','last_push_at','github_archived','notes'];
 const sourceRows = Object.entries(data['open-source.json']).map(([id, info]) => ({ ...info, id, maintenance_status: info.maintenance.status, checked_at: info.maintenance.checked_at, last_push_at: info.maintenance.last_push_at ?? '', github_archived: info.maintenance.github_archived ?? '' }));
 await writeFile(path.join(output, 'open-source.csv'), '\uFEFF' + [sourceKeys.map(quote).join(','), ...sourceRows.map(row => sourceKeys.map(key => quote(row[key])).join(','))].join('\r\n') + '\r\n');
-const providerKeys = ['id','name','operator','type','website','status','region','api_compat','backend','last_checked'];
+const providerKeys = ['id','name','operator','type','trust_level','website','status','region','api_compat','backend','last_checked'];
 const providerRows = data['providers.json'].map(provider => ({ ...provider, api_compat: provider.api_compat.join(' | '), backend: [provider.backend.software, provider.backend.version].filter(Boolean).join(' ') }));
 await writeFile(path.join(output, 'providers.csv'), '\uFEFF' + [providerKeys.map(quote).join(','), ...providerRows.map(row => providerKeys.map(key => quote(row[key])).join(','))].join('\r\n') + '\r\n');
 const zipNames = [...dataFiles, 'dataset.csv', 'open-source.csv', 'providers.csv', 'THIRD_PARTY_NOTICES.md', ...iconFiles.map(name => `icons/${name}`), ...licenseFiles.map(name => `licenses/${name}`)];
