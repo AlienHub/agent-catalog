@@ -13462,5 +13462,213 @@
     "web_domains": [],
     "web_domain_status": "not-applicable",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "wavefunction-desktop",
+    "name": "Wavefunction",
+    "aliases": [],
+    "vendor": "Morphologic AI Inc.",
+    "type": "AI 编程",
+    "website": "https://www.wavefunction.si/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/wavefunction.svg",
+    "vendor_id": "morphologic-ai",
+    "product_id": "wavefunction",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "nana-desktop",
+    "name": "nana",
+    "aliases": [
+      "Nana"
+    ],
+    "vendor": "Areshkew",
+    "type": "AI 编程",
+    "website": "https://nana.areshk.dev/",
+    "platforms": [
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "areshkew",
+    "product_id": "nana",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "teamily-web",
+    "name": "Teamily AI",
+    "aliases": [
+      "Teamily"
+    ],
+    "vendor": "Teamily, Inc.",
+    "type": "通用任务 Agent",
+    "website": "https://teamily.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "teamily",
+    "product_id": "teamily",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "teamily.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-04"
+  },
+  {
+    "id": "teamily-desktop",
+    "name": "Teamily AI",
+    "aliases": [
+      "Teamily"
+    ],
+    "vendor": "Teamily, Inc.",
+    "type": "通用任务 Agent",
+    "website": "https://teamily.ai/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "teamily",
+    "product_id": "teamily",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "looper-web",
+    "name": "Looper",
+    "aliases": [
+      "HireLooper"
+    ],
+    "vendor": "Pavel Kucherbaev (HireLooper)",
+    "type": "办公智能体",
+    "website": "https://hirelooper.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "hirelooper",
+    "product_id": "looper",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.hirelooper.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-04"
+  },
+  {
+    "id": "prism-desktop",
+    "name": "Prism",
+    "aliases": [
+      "Navier Prism",
+      "Navier AI Prism"
+    ],
+    "vendor": "Navier AI Corp.",
+    "type": "AI 编程",
+    "website": "https://www.navier.ai/prism",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "navier-ai",
+    "product_id": "prism",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "testifly-web",
+    "name": "Testifly",
+    "aliases": [],
+    "vendor": "Testifly Ltd.",
+    "type": "AI 测试",
+    "website": "https://testifly.dev/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "testifly",
+    "product_id": "testifly",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.testifly.dev"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-04"
+  },
+  {
+    "id": "momentic-mo-web",
+    "name": "Mo",
+    "aliases": [
+      "Momentic Mo"
+    ],
+    "vendor": "Momentic Inc.",
+    "type": "AI 测试",
+    "website": "https://momentic.ai",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "momentic",
+    "product_id": "momentic-mo",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.momentic.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-04"
   }
 ]

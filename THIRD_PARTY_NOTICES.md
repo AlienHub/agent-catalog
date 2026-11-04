@@ -256,3 +256,11 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | `assets/icons/ai-codeops.svg` | [AI CodeOps 新闻资料 `aicodeops-mark.svg`](https://aicodeops.dev/press/logo/aicodeops-mark.svg) | `8ddb2f35e722186f3bd0b54984f11e5b0dc6b8fbeb215d3e43b0afc2c8bc86b1` |
 | `assets/icons/mercury.svg` | [Mercury CLI 官网 `favicon.svg`](https://mercury-cli.ai/favicon.svg) | `1af81b5aadaf06acfe8dd3b792c7e9ce7edc2dc089ca6fb05a2e94ba038e19c1` |
 | `assets/icons/friday.svg` | [splashxmoon/friday `public/favicon.svg`](https://raw.githubusercontent.com/splashxmoon/friday/main/public/favicon.svg) | `fdbeefb36fb0eb05ebdd61f4d5abcee1e53b44208b414be6083b4ed4c09b7c1a` |
+
+## v0.40 Logo 收录（2026-11-04）
+
+本批 SVG 均原样保存，未重绘。官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。nana / Teamily / Looper / Prism / Testifly / Momentic Mo 未找到可核验官方产品纯矢量 SVG，保持空 `icon`。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/wavefunction.svg` | [stoyan-stoyanov/wavefunction `assets/branding/wavefunction-mark.svg`](https://raw.githubusercontent.com/stoyan-stoyanov/wavefunction/main/assets/branding/wavefunction-mark.svg) | `6a53bcfb7c7cb71522d2a2f5606158fb274edb99ae4e14f8e3721f07560d723c` |

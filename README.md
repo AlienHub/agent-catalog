@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.39（2026-11-03），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.40（2026-11-04），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -650,3 +650,19 @@ Logo：仅 Embage 使用官网纯矢量 SVG。其余未找到可核验纯矢量�
 Logo：Caprock 使用官方仓库 `ui/public/favicon.svg`。AI CodeOps 使用官方新闻资料 `aicodeops-mark.svg`。Mercury CLI 使用官网 `favicon.svg`。Friday 使用官方仓库 `public/favicon.svg`。Coincide 无可靠官方产品 SVG，保持空 `icon`。
 
 未收录：Hera（创意画布营销站，未见可核验独立 Agent 产品入口）；UnleashX（企业 workforce，本轮不收录）；Hyperresearch / Cedric / MultiCC；Scout（仍为 SDK）；#26 / #27 已覆盖条目不重复。PR #17 提供商目录不改。
+
+## v0.40 日更（2026-11-04）
+
+新增 8 条应用、7 个产品，目录共 532 条应用、358 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.39 / `main` @ `d3b8a5f`（#28 已合入）。未改 `schema.json`。#26 / #27 / #28 已列产品不重复。
+
+- Wavefunction 桌面端（Morphologic AI Inc.）：开源 macOS 编码 Agent。GitHub **v0.2.0**（2026-10-29）。**MIT**。Apple silicon macOS 11+。不单列 CLI / Web。
+- nana 桌面端（Areshkew）：Windows 原生 Agent 终端复用器。GitHub **v0.1.0-beta.6**（2026-11-02）。闭源（releases-only）。不单列 CLI（nana-server 管理命令）。
+- Teamily AI Web 与桌面端（Teamily, Inc.）：人机 Agent 信使。已核验 `teamily.ai` 登录；桌面为 macOS + Windows。无公开 semver。不收录移动端。
+- Looper Web（HireLooper）：按业务指标运行的开源 Agent，看板 + 人工批准。已核验 `app.hirelooper.com`。**MIT**。无 GitHub Release，不把 package.json `0.1.0` 当产品版本。
+- Prism 桌面端（Navier AI Corp.）：硬件工程 ADE。官方 changelog **v0.6.0**（2026-11-02）；macOS / Windows / Linux 安装包可下载。不单列托管 CFD Web。
+- Testifly Web（Testifly Ltd.）：自主 Web QA Agent。已核验 `app.testifly.dev`。与 Heal 分产品。
+- Momentic Mo Web（Momentic Inc.）：托管 QA Agent。已核验 `app.momentic.ai`。与 #27 Apps by Mo 分产品。
+
+Logo：仅 Wavefunction 使用官方仓库 `assets/branding/wavefunction-mark.svg`。其余空 `icon`。
+
+未收录：HiRoute（路由基础设施）；SpaceApp（与 #28 Caprock/Friday 同类多 CLI 工作区，且略早于窗口）；Scout / Agibot / 灵光 / Gemini agent 预览；beacon.sh 等周边工具；#26/#27/#28 已列条目。PR #17 提供商目录不改。
