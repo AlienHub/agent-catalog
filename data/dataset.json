@@ -13757,5 +13757,276 @@
     "web_domains": [],
     "web_domain_status": "not-applicable",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "autocua-desktop",
+    "name": "AutoCua",
+    "aliases": [
+      "Auto Cua"
+    ],
+    "vendor": "Ashish Yadav",
+    "type": "通用任务 Agent",
+    "website": "https://computeruse.uk/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "ashish-yadav",
+    "product_id": "autocua",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "one-code-cli",
+    "name": "One Code",
+    "aliases": [
+      "onecode",
+      "@one-ai/one-code"
+    ],
+    "vendor": "Isuru Wijesiri",
+    "type": "AI 编程",
+    "website": "https://github.com/IsuruMaduranga/one-code",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "isuru-wijesiri",
+    "product_id": "one-code",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "soiawork-web",
+    "name": "树芽工作",
+    "aliases": [
+      "Soiawork",
+      "树芽"
+    ],
+    "vendor": "浙江实在智能科技有限公司",
+    "type": "办公智能体",
+    "website": "https://soiawork.cn/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/soiawork.svg",
+    "vendor_id": "shizai",
+    "product_id": "soiawork",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "soiawork.cn"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-05"
+  },
+  {
+    "id": "wanaka-studio-web",
+    "name": "Wanaka Studio",
+    "aliases": [
+      "Wanaka"
+    ],
+    "vendor": "Wanaka Studio Limited",
+    "type": "AI 游戏创作",
+    "website": "https://wanaka.app/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "wanaka-studio",
+    "product_id": "wanaka",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "wanaka.app"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-05"
+  },
+  {
+    "id": "cxagent-cli",
+    "name": "CXAgent",
+    "aliases": [
+      "cxagent"
+    ],
+    "vendor": "Nikolaos Protopapas",
+    "type": "AI 编程",
+    "website": "https://github.com/nickprotop/cxagent",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/cxagent.svg",
+    "vendor_id": "nickprotop",
+    "product_id": "cxagent",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "apus-reflex-desktop",
+    "name": "APUS Reflex",
+    "aliases": [
+      "Reflex Agent",
+      "瞬策",
+      "APUS Reflex Agent"
+    ],
+    "vendor": "APUS AI",
+    "type": "通用任务 Agent",
+    "website": "https://github.com/APUS-AI-Lab/APUS-Reflex-Agent",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "apus-ai",
+    "product_id": "apus-reflex",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "cowboy-web",
+    "name": "Cowboy",
+    "aliases": [
+      "Cowboy General Store",
+      "Cowboy Cloud"
+    ],
+    "vendor": "Cowboy Labs, Inc.",
+    "type": "智能体与工作流",
+    "website": "https://cowboy.inc/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "cowboy-labs",
+    "product_id": "cowboy",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "cowboy.inc",
+      "cloud.cowboy.inc"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-05"
+  },
+  {
+    "id": "kino-desktop",
+    "name": "Kino",
+    "aliases": [
+      "Kino AI"
+    ],
+    "vendor": "Kino AI, Inc.",
+    "type": "音视频编辑",
+    "website": "https://kino.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "kino-ai",
+    "product_id": "kino",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "cinnamon-web",
+    "name": "Cinnamon",
+    "aliases": [],
+    "vendor": "Cobbles Tech LLC",
+    "type": "办公智能体",
+    "website": "https://getcinnamon.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/cinnamon.svg",
+    "vendor_id": "cobbles-tech",
+    "product_id": "cinnamon",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.getcinnamon.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-05"
+  },
+  {
+    "id": "dessn-web",
+    "name": "Dessn",
+    "aliases": [],
+    "vendor": "Dessn",
+    "type": "设计创作",
+    "website": "https://www.dessn.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/dessn.svg",
+    "vendor_id": "dessn",
+    "product_id": "dessn",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "create.dessn.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-05"
   }
 ]

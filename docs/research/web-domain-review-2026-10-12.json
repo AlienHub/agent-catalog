@@ -3,7 +3,7 @@
   "original_web_records": 168,
   "added_web_records": 5,
   "counts": {
-    "verified": 74,
+    "verified": 79,
     "unverified": 85,
     "self-hosted": 22
   },
@@ -4657,6 +4657,107 @@
         }
       ],
       "notes": "2026-11-04 新增已核验 Web 入口 app.momentic.ai。SSO 主机 auth.momentic.ai 不记入 web_domains。"
+    },
+    {
+      "id": "soiawork-web",
+      "name": "树芽工作",
+      "website": "https://soiawork.cn/",
+      "status": "verified",
+      "domains": [
+        "soiawork.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://soiawork.cn/",
+          "title": "树芽工作官方网站"
+        },
+        {
+          "url": "https://soiawork.cn/login",
+          "title": "已核验 Web 应用入口"
+        }
+      ],
+      "notes": "2026-11-05 新增已核验 Web 入口 soiawork.cn。"
+    },
+    {
+      "id": "wanaka-studio-web",
+      "name": "Wanaka Studio",
+      "website": "https://wanaka.app/",
+      "status": "verified",
+      "domains": [
+        "wanaka.app"
+      ],
+      "sources": [
+        {
+          "url": "https://wanaka.app/",
+          "title": "Wanaka 官方网站"
+        },
+        {
+          "url": "https://wanaka.app/pricing",
+          "title": "Wanaka 官方定价页"
+        }
+      ],
+      "notes": "2026-11-05 新增已核验 Web 入口 wanaka.app。studio.wanaka.app 公开抓取 403，不记入 web_domains。"
+    },
+    {
+      "id": "cowboy-web",
+      "name": "Cowboy",
+      "website": "https://cowboy.inc/",
+      "status": "verified",
+      "domains": [
+        "cowboy.inc",
+        "cloud.cowboy.inc"
+      ],
+      "sources": [
+        {
+          "url": "https://cowboy.inc/",
+          "title": "Cowboy 官方网站"
+        },
+        {
+          "url": "https://cloud.cowboy.inc/",
+          "title": "已核验 Cowboy Dashboard"
+        }
+      ],
+      "notes": "2026-11-05 新增已核验 Web 入口 cowboy.inc 与 cloud.cowboy.inc。"
+    },
+    {
+      "id": "cinnamon-web",
+      "name": "Cinnamon",
+      "website": "https://getcinnamon.ai/",
+      "status": "verified",
+      "domains": [
+        "app.getcinnamon.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://getcinnamon.ai/",
+          "title": "Cinnamon 官方网站"
+        },
+        {
+          "url": "https://app.getcinnamon.ai/",
+          "title": "已核验 Web 应用主机 app.getcinnamon.ai"
+        }
+      ],
+      "notes": "2026-11-05 新增已核验 Web 入口 app.getcinnamon.ai。"
+    },
+    {
+      "id": "dessn-web",
+      "name": "Dessn",
+      "website": "https://www.dessn.com/",
+      "status": "verified",
+      "domains": [
+        "create.dessn.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dessn.com/",
+          "title": "Dessn 官方网站"
+        },
+        {
+          "url": "https://create.dessn.ai/",
+          "title": "已核验 Web 应用主机 create.dessn.ai"
+        }
+      ],
+      "notes": "2026-11-05 新增已核验 Web 入口 create.dessn.ai。mcp.dessn.ai 为 MCP 主机，不记入 web_domains。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4672,5 +4773,6 @@
   "added_web_records_20261030": 2,
   "added_web_records_20261102": 6,
   "added_web_records_20261103": 1,
-  "added_web_records_20261104": 4
+  "added_web_records_20261104": 4,
+  "added_web_records_20261105": 5
 }
