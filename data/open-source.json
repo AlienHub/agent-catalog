@@ -4390,5 +4390,53 @@
       }
     ],
     "classification": "application"
+  },
+  "rerun-web": {
+    "repository_url": "https://github.com/rerun-build/rerun",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/rerun-build/rerun/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-06",
+      "github_archived": false,
+      "last_push_at": "2026-11-05T13:37:58Z"
+    },
+    "notes": "本次核验上游主分支应用源码许可为 GNU AGPL v3.0。结论仅限 rerun-build/rerun Web/自托管应用，不外推所连接的模型供应商、MCP 或 Rerun Cloud 运营环境。不是 rerun-io/rerun。维护状态参考公开 Release v0.9.0，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/rerun-build/rerun",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/rerun-build/rerun/blob/main/LICENSE",
+        "title": "上游主分支 LICENSE：GNU AGPL v3.0"
+      }
+    ],
+    "classification": "application"
+  },
+  "everywhere-desktop": {
+    "repository_url": "https://github.com/Sylinko/Everywhere",
+    "source_model": "source-available",
+    "license": "BUSL-1.1",
+    "license_url": "https://github.com/Sylinko/Everywhere/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-06",
+      "github_archived": false,
+      "last_push_at": "2026-10-29T12:55:06Z"
+    },
+    "notes": "LICENSE 为 Business Source License 1.1（Licensor: Sylinko Inc.），Change Date 为该版本首次公开发布后四年，Change License 为 Apache License 2.0；禁止 Competing Use（含托管/PaaS）。不在本目录 open-source 允许的 OSI 表达式内，故 source-available。结论仅限已核查的 Sylinko/Everywhere 桌面应用源码，不外推所连接的模型供应商或 MCP 服务。维护状态参考公开 Release v0.8.2 与现行 canary，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/Sylinko/Everywhere",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/Sylinko/Everywhere/blob/main/LICENSE",
+        "title": "上游主分支 LICENSE：Business Source License 1.1 → Apache-2.0"
+      }
+    ],
+    "classification": "application"
   }
 }

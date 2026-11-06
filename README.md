@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.42（2026-11-04），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.44（2026-11-06），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -701,3 +701,19 @@ Logo：仅 Wavefunction 使用官方仓库 `assets/branding/wavefunction-mark.sv
 Logo：蛙池AI 使用官网 PNG（无纯矢量 SVG）。AiPy 仅 WebP/AVIF/ICO 与 README ASCII 字标 SVG，保持空 `icon`。
 
 未收录：娃池（错误名）；AiPy 未独立发行的 OSS GUI；供应商目录不改。
+
+## v0.44 日更（2026-11-06）
+
+新增 8 条应用、7 个产品，目录共 543 条应用、367 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.42 / `main` @ `bec7506`（#31 已合入）。未改 `schema.json` 与供应商分类。dataVersion 与草稿 #32（同基线宣称 v0.43）冲突，需评审处理。
+
+- Rerun Web（rerun-build / Clément Janssens）：AI Coworkers，云端 app.rerun.build + AGPL-3.0 自托管。GitHub **v0.9.0**。不是 rerun-io/rerun。
+- Everywhere 桌面（Sylinko Inc.）：屏幕感知桌面助手，Win/macOS。最新稳定 **v0.8.2**，另有 canary。BUSL-1.1 → Apache-2.0，source-available。
+- Mooring 桌面（STRATAGEMS）：Claude Code ADE，Apple silicon / macOS 26+。官方 **v1.0.0**。免费闭源。
+- Vector 桌面（Andrew Huth / getvector.sh）：编排本机 Claude Code + Codex CLI 的 macOS ADE。Releases **v0.1.11**。不是 vectordev.ai。
+- Nico 桌面（SUPERMIND PTE. LIMITED）：Mac 本机前台+Worker 个人智能体。无公开 semver。闭源。
+- Zerg Client CLI / 桌面（Zerg AI）：编码 harness。npm / 桌面 **0.11.0-beta.1**。Source-available，无已核验公开应用源码仓。
+- Stitch.ai Web：工作区 + Stitchy。应用主机 app.stitch.ai。
+
+Logo：本批均未找到可核验纯矢量 SVG，icon 留空。
+
+未收录：Kimi Hosted Agents（开放平台 Harness-as-a-Service，不是新的用户侧形态）；Perplexity Teammates（既有 perplexity Web 的 Max 档功能）；Okapi / Polylane（可选、偏 GitHub App / 垂直值班，本轮不收）；#32 已列条目。
