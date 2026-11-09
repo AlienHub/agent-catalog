@@ -4390,5 +4390,125 @@
       }
     ],
     "classification": "application"
+  },
+  "letronna-desktop": {
+    "repository_url": "https://github.com/gadlus/letronna",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/gadlus/letronna/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-09",
+      "github_archived": false,
+      "last_push_at": "2026-11-08T10:34:55Z"
+    },
+    "classification": "application",
+    "notes": "MIT 结论仅限已核查的 gadlus/letronna 公开源码。预构建 DMG/EXE、Letronna Cloud 托管与钱包/链上支付不继承本判断。维护状态参考公开 Release v0.1.0-alpha.5 与现行 changelog，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/gadlus/letronna/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Gadlus LLC）"
+      },
+      {
+        "url": "https://github.com/gadlus/letronna",
+        "title": "官方仓库与桌面/终端发行"
+      }
+    ]
+  },
+  "letronna-cli": {
+    "repository_url": "https://github.com/gadlus/letronna",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/gadlus/letronna/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-09",
+      "github_archived": false,
+      "last_push_at": "2026-11-08T10:34:55Z"
+    },
+    "classification": "application",
+    "notes": "MIT 结论仅限已核查的 gadlus/letronna 公开源码与 terminal 二进制。预构建安装脚本、托管模型与钱包能力不继承本判断。维护状态参考公开 Release v0.1.0-alpha.5，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/gadlus/letronna/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Gadlus LLC）"
+      },
+      {
+        "url": "https://github.com/gadlus/letronna",
+        "title": "官方仓库与 CLI 发行"
+      }
+    ]
+  },
+  "alysis-code-cli": {
+    "repository_url": "https://github.com/AlysisAi/AlysisCode",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/AlysisAi/AlysisCode/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-09",
+      "github_archived": false,
+      "last_push_at": "2026-11-09T00:54:04Z"
+    },
+    "classification": "application",
+    "notes": "Apache-2.0 结论仅限已核查的 AlysisAi/AlysisCode 公开引擎源码与 CLI/PyPI 发行。桌面安装包、托管 credits 与 Chrome 扩展不继承本判断。维护状态参考公开 Release v0.16.2 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/AlysisAi/AlysisCode/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/AlysisAi/AlysisCode",
+        "title": "官方仓库与 CLI 发行"
+      }
+    ]
+  },
+  "termexo-desktop": {
+    "repository_url": "https://github.com/gemron/Termexo",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/gemron/Termexo/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-09",
+      "github_archived": false,
+      "last_push_at": "2026-11-04T03:43:40Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "MIT 结论仅限已核查的 gemron/Termexo 公开源码。预构建安装包、npm 发行与所连接的第三方 Agent CLI 不继承本判断。维护状态参考公开 Release v0.12.1 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/gemron/Termexo/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Termexo contributors）"
+      },
+      {
+        "url": "https://github.com/gemron/Termexo",
+        "title": "官方仓库与桌面发行"
+      }
+    ]
+  },
+  "relay-desktop": {
+    "repository_url": "https://github.com/relaycodehq/relay",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/relaycodehq/relay/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-09",
+      "github_archived": false,
+      "last_push_at": "2026-11-08T14:57:28Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "MIT 结论仅限已核查的 relaycodehq/relay 公开源码。预构建安装包、Android APK、headless 服务器与所连接的第三方 Agent CLI 不继承本判断。维护状态参考公开 Release v0.28.4 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/relaycodehq/relay/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Relay contributors）"
+      },
+      {
+        "url": "https://github.com/relaycodehq/relay",
+        "title": "官方仓库与桌面发行"
+      }
+    ]
   }
 }

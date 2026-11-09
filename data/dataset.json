@@ -13757,5 +13757,310 @@
     "web_domains": [],
     "web_domain_status": "not-applicable",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "turnstone-desktop",
+    "name": "Turnstone",
+    "aliases": [],
+    "vendor": "Crow Inc.",
+    "type": "通用任务 Agent",
+    "website": "https://myturnstone.ai/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "crow-inc",
+    "product_id": "turnstone",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "wonder-desktop",
+    "name": "Wonder",
+    "aliases": [
+      "Wonder Dev View"
+    ],
+    "vendor": "Aquila Labs, Inc.",
+    "type": "AI 编程",
+    "website": "https://wonder.design/dev",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/wonder.svg",
+    "vendor_id": "aquila-labs",
+    "product_id": "wonder",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "crystl-desktop",
+    "name": "crystl",
+    "aliases": [
+      "Crystl"
+    ],
+    "vendor": "Chris Bolton",
+    "type": "AI 编程",
+    "website": "https://crystl.dev/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/crystl.svg",
+    "vendor_id": "chris-bolton",
+    "product_id": "crystl",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "agent-clan-desktop",
+    "name": "Agent Clan",
+    "aliases": [],
+    "vendor": "Tse Cheng",
+    "type": "AI 编程",
+    "website": "https://agentclan.app/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "tse-cheng",
+    "product_id": "agent-clan",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "letronna-desktop",
+    "name": "Letronna",
+    "aliases": [],
+    "vendor": "Gadlus LLC",
+    "type": "AI 编程",
+    "website": "https://letronna.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "gadlus",
+    "product_id": "letronna",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "letronna-cli",
+    "name": "Letronna",
+    "aliases": [],
+    "vendor": "Gadlus LLC",
+    "type": "AI 编程",
+    "website": "https://letronna.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "gadlus",
+    "product_id": "letronna",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "alysis-code-desktop",
+    "name": "Alysis Code",
+    "aliases": [
+      "Alysis"
+    ],
+    "vendor": "ALYSIS AI P.C.",
+    "type": "AI 编程",
+    "website": "https://alysiscode.com/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "alysis-ai",
+    "product_id": "alysis-code",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "alysis-code-cli",
+    "name": "Alysis Code",
+    "aliases": [
+      "Alysis",
+      "alysis"
+    ],
+    "vendor": "ALYSIS AI P.C.",
+    "type": "AI 编程",
+    "website": "https://alysiscode.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "alysis-ai",
+    "product_id": "alysis-code",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "termexo-desktop",
+    "name": "Termexo",
+    "aliases": [],
+    "vendor": "gemron",
+    "type": "AI 编程",
+    "website": "https://www.termexo.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "gemron",
+    "product_id": "termexo",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "cobalt-web",
+    "name": "Cobalt",
+    "aliases": [
+      "Cobalt Code"
+    ],
+    "vendor": "Cobalt Code Inc.",
+    "type": "AI 编程",
+    "website": "https://cobaltcode.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/cobalt.svg",
+    "vendor_id": "cobalt-code",
+    "product_id": "cobalt",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.cobaltcode.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-09"
+  },
+  {
+    "id": "cobalt-desktop",
+    "name": "Cobalt",
+    "aliases": [
+      "Cobalt Desktop",
+      "Cobalt Code"
+    ],
+    "vendor": "Cobalt Code Inc.",
+    "type": "AI 编程",
+    "website": "https://cobaltcode.ai/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/cobalt.svg",
+    "vendor_id": "cobalt-code",
+    "product_id": "cobalt",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "relay-desktop",
+    "name": "Relay",
+    "aliases": [],
+    "vendor": "relaycodehq",
+    "type": "AI 编程",
+    "website": "https://relaycode.io/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "relaycodehq",
+    "product_id": "relay",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]

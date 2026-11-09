@@ -701,3 +701,23 @@ Logo：仅 Wavefunction 使用官方仓库 `assets/branding/wavefunction-mark.sv
 Logo：蛙池AI 使用官网 PNG（无纯矢量 SVG）。AiPy 仅 WebP/AVIF/ICO 与 README ASCII 字标 SVG，保持空 `icon`。
 
 未收录：娃池（错误名）；AiPy 未独立发行的 OSS GUI；供应商目录不改。
+
+## v0.45 日更（2026-11-09）
+
+新增 12 条应用、9 个产品，目录共 547 条应用、369 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.42 / `main` @ `bec7506`（#31 已合入）。未改 `schema.json` 与供应商分类。
+
+本分支从同一 `main` 基线切出，**dataVersion 使用 0.45**：开放草稿 #32 已占用 0.43，#33 已占用 0.44。本 PR **未**收录这两条草稿中的条目。
+
+- Turnstone 桌面（Crow Inc.）：macOS 个人多 Agent。changelog **0.8.7**。闭源。不收录即将推出的 iPhone / Web。
+- Wonder / Wonder Dev View 桌面（Aquila Labs, Inc.）：Mac + Windows 编码 harness。安装包 **0.2.230**。闭源。本轮不单列 Web / Capture 扩展。
+- crystl 桌面（Chris Bolton）：macOS Swift 终端 / Agent 管理器。appcast **2.284.0**。闭源。内置 `crystl` helper 不单列 CLI。
+- Agent Clan 桌面（Tse Cheng）：Mac Apple Silicon + Windows 手势/语音 UI。**0.1.8**。闭源。
+- Letronna 桌面 + CLI（Gadlus LLC）：MIT。**v0.1.0-alpha.5**。仓库/README 含 crypto wallet 与 CA 地址，仍作为最终用户 Agent 收录并写明。
+- Alysis Code 桌面 + CLI（ALYSIS AI P.C.）：桌面 **v0.1.58**，CLI/引擎 **v0.16.2** Apache-2.0。桌面包不写入 open-source.json。
+- Termexo 桌面（gemron）：MIT 本机工作台。**v0.12.1**。npm 启动的是桌面应用，不单列 CLI。
+- Cobalt Web + Desktop（Cobalt Code Inc.）：云 harness。Web 主机 app.cobaltcode.ai；Desktop 博文 2026-11-05，公开页仅证实 macOS。控制面 CLI 不单列。
+- Relay 桌面（relaycodehq）：MIT 编码 Agent 工作区。**v0.28.4**。star 少但有可下载安装包。
+
+跳过：Agent Manager tmux TUI（与 crystl/herdr 同类复用器，discovery 降权）；Scout / Agibot / 灵光 2.0 / Gemini 私有预览 / Tobira / LiveReview / NoMac 等；#32 / #33 已列条目。
+
+Logo：Wonder / crystl / Cobalt 使用官网 SVG；其余缺失纯矢量，空 `icon`。

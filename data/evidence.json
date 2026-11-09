@@ -12016,5 +12016,345 @@
       }
     ],
     "verified_at": "2026-11-04"
+  },
+  "turnstone-desktop": {
+    "notes": "Crow Inc.（创始人 Aryan Vij / Jai Bhatia，Y Combinator Winter 2026）出品的 macOS 桌面个人多 Agent：每个 Agent 有独立职责、模型与记忆，共享本机 Brain 文件。本条仅桌面 GUI。官方 facts 写明 Mac app Available now；changelog 最新 **0.8.7**（2026-11-07）。已核验下载 API https://myturnstone.ai/api/download/mac?architecture=arm64 与 x64 分别 307 至 releases.myturnstone.ai/macos/stable/Turnstone-arm64.dmg 与 Turnstone-x64.dmg（核验日 HTTP 200，application/x-apple-diskimage）。facts 写 iPhone / Web / Windows / Linux 尚未提供或 Coming soon，按目录范围不收录移动端，也不单列未上线形态。Turnstone 本身免费，使用用户自有 ChatGPT / Claude / Grok / Cursor 等订阅或 API key。无公开产品源码仓，不写入 open-source.json。未找到可核验官方纯矢量 SVG（仅 PNG/ICO）。官网资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://myturnstone.ai/",
+        "title": "Turnstone 官网：Mac 桌面个人多 Agent"
+      },
+      {
+        "url": "https://myturnstone.ai/facts",
+        "title": "官方 facts：Mac app 现已提供；主体 Crow Inc.；iPhone/Web Coming soon"
+      },
+      {
+        "url": "https://myturnstone.ai/changelog",
+        "title": "官方 changelog：最新 0.8.7（2026-11-07）"
+      },
+      {
+        "url": "https://myturnstone.ai/about",
+        "title": "About：Aryan 与 Jai；Y Combinator Winter 2026；founders@myturnstone.ai"
+      },
+      {
+        "url": "https://myturnstone.ai/api/download/mac?architecture=arm64",
+        "title": "官方下载 API：307 至 Turnstone-arm64.dmg（核验日 HTTP 200）"
+      },
+      {
+        "url": "https://releases.myturnstone.ai/macos/stable/Turnstone-arm64.dmg",
+        "title": "官方发布桶：Turnstone Apple silicon DMG"
+      }
+    ],
+    "verified_at": "2026-11-09"
+  },
+  "wonder-desktop": {
+    "notes": "Aquila Labs, Inc.（d/b/a Wonder）出品的 macOS / Windows 桌面 harness Wonder Dev View：在独立 git worktree 中并行运行用户自有 Claude Code 与 Codex，并把设计画布、Preview、Git/PR 放在同一窗口。本条仅桌面 GUI。官方下载页提供 Apple Silicon / Intel DMG 与 Windows x64 EXE；核验日 Content-Disposition 文件名为 **Wonder 0.2.230 - arm64.dmg** 与 **Wonder Setup 0.2.230 - x64.exe**（download.wonder.so HTTP 200）。官网另写浏览器内也可使用 Wonder，以及 Wonder Capture Chrome 扩展，本轮不单列 Web / 浏览器插件。Cloud workspaces 仍为 Planned。无公开产品应用源码仓，不写入 open-source.json。Logo 取自官网 favicon.svg 原样矢量。官网资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://wonder.design/dev",
+        "title": "Wonder Dev View 产品页：并行 Claude Code / Codex harness 与设计画布"
+      },
+      {
+        "url": "https://wonder.design/downloads",
+        "title": "官方下载页：macOS Apple Silicon / Intel DMG 与 Windows x64 EXE"
+      },
+      {
+        "url": "https://download.wonder.so/mac/dmg/arm64",
+        "title": "官方安装包：Wonder 0.2.230 arm64.dmg（核验日 HTTP 200）"
+      },
+      {
+        "url": "https://download.wonder.so/windows/nsis/x64",
+        "title": "官方安装包：Wonder Setup 0.2.230 x64.exe（核验日 HTTP 200）"
+      },
+      {
+        "url": "https://wonder.design/terms-of-service",
+        "title": "服务条款：运营主体 Aquila Labs, Inc. d/b/a Wonder"
+      },
+      {
+        "url": "https://wonder.design/favicon.svg",
+        "title": "官网原始 SVG 品牌素材 favicon.svg"
+      },
+      {
+        "url": "https://www.producthunt.com/products/wonder-dev-view",
+        "title": "Product Hunt：Wonder Dev View 发布（形态与版本以官网为准）"
+      }
+    ],
+    "verified_at": "2026-11-09"
+  },
+  "crystl-desktop": {
+    "notes": "Chris Bolton（diviner.agency）出品的 macOS 原生 Swift 多任务终端 / Agent 管理器 crystl：在独立 git worktree 中并行运行 Claude Code、Codex、Antigravity CLI 等已安装 CLI Agent。本条仅桌面 GUI。FAQ 与官网写明 macOS only。官方 Sparkle appcast 最新 **2.284.0**（2026-11-08）；enclosure https://crystl.dev/download/v2.284.0.zip（核验日 HTTP 200）。内置 `crystl` 命令由桌面应用写入 /usr/local/bin，不是独立最终用户 Agent 产品，不单列 CLI。iPhone 伴侣按目录范围不收录。无公开产品应用源码仓，不写入 open-source.json。Logo 取自官网 favicon.svg 原样矢量。官网资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://crystl.dev/",
+        "title": "crystl 官网：macOS 多任务终端与 Agent 管理器"
+      },
+      {
+        "url": "https://crystl.dev/changelog/",
+        "title": "官方 changelog：最新 2.284.0（2026-11-08）"
+      },
+      {
+        "url": "https://crystl.dev/appcast.xml",
+        "title": "官方 Sparkle appcast：Version 2.284.0 与 v2.284.0.zip"
+      },
+      {
+        "url": "https://crystl.dev/download/v2.284.0.zip",
+        "title": "官方安装包 crystl 2.284.0 zip（核验日 HTTP 200）"
+      },
+      {
+        "url": "https://crystl.dev/docs/getting-started/",
+        "title": "官方入门：从账户页下载 .dmg，拖入 Applications"
+      },
+      {
+        "url": "https://crystl.dev/about",
+        "title": "About：作者 Chris Bolton"
+      },
+      {
+        "url": "https://crystl.dev/favicon.svg",
+        "title": "官网原始 SVG 品牌素材 favicon.svg"
+      }
+    ],
+    "verified_at": "2026-11-09"
+  },
+  "agent-clan-desktop": {
+    "notes": "个人开发者 Tse Cheng（鄭策，台湾）出品的桌面 Agent Clan：用手势/语音把本机 Claude Code 与 Codex 会话显示为 3D 角色。本条仅桌面 GUI。站点 config.js 当前 **0.1.8**（released 2026-11-03）；changelog 0.1.8 写明 Mac 与 Windows。已核验安装包 https://downloads.agentclan.app/mac/Agent-Clan-0.1.8-arm64.dmg 与 windows/Agent-Clan-Setup-0.1.8-x64.exe（核验日 HTTP 200）。macOS 仅 Apple Silicon；Intel Mac 不支持。下载页另有「Windows packaging and testing are in progress」文案，但 changelog 自 0.1.3 起提供 Windows 10/11 x64，且 0.1.8 安装包可下载，故平台记 macOS 与 Windows。无公开产品源码仓，不写入 open-source.json。官网 /favicon.svg 实为 HTML SPA，不是 SVG，icon 留空。官网资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://agentclan.app/",
+        "title": "Agent Clan 官网：手势/语音桌面 Agent 工作区"
+      },
+      {
+        "url": "https://agentclan.app/download",
+        "title": "官方下载页：Mac Apple Silicon 与 Windows 10/11 64-bit"
+      },
+      {
+        "url": "https://agentclan.app/config.js",
+        "title": "站点 config.js：version 0.1.8（2026-11-03）与官方安装包 URL"
+      },
+      {
+        "url": "https://downloads.agentclan.app/mac/Agent-Clan-0.1.8-arm64.dmg",
+        "title": "官方 macOS Apple Silicon DMG 0.1.8（核验日 HTTP 200）"
+      },
+      {
+        "url": "https://downloads.agentclan.app/windows/Agent-Clan-Setup-0.1.8-x64.exe",
+        "title": "官方 Windows x64 Setup 0.1.8（核验日 HTTP 200）"
+      },
+      {
+        "url": "https://agentclan.app/changelog",
+        "title": "官方 changelog：0.1.8（2026-11-03）；0.1.3 起 Windows"
+      },
+      {
+        "url": "https://agentclan.app/legal/privacy",
+        "title": "隐私政策：运营者为 Tse Cheng，台湾个人开发者"
+      }
+    ],
+    "verified_at": "2026-11-09"
+  },
+  "letronna-desktop": {
+    "notes": "Gadlus LLC 出品的开源桌面 Agent Letronna（GPUI）：本机或 Letronna Cloud 执行任务，可托管结果链接。本条仅桌面 GUI。GitHub latest.json 与 Releases **v0.1.0-alpha.5**（2026-11-05，changelog 同日）提供 letronna-macos-arm64.dmg、letronna-gui-windows-x64.exe、letronna-gui-linux-x64。GitHub Releases 安装包核验日 HTTP 200。官方 README 写明产品含 crypto wallet / x402 支付，仓库 description 含 CA 合约地址 0xa2753fd0bc86b8ceb55ffd2698679c7f214785f1；仍为可安装的最终用户 Agent，目录如实记录该钱包能力，不据此排除。同产品终端见 letronna-cli。VS Code 扩展与即将推出的 iPhone/Android 不单列。LICENSE 为 MIT。未找到可核验官方纯矢量 SVG（README 横幅为 PNG）。官网/仓库资料核验，未做安装、登录、链上操作或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://letronna.ai/",
+        "title": "Letronna 官网：自有 cloud 与 wallet 的 Agent；macOS / Windows / Linux"
+      },
+      {
+        "url": "https://letronna.ai/changelog",
+        "title": "官方 changelog：v0.1.0-alpha.5（2026-11-05）覆盖 App 与 Terminal"
+      },
+      {
+        "url": "https://github.com/gadlus/letronna",
+        "title": "gadlus/letronna 官方仓库；README 含 wallet / CA 地址"
+      },
+      {
+        "url": "https://github.com/gadlus/letronna/releases/tag/v0.1.0-alpha.5",
+        "title": "GitHub Releases · Letronna 0.1.0-alpha.5（2026-11-05）"
+      },
+      {
+        "url": "https://github.com/gadlus/letronna/releases/download/v0.1.0-alpha.5/letronna-macos-arm64.dmg",
+        "title": "官方 macOS Apple silicon GUI DMG（核验日 HTTP 200）"
+      },
+      {
+        "url": "https://github.com/gadlus/letronna/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Gadlus LLC）"
+      }
+    ],
+    "verified_at": "2026-11-09"
+  },
+  "letronna-cli": {
+    "notes": "同一 Letronna 产品的终端形态：命令 `letronna`。GitHub latest.json 为各平台 terminal 二进制（letronna-macos-arm64、letronna-windows-x64.exe、letronna-linux-x64 等），与 GUI 资产分开。安装脚本 https://letronna.ai/install.sh 与 install.ps1。版本与桌面相同 **v0.1.0-alpha.5**（2026-11-05）。LICENSE MIT。钱包 / x402 / CA 地址说明同桌面条，不排除收录。后台 `letronna --bg` 与 `letronna serve`（Telegram/Discord/Slack）不是独立交互形态，不单列。官网/仓库资料核验，未做安装或运行测试。",
+    "sources": [
+      {
+        "url": "https://github.com/gadlus/letronna/blob/main/README.md",
+        "title": "官方 README：letronna 终端用法与 install.sh / install.ps1"
+      },
+      {
+        "url": "https://github.com/gadlus/letronna/releases/tag/v0.1.0-alpha.5",
+        "title": "GitHub Releases · 0.1.0-alpha.5 含 terminal 与 GUI 资产"
+      },
+      {
+        "url": "https://github.com/gadlus/letronna/releases/download/v0.1.0-alpha.5/latest.json",
+        "title": "官方 latest.json：window 与 terminal 分列平台资产"
+      },
+      {
+        "url": "https://letronna.ai/changelog",
+        "title": "官方 changelog：同一版本覆盖 Terminal 命令"
+      },
+      {
+        "url": "https://github.com/gadlus/letronna/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Gadlus LLC）"
+      }
+    ],
+    "verified_at": "2026-11-09"
+  },
+  "alysis-code-desktop": {
+    "notes": "ALYSIS AI P.C.（希腊雅典 Ι.Κ.Ε.）出品的 Alysis Code 桌面 Agent：Code mode 处理仓库，Work mode 处理本机文件/浏览器任务。本条仅桌面 GUI。官网写明 macOS Apple silicon 与 Windows x64 Beta，当前桌面 **v0.1.58**。已核验 https://updates.alysiscode.com/beta/Alysis.Code-0.1.58-arm64.dmg 与 Alysis.Code-0.1.58-x64.exe（核验日 HTTP 200，application/octet-stream）。公开引擎源码版本独立编号，GitHub latest 引擎 **v0.16.2**（2026-11-07）不覆盖本条桌面版本号。不提供 Linux 桌面安装包。同产品 CLI 见 alysis-code-cli。隐私政策另提及 Chrome 扩展，未核验商店 ID，不单列。桌面安装包本身不是开源发行物；引擎源码见 CLI 条。未找到可核验官方纯矢量 SVG（favicon 为 PNG/ICO）。官网资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://alysiscode.com/",
+        "title": "Alysis Code 官网：桌面 v0.1.58 macOS Apple silicon / Windows x64 Beta"
+      },
+      {
+        "url": "https://updates.alysiscode.com/beta/Alysis.Code-0.1.58-arm64.dmg",
+        "title": "官方桌面安装包 Alysis.Code-0.1.58-arm64.dmg（核验日 HTTP 200）"
+      },
+      {
+        "url": "https://updates.alysiscode.com/beta/Alysis.Code-0.1.58-x64.exe",
+        "title": "官方桌面安装包 Alysis.Code-0.1.58-x64.exe（核验日 HTTP 200）"
+      },
+      {
+        "url": "https://alysiscode.com/legal/privacy",
+        "title": "隐私政策：控制者 ALYSIS AI P.C.；覆盖 CLI、桌面与 Chrome 扩展"
+      },
+      {
+        "url": "https://github.com/AlysisAi/AlysisCode/releases/tag/v0.16.0",
+        "title": "GitHub v0.16.0 说明：引擎源码随桌面包分开发行编号"
+      }
+    ],
+    "verified_at": "2026-11-09"
+  },
+  "alysis-code-cli": {
+    "notes": "同一 Alysis Code 产品的独立 CLI/TUI：安装脚本提供 Python 后运行 `alysis` / `alysis login`。GitHub latest Release **v0.16.2**（2026-11-07）发布 PyPI wheel alysis_code-0.16.2；升级命令 `alysis update`。平台：macOS、Linux、Windows PowerShell 与 WSL。LICENSE Apache-2.0。引擎开源结论仅限已核查的 AlysisAi/AlysisCode 源码与 CLI 发行，不外推桌面安装包。官网/仓库资料核验，未做安装或运行测试。",
+    "sources": [
+      {
+        "url": "https://alysiscode.com/",
+        "title": "官网 CLI 安装：install.sh / install.ps1；命令 alysis"
+      },
+      {
+        "url": "https://github.com/AlysisAi/AlysisCode",
+        "title": "AlysisAi/AlysisCode 官方仓库"
+      },
+      {
+        "url": "https://github.com/AlysisAi/AlysisCode/releases/tag/v0.16.2",
+        "title": "GitHub Releases · Alysis Code 0.16.2 CLI（2026-11-07）"
+      },
+      {
+        "url": "https://github.com/AlysisAi/AlysisCode/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/AlysisAi/AlysisCode/main/scripts/install.sh",
+        "title": "官方 Linux/macOS/WSL 安装脚本"
+      }
+    ],
+    "verified_at": "2026-11-09"
+  },
+  "termexo-desktop": {
+    "notes": "gemron 出品的本机优先编码 Agent 工作台 Termexo：在真实终端中运行 Claude Code、Codex、OpenCode、Pi Agent、Grok Build、Antigravity，并提供本机 MCP 让其他 Agent 操作这些终端。本条仅桌面 GUI。官网与 GitHub latest **v0.12.1**（2026-11-04）提供 Windows EXE/MSI、macOS Apple Silicon / Intel DMG、Linux amd64 deb/tar.gz，以及含四平台构建的 npm 包；`npx`/npm 启动的是对应桌面应用，不是独立 CLI Agent，不单列 CLI。可选手机/浏览器经自托管 relay 重连同一桌面会话，按目录范围不收录移动端。LICENSE MIT。未找到可核验官方纯矢量 SVG。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.termexo.com/",
+        "title": "Termexo 官网：Windows / macOS / Linux 本机工作台"
+      },
+      {
+        "url": "https://github.com/gemron/Termexo",
+        "title": "gemron/Termexo 官方仓库"
+      },
+      {
+        "url": "https://github.com/gemron/Termexo/releases/tag/v0.12.1",
+        "title": "GitHub Releases · Termexo v0.12.1（2026-11-04）"
+      },
+      {
+        "url": "https://github.com/gemron/Termexo/releases/download/v0.12.1/Termexo_0.12.1_aarch64.dmg",
+        "title": "官方 macOS Apple silicon DMG（核验日 HTTP 200）"
+      },
+      {
+        "url": "https://github.com/gemron/Termexo/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Termexo contributors）"
+      }
+    ],
+    "verified_at": "2026-11-09"
+  },
+  "cobalt-web": {
+    "notes": "Cobalt Code Inc.（Delaware）出品的云端编码 Agent harness Cobalt：为每个任务提供隔离云电脑，浏览器内监视、转向、Preview 与 PR。本条仅 Web。官方 1.0 博文写明应用入口 **app.cobaltcode.ai**（核验日 HTTP 200，标题 Cobalt）。产品 1.0 于 2026-09-10 GA；本轮补目录空白。桌面形态见 cobalt-desktop。官方文档另有 npm `@amaretto-software-labs/cobalt-cli`，是控制面 CLI 而非独立编码 Agent，不单列。无公开产品 Web 应用源码仓，不写入 open-source.json。Logo 取自官网 favicon.svg 原样矢量。官网资料核验，未做登录、创建任务或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://cobaltcode.ai/",
+        "title": "Cobalt 官网：云端 coding-agent harness"
+      },
+      {
+        "url": "https://app.cobaltcode.ai/",
+        "title": "已核验 Web 应用主机 app.cobaltcode.ai（标题 Cobalt；不代表登录测试）"
+      },
+      {
+        "url": "https://cobaltcode.ai/blog/cobalt-1-0/",
+        "title": "官方博文：Cobalt 1.0 GA；入口 app.cobaltcode.ai"
+      },
+      {
+        "url": "https://cobaltcode.ai/terms",
+        "title": "服务条款：运营主体 Cobalt Code Inc."
+      },
+      {
+        "url": "https://cobaltcode.ai/favicon.svg",
+        "title": "官网原始 SVG 品牌素材 favicon.svg"
+      }
+    ],
+    "verified_at": "2026-11-09"
+  },
+  "cobalt-desktop": {
+    "notes": "同一 Cobalt 产品的桌面 GUI。官方博文 Introducing Cobalt Desktop（2026-11-05）与文档写明从工作区软件选择器下载本机安装包，登录后继续同一云端任务；博文配图为 **macOS**。本条仅桌面。公开页未给出独立 semver 文件名，也不把产品 1.0 当作桌面客户端版本，故不填写版本号。Windows / Linux 桌面包未在公开页单独证实，不记入 platforms。安装包需登录后从软件选择器获取，无独立公开直链。无公开桌面源码仓。官网/文档资料核验，未做安装、登录或运行测试。",
+    "sources": [
+      {
+        "url": "https://cobaltcode.ai/blog/cobalt-desktop/",
+        "title": "官方博文：Introducing Cobalt Desktop（2026-11-05）；配图 macOS"
+      },
+      {
+        "url": "https://cobaltcode.ai/docs/desktop",
+        "title": "官方文档：从工作区软件选择器安装桌面端并浏览器登录"
+      },
+      {
+        "url": "https://cobaltcode.ai/",
+        "title": "Cobalt 官网"
+      },
+      {
+        "url": "https://cobaltcode.ai/favicon.svg",
+        "title": "官网原始 SVG 品牌素材 favicon.svg"
+      }
+    ],
+    "verified_at": "2026-11-09"
+  },
+  "relay-desktop": {
+    "notes": "relaycodehq 出品的 MIT 开源桌面工作区 Relay：在本机运行用户自有 Claude Code、Codex、OpenCode、Cursor、Amp、Antigravity 等编码 Agent。本条仅桌面 GUI。官网与 GitHub latest **v0.28.4**（2026-11-08）提供 Relay-0.28.4-mac-arm64.dmg、win-x64.exe、linux-x86_64.AppImage 等（核验日 HTTP 200）。官网写明每日主要在 macOS Apple Silicon 使用，同时发布 Windows / Linux 构建。Android APK 与 headless 服务器按目录范围不单列。仓库 star 少但有可下载安装包。LICENSE MIT。未找到可核验官方纯矢量 SVG。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://relaycode.io/",
+        "title": "Relay 官网：本机编码 Agent 工作区；MIT；macOS / Windows / Linux"
+      },
+      {
+        "url": "https://github.com/relaycodehq/relay",
+        "title": "relaycodehq/relay 官方仓库"
+      },
+      {
+        "url": "https://github.com/relaycodehq/relay/releases/tag/v0.28.4",
+        "title": "GitHub Releases · Relay 0.28.4（2026-11-08）"
+      },
+      {
+        "url": "https://github.com/relaycodehq/relay/releases/download/v0.28.4/Relay-0.28.4-mac-arm64.dmg",
+        "title": "官方 macOS Apple silicon DMG（核验日 HTTP 200）"
+      },
+      {
+        "url": "https://github.com/relaycodehq/relay/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Relay contributors）"
+      }
+    ],
+    "verified_at": "2026-11-09"
   }
 }

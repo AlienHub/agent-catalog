@@ -1846,5 +1846,104 @@
         "title": "Momentic 官方定价：Free 额度与付费 credits"
       }
     ]
+  },
+  "wonder-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "官方定价提供 Free 与按编辑者计费的 Pro / Enterprise。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://wonder.design/pricing",
+        "title": "Wonder 官方定价：Free / Pro / Enterprise"
+      }
+    ]
+  },
+  "crystl-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "免费 apprentice 档之外提供 crystl guild 年付会员。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://crystl.dev/pricing",
+        "title": "crystl 官方定价：apprentice 与 guild"
+      }
+    ]
+  },
+  "agent-clan-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "Free 之外提供一次性 Pro 购买（Paddle）。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://agentclan.app/",
+        "title": "Agent Clan 官网：Free 与一次性 Pro"
+      }
+    ]
+  },
+  "letronna-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "本机自备密钥可免费使用；托管模型与 Letronna Cloud 为 Pro/credit 付费部分。按已核验官方付费服务记录，不记录易变价格，也不据此判断 MIT 许可证。",
+    "sources": [
+      {
+        "url": "https://letronna.ai/pricing",
+        "title": "Letronna 官方定价：托管模型与 Cloud credit"
+      }
+    ]
+  },
+  "letronna-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "与桌面条同一官方托管模型 / Cloud 付费。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://letronna.ai/pricing",
+        "title": "Letronna 官方定价：托管模型与 Cloud credit"
+      }
+    ]
+  },
+  "alysis-code-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "免费额度之外提供付费 credits 档；自备密钥或本地模型不经 Alysis 计费。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://alysiscode.com/pricing",
+        "title": "Alysis Code 官方定价：Free / Beta / Alpha credits"
+      }
+    ]
+  },
+  "alysis-code-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "与桌面条同一官方 credits 付费档。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://alysiscode.com/pricing",
+        "title": "Alysis Code 官方定价：Free / Beta / Alpha credits"
+      }
+    ]
+  },
+  "cobalt-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "官方定价提供 Free credits 与按工作区订阅的 Plus / Pro / Enterprise。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://cobaltcode.ai/pricing",
+        "title": "Cobalt 官方定价：Free / Plus / Pro / Enterprise"
+      }
+    ]
+  },
+  "cobalt-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "与 Web 条同一官方工作区订阅与 credits。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://cobaltcode.ai/pricing",
+        "title": "Cobalt 官方定价：Free / Plus / Pro / Enterprise"
+      }
+    ]
   }
 }
