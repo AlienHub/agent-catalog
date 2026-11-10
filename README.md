@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.42（2026-11-04），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.46（2026-11-10），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -701,3 +701,18 @@ Logo：仅 Wavefunction 使用官方仓库 `assets/branding/wavefunction-mark.sv
 Logo：蛙池AI 使用官网 PNG（无纯矢量 SVG）。AiPy 仅 WebP/AVIF/ICO 与 README ASCII 字标 SVG，保持空 `icon`。
 
 未收录：娃池（错误名）；AiPy 未独立发行的 OSS GUI；供应商目录不改。
+
+## v0.46 日更（2026-11-10）
+
+新增 6 条应用、6 个产品，目录共 541 条应用、366 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.42 / `main` @ `bec7506`（#31 已合入）。未改 `schema.json` 与供应商分类。草稿 PR **#32**（v0.43）、**#33**（v0.44）、**#34**（v0.45）已从同一 `main` 基线占用中间版本号；本分支独立占用 **v0.46**，未合并、未收录这三条草稿的条目。
+
+- Desk 桌面端（Nishchal Singi / s-nish）：macOS 编码 Agent 工作区。GitHub **v1.0.0**（2026-11-08）。**MIT**。Apple silicon、macOS 12+。
+- Voyager 桌面端（Voyager for Momentum Inc.）：macOS 智能体文件浏览器，连接 Claude Code / Codex / Hermes（ACP）。官方 changelog **v0.11.4**。闭源；macOS 13+。
+- ByteAsk CLI（ByteAsk）：C/C++ 编码 Agent。GitHub / PyPI **v0.2.3**。专有发行仓，不写入 open-source.json。不单列编辑器连接器。
+- wdx CLI（Srajan Pathak）：本机 daemon + CLI + TIDE 终端 IDE。GitHub **v0.4.0**。**Apache-2.0**。macOS / Linux。TIDE 不单列 GUI。
+- NekoTrail 桌面端（Harshil Jani）：并行 git worktree 编码 Agent GUI。GitHub **v0.26.1**。**MIT**。macOS 13+。Linux .deb 实验性，不写入 platforms。
+- Orkas 桌面端（Orkas AI）：本地优先多 Agent 桌面。GitHub **v2026.11.4**（安装包 2.0.0）。**MIT**。macOS 12+ / Windows 10+。Linux 仅源码构建，不写入 platforms。
+
+Logo：Desk / ByteAsk / wdx / NekoTrail 使用官方纯矢量 SVG。Voyager / Orkas 空 `icon`。
+
+未收录：Tributary（DEV 文无官方源码/下载链接）；智合AI Agent 3.5 本地端（法律垂直桌面，目录无同类垂直桌面口径）；Scout / Agibot / 灵光 2.0 / Gemini agent 预览；#32/#33/#34 已列条目。

@@ -13757,5 +13757,151 @@
     "web_domains": [],
     "web_domain_status": "not-applicable",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "desk-desktop",
+    "name": "Desk",
+    "aliases": [],
+    "vendor": "Nishchal Singi",
+    "type": "AI 编程",
+    "website": "https://github.com/s-nish/desk",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/desk.svg",
+    "vendor_id": "nishchal-singi",
+    "product_id": "desk",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "voyager-desktop",
+    "name": "Voyager",
+    "aliases": [],
+    "vendor": "Voyager for Momentum Inc.",
+    "type": "智能体与工作流",
+    "website": "https://voyager.fm/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "voyager-for-momentum",
+    "product_id": "voyager",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "byteask-cli",
+    "name": "ByteAsk",
+    "aliases": [
+      "byteask"
+    ],
+    "vendor": "ByteAsk",
+    "type": "AI 编程",
+    "website": "https://byteask.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/byteask.svg",
+    "vendor_id": "byteask",
+    "product_id": "byteask",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "wdx-cli",
+    "name": "wdx",
+    "aliases": [
+      "TIDE"
+    ],
+    "vendor": "Srajan Pathak",
+    "type": "AI 编程",
+    "website": "https://srjn45.github.io/wdx/",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "icon": "icons/wdx.svg",
+    "vendor_id": "srajan-pathak",
+    "product_id": "wdx",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "nekotrail-desktop",
+    "name": "NekoTrail",
+    "aliases": [],
+    "vendor": "Harshil Jani",
+    "type": "AI 编程",
+    "website": "https://harshil-jani.github.io/nekotrail/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/nekotrail.svg",
+    "vendor_id": "harshil-jani",
+    "product_id": "nekotrail",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · 官方来源",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "orkas-desktop",
+    "name": "Orkas",
+    "aliases": [],
+    "vendor": "Orkas AI",
+    "type": "通用任务 Agent",
+    "website": "https://orkas.ai/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "orkas-ai",
+    "product_id": "orkas",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]

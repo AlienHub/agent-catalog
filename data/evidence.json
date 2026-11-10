@@ -12016,5 +12016,181 @@
       }
     ],
     "verified_at": "2026-11-04"
+  },
+  "desk-desktop": {
+    "notes": "Nishchal Singi（GitHub s-nish，Show HN 账号 nsingi）出品的 macOS 桌面工作区 Desk：在同一窗口运行已安装的 Claude Code、Codex、Gemini CLI、Cursor Agent、Grok、OpenCode 等编码 Agent CLI，并提供项目、终端、文件、git 与对话视图。GitHub latest Release **v1.0.0**（2026-11-08）提供 Desk.dmg 与 Desk_1.0.0_aarch64.dmg。README / Release 写明 Apple silicon、macOS 12+；Intel Mac 需从源码构建，现无 Intel 预构建包，故平台仅填 macOS。MIT。本条仅桌面 GUI；未见独立最终用户 CLI。官网 GitHub homepage 字段为 desk-site-chi.vercel.app 预览站，规范 website 取仓库。收录仓库根目录 app-icon.svg 纯矢量。官网/仓库资料核验，未做安装、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/s-nish/desk",
+        "title": "官方仓库：macOS 12+ Apple silicon 工作区；MIT"
+      },
+      {
+        "url": "https://github.com/s-nish/desk/blob/main/README.md",
+        "title": "官方 README：Claude Code / Codex / Gemini / Cursor / OpenCode；macOS 12+ Apple silicon"
+      },
+      {
+        "url": "https://github.com/s-nish/desk/releases/tag/v1.0.0",
+        "title": "GitHub Release v1.0.0（2026-11-08）：Desk.dmg"
+      },
+      {
+        "url": "https://github.com/s-nish/desk/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/s-nish/desk/main/app-icon.svg",
+        "title": "官方仓库 app-icon.svg 纯矢量 Logo"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=50430522",
+        "title": "Show HN：Desk open-source macOS workspace for CLI coding agents"
+      }
+    ],
+    "verified_at": "2026-11-10"
+  },
+  "voyager-desktop": {
+    "notes": "Voyager for Momentum Inc. 出品的 macOS 智能体文件浏览器 Voyager：在本地文件/文件夹工作区连接已安装的 Claude Code、Codex、Hermes（ACP）。官网与 llms.txt 要求 macOS 13+；核心本地浏览可不登录。官方 changelog 最新 **v0.11.4**（2026-10-30）。条款确认服务提供方为 Voyager for Momentum Inc.。本条仅桌面 GUI；未见独立最终用户 CLI/Web 客户端。Plus / Pro 套餐官网标明尚未上线；Early Supporter Pass 为预购付费档，见 commercial.json。仅核验到 favicon.ico，未找到纯矢量 SVG，icon 留空。无公开产品应用源码仓，不写入 open-source.json。官网资料核验，未做安装、运行、登录或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://voyager.fm/",
+        "title": "Voyager 官网：macOS 智能体文件浏览器；macOS 13+"
+      },
+      {
+        "url": "https://voyager.fm/changelog",
+        "title": "官方 changelog：最新 v0.11.4（2026-10-30）"
+      },
+      {
+        "url": "https://voyager.fm/llms.txt",
+        "title": "官方 llms.txt：能力、macOS 13+、定价摘要"
+      },
+      {
+        "url": "https://voyager.fm/terms",
+        "title": "官方条款：服务提供方 Voyager for Momentum Inc."
+      },
+      {
+        "url": "https://voyager.fm/download",
+        "title": "官方下载页：macOS 13+"
+      }
+    ],
+    "verified_at": "2026-11-10"
+  },
+  "byteask-cli": {
+    "notes": "ByteAsk 出品的 C/C++ 编码 Agent CLI：在本机终端运行；安装 `curl -fsSL https://code.byteask.ai/install.sh | sh`，另有 pip `byteask`、npm `@byteask/cli` 与 Windows `install.ps1`。官网写明 Linux / macOS / Windows。GitHub ByteAsk/cli latest Release 与 PyPI 当前 **v0.2.3**（2026-11-03）；npm `@byteask/cli` 当时为 0.2.2。发行仓 LICENSE 为专有 All rights reserved，不写入 open-source.json。本条仅 CLI；VS Code / Cursor / JetBrains / Neovim / Emacs 等编辑器连接器驱动同一 CLI，不单列 IDE 插件。官网 favicon.svg 纯矢量。官网/发行仓资料核验，未做安装或运行测试。",
+    "sources": [
+      {
+        "url": "https://byteask.ai/",
+        "title": "ByteAsk 官网：C/C++ 编码 Agent CLI"
+      },
+      {
+        "url": "https://byteask.ai/install",
+        "title": "官方安装页：install.sh / pip / npm / Windows；编辑器连接器需 CLI"
+      },
+      {
+        "url": "https://github.com/ByteAsk/cli/releases/tag/v0.2.3",
+        "title": "GitHub ByteAsk/cli Release v0.2.3（2026-11-03）"
+      },
+      {
+        "url": "https://pypi.org/project/byteask/",
+        "title": "PyPI byteask 当前 0.2.3"
+      },
+      {
+        "url": "https://github.com/ByteAsk/cli/blob/main/LICENSE",
+        "title": "发行仓 LICENSE：专有 All rights reserved"
+      },
+      {
+        "url": "https://byteask.ai/favicon.svg",
+        "title": "官网 favicon.svg 纯矢量 Logo"
+      },
+      {
+        "url": "https://byteask.ai/pricing",
+        "title": "官方定价：Free / Pro / Max / Ultra"
+      }
+    ],
+    "verified_at": "2026-11-10"
+  },
+  "wdx-cli": {
+    "notes": "Srajan Pathak（GitHub srjn45）出品的本机编码 Agent 守护进程 + CLI wdx：可并行运行 Claude Code、Codex、Cursor、Antigravity；`wdx tide` 打开同发行包内的终端 IDE TIDE，不是独立 GUI 安装包，不单列桌面。官方安装脚本将 `wdx` 放到 `~/.local/bin` 并启动 user service。GitHub latest Release **v0.4.0**（2026-11-07）提供 darwin/linux amd64/arm64 tarball 与 install.sh。README 写明 Linux 与 macOS，无 Windows 预构建包，故平台仅填 macOS 与 Linux。Apache-2.0。仓库 0★，但有可安装 Release 与文档站。收录仓库 `assets/brand/favicon.svg` 纯矢量。官网/仓库资料核验，未做安装或运行测试。",
+    "sources": [
+      {
+        "url": "https://github.com/srjn45/wdx",
+        "title": "官方仓库：daemon + CLI；Apache-2.0"
+      },
+      {
+        "url": "https://srjn45.github.io/wdx/",
+        "title": "官方文档站"
+      },
+      {
+        "url": "https://srjn45.github.io/wdx/blog/introducing-wdx/",
+        "title": "官方介绍博文：wdx daemon / CLI / TIDE"
+      },
+      {
+        "url": "https://github.com/srjn45/wdx/releases/tag/v0.4.0",
+        "title": "GitHub Release v0.4.0（2026-11-07）：macOS/Linux 安装包"
+      },
+      {
+        "url": "https://github.com/srjn45/wdx/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/srjn45/wdx/main/assets/brand/favicon.svg",
+        "title": "官方仓库 assets/brand/favicon.svg 纯矢量 Logo"
+      }
+    ],
+    "verified_at": "2026-11-10"
+  },
+  "nekotrail-desktop": {
+    "notes": "Harshil Jani 出品的 macOS 桌面应用 NekoTrail：在并行 git worktree 中通过各 Agent 自有 CLI 运行 Claude Code、Codex 等约 16 个编码 Agent，定位为 Conductor 的开源替代。GitHub latest Release **v0.26.1**（2026-11-08）提供 universal.dmg；官网/README 要求 macOS 13+（Apple silicon 或 Intel）。同 Release 另有实验性 Linux x86_64 .deb，README 写明尚未在真实 Linux 机器测试，故平台仅填 macOS，不把 Linux 写入 platforms。MIT；无账户、无付费档。`nekotrail new` 等命令与 VS Code/Cursor 选区发送属于桌面应用能力，不单列 CLI/IDE。收录官方 brand/mark/nekotrail-mark.svg 纯矢量。官网/仓库资料核验，未做安装或运行测试。",
+    "sources": [
+      {
+        "url": "https://github.com/Harshil-Jani/nekotrail",
+        "title": "官方仓库：Conductor 风格 macOS GUI；MIT"
+      },
+      {
+        "url": "https://harshil-jani.github.io/nekotrail/",
+        "title": "官方站点：macOS 13+；v0.26.1；Linux experimental"
+      },
+      {
+        "url": "https://github.com/Harshil-Jani/nekotrail/releases/tag/v0.26.1",
+        "title": "GitHub Release v0.26.1（2026-11-08）：universal.dmg"
+      },
+      {
+        "url": "https://github.com/Harshil-Jani/nekotrail/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Harshil-Jani/nekotrail/main/brand/mark/nekotrail-mark.svg",
+        "title": "官方 brand/mark/nekotrail-mark.svg 纯矢量 Logo"
+      }
+    ],
+    "verified_at": "2026-11-10"
+  },
+  "orkas-desktop": {
+    "notes": "Orkas AI 出品的开源、本地优先多 Agent 桌面客户端 Orkas：Commander 协调内置专家 Agent，并可连接 Claude Code、Codex、OpenCode、OpenClaw、Hermes。官方下载页提供 macOS 12+（Apple silicon / Intel）与 Windows 10+ x64 安装包；Linux 仅源码自构建，不写入 platforms。GitHub latest Release **v2026.11.4**（2026-11-04）；安装包文件名为 Orkas-2.0.0-*.dmg / Orkas.Setup.2.0.0.exe。MIT。本条仅桌面 GUI；用户发布的 `*.orkas.ai` 网页应用不是本产品的独立 Web 形态，不单列。付费档（托管模型额度 / 同步 / 协作）见 commercial.json。仓库与官网未找到可核验纯矢量产品 SVG（仅 PNG/JPG），icon 留空。官网/仓库资料核验，未做安装、登录或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://orkas.ai/",
+        "title": "Orkas 官网：本地优先多 Agent 桌面；macOS 与 Windows"
+      },
+      {
+        "url": "https://orkas.ai/download/",
+        "title": "官方下载页：macOS 12+ 与 Windows 10+ x64"
+      },
+      {
+        "url": "https://github.com/Orkas-AI/Orkas",
+        "title": "官方仓库：MIT 开源桌面客户端"
+      },
+      {
+        "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.11.4",
+        "title": "GitHub Release v2026.11.4（2026-11-04）：2.0.0 安装包"
+      },
+      {
+        "url": "https://github.com/Orkas-AI/Orkas/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://orkas.ai/pricing/",
+        "title": "官方定价：Free 额度与 Lite/Pro/Max 等付费档"
+      }
+    ],
+    "verified_at": "2026-11-10"
   }
 }

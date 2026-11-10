@@ -4390,5 +4390,101 @@
       }
     ],
     "classification": "application"
+  },
+  "desk-desktop": {
+    "repository_url": "https://github.com/s-nish/desk",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/s-nish/desk/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-10",
+      "github_archived": false,
+      "last_push_at": "2026-11-09T18:16:33Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "MIT 结论仅限已核查的 s-nish/desk 公开源码。预构建 Desk.dmg 与所启动的第三方 Agent CLI 不继承本判断。维护状态参考公开 Release v1.0.0 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/s-nish/desk",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/s-nish/desk/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      }
+    ]
+  },
+  "wdx-cli": {
+    "repository_url": "https://github.com/srjn45/wdx",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/srjn45/wdx/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-10",
+      "github_archived": false,
+      "last_push_at": "2026-11-09T19:22:43Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "Apache-2.0 结论仅限已核查的 srjn45/wdx 公开源码。预构建二进制、安装脚本与所运行的第三方 Agent CLI 不继承本判断。TIDE 是同一 CLI 的终端界面（wdx tide），不是另一份许可证。维护状态参考公开 Release v0.4.0 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/srjn45/wdx",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/srjn45/wdx/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      }
+    ]
+  },
+  "nekotrail-desktop": {
+    "repository_url": "https://github.com/Harshil-Jani/nekotrail",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/Harshil-Jani/nekotrail/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-10",
+      "github_archived": false,
+      "last_push_at": "2026-11-08T10:47:43Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "MIT 结论仅限已核查的 Harshil-Jani/nekotrail 公开源码。预构建 .dmg 与所启动的第三方 Agent CLI 不继承本判断。维护状态参考公开 Release v0.26.1 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/Harshil-Jani/nekotrail",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/Harshil-Jani/nekotrail/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      }
+    ]
+  },
+  "orkas-desktop": {
+    "repository_url": "https://github.com/Orkas-AI/Orkas",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/Orkas-AI/Orkas/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-10",
+      "github_archived": false,
+      "last_push_at": "2026-11-09T01:23:57Z"
+    },
+    "classification": "application",
+    "notes": "MIT 结论仅限已核查的 Orkas-AI/Orkas 桌面客户端源码。官方托管模型、云同步、云存储与所连接的第三方 Agent CLI / 模型供应商不继承本判断。维护状态参考公开 Release v2026.11.4 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/Orkas-AI/Orkas",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/Orkas-AI/Orkas/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      }
+    ]
   }
 }

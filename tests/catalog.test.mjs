@@ -11,8 +11,8 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.42');
-  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop', 'monkeyai-web', 'monkeyai-desktop', 'fx-cli', 'bits-web', 'cutbay-web', 'heal-web', 'offrun-desktop', 'dumate-web', 'dumate-desktop', 'whiteboard-desktop', 'breken-web', 'thinkrail-cli', 'thinkrail-desktop', 'cindy-desktop', 'junior-desktop', 'shogunai-desktop', 'vibeide-desktop', 'manyagents-desktop', 'aibridge-desktop', 'paradev-desktop', 'paradev-cli', 'tabsh-cli', 'tabsh-web', 'hob-desktop', 'botnow-web', 'openduet-web', 'meta-muse-web', 'meta-muse-desktop', 'strawberry-desktop', 'openbot-desktop', 't3-code-desktop', 't3-code-web', 'cusp-desktop', 'cusp-cli', 'switch-desktop', 'herdr-desktop', 'herdr-cli', 'mao-desktop', 'yardlet-desktop', 'mudroom-desktop', 'mudroom-cli', 'zest-desktop', 'jimmy-desktop', 'empacer-web', 'intrascope-web', 'mo-desktop', 'pluto-door-desktop', 'clawsgo-science-web', 'clawsgo-science-desktop', 'fluent-desktop', 'agentmash-web', 'agentmash-cli', 'termy-desktop', 'aura-autopilot-ide', 'craft-anything-desktop', 'craft-anything-cli', 'craft-anything-web', 'fastbrowse-cli', 'fastbrowse-web', 'vaani-web', 'embage-web', 'coincide-desktop', 'caprock-desktop', 'ai-codeops-web', 'mercury-cli', 'friday-desktop', 'wavefunction-desktop', 'nana-desktop', 'teamily-web', 'teamily-desktop', 'looper-web', 'prism-desktop', 'testifly-web', 'momentic-mo-web', 'digpool-desktop', 'aipy-pro-desktop', 'aipyapp-cli']) assert(catalog.getApp(id));
+  assert.equal(catalog.catalogMeta.dataVersion, '0.46');
+  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop', 'monkeyai-web', 'monkeyai-desktop', 'fx-cli', 'bits-web', 'cutbay-web', 'heal-web', 'offrun-desktop', 'dumate-web', 'dumate-desktop', 'whiteboard-desktop', 'breken-web', 'thinkrail-cli', 'thinkrail-desktop', 'cindy-desktop', 'junior-desktop', 'shogunai-desktop', 'vibeide-desktop', 'manyagents-desktop', 'aibridge-desktop', 'paradev-desktop', 'paradev-cli', 'tabsh-cli', 'tabsh-web', 'hob-desktop', 'botnow-web', 'openduet-web', 'meta-muse-web', 'meta-muse-desktop', 'strawberry-desktop', 'openbot-desktop', 't3-code-desktop', 't3-code-web', 'cusp-desktop', 'cusp-cli', 'switch-desktop', 'herdr-desktop', 'herdr-cli', 'mao-desktop', 'yardlet-desktop', 'mudroom-desktop', 'mudroom-cli', 'zest-desktop', 'jimmy-desktop', 'empacer-web', 'intrascope-web', 'mo-desktop', 'pluto-door-desktop', 'clawsgo-science-web', 'clawsgo-science-desktop', 'fluent-desktop', 'agentmash-web', 'agentmash-cli', 'termy-desktop', 'aura-autopilot-ide', 'craft-anything-desktop', 'craft-anything-cli', 'craft-anything-web', 'fastbrowse-cli', 'fastbrowse-web', 'vaani-web', 'embage-web', 'coincide-desktop', 'caprock-desktop', 'ai-codeops-web', 'mercury-cli', 'friday-desktop', 'wavefunction-desktop', 'nana-desktop', 'teamily-web', 'teamily-desktop', 'looper-web', 'prism-desktop', 'testifly-web', 'momentic-mo-web', 'digpool-desktop', 'aipy-pro-desktop', 'aipyapp-cli', 'desk-desktop', 'voyager-desktop', 'byteask-cli', 'wdx-cli', 'nekotrail-desktop', 'orkas-desktop']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
 test('ESM and CommonJS core exports agree', () => {
@@ -1158,6 +1158,85 @@ test('2026-11-04 蛙池AI and AiPy Pro additions', async () => {
   assert(catalog.collections.chinese_agents.includes('aipyapp-cli'));
   assert.equal(catalog.getApp('aipy-pro-cli'), undefined);
   assert.equal(catalog.getApp('aipyapp-desktop'), undefined);
+});
+
+test('2026-11-10 daily additions: Desk, Voyager, ByteAsk, wdx, NekoTrail, Orkas', async () => {
+  const source = JSON.parse(await readFile(new URL('../data/open-source.json', import.meta.url)));
+  const commercial = JSON.parse(await readFile(new URL('../data/commercial.json', import.meta.url)));
+
+  const desk = catalog.getApp('desk-desktop');
+  assert.equal(desk.name, 'Desk');
+  assert.equal(desk.vendor, 'Nishchal Singi');
+  assert.equal(desk.vendor_id, 'nishchal-singi');
+  assert.equal(desk.product_id, 'desk');
+  assert.deepEqual(desk.interfaces, ['GUI']);
+  assert.deepEqual(desk.platforms, ['macOS']);
+  assert.equal(desk.icon, 'icons/desk.svg');
+  assert.equal(source['desk-desktop'].license, 'MIT');
+  assert.equal(source['desk-desktop'].classification, 'agent-client-application');
+  assert.match(catalog.getEvidence('desk-desktop').notes, /v1\.0\.0/);
+  assert.equal(catalog.getApp('desk-cli'), undefined);
+  assert.notEqual(desk.product_id, catalog.getApp('aider-desk-desktop').product_id);
+
+  const voyager = catalog.getApp('voyager-desktop');
+  assert.equal(voyager.name, 'Voyager');
+  assert.equal(voyager.vendor, 'Voyager for Momentum Inc.');
+  assert.deepEqual(voyager.interfaces, ['GUI']);
+  assert.deepEqual(voyager.platforms, ['macOS']);
+  assert.equal(voyager.icon, '');
+  assert.equal(source['voyager-desktop'], undefined);
+  assert.equal(commercial['voyager-desktop'].offer, 'paid-service');
+  assert.match(catalog.getEvidence('voyager-desktop').notes, /v0\.11\.4/);
+  assert.equal(catalog.getApp('voyager-web'), undefined);
+
+  const byteask = catalog.getApp('byteask-cli');
+  assert.equal(byteask.name, 'ByteAsk');
+  assert.equal(byteask.vendor_id, 'byteask');
+  assert.deepEqual(byteask.interfaces, ['CLI']);
+  assert.deepEqual(byteask.platforms, ['macOS', 'Windows', 'Linux']);
+  assert.equal(byteask.icon, 'icons/byteask.svg');
+  assert.equal(source['byteask-cli'], undefined);
+  assert.equal(commercial['byteask-cli'].offer, 'paid-service');
+  assert.match(catalog.getEvidence('byteask-cli').notes, /v0\.2\.3/);
+  assert.equal(catalog.getApp('byteask-ide'), undefined);
+  assert.equal(catalog.getApp('byteask-desktop'), undefined);
+
+  const wdx = catalog.getApp('wdx-cli');
+  assert.equal(wdx.name, 'wdx');
+  assert.equal(wdx.vendor, 'Srajan Pathak');
+  assert.deepEqual(wdx.interfaces, ['CLI']);
+  assert.deepEqual(wdx.platforms, ['macOS', 'Linux']);
+  assert.equal(wdx.icon, 'icons/wdx.svg');
+  assert.equal(source['wdx-cli'].license, 'Apache-2.0');
+  assert.match(catalog.getEvidence('wdx-cli').notes, /v0\.4\.0/);
+  assert(wdx.aliases.includes('TIDE'));
+  assert.equal(catalog.getApp('wdx-desktop'), undefined);
+  assert.equal(catalog.getApp('tide-desktop'), undefined);
+
+  const nekotrail = catalog.getApp('nekotrail-desktop');
+  assert.equal(nekotrail.name, 'NekoTrail');
+  assert.equal(nekotrail.vendor, 'Harshil Jani');
+  assert.deepEqual(nekotrail.interfaces, ['GUI']);
+  assert.deepEqual(nekotrail.platforms, ['macOS']);
+  assert.equal(nekotrail.icon, 'icons/nekotrail.svg');
+  assert.equal(source['nekotrail-desktop'].license, 'MIT');
+  assert.match(catalog.getEvidence('nekotrail-desktop').notes, /v0\.26\.1/);
+  assert.equal(catalog.getApp('nekotrail-cli'), undefined);
+  assert(!nekotrail.platforms.includes('Linux'));
+
+  const orkas = catalog.getApp('orkas-desktop');
+  assert.equal(orkas.name, 'Orkas');
+  assert.equal(orkas.vendor_id, 'orkas-ai');
+  assert.equal(orkas.type, '通用任务 Agent');
+  assert.deepEqual(orkas.interfaces, ['GUI']);
+  assert.deepEqual(orkas.platforms, ['macOS', 'Windows']);
+  assert.equal(orkas.icon, '');
+  assert.equal(source['orkas-desktop'].license, 'MIT');
+  assert.equal(source['orkas-desktop'].classification, 'application');
+  assert.equal(commercial['orkas-desktop'].offer, 'paid-service');
+  assert.match(catalog.getEvidence('orkas-desktop').notes, /v2026\.11\.4/);
+  assert.equal(catalog.getApp('orkas-web'), undefined);
+  assert(!orkas.platforms.includes('Linux'));
 });
 
 test('Domain-only schema removes Web entry URLs and keeps frozen hostname arrays', () => {
