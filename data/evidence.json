@@ -12016,5 +12016,155 @@
       }
     ],
     "verified_at": "2026-11-04"
+  },
+  "nod-desktop": {
+    "notes": "n8n GmbH（n8n Labs 团队）出品的本机个人 Agent Nod：自带 Linux workspace 与浏览器，可在已连接应用与任意网站上完成任务，并在发送/支付/删除等动作前征求确认。独立于已收录的 n8n 工作流产品（id n8n），不需要 n8n 账号。本条仅桌面 GUI。官方研究预览博文日期 2026-11-10。GitHub latest Release **nod-v0.6.1**（发布 2026-11-10）：macOS 14+ Apple silicon/Intel（nod-arm64.dmg / nod-x64.dmg）与 Windows 11 x64（nod-Setup-x64.exe）。Linux 为源码安装或 Docker Compose 自托管，不是独立桌面安装包，不写入 platforms，亦不单列 CLI/Web。Telegram / WhatsApp 为同一助手的渠道，不单列。自托管实例无统一公共域名。根 LICENSE 为 Apache-2.0（Copyright 2026 n8n GmbH）。Logo 使用仓库 public/favicon.svg。勿与无关站点 hellonod.app 混淆。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://nod.n8n.io/",
+        "title": "Nod 官网：macOS 14+、Windows 11 preview、Apache 2.0"
+      },
+      {
+        "url": "https://nod.n8n.io/docs/",
+        "title": "Nod 官方文档"
+      },
+      {
+        "url": "https://nod.n8n.io/docs/get-started/install-desktop/",
+        "title": "官方桌面安装：macOS 14+ 与 Windows 11 x64"
+      },
+      {
+        "url": "https://blog.n8n.io/meet-nod/",
+        "title": "n8n 官方博文：Meet Nod（2026-11-10 研究预览）"
+      },
+      {
+        "url": "https://github.com/n8n-io/nod",
+        "title": "官方仓库 n8n-io/nod"
+      },
+      {
+        "url": "https://github.com/n8n-io/nod/releases/tag/nod-v0.6.1",
+        "title": "GitHub latest Release nod-v0.6.1（2026-11-10）"
+      },
+      {
+        "url": "https://github.com/n8n-io/nod/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0（Copyright 2026 n8n GmbH）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/n8n-io/nod/main/public/favicon.svg",
+        "title": "官方仓库 public/favicon.svg 产品图标"
+      }
+    ],
+    "verified_at": "2026-11-11"
+  },
+  "linger-desktop": {
+    "notes": "SIMPLEX AI TECHNOLOGIES PTE. LTD.（GitHub org simplexai-labs）出品的本机个人 Agent 工作区 Linger。本条仅桌面 GUI。官方安装文档写明 Apple silicon Mac、Windows 11 x64、Linux x64（glibc 2.35+）；Intel Mac 明确不支持。GitHub latest Release **desktop-v0.1.0**（2026-11-10）：Linger-0.1.0-arm64.dmg、Windows setup/portable、Linger-0.1.0-linux-x64.tar.gz。README 桌面表仍写 Linux 需从源码运行，以官方安装文档与 Release 产物为准。Docker Compose 自托管与桌面是同一产品，不单列 Web；teamhub / linger-computer 为开发者或连接器命令，不是独立最终用户 CLI。LICENSE 自称 Linger Open Source License（文档亦称 Co-Workspace Open Source License），为 Apache-2.0 加禁止向组织外第三方提供托管服务、禁止移除前端 Logo/版权等条件，故记 source-available，不标 OSI Apache-2.0。无独立营销官网，以文档站与仓库为准。Logo 使用仓库 apps/assets/logo/logo-mark.svg。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://docs.simplexai.com/",
+        "title": "Linger 官方文档站"
+      },
+      {
+        "url": "https://docs.simplexai.com/install/desktop-app",
+        "title": "官方桌面安装：Apple silicon Mac、Windows 11 x64、Linux x64"
+      },
+      {
+        "url": "https://github.com/simplexai-labs/linger",
+        "title": "官方仓库 simplexai-labs/linger"
+      },
+      {
+        "url": "https://github.com/simplexai-labs/linger/releases/tag/desktop-v0.1.0",
+        "title": "GitHub latest Release desktop-v0.1.0（2026-11-10）"
+      },
+      {
+        "url": "https://github.com/simplexai-labs/linger/blob/main/LICENSE",
+        "title": "官方 LICENSE：修改版 Apache-2.0（额外托管服务与前端品牌限制）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/simplexai-labs/linger/main/apps/assets/logo/logo-mark.svg",
+        "title": "官方仓库 apps/assets/logo/logo-mark.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-11"
+  },
+  "mimzie-desktop": {
+    "notes": "Mimzie, Inc. 出品的知识工作桌面 Agent 工作区：本机 Word / Excel / PowerPoint / Markdown，可接入自有 ChatGPT、Claude、Gemini、Grok 计划或内置 Mimzie agent。本条仅桌面 GUI。服务条款确认主体 Mimzie, Inc.（Claymont, DE）。官网写明 Mac Apple silicon / Intel、Windows、Linux。稳定下载接口 2026-11-11 重定向至 **Mimzie-0.1.5**（arm64/x64 dmg、win exe、linux AppImage，HTTP 200）。无公开产品应用源码仓，不写入 open-source.json。未找到可核验官方纯矢量 SVG。应用本身定价页为 $0；可选 Mimzie agent 付费档另见 commercial.json，不把免费下载等同无商业服务。官网资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://mimzie.com/",
+        "title": "Mimzie 官网：桌面知识工作 Agent；Mac / Windows / Linux"
+      },
+      {
+        "url": "https://mimzie.com/pricing/",
+        "title": "官方定价：应用 $0；可选 Mimzie agent 付费档"
+      },
+      {
+        "url": "https://mimzie.com/terms/",
+        "title": "服务条款：运营主体 Mimzie, Inc."
+      },
+      {
+        "url": "https://desktop-updates.mimzie-downloads.workers.dev/desktop/stable/download/mac-arm64",
+        "title": "官方稳定下载：重定向至 Mimzie-0.1.5-arm64-mac.dmg"
+      },
+      {
+        "url": "https://desktop-updates.mimzie-downloads.workers.dev/desktop/stable/download/windows",
+        "title": "官方稳定下载：重定向至 Mimzie-0.1.5-x64-win.exe"
+      },
+      {
+        "url": "https://desktop-updates.mimzie-downloads.workers.dev/desktop/stable/download/linux",
+        "title": "官方稳定下载：重定向至 Mimzie-0.1.5-x86_64-linux.AppImage"
+      }
+    ],
+    "verified_at": "2026-11-11"
+  },
+  "ducter-desktop": {
+    "notes": "Wey Gu（GitHub wey-gu；Nowledge Mem 相关）出品的本机个人 AI 伙伴 Ducter：把任务交给本机已登录的 Claude Code、Codex、pi 或 DeepSeek Harness，完成后回报并附证据。本条仅 macOS 桌面 GUI（Apple silicon）。GitHub latest Release **v0.0.15**（2026-11-11）：Ducter-0.0.15-arm64.dmg。Linux 以 `ducter` CLI / 服务形态见 ducter-cli。iPhone / iPad TestFlight 与 Android APK 按目录范围不收录。根 LICENSE 为 Apache-2.0（GitHub SPDX Apache-2.0）。未找到可核验官方纯矢量 SVG，Logo 使用仓库站点 icon.png 位图。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://ducter.ai/",
+        "title": "Ducter 官网：Mac 桌面、Linux 服务器、Apache 2.0"
+      },
+      {
+        "url": "https://github.com/wey-gu/ducter",
+        "title": "官方仓库 wey-gu/ducter"
+      },
+      {
+        "url": "https://github.com/wey-gu/ducter/releases/tag/v0.0.15",
+        "title": "GitHub latest Release v0.0.15（2026-11-11）；含 arm64.dmg"
+      },
+      {
+        "url": "https://github.com/wey-gu/ducter/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wey-gu/ducter/main/apps/site/public/icon.png",
+        "title": "官方仓库 apps/site/public/icon.png 产品图标（位图）"
+      }
+    ],
+    "verified_at": "2026-11-11"
+  },
+  "ducter-cli": {
+    "notes": "同一 Ducter 产品的命令行形态：`ducter doctor` / `ducter up` / `ducter status` 等。Mac 上随桌面应用装入 ~/.local/bin；Linux x64/arm64 以发布包 tarball 与 `install.sh --service` 作为服务器入口。本条仅 CLI。GitHub latest Release **v0.0.15**（2026-11-11）：ducter-0.0.15-linux-x64.tar.gz 与 linux-arm64.tar.gz。不把 iOS/Android 写入 platforms。根 LICENSE 为 Apache-2.0。Logo 与桌面条共用仓库 icon.png。官网/仓库/发布页资料核验，未做安装或运行测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://ducter.ai/",
+        "title": "Ducter 官网：Command line / Server 安装说明"
+      },
+      {
+        "url": "https://github.com/wey-gu/ducter",
+        "title": "官方仓库 wey-gu/ducter"
+      },
+      {
+        "url": "https://github.com/wey-gu/ducter/releases/tag/v0.0.15",
+        "title": "GitHub latest Release v0.0.15：Linux x64/arm64 tarball"
+      },
+      {
+        "url": "https://github.com/wey-gu/ducter/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wey-gu/ducter/main/apps/site/public/icon.png",
+        "title": "官方仓库 apps/site/public/icon.png 产品图标（位图）"
+      }
+    ],
+    "verified_at": "2026-11-11"
   }
 }

@@ -11,8 +11,8 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.42');
-  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop', 'monkeyai-web', 'monkeyai-desktop', 'fx-cli', 'bits-web', 'cutbay-web', 'heal-web', 'offrun-desktop', 'dumate-web', 'dumate-desktop', 'whiteboard-desktop', 'breken-web', 'thinkrail-cli', 'thinkrail-desktop', 'cindy-desktop', 'junior-desktop', 'shogunai-desktop', 'vibeide-desktop', 'manyagents-desktop', 'aibridge-desktop', 'paradev-desktop', 'paradev-cli', 'tabsh-cli', 'tabsh-web', 'hob-desktop', 'botnow-web', 'openduet-web', 'meta-muse-web', 'meta-muse-desktop', 'strawberry-desktop', 'openbot-desktop', 't3-code-desktop', 't3-code-web', 'cusp-desktop', 'cusp-cli', 'switch-desktop', 'herdr-desktop', 'herdr-cli', 'mao-desktop', 'yardlet-desktop', 'mudroom-desktop', 'mudroom-cli', 'zest-desktop', 'jimmy-desktop', 'empacer-web', 'intrascope-web', 'mo-desktop', 'pluto-door-desktop', 'clawsgo-science-web', 'clawsgo-science-desktop', 'fluent-desktop', 'agentmash-web', 'agentmash-cli', 'termy-desktop', 'aura-autopilot-ide', 'craft-anything-desktop', 'craft-anything-cli', 'craft-anything-web', 'fastbrowse-cli', 'fastbrowse-web', 'vaani-web', 'embage-web', 'coincide-desktop', 'caprock-desktop', 'ai-codeops-web', 'mercury-cli', 'friday-desktop', 'wavefunction-desktop', 'nana-desktop', 'teamily-web', 'teamily-desktop', 'looper-web', 'prism-desktop', 'testifly-web', 'momentic-mo-web', 'digpool-desktop', 'aipy-pro-desktop', 'aipyapp-cli']) assert(catalog.getApp(id));
+  assert.equal(catalog.catalogMeta.dataVersion, '0.47');
+  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop', 'monkeyai-web', 'monkeyai-desktop', 'fx-cli', 'bits-web', 'cutbay-web', 'heal-web', 'offrun-desktop', 'dumate-web', 'dumate-desktop', 'whiteboard-desktop', 'breken-web', 'thinkrail-cli', 'thinkrail-desktop', 'cindy-desktop', 'junior-desktop', 'shogunai-desktop', 'vibeide-desktop', 'manyagents-desktop', 'aibridge-desktop', 'paradev-desktop', 'paradev-cli', 'tabsh-cli', 'tabsh-web', 'hob-desktop', 'botnow-web', 'openduet-web', 'meta-muse-web', 'meta-muse-desktop', 'strawberry-desktop', 'openbot-desktop', 't3-code-desktop', 't3-code-web', 'cusp-desktop', 'cusp-cli', 'switch-desktop', 'herdr-desktop', 'herdr-cli', 'mao-desktop', 'yardlet-desktop', 'mudroom-desktop', 'mudroom-cli', 'zest-desktop', 'jimmy-desktop', 'empacer-web', 'intrascope-web', 'mo-desktop', 'pluto-door-desktop', 'clawsgo-science-web', 'clawsgo-science-desktop', 'fluent-desktop', 'agentmash-web', 'agentmash-cli', 'termy-desktop', 'aura-autopilot-ide', 'craft-anything-desktop', 'craft-anything-cli', 'craft-anything-web', 'fastbrowse-cli', 'fastbrowse-web', 'vaani-web', 'embage-web', 'coincide-desktop', 'caprock-desktop', 'ai-codeops-web', 'mercury-cli', 'friday-desktop', 'wavefunction-desktop', 'nana-desktop', 'teamily-web', 'teamily-desktop', 'looper-web', 'prism-desktop', 'testifly-web', 'momentic-mo-web', 'digpool-desktop', 'aipy-pro-desktop', 'aipyapp-cli', 'nod-desktop', 'linger-desktop', 'mimzie-desktop', 'ducter-desktop', 'ducter-cli']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
 test('ESM and CommonJS core exports agree', () => {
@@ -1158,6 +1158,65 @@ test('2026-11-04 蛙池AI and AiPy Pro additions', async () => {
   assert(catalog.collections.chinese_agents.includes('aipyapp-cli'));
   assert.equal(catalog.getApp('aipy-pro-cli'), undefined);
   assert.equal(catalog.getApp('aipyapp-desktop'), undefined);
+});
+
+test('2026-11-11 Nod Linger Mimzie Ducter additions', async () => {
+  const source = JSON.parse(await readFile(new URL('../data/open-source.json', import.meta.url)));
+  const commercial = JSON.parse(await readFile(new URL('../data/commercial.json', import.meta.url)));
+
+  const nod = catalog.getApp('nod-desktop');
+  assert.equal(nod.name, 'Nod');
+  assert.equal(nod.vendor, 'n8n GmbH');
+  assert.equal(nod.vendor_id, 'n8n');
+  assert.equal(nod.product_id, 'nod');
+  assert.notEqual(nod.product_id, catalog.getApp('n8n').product_id);
+  assert.equal(nod.vendor_id, catalog.getApp('n8n').vendor_id);
+  assert.equal(nod.type, '通用任务 Agent');
+  assert.deepEqual(nod.interfaces, ['GUI']);
+  assert.deepEqual(nod.platforms, ['macOS', 'Windows']);
+  assert.equal(nod.icon, 'icons/nod.svg');
+  assert.equal(source['nod-desktop'].source_model, 'open-source');
+  assert.equal(source['nod-desktop'].license, 'Apache-2.0');
+  assert.match(catalog.getEvidence('nod-desktop').notes, /nod-v0\.6\.1/);
+  assert.equal(catalog.getApp('nod-cli'), undefined);
+  assert.equal(catalog.getApp('nod-web'), undefined);
+
+  const linger = catalog.getApp('linger-desktop');
+  assert.equal(linger.vendor_id, 'simplexai-labs');
+  assert.deepEqual(linger.interfaces, ['GUI']);
+  assert.deepEqual(linger.platforms, ['macOS', 'Windows', 'Linux']);
+  assert.equal(linger.icon, 'icons/linger.svg');
+  assert.equal(source['linger-desktop'].source_model, 'source-available');
+  assert.equal(source['linger-desktop'].license, 'LicenseRef-Linger');
+  assert.match(catalog.getEvidence('linger-desktop').notes, /desktop-v0\.1\.0/);
+  assert.equal(catalog.getApp('linger-cli'), undefined);
+
+  const mimzie = catalog.getApp('mimzie-desktop');
+  assert.equal(mimzie.vendor, 'Mimzie, Inc.');
+  assert.equal(mimzie.type, '办公智能体');
+  assert.deepEqual(mimzie.interfaces, ['GUI']);
+  assert.deepEqual(mimzie.platforms, ['macOS', 'Windows', 'Linux']);
+  assert.equal(mimzie.icon, '');
+  assert.equal(source['mimzie-desktop'], undefined);
+  assert.equal(commercial['mimzie-desktop'].offer, 'paid-service');
+  assert.match(catalog.getEvidence('mimzie-desktop').notes, /0\.1\.5/);
+
+  const desk = catalog.getApp('ducter-desktop');
+  const cli = catalog.getApp('ducter-cli');
+  assert.equal(desk.product_id, cli.product_id);
+  assert.equal(desk.vendor_id, 'wey-gu');
+  assert.deepEqual(desk.interfaces, ['GUI']);
+  assert.deepEqual(desk.platforms, ['macOS']);
+  assert.deepEqual(cli.interfaces, ['CLI']);
+  assert.deepEqual(cli.platforms, ['macOS', 'Linux']);
+  assert.equal(desk.icon, 'icons/ducter.png');
+  assert.match(desk.svg_status, /PNG/);
+  assert.equal(source['ducter-desktop'].license, 'Apache-2.0');
+  assert.equal(source['ducter-cli'].license, 'Apache-2.0');
+  assert.equal(source['ducter-desktop'].classification, 'agent-client-application');
+  assert.match(catalog.getEvidence('ducter-desktop').notes, /v0\.0\.15/);
+  assert.equal(catalog.getApp('ducter-ios'), undefined);
+  assert.equal(catalog.getApp('ducter-android'), undefined);
 });
 
 test('Domain-only schema removes Web entry URLs and keeps frozen hostname arrays', () => {
