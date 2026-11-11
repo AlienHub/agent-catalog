@@ -2044,5 +2044,42 @@
         "title": "Cobalt 官方定价：Free / Plus / Pro / Enterprise"
       }
     ]
+  },
+  "voyager-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-10",
+    "notes": "官方条款与 llms.txt：Free 核心本地浏览可不登录；Plus / Pro 标明尚未上线；Early Supporter Pass 为预购付费档。按已核验官方付费产品记录，不记录易变价格，也不据此判断源码状态。",
+    "sources": [
+      {
+        "url": "https://voyager.fm/llms.txt",
+        "title": "官方 llms.txt：Free / Plus / Pro / Early Supporter Pass"
+      },
+      {
+        "url": "https://voyager.fm/terms",
+        "title": "官方条款：Free Access and Paid Products"
+      }
+    ]
+  },
+  "byteask-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-10",
+    "notes": "官方定价页提供 Free 以及 Pro / Max / Ultra 付费档；亦可用自备 API key。按已核验官方付费服务记录，不记录易变价格。此标签不表示 CLI 必须付费。",
+    "sources": [
+      {
+        "url": "https://byteask.ai/pricing",
+        "title": "ByteAsk 官方定价：Free / Pro / Max / Ultra"
+      }
+    ]
+  },
+  "orkas-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-10",
+    "notes": "官方定价页：桌面客户端可免费使用，含欢迎额度；Lite / Pro / Max 提供月度额度、云同步与协作，另有额度包与 Enterprise。自备模型 key 的调用不消耗 Orkas credits。按已核验官方付费服务记录，不记录易变价格；开源许可证独立保留。",
+    "sources": [
+      {
+        "url": "https://orkas.ai/pricing/",
+        "title": "Orkas 官方定价：Free 额度与 Lite/Pro/Max"
+      }
+    ]
   }
 }
