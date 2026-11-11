@@ -2081,5 +2081,16 @@
         "title": "Orkas 官方定价：Free 额度与 Lite/Pro/Max"
       }
     ]
+  },
+  "mimzie-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-11",
+    "notes": "官方定价页应用本身为 $0，另提供 Mimzie agent 的付费档（Starter / Plus / Pro / Max）与超额用量计费。按已核验官方付费服务记录，不记录易变价格。此标签不表示桌面客户端必须付费。",
+    "sources": [
+      {
+        "url": "https://mimzie.com/pricing/",
+        "title": "Mimzie 官方定价：应用免费与 Mimzie agent 付费档"
+      }
+    ]
   }
 }

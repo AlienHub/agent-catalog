@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.46（2026-11-10），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.47（2026-11-11），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -769,3 +769,14 @@ Logo：Wonder / crystl / Cobalt 使用官网 SVG；其余缺失纯矢量，空 `
 Logo：Desk / ByteAsk / wdx / NekoTrail 使用官方纯矢量 SVG。Voyager / Orkas 空 `icon`。
 
 未收录：Tributary（DEV 文无官方源码/下载链接）；智合AI Agent 3.5 本地端（法律垂直桌面，目录无同类垂直桌面口径）；Scout / Agibot / 灵光 2.0 / Gemini agent 预览；#32/#33/#34 已列条目。
+
+## v0.47 Nod、Linger、Mimzie 与 Ducter（2026-11-11）
+
+新增 5 条应用、4 个产品，目录共 576 条应用、396 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.46 / `main` @ `4ddfc04`（#35 已合入）。未改 `schema.json` 与供应商分类。
+
+- Nod 桌面端（n8n GmbH / n8n Labs）：本机个人 Agent，独立于已收录的 n8n 工作流。GitHub **nod-v0.6.1**。Apache-2.0。仅 GUI；不单列 Telegram/WhatsApp 或自托管。
+- Linger 桌面端（SIMPLEX AI TECHNOLOGIES PTE. LTD.）：本机个人 Agent 工作区。GitHub **desktop-v0.1.0**。修改版 Apache-2.0，记 **source-available**。
+- Mimzie 桌面端（Mimzie, Inc.）：知识工作桌面 Agent。稳定下载 **0.1.5**。专有；应用本身免费，可选 Mimzie agent 付费档。
+- Ducter 桌面端与 CLI（Wey Gu）：协调 Claude Code / Codex / pi / DeepSeek Harness。GitHub **v0.0.15**。Apache-2.0。不收录 iOS/Android。
+
+Logo：Nod / Linger 使用官方仓库 SVG；Ducter 使用官方 PNG；Mimzie 无纯矢量 SVG，空 `icon`。

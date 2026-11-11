@@ -304,3 +304,13 @@ PNG 原样保存，未改后缀、未矢量化。官方站点素材以其来源�
 | `assets/icons/byteask.svg` | [ByteAsk 官网 `favicon.svg`](https://byteask.ai/favicon.svg) | `7f54351ad79ca4bb91f25214bd1fc529c58f99c58c2f5ca6708ff129e0e5dd74` |
 | `assets/icons/wdx.svg` | [srjn45/wdx `assets/brand/favicon.svg`](https://raw.githubusercontent.com/srjn45/wdx/main/assets/brand/favicon.svg) | `3a8da4088182d2a1999ef1443caf207728a34fdf8760011f0f1daa5219972c56` |
 | `assets/icons/nekotrail.svg` | [Harshil-Jani/nekotrail `brand/mark/nekotrail-mark.svg`](https://raw.githubusercontent.com/Harshil-Jani/nekotrail/main/brand/mark/nekotrail-mark.svg) | `f3f8d4f2d2a343e40f0efdcca1f5be4a237f2057eda0066ae049b52ec153ca42` |
+
+## v0.47 Logo 收录（2026-11-11）
+
+本批 SVG / PNG 均原样保存，未重绘、未改后缀。官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。Mimzie 未找到可核验官方产品纯矢量 SVG，保持空 `icon`。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/nod.svg` | [n8n-io/nod `public/favicon.svg`](https://raw.githubusercontent.com/n8n-io/nod/main/public/favicon.svg) | `e6729f1f7421bb3485096d2c664a2ab81a5e8d4494fd6a78fcd1c8c1217d8b73` |
+| `assets/icons/linger.svg` | [simplexai-labs/linger `apps/assets/logo/logo-mark.svg`](https://raw.githubusercontent.com/simplexai-labs/linger/main/apps/assets/logo/logo-mark.svg) | `91042f408465f3e93b6f6e79833e80246fa55f690afdd1b18754345455c43ec0` |
+| `assets/icons/ducter.png` | [wey-gu/ducter `apps/site/public/icon.png`](https://raw.githubusercontent.com/wey-gu/ducter/main/apps/site/public/icon.png) | `ee6be833843ccf43619798084efee0f00424e1e62ffee7835eb5dbe82705899f` |

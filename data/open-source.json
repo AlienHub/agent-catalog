@@ -4750,5 +4750,101 @@
         "title": "官方 LICENSE：MIT"
       }
     ]
+  },
+  "nod-desktop": {
+    "repository_url": "https://github.com/n8n-io/nod",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/n8n-io/nod/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-11",
+      "github_archived": false,
+      "last_push_at": "2026-11-11T01:13:55Z"
+    },
+    "notes": "本次核验上游主分支 LICENSE 为 Apache-2.0（Copyright 2026 n8n GmbH；GitHub SPDX Apache-2.0）。结论仅限已核查的 n8n-io/nod 桌面/服务源码，不外推已收录的 n8n 工作流产品、所连接的模型供应商或 n8n/Composio 托管连接服务。NOTICE 另列本地语音组件 GPL-3.0-or-later，不改变根许可证。维护状态参考公开 Release nod-v0.6.1，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/n8n-io/nod/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://github.com/n8n-io/nod",
+        "title": "官方仓库与桌面发行"
+      }
+    ],
+    "classification": "application"
+  },
+  "linger-desktop": {
+    "repository_url": "https://github.com/simplexai-labs/linger",
+    "source_model": "source-available",
+    "license": "LicenseRef-Linger",
+    "license_url": "https://github.com/simplexai-labs/linger/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-11",
+      "github_archived": false,
+      "last_push_at": "2026-11-10T14:35:22Z"
+    },
+    "notes": "LICENSE 自称 Linger Open Source License（文档亦称 Co-Workspace Open Source License）：以 Apache-2.0 为基础，另加禁止未经书面授权向组织外第三方提供托管/托管式服务、禁止移除或修改前端 Logo 与版权信息，以及生产者可收紧/放宽协议等条件。GitHub 许可证检测为 Other / NOASSERTION。不能记为 OSI Apache-2.0 开源，故 source-available。结论仅限已核查的 simplexai-labs/linger 源码，不外推所连接的 Claude Code / Codex / Pi 或第三方模型。维护状态参考公开 Release desktop-v0.1.0，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/simplexai-labs/linger/blob/main/LICENSE",
+        "title": "官方 LICENSE：修改版 Apache-2.0（额外托管服务与前端品牌限制）"
+      },
+      {
+        "url": "https://docs.simplexai.com/",
+        "title": "官方文档：许可为 Apache-2.0 加额外条件"
+      }
+    ],
+    "classification": "agent-client-application"
+  },
+  "ducter-desktop": {
+    "repository_url": "https://github.com/wey-gu/ducter",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/wey-gu/ducter/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-11",
+      "github_archived": false,
+      "last_push_at": "2026-11-11T00:20:24Z"
+    },
+    "notes": "本次核验上游主分支 LICENSE 为 Apache-2.0（GitHub SPDX Apache-2.0）。结论仅限已核查的 wey-gu/ducter 桌面/CLI 源码，不外推所连接的 Claude Code、Codex、pi、DeepSeek Harness 或 Nowledge Mem。预构建 DMG / Linux tarball / 移动端安装包不单独改变源码许可。维护状态参考公开 Release v0.0.15，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/wey-gu/ducter/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://github.com/wey-gu/ducter",
+        "title": "官方仓库"
+      }
+    ],
+    "classification": "agent-client-application"
+  },
+  "ducter-cli": {
+    "repository_url": "https://github.com/wey-gu/ducter",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/wey-gu/ducter/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-11",
+      "github_archived": false,
+      "last_push_at": "2026-11-11T00:20:24Z"
+    },
+    "notes": "与 ducter-desktop 同一 Apache-2.0 仓库的 CLI / Linux 服务入口。结论仅限已核查的 wey-gu/ducter 源码，不外推所连接的第三方 Agent CLI 或移动客户端。维护状态参考公开 Release v0.0.15，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/wey-gu/ducter/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://github.com/wey-gu/ducter",
+        "title": "官方仓库"
+      }
+    ],
+    "classification": "agent-client-application"
   }
 }

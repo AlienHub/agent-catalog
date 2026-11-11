@@ -14683,5 +14683,126 @@
     "web_domains": [],
     "web_domain_status": "not-applicable",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "nod-desktop",
+    "name": "Nod",
+    "aliases": [],
+    "vendor": "n8n GmbH",
+    "type": "通用任务 Agent",
+    "website": "https://nod.n8n.io/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/nod.svg",
+    "vendor_id": "n8n",
+    "product_id": "nod",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "linger-desktop",
+    "name": "Linger",
+    "aliases": [],
+    "vendor": "SIMPLEX AI TECHNOLOGIES PTE. LTD.",
+    "type": "通用任务 Agent",
+    "website": "https://docs.simplexai.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/linger.svg",
+    "vendor_id": "simplexai-labs",
+    "product_id": "linger",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "mimzie-desktop",
+    "name": "Mimzie",
+    "aliases": [],
+    "vendor": "Mimzie, Inc.",
+    "type": "办公智能体",
+    "website": "https://mimzie.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "mimzie",
+    "product_id": "mimzie",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "ducter-desktop",
+    "name": "Ducter",
+    "aliases": [],
+    "vendor": "Wey Gu",
+    "type": "通用任务 Agent",
+    "website": "https://ducter.ai/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/ducter.png",
+    "vendor_id": "wey-gu",
+    "product_id": "ducter",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "ducter-cli",
+    "name": "Ducter",
+    "aliases": [],
+    "vendor": "Wey Gu",
+    "type": "通用任务 Agent",
+    "website": "https://ducter.ai/",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "icon": "icons/ducter.png",
+    "vendor_id": "wey-gu",
+    "product_id": "ducter",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "未收录 SVG · 已验证 PNG 位图 · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]
