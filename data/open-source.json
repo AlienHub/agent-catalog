@@ -4391,6 +4391,366 @@
     ],
     "classification": "application"
   },
+  "autocua-desktop": {
+    "repository_url": "https://github.com/ComputerUseAgent/AutoCua",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/ComputerUseAgent/AutoCua/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-05",
+      "github_archived": false,
+      "last_push_at": "2026-11-04T22:33:27Z"
+    },
+    "classification": "application",
+    "notes": "MIT。桌面 GUI 为第一形态；Python 包同时提供可编程 API，不因此改写为 CLI 记录。",
+    "sources": [
+      {
+        "url": "https://github.com/ComputerUseAgent/AutoCua/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/ComputerUseAgent/AutoCua/blob/main/README.md",
+        "title": "Official README"
+      }
+    ]
+  },
+  "one-code-cli": {
+    "repository_url": "https://github.com/IsuruMaduranga/one-code",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/IsuruMaduranga/one-code/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-05",
+      "github_archived": false,
+      "last_push_at": "2026-11-04T16:20:30Z"
+    },
+    "classification": "runnable-application-and-harness",
+    "notes": "LICENSE 正文为 MIT，另有自主执行免责声明，不改为 source-available。",
+    "sources": [
+      {
+        "url": "https://github.com/IsuruMaduranga/one-code/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/IsuruMaduranga/one-code/blob/main/README.md",
+        "title": "Official README"
+      }
+    ]
+  },
+  "cxagent-cli": {
+    "repository_url": "https://github.com/nickprotop/cxagent",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/nickprotop/cxagent/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-05",
+      "github_archived": false,
+      "last_push_at": "2026-11-04T20:38:09Z"
+    },
+    "classification": "runnable-application-and-harness",
+    "notes": "MIT。可安装的 .NET 全局工具 / TUI，不是库。",
+    "sources": [
+      {
+        "url": "https://github.com/nickprotop/cxagent/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/nickprotop/cxagent/blob/main/README.md",
+        "title": "Official README"
+      }
+    ]
+  },
+  "apus-reflex-desktop": {
+    "repository_url": "https://github.com/APUS-AI-Lab/APUS-Reflex-Agent",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/APUS-AI-Lab/APUS-Reflex-Agent/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-05",
+      "github_archived": false,
+      "last_push_at": "2026-10-27T01:30:55Z"
+    },
+    "classification": "application",
+    "notes": "MIT。LICENSE 版权行写 DeepSeek，产品发行方为 APUS AI；不并入 deepseek-harness。",
+    "sources": [
+      {
+        "url": "https://github.com/APUS-AI-Lab/APUS-Reflex-Agent/blob/main/LICENSE",
+        "title": "Official MIT license"
+      },
+      {
+        "url": "https://github.com/APUS-AI-Lab/APUS-Reflex-Agent/blob/main/README.zh.md",
+        "title": "Official Chinese README"
+      }
+    ]
+  },
+  "rerun-web": {
+    "repository_url": "https://github.com/rerun-build/rerun",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/rerun-build/rerun/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-06",
+      "github_archived": false,
+      "last_push_at": "2026-11-05T13:37:58Z"
+    },
+    "notes": "本次核验上游主分支应用源码许可为 GNU AGPL v3.0。结论仅限 rerun-build/rerun Web/自托管应用，不外推所连接的模型供应商、MCP 或 Rerun Cloud 运营环境。不是 rerun-io/rerun。维护状态参考公开 Release v0.9.0，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/rerun-build/rerun",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/rerun-build/rerun/blob/main/LICENSE",
+        "title": "上游主分支 LICENSE：GNU AGPL v3.0"
+      }
+    ],
+    "classification": "application"
+  },
+  "everywhere-desktop": {
+    "repository_url": "https://github.com/Sylinko/Everywhere",
+    "source_model": "source-available",
+    "license": "BUSL-1.1",
+    "license_url": "https://github.com/Sylinko/Everywhere/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-06",
+      "github_archived": false,
+      "last_push_at": "2026-10-29T12:55:06Z"
+    },
+    "notes": "LICENSE 为 Business Source License 1.1（Licensor: Sylinko Inc.），Change Date 为该版本首次公开发布后四年，Change License 为 Apache License 2.0；禁止 Competing Use（含托管/PaaS）。不在本目录 open-source 允许的 OSI 表达式内，故 source-available。结论仅限已核查的 Sylinko/Everywhere 桌面应用源码，不外推所连接的模型供应商或 MCP 服务。维护状态参考公开 Release v0.8.2 与现行 canary，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/Sylinko/Everywhere",
+        "title": "官方上游应用源码与形态"
+      },
+      {
+        "url": "https://github.com/Sylinko/Everywhere/blob/main/LICENSE",
+        "title": "上游主分支 LICENSE：Business Source License 1.1 → Apache-2.0"
+      }
+    ],
+    "classification": "application"
+  },
+  "letronna-desktop": {
+    "repository_url": "https://github.com/gadlus/letronna",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/gadlus/letronna/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-09",
+      "github_archived": false,
+      "last_push_at": "2026-11-08T10:34:55Z"
+    },
+    "classification": "application",
+    "notes": "MIT 结论仅限已核查的 gadlus/letronna 公开源码。预构建 DMG/EXE、Letronna Cloud 托管与钱包/链上支付不继承本判断。维护状态参考公开 Release v0.1.0-alpha.5 与现行 changelog，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/gadlus/letronna/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Gadlus LLC）"
+      },
+      {
+        "url": "https://github.com/gadlus/letronna",
+        "title": "官方仓库与桌面/终端发行"
+      }
+    ]
+  },
+  "letronna-cli": {
+    "repository_url": "https://github.com/gadlus/letronna",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/gadlus/letronna/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-09",
+      "github_archived": false,
+      "last_push_at": "2026-11-08T10:34:55Z"
+    },
+    "classification": "application",
+    "notes": "MIT 结论仅限已核查的 gadlus/letronna 公开源码与 terminal 二进制。预构建安装脚本、托管模型与钱包能力不继承本判断。维护状态参考公开 Release v0.1.0-alpha.5，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/gadlus/letronna/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Gadlus LLC）"
+      },
+      {
+        "url": "https://github.com/gadlus/letronna",
+        "title": "官方仓库与 CLI 发行"
+      }
+    ]
+  },
+  "alysis-code-cli": {
+    "repository_url": "https://github.com/AlysisAi/AlysisCode",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/AlysisAi/AlysisCode/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-09",
+      "github_archived": false,
+      "last_push_at": "2026-11-09T00:54:04Z"
+    },
+    "classification": "application",
+    "notes": "Apache-2.0 结论仅限已核查的 AlysisAi/AlysisCode 公开引擎源码与 CLI/PyPI 发行。桌面安装包、托管 credits 与 Chrome 扩展不继承本判断。维护状态参考公开 Release v0.16.2 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/AlysisAi/AlysisCode/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache License 2.0"
+      },
+      {
+        "url": "https://github.com/AlysisAi/AlysisCode",
+        "title": "官方仓库与 CLI 发行"
+      }
+    ]
+  },
+  "termexo-desktop": {
+    "repository_url": "https://github.com/gemron/Termexo",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/gemron/Termexo/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-09",
+      "github_archived": false,
+      "last_push_at": "2026-11-04T03:43:40Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "MIT 结论仅限已核查的 gemron/Termexo 公开源码。预构建安装包、npm 发行与所连接的第三方 Agent CLI 不继承本判断。维护状态参考公开 Release v0.12.1 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/gemron/Termexo/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Termexo contributors）"
+      },
+      {
+        "url": "https://github.com/gemron/Termexo",
+        "title": "官方仓库与桌面发行"
+      }
+    ]
+  },
+  "relay-desktop": {
+    "repository_url": "https://github.com/relaycodehq/relay",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/relaycodehq/relay/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-09",
+      "github_archived": false,
+      "last_push_at": "2026-11-08T14:57:28Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "MIT 结论仅限已核查的 relaycodehq/relay 公开源码。预构建安装包、Android APK、headless 服务器与所连接的第三方 Agent CLI 不继承本判断。维护状态参考公开 Release v0.28.4 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/relaycodehq/relay/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 Relay contributors）"
+      },
+      {
+        "url": "https://github.com/relaycodehq/relay",
+        "title": "官方仓库与桌面发行"
+      }
+    ]
+  },
+  "desk-desktop": {
+    "repository_url": "https://github.com/s-nish/desk",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/s-nish/desk/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-10",
+      "github_archived": false,
+      "last_push_at": "2026-11-09T18:16:33Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "MIT 结论仅限已核查的 s-nish/desk 公开源码。预构建 Desk.dmg 与所启动的第三方 Agent CLI 不继承本判断。维护状态参考公开 Release v1.0.0 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/s-nish/desk",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/s-nish/desk/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      }
+    ]
+  },
+  "wdx-cli": {
+    "repository_url": "https://github.com/srjn45/wdx",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/srjn45/wdx/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-10",
+      "github_archived": false,
+      "last_push_at": "2026-11-09T19:22:43Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "Apache-2.0 结论仅限已核查的 srjn45/wdx 公开源码。预构建二进制、安装脚本与所运行的第三方 Agent CLI 不继承本判断。TIDE 是同一 CLI 的终端界面（wdx tide），不是另一份许可证。维护状态参考公开 Release v0.4.0 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/srjn45/wdx",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/srjn45/wdx/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      }
+    ]
+  },
+  "nekotrail-desktop": {
+    "repository_url": "https://github.com/Harshil-Jani/nekotrail",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/Harshil-Jani/nekotrail/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-10",
+      "github_archived": false,
+      "last_push_at": "2026-11-08T10:47:43Z"
+    },
+    "classification": "agent-client-application",
+    "notes": "MIT 结论仅限已核查的 Harshil-Jani/nekotrail 公开源码。预构建 .dmg 与所启动的第三方 Agent CLI 不继承本判断。维护状态参考公开 Release v0.26.1 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/Harshil-Jani/nekotrail",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/Harshil-Jani/nekotrail/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      }
+    ]
+  },
+  "orkas-desktop": {
+    "repository_url": "https://github.com/Orkas-AI/Orkas",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/Orkas-AI/Orkas/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-10",
+      "github_archived": false,
+      "last_push_at": "2026-11-09T01:23:57Z"
+    },
+    "classification": "application",
+    "notes": "MIT 结论仅限已核查的 Orkas-AI/Orkas 桌面客户端源码。官方托管模型、云同步、云存储与所连接的第三方 Agent CLI / 模型供应商不继承本判断。维护状态参考公开 Release v2026.11.4 与现行文档，非仅依据 push 时间。",
+    "sources": [
+      {
+        "url": "https://github.com/Orkas-AI/Orkas",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/Orkas-AI/Orkas/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      }
+    ]
+  },
   "nod-desktop": {
     "repository_url": "https://github.com/n8n-io/nod",
     "source_model": "open-source",

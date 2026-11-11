@@ -1847,6 +1847,241 @@
       }
     ]
   },
+  "soiawork-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-05",
+    "notes": "官网公布体验版与付费标准版/团队版。价格与区域可用性不在此断言。",
+    "sources": [
+      {
+        "url": "https://soiawork.cn/",
+        "title": "树芽工作官方套餐说明"
+      }
+    ]
+  },
+  "wanaka-studio-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-05",
+    "notes": "官网 Pricing 页提供付费套餐。价格与区域可用性不在此断言。",
+    "sources": [
+      {
+        "url": "https://wanaka.app/pricing",
+        "title": "Wanaka 官方定价页"
+      }
+    ]
+  },
+  "cowboy-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-05",
+    "notes": "General Store 以付费雇佣 Agent / 数据源为主。价格与区域可用性不在此断言。",
+    "sources": [
+      {
+        "url": "https://cowboy.inc/",
+        "title": "Cowboy General Store 付费雇佣说明"
+      }
+    ]
+  },
+  "kino-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-05",
+    "notes": "官方提供 Free 与 Pro 订阅。价格与区域可用性不在此断言。",
+    "sources": [
+      {
+        "url": "https://kino.ai/",
+        "title": "Kino 官方产品与套餐说明"
+      }
+    ]
+  },
+  "cinnamon-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-05",
+    "notes": "官方提供 Personal / Group 付费套餐与试用积分。价格与区域可用性不在此断言。",
+    "sources": [
+      {
+        "url": "https://getcinnamon.ai/",
+        "title": "Cinnamon 官方套餐说明"
+      }
+    ]
+  },
+  "dessn-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-05",
+    "notes": "官方以积分计量设计 Agent 运行，并提供免费额度。价格与区域可用性不在此断言。",
+    "sources": [
+      {
+        "url": "https://www.dessn.com/",
+        "title": "Dessn 官方产品说明"
+      }
+    ]
+  },
+  "rerun-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-06",
+    "notes": "官方定价页提供试用后的付费 Pro 与 Enterprise。自托管开源构建不改变托管套餐。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://rerun.build/pricing",
+        "title": "Rerun 官方定价：试用、Pro 与 Enterprise"
+      }
+    ]
+  },
+  "nico-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-06",
+    "notes": "下载本身免费；官方定价提供 Plus 订阅（语音回复等）。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://nico.app/pricing/",
+        "title": "Nico 官方定价：Free 与 Plus"
+      }
+    ]
+  },
+  "stitch-ai-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-06",
+    "notes": "官方 How it works 页提供试用后的付费方案（含 Stitchy）。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://www.stitch.ai/how-it-works",
+        "title": "Stitch.ai How it works：方案与 Stitchy"
+      }
+    ]
+  },
+  "wonder-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "官方定价提供 Free 与按编辑者计费的 Pro / Enterprise。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://wonder.design/pricing",
+        "title": "Wonder 官方定价：Free / Pro / Enterprise"
+      }
+    ]
+  },
+  "crystl-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "免费 apprentice 档之外提供 crystl guild 年付会员。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://crystl.dev/pricing",
+        "title": "crystl 官方定价：apprentice 与 guild"
+      }
+    ]
+  },
+  "agent-clan-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "Free 之外提供一次性 Pro 购买（Paddle）。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://agentclan.app/",
+        "title": "Agent Clan 官网：Free 与一次性 Pro"
+      }
+    ]
+  },
+  "letronna-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "本机自备密钥可免费使用；托管模型与 Letronna Cloud 为 Pro/credit 付费部分。按已核验官方付费服务记录，不记录易变价格，也不据此判断 MIT 许可证。",
+    "sources": [
+      {
+        "url": "https://letronna.ai/pricing",
+        "title": "Letronna 官方定价：托管模型与 Cloud credit"
+      }
+    ]
+  },
+  "letronna-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "与桌面条同一官方托管模型 / Cloud 付费。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://letronna.ai/pricing",
+        "title": "Letronna 官方定价：托管模型与 Cloud credit"
+      }
+    ]
+  },
+  "alysis-code-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "免费额度之外提供付费 credits 档；自备密钥或本地模型不经 Alysis 计费。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://alysiscode.com/pricing",
+        "title": "Alysis Code 官方定价：Free / Beta / Alpha credits"
+      }
+    ]
+  },
+  "alysis-code-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "与桌面条同一官方 credits 付费档。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://alysiscode.com/pricing",
+        "title": "Alysis Code 官方定价：Free / Beta / Alpha credits"
+      }
+    ]
+  },
+  "cobalt-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "官方定价提供 Free credits 与按工作区订阅的 Plus / Pro / Enterprise。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://cobaltcode.ai/pricing",
+        "title": "Cobalt 官方定价：Free / Plus / Pro / Enterprise"
+      }
+    ]
+  },
+  "cobalt-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-09",
+    "notes": "与 Web 条同一官方工作区订阅与 credits。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://cobaltcode.ai/pricing",
+        "title": "Cobalt 官方定价：Free / Plus / Pro / Enterprise"
+      }
+    ]
+  },
+  "voyager-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-10",
+    "notes": "官方条款与 llms.txt：Free 核心本地浏览可不登录；Plus / Pro 标明尚未上线；Early Supporter Pass 为预购付费档。按已核验官方付费产品记录，不记录易变价格，也不据此判断源码状态。",
+    "sources": [
+      {
+        "url": "https://voyager.fm/llms.txt",
+        "title": "官方 llms.txt：Free / Plus / Pro / Early Supporter Pass"
+      },
+      {
+        "url": "https://voyager.fm/terms",
+        "title": "官方条款：Free Access and Paid Products"
+      }
+    ]
+  },
+  "byteask-cli": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-10",
+    "notes": "官方定价页提供 Free 以及 Pro / Max / Ultra 付费档；亦可用自备 API key。按已核验官方付费服务记录，不记录易变价格。此标签不表示 CLI 必须付费。",
+    "sources": [
+      {
+        "url": "https://byteask.ai/pricing",
+        "title": "ByteAsk 官方定价：Free / Pro / Max / Ultra"
+      }
+    ]
+  },
+  "orkas-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-10",
+    "notes": "官方定价页：桌面客户端可免费使用，含欢迎额度；Lite / Pro / Max 提供月度额度、云同步与协作，另有额度包与 Enterprise。自备模型 key 的调用不消耗 Orkas credits。按已核验官方付费服务记录，不记录易变价格；开源许可证独立保留。",
+    "sources": [
+      {
+        "url": "https://orkas.ai/pricing/",
+        "title": "Orkas 官方定价：Free 额度与 Lite/Pro/Max"
+      }
+    ]
+  },
   "mimzie-desktop": {
     "offer": "paid-service",
     "verified_at": "2026-11-11",
