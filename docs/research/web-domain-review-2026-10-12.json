@@ -4758,6 +4758,46 @@
         }
       ],
       "notes": "2026-11-05 新增已核验 Web 入口 create.dessn.ai。mcp.dessn.ai 为 MCP 主机，不记入 web_domains。"
+    },
+    {
+      "id": "rerun-web",
+      "name": "Rerun",
+      "website": "https://rerun.build/",
+      "status": "verified",
+      "domains": [
+        "app.rerun.build"
+      ],
+      "sources": [
+        {
+          "url": "https://rerun.build/",
+          "title": "Rerun 官网"
+        },
+        {
+          "url": "https://app.rerun.build/",
+          "title": "已核验 Web 应用主机 app.rerun.build"
+        }
+      ],
+      "notes": "2026-11-06 新增已核验 Web 入口 app.rerun.build。营销站 rerun.build 与文档 docs.rerun.build 不是应用主机。自托管 localhost 无统一公共域名。"
+    },
+    {
+      "id": "stitch-ai-web",
+      "name": "Stitch.ai",
+      "website": "https://www.stitch.ai/",
+      "status": "verified",
+      "domains": [
+        "app.stitch.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://www.stitch.ai/",
+          "title": "Stitch.ai 官网"
+        },
+        {
+          "url": "https://app.stitch.ai/auth/login",
+          "title": "已核验 Web 应用主机 app.stitch.ai"
+        }
+      ],
+      "notes": "2026-11-06 新增已核验 Web 入口 app.stitch.ai。营销站 www.stitch.ai / stitch.ai 不是应用主机。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4774,5 +4814,6 @@
   "added_web_records_20261102": 6,
   "added_web_records_20261103": 1,
   "added_web_records_20261104": 4,
-  "added_web_records_20261105": 5
+  "added_web_records_20261105": 5,
+  "added_web_records_20261106": 2
 }

@@ -1912,5 +1912,38 @@
         "title": "Dessn 官方产品说明"
       }
     ]
+  },
+  "rerun-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-06",
+    "notes": "官方定价页提供试用后的付费 Pro 与 Enterprise。自托管开源构建不改变托管套餐。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://rerun.build/pricing",
+        "title": "Rerun 官方定价：试用、Pro 与 Enterprise"
+      }
+    ]
+  },
+  "nico-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-06",
+    "notes": "下载本身免费；官方定价提供 Plus 订阅（语音回复等）。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://nico.app/pricing/",
+        "title": "Nico 官方定价：Free 与 Plus"
+      }
+    ]
+  },
+  "stitch-ai-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-06",
+    "notes": "官方 How it works 页提供试用后的付费方案（含 Stitchy）。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://www.stitch.ai/how-it-works",
+        "title": "Stitch.ai How it works：方案与 Stitchy"
+      }
+    ]
   }
 }

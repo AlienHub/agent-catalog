@@ -14028,5 +14028,209 @@
     ],
     "web_domain_status": "verified",
     "web_domain_verified_at": "2026-11-05"
+  },
+  {
+    "id": "rerun-web",
+    "name": "Rerun",
+    "aliases": [
+      "Rerun Cloud",
+      "Rerun Coworkers"
+    ],
+    "vendor": "rerun-build / Clément Janssens",
+    "type": "通用任务 Agent",
+    "website": "https://rerun.build/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "rerun-build",
+    "product_id": "rerun",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.rerun.build"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-06"
+  },
+  {
+    "id": "everywhere-desktop",
+    "name": "Everywhere",
+    "aliases": [],
+    "vendor": "Sylinko Inc.",
+    "type": "通用助手",
+    "website": "https://everywhere.sylinko.com",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "sylinko",
+    "product_id": "everywhere",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "mooring-desktop",
+    "name": "Mooring",
+    "aliases": [],
+    "vendor": "STRATAGEMS / Digital Stratagems Limited",
+    "type": "AI 编程",
+    "website": "https://mooring.sh",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "stratagems",
+    "product_id": "mooring",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "getvector-desktop",
+    "name": "Vector",
+    "aliases": [
+      "getvector.sh"
+    ],
+    "vendor": "Andrew Huth",
+    "type": "AI 编程",
+    "website": "https://getvector.sh",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "ahuth",
+    "product_id": "getvector",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "nico-desktop",
+    "name": "Nico",
+    "aliases": [],
+    "vendor": "SUPERMIND PTE. LIMITED",
+    "type": "办公智能体",
+    "website": "https://nico.app/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "supermind",
+    "product_id": "nico",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "ztc-cli",
+    "name": "Zerg Client",
+    "aliases": [
+      "ZTC",
+      "Zerg Terminal Client"
+    ],
+    "vendor": "Zerg AI",
+    "type": "AI 编程",
+    "website": "https://zergai.com/ztc",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "zerg-ai",
+    "product_id": "ztc",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "ztc-desktop",
+    "name": "Zerg Client",
+    "aliases": [
+      "ZTC",
+      "Zerg Terminal Client"
+    ],
+    "vendor": "Zerg AI",
+    "type": "AI 编程",
+    "website": "https://zergai.com/ztc",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "zerg-ai",
+    "product_id": "ztc",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "stitch-ai-web",
+    "name": "Stitch.ai",
+    "aliases": [
+      "Stitchy"
+    ],
+    "vendor": "Stitch.ai",
+    "type": "办公智能体",
+    "website": "https://www.stitch.ai/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "stitch-ai",
+    "product_id": "stitch-ai",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.stitch.ai"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-06"
   }
 ]

@@ -12244,5 +12244,181 @@
         "title": "Product Hunt：Dessn"
       }
     ]
+  },
+  "rerun-web": {
+    "notes": "rerun-build / Clément Janssens（与 Théo Louro 共同）出品的 AI Coworkers Web 应用：为每个工作区提供独立云电脑，同事（coworker）可接工具/MCP、按日程或 webhook 运行，并在关键操作前征求确认。本条仅 Web。官方云应用主机为 **app.rerun.build**（登录页已核验）；营销站 rerun.build、文档 docs.rerun.build 不记入 web_domains。同一 AGPL-3.0 仓库可 Docker 自托管（默认 localhost:3000），无统一公共自托管域名，不另建 self-hosted 条。GitHub latest Release **v0.9.0**（2026-11-05，Bring your own model）。不是可视化库 rerun-io/rerun。官网 Logo / brand 页未见可核验纯矢量产品图标，icon 留空。官网/仓库资料核验，未做安装、登录、自托管或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://rerun.build/",
+        "title": "Rerun 官网：Hire AI Coworkers"
+      },
+      {
+        "url": "https://app.rerun.build/",
+        "title": "已核验 Web 应用主机 app.rerun.build（登录页）"
+      },
+      {
+        "url": "https://docs.rerun.build/",
+        "title": "官方文档：AI coworkers 与自托管"
+      },
+      {
+        "url": "https://github.com/rerun-build/rerun",
+        "title": "官方仓库 rerun-build/rerun（AGPL-3.0）"
+      },
+      {
+        "url": "https://github.com/rerun-build/rerun/releases/tag/v0.9.0",
+        "title": "GitHub latest Release v0.9.0（2026-11-05）"
+      },
+      {
+        "url": "https://github.com/rerun-build/rerun/blob/main/LICENSE",
+        "title": "官方 LICENSE：GNU AGPL v3.0"
+      }
+    ],
+    "verified_at": "2026-11-06"
+  },
+  "everywhere-desktop": {
+    "notes": "Sylinko Inc. 出品的桌面 GUI 助手 Everywhere：基于屏幕感知（辅助功能 / UI 自动化）读取当前应用上下文，连接多模型与 MCP，在 Windows / macOS 上跨应用操作。本条仅桌面 GUI。Avalonia 桌面；GitHub Releases 提供 Windows x64 与 macOS arm64/x64 安装包，未见 Linux 发行包。GitHub latest 非 prerelease **v0.8.2**（2026-09-16）；核验日最新 Release 为 canary **v0.9.0-canary.20261012.26**（prerelease）。不把 canary 记为稳定 semver。仓库 LICENSE 为 Business Source License 1.1，Change License 为 Apache-2.0，记 source-available。官网/README 未见可核验纯矢量产品图标，icon 留空。官网/仓库资料核验，未做安装或运行测试。",
+    "sources": [
+      {
+        "url": "https://everywhere.sylinko.com",
+        "title": "Everywhere 官网：屏幕感知桌面 AI 助手"
+      },
+      {
+        "url": "https://github.com/Sylinko/Everywhere",
+        "title": "官方仓库 Sylinko/Everywhere"
+      },
+      {
+        "url": "https://github.com/Sylinko/Everywhere/releases/tag/v0.8.2",
+        "title": "GitHub latest 非 prerelease v0.8.2（2026-09-16）"
+      },
+      {
+        "url": "https://github.com/Sylinko/Everywhere/releases/tag/v0.9.0-canary.20261012.26",
+        "title": "GitHub 最新 canary v0.9.0-canary.20261012.26（prerelease，2026-10-13）"
+      },
+      {
+        "url": "https://github.com/Sylinko/Everywhere/blob/main/LICENSE",
+        "title": "官方 LICENSE：Business Source License 1.1 → Apache-2.0"
+      }
+    ],
+    "verified_at": "2026-11-06"
+  },
+  "mooring-desktop": {
+    "notes": "STRATAGEMS（Digital Stratagems Limited）出品的 macOS ADE Mooring：在真实终端标签中运行 Claude Code，并提供任务 Cards、worktree、用量与计划额度管理。本条仅桌面 GUI。官网下载页写明免费、Apple silicon、**macOS 26+**；可用 `brew install --cask mooring-sh/tap/mooring` 或公证直链。官方 changelog 当前 **v1.0.0**（2026-11-04）。不替代 Claude Code。未见公开应用源码仓。官网仅 opengraph PNG，icon 留空。官网资料核验，未做安装、运行或 macOS 26 兼容性测试。",
+    "sources": [
+      {
+        "url": "https://mooring.sh",
+        "title": "Mooring 官网：Claude Code 的 ADE"
+      },
+      {
+        "url": "https://mooring.sh/download",
+        "title": "官方下载：免费、Apple silicon、macOS 26+、Homebrew cask"
+      },
+      {
+        "url": "https://mooring.sh/changelog",
+        "title": "官方发布说明列表"
+      },
+      {
+        "url": "https://mooring.sh/changelog/1.0.0",
+        "title": "Mooring v1.0.0 发布说明（2026-11-04）"
+      }
+    ],
+    "verified_at": "2026-11-06"
+  },
+  "getvector-desktop": {
+    "notes": "Andrew Huth 出品的 macOS ADE Vector（getvector.sh）：Tauri 桌面应用，编排本机已安装的 Claude Code 与 Codex CLI（账户、skills、MCP 沿用本机配置）。本条仅桌面 GUI。官网 Download 指向 ahuth/vector-issues Releases；该仓为议题与安装包发布仓，**不是**应用源码仓，不写入 open-source.json。最新非 prerelease **v0.1.11**（2026-11-04，Vector_0.1.11_aarch64.dmg）。不是 vectordev.ai。官网/发布仓未见可核验纯矢量 SVG，icon 留空。官网/发布仓资料核验，未做安装或运行测试。",
+    "sources": [
+      {
+        "url": "https://getvector.sh",
+        "title": "Vector 官网：integrated engineering environment"
+      },
+      {
+        "url": "https://github.com/ahuth/vector-issues/releases/latest",
+        "title": "官网 Download 指向的官方 Releases"
+      },
+      {
+        "url": "https://github.com/ahuth/vector-issues/releases/tag/v0.1.11",
+        "title": "GitHub Release Vector v0.1.11（2026-11-04，aarch64 DMG）"
+      }
+    ],
+    "verified_at": "2026-11-06"
+  },
+  "nico-desktop": {
+    "notes": "SUPERMIND PTE. LIMITED 出品的 macOS 个人智能体 Nico（创始人 Brian，Xmind 作者）：前台对话 agent + 后台 Worker（基于开源 harness earendil-works/pi，工具/沙箱为 Nico 自有），语音唤起、屏幕感知与本机 computer-use。本条仅桌面 GUI。官网写明免费下载，要求 **Apple silicon + macOS 15.4+**；下载入口 /download/mac。未发布公开 semver，不虚构版本。Nico 应用本身闭源；不把 pi harness 记为本条开源。浏览器扩展与即将推出的移动端不收录。官网图标为 WebP/字标 SVG，不是可核验产品图标，icon 留空。官网资料核验，未做安装、权限或运行测试。",
+    "sources": [
+      {
+        "url": "https://nico.app/",
+        "title": "Nico 官网：Mac 上的 voice-to-action personal agent"
+      },
+      {
+        "url": "https://nico.app/zh-Hans/",
+        "title": "Nico 简体中文介绍页"
+      },
+      {
+        "url": "https://nico.app/download/mac",
+        "title": "官方 Mac 下载入口 /download/mac"
+      },
+      {
+        "url": "https://nico.app/pricing/",
+        "title": "官方定价：Free 与 Plus"
+      },
+      {
+        "url": "https://github.com/earendil-works/pi",
+        "title": "官网标明 Worker 所用开源 harness pi（不推定 Nico 应用开源）"
+      }
+    ],
+    "verified_at": "2026-11-06"
+  },
+  "ztc-cli": {
+    "notes": "Zerg AI 出品的编码 Agent 终端客户端 Zerg Client（ZTC）：`npm install -g @zergai/ztc@0.11.0-beta.1` 后运行 `ztc`（包同时提供 `zerg` 命令）。本条仅 CLI。产品页与 npm dist-tag latest 均为 **0.11.0-beta.1**；文档 Quickstart 仍出现旧 pin 0.9.0-beta.1，以产品页/npm 为准。交互式终端当前仅 Apple silicon macOS；文档写明 `ztc --headless` 也可在 Linux / Windows 运行，故 platforms 含三者。文档写明 Zerg Source Available License 1.0，源码随 npm 包 LICENSE.md 分发；未核验独立公开应用源码仓（Epoch-ML/ztc-releases 为安装包发布仓），故不写入 open-source.json。可选浏览器镜像是独立 `ztc-web-client` 插件，不单列。官网资料核验，未做安装或运行测试。",
+    "sources": [
+      {
+        "url": "https://zergai.com/ztc",
+        "title": "Zerg Client 产品页：npm pin 与 0.11.0-beta.1"
+      },
+      {
+        "url": "https://zergai.com/docs/ztc",
+        "title": "官方 Quickstart：CLI / 桌面安装与 Source Available License"
+      },
+      {
+        "url": "https://www.npmjs.com/package/@zergai/ztc",
+        "title": "npm @zergai/ztc 当前 latest 0.11.0-beta.1"
+      }
+    ],
+    "verified_at": "2026-11-06"
+  },
+  "ztc-desktop": {
+    "notes": "同一 Zerg Client（ZTC）产品的 macOS 桌面 GUI：产品页提供 Apple silicon `ztc.app`（preview 通道，**0.11.0-beta.1**）；也可用 `curl -fsSL https://zergai.com/install/ztc.sh | sh -s -- --preview` 同时安装桌面与 `ztc` 命令。本条仅桌面 GUI。文档写明尚无稳定桌面版，Windows / Linux 桌面 Coming soon，不列入 platforms。与 CLI 共享 `~/.ztc` 配置。许可同 CLI：Zerg Source Available License 1.0，无已核验公开应用源码仓，不写入 open-source.json。官网资料核验，未做安装或运行测试。",
+    "sources": [
+      {
+        "url": "https://zergai.com/ztc",
+        "title": "Zerg Client 产品页：macOS Apple Silicon 桌面 0.11.0-beta.1"
+      },
+      {
+        "url": "https://zergai.com/docs/ztc",
+        "title": "官方 Quickstart：桌面 app 与 curl 安装"
+      },
+      {
+        "url": "https://zergai.com/install/ztc.sh",
+        "title": "官方桌面+命令安装脚本（preview）"
+      }
+    ],
+    "verified_at": "2026-11-06"
+  },
+  "stitch-ai-web": {
+    "notes": "Stitch.ai 出品的 Web AI 工作区：把邮件、日历、任务、笔记、联系人、文件、表格与幻灯片放在同一工作区，并由助手 Stitchy 跨应用执行定时任务与提醒。本条仅 Web。已核验应用主机 **app.stitch.ai**（登录页）；营销站 www.stitch.ai / stitch.ai 不记入 web_domains。iPhone / Android 应用官网写 coming soon，不收录。无公开 semver。登录页有字标 SVG，但为带文字 lockup 且未单独核验为可复用产品图标，icon 留空。官网资料核验，未做注册、登录或付费测试。",
+    "sources": [
+      {
+        "url": "https://www.stitch.ai/",
+        "title": "Stitch.ai 官网：workspace + Stitchy"
+      },
+      {
+        "url": "https://app.stitch.ai/auth/login",
+        "title": "已核验 Web 应用主机 app.stitch.ai（登录页）"
+      },
+      {
+        "url": "https://www.stitch.ai/how-it-works",
+        "title": "官方 How it works：工作区、Stitchy 与付费方案"
+      }
+    ],
+    "verified_at": "2026-11-06"
   }
 }
