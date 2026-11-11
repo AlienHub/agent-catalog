@@ -12017,6 +12017,234 @@
     ],
     "verified_at": "2026-11-04"
   },
+  "autocua-desktop": {
+    "verified_at": "2026-11-05",
+    "notes": "桌面 computer-use Agent。官方站点 computeruse.uk 与 GitHub ComputerUseAgent/AutoCua 确认产品；PyPI 包 AutoCua 最新版本 0.1.9（2026-11-04）。默认以 pywebview/Electron GUI 运行（run_agent(..., ui=True) / python main.py）。pyproject.toml 无 [project.scripts] 控制台入口，不把 Python API 或内部 --cli-mode 拆成独立 CLI 记录。仓库 LICENSE 为 MIT。Logo 仅有 PNG（logo/autocua-bots.png、logo.png），未找到可核验纯矢量 SVG。官网/仓库资料核验，未做安装或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://computeruse.uk/",
+        "title": "AutoCua 官方网站"
+      },
+      {
+        "url": "https://github.com/ComputerUseAgent/AutoCua",
+        "title": "ComputerUseAgent/AutoCua 官方仓库"
+      },
+      {
+        "url": "https://github.com/ComputerUseAgent/AutoCua/blob/main/LICENSE",
+        "title": "官方 MIT 许可证"
+      },
+      {
+        "url": "https://pypi.org/project/AutoCua/0.1.9/",
+        "title": "PyPI AutoCua 0.1.9"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=50365294",
+        "title": "Hacker News：AutoCua 发布讨论"
+      }
+    ]
+  },
+  "one-code-cli": {
+    "verified_at": "2026-11-05",
+    "notes": "Claude Code 风格 CLI 编程 Agent。GitHub IsuruMaduranga/one-code 与 npm @one-ai/one-code 提供全局命令 onecode。最新版本 v0.7.0（2026-11-04）。LICENSE 正文为 MIT，并含自主执行免责声明，不改变 OSI 分类。仓库与 npm 页面无独立品牌 SVG。官网/仓库资料核验，未做安装或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/IsuruMaduranga/one-code",
+        "title": "IsuruMaduranga/one-code 官方仓库"
+      },
+      {
+        "url": "https://github.com/IsuruMaduranga/one-code/blob/main/LICENSE",
+        "title": "官方 MIT 许可证（含自主执行免责声明）"
+      },
+      {
+        "url": "https://github.com/IsuruMaduranga/one-code/releases/tag/v0.7.0",
+        "title": "GitHub Release v0.7.0"
+      },
+      {
+        "url": "https://www.npmjs.com/package/@one-ai/one-code",
+        "title": "npm @one-ai/one-code"
+      }
+    ]
+  },
+  "soiawork-web": {
+    "verified_at": "2026-11-05",
+    "notes": "实在智能 2026-11-04 公开的企业办公 Agent Web 平台「树芽工作」。官网 soiawork.cn，登录页 soiawork.cn/login 公开可访问。未发现公开 GitHub 或官方 semver，不编造版本号。官网提供体验版/标准版/团队版付费套餐。桌面客户端下载入口当时不可用，不单列 GUI。Logo 使用官网 favicon.svg 纯矢量。官网资料核验，未做登录、安装或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://soiawork.cn/",
+        "title": "树芽工作官方网站"
+      },
+      {
+        "url": "https://soiawork.cn/login",
+        "title": "已核验 Web 应用入口 soiawork.cn/login"
+      },
+      {
+        "url": "https://soiawork.cn/favicon.svg",
+        "title": "官方 favicon.svg 纯矢量"
+      },
+      {
+        "url": "http://zj.xinhuanet.com/20261104/cc099f5ce81a461e8a14609ee32b693f/c.html",
+        "title": "新华网浙江：实在智能发布树芽工作"
+      }
+    ]
+  },
+  "wanaka-studio-web": {
+    "verified_at": "2026-11-05",
+    "notes": "浏览器内 AI 原生 3D 游戏创作平台，产品页将自然语言描述转为可游玩 3D 世界，定位接近 vibe/agent builder。官网 wanaka.app；studio.wanaka.app 为创作工作台主机，公开抓取返回 403，不记入 web_domains。Product Hunt 2026-11-04 当日第一。官网有 Pricing 页，未公布公开 semver。Logo 仅 PNG（favicon 与 lockup），未找到可核验纯矢量 SVG。官网资料核验，未做登录或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://wanaka.app/",
+        "title": "Wanaka 官方网站"
+      },
+      {
+        "url": "https://wanaka.app/pricing",
+        "title": "Wanaka 官方定价页"
+      },
+      {
+        "url": "https://www.producthunt.com/products/wanaka-studio",
+        "title": "Product Hunt：Wanaka Studio"
+      }
+    ]
+  },
+  "cxagent-cli": {
+    "verified_at": "2026-11-05",
+    "notes": ".NET TUI/CLI 多 Agent 编程工作台。GitHub nickprotop/cxagent，LICENSE 为 MIT。NuGet 全局工具 cxagent 最新版本 0.9.54（2026-11-04）；亦提供 curl/PowerShell 安装脚本。文档站点 nickprotop.github.io/cxagent。星标较少，但安装包、NuGet 与文档站齐全，按可安装终端产品收录。Logo 使用文档站 favicon.svg 纯矢量蜂窝标。官网/仓库资料核验，未做安装或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/nickprotop/cxagent",
+        "title": "nickprotop/cxagent 官方仓库"
+      },
+      {
+        "url": "https://github.com/nickprotop/cxagent/blob/main/LICENSE",
+        "title": "官方 MIT 许可证"
+      },
+      {
+        "url": "https://www.nuget.org/packages/cxagent/0.9.54",
+        "title": "NuGet cxagent 0.9.54"
+      },
+      {
+        "url": "https://nickprotop.github.io/cxagent/",
+        "title": "CXAgent 官方文档站"
+      },
+      {
+        "url": "https://nickprotop.github.io/cxagent/favicon.svg",
+        "title": "官方文档站 favicon.svg 纯矢量"
+      }
+    ]
+  },
+  "apus-reflex-desktop": {
+    "verified_at": "2026-11-05",
+    "notes": "APUS AI 开源桌面 Personal Agent（中文名瞬策）。GitHub APUS-AI-Lab/APUS-Reflex-Agent，LICENSE 正文为 MIT，版权行写 DeepSeek，与 deepseek-harness 产品家族分开记录。最新 GitHub Release 为 v0.1.4，资产含 macOS Apple Silicon 与 Windows x64 的 Full/Lite 安装包，故平台仅填 macOS 与 Windows。中文 README 仍写 v0.1.3 与仓库私有下载限制，以发布页实际附件为准。品牌标 brand-mark.svg / favicon.svg 内嵌 PNG <image>，不符合纯矢量要求。官网/仓库资料核验，未做安装或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://github.com/APUS-AI-Lab/APUS-Reflex-Agent",
+        "title": "APUS-AI-Lab/APUS-Reflex-Agent 官方仓库"
+      },
+      {
+        "url": "https://github.com/APUS-AI-Lab/APUS-Reflex-Agent/blob/main/LICENSE",
+        "title": "官方 MIT 许可证"
+      },
+      {
+        "url": "https://github.com/APUS-AI-Lab/APUS-Reflex-Agent/releases/tag/v0.1.4",
+        "title": "GitHub Release v0.1.4 桌面安装包"
+      },
+      {
+        "url": "https://github.com/APUS-AI-Lab/APUS-Reflex-Agent/blob/main/README.zh.md",
+        "title": "官方中文 README：桌面客户端与产品说明"
+      }
+    ]
+  },
+  "cowboy-web": {
+    "verified_at": "2026-11-05",
+    "notes": "Cowboy Labs 于 2026-11-04 出匿并宣布 Cowboy Cloud 与 General Store 现已可用，定位为可雇佣的持久 Agent 市场，不是候补名单。营销与商店在 cowboy.inc，控制台在 cloud.cowboy.inc（标题 Cowboy Dashboard）。官方稿称可雇佣 100+ actors 与 10,000 数据源。npx skills add 仅为对接外部编码 Agent 的安装技能，不拆独立 CLI。favicon.svg 为 PNG 内嵌 SVG，不收录。未发现公开 semver。官网资料核验，未做登录、付费或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://cowboy.inc/",
+        "title": "Cowboy 官方网站 / General Store"
+      },
+      {
+        "url": "https://cloud.cowboy.inc/",
+        "title": "已核验 Cowboy Dashboard 主机 cloud.cowboy.inc"
+      },
+      {
+        "url": "https://cowboy.inc/blog/software-that-keeps-you-human",
+        "title": "官方介绍；legalName Cowboy Labs, Inc."
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20261104730692/en/Cowboy-Raises-%245-Million-in-Seed-Funding-to-Help-Developers-Own-Control-and-Monetize-AI",
+        "title": "Business Wire：Cowboy 出匿并开放 General Store"
+      }
+    ]
+  },
+  "kino-desktop": {
+    "verified_at": "2026-11-05",
+    "notes": "面向团队与编码 Agent 的桌面视频编辑 / 媒体管理器，时间线基于 Remotion，并提供本地 MCP 供 Claude Code / Codex 协作。官方下载页列出 macOS（Apple Silicon / Intel macOS 13+）、Windows x64、Linux Ubuntu .deb，最新桌面版本 1.5.95。Launch HN 2026-11-04 是该 Agent 协作形态的公开发布，产品本身早于窗口。服务条款主体为 Kino AI, Inc.。网站仅提供 ICO/位图，未找到可核验纯矢量 SVG。官网资料核验，未做安装或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://kino.ai/",
+        "title": "Kino 官方网站"
+      },
+      {
+        "url": "https://kino.ai/download",
+        "title": "官方桌面下载页，版本 1.5.95"
+      },
+      {
+        "url": "https://kino.ai/privacy",
+        "title": "服务条款与隐私政策；主体 Kino AI, Inc."
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=50368804",
+        "title": "Launch HN: Kino AI"
+      }
+    ]
+  },
+  "cinnamon-web": {
+    "verified_at": "2026-11-05",
+    "notes": "家庭/个人 Web Agent，带审批门与家庭/个人空间隔离。官网 getcinnamon.ai，应用主机 app.getcinnamon.ai 公开可访问。条款主体为 Cobbles Tech LLC。提供个人/家庭付费套餐与试用积分，不是候补名单。未发现公开 GitHub 或官方 semver。Logo 使用官网 favicon.svg 纯矢量。官网资料核验，未做登录或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://getcinnamon.ai/",
+        "title": "Cinnamon 官方网站"
+      },
+      {
+        "url": "https://app.getcinnamon.ai/",
+        "title": "已核验 Web 应用主机 app.getcinnamon.ai"
+      },
+      {
+        "url": "https://getcinnamon.ai/terms",
+        "title": "服务条款；主体 Cobbles Tech LLC"
+      },
+      {
+        "url": "https://getcinnamon.ai/favicon.svg",
+        "title": "官方 favicon.svg 纯矢量"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=50373233",
+        "title": "Show HN: Cinnamon"
+      }
+    ]
+  },
+  "dessn-web": {
+    "verified_at": "2026-11-05",
+    "notes": "在真实代码库上运行的设计画布，团队与编码 Agent 共享 live frame；自带设计 Agent，并提供 MCP（mcp.dessn.ai）。Web 应用主机为 create.dessn.ai。Product Hunt 2026-11-04 有窗口内发布。MCP 安装页与远程 MCP 是对接层，不单列 CLI。未发现公开 semver。Logo 使用官网 favicon.svg 纯矢量。官网资料核验，未做登录或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://www.dessn.com/",
+        "title": "Dessn 官方网站"
+      },
+      {
+        "url": "https://create.dessn.ai/",
+        "title": "已核验 Web 应用主机 create.dessn.ai"
+      },
+      {
+        "url": "https://www.dessn.com/favicon.svg",
+        "title": "官方 favicon.svg 纯矢量"
+      },
+      {
+        "url": "https://www.producthunt.com/products/dessn-2",
+        "title": "Product Hunt：Dessn"
+      }
+    ]
+  },
   "rerun-web": {
     "notes": "rerun-build / Clément Janssens（与 Théo Louro 共同）出品的 AI Coworkers Web 应用：为每个工作区提供独立云电脑，同事（coworker）可接工具/MCP、按日程或 webhook 运行，并在关键操作前征求确认。本条仅 Web。官方云应用主机为 **app.rerun.build**（登录页已核验）；营销站 rerun.build、文档 docs.rerun.build 不记入 web_domains。同一 AGPL-3.0 仓库可 Docker 自托管（默认 localhost:3000），无统一公共自托管域名，不另建 self-hosted 条。GitHub latest Release **v0.9.0**（2026-11-05，Bring your own model）。不是可视化库 rerun-io/rerun。官网 Logo / brand 页未见可核验纯矢量产品图标，icon 留空。官网/仓库资料核验，未做安装、登录、自托管或区域可用性测试。",
     "sources": [
