@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.42（2026-11-04），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.43（2026-11-05），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -689,6 +689,25 @@ Logo：仅 Wavefunction 使用官方仓库 `assets/branding/wavefunction-mark.sv
 | relay | 32 | 24 | 56 |
 
 未改 `data/schema.json` / `dataset.json`。供应商 Logo 本轮未收录（空 `icon`）。探测：HTTPS 首页、`GET /api/status`、`GET /v1/models` 只看状态码；不注册、不付费、不用 API key。
+
+## v0.43 日更（2026-11-05）
+
+新增 10 条应用、10 个产品，目录共 545 条应用、370 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.42 / `main` @ `bec7506`（#31 已合入）。未改 `schema.json` 与供应商分类。
+
+| id | 名称 | 厂商 | 形态 | 版本 | 开源 | Logo |
+| --- | --- | --- | --- | --- | --- | --- |
+| `autocua-desktop` | AutoCua | Ashish Yadav | GUI | PyPI 0.1.9 | MIT | 无纯矢量 SVG |
+| `one-code-cli` | One Code | Isuru Wijesiri | CLI | v0.7.0 | MIT | 无纯矢量 SVG |
+| `soiawork-web` | 树芽工作 | 浙江实在智能 | Web | 无公开 semver | 闭源 | 官网 SVG |
+| `wanaka-studio-web` | Wanaka Studio | Wanaka Studio Limited | Web | 无公开 semver | 闭源 | 无纯矢量 SVG |
+| `cxagent-cli` | CXAgent | Nikolaos Protopapas | CLI | NuGet 0.9.54 | MIT | 文档站 SVG |
+| `apus-reflex-desktop` | APUS Reflex | APUS AI | GUI | v0.1.4 | MIT | 无纯矢量 SVG（PNG 内嵌） |
+| `cowboy-web` | Cowboy | Cowboy Labs, Inc. | Web | 无公开 semver | 闭源 | 无纯矢量 SVG（PNG 内嵌） |
+| `kino-desktop` | Kino | Kino AI, Inc. | GUI | 1.5.95 | 闭源 | 无纯矢量 SVG |
+| `cinnamon-web` | Cinnamon | Cobbles Tech LLC | Web | 无公开 semver | 闭源 | 官网 SVG |
+| `dessn-web` | Dessn | Dessn | Web | 无公开 semver | 闭源 | 官网 SVG |
+
+未收录：AutoCua / Cowboy 无独立第一形态 CLI；Scout（`@outcrawl/scout` 仍为 SDK）；Agibot（候补名单）；openJiuwen Hyper-Agent / WorkSwarm（已有 `jiuwen-agentos-web`，此次为既有产品架构升级）；帝王蟹 Agent Team（网易平台功能升级，目录无过期独立条目）；Umbra / 灵光 2.0（仅移动端）；OpenMail、Orphex MCP、Render Sandboxes、BrowserForge、AgentKit（基础设施）；Muse4AI、Cinecode（过薄）；Teamily / Testifly / Momentic（#29 已在 main）；beacon.sh（窗口外）；Prelulu / Floot Payments / OpusClip / Gemini agent 私有预览。
 
 ## v0.42 蛙池AI 与 AiPy Pro（2026-11-04）
 
