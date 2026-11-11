@@ -265,6 +265,17 @@ OpenRouter Apps 的公开榜单仅作独立应用发现线索；名称、类别�
 | --- | --- | --- |
 | `assets/icons/wavefunction.svg` | [stoyan-stoyanov/wavefunction `assets/branding/wavefunction-mark.svg`](https://raw.githubusercontent.com/stoyan-stoyanov/wavefunction/main/assets/branding/wavefunction-mark.svg) | `6a53bcfb7c7cb71522d2a2f5606158fb274edb99ae4e14f8e3721f07560d723c` |
 
+## v0.43 Logo 收录（2026-11-05）
+
+本批 SVG 均原样保存，未重绘。官方站点或官方文档站素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。AutoCua / One Code / Wanaka Studio / APUS Reflex / Cowboy / Kino 未找到可核验官方产品纯矢量 SVG，保持空 `icon`。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/soiawork.svg` | [树芽工作官网 `favicon.svg`](https://soiawork.cn/favicon.svg) | `28e4643fdb810b27e99356eebe6ba5cfc4bab1f6bef8a48bba947188b908f3ce` |
+| `assets/icons/cxagent.svg` | [CXAgent 文档站 `favicon.svg`](https://nickprotop.github.io/cxagent/favicon.svg) | `77e0d411a1855b6d8bd1ae5e131fd8e696ee1f35483b2d5e9069458f1f8f6d9e` |
+| `assets/icons/cinnamon.svg` | [Cinnamon 官网 `favicon.svg`](https://getcinnamon.ai/favicon.svg) | `3360bccc16b0b9f235de5ba72bab153f79f325f62f8f6364e4dee03e82a8ef13` |
+| `assets/icons/dessn.svg` | [Dessn 官网 `favicon.svg`](https://www.dessn.com/favicon.svg) | `93984164fea6280893eee8a626327060adbc26415c587849a34cae63dfdf172c` |
+
 ## v0.42 Logo 收录（2026-11-04）
 
 PNG 原样保存，未改后缀、未矢量化。官方站点素材以其来源与权利人规则为准，公开可下载不授予商标或背书授权。AiPy Pro / aipyapp 未找到可核验官方产品纯矢量 SVG 或 PNG（仅 WebP/AVIF/ICO 与 README ASCII 字标），保持空 `icon`。

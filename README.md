@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.42（2026-11-04），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.45（2026-11-09），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -690,6 +690,25 @@ Logo：仅 Wavefunction 使用官方仓库 `assets/branding/wavefunction-mark.sv
 
 未改 `data/schema.json` / `dataset.json`。供应商 Logo 本轮未收录（空 `icon`）。探测：HTTPS 首页、`GET /api/status`、`GET /v1/models` 只看状态码；不注册、不付费、不用 API key。
 
+## v0.43 日更（2026-11-05）
+
+新增 10 条应用、10 个产品，目录共 545 条应用、370 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.42 / `main` @ `bec7506`（#31 已合入）。未改 `schema.json` 与供应商分类。
+
+| id | 名称 | 厂商 | 形态 | 版本 | 开源 | Logo |
+| --- | --- | --- | --- | --- | --- | --- |
+| `autocua-desktop` | AutoCua | Ashish Yadav | GUI | PyPI 0.1.9 | MIT | 无纯矢量 SVG |
+| `one-code-cli` | One Code | Isuru Wijesiri | CLI | v0.7.0 | MIT | 无纯矢量 SVG |
+| `soiawork-web` | 树芽工作 | 浙江实在智能 | Web | 无公开 semver | 闭源 | 官网 SVG |
+| `wanaka-studio-web` | Wanaka Studio | Wanaka Studio Limited | Web | 无公开 semver | 闭源 | 无纯矢量 SVG |
+| `cxagent-cli` | CXAgent | Nikolaos Protopapas | CLI | NuGet 0.9.54 | MIT | 文档站 SVG |
+| `apus-reflex-desktop` | APUS Reflex | APUS AI | GUI | v0.1.4 | MIT | 无纯矢量 SVG（PNG 内嵌） |
+| `cowboy-web` | Cowboy | Cowboy Labs, Inc. | Web | 无公开 semver | 闭源 | 无纯矢量 SVG（PNG 内嵌） |
+| `kino-desktop` | Kino | Kino AI, Inc. | GUI | 1.5.95 | 闭源 | 无纯矢量 SVG |
+| `cinnamon-web` | Cinnamon | Cobbles Tech LLC | Web | 无公开 semver | 闭源 | 官网 SVG |
+| `dessn-web` | Dessn | Dessn | Web | 无公开 semver | 闭源 | 官网 SVG |
+
+未收录：AutoCua / Cowboy 无独立第一形态 CLI；Scout（`@outcrawl/scout` 仍为 SDK）；Agibot（候补名单）；openJiuwen Hyper-Agent / WorkSwarm（已有 `jiuwen-agentos-web`，此次为既有产品架构升级）；帝王蟹 Agent Team（网易平台功能升级，目录无过期独立条目）；Umbra / 灵光 2.0（仅移动端）；OpenMail、Orphex MCP、Render Sandboxes、BrowserForge、AgentKit（基础设施）；Muse4AI、Cinecode（过薄）；Teamily / Testifly / Momentic（#29 已在 main）；beacon.sh（窗口外）；Prelulu / Floot Payments / OpusClip / Gemini agent 私有预览。
+
 ## v0.42 蛙池AI 与 AiPy Pro（2026-11-04）
 
 新增 3 条应用、2 个产品，目录共 535 条应用、360 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.41 / `main` @ `8c433d0`（#30 已合入）。未改 `schema.json` 与供应商分类。
@@ -702,11 +721,25 @@ Logo：蛙池AI 使用官网 PNG（无纯矢量 SVG）。AiPy 仅 WebP/AVIF/ICO 
 
 未收录：娃池（错误名）；AiPy 未独立发行的 OSS GUI；供应商目录不改。
 
+## v0.44 日更（2026-11-06）
+
+新增 8 条应用、7 个产品，目录共 553 条应用、377 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.43 / `main` @ `17e6825`（#32 已合入）。未改 `schema.json` 与供应商分类。
+
+- Rerun Web（rerun-build / Clément Janssens）：AI Coworkers，云端 app.rerun.build + AGPL-3.0 自托管。GitHub **v0.9.0**。不是 rerun-io/rerun。
+- Everywhere 桌面（Sylinko Inc.）：屏幕感知桌面助手，Win/macOS。最新稳定 **v0.8.2**，另有 canary。BUSL-1.1 → Apache-2.0，source-available。
+- Mooring 桌面（STRATAGEMS）：Claude Code ADE，Apple silicon / macOS 26+。官方 **v1.0.0**。免费闭源。
+- Vector 桌面（Andrew Huth / getvector.sh）：编排本机 Claude Code + Codex CLI 的 macOS ADE。Releases **v0.1.11**。不是 vectordev.ai。
+- Nico 桌面（SUPERMIND PTE. LIMITED）：Mac 本机前台+Worker 个人智能体。无公开 semver。闭源。
+- Zerg Client CLI / 桌面（Zerg AI）：编码 harness。npm / 桌面 **0.11.0-beta.1**。Source-available，无已核验公开应用源码仓。
+- Stitch.ai Web：工作区 + Stitchy。应用主机 app.stitch.ai。
+
+Logo：本批均未找到可核验纯矢量 SVG，icon 留空。
+
+未收录：Kimi Hosted Agents（开放平台 Harness-as-a-Service，不是新的用户侧形态）；Perplexity Teammates（既有 perplexity Web 的 Max 档功能）；Okapi / Polylane（可选、偏 GitHub App / 垂直值班，本轮不收）；#32 已列条目。
+
 ## v0.45 日更（2026-11-09）
 
-新增 12 条应用、9 个产品，目录共 547 条应用、369 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.42 / `main` @ `bec7506`（#31 已合入）。未改 `schema.json` 与供应商分类。
-
-本分支从同一 `main` 基线切出，**dataVersion 使用 0.45**：开放草稿 #32 已占用 0.43，#33 已占用 0.44。本 PR **未**收录这两条草稿中的条目。
+新增 12 条应用、9 个产品，目录共 565 条应用、386 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.44 / `main` @ `ffbd304`（#33 已合入）。未改 `schema.json` 与供应商分类。
 
 - Turnstone 桌面（Crow Inc.）：macOS 个人多 Agent。changelog **0.8.7**。闭源。不收录即将推出的 iPhone / Web。
 - Wonder / Wonder Dev View 桌面（Aquila Labs, Inc.）：Mac + Windows 编码 harness。安装包 **0.2.230**。闭源。本轮不单列 Web / Capture 扩展。

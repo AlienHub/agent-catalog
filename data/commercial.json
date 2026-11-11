@@ -1847,6 +1847,105 @@
       }
     ]
   },
+  "soiawork-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-05",
+    "notes": "官网公布体验版与付费标准版/团队版。价格与区域可用性不在此断言。",
+    "sources": [
+      {
+        "url": "https://soiawork.cn/",
+        "title": "树芽工作官方套餐说明"
+      }
+    ]
+  },
+  "wanaka-studio-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-05",
+    "notes": "官网 Pricing 页提供付费套餐。价格与区域可用性不在此断言。",
+    "sources": [
+      {
+        "url": "https://wanaka.app/pricing",
+        "title": "Wanaka 官方定价页"
+      }
+    ]
+  },
+  "cowboy-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-05",
+    "notes": "General Store 以付费雇佣 Agent / 数据源为主。价格与区域可用性不在此断言。",
+    "sources": [
+      {
+        "url": "https://cowboy.inc/",
+        "title": "Cowboy General Store 付费雇佣说明"
+      }
+    ]
+  },
+  "kino-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-05",
+    "notes": "官方提供 Free 与 Pro 订阅。价格与区域可用性不在此断言。",
+    "sources": [
+      {
+        "url": "https://kino.ai/",
+        "title": "Kino 官方产品与套餐说明"
+      }
+    ]
+  },
+  "cinnamon-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-05",
+    "notes": "官方提供 Personal / Group 付费套餐与试用积分。价格与区域可用性不在此断言。",
+    "sources": [
+      {
+        "url": "https://getcinnamon.ai/",
+        "title": "Cinnamon 官方套餐说明"
+      }
+    ]
+  },
+  "dessn-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-05",
+    "notes": "官方以积分计量设计 Agent 运行，并提供免费额度。价格与区域可用性不在此断言。",
+    "sources": [
+      {
+        "url": "https://www.dessn.com/",
+        "title": "Dessn 官方产品说明"
+      }
+    ]
+  },
+  "rerun-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-06",
+    "notes": "官方定价页提供试用后的付费 Pro 与 Enterprise。自托管开源构建不改变托管套餐。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://rerun.build/pricing",
+        "title": "Rerun 官方定价：试用、Pro 与 Enterprise"
+      }
+    ]
+  },
+  "nico-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-06",
+    "notes": "下载本身免费；官方定价提供 Plus 订阅（语音回复等）。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://nico.app/pricing/",
+        "title": "Nico 官方定价：Free 与 Plus"
+      }
+    ]
+  },
+  "stitch-ai-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-06",
+    "notes": "官方 How it works 页提供试用后的付费方案（含 Stitchy）。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://www.stitch.ai/how-it-works",
+        "title": "Stitch.ai How it works：方案与 Stitchy"
+      }
+    ]
+  },
   "wonder-desktop": {
     "offer": "paid-service",
     "verified_at": "2026-11-09",
