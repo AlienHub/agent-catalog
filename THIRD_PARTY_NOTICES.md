@@ -283,3 +283,13 @@ PNG 原样保存，未改后缀、未矢量化。官方站点素材以其来源�
 | 文件 | 来源 | SHA-256 |
 | --- | --- | --- |
 | `assets/icons/digpool.png` | [蛙池AI 官网 Logo PNG](https://www.digpool.cn/_nuxt/logo.4b-ytXBW.png) | `4e754fa12d7f64a88d8f24589c7f3ddc8023246c71101e624b069206fb98fe61` |
+
+## v0.45 Logo 收录（2026-11-09）
+
+本批 SVG 均原样保存，未重绘。官方站点素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。Turnstone / Agent Clan / Letronna / Alysis Code / Termexo / Relay 未找到可核验官方产品纯矢量 SVG，保持空 `icon`。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/wonder.svg` | [Wonder 官网 `favicon.svg`](https://wonder.design/favicon.svg) | `fc8a50a47a88e253930a63d9a93db8b682d711811103b38a89ab05bfe5fe8c35` |
+| `assets/icons/crystl.svg` | [crystl 官网 `favicon.svg`](https://crystl.dev/favicon.svg) | `f3bd4702e5fa0de2e842635d775260c6f63a4ff8401be1ed57518f20e6cfdfab` |
+| `assets/icons/cobalt.svg` | [Cobalt 官网 `favicon.svg`](https://cobaltcode.ai/favicon.svg) | `90714c30a8e8ddc02d14fb794d9a1e1442931a23ab5f99d0482c52f3e365cfe1` |

@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.44（2026-11-06），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.45（2026-11-09），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -736,3 +736,21 @@ Logo：蛙池AI 使用官网 PNG（无纯矢量 SVG）。AiPy 仅 WebP/AVIF/ICO 
 Logo：本批均未找到可核验纯矢量 SVG，icon 留空。
 
 未收录：Kimi Hosted Agents（开放平台 Harness-as-a-Service，不是新的用户侧形态）；Perplexity Teammates（既有 perplexity Web 的 Max 档功能）；Okapi / Polylane（可选、偏 GitHub App / 垂直值班，本轮不收）；#32 已列条目。
+
+## v0.45 日更（2026-11-09）
+
+新增 12 条应用、9 个产品，目录共 565 条应用、386 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.44 / `main` @ `ffbd304`（#33 已合入）。未改 `schema.json` 与供应商分类。
+
+- Turnstone 桌面（Crow Inc.）：macOS 个人多 Agent。changelog **0.8.7**。闭源。不收录即将推出的 iPhone / Web。
+- Wonder / Wonder Dev View 桌面（Aquila Labs, Inc.）：Mac + Windows 编码 harness。安装包 **0.2.230**。闭源。本轮不单列 Web / Capture 扩展。
+- crystl 桌面（Chris Bolton）：macOS Swift 终端 / Agent 管理器。appcast **2.284.0**。闭源。内置 `crystl` helper 不单列 CLI。
+- Agent Clan 桌面（Tse Cheng）：Mac Apple Silicon + Windows 手势/语音 UI。**0.1.8**。闭源。
+- Letronna 桌面 + CLI（Gadlus LLC）：MIT。**v0.1.0-alpha.5**。仓库/README 含 crypto wallet 与 CA 地址，仍作为最终用户 Agent 收录并写明。
+- Alysis Code 桌面 + CLI（ALYSIS AI P.C.）：桌面 **v0.1.58**，CLI/引擎 **v0.16.2** Apache-2.0。桌面包不写入 open-source.json。
+- Termexo 桌面（gemron）：MIT 本机工作台。**v0.12.1**。npm 启动的是桌面应用，不单列 CLI。
+- Cobalt Web + Desktop（Cobalt Code Inc.）：云 harness。Web 主机 app.cobaltcode.ai；Desktop 博文 2026-11-05，公开页仅证实 macOS。控制面 CLI 不单列。
+- Relay 桌面（relaycodehq）：MIT 编码 Agent 工作区。**v0.28.4**。star 少但有可下载安装包。
+
+跳过：Agent Manager tmux TUI（与 crystl/herdr 同类复用器，discovery 降权）；Scout / Agibot / 灵光 2.0 / Gemini 私有预览 / Tobira / LiveReview / NoMac 等；#32 / #33 已列条目。
+
+Logo：Wonder / crystl / Cobalt 使用官网 SVG；其余缺失纯矢量，空 `icon`。

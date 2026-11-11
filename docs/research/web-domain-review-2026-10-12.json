@@ -4798,6 +4798,26 @@
         }
       ],
       "notes": "2026-11-06 新增已核验 Web 入口 app.stitch.ai。营销站 www.stitch.ai / stitch.ai 不是应用主机。"
+    },
+    {
+      "id": "cobalt-web",
+      "name": "Cobalt",
+      "website": "https://cobaltcode.ai/",
+      "status": "verified",
+      "domains": [
+        "app.cobaltcode.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://cobaltcode.ai/",
+          "title": "Cobalt 官网"
+        },
+        {
+          "url": "https://app.cobaltcode.ai/",
+          "title": "已核验 Web 应用主机 app.cobaltcode.ai"
+        }
+      ],
+      "notes": "2026-11-09 新增已核验 Web 入口 app.cobaltcode.ai。营销站 cobaltcode.ai 不是应用主机。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4815,5 +4835,6 @@
   "added_web_records_20261103": 1,
   "added_web_records_20261104": 4,
   "added_web_records_20261105": 5,
-  "added_web_records_20261106": 2
+  "added_web_records_20261106": 2,
+  "added_web_records_20261109": 1
 }
