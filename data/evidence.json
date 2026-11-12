@@ -13086,5 +13086,99 @@
       }
     ],
     "verified_at": "2026-11-11"
+  },
+  "buzz-desktop": {
+    "notes": "Block, Inc.（GitHub org block / Block Open Source）出品的本机团队聊天与本地 Agent 工作区 Buzz：人与本机 Agent 共用频道/私信，Agent 可为 Claude、Codex、Goose 或 Pi。本条仅桌面 GUI。官方仓库 block/buzz-app（勿与旧线 block/buzz 的 0.x 混淆）。GitHub 非预发布 **v1.0.0** / “Buzz 1.0.0”（发布 2026-11-10T09:40:05Z）：macOS Apple silicon 与 Intel（已签名公证 DMG）、Windows x64（未签名 NSIS）、Linux x64（Ubuntu 24.04 deb 与 AppImage）。README 仍写 “Buzz 1.0 is in beta”；另有更新的 `v0.7.0-preview.*` 桌面预览构建，目录按官方稳定 tag v1.0.0 收录，不把预览线当作当前产品版本。官网 buzz.xyz 为营销/建社区站点，未核验独立托管 Web 聊天应用，不单列 Web。随桌面包内含 `buzz` CLI（源自旧仓 block/buzz 钉扎修订），供脚本使用，不是独立发行的最终用户 CLI，不单列。不收录 iOS/Android。根 LICENSE 为 Apache-2.0（Copyright 2026 Block, Inc.）。Logo 使用仓库 public/buzz-mark.svg。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://buzz.xyz/",
+        "title": "Buzz 官网：人、Agent 与项目工作区"
+      },
+      {
+        "url": "https://github.com/block/buzz-app",
+        "title": "官方仓库 block/buzz-app：桌面应用；Apache-2.0"
+      },
+      {
+        "url": "https://github.com/block/buzz-app/blob/main/README.md",
+        "title": "官方 README：桌面下载表、Buzz 1.0 is in beta、bundled buzz CLI"
+      },
+      {
+        "url": "https://github.com/block/buzz-app/releases/tag/v1.0.0",
+        "title": "GitHub 非预发布 v1.0.0 / Buzz 1.0.0（2026-11-10T09:40:05Z）"
+      },
+      {
+        "url": "https://github.com/block/buzz-app/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0（Copyright 2026 Block, Inc.）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/block/buzz-app/main/public/buzz-mark.svg",
+        "title": "官方仓库 public/buzz-mark.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-12"
+  },
+  "kwant-desktop": {
+    "notes": "Oleksandr Ivanchenko（GitHub alexsergivan）出品的自托管 AI 机器人团队 kwant（命令/二进制名 kwnt）：同一二进制内提供 spaces、交接、审批与 routines，开源替代 Grok Bot / Claude Duet / OpenAI dots。本条仅桌面 GUI。官网 https://kwant.si/ 写明 **0.9.0 released Nov 11**，Mac 一般可用（尚未公证），Windows 与 Linux 为 beta。GitHub Release **mac-v0.9.0** “kwant 0.9.0 for Mac and Linux”（发布 2026-11-11T17:27:59Z）：Mac universal DMG、Linux x64 .deb/AppImage、Windows x64 beta installer。仓库创建于 2026-10-22。自托管 Web UI 见 kwant-web。`kwnt serve` / `kwnt setup` / `kwnt doctor` 等为服务启动与诊断命令，不是独立最终用户 CLI，不单列。不收录手机客户端。根 LICENSE 为 AGPL-3.0（README 亦称 AGPL-3.0-only；另有可选商业许可见 COMMERCIAL.md，不把 AGPL 自托管写成付费 SaaS）。Logo 使用仓库 frontend/public/icon.svg。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://kwant.si/",
+        "title": "kwant 官网：0.9.0 released Nov 11；Mac / Windows beta / Linux beta"
+      },
+      {
+        "url": "https://github.com/alexsergivan/kwant",
+        "title": "官方仓库 alexsergivan/kwant；AGPL-3.0"
+      },
+      {
+        "url": "https://github.com/alexsergivan/kwant/blob/main/README.md",
+        "title": "官方 README：桌面安装、自托管与 kwnt 命令"
+      },
+      {
+        "url": "https://github.com/alexsergivan/kwant/releases/tag/mac-v0.9.0",
+        "title": "GitHub Release mac-v0.9.0 / kwant 0.9.0（2026-11-11T17:27:59Z）"
+      },
+      {
+        "url": "https://github.com/alexsergivan/kwant/blob/main/LICENSE",
+        "title": "官方 LICENSE：AGPL-3.0"
+      },
+      {
+        "url": "https://github.com/alexsergivan",
+        "title": "GitHub 用户页显示名 Oleksandr Ivanchenko"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/alexsergivan/kwant/main/frontend/public/icon.svg",
+        "title": "官方仓库 frontend/public/icon.svg 产品图标"
+      }
+    ],
+    "verified_at": "2026-11-12"
+  },
+  "kwant-web": {
+    "notes": "同一 kwant 产品的自托管 Web 形态：Rust 二进制内嵌 React Web UI；`make run` / `kwnt serve` 或 Docker Compose 在本机或 VPS 打开浏览器界面（文档示例绑定 127.0.0.1:8799）。本条仅 Web。自托管实例无统一公共应用主机，不得用官网 kwant.si 识别客户部署；web_domains 为空、web_domain_status=self-hosted。版本与桌面条相同：**0.9.0** / GitHub **mac-v0.9.0**（2026-11-11）。不把手机浏览器访问写成独立移动应用。Logo 与桌面条共用 frontend/public/icon.svg。官网/仓库资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://kwant.si/",
+        "title": "kwant 官网：本机或 VPS 运行；make run 打开 web app"
+      },
+      {
+        "url": "https://github.com/alexsergivan/kwant",
+        "title": "官方仓库：React web app embedded in the binary"
+      },
+      {
+        "url": "https://github.com/alexsergivan/kwant/blob/main/README.md",
+        "title": "官方 README：Docker Compose / kwnt serve 自托管 UI"
+      },
+      {
+        "url": "https://github.com/alexsergivan/kwant/releases/tag/mac-v0.9.0",
+        "title": "GitHub Release mac-v0.9.0 / kwant 0.9.0（2026-11-11）"
+      },
+      {
+        "url": "https://github.com/alexsergivan/kwant/blob/main/LICENSE",
+        "title": "官方 LICENSE：AGPL-3.0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/alexsergivan/kwant/main/frontend/public/icon.svg",
+        "title": "官方仓库 frontend/public/icon.svg 产品图标"
+      }
+    ],
+    "verified_at": "2026-11-12"
   }
 }

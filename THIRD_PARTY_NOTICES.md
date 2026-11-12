@@ -314,3 +314,12 @@ PNG 原样保存，未改后缀、未矢量化。官方站点素材以其来源�
 | `assets/icons/nod.svg` | [n8n-io/nod `public/favicon.svg`](https://raw.githubusercontent.com/n8n-io/nod/main/public/favicon.svg) | `e6729f1f7421bb3485096d2c664a2ab81a5e8d4494fd6a78fcd1c8c1217d8b73` |
 | `assets/icons/linger.svg` | [simplexai-labs/linger `apps/assets/logo/logo-mark.svg`](https://raw.githubusercontent.com/simplexai-labs/linger/main/apps/assets/logo/logo-mark.svg) | `91042f408465f3e93b6f6e79833e80246fa55f690afdd1b18754345455c43ec0` |
 | `assets/icons/ducter.png` | [wey-gu/ducter `apps/site/public/icon.png`](https://raw.githubusercontent.com/wey-gu/ducter/main/apps/site/public/icon.png) | `ee6be833843ccf43619798084efee0f00424e1e62ffee7835eb5dbe82705899f` |
+
+## v0.48 Logo 收录（2026-11-12）
+
+本批 SVG 均原样保存，未重绘、未改后缀。官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/buzz.svg` | [block/buzz-app `public/buzz-mark.svg`](https://raw.githubusercontent.com/block/buzz-app/main/public/buzz-mark.svg) | `663f093dd8d31e5297ee536baa92f506c028b62e95a2933eb2d64bc16acba11c` |
+| `assets/icons/kwant.svg` | [alexsergivan/kwant `frontend/public/icon.svg`](https://raw.githubusercontent.com/alexsergivan/kwant/main/frontend/public/icon.svg) | `0abbeedab43928910c7f3685eca8d715819aa8685f05b377ca82f89bc019a6fc` |
