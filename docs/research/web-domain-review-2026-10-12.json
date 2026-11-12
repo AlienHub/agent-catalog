@@ -4818,6 +4818,24 @@
         }
       ],
       "notes": "2026-11-09 新增已核验 Web 入口 app.cobaltcode.ai。营销站 cobaltcode.ai 不是应用主机。"
+    },
+    {
+      "id": "kwant-web",
+      "name": "kwant",
+      "website": "https://kwant.si/",
+      "status": "self-hosted",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://kwant.si/",
+          "title": "kwant 官网：本机或 VPS 运行；make run 打开 web app"
+        },
+        {
+          "url": "https://github.com/alexsergivan/kwant/blob/main/README.md",
+          "title": "官方 README：Docker Compose / kwnt serve 自托管 UI"
+        }
+      ],
+      "notes": "2026-11-12 新增自托管 Web；官网 kwant.si 不是统一公共应用域名。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4836,5 +4854,6 @@
   "added_web_records_20261104": 4,
   "added_web_records_20261105": 5,
   "added_web_records_20261106": 2,
-  "added_web_records_20261109": 1
+  "added_web_records_20261109": 1,
+  "added_web_records_20261112": 1
 }

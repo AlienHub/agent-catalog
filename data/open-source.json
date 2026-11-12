@@ -4846,5 +4846,77 @@
       }
     ],
     "classification": "agent-client-application"
+  },
+  "buzz-desktop": {
+    "repository_url": "https://github.com/block/buzz-app",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/block/buzz-app/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-12",
+      "github_archived": false,
+      "last_push_at": "2026-11-12T01:21:01Z"
+    },
+    "notes": "本次核验上游主分支 LICENSE 为 Apache-2.0（Copyright 2026 Block, Inc.；GitHub SPDX Apache-2.0）。结论仅限已核查的 block/buzz-app 桌面源码，不外推旧线 block/buzz、所连接的 Claude / Codex / Goose / Pi 或社区 relay。随包 buzz CLI 由钉扎的 block/buzz 修订构建，不单独改变本条许可。维护状态参考公开非预发布 v1.0.0，非仅依据 push 时间或后续 preview tag。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/block/buzz-app/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://github.com/block/buzz-app",
+        "title": "官方仓库与桌面发行"
+      }
+    ],
+    "classification": "application"
+  },
+  "kwant-desktop": {
+    "repository_url": "https://github.com/alexsergivan/kwant",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/alexsergivan/kwant/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-12",
+      "github_archived": false,
+      "last_push_at": "2026-11-12T00:57:49Z"
+    },
+    "notes": "本次核验上游主分支 LICENSE 为 GNU AGPL v3（GitHub SPDX AGPL-3.0；README 写 AGPL-3.0-only）。结论仅限已核查的 alexsergivan/kwant 桌面/服务源码，不外推所连接的 Claude / Codex / Grok CLI 或第三方模型。COMMERCIAL.md 提供可选商业许可，不改变本条开源结论，也不据此写入 commercial.json。mac-v0.1.0 及更早曾为 MIT OR Apache-2.0，当前产品线以 AGPL-3.0 为准。维护状态参考公开 Release mac-v0.9.0，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/alexsergivan/kwant/blob/main/LICENSE",
+        "title": "官方 LICENSE：AGPL-3.0"
+      },
+      {
+        "url": "https://github.com/alexsergivan/kwant",
+        "title": "官方仓库与桌面发行"
+      }
+    ],
+    "classification": "application"
+  },
+  "kwant-web": {
+    "repository_url": "https://github.com/alexsergivan/kwant",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/alexsergivan/kwant/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-12",
+      "github_archived": false,
+      "last_push_at": "2026-11-12T00:57:49Z"
+    },
+    "notes": "与 kwant-desktop 同一 AGPL-3.0 仓库的自托管 Web UI。结论仅限已核查的 alexsergivan/kwant 源码，不外推所连接的第三方 CLI 或手机浏览器访问。维护状态参考公开 Release mac-v0.9.0，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/alexsergivan/kwant/blob/main/LICENSE",
+        "title": "官方 LICENSE：AGPL-3.0"
+      },
+      {
+        "url": "https://github.com/alexsergivan/kwant",
+        "title": "官方仓库"
+      }
+    ],
+    "classification": "application"
   }
 }

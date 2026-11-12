@@ -14804,5 +14804,82 @@
     "web_domains": [],
     "web_domain_status": "not-applicable",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "buzz-desktop",
+    "name": "Buzz",
+    "aliases": [],
+    "vendor": "Block, Inc.",
+    "type": "通用任务 Agent",
+    "website": "https://buzz.xyz/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/buzz.svg",
+    "vendor_id": "block",
+    "product_id": "buzz",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "kwant-desktop",
+    "name": "kwant",
+    "aliases": [
+      "kwnt"
+    ],
+    "vendor": "Oleksandr Ivanchenko",
+    "type": "通用任务 Agent",
+    "website": "https://kwant.si/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/kwant.svg",
+    "vendor_id": "alexsergivan",
+    "product_id": "kwant",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "kwant-web",
+    "name": "kwant",
+    "aliases": [
+      "kwnt"
+    ],
+    "vendor": "Oleksandr Ivanchenko",
+    "type": "通用任务 Agent",
+    "website": "https://kwant.si/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/kwant.svg",
+    "vendor_id": "alexsergivan",
+    "product_id": "kwant",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
   }
 ]
