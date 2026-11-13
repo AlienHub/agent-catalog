@@ -14881,5 +14881,57 @@
     "web_domains": [],
     "web_domain_status": "self-hosted",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "grok-bot-desktop",
+    "name": "Grok Bot",
+    "aliases": [],
+    "vendor": "SpaceXSI",
+    "type": "通用任务 Agent",
+    "website": "https://x.ai/bot",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/grok-bot.svg",
+    "vendor_id": "xai",
+    "product_id": "grok-bot",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · Lobe Icons",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "youart-desktop",
+    "name": "YouArt",
+    "aliases": [
+      "YouArt Desktop",
+      "YouArt Desktop App"
+    ],
+    "vendor": "Formative Intelligence Inc.",
+    "type": "设计创作",
+    "website": "https://youart.ai/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "formative-intelligence",
+    "product_id": "youart",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]

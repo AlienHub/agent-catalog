@@ -323,3 +323,11 @@ PNG 原样保存，未改后缀、未矢量化。官方站点素材以其来源�
 | --- | --- | --- |
 | `assets/icons/buzz.svg` | [block/buzz-app `public/buzz-mark.svg`](https://raw.githubusercontent.com/block/buzz-app/main/public/buzz-mark.svg) | `663f093dd8d31e5297ee536baa92f506c028b62e95a2933eb2d64bc16acba11c` |
 | `assets/icons/kwant.svg` | [alexsergivan/kwant `frontend/public/icon.svg`](https://raw.githubusercontent.com/alexsergivan/kwant/main/frontend/public/icon.svg) | `0abbeedab43928910c7f3685eca8d715819aa8685f05b377ca82f89bc019a6fc` |
+
+## v0.49 Logo 收录（2026-11-13）
+
+本批 SVG 均原样保存，未重绘、未改后缀。Lobe Icons 继续适用随附 [MIT 文本](./licenses/lobehub.txt)；商标仍归权利人。YouArt 官方品牌指南 SVG 的 Usage rights 限制再分发，未收录。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/grok-bot.svg` | [Lobe Icons `grokbot.svg`](https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/grokbot.svg) | `f9a0eb8ce13421e9b5e372b6e60401600c05484a35aaadc65a539ec7b9f891e6` |
