@@ -2092,5 +2092,31 @@
         "title": "Mimzie 官方定价：应用免费与 Mimzie agent 付费档"
       }
     ]
+  },
+  "grok-bot-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-13",
+    "notes": "The X Subscription 的 Premium / Super / Ultra（个人与团队席位）包含 Grok Bot；Plus / Free 不含。遗留 Cursor 付费个人计划与自助 Teams 也包含。按已核验官方付费服务记录，不记录易变价格。",
+    "sources": [
+      {
+        "url": "https://x.ai/pricing",
+        "title": "SpaceXSI 官方定价：Premium 起包含 Grok Bot"
+      },
+      {
+        "url": "https://docs.x.ai/x-subscription/grok-bot",
+        "title": "官方文档：Grok Bot on The X Subscription"
+      }
+    ]
+  },
+  "youart-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-13",
+    "notes": "官方定价页提供 Basic / Pro / Max / Team / Enterprise 付费档，另有试用积分与部分模型的 Free Mode。按已核验官方付费服务记录，不记录易变价格。此标签不表示桌面客户端必须付费。",
+    "sources": [
+      {
+        "url": "https://youart.ai/pricing",
+        "title": "YouArt 官方定价：付费档与试用说明"
+      }
+    ]
   }
 }
