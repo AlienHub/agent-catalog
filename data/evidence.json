@@ -13180,5 +13180,51 @@
       }
     ],
     "verified_at": "2026-11-12"
+  },
+  "copilotkit-openbot-desktop": {
+    "notes": "CopilotKit 出品的自托管通用任务 Agent 工作区 OpenBot（官网 open.bot）：个人桌面端免费，把已有 AG-UI 兼容 Agent 与自选模型/MCP 工具放进同一工作区。本条仅桌面 GUI。官网与 GitHub README 提供 Mac（Apple Silicon）/ Mac（Intel）DMG 与 Windows x64 setup exe；不把仓库内 Tauri linux 目录写成已发布 Linux 桌面。官网将 iOS / Android / Slack / Teams 与 OpenBot for Business 标为 early access；Slack/Teams 为渠道，移动端按目录范围不收录。官网写明 “Web Coming soon”，README 的 Web 入口指向 early-access 登记，不单列 Web，也不把 Docker/源码自托管浏览器访问写成已发布托管 Web。与已收录 Nightly Labs OpenBot（openbot-desktop、openbot.run、PolyForm Noncommercial）分产品、分 ID；亦非 Product Hunt 上 Kamil Cyrek 的另一 OpenBot（products/openbot-3）。与已收录 CopilotKit OpenMuse / OpenDuet 分产品。GitHub CopilotKit/OpenBot 创建于 2026-08-17，homepage https://open.bot。GitHub 最新非预发布 **v1.0.3** / “v1.0.3”（发布 2026-11-14T04:05:50Z）；官网 changelog 仍以 1.0.3 为 Latest。桌面 1.0.0 于 2026-11-09 发布。本窗口另有预发布 v1.1.0-rc.1（2026-11-16T23:25:14Z），不把它当作产品版本。CopilotKit 第 5 次 Product Hunt 发布（2026-11-16 PH 日，发现时 #3）。根 LICENSE 正文为 MIT；CopilotKit Intelligence 为独立许可，不在该 MIT 内。Logo：OpenBot 有独立产品标，官方仓库 desktop/src-tauri/icons 仅为 PNG/ICO/ICNS，官网 OG 为 PNG，架构图 SVG 不是品牌标；Lobe Icons 仅有 CopilotKit 厂商标识，Simple Icons / svgl 无 CopilotKit OpenBot 专属 SVG；不套用厂商标识，也不使用 Nightly Labs icons/openbot.svg。官网/仓库/发布页/PH 资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://open.bot/",
+        "title": "OpenBot 官网：个人桌面 Mac/Windows 下载；Web Coming soon；iOS/Android/Slack/Teams 与 Business 为 early access"
+      },
+      {
+        "url": "https://open.bot/changelog",
+        "title": "官方 changelog：Latest 仍为 OpenBot 1.0.3（Nov 14, 2026）"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenBot",
+        "title": "官方仓库 CopilotKit/OpenBot；homepage https://open.bot；MIT"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenBot/blob/main/README.md",
+        "title": "官方 README：桌面 Mac/Windows 下载；Web/mobile/chat 为 early access；Intelligence 独立许可"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenBot/releases/tag/v1.0.3",
+        "title": "GitHub 非预发布 v1.0.3（2026-11-14T04:05:50Z）：macOS arm64/x64 dmg 与 Windows x64 setup exe"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenBot/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright (c) 2026 CopilotKit）"
+      },
+      {
+        "url": "https://www.copilotkit.ai/blog/introducing-openbot-1-0",
+        "title": "官方博客 Introducing OpenBot 1.0（2026-11-10）：个人桌面与 Business 自托管"
+      },
+      {
+        "url": "https://www.producthunt.com/products/copilotkit",
+        "title": "CopilotKit 第 5 次 PH 发布 OpenBot（2026-11-16 PH 日）"
+      },
+      {
+        "url": "https://www.producthunt.com/leaderboard/daily/2026/11/16",
+        "title": "Product Hunt 2026-11-16 日榜"
+      },
+      {
+        "url": "https://open.bot/pricing",
+        "title": "官方定价：个人桌面免费；OpenBot for Business 为付费档（托管为 early access）"
+      }
+    ],
+    "verified_at": "2026-11-17"
   }
 }

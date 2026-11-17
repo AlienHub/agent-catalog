@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.48（2026-11-12），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.51（2026-11-17），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -789,3 +789,11 @@ Logo：Nod / Linger 使用官方仓库 SVG；Ducter 使用官方 PNG；Mimzie �
 - kwant 桌面端与自托管 Web（Oleksandr Ivanchenko / alexsergivan）：自托管 AI 机器人团队。GitHub **mac-v0.9.0** / **0.9.0**（2026-11-11）。AGPL-3.0。不单列 `kwnt` 服务命令或手机访问。
 
 Logo：Buzz / kwant 使用官方仓库纯矢量 SVG。
+
+## v0.51 CopilotKit OpenBot（2026-11-17）
+
+新增 1 条应用、1 个产品，目录共 580 条应用、399 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.48 / `main` @ `3976b69`（#37 已合入）。未以开放草稿 #38（v0.49）或 #39（v0.50）为基线，也不重复其条目。未改 `schema.json` 与供应商分类。
+
+- OpenBot 桌面端（CopilotKit）：自托管通用任务 Agent 工作区。GitHub 非预发布 **v1.0.3**（2026-11-14）。MIT。仅 GUI（macOS / Windows）；不单列 Coming soon 的 Web、early access 的 iOS/Android/Slack/Teams/Business。与 Nightly Labs OpenBot（`openbot-desktop`）及 CopilotKit OpenMuse / OpenDuet 分产品。不把预发布 v1.1.0-rc.1 当作产品版本。
+
+Logo：无 CopilotKit OpenBot 专属可再分发 SVG，空 `icon`。
