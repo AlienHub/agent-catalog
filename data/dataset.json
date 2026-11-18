@@ -14881,5 +14881,112 @@
     "web_domains": [],
     "web_domain_status": "self-hosted",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "kilo-code-desktop",
+    "name": "Kilo Desktop",
+    "aliases": [
+      "Kilo"
+    ],
+    "vendor": "Kilo Code",
+    "type": "AI 编程",
+    "website": "https://kilo.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/kilo-code.svg",
+    "vendor_id": "kilo-code",
+    "product_id": "kilo-code",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "lumo-desktop",
+    "name": "Lumo",
+    "aliases": [
+      "Lumo Desktop",
+      "Lumo AI"
+    ],
+    "vendor": "Proton AG",
+    "type": "通用任务 Agent",
+    "website": "https://proton.me/lumo",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/lumo.svg",
+    "vendor_id": "proton",
+    "product_id": "lumo",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "lumo-web",
+    "name": "Lumo",
+    "aliases": [
+      "Lumo AI"
+    ],
+    "vendor": "Proton AG",
+    "type": "通用助手",
+    "website": "https://proton.me/lumo",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/lumo.svg",
+    "vendor_id": "proton",
+    "product_id": "lumo",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "lumo.proton.me"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-18"
+  },
+  {
+    "id": "hako-desktop",
+    "name": "Hako",
+    "aliases": [
+      "Hako for Mac"
+    ],
+    "vendor": "Eugeniu Vozoca",
+    "type": "AI 编程",
+    "website": "https://hako.md/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "hako",
+    "product_id": "hako",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]
