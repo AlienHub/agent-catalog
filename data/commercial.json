@@ -2092,5 +2092,35 @@
         "title": "Mimzie 官方定价：应用免费与 Mimzie agent 付费档"
       }
     ]
+  },
+  "lumo-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-18",
+    "notes": "官方产品页提供 Lumo Plus（无限对话与更快响应）及 Lumo for Business；下载页写明可用免费 Proton 账户开始，付费计划提供额外功能与更高用量。按已核验官方付费服务记录，不记录易变价格。此标签不表示桌面客户端必须付费。",
+    "sources": [
+      {
+        "url": "https://proton.me/lumo",
+        "title": "Lumo 官方产品页：Lumo Plus 与 Lumo for Business"
+      },
+      {
+        "url": "https://proton.me/lumo/download",
+        "title": "官方下载 FAQ：免费 Proton 账户可开始；付费计划提供额外功能"
+      }
+    ]
+  },
+  "lumo-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-18",
+    "notes": "与桌面条同一 Lumo Plus / Lumo for Business 官方付费服务。可用免费 Proton 账户或 Tor 访客访问；付费计划提供额外功能与更高用量。不记录易变价格。此标签不表示 Web 客户端必须付费。",
+    "sources": [
+      {
+        "url": "https://proton.me/lumo",
+        "title": "Lumo 官方产品页：Lumo Plus 与 Lumo for Business"
+      },
+      {
+        "url": "https://proton.me/lumo/download",
+        "title": "官方下载 FAQ：免费账户可开始；付费计划提供额外功能"
+      }
+    ]
   }
 }

@@ -323,3 +323,11 @@ PNG 原样保存，未改后缀、未矢量化。官方站点素材以其来源�
 | --- | --- | --- |
 | `assets/icons/buzz.svg` | [block/buzz-app `public/buzz-mark.svg`](https://raw.githubusercontent.com/block/buzz-app/main/public/buzz-mark.svg) | `663f093dd8d31e5297ee536baa92f506c028b62e95a2933eb2d64bc16acba11c` |
 | `assets/icons/kwant.svg` | [alexsergivan/kwant `frontend/public/icon.svg`](https://raw.githubusercontent.com/alexsergivan/kwant/main/frontend/public/icon.svg) | `0abbeedab43928910c7f3685eca8d715819aa8685f05b377ca82f89bc019a6fc` |
+
+## v0.52 Logo 收录（2026-11-18）
+
+本批 SVG 均原样保存，未重绘、未改后缀。官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。Hako 未找到可核验官方产品纯矢量 SVG，保持空 `icon`。Kilo Desktop 复用已有 `kilo-code.svg`，不另增文件。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/lumo.svg` | [ProtonMail/WebClients `applications/lumo/src/favicon.svg`](https://raw.githubusercontent.com/ProtonMail/WebClients/634a0a2ad2cc749e8ecf76d8c98442ae5b61f3d2/applications/lumo/src/favicon.svg) | `62799ac667ee7a6d41181b0c4276ee777861b3cdee2823f3ce345abe617b35a2` |

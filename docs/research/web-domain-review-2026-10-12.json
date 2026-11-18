@@ -4836,6 +4836,26 @@
         }
       ],
       "notes": "2026-11-12 新增自托管 Web；官网 kwant.si 不是统一公共应用域名。"
+    },
+    {
+      "id": "lumo-web",
+      "name": "Lumo",
+      "website": "https://proton.me/lumo",
+      "status": "verified",
+      "domains": [
+        "lumo.proton.me"
+      ],
+      "sources": [
+        {
+          "url": "https://proton.me/lumo",
+          "title": "Lumo 官方产品页"
+        },
+        {
+          "url": "https://lumo.proton.me/",
+          "title": "已核验 Web 应用主机 lumo.proton.me"
+        }
+      ],
+      "notes": "2026-11-18 新增已核验 Web 入口 lumo.proton.me。营销站 proton.me/lumo 不是应用主机。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4855,5 +4875,6 @@
   "added_web_records_20261105": 5,
   "added_web_records_20261106": 2,
   "added_web_records_20261109": 1,
-  "added_web_records_20261112": 1
+  "added_web_records_20261112": 1,
+  "added_web_records_20261118": 1
 }
