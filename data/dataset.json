@@ -14881,5 +14881,109 @@
     "web_domains": [],
     "web_domain_status": "self-hosted",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "dusk-bot-desktop",
+    "name": "dusk bot",
+    "aliases": [
+      "DuskBot"
+    ],
+    "vendor": "dusk bot",
+    "type": "通用任务 Agent",
+    "website": "https://dusk.bot",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/dusk-bot.svg",
+    "vendor_id": "dusk-bot",
+    "product_id": "dusk-bot",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "toone-desktop",
+    "name": "Toone",
+    "aliases": [
+      "Toone AI"
+    ],
+    "vendor": "Matheus Paranhos, trading as Toone",
+    "type": "通用任务 Agent",
+    "website": "https://trytoone.com",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/toone.svg",
+    "vendor_id": "toone",
+    "product_id": "toone",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "s-space-desktop",
+    "name": "S.space",
+    "aliases": [
+      "S.Space"
+    ],
+    "vendor": "AG2AI, Inc.",
+    "type": "通用任务 Agent",
+    "website": "https://s.space",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "icons/s-space.svg",
+    "vendor_id": "ag2ai",
+    "product_id": "s-space",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "s-space-web",
+    "name": "S.space",
+    "aliases": [
+      "S.Space"
+    ],
+    "vendor": "AG2AI, Inc.",
+    "type": "通用任务 Agent",
+    "website": "https://s.space",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/s-space.svg",
+    "vendor_id": "ag2ai",
+    "product_id": "s-space",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "s.space"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-19"
   }
 ]
