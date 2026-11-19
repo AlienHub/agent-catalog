@@ -4918,5 +4918,37 @@
       }
     ],
     "classification": "application"
+  },
+  "dusk-bot-desktop": {
+    "repository_url": "https://github.com/DuskBotAI/duskbot",
+    "source_model": "source-available",
+    "license": "PolyForm-Noncommercial-1.0.0",
+    "license_url": "https://github.com/DuskBotAI/duskbot/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-19",
+      "github_archived": false,
+      "last_push_at": "2026-11-19T01:23:47Z"
+    },
+    "notes": "根 LICENSE 为 PolyForm Noncommercial 1.0.0：源码公开，个人/非商业可用，商业使用需另获许可。官方 FAQ 与许可页明确 source-available、不是开源。不在本目录 open-source 允许的 OSI 表达式（MIT / Apache-2.0 / AGPL-3.0 / GPL-3.0-or-later）内，故记 source-available。结论仅限已核查的 DuskBotAI/duskbot 公开源码，不外推 dusk cloud 托管服务、所连接的第三方模型订阅，也不把上游 openmausbot Apache-2.0 当作本产品开源依据。维护状态参考公开非预发布 v0.2.21，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/DuskBotAI/duskbot/blob/main/LICENSE",
+        "title": "官方 LICENSE：PolyForm Noncommercial 1.0.0"
+      },
+      {
+        "url": "https://polyformproject.org/licenses/noncommercial/1.0.0",
+        "title": "PolyForm Noncommercial 1.0.0 文本"
+      },
+      {
+        "url": "https://dusk.bot/docs/faq",
+        "title": "官方 FAQ：明确不是开源"
+      },
+      {
+        "url": "https://dusk.bot/license",
+        "title": "官方许可页：source-available does not mean open source"
+      }
+    ],
+    "classification": "application"
   }
 }
