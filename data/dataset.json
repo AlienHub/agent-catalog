@@ -14881,5 +14881,161 @@
     "web_domains": [],
     "web_domain_status": "self-hosted",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "fieldwork-code-desktop",
+    "name": "Fieldwork Code",
+    "aliases": [],
+    "vendor": "Fieldwork AI Inc.",
+    "type": "AI 编程",
+    "website": "https://fieldwork.ai/solutions/software-development",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/fieldwork-code.svg",
+    "vendor_id": "fieldwork-ai",
+    "product_id": "fieldwork-code",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "testsprite-web",
+    "name": "TestSprite",
+    "aliases": [],
+    "vendor": "TestSprite, Inc.",
+    "type": "AI 测试",
+    "website": "https://www.testsprite.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/testsprite.svg",
+    "vendor_id": "testsprite",
+    "product_id": "testsprite",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "www.testsprite.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-20"
+  },
+  {
+    "id": "testsprite-cli",
+    "name": "TestSprite",
+    "aliases": [],
+    "vendor": "TestSprite, Inc.",
+    "type": "AI 测试",
+    "website": "https://github.com/TestSprite/testsprite-cli",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/testsprite.svg",
+    "vendor_id": "testsprite",
+    "product_id": "testsprite",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "gemini-desktop",
+    "name": "Gemini",
+    "aliases": [
+      "Google Gemini",
+      "Bard",
+      "Gemini for desktop"
+    ],
+    "vendor": "Google",
+    "type": "通用助手",
+    "website": "https://gemini.google/desktop",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/gemini.svg",
+    "vendor_id": "google",
+    "product_id": "gemini",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "available",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "mistral-vibe-desktop",
+    "name": "Mistral Vibe",
+    "aliases": [
+      "Mistral Vibe",
+      "Le Chat",
+      "Mistral Le Chat",
+      "Vibe for work",
+      "Vibe for code",
+      "Vibe Desktop"
+    ],
+    "vendor": "Mistral AI",
+    "type": "通用助手",
+    "website": "https://mistral.ai/products/vibe/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "icons/mistral-vibe.svg",
+    "vendor_id": "mistral-ai",
+    "product_id": "mistral-vibe",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "available",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "tecla-desktop",
+    "name": "Tecla",
+    "aliases": [],
+    "vendor": "Pipeless, Inc",
+    "type": "通用任务 Agent",
+    "website": "https://www.usetecla.com/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "pipeless",
+    "product_id": "tecla",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]

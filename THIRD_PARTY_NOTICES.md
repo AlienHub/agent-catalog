@@ -323,3 +323,12 @@ PNG 原样保存，未改后缀、未矢量化。官方站点素材以其来源�
 | --- | --- | --- |
 | `assets/icons/buzz.svg` | [block/buzz-app `public/buzz-mark.svg`](https://raw.githubusercontent.com/block/buzz-app/main/public/buzz-mark.svg) | `663f093dd8d31e5297ee536baa92f506c028b62e95a2933eb2d64bc16acba11c` |
 | `assets/icons/kwant.svg` | [alexsergivan/kwant `frontend/public/icon.svg`](https://raw.githubusercontent.com/alexsergivan/kwant/main/frontend/public/icon.svg) | `0abbeedab43928910c7f3685eca8d715819aa8685f05b377ca82f89bc019a6fc` |
+
+## v0.54 Logo 收录（2026-11-20）
+
+本批 SVG 均原样保存，未重绘、未改后缀。官方站点素材以其来源与权利人规则为准，公开可下载不自动授予商标或背书授权。Gemini / Mistral Vibe 复用目录已有 Lobe Icons 标。Tecla 未找到可核验官方产品纯矢量 SVG，保持空 `icon`。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/fieldwork-code.svg` | [Fieldwork 官网 `f-dark.svg`](https://fieldwork.ai/f-dark.svg) | `bf81646567205738894e165f88d18092e7b95495fac6c15bccfe14f5e52e54f6` |
+| `assets/icons/testsprite.svg` | [TestSprite 官网 `favicon.svg`](https://www.testsprite.com/favicon.svg) | `afcc9e606444622175ca11a82d04a566f09b65c3f2514f6198d804d08520525d` |
