@@ -4836,6 +4836,26 @@
         }
       ],
       "notes": "2026-11-12 新增自托管 Web；官网 kwant.si 不是统一公共应用域名。"
+    },
+    {
+      "id": "testsprite-web",
+      "name": "TestSprite",
+      "website": "https://www.testsprite.com/",
+      "status": "verified",
+      "domains": [
+        "www.testsprite.com"
+      ],
+      "sources": [
+        {
+          "url": "https://www.testsprite.com/",
+          "title": "TestSprite 官网"
+        },
+        {
+          "url": "https://www.testsprite.com/dashboard",
+          "title": "已核验 Web 应用主机 www.testsprite.com/dashboard"
+        }
+      ],
+      "notes": "2026-11-20 新增已核验 Web 入口 www.testsprite.com（/dashboard 与 /dashboard-v3）。营销首页与应用同主机。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4855,5 +4875,6 @@
   "added_web_records_20261105": 5,
   "added_web_records_20261106": 2,
   "added_web_records_20261109": 1,
-  "added_web_records_20261112": 1
+  "added_web_records_20261112": 1,
+  "added_web_records_20261120": 1
 }
