@@ -14881,5 +14881,133 @@
     "web_domains": [],
     "web_domain_status": "self-hosted",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "oovi-desktop",
+    "name": "oovi",
+    "aliases": [
+      "Oovi"
+    ],
+    "vendor": "Conuron",
+    "type": "通用任务 Agent",
+    "website": "https://oovi.conuron.com/",
+    "platforms": [
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "conuron",
+    "product_id": "oovi",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "omi-cli",
+    "name": "Omi CLI",
+    "aliases": [
+      "omi",
+      "BuildItOmi"
+    ],
+    "vendor": "SahooTek",
+    "type": "AI 编程",
+    "website": "https://cli.builditomi.com/",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "sahootek",
+    "product_id": "omi",
+    "interfaces": [
+      "CLI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "omi-ide",
+    "name": "Omi CLI",
+    "aliases": [
+      "omi",
+      "BuildItOmi"
+    ],
+    "vendor": "SahooTek",
+    "type": "AI 编程",
+    "website": "https://cli.builditomi.com/",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "sahootek",
+    "product_id": "omi",
+    "interfaces": [
+      "IDE 插件"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "openvorld-desktop",
+    "name": "OpenVorld",
+    "aliases": [],
+    "vendor": "OpenVorld",
+    "type": "通用任务 Agent",
+    "website": "https://openvorld.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/openvorld.svg",
+    "vendor_id": "openvorld",
+    "product_id": "openvorld",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "tamekoshi-desktop",
+    "name": "Tamekoshi",
+    "aliases": [],
+    "vendor": "kumanaya",
+    "type": "通用任务 Agent",
+    "website": "https://www.tamekoshi.com/",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/tamekoshi.svg",
+    "vendor_id": "kumanaya",
+    "product_id": "tamekoshi",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]

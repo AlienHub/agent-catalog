@@ -4918,5 +4918,29 @@
       }
     ],
     "classification": "application"
+  },
+  "openvorld-desktop": {
+    "repository_url": "https://github.com/DigitalDreams-Lab/OpenVorld",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/DigitalDreams-Lab/OpenVorld/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-23",
+      "github_archived": false,
+      "last_push_at": "2026-11-20T16:14:17Z"
+    },
+    "notes": "本次核验上游主分支 LICENSE 为 MIT License（Copyright (c) 2026 OpenVorld contributors；GitHub SPDX MIT）。结论仅限已核查的 DigitalDreams-Lab/OpenVorld 桌面源码，不外推所连接的 Claude Code / Codex / Antigravity / OpenCode 或第三方模型，也不把应用内 companion Buzz 与 Block Buzz 混为同一产品。维护状态参考公开非预发布 v0.19.5，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/DigitalDreams-Lab/OpenVorld/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/DigitalDreams-Lab/OpenVorld",
+        "title": "官方仓库与桌面发行"
+      }
+    ],
+    "classification": "application"
   }
 }

@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.48（2026-11-12），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.55（2026-11-23），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -789,3 +789,14 @@ Logo：Nod / Linger 使用官方仓库 SVG；Ducter 使用官方 PNG；Mimzie �
 - kwant 桌面端与自托管 Web（Oleksandr Ivanchenko / alexsergivan）：自托管 AI 机器人团队。GitHub **mac-v0.9.0** / **0.9.0**（2026-11-11）。AGPL-3.0。不单列 `kwnt` 服务命令或手机访问。
 
 Logo：Buzz / kwant 使用官方仓库纯矢量 SVG。
+
+## v0.55 oovi、Omi CLI、OpenVorld 与 Tamekoshi（2026-11-23）
+
+新增 5 条应用、4 个产品，目录共 584 条应用、402 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.48 / `main` @ `3976b69`（#37 已合入）。未改 `schema.json` 与供应商分类。本分支不吸收未合并日更草稿 #38–#43（那些草稿已占用 dataVersion 0.49–0.54）。
+
+- oovi 桌面端（Conuron）：本机通用任务 Agent 团队。官方 changelog / 安装包 **0.15.3**（2026-11-22）。仅已核验 Windows；Mac/Linux 下载核验时 unavailable。专有。
+- Omi CLI 与 IDE 插件（SahooTek）：终端编码 Agent。官方 **0.5.0**（2026-11-21）；VSIX `omi-cli-0.4.0.vsix`。macOS/Linux（Windows via WSL 不写入）。专有 All rights reserved。
+- OpenVorld 桌面端：local-first Agent harness。GitHub **v0.19.5**（2026-11-20）。MIT。
+- Tamekoshi 桌面端（kumanaya）：官方 **0.1.2** beta。Windows 与 Linux；macOS Soon 不写入。尚未开源。
+
+Logo：OpenVorld 使用官方仓库 SVG；Tamekoshi 使用官网 favicon.svg；oovi / Omi CLI 无纯矢量 SVG，空 `icon`。

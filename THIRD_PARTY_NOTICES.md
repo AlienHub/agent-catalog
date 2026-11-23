@@ -323,3 +323,12 @@ PNG 原样保存，未改后缀、未矢量化。官方站点素材以其来源�
 | --- | --- | --- |
 | `assets/icons/buzz.svg` | [block/buzz-app `public/buzz-mark.svg`](https://raw.githubusercontent.com/block/buzz-app/main/public/buzz-mark.svg) | `663f093dd8d31e5297ee536baa92f506c028b62e95a2933eb2d64bc16acba11c` |
 | `assets/icons/kwant.svg` | [alexsergivan/kwant `frontend/public/icon.svg`](https://raw.githubusercontent.com/alexsergivan/kwant/main/frontend/public/icon.svg) | `0abbeedab43928910c7f3685eca8d715819aa8685f05b377ca82f89bc019a6fc` |
+
+## v0.55 Logo 收录（2026-11-23）
+
+本批 SVG 均原样保存，未重绘、未改后缀。官方仓库 / 官网素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。oovi 与 Omi CLI 未找到可核验官方/Lobe/Simple Icons/svgl 纯矢量 SVG，保持空 `icon`。OpenVorld 随附原始 [MIT 文本](./licenses/openvorld-mit.txt)。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/openvorld.svg` | [DigitalDreams-Lab/OpenVorld `desktop/assets/icon.svg`](https://raw.githubusercontent.com/DigitalDreams-Lab/OpenVorld/main/desktop/assets/icon.svg) | `e0973fead06906b186dfab80a57b1ef84a7d4f7b299499ad1f8fccea4c1d557e` |
+| `assets/icons/tamekoshi.svg` | [Tamekoshi 官网 `favicon.svg`](https://www.tamekoshi.com/favicon.svg) | `63fe4163011123ae14371e731cf10df4d69d27b96bea6705220225d3ea943eab` |
