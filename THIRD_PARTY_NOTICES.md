@@ -323,3 +323,13 @@ PNG 原样保存，未改后缀、未矢量化。官方站点素材以其来源�
 | --- | --- | --- |
 | `assets/icons/buzz.svg` | [block/buzz-app `public/buzz-mark.svg`](https://raw.githubusercontent.com/block/buzz-app/main/public/buzz-mark.svg) | `663f093dd8d31e5297ee536baa92f506c028b62e95a2933eb2d64bc16acba11c` |
 | `assets/icons/kwant.svg` | [alexsergivan/kwant `frontend/public/icon.svg`](https://raw.githubusercontent.com/alexsergivan/kwant/main/frontend/public/icon.svg) | `0abbeedab43928910c7f3685eca8d715819aa8685f05b377ca82f89bc019a6fc` |
+
+## v0.56 Logo 收录（2026-11-24）
+
+本批 SVG 均原样保存，未重绘、未改后缀。官方网站/仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。Omi Work 官网图标为 PNG/WebP，未找到可核验官方纯矢量 SVG，保持空 `icon`。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/chat-with-work.svg` | [Chat with Work 官网 `logo.svg`](https://chatwithwork.com/logo.svg) | `63cc29d8bc93b53b07e8456f01690f1aed1f031d0ea9205f8b2efdbb2d1317cd` |
+| `assets/icons/mingent.svg` | [MinGent 官网 `img/mingent.svg`](https://mingent.org/img/mingent.svg) | `12a6d3ce86238064530b057c0a0cac207bdfa935e45fc3cb71e42ca9636ac52e` |
+| `assets/icons/pi-bot.svg` | [Pi Bot 官网 `assets/logo.svg`](https://pibot.space/assets/logo.svg) | `5ae679362cab352f79d803063b4d5e8c5d020271cd5451dabac142c376363fbf` |

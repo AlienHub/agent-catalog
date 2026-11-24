@@ -4836,6 +4836,46 @@
         }
       ],
       "notes": "2026-11-12 新增自托管 Web；官网 kwant.si 不是统一公共应用域名。"
+    },
+    {
+      "id": "chat-with-work-web",
+      "name": "Chat with Work",
+      "website": "https://chatwithwork.com/",
+      "status": "verified",
+      "domains": [
+        "chatwithwork.com"
+      ],
+      "sources": [
+        {
+          "url": "https://chatwithwork.com/",
+          "title": "Chat with Work 官网：欧盟托管工作机器人"
+        },
+        {
+          "url": "https://chatwithwork.com/users/sign_in",
+          "title": "已核验 Web 登录入口 chatwithwork.com/users/sign_in"
+        }
+      ],
+      "notes": "2026-11-24 新增已核验 Web 入口 chatwithwork.com。www.chatwithwork.com 301 到 apex，不另列。"
+    },
+    {
+      "id": "omi-work-web",
+      "name": "Omi Work",
+      "website": "https://work.builditomi.com/",
+      "status": "verified",
+      "domains": [
+        "work.builditomi.com"
+      ],
+      "sources": [
+        {
+          "url": "https://work.builditomi.com/",
+          "title": "Omi Work 官网"
+        },
+        {
+          "url": "https://work.builditomi.com/app",
+          "title": "已核验 Web 应用入口 work.builditomi.com/app"
+        }
+      ],
+      "notes": "2026-11-24 新增已核验 Web 入口 work.builditomi.com。营销路径与 /app 共用该主机。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4855,5 +4895,6 @@
   "added_web_records_20261105": 5,
   "added_web_records_20261106": 2,
   "added_web_records_20261109": 1,
-  "added_web_records_20261112": 1
+  "added_web_records_20261112": 1,
+  "added_web_records_20261124": 2
 }

@@ -4918,5 +4918,77 @@
       }
     ],
     "classification": "application"
+  },
+  "chat-with-work-desktop": {
+    "repository_url": "https://github.com/crmne/chatwithwork-desktop",
+    "source_model": "source-available",
+    "license": "GPL-3.0",
+    "license_url": "https://github.com/crmne/chatwithwork-desktop/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-24",
+      "github_archived": false,
+      "last_push_at": "2026-11-22T22:11:07Z"
+    },
+    "notes": "README 明确 GNU GPL version 3 only；GitHub SPDX GPL-3.0。不在本目录 open-source 允许表达式（GPL-3.0-or-later）内，故记 source-available（与 xxl-ai 同类处理）。结论仅限已核查的 crmne/chatwithwork-desktop 桌面源码，不外推托管 Web SaaS、自托管服务端或 bundled 浏览器组件。0.9.2 及更早曾为 MIT 或 Apache-2.0，当前产品线以 GPL-3.0-only 为准。维护状态参考公开非预发布 v0.20.0，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/crmne/chatwithwork-desktop/blob/main/LICENSE",
+        "title": "官方 LICENSE：GNU GPL v3"
+      },
+      {
+        "url": "https://github.com/crmne/chatwithwork-desktop/blob/main/README.md",
+        "title": "官方 README：Licensed under the GNU General Public License, version 3 only"
+      }
+    ],
+    "classification": "application"
+  },
+  "mingent-desktop": {
+    "repository_url": "https://github.com/zenpositive/MinGent",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/zenpositive/MinGent/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-24",
+      "github_archived": false,
+      "last_push_at": "2026-11-20T14:07:35Z"
+    },
+    "notes": "本次核验上游主分支 LICENSE 为 MIT（Copyright (c) 2026 The MinGent authors；GitHub SPDX MIT）。结论仅限已核查的 zenpositive/MinGent 桌面源码，不外推所连接的模型供应商、Hugging Face 模型许可或实验性 Gemini helper 扩展。维护状态参考公开非预发布 v1.7.0，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/zenpositive/MinGent/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/zenpositive/MinGent",
+        "title": "官方仓库与 Windows 发行"
+      }
+    ],
+    "classification": "application"
+  },
+  "pi-bot-desktop": {
+    "repository_url": "https://github.com/w01fb0ss/PiBot",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/w01fb0ss/PiBot/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-24",
+      "github_archived": false,
+      "last_push_at": "2026-11-23T17:08:53Z"
+    },
+    "notes": "本次核验上游主分支 LICENSE 为 Apache-2.0（GitHub SPDX Apache-2.0）。结论仅限已核查的 w01fb0ss/PiBot 桌面源码，不外推 Android APK、Runner 安装包或所连接的 Codex / Claude Code 等外部 agent。维护状态参考公开非预发布 v0.0.3，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/w01fb0ss/PiBot/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://github.com/w01fb0ss/PiBot",
+        "title": "官方仓库与桌面发行"
+      }
+    ],
+    "classification": "application"
   }
 }

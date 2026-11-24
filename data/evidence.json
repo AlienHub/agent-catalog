@@ -13180,5 +13180,187 @@
       }
     ],
     "verified_at": "2026-11-12"
+  },
+  "chat-with-work-web": {
+    "notes": "PlentyLabs UG (haftungsbeschränkt) & Co. KG（柏林，Amtsgericht Berlin Charlottenburg HRA 65450 B，VAT DE464390698；普通合伙人为 PlentyLabs Verwaltungs UG，业务执行人 Carmine Paolino）出品的欧盟托管工作机器人 Web 应用。本条仅 Web。官网/登录入口在 **chatwithwork.com**（/users/sign_in、/users/sign_up；/chats 未登录重定向至登录）。FAQ 写明应用与机器人跑在德国 Hetzner，模型在欧盟（Gemini / GPT Azure EU Data Zone / Claude Bedrock）；亦可自托管，自托管不是独立目录形态。公开 Product Hunt 窗口约 2026-11-23。免费一次 300 trial credits、无需银行卡；付费档见定价页，不记录易变价格。官网未公布 Web 应用 semver，不编造版本。www.chatwithwork.com 301 到 apex，不另列主机。iPhone / Android 商店页按目录范围不收录。Slack / Teams / Discord / Campfire 为渠道，不单列。Omi Work / Omi CLI 不是本产品。官网 logo.svg 为官方纯矢量产品标。官网资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://chatwithwork.com/",
+        "title": "Chat with Work 官网：欧盟托管工作机器人；已核验应用主机 chatwithwork.com"
+      },
+      {
+        "url": "https://chatwithwork.com/imprint",
+        "title": "官方法律声明：PlentyLabs UG (haftungsbeschränkt) & Co. KG，柏林"
+      },
+      {
+        "url": "https://chatwithwork.com/faq",
+        "title": "官方 FAQ：Hetzner DE、欧盟模型、300 trial credits、自托管"
+      },
+      {
+        "url": "https://chatwithwork.com/pricing",
+        "title": "官方定价：trial / Personal / Team 付费档"
+      },
+      {
+        "url": "https://chatwithwork.com/users/sign_in",
+        "title": "已核验 Web 登录入口 chatwithwork.com/users/sign_in"
+      },
+      {
+        "url": "https://www.producthunt.com/products/chat-with-work",
+        "title": "Product Hunt 产品页 Chat with Work"
+      },
+      {
+        "url": "https://chatwithwork.com/logo.svg",
+        "title": "官方网站 logo.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-24"
+  },
+  "chat-with-work-desktop": {
+    "notes": "同一 Chat with Work 产品的开源桌面 GUI：在用户共享文件夹内让托管机器人读写文件、沙箱命令（Windows 需 11 24H2 及以后）与自有浏览器。本条仅桌面 GUI。官方桌面页与 GitHub 非预发布 **v0.20.0** / “Chat with Work Desktop 0.20.0”（发布 2026-11-21T01:27:13Z）：macOS 13.5+ universal DMG/PKG、Windows x64/arm64 MSI、Linux x86_64/aarch64 AppImage/deb/rpm/Flatpak。README 写明桌面包内含窗口应用、终端界面 **cww** 与后台 agent；另有 terminal-only 归档。官方产品页未把 cww 写成独立最终用户 CLI 产品，按目录惯例不单列 CLI（与 bundled buzz CLI 同类）。同仓另有 browser-v* 标签（Chat with Work browser），未核验 Chrome Web Store 上架，不单列浏览器插件。自托管是托管产品的部署选项，不是独立形态。根 LICENSE 为 GNU GPL v3 only（README：version 3 only；GitHub SPDX GPL-3.0）；不在本目录 open-source 允许表达式内，记 source-available。代码版权行 Carmine Paolino；厂商法律主体以 imprint 的 PlentyLabs UG 为准。Logo 与 Web 条共用官网 logo.svg。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://chatwithwork.com/desktop-app",
+        "title": "官方桌面页：Mac / Windows / Linux；开源仓 crmne/chatwithwork-desktop"
+      },
+      {
+        "url": "https://github.com/crmne/chatwithwork-desktop",
+        "title": "官方仓库 crmne/chatwithwork-desktop"
+      },
+      {
+        "url": "https://github.com/crmne/chatwithwork-desktop/blob/main/README.md",
+        "title": "官方 README：桌面安装、bundled cww、GPL-3.0-only"
+      },
+      {
+        "url": "https://github.com/crmne/chatwithwork-desktop/releases/tag/v0.20.0",
+        "title": "GitHub 非预发布 v0.20.0 / Chat with Work Desktop 0.20.0（2026-11-21T01:27:13Z）"
+      },
+      {
+        "url": "https://github.com/crmne/chatwithwork-desktop/blob/main/LICENSE",
+        "title": "官方 LICENSE：GNU GPL v3"
+      },
+      {
+        "url": "https://chatwithwork.com/imprint",
+        "title": "官方法律声明：PlentyLabs UG (haftungsbeschränkt) & Co. KG"
+      },
+      {
+        "url": "https://chatwithwork.com/logo.svg",
+        "title": "官方网站 logo.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-24"
+  },
+  "omi-work-web": {
+    "notes": "SahooTek（印度奥里萨邦 GST 登记企业；BuildItOmi 为其产品公司）出品的 Web AI 工作区 Omi Work：聊天、Agent、研究、Space 文档/表格/幻灯片、定时任务与团队管理。本条仅 Web。官方介绍明确它是独立于 BuildItOmi 应用、Bolts、API 与 **Omi CLI** 的产品，有独立登录、套餐与用量。文档写明在 **work.builditomi.com/app** 用 Google / Apple / 邮箱链接 / 手机号登录；应用主机为 work.builditomi.com。官网未公布产品 semver，不编造版本。Product Hunt 窗口约 2026-11-23 / 2026-11-24。Omi Work for Chrome 官方写明尚未上架 Chrome Web Store，从站点安装的 helper tab 不是已核验商店扩展，不单列浏览器插件。不收录 Omi CLI / IDE（开放草稿 #44 已占用 omi-cli / omi-ide，本分支不复制）。官网图标为 PNG/WebP，未找到可核验官方纯矢量 SVG。官网/文档/公司页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://work.builditomi.com/",
+        "title": "Omi Work 官网：AI workspace；已核验应用主机 work.builditomi.com"
+      },
+      {
+        "url": "https://work.builditomi.com/app",
+        "title": "已核验 Web 应用入口 work.builditomi.com/app"
+      },
+      {
+        "url": "https://work.builditomi.com/docs",
+        "title": "官方文档：登录、Agent、Space、SSO/SCIM"
+      },
+      {
+        "url": "https://work.builditomi.com/pricing",
+        "title": "官方定价：Free / Plus / Pro / Business / Enterprise"
+      },
+      {
+        "url": "https://work.builditomi.com/chrome",
+        "title": "Omi Work for Chrome：尚未上架 Chrome Web Store"
+      },
+      {
+        "url": "https://builditomi.com/news/introducing-omi-work-one-ai-workspace-for-you-and-your-whole-team",
+        "title": "官方介绍：独立于 Omi CLI 的 Web 产品（2026-11-21）"
+      },
+      {
+        "url": "https://builditomi.com/company",
+        "title": "公司页：BuildItOmi is a SahooTek company"
+      },
+      {
+        "url": "https://builditomi.com/legal/terms",
+        "title": "服务条款：运营主体 SahooTek"
+      },
+      {
+        "url": "https://www.producthunt.com/products/omi-work",
+        "title": "Product Hunt 产品页 Omi Work"
+      }
+    ],
+    "verified_at": "2026-11-24"
+  },
+  "mingent-desktop": {
+    "notes": "MinGent 是 Windows 10/11 桌面 AI agent：无第三方包依赖，用系统自带编译器从源码 zip 构建。本条仅桌面 GUI。官网与 GitHub 非预发布 **v1.7.0** / “MinGent 1.7.0”（发布 2026-11-20T14:07:36Z）：MinGent-1.7.0.zip。法律页只写 “the authors”、MIT、不出售；LICENSE 版权行为 Copyright (c) 2026 The MinGent authors。官方未公布公司或自然人法律实体，vendor 用产品名 **MinGent**（与 dusk bot 同类处理），不把 GitHub 用户 zenpositive 发明成公司。随源码附带实验性 Gemini 网站 helper 扩展（PNG 图标），未核验 Chrome Web Store，不单列浏览器插件。不收录手机客户端。根 LICENSE 为 MIT（GitHub SPDX MIT）。Logo 使用官网 /img/mingent.svg。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://mingent.org/",
+        "title": "MinGent 官网：1.7.0 for Windows 10 and 11；Free and open source"
+      },
+      {
+        "url": "https://mingent.org/legal",
+        "title": "官方法律页：MIT；仅 “the authors”，无公司名"
+      },
+      {
+        "url": "https://github.com/zenpositive/MinGent",
+        "title": "官方仓库 zenpositive/MinGent"
+      },
+      {
+        "url": "https://github.com/zenpositive/MinGent/releases/tag/v1.7.0",
+        "title": "GitHub 非预发布 v1.7.0（2026-11-20T14:07:36Z）"
+      },
+      {
+        "url": "https://github.com/zenpositive/MinGent/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（The MinGent authors）"
+      },
+      {
+        "url": "https://www.producthunt.com/products/mingent",
+        "title": "Product Hunt 产品页 MinGent"
+      },
+      {
+        "url": "https://mingent.org/img/mingent.svg",
+        "title": "官方网站 img/mingent.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-24"
+  },
+  "pi-bot-desktop": {
+    "notes": "Pi Bot（官方产品名带空格；仓库名 PiBot）是开源、本地优先的多 Agent 桌面应用。本条仅桌面 GUI。官方下载/发布页与 GitHub 非预发布 **v0.0.3** / “Pi Bot 0.0.3”（发布 2026-11-22T08:15:34Z）：macOS Apple silicon/Intel DMG、Windows x64 EXE、Linux x64 AppImage。首个公开版 v0.0.1（2026-11-17）。官方 About 未公布法律实体，vendor 用产品名 **Pi Bot**，不发明公司或创始人。Android APK 为官方配套，按目录范围（不含移动端）不收录。Runner 是在另一台电脑上跑命令的可选连接，官方未将其写成独立最终用户 Agent 应用，不单列。浏览器插件官方写明尚未上架商店。根 LICENSE 为 Apache-2.0（GitHub SPDX Apache-2.0）。Logo 使用官网 /assets/logo.svg。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://pibot.space/",
+        "title": "Pi Bot 官网"
+      },
+      {
+        "url": "https://pibot.space/en/about/",
+        "title": "官方 About：桌面应用；Android 与 Runner 为可选连接；无法律实体名"
+      },
+      {
+        "url": "https://pibot.space/en/download/",
+        "title": "官方下载：Desktop v0.0.3，macOS / Windows / Linux"
+      },
+      {
+        "url": "https://pibot.space/en/releases/",
+        "title": "官方发布说明：v0.0.3（2026-11-22）；首发 v0.0.1（2026-11-17）"
+      },
+      {
+        "url": "https://github.com/w01fb0ss/PiBot",
+        "title": "官方仓库 w01fb0ss/PiBot；Apache-2.0"
+      },
+      {
+        "url": "https://github.com/w01fb0ss/PiBot/releases/tag/v0.0.3",
+        "title": "GitHub 非预发布 v0.0.3 / Pi Bot 0.0.3（2026-11-22T08:15:34Z）"
+      },
+      {
+        "url": "https://github.com/w01fb0ss/PiBot/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://pibot.space/assets/logo.svg",
+        "title": "官方网站 assets/logo.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-24"
   }
 }
