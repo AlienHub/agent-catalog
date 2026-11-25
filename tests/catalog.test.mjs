@@ -11,8 +11,8 @@ test('canonical snapshot preserved, including all record fields and IDs', () => 
   assert.deepEqual(catalog.apps, raw);
   assert.equal(catalog.catalogMeta.recordCount, raw.length);
   assert.equal(catalog.catalogMeta.productCount, new Set(raw.map(app => app.product_id)).size);
-  assert.equal(catalog.catalogMeta.dataVersion, '0.52');
-  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop', 'monkeyai-web', 'monkeyai-desktop', 'fx-cli', 'bits-web', 'cutbay-web', 'heal-web', 'offrun-desktop', 'dumate-web', 'dumate-desktop', 'whiteboard-desktop', 'breken-web', 'thinkrail-cli', 'thinkrail-desktop', 'cindy-desktop', 'junior-desktop', 'shogunai-desktop', 'vibeide-desktop', 'manyagents-desktop', 'aibridge-desktop', 'paradev-desktop', 'paradev-cli', 'tabsh-cli', 'tabsh-web', 'hob-desktop', 'botnow-web', 'openduet-web', 'meta-muse-web', 'meta-muse-desktop', 'strawberry-desktop', 'openbot-desktop', 't3-code-desktop', 't3-code-web', 'cusp-desktop', 'cusp-cli', 'switch-desktop', 'herdr-desktop', 'herdr-cli', 'mao-desktop', 'yardlet-desktop', 'mudroom-desktop', 'mudroom-cli', 'zest-desktop', 'jimmy-desktop', 'empacer-web', 'intrascope-web', 'mo-desktop', 'pluto-door-desktop', 'clawsgo-science-web', 'clawsgo-science-desktop', 'fluent-desktop', 'agentmash-web', 'agentmash-cli', 'termy-desktop', 'aura-autopilot-ide', 'craft-anything-desktop', 'craft-anything-cli', 'craft-anything-web', 'fastbrowse-cli', 'fastbrowse-web', 'vaani-web', 'embage-web', 'coincide-desktop', 'caprock-desktop', 'ai-codeops-web', 'mercury-cli', 'friday-desktop', 'wavefunction-desktop', 'nana-desktop', 'teamily-web', 'teamily-desktop', 'looper-web', 'prism-desktop', 'testifly-web', 'momentic-mo-web', 'digpool-desktop', 'aipy-pro-desktop', 'aipyapp-cli', 'autocua-desktop', 'one-code-cli', 'soiawork-web', 'wanaka-studio-web', 'cxagent-cli', 'apus-reflex-desktop', 'cowboy-web', 'kino-desktop', 'cinnamon-web', 'dessn-web', 'rerun-web', 'everywhere-desktop', 'mooring-desktop', 'getvector-desktop', 'nico-desktop', 'ztc-cli', 'ztc-desktop', 'stitch-ai-web', 'turnstone-desktop', 'wonder-desktop', 'crystl-desktop', 'agent-clan-desktop', 'letronna-desktop', 'letronna-cli', 'alysis-code-desktop', 'alysis-code-cli', 'termexo-desktop', 'cobalt-web', 'cobalt-desktop', 'relay-desktop', 'desk-desktop', 'voyager-desktop', 'byteask-cli', 'wdx-cli', 'nekotrail-desktop', 'orkas-desktop', 'nod-desktop', 'linger-desktop', 'mimzie-desktop', 'ducter-desktop', 'ducter-cli', 'buzz-desktop', 'kwant-desktop', 'kwant-web', 'grok-bot-desktop', 'youart-desktop', 'rakazo-desktop', 'rakazo-web', 'caveman-code-desktop', 'caveman-code-web', 'timon-desktop', 'timon-web', 'copilotkit-openbot-desktop', 'kilo-code-desktop', 'lumo-desktop', 'lumo-web', 'hako-desktop']) assert(catalog.getApp(id));
+  assert.equal(catalog.catalogMeta.dataVersion, '0.53');
+  for (const id of ['qwenwork-desktop-cn', 'qwenwork-web-cn', 'doubao-desktop', 'dropstone-cli', 'muse-code', 'hermes-agent-desktop', 'xxl-ai-web', 'manus-desktop', 'xiryn-web', 'kai-web', 'kai-desktop', 'sugabots-web', 'agency-orchestrator-cli', 'orca-desktop', 'pilotdeck-web', 'openbitfun-desktop', 'craft-agents-desktop', 'openharness-cli', 'talorys-web', 'openmuse-web', 'reason-agent-web', 'viktor-web', 'octop-web', 'lobsterai-desktop', 'starkomand-desktop', 'fade-cli', 'readywhen-web', 'rea-cli', 'openfilm-cli', 'openfilm-web', 'openfilm-desktop', 'craig-cli', 'halis-code-cli', 'halis-code-desktop', 'emdash-desktop', 'claude-duet-web', 'pandacode-desktop', 'maka-desktop', 'maka-cli', 'band-desktop', 'aulos-cli', 'aulos-desktop', 'monkeyai-web', 'monkeyai-desktop', 'fx-cli', 'bits-web', 'cutbay-web', 'heal-web', 'offrun-desktop', 'dumate-web', 'dumate-desktop', 'whiteboard-desktop', 'breken-web', 'thinkrail-cli', 'thinkrail-desktop', 'cindy-desktop', 'junior-desktop', 'shogunai-desktop', 'vibeide-desktop', 'manyagents-desktop', 'aibridge-desktop', 'paradev-desktop', 'paradev-cli', 'tabsh-cli', 'tabsh-web', 'hob-desktop', 'botnow-web', 'openduet-web', 'meta-muse-web', 'meta-muse-desktop', 'strawberry-desktop', 'openbot-desktop', 't3-code-desktop', 't3-code-web', 'cusp-desktop', 'cusp-cli', 'switch-desktop', 'herdr-desktop', 'herdr-cli', 'mao-desktop', 'yardlet-desktop', 'mudroom-desktop', 'mudroom-cli', 'zest-desktop', 'jimmy-desktop', 'empacer-web', 'intrascope-web', 'mo-desktop', 'pluto-door-desktop', 'clawsgo-science-web', 'clawsgo-science-desktop', 'fluent-desktop', 'agentmash-web', 'agentmash-cli', 'termy-desktop', 'aura-autopilot-ide', 'craft-anything-desktop', 'craft-anything-cli', 'craft-anything-web', 'fastbrowse-cli', 'fastbrowse-web', 'vaani-web', 'embage-web', 'coincide-desktop', 'caprock-desktop', 'ai-codeops-web', 'mercury-cli', 'friday-desktop', 'wavefunction-desktop', 'nana-desktop', 'teamily-web', 'teamily-desktop', 'looper-web', 'prism-desktop', 'testifly-web', 'momentic-mo-web', 'digpool-desktop', 'aipy-pro-desktop', 'aipyapp-cli', 'autocua-desktop', 'one-code-cli', 'soiawork-web', 'wanaka-studio-web', 'cxagent-cli', 'apus-reflex-desktop', 'cowboy-web', 'kino-desktop', 'cinnamon-web', 'dessn-web', 'rerun-web', 'everywhere-desktop', 'mooring-desktop', 'getvector-desktop', 'nico-desktop', 'ztc-cli', 'ztc-desktop', 'stitch-ai-web', 'turnstone-desktop', 'wonder-desktop', 'crystl-desktop', 'agent-clan-desktop', 'letronna-desktop', 'letronna-cli', 'alysis-code-desktop', 'alysis-code-cli', 'termexo-desktop', 'cobalt-web', 'cobalt-desktop', 'relay-desktop', 'desk-desktop', 'voyager-desktop', 'byteask-cli', 'wdx-cli', 'nekotrail-desktop', 'orkas-desktop', 'nod-desktop', 'linger-desktop', 'mimzie-desktop', 'ducter-desktop', 'ducter-cli', 'buzz-desktop', 'kwant-desktop', 'kwant-web', 'grok-bot-desktop', 'youart-desktop', 'rakazo-desktop', 'rakazo-web', 'caveman-code-desktop', 'caveman-code-web', 'timon-desktop', 'timon-web', 'copilotkit-openbot-desktop', 'kilo-code-desktop', 'lumo-desktop', 'lumo-web', 'hako-desktop', 'dusk-bot-desktop', 'toone-desktop', 's-space-desktop', 's-space-web']) assert(catalog.getApp(id));
   assert.equal(catalog.getApp('not-an-app'), undefined);
 });
 test('ESM and CommonJS core exports agree', () => {
@@ -1807,6 +1807,67 @@ test('2026-11-18 Kilo Desktop, Lumo and Hako additions', async () => {
   assert.equal(catalog.getApp('hako-ios'), undefined);
   assert.equal(catalog.getApp('hako-web'), undefined);
   assert.equal(commercial['hako-desktop'], undefined);
+});
+
+test('2026-11-19 dusk bot, Toone and S.space additions', async () => {
+  const source = JSON.parse(await readFile(new URL('../data/open-source.json', import.meta.url)));
+  const commercial = JSON.parse(await readFile(new URL('../data/commercial.json', import.meta.url)));
+
+  const dusk = catalog.getApp('dusk-bot-desktop');
+  assert.equal(dusk.name, 'dusk bot');
+  assert.equal(dusk.vendor, 'dusk bot');
+  assert.equal(dusk.vendor_id, 'dusk-bot');
+  assert.equal(dusk.product_id, 'dusk-bot');
+  assert.equal(dusk.type, '通用任务 Agent');
+  assert.deepEqual(dusk.interfaces, ['GUI']);
+  assert.deepEqual(dusk.platforms, ['macOS', 'Windows', 'Linux']);
+  assert.equal(dusk.icon, 'icons/dusk-bot.svg');
+  assert.equal(source['dusk-bot-desktop'].source_model, 'source-available');
+  assert.equal(source['dusk-bot-desktop'].license, 'PolyForm-Noncommercial-1.0.0');
+  assert.equal(source['dusk-bot-desktop'].classification, 'application');
+  assert.match(catalog.getEvidence('dusk-bot-desktop').notes, /v0\.2\.21/);
+  assert.match(catalog.getEvidence('dusk-bot-desktop').notes, /不是开源|PolyForm/);
+  assert.equal(catalog.getApp('dusk-bot-web'), undefined);
+  assert.equal(catalog.getApp('dusk-bot-cli'), undefined);
+  assert.equal(commercial['dusk-bot-desktop'], undefined);
+
+  const toone = catalog.getApp('toone-desktop');
+  assert.equal(toone.name, 'Toone');
+  assert.equal(toone.vendor, 'Matheus Paranhos, trading as Toone');
+  assert.equal(toone.vendor_id, 'toone');
+  assert.equal(toone.product_id, 'toone');
+  assert.equal(toone.type, '通用任务 Agent');
+  assert.deepEqual(toone.interfaces, ['GUI']);
+  assert.deepEqual(toone.platforms, ['macOS']);
+  assert.equal(toone.icon, 'icons/toone.svg');
+  assert.equal(source['toone-desktop'], undefined);
+  assert.match(catalog.getEvidence('toone-desktop').notes, /1\.0\.81/);
+  assert.equal(catalog.getApp('toone-web'), undefined);
+  assert.equal(commercial['toone-desktop'], undefined);
+
+  const desk = catalog.getApp('s-space-desktop');
+  const web = catalog.getApp('s-space-web');
+  assert.equal(desk.name, 'S.space');
+  assert.equal(web.name, 'S.space');
+  assert.equal(desk.product_id, web.product_id);
+  assert.equal(desk.vendor, 'AG2AI, Inc.');
+  assert.equal(desk.vendor_id, 'ag2ai');
+  assert.equal(desk.type, '通用任务 Agent');
+  assert.deepEqual(desk.interfaces, ['GUI']);
+  assert.deepEqual(desk.platforms, ['macOS']);
+  assert.deepEqual(web.interfaces, ['Web']);
+  assert.deepEqual(web.platforms, ['Web']);
+  assert.deepEqual(web.web_domains, ['s.space']);
+  assert.equal(web.web_domain_status, 'verified');
+  assert.equal(web.web_domain_verified_at, '2026-11-19');
+  assert.equal(desk.icon, 'icons/s-space.svg');
+  assert.equal(web.icon, 'icons/s-space.svg');
+  assert.equal(source['s-space-desktop'], undefined);
+  assert.equal(source['s-space-web'], undefined);
+  assert.equal(catalog.getApp('sutando-desktop'), undefined);
+  assert.match(catalog.getEvidence('s-space-desktop').notes, /semver|latest version/);
+  assert.match(catalog.getEvidence('s-space-web').notes, /s\.space/);
+  assert.equal(commercial['s-space-desktop'], undefined);
 });
 
 test('Domain-only schema removes Web entry URLs and keeps frozen hostname arrays', () => {

@@ -13662,5 +13662,145 @@
       }
     ],
     "verified_at": "2026-11-18"
+  },
+  "dusk-bot-desktop": {
+    "notes": "dusk bot 出品的本机多 bot 桌面应用：每个 bot 有岗位、可编辑记忆与独立电脑，使用用户已有的 Claude / ChatGPT / Gemini / Grok 等订阅或 API key。本条仅桌面 GUI。官网 dusk.bot；关于页写明独立小团队制作、不隶属所列模型厂商，未公布自然人姓名或公司法律实体，许可页 Required Notice 为 Copyright 2026 dusk bot，故 vendor 记 dusk bot。GitHub org DuskBotAI / 仓库 DuskBotAI/duskbot（创建 2026-11-05T20:43:18Z）。下载页与 GitHub 非预发布 **v0.2.21** / “dusk bot 0.2.21”（发布 2026-11-19T01:14:28Z）：macOS 12+ Apple silicon 与 Intel DMG、Windows 10/11 x64 installer、Ubuntu 24.04 x64 deb/AppImage。下载页写 mac 构建已签名公证，Windows 尚未代码签名。另有 dusk cloud 托管电脑、自建服务器与 Android APK / 手机访问，按目录范围不收录移动端；cloud/server 托管同一产品而非独立用户面向 Web 应用，不单列 Web。`duskbot serve` / `pair` / `mcp` 为自托管与集成命令，不是独立最终用户 CLI，不单列。官方 FAQ 明确 **不是开源**：PolyForm Noncommercial 1.0.0 源码可得，个人/非商业可用，工作/商业使用需另获许可；上游 openmausbot Apache-2.0 为第三方，不据此把 dusk bot 记为 OSI 开源。Product Hunt 2026-11-18 上线。Logo 使用官方品牌页 kit 标 https://dusk.bot/brand/bots/kit.svg（品牌页允许 kit 单独代替圆角方标 PNG）。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://dusk.bot",
+        "title": "dusk bot 官网：本机 bot 团队，使用已有模型订阅"
+      },
+      {
+        "url": "https://dusk.bot/download",
+        "title": "官方下载页：version 0.2.21；macOS 12+ / Windows 10–11 / Ubuntu 24.04"
+      },
+      {
+        "url": "https://dusk.bot/about",
+        "title": "官方 about：独立小团队；source-available；未列法律实体"
+      },
+      {
+        "url": "https://dusk.bot/docs/faq",
+        "title": "官方 FAQ：明确不是开源；PolyForm Noncommercial"
+      },
+      {
+        "url": "https://dusk.bot/license",
+        "title": "官方许可页：PolyForm Noncommercial 1.0.0；Copyright 2026 dusk bot"
+      },
+      {
+        "url": "https://github.com/DuskBotAI/duskbot",
+        "title": "官方仓库 DuskBotAI/duskbot"
+      },
+      {
+        "url": "https://github.com/DuskBotAI/duskbot/releases/tag/v0.2.21",
+        "title": "GitHub 非预发布 v0.2.21 / dusk bot 0.2.21（2026-11-19T01:14:28Z）"
+      },
+      {
+        "url": "https://github.com/DuskBotAI/duskbot/blob/main/LICENSE",
+        "title": "官方 LICENSE：PolyForm Noncommercial 1.0.0"
+      },
+      {
+        "url": "https://dusk.bot/brand",
+        "title": "官方品牌页：kit 可单独代替 Logo；提供 kit.svg"
+      },
+      {
+        "url": "https://dusk.bot/brand/bots/kit.svg",
+        "title": "官方品牌 kit.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-19"
+  },
+  "toone-desktop": {
+    "notes": "Matheus Paranhos（葡萄牙 sole trader / empresário em nome individual，trading as Toone，以 Hexagonal.io 品牌发布）出品的原生 macOS agentic 工作区：用自然语言描述重复工作，专职 agent 以可见 routine 图运行，可暂停、编辑与就地恢复；使用用户自有 Claude Code 或 Codex（Anthropic / OpenAI 订阅）及内置浏览器登录既有账户。本条仅桌面 GUI。官网 trytoone.com。官方 changelog 最新 **1.0.81**（2026-10-12）；此前 1.0.78（2026-10-01）。应用此前已有发行，本次收录对应 2026-11-18 Product Hunt 上线（此前不在目录）。条款：Mac App Store 版适用 Apple 标准 EULA，且 MAS 版处于 Early Access；另有 trytoone.com 直接下载（Toone Direct），/en/download 会转到创建账户。仅 macOS，未列出 Windows/Linux。未发现公开产品源码仓，专有软件，不写入 open-source.json。网站 Explore 与账户页不是独立 agent 工作区 Web 应用，不单列 Web。不收录移动端。免费账户可创建 2 条 routine，Toone Pro 为可选付费升级，不据此写入 commercial.json。Logo 使用官网 /assets/brand/toone-mark.svg 纯矢量。官网资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://trytoone.com",
+        "title": "Toone 官网：macOS agentic workflow 工作区"
+      },
+      {
+        "url": "https://trytoone.com/en/about",
+        "title": "官方 About：Matheus Paranhos，Portugal sole trader，trading as Toone / Hexagonal.io"
+      },
+      {
+        "url": "https://trytoone.com/en/terms",
+        "title": "官方条款：MAS Apple EULA 与 Direct 发行；Toone Pro；Early Access"
+      },
+      {
+        "url": "https://trytoone.com/en/journal/releases",
+        "title": "官方 changelog：最新 1.0.81（2026-10-12）；此前 1.0.78（2026-10-01）"
+      },
+      {
+        "url": "https://trytoone.com/assets/brand/toone-mark.svg",
+        "title": "官网 assets/brand/toone-mark.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-19"
+  },
+  "s-space-desktop": {
+    "notes": "AG2AI, Inc. 出品的 S.space（官方文档：S.space is the product, and S is the app）。Mac 应用内运行个人 agent Sutando（Claude Code 或 Codex），并与团队在 rooms 中协作。本条仅桌面 GUI。官网 s.space；欢迎页 https://s.space/welcome。下载页：macOS 12+，Apple Silicon 与 Intel 同一 universal DMG（https://download.s.space/mac/latest/S.space.dmg），自更新，写明 always the latest version，未公布 semver，不虚构版本。条款主体 AG2AI, Inc.（https://sutando.ag2.space/legal/terms），适用于 s.space 及其 apps、Sutando、Room Commons 与 cloud Sutando。欢迎页/新闻页点名联合创始人 Qingyun Wu（CEO）与 Chi Wang。官方发布日 2026-11-02（https://s.space/news）；Product Hunt 窗口内 2026-11-18 亮相，此前不在目录。Sutando 在应用内运行，不是已核验的独立桌面产品，不单列。iPhone 应用按目录范围不收录。sonichi/sutando 为 Sutando agent 开源仓（MIT，主页 sutando.ai），不是 S.space Mac/Web 客户端源码，故本条不写入 open-source.json。Web 形态见 s-space-web。Logo 使用官网 public/landing/assets/brand/sspace-mark.svg。官网/文档/下载页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://s.space/welcome",
+        "title": "S.space 欢迎页：团队与 agent 共享 rooms；AG2 联合创始人"
+      },
+      {
+        "url": "https://s.space/download",
+        "title": "官方下载页：macOS 12+ universal DMG；Sutando 跑在 Mac 应用内"
+      },
+      {
+        "url": "https://s.space/docs",
+        "title": "官方文档：S.space 是产品，S 是应用；always the latest version"
+      },
+      {
+        "url": "https://s.space/news",
+        "title": "官方发布：Introducing S.space，2026-11-02"
+      },
+      {
+        "url": "https://sutando.ag2.space/legal/terms",
+        "title": "官方条款：合同主体 AG2AI, Inc.；适用于 s.space 与 Sutando"
+      },
+      {
+        "url": "https://download.s.space/mac/latest/S.space.dmg",
+        "title": "官方 macOS 安装包 S.space.dmg（always latest；无公开 semver）"
+      },
+      {
+        "url": "https://github.com/sonichi/sutando",
+        "title": "Sutando agent 开源仓（MIT）；不是 S.space 客户端源码"
+      },
+      {
+        "url": "https://s.space/public/landing/assets/brand/sspace-mark.svg",
+        "title": "官网 public/landing/assets/brand/sspace-mark.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-19"
+  },
+  "s-space-web": {
+    "notes": "同一 S.space 产品的用户面向 Web 应用。官方下载页写明 “The web app at s.space is where you and your team meet.” 文档确认可在浏览器于 s.space 注册/使用；已核验 https://s.space/login。web_domains 记 s.space（已核验主机名，不等于完成登录测试）。营销路径 /welcome、/download、/docs 与应用共用该主机。账户设置另见 sutando.s.space，不把它推断为第二应用主机。无公开 semver。Sutando 需在 Mac 桌面应用内完成设置；仅连接其他 app 的 agent 可完全在 Web 上设置。不收录 iPhone。S.space 商业客户端源码未核验为允许的 OSI 开源，不写入 open-source.json。Logo 与桌面条共用官方 sspace-mark.svg。官网资料核验，未做登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://s.space/download",
+        "title": "官方下载页：The web app at s.space is where you and your team meet"
+      },
+      {
+        "url": "https://s.space/welcome",
+        "title": "官方欢迎页：可在 s.space 浏览器登录"
+      },
+      {
+        "url": "https://s.space/docs",
+        "title": "官方文档：Starting on the web；sign up at s.space in a browser"
+      },
+      {
+        "url": "https://s.space/login",
+        "title": "已核验 Web 登录入口 s.space/login（不代表完成登录测试）"
+      },
+      {
+        "url": "https://sutando.ag2.space/legal/terms",
+        "title": "官方条款：合同主体 AG2AI, Inc."
+      },
+      {
+        "url": "https://s.space/public/landing/assets/brand/sspace-mark.svg",
+        "title": "官网 public/landing/assets/brand/sspace-mark.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-19"
   }
 }

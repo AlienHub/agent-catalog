@@ -3,7 +3,7 @@
   "original_web_records": 168,
   "added_web_records": 5,
   "counts": {
-    "verified": 109,
+    "verified": 110,
     "unverified": 85,
     "self-hosted": 33
   },
@@ -4914,6 +4914,30 @@
         }
       ],
       "notes": "2026-11-18 新增已核验 Web 入口 lumo.proton.me。营销站 proton.me/lumo 不是应用主机。"
+    },
+    {
+      "id": "s-space-web",
+      "name": "S.space",
+      "website": "https://s.space",
+      "status": "verified",
+      "domains": [
+        "s.space"
+      ],
+      "sources": [
+        {
+          "url": "https://s.space/download",
+          "title": "官方下载页：The web app at s.space is where you and your team meet"
+        },
+        {
+          "url": "https://s.space/login",
+          "title": "已核验 Web 登录入口 s.space/login"
+        },
+        {
+          "url": "https://s.space/docs",
+          "title": "官方文档：Starting on the web；sign up at s.space in a browser"
+        }
+      ],
+      "notes": "2026-11-19 新增已核验 Web 入口 s.space。营销路径 /welcome、/download、/docs 与应用共用该主机；不把 sutando.s.space 推断为第二应用主机。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4935,5 +4959,6 @@
   "added_web_records_20261109": 1,
   "added_web_records_20261112": 1,
   "added_web_records_20261116": 3,
-  "added_web_records_20261118": 1
+  "added_web_records_20261118": 1,
+  "added_web_records_20261119": 1
 }
