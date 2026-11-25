@@ -3,9 +3,9 @@
   "original_web_records": 168,
   "added_web_records": 5,
   "counts": {
-    "verified": 79,
+    "verified": 110,
     "unverified": 85,
-    "self-hosted": 22
+    "self-hosted": 33
   },
   "scope": "All Web records structurally audited. Verified means official public entry evidence, not authenticated use or network-dependency coverage. Unverified remains an explicit gap.",
   "records": [
@@ -4838,6 +4838,84 @@
       "notes": "2026-11-12 新增自托管 Web；官网 kwant.si 不是统一公共应用域名。"
     },
     {
+      "id": "rakazo-web",
+      "name": "Rakazo",
+      "website": "https://rakazo.com",
+      "status": "verified",
+      "domains": [
+        "app.rakazo.com"
+      ],
+      "sources": [
+        {
+          "url": "https://app.rakazo.com",
+          "title": "托管 Web 应用主机 app.rakazo.com：标题 Rakazo"
+        },
+        {
+          "url": "https://github.com/elie222/rakazo/blob/main/README.md",
+          "title": "官方 README：https://app.rakazo.com 与自托管 127.0.0.1:5173"
+        }
+      ],
+      "notes": "2026-11-16 新增已核验 Web 入口 app.rakazo.com。Cloud 为 Beta；自托管实例无统一公共域名。"
+    },
+    {
+      "id": "caveman-code-web",
+      "name": "Caveman Code",
+      "website": "https://caveman.so",
+      "status": "verified",
+      "domains": [
+        "app.caveman.so"
+      ],
+      "sources": [
+        {
+          "url": "https://app.caveman.so/code/",
+          "title": "托管 Web 应用 app.caveman.so/code/：标题 Caveman Code"
+        },
+        {
+          "url": "https://caveman.so/download",
+          "title": "下载页：sign in 后也可在浏览器中使用"
+        }
+      ],
+      "notes": "2026-11-16 新增已核验 Web 入口 app.caveman.so。营销站 caveman.so 不是应用主机。"
+    },
+    {
+      "id": "timon-web",
+      "name": "Timon",
+      "website": "https://timon-ai.com/",
+      "status": "self-hosted",
+      "domains": [],
+      "sources": [
+        {
+          "url": "https://docs.timon-ai.com/installation/overview",
+          "title": "文档：桌面客户端或 Web 界面连接本机守护进程"
+        },
+        {
+          "url": "https://docs.timon-ai.com/installation/remote-access",
+          "title": "文档：Web 界面默认 127.0.0.1:3100；无统一公共域名"
+        }
+      ],
+      "notes": "2026-11-16 新增自托管/本机守护进程 Web；官网 timon-ai.com 不是统一公共应用域名。"
+    },
+    {
+      "id": "lumo-web",
+      "name": "Lumo",
+      "website": "https://proton.me/lumo",
+      "status": "verified",
+      "domains": [
+        "lumo.proton.me"
+      ],
+      "sources": [
+        {
+          "url": "https://proton.me/lumo",
+          "title": "Lumo 官方产品页"
+        },
+        {
+          "url": "https://lumo.proton.me/",
+          "title": "已核验 Web 应用主机 lumo.proton.me"
+        }
+      ],
+      "notes": "2026-11-18 新增已核验 Web 入口 lumo.proton.me。营销站 proton.me/lumo 不是应用主机。"
+    },
+    {
       "id": "s-space-web",
       "name": "S.space",
       "website": "https://s.space",
@@ -4880,5 +4958,7 @@
   "added_web_records_20261106": 2,
   "added_web_records_20261109": 1,
   "added_web_records_20261112": 1,
+  "added_web_records_20261116": 3,
+  "added_web_records_20261118": 1,
   "added_web_records_20261119": 1
 }

@@ -790,9 +790,46 @@ Logo：Nod / Linger 使用官方仓库 SVG；Ducter 使用官方 PNG；Mimzie �
 
 Logo：Buzz / kwant 使用官方仓库纯矢量 SVG。
 
+## v0.49 Grok Bot 与 YouArt Desktop（2026-11-13）
+
+新增 2 条应用、2 个产品，目录共 581 条应用、400 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.48 / `main` @ `3976b69`（#37 已合入）。未改 `schema.json` 与供应商分类。
+
+- Grok Bot 桌面端（SpaceXSI / vendor_id `xai`）：团队 AI 队友，与已收录 grok.com 聊天助手 `grok` 分产品。官方下载稳定构建 **1.0.3**（macOS / Windows / Linux）。专有。仅 GUI；不单列 Slack/Teams/会议渠道或手机端。
+- YouArt 桌面端（Formative Intelligence Inc.）：创意桌面 Agent，官方下载 **v0.3.20**（macOS / Windows）。专有。仅 GUI；未核验独立 Web 应用形态。
+
+Logo：Grok Bot 使用 Lobe Icons `grokbot.svg`；YouArt 官方 SVG 使用条款限制再分发，空 `icon`。
+
+## v0.50 Rakazo、Caveman Code 与 Timon（2026-11-16）
+
+新增 6 条应用、3 个产品，目录共 587 条应用、403 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.49 / `main` @ `ec92302`（#38 已合入）。未改 `schema.json` 与供应商分类。
+
+- Rakazo 桌面端与托管 Web（Inbox Zero Inc.）：开源 Grok Bot 替代品。GitHub 非预发布 **v0.11.0**（2026-11-12）。Apache-2.0。不单列 IM 渠道或 iOS/Android。
+- Caveman Code 桌面端与托管 Web（Caveman Labs, Inc.）：编程 Agent 应用。官方 latest-mac.yml **0.1.5**。专有；不把旧开源 Caveman CLI 当作本产品。仅 macOS 桌面；Windows / 终端应用未发布。
+- Timon 桌面端与自托管 Web（PUBLIKO, SASU）：本机编程 Agent 工作站。GitHub 非预发布 **v0.1.8**（2026-11-15）。AGPL-3.0。不单列第三方 CLI、`timon` 诊断命令或移动 PWA。
+
+Logo：三款均无适合再分发的方形官方 SVG，空 `icon`。
+
+## v0.51 CopilotKit OpenBot（2026-11-17）
+
+新增 1 条应用、1 个产品，目录共 588 条应用、404 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.50 / `main` @ `bc24278`（#39 已合入）。未改 `schema.json` 与供应商分类。
+
+- OpenBot 桌面端（CopilotKit）：自托管通用任务 Agent 工作区。GitHub 非预发布 **v1.0.3**（2026-11-14）。MIT。仅 GUI（macOS / Windows）；不单列 Coming soon 的 Web、early access 的 iOS/Android/Slack/Teams/Business。与 Nightly Labs OpenBot（`openbot-desktop`）及 CopilotKit OpenMuse / OpenDuet 分产品。不把预发布 v1.1.0-rc.1 当作产品版本。
+
+Logo：无 CopilotKit OpenBot 专属可再分发 SVG，空 `icon`。
+
+## v0.52 日更（2026-11-18）
+
+新增 4 条应用、2 个产品，目录共 592 条应用、406 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.51 / `main` @ `5d4abb2`（#40 已合入）。未改 `schema.json` 与供应商分类。
+
+- Kilo Desktop（Kilo Code）：已有产品 `kilo-code` 的新 GUI 形态。官方 2026-11-17 GA。GitHub 非预发布 **v1.0.0**（2026-11-17）。独立仓库 Kilo-Org/kilo-desktop，**OCVSAL-1.0** source-available，不把 kilocode MIT 外推到桌面。macOS（仅 Apple Silicon）/ Windows / Linux。不单列 Cloud / Slack / Mobile / JetBrains。
+- Lumo 桌面端与 Web（Proton AG）：隐私优先 AI 助手。桌面 GitHub **0.5.9**（2026-11-17，GPL-3.0-only，目录记 source-available）。Web 主机 lumo.proton.me。不收录 iOS/Android。
+- Hako 桌面端（Eugeniu Vozoca）：本机 herdr Agent 控制面，仅 macOS 15+。免费、无需账户。未找到官方公开仓库或可核验版本号。不收录 iOS/iPad/Watch，不把官方「very soon」的 Windows/Linux/Android 写入 platforms。
+
+Logo：Kilo Desktop 复用已有 `kilo-code.svg`；Lumo 使用 Proton WebClients 官方 Lumo favicon.svg；Hako 无纯矢量 SVG，空 `icon`。
+
 ## v0.53 dusk bot、Toone 与 S.space（2026-11-19）
 
-新增 4 条应用、3 个产品，目录共 583 条应用、401 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.48 / `main` @ `3976b69`（#37 已合入）。未吸收开放草稿 #38–#41（已占用 v0.49–0.52）。未改 `schema.json` 与供应商分类。
+新增 4 条应用、3 个产品，目录共 596 条应用、409 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.52 / `main` @ `d4f77c4`（#41 已合入）。未改 `schema.json` 与供应商分类。
 
 - dusk bot 桌面端（dusk bot / GitHub DuskBotAI）：本机多 bot 团队，使用用户已有模型订阅。GitHub 非预发布 **v0.2.21**（2026-11-19）。PolyForm Noncommercial 1.0.0，记 **source-available**（官方 FAQ 明确不是开源）。仅 GUI；不单列 dusk cloud、自托管、`duskbot` 命令或 Android。
 - Toone 桌面端（Matheus Paranhos, trading as Toone）：原生 macOS agentic workflow 工作区。官方 changelog **1.0.81**（2026-10-12）。专有；仅 macOS。不单列网站账户/Explore。

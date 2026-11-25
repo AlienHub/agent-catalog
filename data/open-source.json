@@ -4919,6 +4919,210 @@
     ],
     "classification": "application"
   },
+  "rakazo-desktop": {
+    "repository_url": "https://github.com/elie222/rakazo",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/elie222/rakazo/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-16",
+      "github_archived": false,
+      "last_push_at": "2026-11-16T01:24:28Z"
+    },
+    "notes": "本次核验上游主分支 LICENSE 为 Apache-2.0（Copyright 2026 Rakazo contributors；GitHub SPDX Apache-2.0）。结论仅限已核查的 elie222/rakazo 桌面/服务源码，不外推所连接的 Claude / ChatGPT / OpenRouter 或第三方沙箱。维护状态参考公开非预发布 v0.11.0，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/elie222/rakazo/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://github.com/elie222/rakazo",
+        "title": "官方仓库与桌面发行"
+      }
+    ],
+    "classification": "application"
+  },
+  "rakazo-web": {
+    "repository_url": "https://github.com/elie222/rakazo",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/elie222/rakazo/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-16",
+      "github_archived": false,
+      "last_push_at": "2026-11-16T01:24:28Z"
+    },
+    "notes": "与 rakazo-desktop 同一 Apache-2.0 仓库的托管/自托管 Web UI。结论仅限已核查的 elie222/rakazo 源码，不外推所连接的第三方模型或手机客户端。维护状态参考公开非预发布 v0.11.0，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/elie222/rakazo/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://github.com/elie222/rakazo",
+        "title": "官方仓库"
+      }
+    ],
+    "classification": "application"
+  },
+  "timon-desktop": {
+    "repository_url": "https://github.com/ai-timon/timon",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/ai-timon/timon/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-16",
+      "github_archived": false,
+      "last_push_at": "2026-11-15T20:37:21Z"
+    },
+    "notes": "本次核验上游主分支 LICENSE 为 GNU AGPL v3（GitHub SPDX AGPL-3.0；LICENSING.md 写 AGPL-3.0-only，另对插件有额外许可）。结论仅限已核查的 ai-timon/timon 桌面/守护进程源码，不外推 packages/sdk 与 examples 的 MIT，也不外推所连接的 Claude Code / Codex 等第三方 CLI。维护状态参考公开非预发布 v0.1.8，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/ai-timon/timon/blob/main/LICENSE",
+        "title": "官方 LICENSE：AGPL-3.0"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon/blob/main/LICENSING.md",
+        "title": "LICENSING.md：应用 AGPL-3.0-only；SDK/模板 MIT"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon",
+        "title": "官方仓库与桌面发行"
+      }
+    ],
+    "classification": "application"
+  },
+  "timon-web": {
+    "repository_url": "https://github.com/ai-timon/timon",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/ai-timon/timon/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-16",
+      "github_archived": false,
+      "last_push_at": "2026-11-15T20:37:21Z"
+    },
+    "notes": "与 timon-desktop 同一 AGPL-3.0 仓库的本机/自托管 Web UI。结论仅限已核查的 ai-timon/timon 源码，不外推所连接的第三方 CLI 或手机浏览器访问。维护状态参考公开非预发布 v0.1.8，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/ai-timon/timon/blob/main/LICENSE",
+        "title": "官方 LICENSE：AGPL-3.0"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon",
+        "title": "官方仓库"
+      }
+    ],
+    "classification": "application"
+  },
+  "copilotkit-openbot-desktop": {
+    "repository_url": "https://github.com/CopilotKit/OpenBot",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/CopilotKit/OpenBot/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-17",
+      "github_archived": false,
+      "last_push_at": "2026-11-17T01:23:42Z"
+    },
+    "notes": "本次核验上游主分支 LICENSE 为 MIT（Copyright (c) 2026 CopilotKit；GitHub SPDX MIT）。结论仅限已核查的 CopilotKit/OpenBot 应用源码，不外推 CopilotKit Intelligence（独立许可）、所连接的第三方 Agent SDK / 模型供应商，也不外推 Nightly Labs openbot（PolyForm Noncommercial）。维护状态参考公开非预发布 v1.0.3 与现行文档，非仅依据 push 时间或后续预发布 tag v1.1.0-rc.1。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/CopilotKit/OpenBot/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenBot",
+        "title": "官方仓库与桌面发行"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenBot/blob/main/README.md",
+        "title": "官方 README：应用模板 MIT；Intelligence 独立许可"
+      }
+    ],
+    "classification": "application"
+  },
+  "kilo-code-desktop": {
+    "repository_url": "https://github.com/Kilo-Org/kilo-desktop",
+    "source_model": "source-available",
+    "license": "OCVSAL-1.0",
+    "license_url": "https://github.com/Kilo-Org/kilo-desktop/blob/main/LICENSE.md",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-18",
+      "github_archived": false,
+      "last_push_at": "2026-11-18T01:17:43Z"
+    },
+    "notes": "桌面源码在独立仓库 Kilo-Org/kilo-desktop，不是 Kilo-Org/kilocode。LICENSE.md 为 Open Core Ventures Source Available License (OCVSAL) version 1.0：生产使用需版权方商业协议；可修改、测试并发布修改，但版权仍归版权方（Copyright 2026-present Anaconda, Inc.）。GitHub SPDX Other/NOASSERTION。不能记为 OSI MIT，也不把 kilocode 的 MIT 外推到本条。维护状态参考公开非预发布 v1.0.0，非仅依据 push 时间或后续 preview tag。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/Kilo-Org/kilo-desktop/blob/main/LICENSE.md",
+        "title": "官方 LICENSE.md：OCVSAL 1.0"
+      },
+      {
+        "url": "https://github.com/Kilo-Org/kilo-desktop",
+        "title": "官方桌面仓库与 v1.0.0 发行"
+      }
+    ],
+    "classification": "application"
+  },
+  "lumo-desktop": {
+    "repository_url": "https://github.com/ProtonLumo/lumo-desktop",
+    "source_model": "source-available",
+    "license": "GPL-3.0",
+    "license_url": "https://github.com/ProtonLumo/lumo-desktop/blob/master/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-18",
+      "github_archived": false,
+      "last_push_at": "2026-11-17T09:39:17Z"
+    },
+    "notes": "package.json 写 GPL-3.0-only，根 LICENSE 为 GNU GPL v3，GitHub SPDX GPL-3.0。不在本目录 open-source 允许的 OSI 表达式（MIT / Apache-2.0 / AGPL-3.0 / GPL-3.0-or-later）内，故记 source-available。结论仅限已核查的 ProtonLumo/lumo-desktop 桌面源码，不外推所连接的 MCP 服务、Proton Mail Bridge 或托管模型。维护状态参考 0.5.9 发布合并提交，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop/blob/master/LICENSE",
+        "title": "官方 LICENSE：GNU GPL v3"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop/blob/master/package.json",
+        "title": "package.json：license GPL-3.0-only"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop",
+        "title": "官方仓库"
+      }
+    ],
+    "classification": "application"
+  },
+  "lumo-web": {
+    "repository_url": "https://github.com/ProtonMail/WebClients",
+    "source_model": "source-available",
+    "license": "GPL-3.0",
+    "license_url": "https://github.com/ProtonMail/WebClients/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-18",
+      "github_archived": false,
+      "last_push_at": "2026-11-17T20:16:50Z"
+    },
+    "notes": "Lumo Web 客户端位于 ProtonMail/WebClients 的 applications/lumo。根 LICENSE 为 GNU GPL v3（GitHub SPDX GPL-3.0），不在本目录 open-source 允许的 OSI 表达式内，故记 source-available。结论仅限已核查的 applications/lumo 目录，不外推同仓 Proton Mail / Calendar / Drive / VPN 或其他客户端，也不外推托管 lumo.proton.me 运行时。维护状态参考公开仓库现行推送，非产品版本证明。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/ProtonMail/WebClients/blob/main/LICENSE",
+        "title": "WebClients 根 LICENSE：GNU GPL v3"
+      },
+      {
+        "url": "https://github.com/ProtonMail/WebClients/tree/main/applications/lumo",
+        "title": "applications/lumo Web 客户端目录"
+      }
+    ],
+    "classification": "application"
+  },
   "dusk-bot-desktop": {
     "repository_url": "https://github.com/DuskBotAI/duskbot",
     "source_model": "source-available",

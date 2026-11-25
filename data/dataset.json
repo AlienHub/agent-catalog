@@ -14883,6 +14883,337 @@
     "web_domain_verified_at": ""
   },
   {
+    "id": "grok-bot-desktop",
+    "name": "Grok Bot",
+    "aliases": [],
+    "vendor": "SpaceXSI",
+    "type": "通用任务 Agent",
+    "website": "https://x.ai/bot",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/grok-bot.svg",
+    "vendor_id": "xai",
+    "product_id": "grok-bot",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已核验SVG · Lobe Icons",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "youart-desktop",
+    "name": "YouArt",
+    "aliases": [
+      "YouArt Desktop",
+      "YouArt Desktop App"
+    ],
+    "vendor": "Formative Intelligence Inc.",
+    "type": "设计创作",
+    "website": "https://youart.ai/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "formative-intelligence",
+    "product_id": "youart",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "rakazo-desktop",
+    "name": "Rakazo",
+    "aliases": [],
+    "vendor": "Inbox Zero Inc.",
+    "type": "通用任务 Agent",
+    "website": "https://rakazo.com",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "inbox-zero",
+    "product_id": "rakazo",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：官方品牌页仅提供横向 wordmark SVG 与 PNG 图标，无适合目录的方形产品标矢量",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "rakazo-web",
+    "name": "Rakazo",
+    "aliases": [],
+    "vendor": "Inbox Zero Inc.",
+    "type": "通用任务 Agent",
+    "website": "https://rakazo.com",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "inbox-zero",
+    "product_id": "rakazo",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：官方品牌页仅提供横向 wordmark SVG 与 PNG 图标，无适合目录的方形产品标矢量",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.rakazo.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-16"
+  },
+  {
+    "id": "caveman-code-desktop",
+    "name": "Caveman Code",
+    "aliases": [],
+    "vendor": "Caveman Labs, Inc.",
+    "type": "AI 编程",
+    "website": "https://caveman.so",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "caveman-labs",
+    "product_id": "caveman-code",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到可再分发的官方/Lobe/Simple Icons/svgl 纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "caveman-code-web",
+    "name": "Caveman Code",
+    "aliases": [],
+    "vendor": "Caveman Labs, Inc.",
+    "type": "AI 编程",
+    "website": "https://caveman.so",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "caveman-labs",
+    "product_id": "caveman-code",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到可再分发的官方/Lobe/Simple Icons/svgl 纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "app.caveman.so"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-16"
+  },
+  {
+    "id": "timon-desktop",
+    "name": "Timon",
+    "aliases": [],
+    "vendor": "PUBLIKO, SASU",
+    "type": "智能体与工作流",
+    "website": "https://timon-ai.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "",
+    "vendor_id": "publiko",
+    "product_id": "timon",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：官网法律声明禁止未经许可复制 Timon 名称与 Logo",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "timon-web",
+    "name": "Timon",
+    "aliases": [],
+    "vendor": "PUBLIKO, SASU",
+    "type": "智能体与工作流",
+    "website": "https://timon-ai.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "publiko",
+    "product_id": "timon",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：官网法律声明禁止未经许可复制 Timon 名称与 Logo",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "self-hosted",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "copilotkit-openbot-desktop",
+    "name": "OpenBot",
+    "aliases": [
+      "CopilotKit OpenBot"
+    ],
+    "vendor": "CopilotKit",
+    "type": "通用任务 Agent",
+    "website": "https://open.bot/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "copilotkit",
+    "product_id": "copilotkit-openbot",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：OpenBot 有独立产品标，官方仓库桌面图标仅为 PNG/ICO/ICNS、官网 OG 为 PNG；Lobe Icons / Simple Icons / svgl 无 CopilotKit OpenBot 专属 SVG；不套用 CopilotKit 厂商标识，也不使用 Nightly Labs openbot.svg",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "kilo-code-desktop",
+    "name": "Kilo Desktop",
+    "aliases": [
+      "Kilo"
+    ],
+    "vendor": "Kilo Code",
+    "type": "AI 编程",
+    "website": "https://kilo.ai/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/kilo-code.svg",
+    "vendor_id": "kilo-code",
+    "product_id": "kilo-code",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "lumo-desktop",
+    "name": "Lumo",
+    "aliases": [
+      "Lumo Desktop",
+      "Lumo AI"
+    ],
+    "vendor": "Proton AG",
+    "type": "通用任务 Agent",
+    "website": "https://proton.me/lumo",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/lumo.svg",
+    "vendor_id": "proton",
+    "product_id": "lumo",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "lumo-web",
+    "name": "Lumo",
+    "aliases": [
+      "Lumo AI"
+    ],
+    "vendor": "Proton AG",
+    "type": "通用助手",
+    "website": "https://proton.me/lumo",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/lumo.svg",
+    "vendor_id": "proton",
+    "product_id": "lumo",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "lumo.proton.me"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-18"
+  },
+  {
+    "id": "hako-desktop",
+    "name": "Hako",
+    "aliases": [
+      "Hako for Mac"
+    ],
+    "vendor": "Eugeniu Vozoca",
+    "type": "AI 编程",
+    "website": "https://hako.md/",
+    "platforms": [
+      "macOS"
+    ],
+    "icon": "",
+    "vendor_id": "hako",
+    "product_id": "hako",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
     "id": "dusk-bot-desktop",
     "name": "dusk bot",
     "aliases": [
