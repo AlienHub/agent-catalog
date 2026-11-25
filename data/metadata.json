@@ -6,7 +6,7 @@
   "providerCatalogScope": "Operating LLM API provider and relay-station sites only, in three product categories: model-vendor, third-party (commercial aggregators / cloud MaaS / inference hosts, not relays), and relay (community/grey/personal). Listing is not endorsement. Open-source backends such as one-api/new-api are detected attributes, not catalog entries.",
   "source": "Agent Atlas verified application catalog; 2026-11-17 add CopilotKit OpenBot desktop (1 record / 1 product; 580 records / 399 products; 237 SVG files / 92 PNG files after update; based on v0.48 @ 3976b69 after #37). Open drafts #38 (v0.49) and #39 (v0.50) were not used as base and are not duplicated. Provider catalog unchanged (170 providers, 3-type taxonomy).",
   "verificationScope": "Official website/source review; not an installation or availability test",
-  "sourceCommit": "3976b69d448d9b7fe3d38e41f06121cabdf90cc2",
+  "sourceCommit": "bc2427840c2994c68c7709fcd21192e934993329",
   "openSourceMetadataScope": "Verified per record ID; missing metadata means unverified, not closed-source. Repository pushes do not prove maintenance.",
   "interactionModel": "One independent application record per interaction form: GUI, CLI, IDE 插件, Web, 浏览器插件, 小程序. IM is a channel; DingTalk embedded AI capabilities belong to its GUI application.",
   "applicationScope": "Desktop and browser applications; mobile-only records excluded. Existing mini programs retained.",
