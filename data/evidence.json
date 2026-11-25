@@ -13181,6 +13181,982 @@
     ],
     "verified_at": "2026-11-12"
   },
+  "grok-bot-desktop": {
+    "notes": "SpaceXSI（官网与消费者条款使用 SpaceX Super Intelligence LLC / SpaceXSI；about 时间线 2026-02-02 记 xAI joins SpaceX）出品的团队 AI 队友 Grok Bot，与已收录 grok.com 聊天助手 `grok` 不是同一产品，本条不改该记录。本条仅桌面 GUI。官方产品页 x.ai/bot；新闻稿宣布 **Grok Bot 1.0** 公开上市（相对 beta）。官方下载页 cursor.com/download/bot 当前稳定构建 **1.0.3**：macOS Apple silicon / Intel DMG、Windows x64 / ARM64 Setup.exe、Linux x64 / ARM64 deb / rpm / AppImage。changelog 页当时列出 Latest v1.0.1（2026-11-11，Also includes 1.0.0）；以下载页实际文件名为准。文档写明 macOS（Apple silicon 与 Intel）、Windows（x64 与 Arm64）、Linux（x64 与 Arm64）。Slack / Microsoft Teams / Google Meet / Zoom / X 为渠道，不单列。iPhone / Android 按目录范围不收录。x.ai/bot 与 docs.x.ai 为产品与文档站，未核验独立托管 Web 应用，不单列 Web。登录使用 Cursor 账户 / Cursor SSO，亦可 Sign in with Grok；下载在 cursor.com / downloads.cursor.com，不把 Cursor 写成产品厂商。无公开应用源码仓，不写入 open-source.json。Logo 使用 Lobe Icons grokbot.svg（MIT），不复用已有 grok.svg，亦未收录 SpaceXSI 品牌指南官方包（商标使用条款，不视为可再分发）。官网/文档/下载页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://x.ai/bot",
+        "title": "Grok Bot 官方产品页：桌面与手机下载入口；Slack 渠道与 Cursor SSO FAQ"
+      },
+      {
+        "url": "https://x.ai/news/grok-bot-1-0",
+        "title": "官方新闻：Introducing Grok Bot 1.0"
+      },
+      {
+        "url": "https://cursor.com/download/bot",
+        "title": "官方下载页：macOS / Windows / Linux；当前稳定构建 1.0.3"
+      },
+      {
+        "url": "https://docs.x.ai/grok-bot/get-started",
+        "title": "官方文档：安装桌面应用、支持系统、Cursor 登录与计划"
+      },
+      {
+        "url": "https://x.ai/changelog/bot",
+        "title": "Grok Bot changelog：当时 Latest v1.0.1（2026-11-11）"
+      },
+      {
+        "url": "https://x.ai/legal/terms-of-service",
+        "title": "消费者条款：运营主体 SpaceX Super Intelligence LLC（SpaceXSI）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/grokbot.svg",
+        "title": "Lobe Icons grokbot.svg 产品图标"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-11-13"
+  },
+  "youart-desktop": {
+    "notes": "Formative Intelligence Inc.（隐私政策与服务条款：特拉华州公司，运营 YouArt）出品的创意桌面 Agent YouArt Desktop。本条仅桌面 GUI。官方下载页 https://youart.ai/download 当前 **v0.3.20**：macOS Apple Silicon、macOS Intel、Windows x64（未列出 Linux）。Product Hunt 2026-11-12 以 “YouArt Desktop App / Codex for creative team” 发布；官方/PH 文案称 computer use 可操作 After Effects、CapCut、Blender。官网 youart.ai 主要为营销与模型介绍；探测 /app、/studio、/login、app.youart.ai 等未得到可核验独立托管 Web 应用入口，不单列 Web。GitHub org youart-open-source 现为提示词/素材仓（awesome-gpt-image-2-5-prompts），不是桌面应用源码，不写入 open-source.json。官方品牌指南提供 YouArt-mark-on-dark.svg / YouArt-mark-on-light.svg，但 Usage rights 限制再分发（approved creator/campaign use；do not resell or redistribute as standalone downloads），故保持空 icon。官网/下载页/隐私政策资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://youart.ai/",
+        "title": "YouArt 官网"
+      },
+      {
+        "url": "https://youart.ai/download",
+        "title": "官方桌面下载：macOS Apple Silicon / Intel 与 Windows，v0.3.20"
+      },
+      {
+        "url": "https://youart.ai/privacy-policy",
+        "title": "隐私政策：运营主体 Formative Intelligence Inc.；YouArt Desktop 本地文件夹访问"
+      },
+      {
+        "url": "https://youart.ai/terms-of-service",
+        "title": "服务条款：YouArt is a product of Formative Intelligence Inc."
+      },
+      {
+        "url": "https://youart.ai/brand-guidelines",
+        "title": "官方品牌指南：SVG 标志存在，但 Usage rights 限制再分发"
+      },
+      {
+        "url": "https://www.producthunt.com/products/youart",
+        "title": "Product Hunt：YouArt Desktop App（2026-11-12）"
+      }
+    ],
+    "verified_at": "2026-11-13"
+  },
+  "rakazo-desktop": {
+    "notes": "Inbox Zero Inc. 出品的开源 Grok Bot 替代品 Rakazo：持久 AI 队友，可自托管或连接托管实例。本条仅桌面 GUI。官方仓库 elie222/rakazo。GitHub 非预发布 **v0.11.0** / “Rakazo v0.11.0”（发布 2026-11-12T14:44:13Z）：macOS universal zip/dmg、Windows Rakazo-Setup-0.11.0.exe（同 Release 的 latest.yml 确认）、Linux AppImage。官网下载页亦列 macOS / Windows / Linux。Slack / Microsoft Teams / iMessage / WhatsApp / Telegram 为渠道，不单列。不收录 iOS/Android / Expo。托管 Web 与自托管 Web UI 见 rakazo-web。根 LICENSE 为 Apache-2.0（Copyright 2026 Rakazo contributors）。官方品牌页（rakazo.com/brand）仅有横向 wordmark SVG 与 PNG Logo/App icon，无适合目录的方形产品标矢量，且 Apache-2.0 不授予商标许可，icon 留空。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://rakazo.com",
+        "title": "Rakazo 官网：开源自托管 Grok Bot 替代品"
+      },
+      {
+        "url": "https://rakazo.com/about",
+        "title": "About：Inbox Zero Inc. 维护；hello@rakazo.com；Apache-2.0"
+      },
+      {
+        "url": "https://rakazo.com/download",
+        "title": "官方下载页：macOS / Windows / Linux / 移动 / Web"
+      },
+      {
+        "url": "https://github.com/elie222/rakazo",
+        "title": "官方仓库 elie222/rakazo；Apache-2.0"
+      },
+      {
+        "url": "https://github.com/elie222/rakazo/blob/main/README.md",
+        "title": "官方 README：桌面 Electron、Web、自托管与渠道"
+      },
+      {
+        "url": "https://github.com/elie222/rakazo/releases/tag/v0.11.0",
+        "title": "GitHub 非预发布 v0.11.0 / Rakazo v0.11.0（2026-11-12T14:44:13Z）"
+      },
+      {
+        "url": "https://github.com/elie222/rakazo/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0（Copyright 2026 Rakazo contributors）"
+      },
+      {
+        "url": "https://rakazo.com/brand",
+        "title": "官方品牌页：大写 R 文本名；wordmark 为小写；仅 wordmark SVG 与 PNG"
+      }
+    ],
+    "verified_at": "2026-11-16"
+  },
+  "rakazo-web": {
+    "notes": "同一 Rakazo 产品的 Web 形态。已核验托管应用主机 **app.rakazo.com**（页面标题 Rakazo，描述 Your team of always-on agents；官方 README 写 Use it on the web）。官网将 Cloud 标为 Beta；自托管为 GA 免费：Docker 安装后打开 http://127.0.0.1:5173。本条 web_domains 仅记已核验公共应用主机 app.rakazo.com，web_domain_status=verified；自托管实例无统一公共主机。版本与桌面条相同：**v0.11.0** / GitHub **v0.11.0**（2026-11-12）。不把手机浏览器访问写成独立移动应用。Logo 与桌面条同样缺失方形产品标。官网/仓库资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://app.rakazo.com",
+        "title": "托管 Web 应用主机 app.rakazo.com：标题 Rakazo"
+      },
+      {
+        "url": "https://rakazo.com",
+        "title": "官网：Cloud 为 Beta；自托管免费"
+      },
+      {
+        "url": "https://rakazo.com/download",
+        "title": "官方下载页含 Web"
+      },
+      {
+        "url": "https://github.com/elie222/rakazo",
+        "title": "官方仓库：Web 与自托管 UI"
+      },
+      {
+        "url": "https://github.com/elie222/rakazo/blob/main/README.md",
+        "title": "官方 README：https://app.rakazo.com 与 127.0.0.1:5173"
+      },
+      {
+        "url": "https://github.com/elie222/rakazo/releases/tag/v0.11.0",
+        "title": "GitHub 非预发布 v0.11.0 / Rakazo v0.11.0（2026-11-12）"
+      },
+      {
+        "url": "https://github.com/elie222/rakazo/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      }
+    ],
+    "verified_at": "2026-11-16"
+  },
+  "caveman-code-desktop": {
+    "notes": "Caveman Labs, Inc.（Delaware）出品的编程 Agent 应用 Caveman Code：同一窗口并排运行 Claude Agent、Codex、Cursor 与内置 Caveman agent。本条仅桌面 GUI。无官方应用源码仓；https://github.com/JuliusBrussee/caveman 与 npm @caveman-ai/cli 为更早的开源 CLI 包装器，不是本产品，不作为本条开源元数据。官方下载页提供 macOS 13+ Apple silicon（Caveman-Code-arm64.dmg）与 Intel（Caveman-Code-x64.dmg）；Windows 标 Coming soon，不写入 platforms。下载页正文未写版本号；官方下载主机 download.caveman.so 的 latest-mac.yml 公布 **version: 0.1.5**（releaseDate 2026-11-13T16:50:40.828Z），Caveman-Code-0.1.5-arm64.dmg 大小与公开 Caveman-Code-arm64.dmg 一致。终端应用标 coming soon，不单列 CLI。Cloud computers 为 beta，不另建形态。法律页写明 Caveman Code is proprietary software, not open source。未找到可再分发的官方/Lobe/Simple Icons/svgl 纯矢量 SVG（站点 favicon.svg 未附再分发授权），icon 留空。官网/下载页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://caveman.so",
+        "title": "Caveman 官网：Caveman Code 为 Mac 与浏览器应用"
+      },
+      {
+        "url": "https://caveman.so/download",
+        "title": "官方下载页：macOS 13+ arm64/x64 DMG；Windows Coming soon"
+      },
+      {
+        "url": "https://caveman.so/news/introducing-caveman-code",
+        "title": "官方发布文 Introducing Caveman Code（标注 2026-11-12）"
+      },
+      {
+        "url": "https://caveman.so/legal",
+        "title": "Legal：Caveman Labs, Inc.；Caveman Code 为专有软件"
+      },
+      {
+        "url": "https://caveman.so/terms",
+        "title": "Terms of Service：Caveman Labs, Inc., a Delaware corporation"
+      },
+      {
+        "url": "https://download.caveman.so/code/mac/Caveman-Code-arm64.dmg",
+        "title": "官方 Apple silicon 安装包 Caveman-Code-arm64.dmg"
+      },
+      {
+        "url": "https://download.caveman.so/code/mac/latest-mac.yml",
+        "title": "官方 auto-update 清单 latest-mac.yml：version 0.1.5（2026-11-13）"
+      },
+      {
+        "url": "https://caveman.so/about",
+        "title": "About：创始人 Julius Brussee；厂商为 Caveman Labs, Inc.，不用人名作 vendor"
+      }
+    ],
+    "verified_at": "2026-11-16"
+  },
+  "caveman-code-web": {
+    "notes": "同一 Caveman Code 产品的托管 Web 形态。官方称 Mac 应用也可在浏览器中于登录后使用。已核验应用主机 **app.caveman.so**（/ 重定向至 /code/，页面标题 Caveman Code；注册/登录入口 /signup、/login）。本条 web_domains=[\"app.caveman.so\"]，web_domain_status=verified。Caveman Cloud 控制台同主机但不是本产品，不单列。Web 应用页面未公布独立版本号；与桌面条对照官方 latest-mac.yml **0.1.5**。不收录移动客户端。Logo 与桌面条同样缺失可再分发 SVG。官网/应用主机资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://app.caveman.so/code/",
+        "title": "托管 Web 应用 app.caveman.so/code/：标题 Caveman Code"
+      },
+      {
+        "url": "https://app.caveman.so/signup",
+        "title": "官方注册入口 app.caveman.so/signup"
+      },
+      {
+        "url": "https://caveman.so",
+        "title": "官网：在浏览器中运行 Caveman Code"
+      },
+      {
+        "url": "https://caveman.so/download",
+        "title": "下载页：sign in 后也可在浏览器中使用"
+      },
+      {
+        "url": "https://caveman.so/news/introducing-caveman-code",
+        "title": "官方发布文：今日可在 Mac 与浏览器使用"
+      },
+      {
+        "url": "https://caveman.so/legal",
+        "title": "Legal：Caveman Code 为专有软件"
+      },
+      {
+        "url": "https://download.caveman.so/code/mac/latest-mac.yml",
+        "title": "官方 latest-mac.yml：version 0.1.5"
+      }
+    ],
+    "verified_at": "2026-11-16"
+  },
+  "timon-desktop": {
+    "notes": "PUBLIKO, SASU（法国；RCS Béziers 893 220 756）出品的本机 AI 编程 Agent 工作站 Timon：在一个窗口协调 Claude Code、Codex、Grok、GitHub Copilot、opencode、Hermes 等已有 CLI，含编排器、Kanban 与 git worktree。本条仅桌面 GUI。官方仓库 ai-timon/timon。GitHub 非预发布 **v0.1.8** / “Timon 0.1.8”（发布 2026-11-15T16:50:11Z）：Timon-0.1.8-arm64.dmg / .pkg、Timon-0.1.8.AppImage、timon-desktop_0.1.8_amd64.deb、Timon.Setup.0.1.8.exe。README 写 macOS 11+ Apple silicon，无 Intel 安装包，不声称 Intel。Linux / Windows / macOS。发行说明写明安装包尚未代码签名，Windows SmartScreen 警告为预期，仍为桌面产品。所连接的第三方 CLI 不是 Timon 形态。`timon doctor` / `timon service` 等为服务与诊断命令，不是独立最终用户 CLI，不单列。Telegram 为渠道。移动 PWA 标 Soon，不收录。根 LICENSE 为 GNU AGPL v3（LICENSING.md 写 AGPL-3.0-only；SDK 与插件模板为 MIT，不外推为本应用许可）。法律声明与 TRADEMARKS.md 禁止未经许可复制名称与 Logo，icon 留空。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://timon-ai.com/",
+        "title": "Timon 官网：Agentic Workstation for AI Coding Agents"
+      },
+      {
+        "url": "https://timon-ai.com/legal-notice",
+        "title": "Legal notice：PUBLIKO, SASU；RCS Béziers 893 220 756；Logo 禁止未经许可复制"
+      },
+      {
+        "url": "https://docs.timon-ai.com/",
+        "title": "官方文档"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon",
+        "title": "官方仓库 ai-timon/timon"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon/blob/main/README.md",
+        "title": "官方 README：Windows / macOS Apple silicon / Linux；未代码签名"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon/releases/tag/v0.1.8",
+        "title": "GitHub 非预发布 v0.1.8 / Timon 0.1.8（2026-11-15T16:50:11Z）"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon/blob/main/LICENSE",
+        "title": "官方 LICENSE：GNU AGPL v3"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon/blob/main/TRADEMARKS.md",
+        "title": "TRADEMARKS.md：名称、Logo、吉祥物未由代码许可授权"
+      }
+    ],
+    "verified_at": "2026-11-16"
+  },
+  "timon-web": {
+    "notes": "同一 Timon 产品的本机/自托管 Web 形态：守护进程默认在 127.0.0.1:3100 提供与桌面相同的 Web 界面，可从手机浏览器访问；文档说明无统一公共应用主机。web_domains 为空、web_domain_status=self-hosted。版本与桌面条相同：**v0.1.8** / GitHub **v0.1.8**（2026-11-15）。不把手机浏览器或即将推出的移动 PWA 写成独立移动应用。Logo 与桌面条同样因法律限制留空。官网/文档/仓库资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://timon-ai.com/",
+        "title": "官网：本机守护进程提供 Web 界面，可在手机浏览器使用"
+      },
+      {
+        "url": "https://docs.timon-ai.com/installation/overview",
+        "title": "文档：桌面客户端或 Web 界面连接本机守护进程"
+      },
+      {
+        "url": "https://docs.timon-ai.com/installation/remote-access",
+        "title": "文档：Web 界面默认 127.0.0.1:3100；无统一公共域名"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon",
+        "title": "官方仓库"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon/blob/main/README.md",
+        "title": "官方 README：desktop / browser / phone 客户端连同一守护进程"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon/releases/tag/v0.1.8",
+        "title": "GitHub 非预发布 v0.1.8 / Timon 0.1.8（2026-11-15）"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon/blob/main/LICENSE",
+        "title": "官方 LICENSE：GNU AGPL v3"
+      },
+      {
+        "url": "https://timon-ai.com/legal-notice",
+        "title": "Legal notice：Logo 禁止未经许可复制"
+      }
+    ],
+    "verified_at": "2026-11-16"
+  },
+  "copilotkit-openbot-desktop": {
+    "notes": "CopilotKit 出品的自托管通用任务 Agent 工作区 OpenBot（官网 open.bot）：个人桌面端免费，把已有 AG-UI 兼容 Agent 与自选模型/MCP 工具放进同一工作区。本条仅桌面 GUI。官网与 GitHub README 提供 Mac（Apple Silicon）/ Mac（Intel）DMG 与 Windows x64 setup exe；不把仓库内 Tauri linux 目录写成已发布 Linux 桌面。官网将 iOS / Android / Slack / Teams 与 OpenBot for Business 标为 early access；Slack/Teams 为渠道，移动端按目录范围不收录。官网写明 “Web Coming soon”，README 的 Web 入口指向 early-access 登记，不单列 Web，也不把 Docker/源码自托管浏览器访问写成已发布托管 Web。与已收录 Nightly Labs OpenBot（openbot-desktop、openbot.run、PolyForm Noncommercial）分产品、分 ID；亦非 Product Hunt 上 Kamil Cyrek 的另一 OpenBot（products/openbot-3）。与已收录 CopilotKit OpenMuse / OpenDuet 分产品。GitHub CopilotKit/OpenBot 创建于 2026-08-17，homepage https://open.bot。GitHub 最新非预发布 **v1.0.3** / “v1.0.3”（发布 2026-11-14T04:05:50Z）；官网 changelog 仍以 1.0.3 为 Latest。桌面 1.0.0 于 2026-11-09 发布。本窗口另有预发布 v1.1.0-rc.1（2026-11-16T23:25:14Z），不把它当作产品版本。CopilotKit 第 5 次 Product Hunt 发布（2026-11-16 PH 日，发现时 #3）。根 LICENSE 正文为 MIT；CopilotKit Intelligence 为独立许可，不在该 MIT 内。Logo：OpenBot 有独立产品标，官方仓库 desktop/src-tauri/icons 仅为 PNG/ICO/ICNS，官网 OG 为 PNG，架构图 SVG 不是品牌标；Lobe Icons 仅有 CopilotKit 厂商标识，Simple Icons / svgl 无 CopilotKit OpenBot 专属 SVG；不套用厂商标识，也不使用 Nightly Labs icons/openbot.svg。官网/仓库/发布页/PH 资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://open.bot/",
+        "title": "OpenBot 官网：个人桌面 Mac/Windows 下载；Web Coming soon；iOS/Android/Slack/Teams 与 Business 为 early access"
+      },
+      {
+        "url": "https://open.bot/changelog",
+        "title": "官方 changelog：Latest 仍为 OpenBot 1.0.3（Nov 14, 2026）"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenBot",
+        "title": "官方仓库 CopilotKit/OpenBot；homepage https://open.bot；MIT"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenBot/blob/main/README.md",
+        "title": "官方 README：桌面 Mac/Windows 下载；Web/mobile/chat 为 early access；Intelligence 独立许可"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenBot/releases/tag/v1.0.3",
+        "title": "GitHub 非预发布 v1.0.3（2026-11-14T04:05:50Z）：macOS arm64/x64 dmg 与 Windows x64 setup exe"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenBot/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright (c) 2026 CopilotKit）"
+      },
+      {
+        "url": "https://www.copilotkit.ai/blog/introducing-openbot-1-0",
+        "title": "官方博客 Introducing OpenBot 1.0（2026-11-10）：个人桌面与 Business 自托管"
+      },
+      {
+        "url": "https://www.producthunt.com/products/copilotkit",
+        "title": "CopilotKit 第 5 次 PH 发布 OpenBot（2026-11-16 PH 日）"
+      },
+      {
+        "url": "https://www.producthunt.com/leaderboard/daily/2026/11/16",
+        "title": "Product Hunt 2026-11-16 日榜"
+      },
+      {
+        "url": "https://open.bot/pricing",
+        "title": "官方定价：个人桌面免费；OpenBot for Business 为付费档（托管为 early access）"
+      }
+    ],
+    "verified_at": "2026-11-17"
+  },
+  "kilo-code-desktop": {
+    "notes": "Kilo Code（Kilo-Org）出品的桌面 GUI「Kilo Desktop」：本机运行 Kilo agent，把会话、聊天、diff、终端、notebook、conda 环境与本地模型收进同一窗口。本条仅桌面 GUI，与已收录的 kilo-code-cli / kilo-code-ide 同 product_id=kilo-code、vendor_id=kilo-code。官方 2026-11-17 宣布 GA（此前 10 月以 beta 引入）。当前稳定版为 GitHub 非预发布 **v1.0.0** / 「Kilo Desktop v1.0.0」（发布 2026-11-17T16:44:32Z，prerelease=false；apps/desktop/package.json 版本 1.0.0；Highlights 写 generally available）。安装资产：macOS Apple silicon .dmg/.zip，Windows x64 与 ARM64 Setup.exe，Linux x64 与 ARM64 .deb。官方安装文档写明 macOS 仅 Apple Silicon，v1.0.0 亦无 Intel Mac 包，不虚构 Intel Mac。公开文档站 release-notes 核验日仍以 0.1.16（2026-11-13）为最新条目；kilocode 仓库有「docs(kilo-docs): update Kilo Desktop docs for 1.0.0」变更，公开文档页尚未跟上。不把 v1.0.1-preview-* 预览线或 CLI/IDE 的 v7.8.x 当作桌面版本。不单列 Cloud / Slack / Mobile / JetBrains。桌面源码在独立仓库 Kilo-Org/kilo-desktop，LICENSE.md 为 Open Core Ventures Source Available License (OCVSAL) 1.0（生产使用需商业协议；GitHub SPDX Other/NOASSERTION），不把已收录的 kilocode MIT 外推到桌面。Logo 复用已核验的 icons/kilo-code.svg。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://kilo.ai/",
+        "title": "Kilo 官网"
+      },
+      {
+        "url": "https://kilo.ai/install",
+        "title": "官方安装页：Desktop App；macOS Apple Silicon、Windows x64/ARM64、Linux x64/ARM64"
+      },
+      {
+        "url": "https://kilo.ai/docs/desktop/installation",
+        "title": "官方安装文档：macOS（Apple Silicon）、Windows x64/ARM64、Linux x64/ARM64"
+      },
+      {
+        "url": "https://kilo.ai/docs/desktop/release-notes",
+        "title": "公开文档站 release-notes：核验日最新条目仍为 0.1.16（2026-11-13）"
+      },
+      {
+        "url": "https://blog.kilo.ai/p/kilo-desktop-is-generally-available",
+        "title": "官方博文：Kilo Desktop Is Generally Available（2026-11-17）"
+      },
+      {
+        "url": "https://github.com/Kilo-Org/kilo-desktop",
+        "title": "官方桌面仓库 Kilo-Org/kilo-desktop（与 kilocode CLI/IDE 分仓）"
+      },
+      {
+        "url": "https://github.com/Kilo-Org/kilo-desktop/blob/main/README.md",
+        "title": "官方 README：桌面应用；捆绑 Kilo CLI 作为 agent server"
+      },
+      {
+        "url": "https://github.com/Kilo-Org/kilo-desktop/releases/tag/v1.0.0",
+        "title": "GitHub 非预发布 v1.0.0 / Kilo Desktop v1.0.0（2026-11-17T16:44:32Z）"
+      },
+      {
+        "url": "https://github.com/Kilo-Org/kilo-desktop/blob/main/LICENSE.md",
+        "title": "官方 LICENSE.md：OCVSAL 1.0（source-available，非 MIT）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Kilo-Org/kilocode/fb7e96eda5409517a05948b9efaf01c53997bf6e/packages/kilo-console/public/favicon.svg",
+        "title": "SVG Logo — official brand asset"
+      }
+    ],
+    "verified_at": "2026-11-18"
+  },
+  "lumo-desktop": {
+    "notes": "Proton AG 出品的隐私优先 AI 助手 Lumo 的桌面端：Tauri 壳加载 lumo.proton.me Web 应用，并提供 Connectors（本机文件系统、shell、浏览器抓取、Proton Mail Bridge、第三方 MCP）、Schedules 与 Skills。本条仅桌面 GUI。官方 2026-11-17 博文宣布 Windows / macOS / Linux 发布并公开源码。仓库 ProtonLumo/lumo-desktop 创建于 2026-11-17；package.json 与 src-tauri/tauri.conf.json 版本 **0.5.9**（productName Lumo，publisher Proton AG）；master 合并提交 “release: 0.5.9”（2026-11-17）。GitHub 无 Releases 页，下载入口为 https://proton.me/lumo/download。README：macOS Universal（Apple silicon 与 Intel）.dmg；Windows .msi 与 -setup.exe；Linux .deb/.rpm（Ubuntu 24.04+、Fedora 40+）。FAQ：Connectors/Schedules 目前仅桌面，不收录 iOS/Android。应用显示名为 Lumo。桌面端因本地工具 / MCP / 定时任务记通用任务 Agent。源码 GPL-3.0-only（GitHub SPDX GPL-3.0），不在本目录 open-source 允许的 OSI 表达式内，故记 source-available。Logo 取自 ProtonMail/WebClients applications/lumo/src/favicon.svg 原样矢量（Lumo 产品标，非 Proton Mail/VPN 通用标）。官网/仓库资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://proton.me/lumo",
+        "title": "Lumo 官方产品页：隐私优先 AI 助手；Lumo Plus"
+      },
+      {
+        "url": "https://proton.me/lumo/download",
+        "title": "官方下载页：桌面/Web/移动端；FAQ 确认 Connectors/Schedules 仅桌面"
+      },
+      {
+        "url": "https://proton.me/blog/lumo-desktop-features",
+        "title": "官方博文：Proton launches Lumo Desktop（2026-11-17）"
+      },
+      {
+        "url": "https://proton.me/zh/blog/lumo-desktop-features",
+        "title": "官方中文博文：Lumo Desktop"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop",
+        "title": "官方仓库 ProtonLumo/lumo-desktop（2026-11-17 创建）"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop/blob/master/README.md",
+        "title": "官方 README：平台包、Connectors、显示名 Lumo、版本发行说明"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop/blob/master/package.json",
+        "title": "package.json：version 0.5.9，license GPL-3.0-only"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop/blob/master/src-tauri/tauri.conf.json",
+        "title": "tauri.conf.json：version 0.5.9，productName Lumo，publisher Proton AG"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop/blob/master/LICENSE",
+        "title": "官方 LICENSE：GNU GPL v3"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop/commit/bd5e2c608bac61f215d4a2094e26ef88cb7bc1e0",
+        "title": "master 合并提交：release: 0.5.9（2026-11-17）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ProtonMail/WebClients/634a0a2ad2cc749e8ecf76d8c98442ae5b61f3d2/applications/lumo/src/favicon.svg",
+        "title": "官方 WebClients applications/lumo/src/favicon.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-18"
+  },
+  "lumo-web": {
+    "notes": "同一 Lumo 产品的官方 Web 应用。已核验用户应用主机 lumo.proton.me；营销站 proton.me/lumo 与下载页 proton.me/lumo/download 不是应用主机，不记入 web_domains。官网定位为隐私优先 AI 聊天助手（zero-access encryption、对话不用于训练），类型记通用助手。Connectors/Schedules 官方写明目前仅桌面。不收录 iOS/Android。Web 客户端源码在 ProtonMail/WebClients 的 applications/lumo，根 LICENSE 为 GNU GPL v3（GitHub SPDX GPL-3.0）；结论仅限该 Lumo 应用目录，不外推 Proton Mail/VPN/Drive。无独立公开 semver，不把桌面 0.5.9 写成 Web 版本。Logo 与桌面条共用官方 favicon.svg。官网资料核验，未做登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://proton.me/lumo",
+        "title": "Lumo 官方产品页"
+      },
+      {
+        "url": "https://lumo.proton.me/",
+        "title": "已核验 Web 应用主机 lumo.proton.me"
+      },
+      {
+        "url": "https://proton.me/lumo/download",
+        "title": "官方下载页列出 Web app；FAQ 区分桌面 Connectors/Schedules"
+      },
+      {
+        "url": "https://github.com/ProtonMail/WebClients/tree/main/applications/lumo",
+        "title": "ProtonMail/WebClients applications/lumo Web 客户端源码"
+      },
+      {
+        "url": "https://github.com/ProtonMail/WebClients/blob/main/LICENSE",
+        "title": "WebClients 根 LICENSE：GNU GPL v3"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ProtonMail/WebClients/634a0a2ad2cc749e8ecf76d8c98442ae5b61f3d2/applications/lumo/src/favicon.svg",
+        "title": "官方 WebClients applications/lumo/src/favicon.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-18"
+  },
+  "hako-desktop": {
+    "notes": "Eugeniu Vozoca 出品的原生 Mac 应用 Hako：在一个侧栏列出并控制本机已在运行的编码 Agent（Claude Code、Codex 等），Agent 跑在 herdr，经 Tailscale 或 SSH 连接。可比已收录的 T3 Code 多 Agent 桌面控制面，故记 AI 编程。本条仅 macOS GUI。官网 hako.md：现已提供 iPhone/iPad/Mac；Android、Windows、Linux 官方写「very soon」，不写入 platforms。iOS/iPadOS/Watch 为移动端，目录不含。需要 macOS 15 或更高，Apple silicon 或 Intel。免费、无需账户。Linux 上的 Hako Bridge 只是让 Linux 主机上的 agent 出现在 Mac/手机列表中，不是 Linux GUI，不写入 platforms。Product Hunt 文案称 Open-source，但 github.com/devjah/hako 404，亦未找到其他官方公开仓库，故不写 GitHub、不写入 open-source.json。官网、App Store（仅移动端「Hako for Herdr Mobile Terminal」）均未给出可核验的 Mac 桌面版本号，不虚构 version。未找到可核验官方纯矢量 SVG（hako.md/favicon.svg 无可用矢量内容），icon 留空。官网资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://hako.md/",
+        "title": "Hako 官网：Mac / iPhone / iPad；无需账户；Windows/Linux/Android very soon"
+      },
+      {
+        "url": "https://hako.md/about/",
+        "title": "About：Maker Eugeniu Vozoca；原生 Mac 侧栏控制 herdr 中的 agents"
+      },
+      {
+        "url": "https://hako.md/support/",
+        "title": "Support：Hako for Mac 需 macOS 15+；安装 herdr"
+      },
+      {
+        "url": "https://www.producthunt.com/products/hako",
+        "title": "Product Hunt：Hako 产品页（2026-11-17 前后上线）"
+      }
+    ],
+    "verified_at": "2026-11-18"
+  },
+  "dusk-bot-desktop": {
+    "notes": "dusk bot 出品的本机多 bot 桌面应用：每个 bot 有岗位、可编辑记忆与独立电脑，使用用户已有的 Claude / ChatGPT / Gemini / Grok 等订阅或 API key。本条仅桌面 GUI。官网 dusk.bot；关于页写明独立小团队制作、不隶属所列模型厂商，未公布自然人姓名或公司法律实体，许可页 Required Notice 为 Copyright 2026 dusk bot，故 vendor 记 dusk bot。GitHub org DuskBotAI / 仓库 DuskBotAI/duskbot（创建 2026-11-05T20:43:18Z）。下载页与 GitHub 非预发布 **v0.2.21** / “dusk bot 0.2.21”（发布 2026-11-19T01:14:28Z）：macOS 12+ Apple silicon 与 Intel DMG、Windows 10/11 x64 installer、Ubuntu 24.04 x64 deb/AppImage。下载页写 mac 构建已签名公证，Windows 尚未代码签名。另有 dusk cloud 托管电脑、自建服务器与 Android APK / 手机访问，按目录范围不收录移动端；cloud/server 托管同一产品而非独立用户面向 Web 应用，不单列 Web。`duskbot serve` / `pair` / `mcp` 为自托管与集成命令，不是独立最终用户 CLI，不单列。官方 FAQ 明确 **不是开源**：PolyForm Noncommercial 1.0.0 源码可得，个人/非商业可用，工作/商业使用需另获许可；上游 openmausbot Apache-2.0 为第三方，不据此把 dusk bot 记为 OSI 开源。Product Hunt 2026-11-18 上线。Logo 使用官方品牌页 kit 标 https://dusk.bot/brand/bots/kit.svg（品牌页允许 kit 单独代替圆角方标 PNG）。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://dusk.bot",
+        "title": "dusk bot 官网：本机 bot 团队，使用已有模型订阅"
+      },
+      {
+        "url": "https://dusk.bot/download",
+        "title": "官方下载页：version 0.2.21；macOS 12+ / Windows 10–11 / Ubuntu 24.04"
+      },
+      {
+        "url": "https://dusk.bot/about",
+        "title": "官方 about：独立小团队；source-available；未列法律实体"
+      },
+      {
+        "url": "https://dusk.bot/docs/faq",
+        "title": "官方 FAQ：明确不是开源；PolyForm Noncommercial"
+      },
+      {
+        "url": "https://dusk.bot/license",
+        "title": "官方许可页：PolyForm Noncommercial 1.0.0；Copyright 2026 dusk bot"
+      },
+      {
+        "url": "https://github.com/DuskBotAI/duskbot",
+        "title": "官方仓库 DuskBotAI/duskbot"
+      },
+      {
+        "url": "https://github.com/DuskBotAI/duskbot/releases/tag/v0.2.21",
+        "title": "GitHub 非预发布 v0.2.21 / dusk bot 0.2.21（2026-11-19T01:14:28Z）"
+      },
+      {
+        "url": "https://github.com/DuskBotAI/duskbot/blob/main/LICENSE",
+        "title": "官方 LICENSE：PolyForm Noncommercial 1.0.0"
+      },
+      {
+        "url": "https://dusk.bot/brand",
+        "title": "官方品牌页：kit 可单独代替 Logo；提供 kit.svg"
+      },
+      {
+        "url": "https://dusk.bot/brand/bots/kit.svg",
+        "title": "官方品牌 kit.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-19"
+  },
+  "toone-desktop": {
+    "notes": "Matheus Paranhos（葡萄牙 sole trader / empresário em nome individual，trading as Toone，以 Hexagonal.io 品牌发布）出品的原生 macOS agentic 工作区：用自然语言描述重复工作，专职 agent 以可见 routine 图运行，可暂停、编辑与就地恢复；使用用户自有 Claude Code 或 Codex（Anthropic / OpenAI 订阅）及内置浏览器登录既有账户。本条仅桌面 GUI。官网 trytoone.com。官方 changelog 最新 **1.0.81**（2026-10-12）；此前 1.0.78（2026-10-01）。应用此前已有发行，本次收录对应 2026-11-18 Product Hunt 上线（此前不在目录）。条款：Mac App Store 版适用 Apple 标准 EULA，且 MAS 版处于 Early Access；另有 trytoone.com 直接下载（Toone Direct），/en/download 会转到创建账户。仅 macOS，未列出 Windows/Linux。未发现公开产品源码仓，专有软件，不写入 open-source.json。网站 Explore 与账户页不是独立 agent 工作区 Web 应用，不单列 Web。不收录移动端。免费账户可创建 2 条 routine，Toone Pro 为可选付费升级，不据此写入 commercial.json。Logo 使用官网 /assets/brand/toone-mark.svg 纯矢量。官网资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://trytoone.com",
+        "title": "Toone 官网：macOS agentic workflow 工作区"
+      },
+      {
+        "url": "https://trytoone.com/en/about",
+        "title": "官方 About：Matheus Paranhos，Portugal sole trader，trading as Toone / Hexagonal.io"
+      },
+      {
+        "url": "https://trytoone.com/en/terms",
+        "title": "官方条款：MAS Apple EULA 与 Direct 发行；Toone Pro；Early Access"
+      },
+      {
+        "url": "https://trytoone.com/en/journal/releases",
+        "title": "官方 changelog：最新 1.0.81（2026-10-12）；此前 1.0.78（2026-10-01）"
+      },
+      {
+        "url": "https://trytoone.com/assets/brand/toone-mark.svg",
+        "title": "官网 assets/brand/toone-mark.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-19"
+  },
+  "s-space-desktop": {
+    "notes": "AG2AI, Inc. 出品的 S.space（官方文档：S.space is the product, and S is the app）。Mac 应用内运行个人 agent Sutando（Claude Code 或 Codex），并与团队在 rooms 中协作。本条仅桌面 GUI。官网 s.space；欢迎页 https://s.space/welcome。下载页：macOS 12+，Apple Silicon 与 Intel 同一 universal DMG（https://download.s.space/mac/latest/S.space.dmg），自更新，写明 always the latest version，未公布 semver，不虚构版本。条款主体 AG2AI, Inc.（https://sutando.ag2.space/legal/terms），适用于 s.space 及其 apps、Sutando、Room Commons 与 cloud Sutando。欢迎页/新闻页点名联合创始人 Qingyun Wu（CEO）与 Chi Wang。官方发布日 2026-11-02（https://s.space/news）；Product Hunt 窗口内 2026-11-18 亮相，此前不在目录。Sutando 在应用内运行，不是已核验的独立桌面产品，不单列。iPhone 应用按目录范围不收录。sonichi/sutando 为 Sutando agent 开源仓（MIT，主页 sutando.ai），不是 S.space Mac/Web 客户端源码，故本条不写入 open-source.json。Web 形态见 s-space-web。Logo 使用官网 public/landing/assets/brand/sspace-mark.svg。官网/文档/下载页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://s.space/welcome",
+        "title": "S.space 欢迎页：团队与 agent 共享 rooms；AG2 联合创始人"
+      },
+      {
+        "url": "https://s.space/download",
+        "title": "官方下载页：macOS 12+ universal DMG；Sutando 跑在 Mac 应用内"
+      },
+      {
+        "url": "https://s.space/docs",
+        "title": "官方文档：S.space 是产品，S 是应用；always the latest version"
+      },
+      {
+        "url": "https://s.space/news",
+        "title": "官方发布：Introducing S.space，2026-11-02"
+      },
+      {
+        "url": "https://sutando.ag2.space/legal/terms",
+        "title": "官方条款：合同主体 AG2AI, Inc.；适用于 s.space 与 Sutando"
+      },
+      {
+        "url": "https://download.s.space/mac/latest/S.space.dmg",
+        "title": "官方 macOS 安装包 S.space.dmg（always latest；无公开 semver）"
+      },
+      {
+        "url": "https://github.com/sonichi/sutando",
+        "title": "Sutando agent 开源仓（MIT）；不是 S.space 客户端源码"
+      },
+      {
+        "url": "https://s.space/public/landing/assets/brand/sspace-mark.svg",
+        "title": "官网 public/landing/assets/brand/sspace-mark.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-19"
+  },
+  "s-space-web": {
+    "notes": "同一 S.space 产品的用户面向 Web 应用。官方下载页写明 “The web app at s.space is where you and your team meet.” 文档确认可在浏览器于 s.space 注册/使用；已核验 https://s.space/login。web_domains 记 s.space（已核验主机名，不等于完成登录测试）。营销路径 /welcome、/download、/docs 与应用共用该主机。账户设置另见 sutando.s.space，不把它推断为第二应用主机。无公开 semver。Sutando 需在 Mac 桌面应用内完成设置；仅连接其他 app 的 agent 可完全在 Web 上设置。不收录 iPhone。S.space 商业客户端源码未核验为允许的 OSI 开源，不写入 open-source.json。Logo 与桌面条共用官方 sspace-mark.svg。官网资料核验，未做登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://s.space/download",
+        "title": "官方下载页：The web app at s.space is where you and your team meet"
+      },
+      {
+        "url": "https://s.space/welcome",
+        "title": "官方欢迎页：可在 s.space 浏览器登录"
+      },
+      {
+        "url": "https://s.space/docs",
+        "title": "官方文档：Starting on the web；sign up at s.space in a browser"
+      },
+      {
+        "url": "https://s.space/login",
+        "title": "已核验 Web 登录入口 s.space/login（不代表完成登录测试）"
+      },
+      {
+        "url": "https://sutando.ag2.space/legal/terms",
+        "title": "官方条款：合同主体 AG2AI, Inc."
+      },
+      {
+        "url": "https://s.space/public/landing/assets/brand/sspace-mark.svg",
+        "title": "官网 public/landing/assets/brand/sspace-mark.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-19"
+  },
+  "fieldwork-code-desktop": {
+    "notes": "Fieldwork AI Inc.（Delaware；官网页脚与条款：169 Madison Ave STE 79708 New York, NY 10016）出品的编程 Agent 产品 Fieldwork Code。本条仅桌面 GUI。官方产品页 https://fieldwork.ai/solutions/software-development 写明本机 Local 档免费，Mac 与 Windows 可并行跑本机 coding session（可用自带 Claude / ChatGPT 订阅）；Cloud 档为云端 sandbox，不是本条。该页提供的安装包为 https://getfieldwork.ai/downloads/mac/Fieldwork-latest.dmg 与 https://getfieldwork.ai/downloads/win/FieldworkSetup-latest.exe（核验日 Last-Modified 2026-11-18，文件名无 semver，不虚构版本号）。同一 DMG/EXE URL 也出现在通用下载页 https://fieldwork.ai/download；该页描述的是 menu bar companion / Slack / Teams / Chrome worker，与 Code 产品页并存。本条按 Fieldwork Code 收录，不另列通用 worker。公开仓库 fieldwork-ai/fieldwork-code 自述为 terminal client and laptop runner，双许可 MIT OR Apache-2.0，无 GitHub Releases；不得把 runner 仓自动写成桌面应用开源。官方产品页未把 fwcode 终端客户端作为独立最终用户 CLI 发行，不单列 CLI。app.fieldwork.ai/register?intent=code 是通用 Fieldwork 工作区注册入口，不是独立 Fieldwork Code Web 应用；fwk.dev 预览链是客户 sandbox，不是产品应用主机。不收录 iPhone/Android/Watch。Logo 使用官网 /f-dark.svg 字母标。官网/下载/条款资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://fieldwork.ai/solutions/software-development",
+        "title": "官方 Fieldwork Code 产品页：本机 Mac/Windows、Local 免费"
+      },
+      {
+        "url": "https://getfieldwork.ai/downloads/mac/Fieldwork-latest.dmg",
+        "title": "官方 Mac 安装包 Fieldwork-latest.dmg（无公布 semver）"
+      },
+      {
+        "url": "https://getfieldwork.ai/downloads/win/FieldworkSetup-latest.exe",
+        "title": "官方 Windows 安装包 FieldworkSetup-latest.exe"
+      },
+      {
+        "url": "https://fieldwork.ai/download",
+        "title": "通用 Fieldwork 下载页：menu bar companion 等；安装包 URL 与 Code 页相同，不另列"
+      },
+      {
+        "url": "https://fieldwork.ai/terms",
+        "title": "条款：Fieldwork AI Inc., a Delaware corporation"
+      },
+      {
+        "url": "https://github.com/fieldwork-ai/fieldwork-code",
+        "title": "公开仓库：terminal client and laptop runner；无 Releases；不据此把桌面应用记为开源"
+      },
+      {
+        "url": "https://fieldwork.ai/f-dark.svg",
+        "title": "官网 /f-dark.svg 产品字母标"
+      }
+    ],
+    "verified_at": "2026-11-20"
+  },
+  "testsprite-web": {
+    "notes": "TestSprite, Inc. 出品的测试 Agent 平台 TestSprite。本条仅 Web。官网 2026-11-19 发布 TestSprite 4.0（“Introducing TestSprite 4.0 and our new testing agent.”），产品营销版本为 4.0，不得与 CLI v0.17.0 混用。官方文档称 Web Portal 为浏览器内 Agent；CLI README 指向 www.testsprite.com/dashboard-v3/settings/apikey，核验 https://www.testsprite.com/dashboard 与 /dashboard-v3 为 Next.js 应用（营销首页同主机）。web_domains 记 www.testsprite.com。条款主体写 TestSprite（华盛顿注册，1525 11th Ave / 页脚 701 5th Ave Suite 5000 Seattle）；官方 CLI LICENSE 版权行为 Copyright 2026 TestSprite, Inc.，供应商按该法人名。MCP、GitHub Actions、IDE 内 MCP 不是目录形态，不单列 IDE 插件。官网资料核验，未做登录、运行或区域可用性测试。Logo 使用官网 /favicon.svg。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://www.testsprite.com/",
+        "title": "官网：Introducing TestSprite 4.0 and our new testing agent；Browser · the agent"
+      },
+      {
+        "url": "https://www.testsprite.com/dashboard",
+        "title": "已核验 Web 应用入口 www.testsprite.com/dashboard"
+      },
+      {
+        "url": "https://www.testsprite.com/dashboard-v3/settings/apikey",
+        "title": "官方 CLI README 指向的 dashboard-v3 API key 设置页"
+      },
+      {
+        "url": "https://docs.testsprite.com/web-portal/getting-started/overview",
+        "title": "官方文档：TestSprite Web Portal"
+      },
+      {
+        "url": "https://www.testsprite.com/terms",
+        "title": "Terms of Service：TestSprite，Washington, United States"
+      },
+      {
+        "url": "https://github.com/TestSprite/testsprite-cli/blob/main/LICENSE",
+        "title": "官方 CLI LICENSE 版权行：Copyright 2026 TestSprite, Inc."
+      },
+      {
+        "url": "https://www.testsprite.com/favicon.svg",
+        "title": "官网 /favicon.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-20"
+  },
+  "testsprite-cli": {
+    "notes": "同一 TestSprite 产品的官方开源 CLI。本条仅 CLI。仓库 TestSprite/testsprite-cli，Apache-2.0。GitHub 非预发布 **v0.17.0**（发布 2026-11-19T08:06:48Z），npm @testsprite/testsprite-cli latest 同步 0.17.0。产品营销版本 4.0 属于 Web/平台，不得当作 CLI 版本。Node.js 20.19+ / 22.13+ / 24+。MCP Server 与 GitHub Actions 不是目录形态，不单列 IDE 插件。官网/仓库/发布页资料核验，未做安装、运行或区域可用性测试。Logo 与 Web 条共用官网 favicon.svg。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://github.com/TestSprite/testsprite-cli",
+        "title": "官方仓库 TestSprite/testsprite-cli：Apache-2.0 CLI"
+      },
+      {
+        "url": "https://github.com/TestSprite/testsprite-cli/releases/tag/v0.17.0",
+        "title": "GitHub 非预发布 v0.17.0（2026-11-19T08:06:48Z）"
+      },
+      {
+        "url": "https://github.com/TestSprite/testsprite-cli/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0；Copyright 2026 TestSprite, Inc."
+      },
+      {
+        "url": "https://www.testsprite.com/",
+        "title": "官网：CLI · for coding agents，Apache 2.0"
+      },
+      {
+        "url": "https://www.testsprite.com/favicon.svg",
+        "title": "官网 /favicon.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-20"
+  },
+  "gemini-desktop": {
+    "notes": "Google 消费级 Gemini 助手的官方桌面 GUI，与已收录的 Web 条同属 product_id gemini，不改动 gemini / gemini-cli / gemini-code-assist / gemini-notebook。本条仅 GUI。官方下载页 https://gemini.google/mac 重定向至 https://gemini.google/desktop，标题为 Download Gemini for desktop，明确 Windows 与 macOS：Windows 10+（x64 与 ARM64）；macOS 为 Apple Silicon、macOS Sequoia 15.0+。官方安装包 https://gemini.google/download/mac/ → dl.google.com Gemini.dmg，https://gemini.google/download/windows/ → GeminiSetup.exe；文件名与发布说明均未公布独立桌面 semver，不虚构版本号。2026-11-19 Google 博文宣布 Gemini app for Mac 的 Computer use（英语、美国、Google AI Plus/Pro/Ultra 个人账号 18+）为该 Mac 应用的功能，不单列产品。不收录 iOS/Android。Logo 复用目录已有 Lobe Icons Gemini 标。官网/博文/下载页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://gemini.google/desktop",
+        "title": "官方 Gemini for desktop 下载页：Windows 与 macOS"
+      },
+      {
+        "url": "https://gemini.google/mac",
+        "title": "博文点名的 Mac 下载入口，重定向至 /desktop/"
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+        "title": "Google 博文 2026-11-19：Automate Mac tasks with Gemini computer use"
+      },
+      {
+        "url": "https://gemini.google/release-notes/",
+        "title": "Gemini Apps 发布说明 2026.11.19：Computer use；未公布桌面 semver"
+      },
+      {
+        "url": "https://gemini.google/download/mac/",
+        "title": "官方 Mac 安装重定向至 dl.google.com Gemini.dmg"
+      },
+      {
+        "url": "https://gemini.google/download/windows/",
+        "title": "官方 Windows 安装重定向至 GeminiSetup.exe"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/gemini-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-11-20"
+  },
+  "mistral-vibe-desktop": {
+    "notes": "Mistral Vibe 的官方桌面 GUI，与已收录的 Web / CLI / IDE 插件同属 product_id mistral-vibe，不改动既有记录。本条仅 GUI。官方发布说明 2026-11-17：Vibe Desktop 把 Work、本地 coding 与云端 coding session 放进同一 macOS/Windows 应用；Linux 稍后。官方文档写明 Desktop 不嵌入、不运行 CLI 应用，无需另装 CLI；不得并入 CLI 记录。产品页提供 https://chat.mistral.ai/download/vibe-desktop/mac 与 /windows。发布说明与下载 URL 未公布独立桌面 semver，不得把 CLI v3.0.0 当作桌面版本。开源认定仍仅限 mistral-vibe-cli。Logo 复用目录已有 Mistral 标。官网/文档资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://docs.mistral.ai/resources/release-notes",
+        "title": "官方发布说明 2026-11-17：Vibe Desktop for macOS and Windows"
+      },
+      {
+        "url": "https://docs.mistral.ai/vibe/code/desktop/overview",
+        "title": "官方文档：Code on Desktop；不嵌入 CLI"
+      },
+      {
+        "url": "https://docs.mistral.ai/vibe/work/desktop",
+        "title": "官方文档：Work on Desktop"
+      },
+      {
+        "url": "https://mistral.ai/products/vibe/",
+        "title": "官方产品页：macOS/Windows Vibe Desktop 下载"
+      },
+      {
+        "url": "https://chat.mistral.ai/download/vibe-desktop/mac?from=website",
+        "title": "官方 macOS 下载入口"
+      },
+      {
+        "url": "https://chat.mistral.ai/download/vibe-desktop/windows?from=website",
+        "title": "官方 Windows 下载入口"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mistral-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-11-20"
+  },
+  "tecla-desktop": {
+    "notes": "Pipeless, Inc 出品的主动工作助手 Tecla。法律主体来自官方 Privacy Policy（Last updated November 12, 2026）：Tecla is run by Pipeless, Inc。About 页未写法人，不从 tecla-support@googlegroups.com 或 tecla.io 推断。本条仅 macOS GUI。官网 Download for Mac；https://www.usetecla.com/download 302 至 https://downloads.usetecla.com/desktop/Tecla_universal.dmg，Content-Disposition 文件名为 Tecla_0.1.5_universal.dmg，按该官方安装包记 **0.1.5**。官网写明 What do I need to use Tecla? A Mac。未发现独立 Web 应用主机，www.usetecla.com 为营销站。未发现公开 GitHub。Logo 仅 PNG（/logo.png、/icon.png），无核验纯矢量 SVG，icon 留空。官网/隐私政策/下载资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://www.usetecla.com/",
+        "title": "官网：Download for Mac；proactive work assistant"
+      },
+      {
+        "url": "https://www.usetecla.com/download",
+        "title": "官方下载入口，302 至 Tecla_universal.dmg"
+      },
+      {
+        "url": "https://downloads.usetecla.com/desktop/Tecla_universal.dmg",
+        "title": "官方 Mac 安装包；Content-Disposition Tecla_0.1.5_universal.dmg"
+      },
+      {
+        "url": "https://www.usetecla.com/about",
+        "title": "About：产品说明；未写法人"
+      },
+      {
+        "url": "https://www.usetecla.com/privacy",
+        "title": "Privacy Policy：Tecla is run by Pipeless, Inc"
+      }
+    ],
+    "verified_at": "2026-11-20"
+  },
+  "oovi-desktop": {
+    "notes": "Conuron 出品的本机通用任务 Agent 团队 oovi：leader/researcher/writer/critic 分工，出站操作需用户批准，支持自备模型密钥或托管 credits。本条仅桌面 GUI。官方条款与隐私政策主体为 Conuron（contact@conuron.com；适用阿尔及利亚法律），不把 Product Hunt 自称的个人姓名写成法律实体，也不发明 Conuron Inc.。官方 changelog「What’s new」最新 **oovi 0.15.3**（2026-11-22 Latest），与官网直接安装包文件名 oovi-Setup-0.15.3.exe 一致。已核验 Windows：官网 /download/windows 转 Microsoft Store（9NKGRTVXWGZC），/download/windows?installer=1 提供网站自更新安装包。changelog 含 Mac/Linux 更新说明、下载页列出 Windows/Mac/Linux 选项，但核验时 /download/mac 与 /download/linux 均重定向至 error=unavailable（“download isn’t available right now”），故 platforms 仅写 Windows，不把尚未提供的安装包写成已支持系统。Android APK / Telegram 为移动端或渠道，不单列。官网 oovi.conuron.com 为营销/账户站，未核验独立托管 Web 应用，不单列 Web。公开 GitHub 仓未找到（安装包虽经 GitHub release-assets 分发，仓库 API 返回 Not Found）。条款写明专有 closed-source，不写入 open-source.json。未找到可核验官方/Lobe/Simple Icons/svgl 纯矢量 SVG，空 icon。官网/条款/changelog/下载重定向/PH 资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://oovi.conuron.com/",
+        "title": "oovi 官网：本机 AI agent 团队"
+      },
+      {
+        "url": "https://oovi.conuron.com/download",
+        "title": "官方下载页：Windows 安装包与 Microsoft Store；Mac/Linux 选项"
+      },
+      {
+        "url": "https://oovi.conuron.com/download/windows?installer=1",
+        "title": "官方 Windows 直接安装包重定向：oovi-Setup-0.15.3.exe"
+      },
+      {
+        "url": "https://oovi.conuron.com/changelog",
+        "title": "官方 What’s new：oovi 0.15.3 Latest（2026-11-22）"
+      },
+      {
+        "url": "https://oovi.conuron.com/terms",
+        "title": "Terms of Service：主体 Conuron；专有软件"
+      },
+      {
+        "url": "https://oovi.conuron.com/privacy",
+        "title": "Privacy Policy：责任方 Conuron"
+      },
+      {
+        "url": "https://conuron.com",
+        "title": "Conuron 官网：将 Oovi 列为已出货桌面产品"
+      },
+      {
+        "url": "https://oovi.conuron.com/pricing",
+        "title": "官方定价：应用免费；theOovi credits 有付费档"
+      },
+      {
+        "url": "https://www.producthunt.com/products/oovi",
+        "title": "Product Hunt oovi（2026-11-22）；官方回复给出 Windows 直接安装包 URL"
+      }
+    ],
+    "verified_at": "2026-11-23"
+  },
+  "omi-cli": {
+    "notes": "BuildItOmi / SahooTek 出品的终端编码 Agent **Omi CLI**（npm 包 @builditomi/cli，命令 omi）。本条仅 CLI。法律主体取官方条款：由印度奥里萨邦 Rourkela 的独资企业 SahooTek 运营（GSTIN 21CWYPS4565E2ZZ）；公司页称 BuildItOmi is a SahooTek company。不发明其他公司形态。官方 changelog 与 npm latest 均为 **0.5.0**（2026-11-21）；首个公开版 0.1.0（2026-11-20）。官网写明 macOS and Linux（Windows via WSL），platforms 不把 WSL 写成原生 Windows。包内 LICENSE 为 Copyright (c) 2026 SahooTek (BuildItOmi). All rights reserved.，允许阅读源码但不允许再分发修改版，不是 OSI 许可，不写入 open-source.json。未发现该产品的官方公开 GitHub（勿与 BasedHardware/omi 或 pasturn/omi-cli 混淆）。独立 VS Code 扩展见 omi-ide。不把 GitHub Actions cloud agents 或独立的 BuildItOmi app-builder Web 服务单列为本产品形态。未找到可核验官方/Lobe/Simple Icons/svgl 纯矢量 SVG，空 icon。官网/changelog/npm/条款/PH 资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://cli.builditomi.com/",
+        "title": "Omi CLI 官网：npm install -g @builditomi/cli；macOS and Linux (Windows via WSL)；v0.5.0"
+      },
+      {
+        "url": "https://cli.builditomi.com/changelog/0.5.0",
+        "title": "官方 changelog 0.5.0（2026-11-21，latest）"
+      },
+      {
+        "url": "https://cli.builditomi.com/changelog/0.1.0",
+        "title": "官方 changelog 0.1.0（2026-11-20，首发）"
+      },
+      {
+        "url": "https://www.npmjs.com/package/@builditomi/cli",
+        "title": "npm @builditomi/cli latest 0.5.0；author SahooTek (BuildItOmi)"
+      },
+      {
+        "url": "https://builditomi.com/company",
+        "title": "BuildItOmi 公司页：SahooTek 独资；GSTIN 21CWYPS4565E2ZZ"
+      },
+      {
+        "url": "https://builditomi.com/legal/terms",
+        "title": "Terms：由 SahooTek（sole proprietorship）运营 BuildItOmi"
+      },
+      {
+        "url": "https://cli.builditomi.com/pricing",
+        "title": "Omi CLI 官方定价：独立于 BuildItOmi App 的 Free/Pro/Pro+/Max"
+      },
+      {
+        "url": "https://www.producthunt.com/products/omi-cli",
+        "title": "Product Hunt Omi CLI（2026-11-22）"
+      }
+    ],
+    "verified_at": "2026-11-23"
+  },
+  "omi-ide": {
+    "notes": "同一 Omi CLI 产品的 IDE 插件形态。官方 0.4.0 changelog（2026-11-21）给出可安装 VSIX：https://cli.builditomi.com/omi-cli.vsix（Install from VSIX；亦用于 Cursor/Windsurf 等 VS Code 兼容编辑器）。核验日该 URL 返回 Content-Type application/vsix、Content-Disposition filename=omi-cli-0.4.0.vsix、ZIP/PK 头、约 23KB，确认为官方可下载安装包，而非仅 changelog 文字提及。Visual Studio Marketplace 未找到官方扩展（搜索与猜测的 itemName 均非 BuildItOmi Omi CLI）。扩展“runs the real omi”，OS 口径与 CLI 一致：官网 CLI 为 macOS/Linux（Windows via WSL），不把 WSL 写成原生 Windows。VSIX 文件名仍为 0.4.0，产品 CLI 最新为 0.5.0，二者分开记录。不把 Marketplace 未上架写成已核验商店 ID。未找到可核验官方纯矢量 SVG，空 icon。官网/changelog/VSIX 响应头/Marketplace 检索核验，未做安装、登录或运行测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://cli.builditomi.com/changelog/0.4.0",
+        "title": "官方 0.4.0 changelog：VSIX 安装说明与下载 URL"
+      },
+      {
+        "url": "https://cli.builditomi.com/omi-cli.vsix",
+        "title": "官方 VSIX：omi-cli-0.4.0.vsix（application/vsix）"
+      },
+      {
+        "url": "https://cli.builditomi.com/",
+        "title": "Omi CLI 官网：VS Code extension .vsix"
+      },
+      {
+        "url": "https://cli.builditomi.com/changelog/0.5.0",
+        "title": "官方 changelog 0.5.0（CLI latest；未改写 IDE 安装方式）"
+      }
+    ],
+    "verified_at": "2026-11-23"
+  },
+  "openvorld-desktop": {
+    "notes": "OpenVorld 是 local-first 桌面 Agent harness/应用：在像素风世界中给 named agents 角色与权限，成员可用 Claude Code / Codex / Antigravity / OpenCode 或 OpenAI 兼容 API。本条仅桌面 GUI。GitHub 非预发布 **v0.19.5** / “OpenVorld 0.19.5”（发布 2026-11-20T16:14:15Z）：Linux x86_64 AppImage、macOS arm64/x64 zip、Windows x64 exe。官网与 GitHub README 均写 MIT；根 LICENSE 正文为 MIT License，Copyright (c) 2026 OpenVorld contributors（GitHub SPDX MIT）。官方 about/terms 未公布独立公司法律名称；LICENSE 版权主体为 OpenVorld contributors，vendor 用产品名 OpenVorld，不把 GitHub org DigitalDreams-Lab 发明成公司。应用内 companion 名 Buzz，与已收录 Block Buzz（buzz-desktop / buzz.xyz）分产品。官网 openvorld.com 为营销/文档站，未核验独立托管用户应用主机，不单列 Web；`npm run dev` 本机浏览器仅为开发预览。Logo 使用仓库 desktop/assets/icon.svg。官网/仓库/LICENSE/Release/PH 资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://openvorld.com/",
+        "title": "OpenVorld 官网：local-first harness；macOS/Windows/Linux GitHub Releases；MIT"
+      },
+      {
+        "url": "https://github.com/DigitalDreams-Lab/OpenVorld",
+        "title": "官方仓库 DigitalDreams-Lab/OpenVorld"
+      },
+      {
+        "url": "https://github.com/DigitalDreams-Lab/OpenVorld/releases/tag/v0.19.5",
+        "title": "GitHub 非预发布 v0.19.5（2026-11-20T16:14:15Z）桌面资产"
+      },
+      {
+        "url": "https://github.com/DigitalDreams-Lab/OpenVorld/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT（Copyright 2026 OpenVorld contributors）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DigitalDreams-Lab/OpenVorld/main/desktop/assets/icon.svg",
+        "title": "官方仓库 desktop/assets/icon.svg 产品标"
+      },
+      {
+        "url": "https://www.producthunt.com/products/openvorld",
+        "title": "Product Hunt OpenVorld（2026-11-21）"
+      }
+    ],
+    "verified_at": "2026-11-23"
+  },
+  "tamekoshi-desktop": {
+    "notes": "kumanaya 出品的桌面通用工作伴侣 Tamekoshi（条款：published by kumanaya；适用巴西法律 / 圣保罗法院）。本条仅桌面 GUI。官方下载页 **Tamekoshi 0.1 beta / Version 0.1.2**：Windows 10/11 安装包 Tamekoshi-Windows-0.1.2-setup.exe，以及 Linux AppImage/.deb/.rpm（页面公布 SHA-256）。macOS 明确 Soon / being signed and notarized，不写入 platforms。官网称尚未开源（roadmap），不写入 open-source.json。不把应用内 companion 名 Tame、Telegram/Slack 等渠道或 Android 模拟器写成独立形态。官网 favicon.svg 为官方纯矢量产品标。官网/下载/条款/PH 资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://www.tamekoshi.com/",
+        "title": "Tamekoshi 官网：Free beta 0.1；Windows 10/11 与 Linux；macOS soon"
+      },
+      {
+        "url": "https://www.tamekoshi.com/download",
+        "title": "官方下载：Version 0.1.2；Windows 与 Linux 包；macOS Soon"
+      },
+      {
+        "url": "https://www.tamekoshi.com/terms",
+        "title": "Terms of Use：published by kumanaya（2026-10-24）"
+      },
+      {
+        "url": "https://www.tamekoshi.com/favicon.svg",
+        "title": "官网 favicon.svg 产品标"
+      },
+      {
+        "url": "https://www.producthunt.com/products/tamekoshi",
+        "title": "Product Hunt Tamekoshi（2026-11-20）"
+      }
+    ],
+    "verified_at": "2026-11-23"
+  },
   "chat-with-work-web": {
     "notes": "PlentyLabs UG (haftungsbeschränkt) & Co. KG（柏林，Amtsgericht Berlin Charlottenburg HRA 65450 B，VAT DE464390698；普通合伙人为 PlentyLabs Verwaltungs UG，业务执行人 Carmine Paolino）出品的欧盟托管工作机器人 Web 应用。本条仅 Web。官网/登录入口在 **chatwithwork.com**（/users/sign_in、/users/sign_up；/chats 未登录重定向至登录）。FAQ 写明应用与机器人跑在德国 Hetzner，模型在欧盟（Gemini / GPT Azure EU Data Zone / Claude Bedrock）；亦可自托管，自托管不是独立目录形态。公开 Product Hunt 窗口约 2026-11-23。免费一次 300 trial credits、无需银行卡；付费档见定价页，不记录易变价格。官网未公布 Web 应用 semver，不编造版本。www.chatwithwork.com 301 到 apex，不另列主机。iPhone / Android 商店页按目录范围不收录。Slack / Teams / Discord / Campfire 为渠道，不单列。Omi Work / Omi CLI 不是本产品。官网 logo.svg 为官方纯矢量产品标。官网资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
     "sources": [
