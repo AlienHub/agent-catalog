@@ -15600,5 +15600,134 @@
     "web_domains": [],
     "web_domain_status": "not-applicable",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "chat-with-work-web",
+    "name": "Chat with Work",
+    "aliases": [
+      "CWW"
+    ],
+    "vendor": "PlentyLabs UG (haftungsbeschränkt) & Co. KG",
+    "type": "通用任务 Agent",
+    "website": "https://chatwithwork.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "icons/chat-with-work.svg",
+    "vendor_id": "plentylabs",
+    "product_id": "chat-with-work",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "chatwithwork.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-24"
+  },
+  {
+    "id": "chat-with-work-desktop",
+    "name": "Chat with Work",
+    "aliases": [
+      "CWW"
+    ],
+    "vendor": "PlentyLabs UG (haftungsbeschränkt) & Co. KG",
+    "type": "通用任务 Agent",
+    "website": "https://chatwithwork.com/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/chat-with-work.svg",
+    "vendor_id": "plentylabs",
+    "product_id": "chat-with-work",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "omi-work-web",
+    "name": "Omi Work",
+    "aliases": [],
+    "vendor": "SahooTek",
+    "type": "通用任务 Agent",
+    "website": "https://work.builditomi.com/",
+    "platforms": [
+      "Web"
+    ],
+    "icon": "",
+    "vendor_id": "sahootek",
+    "product_id": "omi-work",
+    "interfaces": [
+      "Web"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [
+      "work.builditomi.com"
+    ],
+    "web_domain_status": "verified",
+    "web_domain_verified_at": "2026-11-24"
+  },
+  {
+    "id": "mingent-desktop",
+    "name": "MinGent",
+    "aliases": [],
+    "vendor": "MinGent",
+    "type": "通用任务 Agent",
+    "website": "https://mingent.org/",
+    "platforms": [
+      "Windows"
+    ],
+    "icon": "icons/mingent.svg",
+    "vendor_id": "mingent",
+    "product_id": "mingent",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "pi-bot-desktop",
+    "name": "Pi Bot",
+    "aliases": [
+      "PiBot"
+    ],
+    "vendor": "Pi Bot",
+    "type": "通用任务 Agent",
+    "website": "https://pibot.space/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/pi-bot.svg",
+    "vendor_id": "pibot",
+    "product_id": "pi-bot",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]

@@ -2236,5 +2236,38 @@
         "title": "Omi CLI 官方定价：扩展使用同一套计划"
       }
     ]
+  },
+  "chat-with-work-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-24",
+    "notes": "官方定价页提供一次 300 trial credits（无需银行卡）以及 Personal / Personal Pro / Personal Max 与 Team / Team Pro / Team Max 付费档。按已核验官方付费服务记录，不记录易变价格。此标签不表示试用必须付费。",
+    "sources": [
+      {
+        "url": "https://chatwithwork.com/pricing",
+        "title": "Chat with Work 官方定价：trial 与 Personal/Team 付费档"
+      }
+    ]
+  },
+  "chat-with-work-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-24",
+    "notes": "与 Web 条同一官方 credits 与套餐；桌面客户端开源许可证独立保留。按已核验官方付费服务记录，不记录易变价格。此标签不表示桌面客户端必须付费。",
+    "sources": [
+      {
+        "url": "https://chatwithwork.com/pricing",
+        "title": "Chat with Work 官方定价：trial 与 Personal/Team 付费档"
+      }
+    ]
+  },
+  "omi-work-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-24",
+    "notes": "官方定价页提供 Free（无需银行卡）以及 Plus / Pro 个人档与 Business / Enterprise 团队档。按已核验官方付费服务记录，不记录易变价格。此标签不表示必须付费。",
+    "sources": [
+      {
+        "url": "https://work.builditomi.com/pricing",
+        "title": "Omi Work 官方定价：Free / Plus / Pro / Business / Enterprise"
+      }
+    ]
   }
 }

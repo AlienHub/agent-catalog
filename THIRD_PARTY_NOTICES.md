@@ -367,3 +367,13 @@ PNG 原样保存，未改后缀、未矢量化。官方站点素材以其来源�
 | --- | --- | --- |
 | `assets/icons/openvorld.svg` | [DigitalDreams-Lab/OpenVorld `desktop/assets/icon.svg`](https://raw.githubusercontent.com/DigitalDreams-Lab/OpenVorld/main/desktop/assets/icon.svg) | `e0973fead06906b186dfab80a57b1ef84a7d4f7b299499ad1f8fccea4c1d557e` |
 | `assets/icons/tamekoshi.svg` | [Tamekoshi 官网 `favicon.svg`](https://www.tamekoshi.com/favicon.svg) | `63fe4163011123ae14371e731cf10df4d69d27b96bea6705220225d3ea943eab` |
+
+## v0.56 Logo 收录（2026-11-24）
+
+本批 SVG 均原样保存，未重绘、未改后缀。官方网站/仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。Omi Work 官网图标为 PNG/WebP，未找到可核验官方纯矢量 SVG，保持空 `icon`。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/chat-with-work.svg` | [Chat with Work 官网 `logo.svg`](https://chatwithwork.com/logo.svg) | `63cc29d8bc93b53b07e8456f01690f1aed1f031d0ea9205f8b2efdbb2d1317cd` |
+| `assets/icons/mingent.svg` | [MinGent 官网 `img/mingent.svg`](https://mingent.org/img/mingent.svg) | `12a6d3ce86238064530b057c0a0cac207bdfa935e45fc3cb71e42ca9636ac52e` |
+| `assets/icons/pi-bot.svg` | [Pi Bot 官网 `assets/logo.svg`](https://pibot.space/assets/logo.svg) | `5ae679362cab352f79d803063b4d5e8c5d020271cd5451dabac142c376363fbf` |
