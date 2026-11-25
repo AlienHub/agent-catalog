@@ -3,9 +3,9 @@
   "original_web_records": 168,
   "added_web_records": 5,
   "counts": {
-    "verified": 79,
+    "verified": 108,
     "unverified": 85,
-    "self-hosted": 22
+    "self-hosted": 33
   },
   "scope": "All Web records structurally audited. Verified means official public entry evidence, not authenticated use or network-dependency coverage. Unverified remains an explicit gap.",
   "records": [

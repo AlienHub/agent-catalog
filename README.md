@@ -790,9 +790,18 @@ Logo：Nod / Linger 使用官方仓库 SVG；Ducter 使用官方 PNG；Mimzie �
 
 Logo：Buzz / kwant 使用官方仓库纯矢量 SVG。
 
+## v0.49 Grok Bot 与 YouArt Desktop（2026-11-13）
+
+新增 2 条应用、2 个产品，目录共 581 条应用、400 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.48 / `main` @ `3976b69`（#37 已合入）。未改 `schema.json` 与供应商分类。
+
+- Grok Bot 桌面端（SpaceXSI / vendor_id `xai`）：团队 AI 队友，与已收录 grok.com 聊天助手 `grok` 分产品。官方下载稳定构建 **1.0.3**（macOS / Windows / Linux）。专有。仅 GUI；不单列 Slack/Teams/会议渠道或手机端。
+- YouArt 桌面端（Formative Intelligence Inc.）：创意桌面 Agent，官方下载 **v0.3.20**（macOS / Windows）。专有。仅 GUI；未核验独立 Web 应用形态。
+
+Logo：Grok Bot 使用 Lobe Icons `grokbot.svg`；YouArt 官方 SVG 使用条款限制再分发，空 `icon`。
+
 ## v0.50 Rakazo、Caveman Code 与 Timon（2026-11-16）
 
-新增 6 条应用、3 个产品，目录共 585 条应用、401 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.48 / `main` @ `3976b69`（#37 已合入）。未改 `schema.json` 与供应商分类。未纳入开放草稿 PR #38 的 Grok Bot / YouArt。
+新增 6 条应用、3 个产品，目录共 587 条应用、403 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.49 / `main` @ `ec92302`（#38 已合入）。未改 `schema.json` 与供应商分类。
 
 - Rakazo 桌面端与托管 Web（Inbox Zero Inc.）：开源 Grok Bot 替代品。GitHub 非预发布 **v0.11.0**（2026-11-12）。Apache-2.0。不单列 IM 渠道或 iOS/Android。
 - Caveman Code 桌面端与托管 Web（Caveman Labs, Inc.）：编程 Agent 应用。官方 latest-mac.yml **0.1.5**。专有；不把旧开源 Caveman CLI 当作本产品。仅 macOS 桌面；Windows / 终端应用未发布。
