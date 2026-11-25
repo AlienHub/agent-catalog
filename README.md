@@ -811,7 +811,7 @@ Logo：三款均无适合再分发的方形官方 SVG，空 `icon`。
 
 ## v0.51 CopilotKit OpenBot（2026-11-17）
 
-新增 1 条应用、1 个产品，目录共 588 条应用、404 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.50 / `main` @ `bc24278`（#39 已合入）。49）或 #39（v0.50）为基线，也不重复其条目。未改 `schema.json` 与供应商分类。
+新增 1 条应用、1 个产品，目录共 588 条应用、404 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.50 / `main` @ `bc24278`（#39 已合入）。未改 `schema.json` 与供应商分类。
 
 - OpenBot 桌面端（CopilotKit）：自托管通用任务 Agent 工作区。GitHub 非预发布 **v1.0.3**（2026-11-14）。MIT。仅 GUI（macOS / Windows）；不单列 Coming soon 的 Web、early access 的 iOS/Android/Slack/Teams/Business。与 Nightly Labs OpenBot（`openbot-desktop`）及 CopilotKit OpenMuse / OpenDuet 分产品。不把预发布 v1.1.0-rc.1 当作产品版本。
 
