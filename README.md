@@ -790,9 +790,90 @@ Logo：Nod / Linger 使用官方仓库 SVG；Ducter 使用官方 PNG；Mimzie �
 
 Logo：Buzz / kwant 使用官方仓库纯矢量 SVG。
 
+## v0.49 Grok Bot 与 YouArt Desktop（2026-11-13）
+
+新增 2 条应用、2 个产品，目录共 581 条应用、400 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.48 / `main` @ `3976b69`（#37 已合入）。未改 `schema.json` 与供应商分类。
+
+- Grok Bot 桌面端（SpaceXSI / vendor_id `xai`）：团队 AI 队友，与已收录 grok.com 聊天助手 `grok` 分产品。官方下载稳定构建 **1.0.3**（macOS / Windows / Linux）。专有。仅 GUI；不单列 Slack/Teams/会议渠道或手机端。
+- YouArt 桌面端（Formative Intelligence Inc.）：创意桌面 Agent，官方下载 **v0.3.20**（macOS / Windows）。专有。仅 GUI；未核验独立 Web 应用形态。
+
+Logo：Grok Bot 使用 Lobe Icons `grokbot.svg`；YouArt 官方 SVG 使用条款限制再分发，空 `icon`。
+
+## v0.50 Rakazo、Caveman Code 与 Timon（2026-11-16）
+
+新增 6 条应用、3 个产品，目录共 587 条应用、403 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.49 / `main` @ `ec92302`（#38 已合入）。未改 `schema.json` 与供应商分类。
+
+- Rakazo 桌面端与托管 Web（Inbox Zero Inc.）：开源 Grok Bot 替代品。GitHub 非预发布 **v0.11.0**（2026-11-12）。Apache-2.0。不单列 IM 渠道或 iOS/Android。
+- Caveman Code 桌面端与托管 Web（Caveman Labs, Inc.）：编程 Agent 应用。官方 latest-mac.yml **0.1.5**。专有；不把旧开源 Caveman CLI 当作本产品。仅 macOS 桌面；Windows / 终端应用未发布。
+- Timon 桌面端与自托管 Web（PUBLIKO, SASU）：本机编程 Agent 工作站。GitHub 非预发布 **v0.1.8**（2026-11-15）。AGPL-3.0。不单列第三方 CLI、`timon` 诊断命令或移动 PWA。
+
+Logo：三款均无适合再分发的方形官方 SVG，空 `icon`。
+
+## v0.51 CopilotKit OpenBot（2026-11-17）
+
+新增 1 条应用、1 个产品，目录共 588 条应用、404 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.50 / `main` @ `bc24278`（#39 已合入）。未改 `schema.json` 与供应商分类。
+
+- OpenBot 桌面端（CopilotKit）：自托管通用任务 Agent 工作区。GitHub 非预发布 **v1.0.3**（2026-11-14）。MIT。仅 GUI（macOS / Windows）；不单列 Coming soon 的 Web、early access 的 iOS/Android/Slack/Teams/Business。与 Nightly Labs OpenBot（`openbot-desktop`）及 CopilotKit OpenMuse / OpenDuet 分产品。不把预发布 v1.1.0-rc.1 当作产品版本。
+
+Logo：无 CopilotKit OpenBot 专属可再分发 SVG，空 `icon`。
+
+## v0.52 日更（2026-11-18）
+
+新增 4 条应用、2 个产品，目录共 592 条应用、406 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.51 / `main` @ `5d4abb2`（#40 已合入）。未改 `schema.json` 与供应商分类。
+
+- Kilo Desktop（Kilo Code）：已有产品 `kilo-code` 的新 GUI 形态。官方 2026-11-17 GA。GitHub 非预发布 **v1.0.0**（2026-11-17）。独立仓库 Kilo-Org/kilo-desktop，**OCVSAL-1.0** source-available，不把 kilocode MIT 外推到桌面。macOS（仅 Apple Silicon）/ Windows / Linux。不单列 Cloud / Slack / Mobile / JetBrains。
+- Lumo 桌面端与 Web（Proton AG）：隐私优先 AI 助手。桌面 GitHub **0.5.9**（2026-11-17，GPL-3.0-only，目录记 source-available）。Web 主机 lumo.proton.me。不收录 iOS/Android。
+- Hako 桌面端（Eugeniu Vozoca）：本机 herdr Agent 控制面，仅 macOS 15+。免费、无需账户。未找到官方公开仓库或可核验版本号。不收录 iOS/iPad/Watch，不把官方「very soon」的 Windows/Linux/Android 写入 platforms。
+
+Logo：Kilo Desktop 复用已有 `kilo-code.svg`；Lumo 使用 Proton WebClients 官方 Lumo favicon.svg；Hako 无纯矢量 SVG，空 `icon`。
+
+## v0.53 dusk bot、Toone 与 S.space（2026-11-19）
+
+新增 4 条应用、3 个产品，目录共 596 条应用、409 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.52 / `main` @ `d4f77c4`（#41 已合入）。未改 `schema.json` 与供应商分类。
+
+- dusk bot 桌面端（dusk bot / GitHub DuskBotAI）：本机多 bot 团队，使用用户已有模型订阅。GitHub 非预发布 **v0.2.21**（2026-11-19）。PolyForm Noncommercial 1.0.0，记 **source-available**（官方 FAQ 明确不是开源）。仅 GUI；不单列 dusk cloud、自托管、`duskbot` 命令或 Android。
+- Toone 桌面端（Matheus Paranhos, trading as Toone）：原生 macOS agentic workflow 工作区。官方 changelog **1.0.81**（2026-10-12）。专有；仅 macOS。不单列网站账户/Explore。
+- S.space 桌面端与 Web（AG2AI, Inc.）：团队 rooms + Mac 内 Sutando。无公开 semver。Web 主机 **s.space**。不把 sonichi/sutando（MIT agent 仓）记为客户端开源。不单列 Sutando 或 iPhone。
+
+Logo：三条产品均使用官方站点纯矢量 SVG（dusk bot kit.svg / Toone toone-mark.svg / S.space sspace-mark.svg）。
+
+## v0.54 Fieldwork Code、TestSprite、Gemini 桌面、Vibe Desktop 与 Tecla（2026-11-20）
+
+新增 6 条应用、3 个产品，目录共 602 条应用、412 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.53 / `main` @ `2f083e6`（#42 已合入）。未改 `schema.json` 与供应商分类。
+
+- Fieldwork Code 桌面端（Fieldwork AI Inc.）：本机 Mac/Windows 编程 Agent。安装包 `Fieldwork-latest.dmg` / `FieldworkSetup-latest.exe`，官网未公布 semver。不把 runner 仓记为桌面开源；不单列 CLI、通用 menu bar worker、移动端或 `app.fieldwork.ai`。
+- TestSprite Web 与 CLI（TestSprite, Inc.）：Web Portal 产品营销版本 **4.0**；开源 CLI GitHub **v0.17.0**（Apache-2.0，2026-11-19）。不把 MCP / GitHub Actions 写成 IDE 插件。
+- Gemini 桌面端（Google）：在已有 `gemini` Web 产品上新增 GUI。官方 macOS（Apple Silicon，Sequoia 15.0+）与 Windows 10+。Computer use 是 Mac 应用功能，不单列。未公布桌面 semver。不改 `gemini-cli` / `gemini-code-assist` / `gemini-notebook`。
+- Mistral Vibe Desktop（Mistral AI）：在已有 `mistral-vibe` 上新增 GUI。官方 2026-11-17 macOS/Windows；不嵌入 CLI。未公布桌面 semver。不改 Web / CLI / IDE 插件记录。
+- Tecla 桌面端（Pipeless, Inc）：官方 Mac 安装包 **0.1.5**。无公开 GitHub。无独立 Web 应用主机。
+
+Logo：Fieldwork Code / TestSprite 使用官网纯矢量 SVG；Gemini / Vibe 复用目录已有标；Tecla 无核验 SVG，空 `icon`。
+
+## v0.55 oovi、Omi CLI、OpenVorld 与 Tamekoshi（2026-11-23）
+
+新增 5 条应用、4 个产品，目录共 607 条应用、416 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.54 / `main` @ `615fbf1`（#43 已合入）。未改 `schema.json` 与供应商分类。
+
+- oovi 桌面端（Conuron）：本机通用任务 Agent 团队。官方 changelog / 安装包 **0.15.3**（2026-11-22）。仅已核验 Windows；Mac/Linux 下载核验时 unavailable。专有。
+- Omi CLI 与 IDE 插件（SahooTek）：终端编码 Agent。官方 **0.5.0**（2026-11-21）；VSIX `omi-cli-0.4.0.vsix`。macOS/Linux（Windows via WSL 不写入）。专有 All rights reserved。
+- OpenVorld 桌面端：local-first Agent harness。GitHub **v0.19.5**（2026-11-20）。MIT。
+- Tamekoshi 桌面端（kumanaya）：官方 **0.1.2** beta。Windows 与 Linux；macOS Soon 不写入。尚未开源。
+
+Logo：OpenVorld 使用官方仓库 SVG；Tamekoshi 使用官网 favicon.svg；oovi / Omi CLI 无纯矢量 SVG，空 `icon`。
+
+## v0.56 Chat with Work、Omi Work、MinGent 与 Pi Bot（2026-11-24）
+
+新增 5 条应用、4 个产品，目录共 612 条应用、420 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.55 / `main` @ `c9dd510`（#44 已合入）。未改 `schema.json` 与供应商分类。
+
+- Chat with Work Web 与桌面端（PlentyLabs UG (haftungsbeschränkt) & Co. KG）：欧盟托管工作机器人；桌面 GitHub 非预发布 **v0.20.0**（2026-11-21）。Web 无公布 semver。桌面 GPL-3.0-only，记 source-available。不单列 bundled `cww`、自托管或移动端。
+- Omi Work Web（SahooTek / BuildItOmi）：独立于 Omi CLI 的 Web 工作区。无公布 semver。无官方纯矢量 SVG。不单列尚未上架的 Chrome helper，也不复制 #44 的 `omi-cli` / `omi-ide`。
+- MinGent 桌面端（无公布法律实体，vendor 用产品名）：Windows 10/11。GitHub **v1.7.0**（2026-11-20）。MIT。
+- Pi Bot 桌面端（无公布法律实体，vendor 用产品名）：macOS / Windows / Linux。GitHub **v0.0.3**（2026-11-22）。Apache-2.0。不收录 Android / Runner。
+
+Logo：Chat with Work / MinGent / Pi Bot 使用官方网站纯矢量 SVG；Omi Work 未找到可核验 SVG。
+
 ## v0.57 日更（2026-11-25）
 
-新增 2 条应用、2 个产品，目录共 581 条应用、400 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.48 / `main` @ `3976b69`（#37 已合入）。未吸收开放草稿 #38–#45（v0.49–v0.56）。未改 `schema.json` 与供应商分类。
+新增 2 条应用、2 个产品，目录共 614 条应用、422 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.56 / `main` @ `4b5faad`（#45 已合入）。未改 `schema.json` 与供应商分类。
 
 - Granular 桌面端（Granular）：本机优先 AI 工作区，并行运行 Claude Code / Codex / Gemini 等。官方 changelog **v0.7.4**（2026-11-20）。专有；免费下载，另有付费 Pro / AI Add-on。macOS 正式、Windows 官方 beta。不收录 Linux（planned）、Telegram 电话桥或账户/发布链接 Web。
 - Fleetify 桌面端（Fleetify）：开源编码 Agent 命令中心。GitHub 非预发布 **v0.3.2**（2026-11-24）。Apache-2.0。macOS 11+ / Windows 10–11 / Linux x86_64。app.fleetify.dev 为账户/同步仪表盘，不单列 Web。服务目前免费。
