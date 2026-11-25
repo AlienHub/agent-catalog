@@ -323,3 +323,11 @@ PNG 原样保存，未改后缀、未矢量化。官方站点素材以其来源�
 | --- | --- | --- |
 | `assets/icons/buzz.svg` | [block/buzz-app `public/buzz-mark.svg`](https://raw.githubusercontent.com/block/buzz-app/main/public/buzz-mark.svg) | `663f093dd8d31e5297ee536baa92f506c028b62e95a2933eb2d64bc16acba11c` |
 | `assets/icons/kwant.svg` | [alexsergivan/kwant `frontend/public/icon.svg`](https://raw.githubusercontent.com/alexsergivan/kwant/main/frontend/public/icon.svg) | `0abbeedab43928910c7f3685eca8d715819aa8685f05b377ca82f89bc019a6fc` |
+
+## v0.57 Logo 收录（2026-11-25）
+
+本批 SVG 均原样保存，未重绘、未改后缀。官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。Fleetify `TRADEMARKS.md` 写明名称与 logo 不在 Apache-2.0 范围内。Granular 官网 favicon 为 PNG，未找到可核验官方纯矢量 SVG，保持空 `icon`。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/fleetify.svg` | [fleetifydev/fleetify `public/logo-mark-dark.svg`](https://raw.githubusercontent.com/fleetifydev/fleetify/main/public/logo-mark-dark.svg) | `7e30321c521d2f49d0986cb3811a2628c215f7794bb2fd8789a00d31cee0f8a4` |

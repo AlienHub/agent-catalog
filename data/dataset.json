@@ -14881,5 +14881,54 @@
     "web_domains": [],
     "web_domain_status": "self-hosted",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "granular-desktop",
+    "name": "Granular",
+    "aliases": [],
+    "vendor": "Granular",
+    "type": "通用任务 Agent",
+    "website": "https://granular.build/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "granular",
+    "product_id": "granular",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：未找到并验证可用的纯矢量 SVG",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
+  },
+  {
+    "id": "fleetify-desktop",
+    "name": "Fleetify",
+    "aliases": [],
+    "vendor": "Fleetify",
+    "type": "AI 编程",
+    "website": "https://fleetify.dev/",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "icon": "icons/fleetify.svg",
+    "vendor_id": "fleetify",
+    "product_id": "fleetify",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "已验证 SVG · 官方素材",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]

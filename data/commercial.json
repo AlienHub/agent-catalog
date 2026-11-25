@@ -2092,5 +2092,20 @@
         "title": "Mimzie 官方定价：应用免费与 Mimzie agent 付费档"
       }
     ]
+  },
+  "granular-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-25",
+    "notes": "官网定价页与条款确认应用可免费下载使用（自备 Claude/Codex/Gemini 等），另提供付费 Pro（月付/年付/买断）与可选 AI Add-on（Granular Hosted）。按已核验官方付费服务记录，不记录易变价格。此标签不表示桌面客户端必须付费下载。",
+    "sources": [
+      {
+        "url": "https://granular.build/pricing",
+        "title": "Granular 官方定价：Free 与付费 Pro / AI Add-on"
+      },
+      {
+        "url": "https://granular.build/terms/",
+        "title": "服务条款：Free 与付费 Pro"
+      }
+    ]
   }
 }

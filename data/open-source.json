@@ -4918,5 +4918,29 @@
       }
     ],
     "classification": "application"
+  },
+  "fleetify-desktop": {
+    "repository_url": "https://github.com/fleetifydev/fleetify",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/fleetifydev/fleetify/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-25",
+      "github_archived": false,
+      "last_push_at": "2026-11-24T23:39:27Z"
+    },
+    "notes": "本次核验上游主分支 LICENSE 正文为 Apache License 2.0（GitHub SPDX Apache-2.0；README 与条款同）。结论仅限已核查的 fleetifydev/fleetify 桌面应用源码，不外推所连接的 Claude Code / Codex / Cursor 等第三方 Agent 或模型。TRADEMARKS.md 明确名称与 logo 不在该许可证内。维护状态参考公开非预发布 v0.3.2，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/fleetifydev/fleetify/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://github.com/fleetifydev/fleetify",
+        "title": "官方仓库与桌面发行"
+      }
+    ],
+    "classification": "application"
   }
 }
