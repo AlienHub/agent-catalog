@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.53（2026-11-19），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.54（2026-11-20），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -836,3 +836,15 @@ Logo：Kilo Desktop 复用已有 `kilo-code.svg`；Lumo 使用 Proton WebClients
 - S.space 桌面端与 Web（AG2AI, Inc.）：团队 rooms + Mac 内 Sutando。无公开 semver。Web 主机 **s.space**。不把 sonichi/sutando（MIT agent 仓）记为客户端开源。不单列 Sutando 或 iPhone。
 
 Logo：三条产品均使用官方站点纯矢量 SVG（dusk bot kit.svg / Toone toone-mark.svg / S.space sspace-mark.svg）。
+
+## v0.54 Fieldwork Code、TestSprite、Gemini 桌面、Vibe Desktop 与 Tecla（2026-11-20）
+
+新增 6 条应用、3 个产品，目录共 602 条应用、412 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.53 / `main` @ `2f083e6`（#42 已合入）。未改 `schema.json` 与供应商分类。
+
+- Fieldwork Code 桌面端（Fieldwork AI Inc.）：本机 Mac/Windows 编程 Agent。安装包 `Fieldwork-latest.dmg` / `FieldworkSetup-latest.exe`，官网未公布 semver。不把 runner 仓记为桌面开源；不单列 CLI、通用 menu bar worker、移动端或 `app.fieldwork.ai`。
+- TestSprite Web 与 CLI（TestSprite, Inc.）：Web Portal 产品营销版本 **4.0**；开源 CLI GitHub **v0.17.0**（Apache-2.0，2026-11-19）。不把 MCP / GitHub Actions 写成 IDE 插件。
+- Gemini 桌面端（Google）：在已有 `gemini` Web 产品上新增 GUI。官方 macOS（Apple Silicon，Sequoia 15.0+）与 Windows 10+。Computer use 是 Mac 应用功能，不单列。未公布桌面 semver。不改 `gemini-cli` / `gemini-code-assist` / `gemini-notebook`。
+- Mistral Vibe Desktop（Mistral AI）：在已有 `mistral-vibe` 上新增 GUI。官方 2026-11-17 macOS/Windows；不嵌入 CLI。未公布桌面 semver。不改 Web / CLI / IDE 插件记录。
+- Tecla 桌面端（Pipeless, Inc）：官方 Mac 安装包 **0.1.5**。无公开 GitHub。无独立 Web 应用主机。
+
+Logo：Fieldwork Code / TestSprite 使用官网纯矢量 SVG；Gemini / Vibe 复用目录已有标；Tecla 无核验 SVG，空 `icon`。

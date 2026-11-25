@@ -5154,5 +5154,29 @@
       }
     ],
     "classification": "application"
+  },
+  "testsprite-cli": {
+    "repository_url": "https://github.com/TestSprite/testsprite-cli",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/TestSprite/testsprite-cli/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-20",
+      "github_archived": false,
+      "last_push_at": "2026-11-19T08:06:48Z"
+    },
+    "notes": "结论仅限已核查的 TestSprite/testsprite-cli（Apache-2.0，Copyright 2026 TestSprite, Inc.）。不得把 CLI 开源外推到 TestSprite Web Portal / 4.0 云服务，也不得把 MCP Server 或 GitHub Actions 写成独立应用。维护状态参考公开 Release v0.17.0，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/TestSprite/testsprite-cli/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://github.com/TestSprite/testsprite-cli/releases/tag/v0.17.0",
+        "title": "GitHub 非预发布 v0.17.0"
+      }
+    ],
+    "classification": "application"
   }
 }

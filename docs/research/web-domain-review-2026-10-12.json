@@ -3,7 +3,7 @@
   "original_web_records": 168,
   "added_web_records": 5,
   "counts": {
-    "verified": 110,
+    "verified": 111,
     "unverified": 85,
     "self-hosted": 33
   },
@@ -4938,6 +4938,26 @@
         }
       ],
       "notes": "2026-11-19 新增已核验 Web 入口 s.space。营销路径 /welcome、/download、/docs 与应用共用该主机；不把 sutando.s.space 推断为第二应用主机。"
+    },
+    {
+      "id": "testsprite-web",
+      "name": "TestSprite",
+      "website": "https://www.testsprite.com/",
+      "status": "verified",
+      "domains": [
+        "www.testsprite.com"
+      ],
+      "sources": [
+        {
+          "url": "https://www.testsprite.com/",
+          "title": "TestSprite 官网"
+        },
+        {
+          "url": "https://www.testsprite.com/dashboard",
+          "title": "已核验 Web 应用主机 www.testsprite.com/dashboard"
+        }
+      ],
+      "notes": "2026-11-20 新增已核验 Web 入口 www.testsprite.com（/dashboard 与 /dashboard-v3）。营销首页与应用同主机。"
     }
   ],
   "added_web_records_20261013": 4,
@@ -4960,5 +4980,6 @@
   "added_web_records_20261112": 1,
   "added_web_records_20261116": 3,
   "added_web_records_20261118": 1,
-  "added_web_records_20261119": 1
+  "added_web_records_20261119": 1,
+  "added_web_records_20261120": 1
 }

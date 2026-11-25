@@ -13802,5 +13802,201 @@
       }
     ],
     "verified_at": "2026-11-19"
+  },
+  "fieldwork-code-desktop": {
+    "notes": "Fieldwork AI Inc.（Delaware；官网页脚与条款：169 Madison Ave STE 79708 New York, NY 10016）出品的编程 Agent 产品 Fieldwork Code。本条仅桌面 GUI。官方产品页 https://fieldwork.ai/solutions/software-development 写明本机 Local 档免费，Mac 与 Windows 可并行跑本机 coding session（可用自带 Claude / ChatGPT 订阅）；Cloud 档为云端 sandbox，不是本条。该页提供的安装包为 https://getfieldwork.ai/downloads/mac/Fieldwork-latest.dmg 与 https://getfieldwork.ai/downloads/win/FieldworkSetup-latest.exe（核验日 Last-Modified 2026-11-18，文件名无 semver，不虚构版本号）。同一 DMG/EXE URL 也出现在通用下载页 https://fieldwork.ai/download；该页描述的是 menu bar companion / Slack / Teams / Chrome worker，与 Code 产品页并存。本条按 Fieldwork Code 收录，不另列通用 worker。公开仓库 fieldwork-ai/fieldwork-code 自述为 terminal client and laptop runner，双许可 MIT OR Apache-2.0，无 GitHub Releases；不得把 runner 仓自动写成桌面应用开源。官方产品页未把 fwcode 终端客户端作为独立最终用户 CLI 发行，不单列 CLI。app.fieldwork.ai/register?intent=code 是通用 Fieldwork 工作区注册入口，不是独立 Fieldwork Code Web 应用；fwk.dev 预览链是客户 sandbox，不是产品应用主机。不收录 iPhone/Android/Watch。Logo 使用官网 /f-dark.svg 字母标。官网/下载/条款资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://fieldwork.ai/solutions/software-development",
+        "title": "官方 Fieldwork Code 产品页：本机 Mac/Windows、Local 免费"
+      },
+      {
+        "url": "https://getfieldwork.ai/downloads/mac/Fieldwork-latest.dmg",
+        "title": "官方 Mac 安装包 Fieldwork-latest.dmg（无公布 semver）"
+      },
+      {
+        "url": "https://getfieldwork.ai/downloads/win/FieldworkSetup-latest.exe",
+        "title": "官方 Windows 安装包 FieldworkSetup-latest.exe"
+      },
+      {
+        "url": "https://fieldwork.ai/download",
+        "title": "通用 Fieldwork 下载页：menu bar companion 等；安装包 URL 与 Code 页相同，不另列"
+      },
+      {
+        "url": "https://fieldwork.ai/terms",
+        "title": "条款：Fieldwork AI Inc., a Delaware corporation"
+      },
+      {
+        "url": "https://github.com/fieldwork-ai/fieldwork-code",
+        "title": "公开仓库：terminal client and laptop runner；无 Releases；不据此把桌面应用记为开源"
+      },
+      {
+        "url": "https://fieldwork.ai/f-dark.svg",
+        "title": "官网 /f-dark.svg 产品字母标"
+      }
+    ],
+    "verified_at": "2026-11-20"
+  },
+  "testsprite-web": {
+    "notes": "TestSprite, Inc. 出品的测试 Agent 平台 TestSprite。本条仅 Web。官网 2026-11-19 发布 TestSprite 4.0（“Introducing TestSprite 4.0 and our new testing agent.”），产品营销版本为 4.0，不得与 CLI v0.17.0 混用。官方文档称 Web Portal 为浏览器内 Agent；CLI README 指向 www.testsprite.com/dashboard-v3/settings/apikey，核验 https://www.testsprite.com/dashboard 与 /dashboard-v3 为 Next.js 应用（营销首页同主机）。web_domains 记 www.testsprite.com。条款主体写 TestSprite（华盛顿注册，1525 11th Ave / 页脚 701 5th Ave Suite 5000 Seattle）；官方 CLI LICENSE 版权行为 Copyright 2026 TestSprite, Inc.，供应商按该法人名。MCP、GitHub Actions、IDE 内 MCP 不是目录形态，不单列 IDE 插件。官网资料核验，未做登录、运行或区域可用性测试。Logo 使用官网 /favicon.svg。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://www.testsprite.com/",
+        "title": "官网：Introducing TestSprite 4.0 and our new testing agent；Browser · the agent"
+      },
+      {
+        "url": "https://www.testsprite.com/dashboard",
+        "title": "已核验 Web 应用入口 www.testsprite.com/dashboard"
+      },
+      {
+        "url": "https://www.testsprite.com/dashboard-v3/settings/apikey",
+        "title": "官方 CLI README 指向的 dashboard-v3 API key 设置页"
+      },
+      {
+        "url": "https://docs.testsprite.com/web-portal/getting-started/overview",
+        "title": "官方文档：TestSprite Web Portal"
+      },
+      {
+        "url": "https://www.testsprite.com/terms",
+        "title": "Terms of Service：TestSprite，Washington, United States"
+      },
+      {
+        "url": "https://github.com/TestSprite/testsprite-cli/blob/main/LICENSE",
+        "title": "官方 CLI LICENSE 版权行：Copyright 2026 TestSprite, Inc."
+      },
+      {
+        "url": "https://www.testsprite.com/favicon.svg",
+        "title": "官网 /favicon.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-20"
+  },
+  "testsprite-cli": {
+    "notes": "同一 TestSprite 产品的官方开源 CLI。本条仅 CLI。仓库 TestSprite/testsprite-cli，Apache-2.0。GitHub 非预发布 **v0.17.0**（发布 2026-11-19T08:06:48Z），npm @testsprite/testsprite-cli latest 同步 0.17.0。产品营销版本 4.0 属于 Web/平台，不得当作 CLI 版本。Node.js 20.19+ / 22.13+ / 24+。MCP Server 与 GitHub Actions 不是目录形态，不单列 IDE 插件。官网/仓库/发布页资料核验，未做安装、运行或区域可用性测试。Logo 与 Web 条共用官网 favicon.svg。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://github.com/TestSprite/testsprite-cli",
+        "title": "官方仓库 TestSprite/testsprite-cli：Apache-2.0 CLI"
+      },
+      {
+        "url": "https://github.com/TestSprite/testsprite-cli/releases/tag/v0.17.0",
+        "title": "GitHub 非预发布 v0.17.0（2026-11-19T08:06:48Z）"
+      },
+      {
+        "url": "https://github.com/TestSprite/testsprite-cli/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0；Copyright 2026 TestSprite, Inc."
+      },
+      {
+        "url": "https://www.testsprite.com/",
+        "title": "官网：CLI · for coding agents，Apache 2.0"
+      },
+      {
+        "url": "https://www.testsprite.com/favicon.svg",
+        "title": "官网 /favicon.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-20"
+  },
+  "gemini-desktop": {
+    "notes": "Google 消费级 Gemini 助手的官方桌面 GUI，与已收录的 Web 条同属 product_id gemini，不改动 gemini / gemini-cli / gemini-code-assist / gemini-notebook。本条仅 GUI。官方下载页 https://gemini.google/mac 重定向至 https://gemini.google/desktop，标题为 Download Gemini for desktop，明确 Windows 与 macOS：Windows 10+（x64 与 ARM64）；macOS 为 Apple Silicon、macOS Sequoia 15.0+。官方安装包 https://gemini.google/download/mac/ → dl.google.com Gemini.dmg，https://gemini.google/download/windows/ → GeminiSetup.exe；文件名与发布说明均未公布独立桌面 semver，不虚构版本号。2026-11-19 Google 博文宣布 Gemini app for Mac 的 Computer use（英语、美国、Google AI Plus/Pro/Ultra 个人账号 18+）为该 Mac 应用的功能，不单列产品。不收录 iOS/Android。Logo 复用目录已有 Lobe Icons Gemini 标。官网/博文/下载页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://gemini.google/desktop",
+        "title": "官方 Gemini for desktop 下载页：Windows 与 macOS"
+      },
+      {
+        "url": "https://gemini.google/mac",
+        "title": "博文点名的 Mac 下载入口，重定向至 /desktop/"
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+        "title": "Google 博文 2026-11-19：Automate Mac tasks with Gemini computer use"
+      },
+      {
+        "url": "https://gemini.google/release-notes/",
+        "title": "Gemini Apps 发布说明 2026.11.19：Computer use；未公布桌面 semver"
+      },
+      {
+        "url": "https://gemini.google/download/mac/",
+        "title": "官方 Mac 安装重定向至 dl.google.com Gemini.dmg"
+      },
+      {
+        "url": "https://gemini.google/download/windows/",
+        "title": "官方 Windows 安装重定向至 GeminiSetup.exe"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/gemini-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-11-20"
+  },
+  "mistral-vibe-desktop": {
+    "notes": "Mistral Vibe 的官方桌面 GUI，与已收录的 Web / CLI / IDE 插件同属 product_id mistral-vibe，不改动既有记录。本条仅 GUI。官方发布说明 2026-11-17：Vibe Desktop 把 Work、本地 coding 与云端 coding session 放进同一 macOS/Windows 应用；Linux 稍后。官方文档写明 Desktop 不嵌入、不运行 CLI 应用，无需另装 CLI；不得并入 CLI 记录。产品页提供 https://chat.mistral.ai/download/vibe-desktop/mac 与 /windows。发布说明与下载 URL 未公布独立桌面 semver，不得把 CLI v3.0.0 当作桌面版本。开源认定仍仅限 mistral-vibe-cli。Logo 复用目录已有 Mistral 标。官网/文档资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://docs.mistral.ai/resources/release-notes",
+        "title": "官方发布说明 2026-11-17：Vibe Desktop for macOS and Windows"
+      },
+      {
+        "url": "https://docs.mistral.ai/vibe/code/desktop/overview",
+        "title": "官方文档：Code on Desktop；不嵌入 CLI"
+      },
+      {
+        "url": "https://docs.mistral.ai/vibe/work/desktop",
+        "title": "官方文档：Work on Desktop"
+      },
+      {
+        "url": "https://mistral.ai/products/vibe/",
+        "title": "官方产品页：macOS/Windows Vibe Desktop 下载"
+      },
+      {
+        "url": "https://chat.mistral.ai/download/vibe-desktop/mac?from=website",
+        "title": "官方 macOS 下载入口"
+      },
+      {
+        "url": "https://chat.mistral.ai/download/vibe-desktop/windows?from=website",
+        "title": "官方 Windows 下载入口"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mistral-color.svg",
+        "title": "LobeHub Icons — original SVG asset"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-11-20"
+  },
+  "tecla-desktop": {
+    "notes": "Pipeless, Inc 出品的主动工作助手 Tecla。法律主体来自官方 Privacy Policy（Last updated November 12, 2026）：Tecla is run by Pipeless, Inc。About 页未写法人，不从 tecla-support@googlegroups.com 或 tecla.io 推断。本条仅 macOS GUI。官网 Download for Mac；https://www.usetecla.com/download 302 至 https://downloads.usetecla.com/desktop/Tecla_universal.dmg，Content-Disposition 文件名为 Tecla_0.1.5_universal.dmg，按该官方安装包记 **0.1.5**。官网写明 What do I need to use Tecla? A Mac。未发现独立 Web 应用主机，www.usetecla.com 为营销站。未发现公开 GitHub。Logo 仅 PNG（/logo.png、/icon.png），无核验纯矢量 SVG，icon 留空。官网/隐私政策/下载资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://www.usetecla.com/",
+        "title": "官网：Download for Mac；proactive work assistant"
+      },
+      {
+        "url": "https://www.usetecla.com/download",
+        "title": "官方下载入口，302 至 Tecla_universal.dmg"
+      },
+      {
+        "url": "https://downloads.usetecla.com/desktop/Tecla_universal.dmg",
+        "title": "官方 Mac 安装包；Content-Disposition Tecla_0.1.5_universal.dmg"
+      },
+      {
+        "url": "https://www.usetecla.com/about",
+        "title": "About：产品说明；未写法人"
+      },
+      {
+        "url": "https://www.usetecla.com/privacy",
+        "title": "Privacy Policy：Tecla is run by Pipeless, Inc"
+      }
+    ],
+    "verified_at": "2026-11-20"
   }
 }
