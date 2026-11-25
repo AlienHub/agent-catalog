@@ -5018,5 +5018,33 @@
       }
     ],
     "classification": "application"
+  },
+  "copilotkit-openbot-desktop": {
+    "repository_url": "https://github.com/CopilotKit/OpenBot",
+    "source_model": "open-source",
+    "license": "MIT",
+    "license_url": "https://github.com/CopilotKit/OpenBot/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-17",
+      "github_archived": false,
+      "last_push_at": "2026-11-17T01:23:42Z"
+    },
+    "notes": "本次核验上游主分支 LICENSE 为 MIT（Copyright (c) 2026 CopilotKit；GitHub SPDX MIT）。结论仅限已核查的 CopilotKit/OpenBot 应用源码，不外推 CopilotKit Intelligence（独立许可）、所连接的第三方 Agent SDK / 模型供应商，也不外推 Nightly Labs openbot（PolyForm Noncommercial）。维护状态参考公开非预发布 v1.0.3 与现行文档，非仅依据 push 时间或后续预发布 tag v1.1.0-rc.1。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/CopilotKit/OpenBot/blob/main/LICENSE",
+        "title": "官方 LICENSE：MIT"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenBot",
+        "title": "官方仓库与桌面发行"
+      },
+      {
+        "url": "https://github.com/CopilotKit/OpenBot/blob/main/README.md",
+        "title": "官方 README：应用模板 MIT；Intelligence 独立许可"
+      }
+    ],
+    "classification": "application"
   }
 }

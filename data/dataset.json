@@ -15079,5 +15079,31 @@
     "web_domains": [],
     "web_domain_status": "self-hosted",
     "web_domain_verified_at": ""
+  },
+  {
+    "id": "copilotkit-openbot-desktop",
+    "name": "OpenBot",
+    "aliases": [
+      "CopilotKit OpenBot"
+    ],
+    "vendor": "CopilotKit",
+    "type": "通用任务 Agent",
+    "website": "https://open.bot/",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "icon": "",
+    "vendor_id": "copilotkit",
+    "product_id": "copilotkit-openbot",
+    "interfaces": [
+      "GUI"
+    ],
+    "svg_status": "缺失：OpenBot 有独立产品标，官方仓库桌面图标仅为 PNG/ICO/ICNS、官网 OG 为 PNG；Lobe Icons / Simple Icons / svgl 无 CopilotKit OpenBot 专属 SVG；不套用 CopilotKit 厂商标识，也不使用 Nightly Labs openbot.svg",
+    "chrome_extension_id": "",
+    "edge_extension_id": "",
+    "web_domains": [],
+    "web_domain_status": "not-applicable",
+    "web_domain_verified_at": ""
   }
 ]

@@ -2162,5 +2162,16 @@
         "title": "Caveman 官方定价：Caveman Code 免费与付费 credits 档"
       }
     ]
+  },
+  "copilotkit-openbot-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-17",
+    "notes": "官方定价页：个人桌面端免费；OpenBot for Business 提供按活跃用户计费与 Annual 企业档，托管部署为 early access。按已核验官方付费服务记录，不记录易变价格，也不据此判断源码许可证。此标签不表示个人桌面客户端必须付费。",
+    "sources": [
+      {
+        "url": "https://open.bot/pricing",
+        "title": "OpenBot 官方定价：个人免费与 OpenBot for Business 付费档"
+      }
+    ]
   }
 }
