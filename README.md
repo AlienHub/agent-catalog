@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.51（2026-11-17），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.52（2026-11-18），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -816,3 +816,13 @@ Logo：三款均无适合再分发的方形官方 SVG，空 `icon`。
 - OpenBot 桌面端（CopilotKit）：自托管通用任务 Agent 工作区。GitHub 非预发布 **v1.0.3**（2026-11-14）。MIT。仅 GUI（macOS / Windows）；不单列 Coming soon 的 Web、early access 的 iOS/Android/Slack/Teams/Business。与 Nightly Labs OpenBot（`openbot-desktop`）及 CopilotKit OpenMuse / OpenDuet 分产品。不把预发布 v1.1.0-rc.1 当作产品版本。
 
 Logo：无 CopilotKit OpenBot 专属可再分发 SVG，空 `icon`。
+
+## v0.52 日更（2026-11-18）
+
+新增 4 条应用、2 个产品，目录共 592 条应用、406 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.51 / `main` @ `5d4abb2`（#40 已合入）。未改 `schema.json` 与供应商分类。
+
+- Kilo Desktop（Kilo Code）：已有产品 `kilo-code` 的新 GUI 形态。官方 2026-11-17 GA。GitHub 非预发布 **v1.0.0**（2026-11-17）。独立仓库 Kilo-Org/kilo-desktop，**OCVSAL-1.0** source-available，不把 kilocode MIT 外推到桌面。macOS（仅 Apple Silicon）/ Windows / Linux。不单列 Cloud / Slack / Mobile / JetBrains。
+- Lumo 桌面端与 Web（Proton AG）：隐私优先 AI 助手。桌面 GitHub **0.5.9**（2026-11-17，GPL-3.0-only，目录记 source-available）。Web 主机 lumo.proton.me。不收录 iOS/Android。
+- Hako 桌面端（Eugeniu Vozoca）：本机 herdr Agent 控制面，仅 macOS 15+。免费、无需账户。未找到官方公开仓库或可核验版本号。不收录 iOS/iPad/Watch，不把官方「very soon」的 Windows/Linux/Android 写入 platforms。
+
+Logo：Kilo Desktop 复用已有 `kilo-code.svg`；Lumo 使用 Proton WebClients 官方 Lumo favicon.svg；Hako 无纯矢量 SVG，空 `icon`。

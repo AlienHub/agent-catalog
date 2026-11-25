@@ -5046,5 +5046,81 @@
       }
     ],
     "classification": "application"
+  },
+  "kilo-code-desktop": {
+    "repository_url": "https://github.com/Kilo-Org/kilo-desktop",
+    "source_model": "source-available",
+    "license": "OCVSAL-1.0",
+    "license_url": "https://github.com/Kilo-Org/kilo-desktop/blob/main/LICENSE.md",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-18",
+      "github_archived": false,
+      "last_push_at": "2026-11-18T01:17:43Z"
+    },
+    "notes": "桌面源码在独立仓库 Kilo-Org/kilo-desktop，不是 Kilo-Org/kilocode。LICENSE.md 为 Open Core Ventures Source Available License (OCVSAL) version 1.0：生产使用需版权方商业协议；可修改、测试并发布修改，但版权仍归版权方（Copyright 2026-present Anaconda, Inc.）。GitHub SPDX Other/NOASSERTION。不能记为 OSI MIT，也不把 kilocode 的 MIT 外推到本条。维护状态参考公开非预发布 v1.0.0，非仅依据 push 时间或后续 preview tag。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/Kilo-Org/kilo-desktop/blob/main/LICENSE.md",
+        "title": "官方 LICENSE.md：OCVSAL 1.0"
+      },
+      {
+        "url": "https://github.com/Kilo-Org/kilo-desktop",
+        "title": "官方桌面仓库与 v1.0.0 发行"
+      }
+    ],
+    "classification": "application"
+  },
+  "lumo-desktop": {
+    "repository_url": "https://github.com/ProtonLumo/lumo-desktop",
+    "source_model": "source-available",
+    "license": "GPL-3.0",
+    "license_url": "https://github.com/ProtonLumo/lumo-desktop/blob/master/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-18",
+      "github_archived": false,
+      "last_push_at": "2026-11-17T09:39:17Z"
+    },
+    "notes": "package.json 写 GPL-3.0-only，根 LICENSE 为 GNU GPL v3，GitHub SPDX GPL-3.0。不在本目录 open-source 允许的 OSI 表达式（MIT / Apache-2.0 / AGPL-3.0 / GPL-3.0-or-later）内，故记 source-available。结论仅限已核查的 ProtonLumo/lumo-desktop 桌面源码，不外推所连接的 MCP 服务、Proton Mail Bridge 或托管模型。维护状态参考 0.5.9 发布合并提交，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop/blob/master/LICENSE",
+        "title": "官方 LICENSE：GNU GPL v3"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop/blob/master/package.json",
+        "title": "package.json：license GPL-3.0-only"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop",
+        "title": "官方仓库"
+      }
+    ],
+    "classification": "application"
+  },
+  "lumo-web": {
+    "repository_url": "https://github.com/ProtonMail/WebClients",
+    "source_model": "source-available",
+    "license": "GPL-3.0",
+    "license_url": "https://github.com/ProtonMail/WebClients/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-18",
+      "github_archived": false,
+      "last_push_at": "2026-11-17T20:16:50Z"
+    },
+    "notes": "Lumo Web 客户端位于 ProtonMail/WebClients 的 applications/lumo。根 LICENSE 为 GNU GPL v3（GitHub SPDX GPL-3.0），不在本目录 open-source 允许的 OSI 表达式内，故记 source-available。结论仅限已核查的 applications/lumo 目录，不外推同仓 Proton Mail / Calendar / Drive / VPN 或其他客户端，也不外推托管 lumo.proton.me 运行时。维护状态参考公开仓库现行推送，非产品版本证明。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/ProtonMail/WebClients/blob/main/LICENSE",
+        "title": "WebClients 根 LICENSE：GNU GPL v3"
+      },
+      {
+        "url": "https://github.com/ProtonMail/WebClients/tree/main/applications/lumo",
+        "title": "applications/lumo Web 客户端目录"
+      }
+    ],
+    "classification": "application"
   }
 }

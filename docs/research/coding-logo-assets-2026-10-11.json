@@ -9,7 +9,8 @@
       "path": "icons/kilo-code.svg",
       "application_ids": [
         "kilo-code-cli",
-        "kilo-code-ide"
+        "kilo-code-ide",
+        "kilo-code-desktop"
       ],
       "format": "SVG"
     },

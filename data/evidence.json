@@ -13514,5 +13514,153 @@
       }
     ],
     "verified_at": "2026-11-17"
+  },
+  "kilo-code-desktop": {
+    "notes": "Kilo Code（Kilo-Org）出品的桌面 GUI「Kilo Desktop」：本机运行 Kilo agent，把会话、聊天、diff、终端、notebook、conda 环境与本地模型收进同一窗口。本条仅桌面 GUI，与已收录的 kilo-code-cli / kilo-code-ide 同 product_id=kilo-code、vendor_id=kilo-code。官方 2026-11-17 宣布 GA（此前 10 月以 beta 引入）。当前稳定版为 GitHub 非预发布 **v1.0.0** / 「Kilo Desktop v1.0.0」（发布 2026-11-17T16:44:32Z，prerelease=false；apps/desktop/package.json 版本 1.0.0；Highlights 写 generally available）。安装资产：macOS Apple silicon .dmg/.zip，Windows x64 与 ARM64 Setup.exe，Linux x64 与 ARM64 .deb。官方安装文档写明 macOS 仅 Apple Silicon，v1.0.0 亦无 Intel Mac 包，不虚构 Intel Mac。公开文档站 release-notes 核验日仍以 0.1.16（2026-11-13）为最新条目；kilocode 仓库有「docs(kilo-docs): update Kilo Desktop docs for 1.0.0」变更，公开文档页尚未跟上。不把 v1.0.1-preview-* 预览线或 CLI/IDE 的 v7.8.x 当作桌面版本。不单列 Cloud / Slack / Mobile / JetBrains。桌面源码在独立仓库 Kilo-Org/kilo-desktop，LICENSE.md 为 Open Core Ventures Source Available License (OCVSAL) 1.0（生产使用需商业协议；GitHub SPDX Other/NOASSERTION），不把已收录的 kilocode MIT 外推到桌面。Logo 复用已核验的 icons/kilo-code.svg。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://kilo.ai/",
+        "title": "Kilo 官网"
+      },
+      {
+        "url": "https://kilo.ai/install",
+        "title": "官方安装页：Desktop App；macOS Apple Silicon、Windows x64/ARM64、Linux x64/ARM64"
+      },
+      {
+        "url": "https://kilo.ai/docs/desktop/installation",
+        "title": "官方安装文档：macOS（Apple Silicon）、Windows x64/ARM64、Linux x64/ARM64"
+      },
+      {
+        "url": "https://kilo.ai/docs/desktop/release-notes",
+        "title": "公开文档站 release-notes：核验日最新条目仍为 0.1.16（2026-11-13）"
+      },
+      {
+        "url": "https://blog.kilo.ai/p/kilo-desktop-is-generally-available",
+        "title": "官方博文：Kilo Desktop Is Generally Available（2026-11-17）"
+      },
+      {
+        "url": "https://github.com/Kilo-Org/kilo-desktop",
+        "title": "官方桌面仓库 Kilo-Org/kilo-desktop（与 kilocode CLI/IDE 分仓）"
+      },
+      {
+        "url": "https://github.com/Kilo-Org/kilo-desktop/blob/main/README.md",
+        "title": "官方 README：桌面应用；捆绑 Kilo CLI 作为 agent server"
+      },
+      {
+        "url": "https://github.com/Kilo-Org/kilo-desktop/releases/tag/v1.0.0",
+        "title": "GitHub 非预发布 v1.0.0 / Kilo Desktop v1.0.0（2026-11-17T16:44:32Z）"
+      },
+      {
+        "url": "https://github.com/Kilo-Org/kilo-desktop/blob/main/LICENSE.md",
+        "title": "官方 LICENSE.md：OCVSAL 1.0（source-available，非 MIT）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Kilo-Org/kilocode/fb7e96eda5409517a05948b9efaf01c53997bf6e/packages/kilo-console/public/favicon.svg",
+        "title": "SVG Logo — official brand asset"
+      }
+    ],
+    "verified_at": "2026-11-18"
+  },
+  "lumo-desktop": {
+    "notes": "Proton AG 出品的隐私优先 AI 助手 Lumo 的桌面端：Tauri 壳加载 lumo.proton.me Web 应用，并提供 Connectors（本机文件系统、shell、浏览器抓取、Proton Mail Bridge、第三方 MCP）、Schedules 与 Skills。本条仅桌面 GUI。官方 2026-11-17 博文宣布 Windows / macOS / Linux 发布并公开源码。仓库 ProtonLumo/lumo-desktop 创建于 2026-11-17；package.json 与 src-tauri/tauri.conf.json 版本 **0.5.9**（productName Lumo，publisher Proton AG）；master 合并提交 “release: 0.5.9”（2026-11-17）。GitHub 无 Releases 页，下载入口为 https://proton.me/lumo/download。README：macOS Universal（Apple silicon 与 Intel）.dmg；Windows .msi 与 -setup.exe；Linux .deb/.rpm（Ubuntu 24.04+、Fedora 40+）。FAQ：Connectors/Schedules 目前仅桌面，不收录 iOS/Android。应用显示名为 Lumo。桌面端因本地工具 / MCP / 定时任务记通用任务 Agent。源码 GPL-3.0-only（GitHub SPDX GPL-3.0），不在本目录 open-source 允许的 OSI 表达式内，故记 source-available。Logo 取自 ProtonMail/WebClients applications/lumo/src/favicon.svg 原样矢量（Lumo 产品标，非 Proton Mail/VPN 通用标）。官网/仓库资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://proton.me/lumo",
+        "title": "Lumo 官方产品页：隐私优先 AI 助手；Lumo Plus"
+      },
+      {
+        "url": "https://proton.me/lumo/download",
+        "title": "官方下载页：桌面/Web/移动端；FAQ 确认 Connectors/Schedules 仅桌面"
+      },
+      {
+        "url": "https://proton.me/blog/lumo-desktop-features",
+        "title": "官方博文：Proton launches Lumo Desktop（2026-11-17）"
+      },
+      {
+        "url": "https://proton.me/zh/blog/lumo-desktop-features",
+        "title": "官方中文博文：Lumo Desktop"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop",
+        "title": "官方仓库 ProtonLumo/lumo-desktop（2026-11-17 创建）"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop/blob/master/README.md",
+        "title": "官方 README：平台包、Connectors、显示名 Lumo、版本发行说明"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop/blob/master/package.json",
+        "title": "package.json：version 0.5.9，license GPL-3.0-only"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop/blob/master/src-tauri/tauri.conf.json",
+        "title": "tauri.conf.json：version 0.5.9，productName Lumo，publisher Proton AG"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop/blob/master/LICENSE",
+        "title": "官方 LICENSE：GNU GPL v3"
+      },
+      {
+        "url": "https://github.com/ProtonLumo/lumo-desktop/commit/bd5e2c608bac61f215d4a2094e26ef88cb7bc1e0",
+        "title": "master 合并提交：release: 0.5.9（2026-11-17）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ProtonMail/WebClients/634a0a2ad2cc749e8ecf76d8c98442ae5b61f3d2/applications/lumo/src/favicon.svg",
+        "title": "官方 WebClients applications/lumo/src/favicon.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-18"
+  },
+  "lumo-web": {
+    "notes": "同一 Lumo 产品的官方 Web 应用。已核验用户应用主机 lumo.proton.me；营销站 proton.me/lumo 与下载页 proton.me/lumo/download 不是应用主机，不记入 web_domains。官网定位为隐私优先 AI 聊天助手（zero-access encryption、对话不用于训练），类型记通用助手。Connectors/Schedules 官方写明目前仅桌面。不收录 iOS/Android。Web 客户端源码在 ProtonMail/WebClients 的 applications/lumo，根 LICENSE 为 GNU GPL v3（GitHub SPDX GPL-3.0）；结论仅限该 Lumo 应用目录，不外推 Proton Mail/VPN/Drive。无独立公开 semver，不把桌面 0.5.9 写成 Web 版本。Logo 与桌面条共用官方 favicon.svg。官网资料核验，未做登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://proton.me/lumo",
+        "title": "Lumo 官方产品页"
+      },
+      {
+        "url": "https://lumo.proton.me/",
+        "title": "已核验 Web 应用主机 lumo.proton.me"
+      },
+      {
+        "url": "https://proton.me/lumo/download",
+        "title": "官方下载页列出 Web app；FAQ 区分桌面 Connectors/Schedules"
+      },
+      {
+        "url": "https://github.com/ProtonMail/WebClients/tree/main/applications/lumo",
+        "title": "ProtonMail/WebClients applications/lumo Web 客户端源码"
+      },
+      {
+        "url": "https://github.com/ProtonMail/WebClients/blob/main/LICENSE",
+        "title": "WebClients 根 LICENSE：GNU GPL v3"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ProtonMail/WebClients/634a0a2ad2cc749e8ecf76d8c98442ae5b61f3d2/applications/lumo/src/favicon.svg",
+        "title": "官方 WebClients applications/lumo/src/favicon.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-18"
+  },
+  "hako-desktop": {
+    "notes": "Eugeniu Vozoca 出品的原生 Mac 应用 Hako：在一个侧栏列出并控制本机已在运行的编码 Agent（Claude Code、Codex 等），Agent 跑在 herdr，经 Tailscale 或 SSH 连接。可比已收录的 T3 Code 多 Agent 桌面控制面，故记 AI 编程。本条仅 macOS GUI。官网 hako.md：现已提供 iPhone/iPad/Mac；Android、Windows、Linux 官方写「very soon」，不写入 platforms。iOS/iPadOS/Watch 为移动端，目录不含。需要 macOS 15 或更高，Apple silicon 或 Intel。免费、无需账户。Linux 上的 Hako Bridge 只是让 Linux 主机上的 agent 出现在 Mac/手机列表中，不是 Linux GUI，不写入 platforms。Product Hunt 文案称 Open-source，但 github.com/devjah/hako 404，亦未找到其他官方公开仓库，故不写 GitHub、不写入 open-source.json。官网、App Store（仅移动端「Hako for Herdr Mobile Terminal」）均未给出可核验的 Mac 桌面版本号，不虚构 version。未找到可核验官方纯矢量 SVG（hako.md/favicon.svg 无可用矢量内容），icon 留空。官网资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://hako.md/",
+        "title": "Hako 官网：Mac / iPhone / iPad；无需账户；Windows/Linux/Android very soon"
+      },
+      {
+        "url": "https://hako.md/about/",
+        "title": "About：Maker Eugeniu Vozoca；原生 Mac 侧栏控制 herdr 中的 agents"
+      },
+      {
+        "url": "https://hako.md/support/",
+        "title": "Support：Hako for Mac 需 macOS 15+；安装 herdr"
+      },
+      {
+        "url": "https://www.producthunt.com/products/hako",
+        "title": "Product Hunt：Hako 产品页（2026-11-17 前后上线）"
+      }
+    ],
+    "verified_at": "2026-11-18"
   }
 }
