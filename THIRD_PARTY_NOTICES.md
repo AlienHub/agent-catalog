@@ -377,3 +377,11 @@ PNG 原样保存，未改后缀、未矢量化。官方站点素材以其来源�
 | `assets/icons/chat-with-work.svg` | [Chat with Work 官网 `logo.svg`](https://chatwithwork.com/logo.svg) | `63cc29d8bc93b53b07e8456f01690f1aed1f031d0ea9205f8b2efdbb2d1317cd` |
 | `assets/icons/mingent.svg` | [MinGent 官网 `img/mingent.svg`](https://mingent.org/img/mingent.svg) | `12a6d3ce86238064530b057c0a0cac207bdfa935e45fc3cb71e42ca9636ac52e` |
 | `assets/icons/pi-bot.svg` | [Pi Bot 官网 `assets/logo.svg`](https://pibot.space/assets/logo.svg) | `5ae679362cab352f79d803063b4d5e8c5d020271cd5451dabac142c376363fbf` |
+
+## v0.57 Logo 收录（2026-11-25）
+
+本批 SVG 均原样保存，未重绘、未改后缀。官方仓库素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。Fleetify `TRADEMARKS.md` 写明名称与 logo 不在 Apache-2.0 范围内。Granular 官网 favicon 为 PNG，未找到可核验官方纯矢量 SVG，保持空 `icon`。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/fleetify.svg` | [fleetifydev/fleetify `public/logo-mark-dark.svg`](https://raw.githubusercontent.com/fleetifydev/fleetify/main/public/logo-mark-dark.svg) | `7e30321c521d2f49d0986cb3811a2628c215f7794bb2fd8789a00d31cee0f8a4` |

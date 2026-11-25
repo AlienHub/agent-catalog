@@ -14338,5 +14338,81 @@
       }
     ],
     "verified_at": "2026-11-24"
+  },
+  "granular-desktop": {
+    "notes": "Granular 出品的本机优先桌面 AI 工作区：在真实终端中并行运行 Claude Code、Codex、Gemini、Cursor、Grok、GitHub Copilot、OpenCode、Pi 等，并带预览与 boss/worker。本条仅桌面 GUI。官网下载页提供 macOS Apple Silicon / Intel .dmg，以及 Windows 10/11 64-bit beta .exe；Linux 官网标明 planned，不写入 platforms。官方 changelog 最新 **v0.7.4**（20 November 2026）；首页营销 UI 截图中的 v0.7.1 为 3 November 2026 旧版，不得当作当前版本。Telegram 电话桥是远程查看通道，不是目录形态，不单列。Granular 账户与 published links 不是独立最终用户 Agent Web 应用，不单列。服务条款与隐私政策称 Granular（\"we\", \"us\"）及 hello@granular.build，未公布法律实体，vendor 用产品名 Granular，不把博文署名发明成公司。应用本身免费下载，官方定价页另有付费 Pro 与 AI Add-on，见 commercial.json，不记录易变价格。未发现公开应用源码仓，不写入 open-source.json。官网 favicon 为 PNG，未找到可核验官方纯矢量 SVG，icon 留空。官网资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://granular.build/",
+        "title": "Granular 官网：Mac 与 Windows 桌面 AI 工作区"
+      },
+      {
+        "url": "https://granular.build/download/",
+        "title": "官方下载页：macOS .dmg 与 Windows beta .exe；Linux planned"
+      },
+      {
+        "url": "https://granular.build/changelog/",
+        "title": "官方 changelog：最新 v0.7.4（20 November 2026）"
+      },
+      {
+        "url": "https://granular.build/docs/what-is-granular/",
+        "title": "官方文档：桌面应用；Windows 为 beta"
+      },
+      {
+        "url": "https://granular.build/terms/",
+        "title": "服务条款：Granular（we/us）；hello@granular.build；未公布法律实体"
+      },
+      {
+        "url": "https://granular.build/privacy/",
+        "title": "隐私政策：Granular（we/us）；hello@granular.build"
+      },
+      {
+        "url": "https://granular.build/pricing",
+        "title": "官方定价页：Free 与付费 Pro / AI Add-on"
+      }
+    ],
+    "verified_at": "2026-11-25"
+  },
+  "fleetify-desktop": {
+    "notes": "Fleetify 出品的开源桌面命令中心：在同一窗口并排运行 Claude Code、Codex、OpenCode、Cursor 等编码 Agent。本条仅桌面 GUI。官方安装文档：macOS 11+（Apple silicon 与 Intel .dmg）、Windows 10/11 x64 .exe、Linux x86_64 AppImage/.deb/.rpm。GitHub 最新非预发布 **v0.3.2**（发布 2026-11-24T12:20:40Z；资产 2026-11-24T12:17:25Z）。官网 changelog 首个公开版 2026-11-22（离开 private beta，Apache-2.0）。仓库创建于 2026-11-16。条款将 app.fleetify.dev 仪表盘与账户/同步/语音/更新列为云服务，不是独立最终用户 Agent Web 应用，不单列。浏览器 OAuth 登录不是独立 Web 形态。法律页与条款称 Fleetify 及 legal@fleetify.dev，未公布公司名，vendor 用产品名 Fleetify。条款写明 Service 目前免费，不写入 commercial.json。LICENSE 正文为 Apache License 2.0；NOTICE 版权 2026 The Fleetify Authors。Logo 使用官方仓库 public/logo-mark-dark.svg 原样矢量；TRADEMARKS.md 写明名称与 logo 不在 Apache-2.0 范围内，未推定商标许可。官网/仓库/发布页资料核验，未做安装、登录、运行或区域可用性测试。",
+    "sources": [
+      {
+        "url": "https://fleetify.dev/",
+        "title": "Fleetify 官网：编码 Agent 命令中心"
+      },
+      {
+        "url": "https://fleetify.dev/docs/installation",
+        "title": "官方安装文档：macOS 11+ / Windows 10–11 / Linux x86_64"
+      },
+      {
+        "url": "https://fleetify.dev/changelog",
+        "title": "官方 changelog：2026-11-22 公开；后续桌面修订"
+      },
+      {
+        "url": "https://github.com/fleetifydev/fleetify",
+        "title": "官方仓库 fleetifydev/fleetify；homepage https://fleetify.dev"
+      },
+      {
+        "url": "https://github.com/fleetifydev/fleetify/releases/tag/v0.3.2",
+        "title": "GitHub 非预发布 v0.3.2（2026-11-24T12:20:40Z）"
+      },
+      {
+        "url": "https://github.com/fleetifydev/fleetify/blob/main/LICENSE",
+        "title": "官方 LICENSE 正文：Apache License 2.0"
+      },
+      {
+        "url": "https://fleetify.dev/legal/terms",
+        "title": "服务条款：Fleetify；app.fleetify.dev 仪表盘；Service 目前免费"
+      },
+      {
+        "url": "https://fleetify.dev/legal/privacy",
+        "title": "隐私政策：Fleetify；privacy@fleetify.dev；未公布法律实体"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/fleetifydev/fleetify/main/public/logo-mark-dark.svg",
+        "title": "官方仓库 public/logo-mark-dark.svg 产品标"
+      }
+    ],
+    "verified_at": "2026-11-25"
   }
 }

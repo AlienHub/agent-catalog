@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.56（2026-11-24），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.57（2026-11-25），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -870,3 +870,12 @@ Logo：OpenVorld 使用官方仓库 SVG；Tamekoshi 使用官网 favicon.svg；o
 - Pi Bot 桌面端（无公布法律实体，vendor 用产品名）：macOS / Windows / Linux。GitHub **v0.0.3**（2026-11-22）。Apache-2.0。不收录 Android / Runner。
 
 Logo：Chat with Work / MinGent / Pi Bot 使用官方网站纯矢量 SVG；Omi Work 未找到可核验 SVG。
+
+## v0.57 日更（2026-11-25）
+
+新增 2 条应用、2 个产品，目录共 614 条应用、422 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.56 / `main` @ `4b5faad`（#45 已合入）。未改 `schema.json` 与供应商分类。
+
+- Granular 桌面端（Granular）：本机优先 AI 工作区，并行运行 Claude Code / Codex / Gemini 等。官方 changelog **v0.7.4**（2026-11-20）。专有；免费下载，另有付费 Pro / AI Add-on。macOS 正式、Windows 官方 beta。不收录 Linux（planned）、Telegram 电话桥或账户/发布链接 Web。
+- Fleetify 桌面端（Fleetify）：开源编码 Agent 命令中心。GitHub 非预发布 **v0.3.2**（2026-11-24）。Apache-2.0。macOS 11+ / Windows 10–11 / Linux x86_64。app.fleetify.dev 为账户/同步仪表盘，不单列 Web。服务目前免费。
+
+Logo：Fleetify 使用官方仓库 `public/logo-mark-dark.svg`；Granular 无纯矢量 SVG，空 `icon`。
