@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.48（2026-11-12），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.49（2026-11-13），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -789,3 +789,12 @@ Logo：Nod / Linger 使用官方仓库 SVG；Ducter 使用官方 PNG；Mimzie �
 - kwant 桌面端与自托管 Web（Oleksandr Ivanchenko / alexsergivan）：自托管 AI 机器人团队。GitHub **mac-v0.9.0** / **0.9.0**（2026-11-11）。AGPL-3.0。不单列 `kwnt` 服务命令或手机访问。
 
 Logo：Buzz / kwant 使用官方仓库纯矢量 SVG。
+
+## v0.49 Grok Bot 与 YouArt Desktop（2026-11-13）
+
+新增 2 条应用、2 个产品，目录共 581 条应用、400 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.48 / `main` @ `3976b69`（#37 已合入）。未改 `schema.json` 与供应商分类。
+
+- Grok Bot 桌面端（SpaceXSI / vendor_id `xai`）：团队 AI 队友，与已收录 grok.com 聊天助手 `grok` 分产品。官方下载稳定构建 **1.0.3**（macOS / Windows / Linux）。专有。仅 GUI；不单列 Slack/Teams/会议渠道或手机端。
+- YouArt 桌面端（Formative Intelligence Inc.）：创意桌面 Agent，官方下载 **v0.3.20**（macOS / Windows）。专有。仅 GUI；未核验独立 Web 应用形态。
+
+Logo：Grok Bot 使用 Lobe Icons `grokbot.svg`；YouArt 官方 SVG 使用条款限制再分发，空 `icon`。

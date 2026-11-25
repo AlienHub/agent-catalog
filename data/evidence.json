@@ -13180,5 +13180,73 @@
       }
     ],
     "verified_at": "2026-11-12"
+  },
+  "grok-bot-desktop": {
+    "notes": "SpaceXSI（官网与消费者条款使用 SpaceX Super Intelligence LLC / SpaceXSI；about 时间线 2026-02-02 记 xAI joins SpaceX）出品的团队 AI 队友 Grok Bot，与已收录 grok.com 聊天助手 `grok` 不是同一产品，本条不改该记录。本条仅桌面 GUI。官方产品页 x.ai/bot；新闻稿宣布 **Grok Bot 1.0** 公开上市（相对 beta）。官方下载页 cursor.com/download/bot 当前稳定构建 **1.0.3**：macOS Apple silicon / Intel DMG、Windows x64 / ARM64 Setup.exe、Linux x64 / ARM64 deb / rpm / AppImage。changelog 页当时列出 Latest v1.0.1（2026-11-11，Also includes 1.0.0）；以下载页实际文件名为准。文档写明 macOS（Apple silicon 与 Intel）、Windows（x64 与 Arm64）、Linux（x64 与 Arm64）。Slack / Microsoft Teams / Google Meet / Zoom / X 为渠道，不单列。iPhone / Android 按目录范围不收录。x.ai/bot 与 docs.x.ai 为产品与文档站，未核验独立托管 Web 应用，不单列 Web。登录使用 Cursor 账户 / Cursor SSO，亦可 Sign in with Grok；下载在 cursor.com / downloads.cursor.com，不把 Cursor 写成产品厂商。无公开应用源码仓，不写入 open-source.json。Logo 使用 Lobe Icons grokbot.svg（MIT），不复用已有 grok.svg，亦未收录 SpaceXSI 品牌指南官方包（商标使用条款，不视为可再分发）。官网/文档/下载页资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://x.ai/bot",
+        "title": "Grok Bot 官方产品页：桌面与手机下载入口；Slack 渠道与 Cursor SSO FAQ"
+      },
+      {
+        "url": "https://x.ai/news/grok-bot-1-0",
+        "title": "官方新闻：Introducing Grok Bot 1.0"
+      },
+      {
+        "url": "https://cursor.com/download/bot",
+        "title": "官方下载页：macOS / Windows / Linux；当前稳定构建 1.0.3"
+      },
+      {
+        "url": "https://docs.x.ai/grok-bot/get-started",
+        "title": "官方文档：安装桌面应用、支持系统、Cursor 登录与计划"
+      },
+      {
+        "url": "https://x.ai/changelog/bot",
+        "title": "Grok Bot changelog：当时 Latest v1.0.1（2026-11-11）"
+      },
+      {
+        "url": "https://x.ai/legal/terms-of-service",
+        "title": "消费者条款：运营主体 SpaceX Super Intelligence LLC（SpaceXSI）"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/grokbot.svg",
+        "title": "Lobe Icons grokbot.svg 产品图标"
+      },
+      {
+        "url": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+        "title": "LobeHub Icons MIT license; trademarks belong to their respective owners"
+      }
+    ],
+    "verified_at": "2026-11-13"
+  },
+  "youart-desktop": {
+    "notes": "Formative Intelligence Inc.（隐私政策与服务条款：特拉华州公司，运营 YouArt）出品的创意桌面 Agent YouArt Desktop。本条仅桌面 GUI。官方下载页 https://youart.ai/download 当前 **v0.3.20**：macOS Apple Silicon、macOS Intel、Windows x64（未列出 Linux）。Product Hunt 2026-11-12 以 “YouArt Desktop App / Codex for creative team” 发布；官方/PH 文案称 computer use 可操作 After Effects、CapCut、Blender。官网 youart.ai 主要为营销与模型介绍；探测 /app、/studio、/login、app.youart.ai 等未得到可核验独立托管 Web 应用入口，不单列 Web。GitHub org youart-open-source 现为提示词/素材仓（awesome-gpt-image-2-5-prompts），不是桌面应用源码，不写入 open-source.json。官方品牌指南提供 YouArt-mark-on-dark.svg / YouArt-mark-on-light.svg，但 Usage rights 限制再分发（approved creator/campaign use；do not resell or redistribute as standalone downloads），故保持空 icon。官网/下载页/隐私政策资料核验，未做安装、登录、运行或区域可用性测试。官方品牌资产归权利人，未推定商标许可。",
+    "sources": [
+      {
+        "url": "https://youart.ai/",
+        "title": "YouArt 官网"
+      },
+      {
+        "url": "https://youart.ai/download",
+        "title": "官方桌面下载：macOS Apple Silicon / Intel 与 Windows，v0.3.20"
+      },
+      {
+        "url": "https://youart.ai/privacy-policy",
+        "title": "隐私政策：运营主体 Formative Intelligence Inc.；YouArt Desktop 本地文件夹访问"
+      },
+      {
+        "url": "https://youart.ai/terms-of-service",
+        "title": "服务条款：YouArt is a product of Formative Intelligence Inc."
+      },
+      {
+        "url": "https://youart.ai/brand-guidelines",
+        "title": "官方品牌指南：SVG 标志存在，但 Usage rights 限制再分发"
+      },
+      {
+        "url": "https://www.producthunt.com/products/youart",
+        "title": "Product Hunt：YouArt Desktop App（2026-11-12）"
+      }
+    ],
+    "verified_at": "2026-11-13"
   }
 }
