@@ -1690,9 +1690,10 @@ test('2026-11-16 daily additions keep distinct products and verified forms', asy
   assert.equal(commercial['timon-desktop'], undefined);
   assert.notEqual(timonDesk.product_id, catalog.getApp('pilotdeck-desktop').product_id);
   assert.notEqual(timonDesk.product_id, catalog.getApp('agency-orchestrator-desktop').product_id);
+  assert.notEqual(rakazoDesk.product_id, catalog.getApp('grok-bot-desktop').product_id);
 
-  assert.equal(catalog.getApp('grok-bot-desktop'), undefined);
-  assert.equal(catalog.getApp('youart-desktop'), undefined);
+  assert(catalog.getApp('grok-bot-desktop'));
+  assert(catalog.getApp('youart-desktop'));
   assert.equal(catalog.getApp('qorqbot-desktop'), undefined);
 });
 
