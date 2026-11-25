@@ -358,3 +358,12 @@ PNG 原样保存，未改后缀、未矢量化。官方站点素材以其来源�
 | --- | --- | --- |
 | `assets/icons/fieldwork-code.svg` | [Fieldwork 官网 `f-dark.svg`](https://fieldwork.ai/f-dark.svg) | `bf81646567205738894e165f88d18092e7b95495fac6c15bccfe14f5e52e54f6` |
 | `assets/icons/testsprite.svg` | [TestSprite 官网 `favicon.svg`](https://www.testsprite.com/favicon.svg) | `afcc9e606444622175ca11a82d04a566f09b65c3f2514f6198d804d08520525d` |
+
+## v0.55 Logo 收录（2026-11-23）
+
+本批 SVG 均原样保存，未重绘、未改后缀。官方仓库 / 官网素材以其来源与权利人规则为准，仓库软件许可证不自动授予商标或背书授权。oovi 与 Omi CLI 未找到可核验官方/Lobe/Simple Icons/svgl 纯矢量 SVG，保持空 `icon`。OpenVorld 随附原始 [MIT 文本](./licenses/openvorld-mit.txt)。
+
+| 文件 | 来源 | SHA-256 |
+| --- | --- | --- |
+| `assets/icons/openvorld.svg` | [DigitalDreams-Lab/OpenVorld `desktop/assets/icon.svg`](https://raw.githubusercontent.com/DigitalDreams-Lab/OpenVorld/main/desktop/assets/icon.svg) | `e0973fead06906b186dfab80a57b1ef84a7d4f7b299499ad1f8fccea4c1d557e` |
+| `assets/icons/tamekoshi.svg` | [Tamekoshi 官网 `favicon.svg`](https://www.tamekoshi.com/favicon.svg) | `63fe4163011123ae14371e731cf10df4d69d27b96bea6705220225d3ea943eab` |

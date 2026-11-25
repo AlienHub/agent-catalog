@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.54（2026-11-20），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.55（2026-11-23），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -848,3 +848,14 @@ Logo：三条产品均使用官方站点纯矢量 SVG（dusk bot kit.svg / Toone
 - Tecla 桌面端（Pipeless, Inc）：官方 Mac 安装包 **0.1.5**。无公开 GitHub。无独立 Web 应用主机。
 
 Logo：Fieldwork Code / TestSprite 使用官网纯矢量 SVG；Gemini / Vibe 复用目录已有标；Tecla 无核验 SVG，空 `icon`。
+
+## v0.55 oovi、Omi CLI、OpenVorld 与 Tamekoshi（2026-11-23）
+
+新增 5 条应用、4 个产品，目录共 607 条应用、416 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.54 / `main` @ `615fbf1`（#43 已合入）。未改 `schema.json` 与供应商分类。
+
+- oovi 桌面端（Conuron）：本机通用任务 Agent 团队。官方 changelog / 安装包 **0.15.3**（2026-11-22）。仅已核验 Windows；Mac/Linux 下载核验时 unavailable。专有。
+- Omi CLI 与 IDE 插件（SahooTek）：终端编码 Agent。官方 **0.5.0**（2026-11-21）；VSIX `omi-cli-0.4.0.vsix`。macOS/Linux（Windows via WSL 不写入）。专有 All rights reserved。
+- OpenVorld 桌面端：local-first Agent harness。GitHub **v0.19.5**（2026-11-20）。MIT。
+- Tamekoshi 桌面端（kumanaya）：官方 **0.1.2** beta。Windows 与 Linux；macOS Soon 不写入。尚未开源。
+
+Logo：OpenVorld 使用官方仓库 SVG；Tamekoshi 使用官网 favicon.svg；oovi / Omi CLI 无纯矢量 SVG，空 `icon`。
