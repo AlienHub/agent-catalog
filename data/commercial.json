@@ -2118,5 +2118,49 @@
         "title": "YouArt 官方定价：付费档与试用说明"
       }
     ]
+  },
+  "rakazo-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-16",
+    "notes": "官方定价页提供托管付费档（自备模型或 Rakazo credits）与自托管免费；亦有企业能力说明。按已核验官方付费服务记录，不记录易变价格；开源许可证独立保留。此标签不表示桌面客户端必须付费。",
+    "sources": [
+      {
+        "url": "https://rakazo.com/pricing",
+        "title": "Rakazo 官方定价：自托管免费与托管付费档"
+      }
+    ]
+  },
+  "rakazo-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-16",
+    "notes": "官方定价页提供托管付费档与自托管免费。按已核验官方付费服务记录，不记录易变价格；开源许可证独立保留。此标签不表示必须使用托管档。",
+    "sources": [
+      {
+        "url": "https://rakazo.com/pricing",
+        "title": "Rakazo 官方定价：自托管免费与托管付费档"
+      }
+    ]
+  },
+  "caveman-code-desktop": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-16",
+    "notes": "官方定价页：Caveman Code 可在自备密钥/登录下免费使用，另有按月 credits 的付费档。按已核验官方付费服务记录，不记录易变价格。此标签不表示桌面客户端必须付费。Caveman Cloud 套餐不是本产品。",
+    "sources": [
+      {
+        "url": "https://caveman.so/pricing",
+        "title": "Caveman 官方定价：Caveman Code 免费与付费 credits 档"
+      }
+    ]
+  },
+  "caveman-code-web": {
+    "offer": "paid-service",
+    "verified_at": "2026-11-16",
+    "notes": "官方定价页：Caveman Code 可在自备密钥/登录下免费使用，另有按月 credits 的付费档。按已核验官方付费服务记录，不记录易变价格。此标签不表示 Web 必须付费。Caveman Cloud 套餐不是本产品。",
+    "sources": [
+      {
+        "url": "https://caveman.so/pricing",
+        "title": "Caveman 官方定价：Caveman Code 免费与付费 credits 档"
+      }
+    ]
   }
 }

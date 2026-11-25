@@ -4918,5 +4918,105 @@
       }
     ],
     "classification": "application"
+  },
+  "rakazo-desktop": {
+    "repository_url": "https://github.com/elie222/rakazo",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/elie222/rakazo/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-16",
+      "github_archived": false,
+      "last_push_at": "2026-11-16T01:24:28Z"
+    },
+    "notes": "本次核验上游主分支 LICENSE 为 Apache-2.0（Copyright 2026 Rakazo contributors；GitHub SPDX Apache-2.0）。结论仅限已核查的 elie222/rakazo 桌面/服务源码，不外推所连接的 Claude / ChatGPT / OpenRouter 或第三方沙箱。维护状态参考公开非预发布 v0.11.0，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/elie222/rakazo/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://github.com/elie222/rakazo",
+        "title": "官方仓库与桌面发行"
+      }
+    ],
+    "classification": "application"
+  },
+  "rakazo-web": {
+    "repository_url": "https://github.com/elie222/rakazo",
+    "source_model": "open-source",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/elie222/rakazo/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-16",
+      "github_archived": false,
+      "last_push_at": "2026-11-16T01:24:28Z"
+    },
+    "notes": "与 rakazo-desktop 同一 Apache-2.0 仓库的托管/自托管 Web UI。结论仅限已核查的 elie222/rakazo 源码，不外推所连接的第三方模型或手机客户端。维护状态参考公开非预发布 v0.11.0，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/elie222/rakazo/blob/main/LICENSE",
+        "title": "官方 LICENSE：Apache-2.0"
+      },
+      {
+        "url": "https://github.com/elie222/rakazo",
+        "title": "官方仓库"
+      }
+    ],
+    "classification": "application"
+  },
+  "timon-desktop": {
+    "repository_url": "https://github.com/ai-timon/timon",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/ai-timon/timon/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-16",
+      "github_archived": false,
+      "last_push_at": "2026-11-15T20:37:21Z"
+    },
+    "notes": "本次核验上游主分支 LICENSE 为 GNU AGPL v3（GitHub SPDX AGPL-3.0；LICENSING.md 写 AGPL-3.0-only，另对插件有额外许可）。结论仅限已核查的 ai-timon/timon 桌面/守护进程源码，不外推 packages/sdk 与 examples 的 MIT，也不外推所连接的 Claude Code / Codex 等第三方 CLI。维护状态参考公开非预发布 v0.1.8，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/ai-timon/timon/blob/main/LICENSE",
+        "title": "官方 LICENSE：AGPL-3.0"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon/blob/main/LICENSING.md",
+        "title": "LICENSING.md：应用 AGPL-3.0-only；SDK/模板 MIT"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon",
+        "title": "官方仓库与桌面发行"
+      }
+    ],
+    "classification": "application"
+  },
+  "timon-web": {
+    "repository_url": "https://github.com/ai-timon/timon",
+    "source_model": "open-source",
+    "license": "AGPL-3.0",
+    "license_url": "https://github.com/ai-timon/timon/blob/main/LICENSE",
+    "maintenance": {
+      "status": "maintained",
+      "checked_at": "2026-11-16",
+      "github_archived": false,
+      "last_push_at": "2026-11-15T20:37:21Z"
+    },
+    "notes": "与 timon-desktop 同一 AGPL-3.0 仓库的本机/自托管 Web UI。结论仅限已核查的 ai-timon/timon 源码，不外推所连接的第三方 CLI 或手机浏览器访问。维护状态参考公开非预发布 v0.1.8，非仅依据 push 时间。未运行或安装。",
+    "sources": [
+      {
+        "url": "https://github.com/ai-timon/timon/blob/main/LICENSE",
+        "title": "官方 LICENSE：AGPL-3.0"
+      },
+      {
+        "url": "https://github.com/ai-timon/timon",
+        "title": "官方仓库"
+      }
+    ],
+    "classification": "application"
   }
 }

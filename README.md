@@ -178,7 +178,7 @@ import dataset from '@alienhub/agent-atlas/dataset.json' with { type: 'json' };
 
 ## 数据含义与限制
 
-当前导入快照为 v0.49（2026-11-13），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
+当前导入快照为 v0.50（2026-11-16），SDK 包版本独立演进。规范文件位于 `data/`，图标位于 `assets/icons/`；`data/metadata.json` 记录快照版本、日期、源提交、核验范围及 `provider_count`。`website/` 中不维护第二份数据。
 
 - `id` 标识应用的具体条目、形态或版本；已有 ID 应保持稳定
 - `product_id` 关联同一产品的不同条目，`vendor_id` 关联供应商，不能用条目数量冒充独立产品数量
@@ -798,3 +798,13 @@ Logo：Buzz / kwant 使用官方仓库纯矢量 SVG。
 - YouArt 桌面端（Formative Intelligence Inc.）：创意桌面 Agent，官方下载 **v0.3.20**（macOS / Windows）。专有。仅 GUI；未核验独立 Web 应用形态。
 
 Logo：Grok Bot 使用 Lobe Icons `grokbot.svg`；YouArt 官方 SVG 使用条款限制再分发，空 `icon`。
+
+## v0.50 Rakazo、Caveman Code 与 Timon（2026-11-16）
+
+新增 6 条应用、3 个产品，目录共 587 条应用、403 个产品。主 Schema 与已有稳定 ID 不变。相对 v0.49 / `main` @ `ec92302`（#38 已合入）。未改 `schema.json` 与供应商分类。
+
+- Rakazo 桌面端与托管 Web（Inbox Zero Inc.）：开源 Grok Bot 替代品。GitHub 非预发布 **v0.11.0**（2026-11-12）。Apache-2.0。不单列 IM 渠道或 iOS/Android。
+- Caveman Code 桌面端与托管 Web（Caveman Labs, Inc.）：编程 Agent 应用。官方 latest-mac.yml **0.1.5**。专有；不把旧开源 Caveman CLI 当作本产品。仅 macOS 桌面；Windows / 终端应用未发布。
+- Timon 桌面端与自托管 Web（PUBLIKO, SASU）：本机编程 Agent 工作站。GitHub 非预发布 **v0.1.8**（2026-11-15）。AGPL-3.0。不单列第三方 CLI、`timon` 诊断命令或移动 PWA。
+
+Logo：三款均无适合再分发的方形官方 SVG，空 `icon`。
